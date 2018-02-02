@@ -1,0 +1,296 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="CTINRequestList.aspx.cs" Inherits="TAAPs.Registration.CTINRequestList" %>
+
+<%@ Register Assembly="DevExpress.Web.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+
+
+
+
+
+
+
+
+
+<%@ Register Assembly="DevExpress.XtraReports.v15.2.Web, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.XtraReports.Web" TagPrefix="dx" %>
+
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
+
+    <div style="height: 100%">
+        <dx:ASPxCallbackPanel ID="ASPxCallbackPanel1" runat="server" Width="100%" ClientInstanceName="panel" OnCallback="ASPxCallbackPanel1_Callback">
+            <PanelCollection>
+                <dx:PanelContent runat="server">
+                    <dx:ASPxSplitter ID="ASPxSplitter1" runat="server" Height="100%" Width="100%">
+                        <Panes>
+                            <dx:SplitterPane AutoHeight="True">
+                                <ContentCollection>
+                                    <dx:SplitterContentControl runat="server">
+                                        <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="edsTINRequestList" KeyFieldName="RequestId" ClientInstanceName="mastergrid">
+                                            <ClientSideEvents SelectionChanged="function(s, e) {
+	panel.PerformCallback()
+}" />
+                                            <Columns>
+                                                <dx:GridViewCommandColumn ShowClearFilterButton="True" VisibleIndex="1" SelectAllCheckboxMode="Page" ShowSelectCheckbox="True">
+                                                </dx:GridViewCommandColumn>
+                                                <dx:GridViewDataTextColumn FieldName="RequestId" ReadOnly="True" VisibleIndex="2" Width="80px">
+                                                </dx:GridViewDataTextColumn>
+                                                <dx:GridViewDataTextColumn FieldName="RCNo" VisibleIndex="3" Width="80px">
+                                                </dx:GridViewDataTextColumn>
+                                                <dx:GridViewDataTextColumn FieldName="CompanyName" VisibleIndex="4">
+                                                </dx:GridViewDataTextColumn>
+                                                <dx:GridViewDataDateColumn FieldName="DateOfIncorporation" VisibleIndex="11" Visible="False">
+                                                    <PropertiesDateEdit DisplayFormatString="dd-MMM-yyyy">
+                                                    </PropertiesDateEdit>
+                                                </dx:GridViewDataDateColumn>
+                                                <dx:GridViewDataTextColumn FieldName="CompanyType" VisibleIndex="5" Visible="False">
+                                                </dx:GridViewDataTextColumn>
+                                                <dx:GridViewDataDateColumn FieldName="CreateDate" VisibleIndex="22">
+                                                    <PropertiesDateEdit DisplayFormatString="dd-MMM-yyyy hh:mm tt">
+                                                    </PropertiesDateEdit>
+                                                </dx:GridViewDataDateColumn>
+                                                <dx:GridViewDataDateColumn FieldName="DateOfCommencement" Visible="False" VisibleIndex="25">
+                                                </dx:GridViewDataDateColumn>
+                                                <dx:GridViewDataTextColumn FieldName="FinancialYearBegin" Visible="False" VisibleIndex="26">
+                                                </dx:GridViewDataTextColumn>
+                                                <dx:GridViewDataTextColumn FieldName="FinancialYearEnd" Visible="False" VisibleIndex="27">
+                                                </dx:GridViewDataTextColumn>
+                                                <dx:GridViewDataTextColumn FieldName="BusinessStreetNo" Visible="False" VisibleIndex="28">
+                                                </dx:GridViewDataTextColumn>
+                                                <dx:GridViewDataTextColumn FieldName="BusinessStreet" Visible="False" VisibleIndex="29">
+                                                </dx:GridViewDataTextColumn>
+                                                <dx:GridViewDataTextColumn FieldName="BusinessCity" Visible="False" VisibleIndex="30">
+                                                </dx:GridViewDataTextColumn>
+                                                <dx:GridViewDataTextColumn FieldName="Phone1" Visible="False" VisibleIndex="31">
+                                                </dx:GridViewDataTextColumn>
+                                                <dx:GridViewDataTextColumn FieldName="Phone2" Visible="False" VisibleIndex="32">
+                                                </dx:GridViewDataTextColumn>
+                                                <dx:GridViewDataTextColumn FieldName="Phone3" Visible="False" VisibleIndex="33">
+                                                </dx:GridViewDataTextColumn>
+                                                <dx:GridViewDataTextColumn FieldName="Email" Visible="False" VisibleIndex="34">
+                                                </dx:GridViewDataTextColumn>
+                                                <dx:GridViewDataTextColumn Caption="Business Lga" FieldName="LGA.LGAName" Visible="False" VisibleIndex="38">
+                                                </dx:GridViewDataTextColumn>
+                                                <dx:GridViewDataComboBoxColumn Caption="Business Line" FieldName="BusinessLineId" VisibleIndex="7">
+                                                    <PropertiesComboBox DataSourceID="edsBusinessLines" TextField="BusinessLineName" ValueField="BusinessLineId">
+                                                    </PropertiesComboBox>
+                                                </dx:GridViewDataComboBoxColumn>
+                                                <dx:GridViewDataTextColumn Caption="Business State" FieldName="State.StateName" Visible="False" VisibleIndex="37">
+                                                </dx:GridViewDataTextColumn>
+                                                <dx:GridViewDataTextColumn Caption="Tax Office" FieldName="TaxOffice.TaxOfficeName" Visible="False" VisibleIndex="10">
+                                                </dx:GridViewDataTextColumn>
+                                            </Columns>
+                                            <SettingsBehavior AllowSelectByRowClick="True" AllowSelectSingleRowOnly="True" />
+                                            <SettingsEditing Mode="PopupEditForm">
+                                            </SettingsEditing>
+                                            <Settings ShowFilterRow="True" />
+                                            <SettingsDataSecurity AllowDelete="False" AllowInsert="False" AllowEdit="False" />
+                                        </dx:ASPxGridView>
+                                    </dx:SplitterContentControl>
+                                </ContentCollection>
+                            </dx:SplitterPane>
+                            <dx:SplitterPane AutoHeight="True">
+                                <ContentCollection>
+                                    <dx:SplitterContentControl runat="server">
+                                        <dx:ASPxFormLayout ID="ASPxFormLayout1" runat="server" ClientInstanceName="formlayout" ColCount="2" DataSourceID="edsTINRequest" Width="100%">
+                                            <Items>
+                                                <dx:LayoutGroup Caption="Company Information" ColCount="4" ColSpan="2">
+                                                    <Items>
+                                                        <dx:LayoutItem Caption="Request Id" FieldName="RequestId">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxTextBox ID="ASPxTextBoxRequestId" runat="server" ReadOnly="True" Width="100%">
+                                                                    </dx:ASPxTextBox>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                        <dx:LayoutItem ColSpan="3" FieldName="CompanyName" RequiredMarkDisplayMode="Required">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxTextBox ID="aspxtxtCompanyName" runat="server" ClientInstanceName="textCompanyName" ReadOnly="True" Width="100%">
+                                                                    </dx:ASPxTextBox>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                        <dx:LayoutItem FieldName="CompanyType">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxTextBox ID="ASPxFormLayout1_E1" runat="server" ReadOnly="True" Width="100%">
+                                                                    </dx:ASPxTextBox>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                        <dx:LayoutItem FieldName="RCNo" RequiredMarkDisplayMode="Required">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxTextBox ID="ASPxTextBoxRCNo" runat="server" Width="100%" ReadOnly="True">
+                                                                    </dx:ASPxTextBox>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                        <dx:LayoutItem Caption="Business Line" ColSpan="2" FieldName="BusinessLine.BusinessLineName">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxTextBox ID="ASPxFormLayout1_E4" runat="server" Width="100%" ReadOnly="True">
+                                                                    </dx:ASPxTextBox>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                        <dx:LayoutItem FieldName="DateOfIncorporation">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxTextBox ID="ASPxFormLayout1_E9" runat="server" Width="100%" ReadOnly="True">
+                                                                    </dx:ASPxTextBox>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                        <dx:LayoutItem FieldName="DateOfCommencement">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxTextBox ID="ASPxFormLayout1_E10" runat="server" Width="100%" ReadOnly="True">
+                                                                    </dx:ASPxTextBox>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                        <dx:LayoutItem FieldName="FinancialYearBegin">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxTextBox ID="ASPxFormLayout1_E2" runat="server" Width="100%" ReadOnly="True">
+                                                                    </dx:ASPxTextBox>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                        <dx:LayoutItem FieldName="FinancialYearEnd">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxTextBox ID="ASPxFormLayout1_E3" runat="server" Width="100%" ReadOnly="True">
+                                                                    </dx:ASPxTextBox>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                    </Items>
+                                                </dx:LayoutGroup>
+                                                <dx:LayoutGroup Caption="Address" ColCount="2" Width="50%">
+                                                    <Items>
+                                                        <dx:LayoutItem FieldName="BusinessStreetNo" RequiredMarkDisplayMode="Required">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxTextBox ID="ASPxFormLayout1_E20" runat="server" Width="100%" ReadOnly="True">
+                                                                    </dx:ASPxTextBox>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                        <dx:LayoutItem FieldName="BusinessCity">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxTextBox ID="ASPxFormLayout1_E21" runat="server" Width="100%" ReadOnly="True">
+                                                                    </dx:ASPxTextBox>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                        <dx:LayoutItem Caption="Street" ColSpan="2" FieldName="BusinessStreet">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxTextBox ID="ASPxTextBox2" runat="server" EnableFocusedStyle="False" Width="100%" ReadOnly="True">
+                                                                    </dx:ASPxTextBox>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                        <dx:LayoutItem Caption="Business State" FieldName="State.StateName">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxTextBox ID="ASPxFormLayout1_E5" runat="server" Width="100%" ReadOnly="True">
+                                                                    </dx:ASPxTextBox>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                        <dx:LayoutItem Caption="Lga" FieldName="LGA.LGAName">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxTextBox ID="ASPxFormLayout1_E6" runat="server" Width="100%" ReadOnly="True">
+                                                                    </dx:ASPxTextBox>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                    </Items>
+                                                </dx:LayoutGroup>
+                                                <dx:LayoutGroup Caption="Contact Information" ColCount="2" Width="50%">
+                                                    <Items>
+                                                        <dx:LayoutItem FieldName="Phone1" RequiredMarkDisplayMode="Required">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxTextBox ID="ASPxFormLayout1_E22" runat="server" Width="100%" ReadOnly="True">
+                                                                    </dx:ASPxTextBox>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                        <dx:LayoutItem FieldName="Phone2">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxTextBox ID="ASPxFormLayout1_E23" runat="server" Width="100%" ReadOnly="True">
+                                                                    </dx:ASPxTextBox>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                        <dx:LayoutItem ColSpan="2" FieldName="Email">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxTextBox ID="ASPxFormLayout1_E24" runat="server" Width="100%" ReadOnly="True">
+                                                                    </dx:ASPxTextBox>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                        <dx:LayoutItem Caption="Tax Office" ColSpan="2" FieldName="TaxOffice.TaxOfficeName">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxTextBox ID="ASPxFormLayout1_E7" runat="server" Width="100%" ReadOnly="True">
+                                                                    </dx:ASPxTextBox>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                    </Items>
+                                                </dx:LayoutGroup>
+                                                <dx:LayoutGroup ColSpan="2" HorizontalAlign="Right" ShowCaption="False">
+                                                    <Items>
+                                                        <dx:LayoutItem HorizontalAlign="Center" ShowCaption="False">
+                                                            <LayoutItemNestedControlCollection>
+                                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                                    <dx:ASPxButton ID="ASPxButtonApprove" runat="server" CausesValidation="False" ClientInstanceName="submit" CommandName="New" HorizontalAlign="Center" Text="Register" AutoPostBack="False">
+                                                                        <ClientSideEvents Click="function(s, e) {
+	panel.PerformCallback('Register')
+}" />
+                                                                    </dx:ASPxButton>
+                                                                </dx:LayoutItemNestedControlContainer>
+                                                            </LayoutItemNestedControlCollection>
+                                                        </dx:LayoutItem>
+                                                    </Items>
+                                                </dx:LayoutGroup>
+                                            </Items>
+                                            <SettingsItemCaptions Location="Top" />
+                                        </dx:ASPxFormLayout>
+                                    </dx:SplitterContentControl>
+                                </ContentCollection>
+                            </dx:SplitterPane>
+                        </Panes>
+                    </dx:ASPxSplitter>
+                </dx:PanelContent>
+            </PanelCollection>
+        </dx:ASPxCallbackPanel>
+    </div>
+    <asp:EntityDataSource ID="edsTINRequest" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EntitySetName="CTINRequests" Include="BusinessLine,TaxOffice,LGA,State" Where="it.RequestId == @RequestId" EntityTypeFilter="" Select="">
+        <WhereParameters>
+            <asp:SessionParameter Name="RequestId" SessionField="RequestId" Type="Int32" />
+        </WhereParameters>
+    </asp:EntityDataSource>
+    <asp:EntityDataSource ID="edsBusinessLines" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EntitySetName="BusinessLines" OrderBy="it.BusinessLineName" Select="it.[BusinessLineId], it.[BusinessLineName]">
+    </asp:EntityDataSource>
+
+    <asp:EntityDataSource ID="edsTINRequestList" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EntitySetName="CTINRequests" Include="BusinessLine,TaxOffice,LGA,State" Where="it.TaxOfficeId == @TaxOfficeId">
+        <WhereParameters>
+            <asp:SessionParameter Name="TaxOfficeId" SessionField="TaxOfficeId" Type="String" />
+        </WhereParameters>
+    </asp:EntityDataSource>
+
+
+</asp:Content>

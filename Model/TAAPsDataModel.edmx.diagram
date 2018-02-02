@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ec9e70523ab44bd48a21eb7fcc7b2de4" Name="Diagram1" ZoomLevel="97">
+        <EntityTypeShape EntityType="TAAPsModel.BusinessLineGroup" Width="2" PointX="2.75" PointY="3.125" IsExpanded="false" />
+        <EntityTypeShape EntityType="TAAPsModel.BusinessLine" Width="1.75" PointX="5.5" PointY="3.125" IsExpanded="false" />
+        <AssociationConnector Association="TAAPsModel.FK_BusinessLines_BusinessLineGroups" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="TAAPsModel.ReportCategory" Width="1.5" PointX="0.75" PointY="12.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="TAAPsModel.Report" Width="2.375" PointX="3" PointY="12.5" IsExpanded="false" />
+        <AssociationConnector Association="TAAPsModel.FK_Reports_ReportCategory" />
+        <EntityTypeShape EntityType="TAAPsModel.RevenueCollectorReceipt" Width="2.625" PointX="0.75" PointY="11.125" IsExpanded="false" />
+        <EntityTypeShape EntityType="TAAPsModel.ReceiptPrintHistory" Width="2.375" PointX="8" PointY="9.875" IsExpanded="false" />
+        <AssociationConnector Association="TAAPsModel.FK_ReceiptPrintHistory_RevenueCollectorReceipts" />
+        <EntityTypeShape EntityType="TAAPsModel.WHTCreditNote" Width="3" PointX="4.125" PointY="11.125" IsExpanded="false" />
+        <AssociationConnector Association="TAAPsModel.FK_WHTCreditNotes_RevenueCollectorReceipts" />
+        <EntityTypeShape EntityType="TAAPsModel.Role" Width="2.875" PointX="0.875" PointY="8.75" IsExpanded="false" />
+        <AssociationConnector Association="TAAPsModel.FK_Roles_Roles" />
+        <EntityTypeShape EntityType="TAAPsModel.TaxOfficeRegion" Width="2.75" PointX="2.25" PointY="4.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="TAAPsModel.RevenueTarget" Width="1.875" PointX="8" PointY="14.125" IsExpanded="false" />
+        <EntityTypeShape EntityType="TAAPsModel.CorporateTaxpayer" Width="2.125" PointX="8" PointY="3.125" IsExpanded="false" />
+        <AssociationConnector Association="TAAPsModel.FK_TaxAgents2_BusinessLines" />
+        <EntityTypeShape EntityType="TAAPsModel.UserTransfer" Width="1.5" PointX="4.375" PointY="9.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="TAAPsModel.ITaxpayer" Width="2.625" PointX="4.375" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TAAPsModel.ITaxpayerAssociate" Width="2.625" PointX="11.375" PointY="7.125" IsExpanded="false" />
+        <EntityTypeShape EntityType="TAAPsModel.ITaxpayerBank" Width="2.625" PointX="12.375" PointY="4.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="TAAPsModel.ITaxpayerOtherIncome" Width="2.625" PointX="11.375" PointY="9.375" IsExpanded="false" />
+        <EntityTypeShape EntityType="TAAPsModel.ITaxpayerRepresentative" Width="2.625" PointX="11.375" PointY="6" IsExpanded="false" />
+        <AssociationConnector Association="TAAPsModel.FK_ITaxpayerBanks_ITaxpayer" />
+        <AssociationConnector Association="TAAPsModel.FK_ITaxpayerAssociates_ITaxpayer" />
+        <AssociationConnector Association="TAAPsModel.FK_ITaxpayerOtherIncomes_ITaxpayer" />
+        <AssociationConnector Association="TAAPsModel.FK_ITaxpayerRepresentatives_ITaxpayer" />
+        <AssociationConnector Association="TAAPsModel.FK_ITaxpayer_BusinessLines" />
+        <EntityTypeShape EntityType="TAAPsModel.Bank" Width="2.75" PointX="8.875" PointY="0.75" IsExpanded="false" />
+        <AssociationConnector Association="TAAPsModel.FK_ITaxpayerBanks_Banks" />
+        <EntityTypeShape EntityType="TAAPsModel.ITaxpayerTransfer" Width="2.5" PointX="11.375" PointY="2.75" IsExpanded="false" />
+        <AssociationConnector Association="TAAPsModel.FK_ITaxpayerTransfers_ITaxpayer" />
+        <EntityTypeShape EntityType="TAAPsModel.RegisteredCompany" Width="2.125" PointX="5.125" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TAAPsModel.State" Width="2" PointX="6.375" PointY="5.625" IsExpanded="false" />
+        <EntityTypeShape EntityType="TAAPsModel.LGA" Width="1.5" PointX="3.5" PointY="6" IsExpanded="false" />
+        <AssociationConnector Association="TAAPsModel.FK_LGAs_States" />
+        <EntityTypeShape EntityType="TAAPsModel.TaxOffice" Width="1.5" PointX="5.75" PointY="6.75" IsExpanded="false" />
+        <AssociationConnector Association="TAAPsModel.FK_ITaxpayer_TaxOffices" />
+        <AssociationConnector Association="TAAPsModel.FK_ITaxpayerTransfers_FromTaxOffices" />
+        <AssociationConnector Association="TAAPsModel.FK_ITaxpayerTransfers_ToTaxOffices" />
+        <AssociationConnector Association="TAAPsModel.FK_TaxOffices_LGAs" />
+        <AssociationConnector Association="TAAPsModel.FK_RevenueTargets_TaxOffices" />
+        <AssociationConnector Association="TAAPsModel.FK_TaxOffices_TaxOfficeRegions" />
+        <AssociationConnector Association="TAAPsModel.FK_UserTransfers_FromTaxOffices" />
+        <AssociationConnector Association="TAAPsModel.FK_UserTransfers_ToTaxOffices" />
+        <EntityTypeShape EntityType="TAAPsModel.NotificationSetting" Width="2.5" PointX="12.75" PointY="1.375" IsExpanded="false" />
+        <EntityTypeShape EntityType="TAAPsModel.Tenant" Width="2" PointX="10.875" PointY="10.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="TAAPsModel.CorporateBranch" Width="2.375" PointX="14.875" PointY="6.25" IsExpanded="false" />
+        <AssociationConnector Association="TAAPsModel.FK_TaxAgentBranches2_TaxAgents2" />
+        <AssociationConnector Association="TAAPsModel.FK_TaxAgentBranches2_TaxOffices" />
+        <EntityTypeShape EntityType="TAAPsModel.CorporateTransfer" Width="2.5" PointX="18" PointY="7.75" IsExpanded="false" />
+        <AssociationConnector Association="TAAPsModel.FK_CTransfers_FromTaxOffices" />
+        <AssociationConnector Association="TAAPsModel.FK_CTransfers_TaxAgentBranches2" />
+        <AssociationConnector Association="TAAPsModel.FK_CTransfers_ToTaxOffices" />
+        <EntityTypeShape EntityType="TAAPsModel.User" Width="3" PointX="4.5" PointY="15" IsExpanded="false" />
+        <AssociationConnector Association="TAAPsModel.FK_CTransfers_Users" />
+        <AssociationConnector Association="TAAPsModel.FK_ReceiptPrintHistory_Users" />
+        <AssociationConnector Association="TAAPsModel.FK_Users_Roles" />
+        <AssociationConnector Association="TAAPsModel.FK_TaxAgentBranches2_Users" />
+        <AssociationConnector Association="TAAPsModel.FK_TaxAgents2_Users" />
+        <AssociationConnector Association="TAAPsModel.FK_Users_CreatedBy" />
+        <AssociationConnector Association="TAAPsModel.FK_UserTransfers_Users" />
+        <EntityTypeShape EntityType="TAAPsModel.CAssociate" Width="1.5" PointX="8.75" PointY="6.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="TAAPsModel.CDirector" Width="1.5" PointX="13.75" PointY="10.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="TAAPsModel.CRepresentative" Width="1.5" PointX="10.75" PointY="13.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="TAAPsModel.CTurnover" Width="1.5" PointX="12.75" PointY="13.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="TAAPsModel.CBank" Width="1.5" PointX="10.875" PointY="17.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="TAAPsModel.CShareHolder" Width="1.5" PointX="10.875" PointY="20.375" IsExpanded="false" />
+        <AssociationConnector Association="TAAPsModel.FK_CAssociates_TaxAgents2" />
+        <AssociationConnector Association="TAAPsModel.FK_CBanks_TaxAgents2" />
+        <AssociationConnector Association="TAAPsModel.FK_CDirectors_TaxAgents2" />
+        <AssociationConnector Association="TAAPsModel.FK_CRepresentatives_TaxAgents2" />
+        <AssociationConnector Association="TAAPsModel.FK_CShareHolders_TaxAgents2" />
+        <AssociationConnector Association="TAAPsModel.FK_CTurnovers_TaxAgents2" />
+        <AssociationConnector Association="TAAPsModel.FK_CAssociates_Users" />
+        <AssociationConnector Association="TAAPsModel.FK_CBanks_Users" />
+        <AssociationConnector Association="TAAPsModel.FK_CDirectors_Users" />
+        <AssociationConnector Association="TAAPsModel.FK_CRepresentatives_Users" />
+        <AssociationConnector Association="TAAPsModel.FK_CShareHolders_Users" />
+        <AssociationConnector Association="TAAPsModel.FK_CTurnovers_Users" />
+        <AssociationConnector Association="TAAPsModel.FK_CBanks_Banks" />
+        <EntityTypeShape EntityType="TAAPsModel.Resource" Width="2.875" PointX="0.5" PointY="14.75" IsExpanded="false" />
+        <AssociationConnector Association="TAAPsModel.FK_Resources_Parent" />
+        <EntityTypeShape EntityType="TAAPsModel.RoleResource" Width="2.875" PointX="0.5" PointY="18" IsExpanded="false" />
+        <AssociationConnector Association="TAAPsModel.FK_RoleResources_Resources" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="TAAPsModel.FK_RoleResources_Roles" />
+        <EntityTypeShape EntityType="TAAPsModel.CTINRequest" Width="2.625" PointX="16.125" PointY="0.75" />
+        <AssociationConnector Association="TAAPsModel.FK_CTINRequests_BusinessLines" />
+        <AssociationConnector Association="TAAPsModel.FK_CTINRequests_LGAs" />
+        <AssociationConnector Association="TAAPsModel.FK_CTINRequests_States" />
+        <AssociationConnector Association="TAAPsModel.FK_CTINRequests_TaxOffices" />
+        <AssociationConnector Association="TAAPsModel.FK_Users_TaxOfficeRegions" />
+        <AssociationConnector Association="TAAPsModel.FK_Users_TaxOffices" />
+        <EntityTypeShape EntityType="TAAPsModel.TaxOfficeType" Width="1.5" PointX="13.375" PointY="15.875" />
+        <AssociationConnector Association="TAAPsModel.FK_TaxOffices_TaxOfficeTypes" />
+        <EntityTypeShape EntityType="TAAPsModel.GeneratedReceipt" Width="1.5" PointX="8.25" PointY="18" />
+        <AssociationConnector Association="TAAPsModel.FK_GeneratedReceipts_Users" />
+        <EntityTypeShape EntityType="TAAPsModel.ITaxAccount" Width="2.375" PointX="3.375" PointY="26.5" />
+        <AssociationConnector Association="TAAPsModel.FK_ITaxAccounts_ITaxpayer" />
+        <EntityTypeShape EntityType="TAAPsModel.CollectionAgent" Width="2.625" PointX="15.375" PointY="17.75" />
+        <EntityTypeShape EntityType="TAAPsModel.Payment" Width="1.5" PointX="4.375" PointY="17.75" />
+        <EntityTypeShape EntityType="TAAPsModel.ITINRequest" Width="1.5" PointX="13.125" PointY="0.75" IsExpanded="false" />
+        <AssociationConnector Association="TAAPsModel.FK_ITINRequests_BusinessLines" />
+        <AssociationConnector Association="TAAPsModel.FK_ITINRequest_LGAs" />
+        <AssociationConnector Association="TAAPsModel.FK_ITINRequest_States" />
+        <AssociationConnector Association="TAAPsModel.FK_ITINRequest_TaxOffices" />
+        <EntityTypeShape EntityType="TAAPsModel.IAssessmentIncome" Width="1.5" PointX="10" PointY="33" />
+        <EntityTypeShape EntityType="TAAPsModel.TaxExclusion" Width="1.5" PointX="17" PointY="9.875" />
+        <EntityTypeShape EntityType="TAAPsModel.IAssessmentExclusion" Width="1.5" PointX="19.25" PointY="19.5" />
+        <AssociationConnector Association="TAAPsModel.FK_ITaxpayerAssessmentExclusions_TaxExclusions" />
+        <EntityTypeShape EntityType="TAAPsModel.IncomeType" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="TAAPsModel.TaxIncome" Width="1.5" PointX="17.375" PointY="13.875" />
+        <AssociationConnector Association="TAAPsModel.FK_IAssessmentIncomes_TaxIncomes" />
+        <EntityTypeShape EntityType="TAAPsModel.TaxTable" Width="1.5" PointX="10.25" PointY="21.75" />
+        <EntityTypeShape EntityType="TAAPsModel.Year" Width="1.5" PointX="0.75" PointY="6.75" />
+        <EntityTypeShape EntityType="TAAPsModel.ITaxpayerFile" Width="1.5" PointX="19.375" PointY="0.75" />
+        <AssociationConnector Association="TAAPsModel.FK_ITaxpayerFiles_ITaxpayer" />
+        <EntityTypeShape EntityType="TAAPsModel.IAssessment" Width="4.25" PointX="11.25" PointY="25.125" />
+        <AssociationConnector Association="TAAPsModel.FK_ITaxpayerAssessmentExclusions_ItaxpayerAssessments" />
+        <AssociationConnector Association="TAAPsModel.FK_ITaxpayerAssessmentIncome_ItaxpayerAssessments" />
+        <AssociationConnector Association="TAAPsModel.FK_IAssessments_ITaxAccounts" />
+        <AssociationConnector Association="TAAPsModel.FK_IAssessments_Users" />
+        <EntityTypeShape EntityType="TAAPsModel.Currency" Width="1.5" PointX="0.75" PointY="19.75" />
+        <EntityTypeShape EntityType="TAAPsModel.TaxType" Width="1.5" PointX="8.25" PointY="36.375" />
+        <AssociationConnector Association="TAAPsModel.FK_ITaxAccounts_TaxTypes" />
+        <AssociationConnector Association="TAAPsModel.FK_TaxTable_TaxTypes" />
+        <AssociationConnector Association="TAAPsModel.FK_TaxTypes_Users" />
+        <EntityTypeShape EntityType="TAAPsModel.IAssessmentFile" Width="1.5" PointX="15.75" PointY="24.375" />
+        <AssociationConnector Association="TAAPsModel.FK_IAssessmentFiles_IAssessments" />
+        <AssociationConnector Association="TAAPsModel.FK_IAssessmentFiles_Users" />
+        <EntityTypeShape EntityType="TAAPsModel.UserLoginHistory" Width="1.5" PointX="8.25" PointY="11.125" />
+        <AssociationConnector Association="TAAPsModel.FK_UserLoginHistory_Users" />
+        <EntityTypeShape EntityType="TAAPsModel.CTaxpayerFile" Width="1.5" PointX="19.875" PointY="9.75" />
+        <AssociationConnector Association="TAAPsModel.FK_CTaxpayerFiles_ITaxpayer" />
+        <AssociationConnector Association="TAAPsModel.FK_CTaxpayerFiles_Users" />
+        <EntityTypeShape EntityType="TAAPsModel.IPenalty" Width="1.5" PointX="18.25" PointY="23.75" />
+        <AssociationConnector Association="TAAPsModel.FK_IPenalty_IAssessments" />
+        <AssociationConnector Association="TAAPsModel.FK_IPenalty_Users" />
+        <EntityTypeShape EntityType="TAAPsModel.IInterest" Width="1.5" PointX="6.5" PointY="26.875" />
+        <AssociationConnector Association="TAAPsModel.FK_IInterests_ITaxAccounts" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

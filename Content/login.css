@@ -1,0 +1,121 @@
+.login
+{
+    background: #F5F5F5 url(../content/images/login_bg.jpg) repeat-x top;
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+	
+.CenterTable
+	{width:820px}
+
+.CenterTable
+	{width:820px}
+
+	{background:url(../content/images/main_bg.png) top no-repeat;
+	height:570px}
+	
+.LoginArea
+	{background:url(../content/images/main_bg.png) top no-repeat;
+	height:570px;
+	}
+.LoginArea2
+	{width:700px; height:500px; 
+	margin-top:45px; margin-left:80px; margin-right:80px}
+
+.LoginTable
+	{width:100%; height:100%}
+
+.LogoPlacement
+	{width:361px; height:110px;
+	margin-top:0px; margin-left:10px; margin-right:95px; margin-bottom:25px}
+	
+.FormArea
+{
+    margin-top: 120px;
+    width: 250px;
+    /*height: 395px;*/
+    height: 250px;
+    /*background: url('../content/Images/form_bg.png') no-repeat top; */
+    background: url('../content/Images/navbg.png') repeat;
+    /*background-color:#ecf2f5;*/
+
+}
+
+.LeftColumn
+	{width:400px}
+	
+.RightColumn
+	{width:400px}
+	
+.InfoSegment
+	{ margin-left:10px; margin-right:100px;}
+
+.InfoHeading
+{
+    background: url('../content/Images/titlebar_bg.png') repeat top;
+    height: 30px;
+    border: #7D7D7D solid 1px;
+    border-bottom: none;
+}
+	
+.InfoHeadingTexts
+	{margin:5px; font-size:14px; font-weight:bold; text-align:left;
+	margin-left:15px; color:#FFF; text-shadow:#000 0px -1px 0px}
+
+.InfoContent
+	{border: #7D7D7D solid 1px; border-top:none;
+	height:200px}
+	
+.InfoContentTable
+	{margin:10px; margin-top:10px}
+
+.InfoContentTexts
+	{text-align:left; color:#333; font-family:Arial, Helvetica, sans-serif; font-size:12px; 
+	margin-top:5px; margin-left:7px; margin-right:22px; margin-bottom:20px}
+	
+.ButtonStyle
+{
+    background: url('../content/Images/button_bg.jpg') repeat-x top;
+    border: #151515 solid 1px;
+    cursor: pointer;
+    width: 170px;
+    height: 28px;
+    color: #F8F8F8;
+}
+	
+.ButtonStyle2
+{
+    background: url('../content/Images/button_bg.jpg') repeat-x top;
+    border: #151515 solid 1px;
+    cursor: pointer;
+    margin-top: 8px;
+    height: 25px;
+    color: #F8F8F8;
+}
+	
+.FormFieldStyle
+{
+    border: #900 solid 1px;
+    background: #FFF url('../content/Images/textfield_bg.jpg') repeat-x top;
+    height: 21px;
+}
+	
+.LoginBox
+	{margin:15px; margin-top:120px; margin-left:25px}
+	
+.LoginTexts
+	{margin:5px; margin-left:0px; font-size:12px; font-weight:bold; text-align:left;
+	color:#FFF;}
+
+.LinkStyle
+{
+    /*background: url('../Images/button_bg.jpg') repeat-x top;
+    border: #151515 solid 1px;*/
+    cursor: pointer;
+    width: 170px;
+    height: 28px;
+    color: #0066CC;
+    font-size: 12px;
+}

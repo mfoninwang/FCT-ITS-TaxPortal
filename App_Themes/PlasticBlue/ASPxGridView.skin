@@ -1,0 +1,42 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v15.2, Version=15.2.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v15.2, Version=15.2.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dx:ASPxGridView runat="server" CssFilePath="~/App_Themes/PlasticBlue/{0}/styles.css" CssPostfix="PlasticBlue">
+<SettingsPager CurrentPageNumberFormat="{0}" ShowDefaultImages="False">
+<AllButton Text="All"></AllButton>
+
+<NextPageButton ShowDefaultText="True" Text="" TextFormatString="{0} &gt;"></NextPageButton>
+
+<PrevPageButton ShowDefaultText="True" Text="" TextFormatString="&lt; {0}"></PrevPageButton>
+</SettingsPager>
+
+<Settings ShowFilterRow="True" ShowFilterRowMenu="True"></Settings>
+
+<SettingsBehavior ColumnResizeMode="NextColumn" AllowSelectSingleRowOnly="True" ConfirmDelete="True"></SettingsBehavior>
+
+<SettingsPopup>
+<EditForm Width="100%" MinWidth="900px" HorizontalAlign="WindowCenter" VerticalAlign="WindowCenter" Modal="True"></EditForm>
+</SettingsPopup>
+
+<StylesPopup>
+<EditForm>
+<Content>
+<Paddings PaddingTop="30px" PaddingBottom="10px"></Paddings>
+</Content>
+
+<Header Font-Bold="True" Font-Size="16pt">
+<Paddings PaddingTop="20px" PaddingBottom="5px"></Paddings>
+</Header>
+</EditForm>
+</StylesPopup>
+
+<EditFormLayoutProperties NestedControlWidth="100%">
+<SettingsItemCaptions Location="Top"></SettingsItemCaptions>
+</EditFormLayoutProperties>
+
+<Styles CssPostfix="PlasticBlue" CssFilePath="~/App_Themes/PlasticBlue/{0}/styles.css">
+<Header SortingImageSpacing="10px" ImageSpacing="10px"></Header>
+</Styles>
+
+<Images SpriteCssFilePath="~/App_Themes/PlasticBlue/{0}/sprite.css"></Images>
+</dx:ASPxGridView>

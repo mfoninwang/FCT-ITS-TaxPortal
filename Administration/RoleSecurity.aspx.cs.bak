@@ -1,0 +1,52 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using FIRSTAAPs.Model;
+
+namespace FIRSTAAPs.Administration
+{
+    public partial class RoleSecurity : BasePage //System.Web.UI.Page
+    {
+        public TAAPsDBContext context = new TAAPsDBContext();
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+            if (!IsPostBack || !IsCallback)
+            {
+                //LoadRoleResources();
+            }
+        }
+
+        private void LoadModules()
+        {
+            var value = from r in context.Resources
+                        where r.ResourceType == "Mod"
+                        select new {ResourceId = r.ResourceId,
+                                    ResourceName = context.DecryptData(r.ResourceName)};
+
+        }
+
+        private void LoadRoleResources()
+        {
+            //var value = from r in context.RoleResources
+            //            select new
+            //            {
+            //                ResourceId = r.ResourceId,
+            //                ResourceName = r.Resource.DecryptedResourceName,
+            //                RoleId = r.RoleId,
+            //                RoleName = r.Role.RoleName,
+            //                ModuleId = r.Resource.ParentId,
+            //                Module =  r.Resource.Parent.ResourceName
+            //            };
+        }
+
+        protected void ASPxGridView1_CustomErrorText(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewCustomErrorTextEventArgs e)
+        {
+            e.ErrorText = e.Exception.ToString();
+        }
+    }
+}

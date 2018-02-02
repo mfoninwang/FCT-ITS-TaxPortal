@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="en-US">
+  <Title Text="Dashboard" />
+  <DataConnections>
+    <DataConnection Name="firs_portalCon" ProviderKey="MSSqlServer">
+      <Parameters>
+        <Parameter Name="server" Value="localhost" />
+        <Parameter Name="database" Value="firs_portal" />
+        <Parameter Name="useIntegratedSecurity" Value="True" />
+        <Parameter Name="read only" Value="1" />
+        <Parameter Name="generateConnectionHelper" Value="false" />
+      </Parameters>
+    </DataConnection>
+  </DataConnections>
+  <DataSources>
+    <DataSource ComponentName="dataSource1" Name="Taxpayers">
+      <DataProvider DataConnection="firs_portalCon" SupportSql="true">
+        <Selection>
+          <Table Name="tbl_customers">
+            <Columns>
+              <Column Name="cust_id" />
+              <Column Name="cust_number" />
+              <Column Name="cust_name" />
+              <Column Name="cust_business" />
+              <Column Name="cust_sub_location_code" />
+              <Column Name="cust_sub_location_name" />
+              <Column Name="cust_location_code" />
+              <Column Name="cust_location_name" />
+              <Column Name="employmentType" />
+              <Column Name="BusinessLineCode" />
+              <Column Name="taxpayerType" />
+            </Columns>
+          </Table>
+        </Selection>
+      </DataProvider>
+      <CalculatedFields>
+        <CalculatedField Name="TaxpayerTYpe" Expression="Iif([taxpayerType]=='I', 'Individual' ,'Corporate' )" />
+      </CalculatedFields>
+    </DataSource>
+  </DataSources>
+  <Items>
+    <Pie ComponentName="pieDashboardItem1" Name="Taxpayer Type Distribution" DataSource="dataSource1" ShowPieCaptions="false">
+      <DataItems>
+        <Dimension DataMember="TaxpayerTYpe" Name="DataItem0" />
+        <Measure DataMember="cust_id" SummaryType="Count" Name="DataItem1">
+          <NumericFormat FormatType="Number" Precision="0" Unit="Ones" IncludeGroupSeparator="true" />
+        </Measure>
+      </DataItems>
+      <Arguments>
+        <Argument Name="DataItem0" />
+      </Arguments>
+      <InteractivityOptions MasterFilterMode="Single" />
+      <Values>
+        <Value Name="DataItem1" />
+      </Values>
+    </Pie>
+    <Pivot ComponentName="pivotDashboardItem3" Name="Pivot 3" DataSource="dataSource1">
+      <DataItems>
+        <Dimension DataMember="cust_location_code" Name="DataItem0" />
+        <Measure DataMember="cust_id" SummaryType="Count" Name="DataItem1">
+          <NumericFormat FormatType="Number" Precision="0" Unit="Ones" IncludeGroupSeparator="true" />
+        </Measure>
+        <Dimension DataMember="cust_sub_location_name" Name="DataItem2" />
+        <Measure DataMember="cust_id" Name="DataItem4" />
+      </DataItems>
+      <HiddenMeasures>
+        <Measure Name="DataItem4" />
+      </HiddenMeasures>
+      <Rows>
+        <Row Name="DataItem0" />
+        <Row Name="DataItem2" />
+      </Rows>
+      <Values>
+        <Value Name="DataItem1" />
+      </Values>
+      <Names>
+        <Name Value="DataItem1" Name="Number of Taxpayers" />
+      </Names>
+    </Pivot>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutGroup Weight="76.9927536231884" Orientation="Vertical">
+        <LayoutGroup Weight="50.114942528735632">
+          <LayoutItem Weight="46.941176470588232" DashboardItem="pieDashboardItem1" />
+          <LayoutItem Weight="53.058823529411768" DashboardItem="pivotDashboardItem3" />
+        </LayoutGroup>
+      </LayoutGroup>
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

@@ -1,0 +1,369 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="IAssessmentList.aspx.cs" Inherits="TAAPs.Assessment.IAssessmentList" %>
+<%@ Register assembly="DevExpress.Web.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
+    <dx:ASPxGridView ID="ASPxgvAssessments" runat="server" AutoGenerateColumns="False" DataSourceID="edsIAssessment" KeyFieldName="AssessmentId" OnCustomErrorText="ASPxgvAssessments_CustomErrorText" OnRowInserting="ASPxgvAssessments_RowInserting" OnStartRowEditing="ASPxgvAssessments_StartRowEditing" OnHtmlEditFormCreated="ASPxgvAssessments_HtmlEditFormCreated" OnInitNewRow="ASPxgvAssessments_InitNewRow">
+		<ClientSideEvents RowDblClick="function(s, e) {
+		s.StartEditRow(e.visibleIndex);
+}" />
+		<Templates>
+			<EditForm>
+				<dx:ASPxFormLayout ID="formLayout" runat="server" Width="100%">
+					<Items>
+						<dx:LayoutGroup Caption="Assessment Details" ColCount="3">
+							<Items>
+								<dx:LayoutItem Caption="Assessment #" FieldName="AssessmentId">
+									<LayoutItemNestedControlCollection>
+										<dx:LayoutItemNestedControlContainer runat="server">
+											<dx:ASPxGridViewTemplateReplacement ID="ASPxGridViewTemplateReplacement1" runat="server" ColumnID="AssessmentId" ReplacementType="EditFormCellEditor" />
+										</dx:LayoutItemNestedControlContainer>
+									</LayoutItemNestedControlCollection>
+								</dx:LayoutItem>
+								<dx:LayoutItem FieldName="AssessmentYear">
+									<LayoutItemNestedControlCollection>
+										<dx:LayoutItemNestedControlContainer runat="server">
+											<dx:ASPxGridViewTemplateReplacement ID="ASPxGridViewTemplateReplacement2" runat="server" ColumnID="AssessmentYear" ReplacementType="EditFormCellEditor" />
+										</dx:LayoutItemNestedControlContainer>
+									</LayoutItemNestedControlCollection>
+								</dx:LayoutItem>
+								<dx:LayoutItem FieldName="TaxAccountNo" Caption="Tax Account">
+									<LayoutItemNestedControlCollection>
+										<dx:LayoutItemNestedControlContainer runat="server">
+											<dx:ASPxGridLookup ID="ASPxFormLayout1_E1" runat="server" Width="100%" AutoGenerateColumns="False" DataSourceID="edsITaxAccounts" KeyFieldName="TaxAccountNo" ClientInstanceName="comboTin">
+												<GridViewProperties>
+													<SettingsBehavior AllowFocusedRow="True" AllowSelectSingleRowOnly="True" />
+													<SettingsSearchPanel Visible="True" />
+												</GridViewProperties>
+												<Columns>
+													<dx:GridViewDataTextColumn FieldName="TaxAccountNo" ReadOnly="True" ShowInCustomizationForm="True" VisibleIndex="2">
+													</dx:GridViewDataTextColumn>
+													<dx:GridViewDataTextColumn FieldName="TIN" ShowInCustomizationForm="True" VisibleIndex="0">
+													</dx:GridViewDataTextColumn>
+													<dx:GridViewDataTextColumn Caption="Tax Type" FieldName="TaxTypeId" ShowInCustomizationForm="True" VisibleIndex="3">
+													</dx:GridViewDataTextColumn>
+													<dx:GridViewDataTextColumn Caption="Taxpayer Name" FieldName="ITaxpayer.TaxpayerName" ShowInCustomizationForm="True" VisibleIndex="1">
+													</dx:GridViewDataTextColumn>
+													<dx:GridViewDataTextColumn FieldName="Description" ShowInCustomizationForm="True" Visible="False" VisibleIndex="4">
+													</dx:GridViewDataTextColumn>
+													<dx:GridViewDataTextColumn FieldName="Status" ShowInCustomizationForm="True" Visible="False" VisibleIndex="5">
+													</dx:GridViewDataTextColumn>
+													<dx:GridViewDataTextColumn FieldName="CreatedBy" ShowInCustomizationForm="True" Visible="False" VisibleIndex="6">
+													</dx:GridViewDataTextColumn>
+													<dx:GridViewDataDateColumn FieldName="CreateDate" ShowInCustomizationForm="True" Visible="False" VisibleIndex="7">
+														<PropertiesDateEdit>
+															<TimeSectionProperties>
+																<TimeEditProperties>
+																	<ClearButton Visibility="Auto">
+																	</ClearButton>
+																</TimeEditProperties>
+															</TimeSectionProperties>
+															<ClearButton Visibility="Auto">
+															</ClearButton>
+														</PropertiesDateEdit>
+													</dx:GridViewDataDateColumn>
+													<dx:GridViewDataTextColumn FieldName="Balance" ReadOnly="True" ShowInCustomizationForm="True" Visible="False" VisibleIndex="8">
+													</dx:GridViewDataTextColumn>
+													<dx:GridViewDataTextColumn FieldName="TotalPayment" ReadOnly="True" ShowInCustomizationForm="True" Visible="False" VisibleIndex="9">
+													</dx:GridViewDataTextColumn>
+													<dx:GridViewDataTextColumn FieldName="TotalTaxPayable" ReadOnly="True" ShowInCustomizationForm="True" Visible="False" VisibleIndex="10">
+													</dx:GridViewDataTextColumn>
+												</Columns>
+												<ClearButton Visibility="Auto">
+												</ClearButton>
+												<GridViewStyles AdaptiveDetailButtonWidth="22">
+												</GridViewStyles>
+											</dx:ASPxGridLookup>
+										</dx:LayoutItemNestedControlContainer>
+									</LayoutItemNestedControlCollection>
+								</dx:LayoutItem>
+								<dx:LayoutItem Caption="Form No">
+									<LayoutItemNestedControlCollection>
+										<dx:LayoutItemNestedControlContainer runat="server">
+											<dx:ASPxGridViewTemplateReplacement ID="ASPxGridViewTemplateReplacement10" runat="server" ColumnID="FormNo" ReplacementType="EditFormCellEditor" />
+										</dx:LayoutItemNestedControlContainer>
+									</LayoutItemNestedControlCollection>
+								</dx:LayoutItem>
+								<dx:LayoutItem Caption="Form Title" ColSpan="2">
+									<LayoutItemNestedControlCollection>
+										<dx:LayoutItemNestedControlContainer runat="server">
+											<dx:ASPxGridViewTemplateReplacement ID="ASPxGridViewTemplateReplacement11" runat="server" ColumnID="FormTitle" ReplacementType="EditFormCellEditor" />
+										</dx:LayoutItemNestedControlContainer>
+									</LayoutItemNestedControlCollection>
+								</dx:LayoutItem>
+							</Items>
+						</dx:LayoutGroup>
+						<dx:LayoutGroup Caption="Financial Details" ColCount="4">
+							<Items>
+								<dx:LayoutItem FieldName="GrossIncome">
+									<LayoutItemNestedControlCollection>
+										<dx:LayoutItemNestedControlContainer runat="server">
+											<dx:ASPxGridViewTemplateReplacement ID="ASPxGridViewTemplateReplacement3" runat="server" ColumnID="GrossIncome" ReplacementType="EditFormCellEditor" />
+										</dx:LayoutItemNestedControlContainer>
+									</LayoutItemNestedControlCollection>
+								</dx:LayoutItem>
+								<dx:LayoutItem FieldName="ExemptAmount">
+									<LayoutItemNestedControlCollection>
+										<dx:LayoutItemNestedControlContainer runat="server">
+											<dx:ASPxGridViewTemplateReplacement ID="ASPxGridViewTemplateReplacement4" runat="server" ColumnID="ExemptAmount" ReplacementType="EditFormCellEditor" />
+										</dx:LayoutItemNestedControlContainer>
+									</LayoutItemNestedControlCollection>
+								</dx:LayoutItem>
+								<dx:LayoutItem FieldName="AssesableIncome" Caption="Assessable Income">
+									<LayoutItemNestedControlCollection>
+										<dx:LayoutItemNestedControlContainer runat="server">
+											<dx:ASPxGridViewTemplateReplacement ID="ASPxGridViewTemplateReplacement5" runat="server" ColumnID="AssessableIncome" ReplacementType="EditFormCellEditor" />
+										</dx:LayoutItemNestedControlContainer>
+									</LayoutItemNestedControlCollection>
+								</dx:LayoutItem>
+								<dx:LayoutItem FieldName="TaxPayable">
+									<LayoutItemNestedControlCollection>
+										<dx:LayoutItemNestedControlContainer runat="server">
+											<dx:ASPxGridViewTemplateReplacement ID="ASPxGridViewTemplateReplacement6" runat="server" ColumnID="TaxPayable" ReplacementType="EditFormCellEditor" />
+										</dx:LayoutItemNestedControlContainer>
+									</LayoutItemNestedControlCollection>
+								</dx:LayoutItem>
+							</Items>
+						</dx:LayoutGroup>
+						<dx:EmptyLayoutItem>
+						</dx:EmptyLayoutItem>
+						<dx:TabbedLayoutGroup Width="100%">
+							<Items>
+								<dx:LayoutGroup Caption="Earned Income">
+									<Items>
+										<dx:LayoutItem Caption="Earned" ShowCaption="False">
+											<LayoutItemNestedControlCollection>
+												<dx:LayoutItemNestedControlContainer runat="server">
+													<dx:ASPxGridView ID="ASPxgvEarnedIncome" runat="server" AutoGenerateColumns="False" DataSourceID="edsAssessmentIncome" KeyFieldName="AssessmentId;IncomeId" ClientInstanceName="gridEarnedIncome">
+														<SettingsPager Mode="ShowAllRecords">
+														</SettingsPager>
+														<SettingsEditing Mode="Inline">
+														</SettingsEditing>
+														<Settings ShowFooter="True" />
+														<Columns>
+															<dx:GridViewCommandColumn ShowEditButton="True" ShowInCustomizationForm="True" VisibleIndex="3">
+															</dx:GridViewCommandColumn>
+															<dx:GridViewDataTextColumn FieldName="AssessmentId" ReadOnly="True" ShowInCustomizationForm="True" VisibleIndex="0">
+															</dx:GridViewDataTextColumn>
+															<dx:GridViewDataTextColumn FieldName="Amount" ShowInCustomizationForm="True" VisibleIndex="2">
+																<PropertiesTextEdit DisplayFormatInEditMode="True" DisplayFormatString="#,##0.00">
+																</PropertiesTextEdit>
+															</dx:GridViewDataTextColumn>
+															<dx:GridViewDataComboBoxColumn Caption="Description" FieldName="IncomeId" ReadOnly="True" ShowInCustomizationForm="True" VisibleIndex="1">
+																<PropertiesComboBox DataSourceID="edsIncomes" TextField="IncomeDescription" ValueField="IncomeId">
+																	<ClearButton Visibility="Auto">
+																	</ClearButton>
+																</PropertiesComboBox>
+															</dx:GridViewDataComboBoxColumn>
+														</Columns>
+														<TotalSummary>
+															<dx:ASPxSummaryItem DisplayFormat="Earned Income From Employment:#,##0.00" FieldName="Amount" ShowInColumn="Amount" SummaryType="Sum" />
+														</TotalSummary>
+														<Styles AdaptiveDetailButtonWidth="22">
+														</Styles>
+													</dx:ASPxGridView>
+												</dx:LayoutItemNestedControlContainer>
+											</LayoutItemNestedControlCollection>
+										</dx:LayoutItem>
+									</Items>
+								</dx:LayoutGroup>
+								<dx:LayoutGroup Caption="Unearned Income">
+									<Items>
+										<dx:LayoutItem Caption="Unearned" ShowCaption="False">
+											<LayoutItemNestedControlCollection>
+												<dx:LayoutItemNestedControlContainer runat="server">
+													<dx:ASPxGridView ID="ASPxgvUnearnedIncome" runat="server" AutoGenerateColumns="False" DataSourceID="edsUnearnedIncome" KeyFieldName="AssessmentId;IncomeId">
+														<SettingsPager Mode="ShowAllRecords">
+														</SettingsPager>
+														<SettingsEditing Mode="Batch">
+														</SettingsEditing>
+														<Columns>
+															<dx:GridViewDataTextColumn FieldName="AssessmentId" ReadOnly="True" ShowInCustomizationForm="True" VisibleIndex="0">
+															</dx:GridViewDataTextColumn>
+															<dx:GridViewDataTextColumn FieldName="Amount" ShowInCustomizationForm="True" VisibleIndex="2">
+																<PropertiesTextEdit DisplayFormatInEditMode="True" DisplayFormatString="#,##0.00">
+																</PropertiesTextEdit>
+															</dx:GridViewDataTextColumn>
+															<dx:GridViewDataComboBoxColumn Caption="Description" FieldName="IncomeId" ReadOnly="True" ShowInCustomizationForm="True" VisibleIndex="1">
+																<PropertiesComboBox DataSourceID="edsIncomes" TextField="IncomeDescription" ValueField="IncomeId">
+																	<ClearButton Visibility="Auto">
+																	</ClearButton>
+																</PropertiesComboBox>
+															</dx:GridViewDataComboBoxColumn>
+														</Columns>
+														<Styles AdaptiveDetailButtonWidth="22">
+														</Styles>
+													</dx:ASPxGridView>
+												</dx:LayoutItemNestedControlContainer>
+											</LayoutItemNestedControlCollection>
+										</dx:LayoutItem>
+									</Items>
+								</dx:LayoutGroup>
+								<dx:LayoutGroup Caption="Trade Income">
+									<Items>
+										<dx:LayoutItem ShowCaption="False">
+											<LayoutItemNestedControlCollection>
+												<dx:LayoutItemNestedControlContainer runat="server">
+													<dx:ASPxGridView ID="ASPxgvTradeIncome" runat="server" AutoGenerateColumns="False" DataSourceID="edsAssessmentTradeIncome" KeyFieldName="AssessmentId;IncomeId">
+														<SettingsPager Mode="ShowAllRecords">
+														</SettingsPager>
+														<SettingsEditing Mode="Batch">
+														</SettingsEditing>
+														<Columns>
+															<dx:GridViewDataTextColumn FieldName="AssessmentId" ReadOnly="True" ShowInCustomizationForm="True" VisibleIndex="0">
+															</dx:GridViewDataTextColumn>
+															<dx:GridViewDataTextColumn FieldName="Amount" ShowInCustomizationForm="True" VisibleIndex="2">
+																<PropertiesTextEdit DisplayFormatInEditMode="True" DisplayFormatString="#,##0.00">
+																</PropertiesTextEdit>
+															</dx:GridViewDataTextColumn>
+															<dx:GridViewDataComboBoxColumn Caption="Description" FieldName="IncomeId" ReadOnly="True" ShowInCustomizationForm="True" VisibleIndex="1">
+																<PropertiesComboBox DataSourceID="edsTradeIncomes" TextField="IncomeDescription" ValueField="IncomeId">
+																</PropertiesComboBox>
+															</dx:GridViewDataComboBoxColumn>
+														</Columns>
+														<Styles AdaptiveDetailButtonWidth="22">
+														</Styles>
+													</dx:ASPxGridView>
+												</dx:LayoutItemNestedControlContainer>
+											</LayoutItemNestedControlCollection>
+										</dx:LayoutItem>
+									</Items>
+								</dx:LayoutGroup>
+								<dx:LayoutGroup Caption="Tax Relief">
+									<Items>
+										<dx:LayoutItem Caption="Exempt Items" ShowCaption="False">
+											<LayoutItemNestedControlCollection>
+												<dx:LayoutItemNestedControlContainer runat="server">
+													<dx:ASPxGridView ID="ASPxgvExclusions" runat="server" AutoGenerateColumns="False" DataSourceID="edsExclusions" KeyFieldName="AssessmentId;ExclusionId" OnHtmlRowPrepared="ASPxgvExclusions_HtmlRowPrepared" OnCellEditorInitialize="ASPxgvExclusions_CellEditorInitialize">
+														<SettingsPager Mode="ShowAllRecords">
+														</SettingsPager>
+														<SettingsEditing Mode="Inline">
+														</SettingsEditing>
+														<SettingsDataSecurity AllowDelete="False" />
+														<Columns>
+															<dx:GridViewCommandColumn Caption="Actions" ShowEditButton="True" ShowInCustomizationForm="True" VisibleIndex="4">
+															</dx:GridViewCommandColumn>
+															<dx:GridViewDataTextColumn FieldName="AssessmentId" ReadOnly="True" ShowInCustomizationForm="True" VisibleIndex="0">
+															</dx:GridViewDataTextColumn>
+															<dx:GridViewDataTextColumn FieldName="Amount" ShowInCustomizationForm="True" VisibleIndex="2">
+																<PropertiesTextEdit DisplayFormatInEditMode="True" DisplayFormatString="#,##0.00">
+																</PropertiesTextEdit>
+															</dx:GridViewDataTextColumn>
+															<dx:GridViewDataComboBoxColumn Caption="Description" FieldName="ExclusionId" ReadOnly="True" ShowInCustomizationForm="True" VisibleIndex="1">
+																<PropertiesComboBox DataSourceID="edsTaxExclusions" TextField="ExclusionName" ValueField="ExclusionId">
+																	<ClearButton Visibility="Auto">
+																	</ClearButton>
+																</PropertiesComboBox>
+															</dx:GridViewDataComboBoxColumn>
+															<dx:GridViewDataTextColumn FieldName="TaxExclusion.IsComputed" ShowInCustomizationForm="True" VisibleIndex="3">
+															</dx:GridViewDataTextColumn>
+														</Columns>
+														<Styles AdaptiveDetailButtonWidth="22">
+														</Styles>
+													</dx:ASPxGridView>
+												</dx:LayoutItemNestedControlContainer>
+											</LayoutItemNestedControlCollection>
+										</dx:LayoutItem>
+									</Items>
+								</dx:LayoutGroup>
+							</Items>
+						</dx:TabbedLayoutGroup>
+						<dx:LayoutGroup Caption="Record Control" ShowCaption="False">
+							<Items>
+								<dx:LayoutItem Caption="Save or Cancel" ShowCaption="False">
+									<LayoutItemNestedControlCollection>
+										<dx:LayoutItemNestedControlContainer runat="server">
+											<dx:ASPxGridViewTemplateReplacement ID="ASPxGridViewTemplateReplacement8" runat="server" ColumnID="" ReplacementType="EditFormUpdateButton" />
+											<dx:ASPxGridViewTemplateReplacement ID="ASPxGridViewTemplateReplacement9" runat="server" ColumnID="" ReplacementType="EditFormCancelButton" />
+										</dx:LayoutItemNestedControlContainer>
+									</LayoutItemNestedControlCollection>
+								</dx:LayoutItem>
+							</Items>
+						</dx:LayoutGroup>
+					</Items>
+					<SettingsItemCaptions Location="Top" />
+				</dx:ASPxFormLayout>
+			</EditForm>
+		</Templates>
+		<SettingsEditing Mode="PopupEditForm">
+		</SettingsEditing>
+	<SettingsDataSecurity AllowDelete="False" />
+		<Columns>
+			<dx:GridViewCommandColumn ShowEditButton="True" VisibleIndex="13">
+			</dx:GridViewCommandColumn>
+			<dx:GridViewDataTextColumn Caption="Assessment #" FieldName="AssessmentId" ReadOnly="True" VisibleIndex="0">
+			</dx:GridViewDataTextColumn>
+			<dx:GridViewDataTextColumn Caption="Year" FieldName="AssessmentYear" VisibleIndex="1">
+			</dx:GridViewDataTextColumn>
+			<dx:GridViewDataTextColumn FieldName="ITaxAccount.TIN" VisibleIndex="3" Caption="TIN">
+			</dx:GridViewDataTextColumn>
+			<dx:GridViewDataTextColumn FieldName="GrossIncome" VisibleIndex="9" ReadOnly="True">
+				<PropertiesTextEdit DisplayFormatInEditMode="True" DisplayFormatString="#,##0.00">
+				</PropertiesTextEdit>
+			</dx:GridViewDataTextColumn>
+			<dx:GridViewDataTextColumn FieldName="ExemptAmount" VisibleIndex="10" ReadOnly="True">
+				<PropertiesTextEdit DisplayFormatInEditMode="True" DisplayFormatString="#,##0.00">
+				</PropertiesTextEdit>
+			</dx:GridViewDataTextColumn>
+			<dx:GridViewDataTextColumn FieldName="AssessableIncome" VisibleIndex="11" ReadOnly="True">
+				<PropertiesTextEdit DisplayFormatInEditMode="True" DisplayFormatString="#,##0.00">
+				</PropertiesTextEdit>
+			</dx:GridViewDataTextColumn>
+			<dx:GridViewDataTextColumn FieldName="TaxPayable" VisibleIndex="12" ReadOnly="True">
+				<PropertiesTextEdit DisplayFormatInEditMode="True" DisplayFormatString="#,##0.00">
+				</PropertiesTextEdit>
+			</dx:GridViewDataTextColumn>
+			<dx:GridViewDataComboBoxColumn FieldName="ITaxAccount.TaxTypeId" VisibleIndex="5" Caption="Tax Type">
+<PropertiesComboBox>
+<ClearButton Visibility="Auto"></ClearButton>
+</PropertiesComboBox>
+			</dx:GridViewDataComboBoxColumn>
+			<dx:GridViewDataTextColumn Caption="Taxpayer Name" FieldName="ITaxAccount.ITaxpayer.TaxpayerName" VisibleIndex="4">
+			</dx:GridViewDataTextColumn>
+			<dx:GridViewDataTextColumn Caption="Tax Account #" FieldName="TaxAccountNo" VisibleIndex="2">
+			</dx:GridViewDataTextColumn>
+			<dx:GridViewDataTextColumn FieldName="FormNo" Visible="False" VisibleIndex="6">
+			</dx:GridViewDataTextColumn>
+			<dx:GridViewDataTextColumn FieldName="FormTitle" Visible="False" VisibleIndex="7">
+			</dx:GridViewDataTextColumn>
+		</Columns>
+
+<Styles AdaptiveDetailButtonWidth="22"></Styles>
+</dx:ASPxGridView>
+<asp:EntityDataSource ID="edsIAssessment" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EnableInsert="True" EnableUpdate="True" EntitySetName="IAssessments" Include="ITaxAccount,ITaxAccount.ITaxpayer">
+</asp:EntityDataSource>
+	<asp:EntityDataSource ID="edsITaxpayers" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EntitySetName="ITaxpayers" Select="it.[TIN], it.[TaxpayerName], it.[TaxOfficeID]" Where="it.TaxOfficeId = @TaxOfficeId">
+		<WhereParameters>
+			<asp:SessionParameter Name="TaxOfficeId" SessionField="TaxOfficeId" Type="String" />
+		</WhereParameters>
+	</asp:EntityDataSource>
+<asp:EntityDataSource runat="server" DefaultContainerName="TAAPsDBContext" ConnectionString="name=TAAPsDBContext" EnableFlattening="False" EnableInsert="True" EnableUpdate="True" EntitySetName="IAssessmentIncomes" Include="TaxIncome" Where="it.TaxIncome.IncomeTypeId = 'UI' &amp;&amp; it.AssessmentId = @AssessmentId" ID="edsUnearnedIncome" EntityTypeFilter="" Select="">
+	<WhereParameters>
+		<asp:SessionParameter Name="AssessmentId" SessionField="IAssessmentId" Type="Int32" />
+	</WhereParameters>
+</asp:EntityDataSource>
+	<asp:EntityDataSource ID="edsIncomes" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EntitySetName="TaxIncomes">
+	</asp:EntityDataSource>
+<asp:EntityDataSource runat="server" DefaultContainerName="TAAPsDBContext" ConnectionString="name=TAAPsDBContext" EnableFlattening="False" EntitySetName="IAssessmentIncomes" Include="TaxIncome" Where="it.TaxIncome.IncomeTypeId = 'TI' &amp;&amp; it.AssessmentId = @AssessmentId" ID="edsAssessmentTradeIncome">
+	<WhereParameters>
+		<asp:SessionParameter Name="AssessmentId" SessionField="IAssessmentId" Type="Int32" />
+	</WhereParameters>
+</asp:EntityDataSource>
+<asp:EntityDataSource runat="server" DefaultContainerName="TAAPsDBContext" ConnectionString="name=TAAPsDBContext" EnableFlattening="False" EnableInsert="True" EnableUpdate="True" EntitySetName="IAssessmentIncomes" Include="TaxIncome" Where="it.TaxIncome.IncomeTypeId = 'EI' &amp;&amp; it.AssessmentId = @AssessmentId
+" ID="edsAssessmentIncome" EntityTypeFilter="" Select="">
+	<WhereParameters>
+		<asp:SessionParameter Name="AssessmentId" SessionField="IAssessmentId" Type="Int32" />
+	</WhereParameters>
+</asp:EntityDataSource>
+	<asp:EntityDataSource ID="edsTradeIncomes" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EntitySetName="TaxIncomes" EntityTypeFilter="TaxIncome" Include="" Where="it.IncomeTypeId='TI'">
+	</asp:EntityDataSource>
+	<asp:EntityDataSource ID="edsITaxAccounts" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EntitySetName="ITaxAccounts" EntityTypeFilter="ITaxAccount" Include="ITaxpayer" Where="">
+	</asp:EntityDataSource>
+	<asp:EntityDataSource ID="edsTaxExclusions" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EntitySetName="TaxExclusions">
+	</asp:EntityDataSource>
+	<asp:EntityDataSource runat="server" DefaultContainerName="TAAPsDBContext" ConnectionString="name=TAAPsDBContext" EnableFlattening="False" EnableInsert="True" EnableUpdate="True" EntitySetName="IAssessmentExclusions" ID="edsExclusions" EntityTypeFilter="" Include="TaxExclusion" Select="" Where="it.AssessmentId = @AssessmentId">
+		<WhereParameters>
+			<asp:SessionParameter Name="AssessmentId" SessionField="IAssessmentId" Type="Int32" />
+		</WhereParameters>
+	</asp:EntityDataSource>
+</asp:Content>

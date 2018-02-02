@@ -1,0 +1,17 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dx:ASPxGridLookup runat="server" Height="25px" SpriteCssFilePath="~/App_Themes/Glass/{0}/sprite.css" CssPostfix="Glass" CssFilePath="~/App_Themes/Glass/{0}/styles.css">
+<GridViewProperties>
+<SettingsBehavior AllowFocusedRow="True" AllowSelectSingleRowOnly="True"></SettingsBehavior>
+</GridViewProperties>
+
+<GridViewImages SpriteCssFilePath="~/App_Themes/Glass/{0}/sprite.css"></GridViewImages>
+
+<GridViewStyles>
+<Header SortingImageSpacing="5px" ImageSpacing="5px"></Header>
+</GridViewStyles>
+
+<ClearButton Visibility="Auto"></ClearButton>
+</dx:ASPxGridLookup>

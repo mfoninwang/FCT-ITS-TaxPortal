@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="en-US">
+  <Title Text="Revenue Analysis" />
+  <DataConnections>
+    <OlapDataConnection Name="CollectionsCubeCon" ConnectionString="provider=msolap;data source=localhost;initial catalog=FIRSCollectionsOLAP;timeout=1200;Cube Name=CollectionsCube;" />
+    <DataConnection Name="firs_portalCon" ProviderKey="MSSqlServer">
+      <Parameters>
+        <Parameter Name="server" Value="localhost" />
+        <Parameter Name="database" Value="firs_portal" />
+        <Parameter Name="useIntegratedSecurity" Value="False" />
+        <Parameter Name="read only" Value="0" />
+        <Parameter Name="generateConnectionHelper" Value="false" />
+      </Parameters>
+    </DataConnection>
+  </DataConnections>
+  <DataSources>
+    <DataSource ComponentName="dataSource1" Name="CollectionsOLAP">
+      <OlapDataProvider DataConnection="CollectionsCubeCon" />
+    </DataSource>
+    <DataSource ComponentName="ForeignPayments" Name="ForeignPayments">
+      <DataProvider DataConnection="firs_portalCon" SupportSql="true">
+        <Selection>
+          <Table Name="tbl_autoswift_payments">
+            <Columns>
+              <Column Name="autoswift_id" Alias="autoswift_id" />
+              <Column Name="message_ref_num" Alias="message_ref_num" />
+              <Column Name="payment_date" Alias="payment_date" />
+              <Column Name="coll_bank_name" Alias="coll_bank_name" />
+              <Column Name="cust_number" Alias="cust_number" />
+              <Column Name="currency_type" Alias="currency_type" />
+              <Column Name="tax_type" Alias="tax_type" />
+              <Column Name="order_bank_name" Alias="order_bank_name" />
+              <Column Name="inter_bank_name" Alias="inter_bank_name" />
+              <Column Name="cust_name" Alias="cust_name" />
+              <Column Name="payment_amount" Alias="payment_amount" />
+              <Column Name="transaction_date" Alias="transaction_date" />
+              <Column Name="msrepl_tran_version" Alias="msrepl_tran_version" />
+            </Columns>
+          </Table>
+          <Filters>
+            <Filter TableName="tbl_autoswift_payments" FilterString="" />
+          </Filters>
+        </Selection>
+      </DataProvider>
+    </DataSource>
+  </DataSources>
+  <Parameters>
+    <Parameter Name="Year" Type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Description="Year">
+      <StaticListLookUpSettings>
+        <Values>
+          <Value>2005</Value>
+          <Value>2006</Value>
+          <Value>2007</Value>
+          <Value>2008</Value>
+          <Value>2009</Value>
+          <Value>2010</Value>
+          <Value>2011</Value>
+          <Value>2012</Value>
+          <Value>2013</Value>
+          <Value>2014</Value>
+          <Value>2015</Value>
+          <Value>2016</Value>
+        </Values>
+      </StaticListLookUpSettings>
+    </Parameter>
+  </Parameters>
+  <Items>
+    <Grid ComponentName="gridDashboardItem1" Name="Annual Revenue By Region" DataSource="dataSource1">
+      <DataItems>
+        <Dimension DataMember="[Tax Offices].[Region Name].[Region Name]" UniqueName="DataItem0" />
+        <Measure DataMember="[Measures].[Amount]" UniqueName="DataItem2" />
+        <Measure DataMember="[Measures].[Annual Target]" UniqueName="DataItem3" />
+        <Measure DataMember="[Measures].[Amount]" UniqueName="DataItem1">
+          <NumericFormat FormatType="Number" Unit="Millions" IncludeGroupSeparator="true" />
+        </Measure>
+      </DataItems>
+      <InteractivityOptions MasterFilterMode="Multiple" IsDrillDownEnabled="true" />
+      <GridColumns>
+        <GridDimensionColumn Name="Region Name">
+          <Dimension UniqueName="DataItem0" />
+        </GridDimensionColumn>
+        <GridMeasureColumn Name="Total Revenue">
+          <Measure UniqueName="DataItem1" />
+        </GridMeasureColumn>
+        <GridDeltaColumn Name="Revenue vs Target">
+          <ActualValue UniqueName="DataItem2" />
+          <TargetValue UniqueName="DataItem3" />
+          <DeltaOptions ValueType="PercentVariation" />
+        </GridDeltaColumn>
+      </GridColumns>
+      <GridOptions EnableBandedRows="true" />
+    </Grid>
+    <Chart ComponentName="chartDashboardItem2" Name="Revenue by Tax Type" DataSource="dataSource1">
+      <DataItems>
+        <Dimension DataMember="[Tbl Payments Log].[Payment Type Code].[Payment Type Code]" UniqueName="DataItem0" />
+        <Measure DataMember="[Measures].[Amount]" UniqueName="DataItem1">
+          <NumericFormat FormatType="Number" Unit="Millions" IncludeGroupSeparator="true" />
+        </Measure>
+      </DataItems>
+      <Arguments>
+        <Argument UniqueName="DataItem0" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Pane 1">
+          <AxisY TitleVisible="false" />
+          <Series>
+            <Simple>
+              <Value UniqueName="DataItem1" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+      <ChartLegend Visible="false" />
+    </Chart>
+    <Grid ComponentName="gridDashboardItem2" Name="Annual Revenue By Tax Office" DataSource="dataSource1">
+      <DataItems>
+        <Dimension DataMember="[Tax Offices].[Tax Office Name].[Tax Office Name]" UniqueName="DataItem0" />
+        <Measure DataMember="[Measures].[Amount]" UniqueName="DataItem1">
+          <NumericFormat FormatType="Number" Unit="Millions" IncludeGroupSeparator="true" />
+        </Measure>
+        <Measure DataMember="[Measures].[Amount]" UniqueName="DataItem2" />
+        <Measure DataMember="[Measures].[Annual Target]" UniqueName="DataItem3" />
+      </DataItems>
+      <GridColumns>
+        <GridDimensionColumn Name="Tax Office">
+          <Dimension UniqueName="DataItem0" />
+        </GridDimensionColumn>
+        <GridMeasureColumn Name="Total Revenue">
+          <Measure UniqueName="DataItem1" />
+        </GridMeasureColumn>
+        <GridDeltaColumn Name="Revenue vs Target">
+          <ActualValue UniqueName="DataItem2" />
+          <TargetValue UniqueName="DataItem3" />
+          <DeltaOptions ValueType="PercentVariation" />
+        </GridDeltaColumn>
+      </GridColumns>
+      <GridOptions EnableBandedRows="true" />
+    </Grid>
+    <Chart ComponentName="chartDashboardItem1" Name="Annual Revenue Analysis" DataSource="dataSource1">
+      <DataItems>
+        <Dimension DataMember="[Payment Date].[Payment Year].[Payment Year]" UniqueName="DataItem0" />
+        <Measure DataMember="[Measures].[Annual Target]" UniqueName="DataItem1">
+          <NumericFormat FormatType="Number" Unit="Millions" IncludeGroupSeparator="true" />
+        </Measure>
+        <Measure DataMember="[Measures].[Amount]" UniqueName="DataItem2">
+          <NumericFormat FormatType="Number" Unit="Millions" IncludeGroupSeparator="true" />
+        </Measure>
+      </DataItems>
+      <Arguments>
+        <Argument UniqueName="DataItem0" />
+      </Arguments>
+      <InteractivityOptions MasterFilterMode="Multiple" />
+      <Panes>
+        <Pane Name="Pane 1">
+          <AxisY TitleVisible="false" />
+          <Series>
+            <Simple>
+              <Value UniqueName="DataItem1" />
+            </Simple>
+            <Simple>
+              <Value UniqueName="DataItem2" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <Chart ComponentName="chartDashboardItem3" Name="Foreign Collections" DataSource="ForeignPayments">
+      <DataItems>
+        <Dimension DataMember="payment_date" UniqueName="DataItem1" />
+        <Dimension DataMember="currency_type" SortOrder="Descending" UniqueName="DataItem0" />
+        <Measure DataMember="payment_amount" UniqueName="DataItem2">
+          <NumericFormat FormatType="Number" Unit="Millions" IncludeGroupSeparator="true" />
+        </Measure>
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension UniqueName="DataItem0" />
+      </SeriesDimensions>
+      <Arguments>
+        <Argument UniqueName="DataItem1" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Pane 1">
+          <AxisY TitleVisible="false" />
+          <Series>
+            <Simple ShowPointMarkers="true" SeriesType="Line">
+              <Value UniqueName="DataItem2" />
+              <PointLabelOptions Orientation="RotateLeft" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutGroup Weight="64.785788923719963" Orientation="Vertical">
+        <LayoutGroup Weight="45.287356321839077">
+          <LayoutItem Weight="46.29032258064516" DashboardItem="chartDashboardItem1" />
+          <LayoutItem Weight="53.70967741935484" DashboardItem="chartDashboardItem2" />
+        </LayoutGroup>
+        <LayoutGroup Weight="54.712643678160923">
+          <LayoutItem Weight="46.29032258064516" DashboardItem="chartDashboardItem3" />
+          <LayoutItem Weight="53.70967741935484" DashboardItem="gridDashboardItem1" />
+        </LayoutGroup>
+      </LayoutGroup>
+      <LayoutItem Weight="35.214211076280044" DashboardItem="gridDashboardItem2" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

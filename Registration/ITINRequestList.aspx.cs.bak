@@ -1,0 +1,79 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data.Entity.Core.Objects;
+using DevExpress.Web.ASPxFormLayout;
+using DevExpress.Web.ASPxEditors;
+using FIRSTAAPs.Model;
+
+namespace FIRSTAAPs.Registration
+{
+    public partial class ITINRequestList :  BasePage    //System.Web.UI.Page
+    {
+        TAAPsDBContext _context = new TAAPsDBContext();
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void ASPxButtonApprove_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                GenerateTIN();
+                ASPxFormLayout1.ForEach(ClearItem);
+
+            }
+            catch(Exception ex)
+            {}
+        }
+
+        private void ClearItem(LayoutItemBase item)
+        {
+            var layoutItem = item as LayoutItem;
+            if (layoutItem != null)
+            {
+                var editBase = layoutItem.GetNestedControl() as ASPxEditBase;
+                if (editBase != null)
+                {
+                    editBase.Value = string.Empty;
+                }
+            }
+        }
+
+
+        protected void ASPxCallbackPanel1_Callback(object sender, DevExpress.Web.ASPxClasses.CallbackEventArgsBase e)
+        {
+            if (e.Parameter != "Register")
+            {
+                int index = Convert.ToInt32(ASPxGridView1.GetSelectedFieldValues("RequestId")[0]);
+
+                Session["RequestId"] = index;
+                ASPxFormLayout1.DataBind();
+            }
+            else
+            {
+                GenerateTIN();
+                ASPxGridView1.DataBind();
+
+                ASPxFormLayout1.ForEach(ClearItem);
+            }
+        }
+
+        private void GenerateTIN()
+        {
+            string _createdby = (string)Session["Username"];
+            int _requestId = int.Parse(ASPxTextBoxRequestId.Text);
+
+            var outputParameter = new ObjectParameter("TIN", typeof(string));
+
+            _context.CreateIndividualTaxpayer(_requestId, _createdby, outputParameter);
+            var _tin = outputParameter.Value;
+        }
+
+    }
+}

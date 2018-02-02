@@ -1,0 +1,30 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dx:ASPxGridLookup runat="server" PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" Height="25px" SpriteCssFilePath="~/App_Themes/PlasticBlue/{0}/sprite.css" CssPostfix="PlasticBlue" CssFilePath="~/App_Themes/PlasticBlue/{0}/styles.css">
+<GridViewProperties>
+<SettingsBehavior AllowFocusedRow="True" AllowSelectSingleRowOnly="True"></SettingsBehavior>
+
+<SettingsPager CurrentPageNumberFormat="{0}" ShowDefaultImages="False">
+<AllButton Text="All"></AllButton>
+
+<NextPageButton ShowDefaultText="True" Text="" TextFormatString="{0} &gt;"></NextPageButton>
+
+<PrevPageButton ShowDefaultText="True" Text="" TextFormatString="&lt; {0}"></PrevPageButton>
+</SettingsPager>
+
+<Settings ShowFilterRow="True" ShowFilterRowMenu="True"></Settings>
+</GridViewProperties>
+
+<GridViewImages SpriteCssFilePath="~/App_Themes/PlasticBlue/{0}/sprite.css"></GridViewImages>
+
+<DropDownWindowStyle VerticalAlign="Middle"></DropDownWindowStyle>
+
+<GridViewStyles AdaptiveDetailButtonWidth="22" CssPostfix="PlasticBlue" CssFilePath="~/App_Themes/PlasticBlue/{0}/styles.css">
+<Header SortingImageSpacing="10px" ImageSpacing="10px"></Header>
+</GridViewStyles>
+
+<ValidationSettings ErrorDisplayMode="ImageWithTooltip" Display="Dynamic">
+<RequiredField ErrorText="Required"></RequiredField>
+</ValidationSettings>
+</dx:ASPxGridLookup>

@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ReportMaster.Master.cs" Inherits="TAAPs.Reports.ReportMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <link href="../Content/tabmenu.css" rel="stylesheet" type="text/css" />
+    <link href="../Content/Site.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="topdiv">
+        <form id="form1" runat="server">
+            <asp:ScriptManager ID="ScriptManager1" runat="server">
+                <Scripts>
+                    <asp:ScriptReference Path="~/Content/tabmenu.js" />
+                </Scripts>
+            </asp:ScriptManager>
+            <div class="header">
+                <img runat="server" src="~/Content/Images/Logo.jpg" width="100" />
+                <div class="header_btm_bg">
+                </div>
+            </div>
+            <div id="contentBox">
+                <div id="maincontent">
+                    <asp:ContentPlaceHolder ID="content" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div id="footer">Telnet Nigeria Limited © 2016 </div>
+
+</body>
+</html>
