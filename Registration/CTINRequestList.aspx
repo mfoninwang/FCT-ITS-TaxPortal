@@ -69,12 +69,12 @@
 </asp:Content>
 
 <asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
-<%--    <div class="btn-group">
-        <a class="btn btn-primary" href="#">
+    <%--<div class="btn-group">--%>
+        <a class="btn btn-info" href="#">
             <i class="glyphicon glyphicon-align-justify"></i>
             Corporate TIN Request List
         </a>
-    </div>--%>
+    <%--</div>--%>
 </asp:Content>
 
 <asp:Content ID="Content5" ContentPlaceHolderID="contentBody" runat="server">
