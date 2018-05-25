@@ -1,0 +1,291 @@
+.dxm-hovered .dxXtraReports_BtnFirstPage_MaterialCompactCustom,
+.dxm-hovered .dxXtraReports_BtnLastPage_MaterialCompactCustom,
+.dxm-hovered .dxXtraReports_BtnNextPage_MaterialCompactCustom,
+.dxm-hovered .dxXtraReports_BtnPrevPage_MaterialCompactCustom,
+.dxm-hovered .dxXtraReports_BtnPrint_MaterialCompactCustom,
+.dxm-hovered .dxXtraReports_BtnPrintPage_MaterialCompactCustom,
+.dxm-hovered .dxXtraReports_BtnSave_MaterialCompactCustom,
+.dxm-hovered .dxXtraReports_BtnSaveWindow_MaterialCompactCustom,
+.dxm-hovered .dxXtraReports_BtnSearch_MaterialCompactCustom,
+.dxXtraReports_BtnFirstPage_MaterialCompactCustom,
+.dxXtraReports_BtnFirstPageDisabled_MaterialCompactCustom,
+.dxXtraReports_BtnLastPage_MaterialCompactCustom,
+.dxXtraReports_BtnLastPageDisabled_MaterialCompactCustom,
+.dxXtraReports_BtnNextPage_MaterialCompactCustom,
+.dxXtraReports_BtnNextPageDisabled_MaterialCompactCustom,
+.dxXtraReports_BtnPrevPage_MaterialCompactCustom,
+.dxXtraReports_BtnPrevPageDisabled_MaterialCompactCustom,
+.dxXtraReports_BtnPrint_MaterialCompactCustom,
+.dxXtraReports_BtnPrintDisabled_MaterialCompactCustom,
+.dxXtraReports_BtnPrintPage_MaterialCompactCustom,
+.dxXtraReports_BtnPrintPageDisabled_MaterialCompactCustom,
+.dxXtraReports_BtnSave_MaterialCompactCustom,
+.dxXtraReports_BtnSaveDisabled_MaterialCompactCustom,
+.dxXtraReports_BtnSaveWindow_MaterialCompactCustom,
+.dxXtraReports_BtnSaveWindowDisabled_MaterialCompactCustom,
+.dxXtraReports_BtnSearch_MaterialCompactCustom,
+.dxXtraReports_BtnSearchDisabled_MaterialCompactCustom,
+.dxXtraReports_PageBorder_blc_MaterialCompactCustom,
+.dxXtraReports_PageBorder_brc_MaterialCompactCustom,
+.dxXtraReports_PageBorder_tlc_MaterialCompactCustom,
+.dxXtraReports_PageBorder_trc_MaterialCompactCustom
+{
+    background-image: url('sprite.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxIE .dx-acc-r .dxm-hovered .dxXtraReports_BtnFirstPage_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-hovered .dxXtraReports_BtnLastPage_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-hovered .dxXtraReports_BtnNextPage_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-hovered .dxXtraReports_BtnPrevPage_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-hovered .dxXtraReports_BtnPrint_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-hovered .dxXtraReports_BtnPrintPage_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-hovered .dxXtraReports_BtnSave_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-hovered .dxXtraReports_BtnSaveWindow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-hovered .dxXtraReports_BtnSearch_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnFirstPage_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnFirstPageDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnLastPage_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnLastPageDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnNextPage_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnNextPageDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnPrevPage_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnPrevPageDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnPrint_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnPrintDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnPrintPage_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnPrintPageDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnSave_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnSaveDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnSaveWindow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnSaveWindowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnSearch_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnSearchDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_PageBorder_blc_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_PageBorder_brc_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_PageBorder_tlc_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_PageBorder_trc_MaterialCompactCustom::before{
+    width: 107px;
+}
+.dxm-hovered .dxXtraReports_BtnFirstPage_MaterialCompactCustom
+{
+    background-position: -19px -38px;
+    width: 18px;
+    height: 18px;
+}
+.dxm-hovered .dxXtraReports_BtnLastPage_MaterialCompactCustom
+{
+    background-position: -76px -19px;
+    width: 18px;
+    height: 18px;
+}
+.dxm-hovered .dxXtraReports_BtnNextPage_MaterialCompactCustom
+{
+    background-position: -38px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxm-hovered .dxXtraReports_BtnPrevPage_MaterialCompactCustom
+{
+    background-position: -57px -19px;
+    width: 18px;
+    height: 18px;
+}
+.dxm-hovered .dxXtraReports_BtnPrint_MaterialCompactCustom
+{
+    background-position: -51px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxXtraReports_BtnPrintPage_MaterialCompactCustom
+{
+    background-position: -17px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxXtraReports_BtnSave_MaterialCompactCustom
+{
+    background-position: -85px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxXtraReports_BtnSaveWindow_MaterialCompactCustom
+{
+    background-position: -51px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxXtraReports_BtnSearch_MaterialCompactCustom
+{
+    background-position: 0px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnFirstPage_MaterialCompactCustom
+{
+    background-position: 0px -38px;
+    width: 18px;
+    height: 18px;
+}
+.dxXtraReports_BtnFirstPageDisabled_MaterialCompactCustom
+{
+    background-position: -57px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxXtraReports_BtnLastPage_MaterialCompactCustom
+{
+    background-position: -76px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxXtraReports_BtnLastPageDisabled_MaterialCompactCustom
+{
+    background-position: 0px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxXtraReports_BtnNextPage_MaterialCompactCustom
+{
+    background-position: -19px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxXtraReports_BtnNextPageDisabled_MaterialCompactCustom
+{
+    background-position: 0px -19px;
+    width: 18px;
+    height: 18px;
+}
+.dxXtraReports_BtnPrevPage_MaterialCompactCustom
+{
+    background-position: -38px -19px;
+    width: 18px;
+    height: 18px;
+}
+.dxXtraReports_BtnPrevPageDisabled_MaterialCompactCustom
+{
+    background-position: -19px -19px;
+    width: 18px;
+    height: 18px;
+}
+.dxXtraReports_BtnPrint_MaterialCompactCustom
+{
+    background-position: -72px -38px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintDisabled_MaterialCompactCustom
+{
+    background-position: -89px -38px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintPage_MaterialCompactCustom
+{
+    background-position: 0px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintPageDisabled_MaterialCompactCustom
+{
+    background-position: -55px -38px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSave_MaterialCompactCustom
+{
+    background-position: -34px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveDisabled_MaterialCompactCustom
+{
+    background-position: -68px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveWindow_MaterialCompactCustom
+{
+    background-position: -68px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveWindowDisabled_MaterialCompactCustom
+{
+    background-position: -34px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSearch_MaterialCompactCustom
+{
+    background-position: -38px -38px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSearchDisabled_MaterialCompactCustom
+{
+    background-position: -17px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_PageBorder_blc_MaterialCompactCustom
+{
+    background-position: -95px -19px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_brc_MaterialCompactCustom
+{
+    background-position: -85px -74px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_tlc_MaterialCompactCustom
+{
+    background-position: -95px 0px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_trc_MaterialCompactCustom
+{
+    background-position: -96px -74px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_t_MaterialCompactCustom,
+.dxXtraReports_PageBorder_l_MaterialCompactCustom,
+.dxXtraReports_PageBorder_r_MaterialCompactCustom,
+.dxXtraReports_PageBorder_b_MaterialCompactCustom {
+    padding: 0px;
+    background-color: transparent;
+}
+
+.dxXtraReports_PageBorder_t_MaterialCompactCustom {
+    background-image: url('pageTopBorder.svg');
+    background-repeat: repeat-x;
+    width: 1px;
+    height: 10px;
+}
+
+.dxXtraReports_PageBorder_l_MaterialCompactCustom {
+    background-image: url('pageLeftBorder.svg');
+    background-repeat: repeat-y;
+    width: 10px;
+    height: 1px;
+}
+
+.dxXtraReports_PageBorder_r_MaterialCompactCustom {
+    background-image: url('pageRightBorder.svg');
+    background-repeat: repeat-y;
+    width: 10px;
+    height: 1px;
+}
+
+.dxXtraReports_PageBorder_b_MaterialCompactCustom {
+    background-image: url('pageBottomBorder.svg');
+    background-repeat: repeat-x;
+    width: 1px;
+    height: 10px;
+}
+

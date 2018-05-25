@@ -14,30 +14,39 @@ namespace TAAPs.Model
     
     public partial class CTINRequest
     {
-        public int RequestId { get; set; }
-        public string RCNo { get; set; }
-        public string CompanyName { get; set; }
+        public long RequestId { get; set; }
+        public string CacNumber { get; set; }
+        public string BNNumber { get; set; }
         public string CompanyType { get; set; }
+        public string PreviousFCTTin { get; set; }
+        public string CompanyName { get; set; }
         public string BusinessLineId { get; set; }
         public string TaxOfficeId { get; set; }
-        public System.DateTime DateOfIncorporation { get; set; }
-        public Nullable<System.DateTime> DateOfCommencement { get; set; }
-        public string FinancialYearBegin { get; set; }
-        public string FinancialYearEnd { get; set; }
-        public string BusinessStreetNo { get; set; }
-        public string BusinessStreet { get; set; }
-        public string BusinessCity { get; set; }
-        public string BusinessStateId { get; set; }
-        public Nullable<int> BusinessLgaId { get; set; }
-        public string Phone1 { get; set; }
-        public string Phone2 { get; set; }
-        public string Phone3 { get; set; }
+        public System.DateTime RegistrationDate { get; set; }
+        public Nullable<System.DateTime> CommencementDate { get; set; }
+        public string RegisteredAddressStreetNo { get; set; }
+        public string RegisteredAddressStreet { get; set; }
+        public string RegisteredAddressCity { get; set; }
+        public int RegisteredAddressCountryId { get; set; }
+        public string RegisteredAddressStateId { get; set; }
+        public int RegisteredAddressLgaId { get; set; }
+        public string PrimaryPhone { get; set; }
+        public string SecondaryPhone { get; set; }
         public string Email { get; set; }
+        public string Website { get; set; }
+        public string ContactPerson { get; set; }
+        public string ContactPersonPhone { get; set; }
+        public string Status { get; set; }
+        public string CreatedBy { get; set; }
         public System.DateTime CreateDate { get; set; }
+        public string RecordSource { get; set; }
     
         public virtual BusinessLine BusinessLine { get; set; }
+        public virtual Country Country { get; set; }
         public virtual LGA LGA { get; set; }
+        public virtual RegisteredCompany RegisteredCompany { get; set; }
         public virtual State State { get; set; }
         public virtual TaxOffice TaxOffice { get; set; }
+        public virtual User User { get; set; }
     }
 }

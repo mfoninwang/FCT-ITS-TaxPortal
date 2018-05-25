@@ -1,0 +1,568 @@
+.dxssControl_MaterialCustom
+{
+    border-style: none;
+    font: 14px 'Roboto Regular', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+}
+.dxssControl_MaterialCustom .dxss-gl .dxss-v,
+.dxssControl_MaterialCustom .dxss-gl .dxss-h
+{
+    border-color: rgba(0,0,0,0.247);
+}
+.dxssControl_MaterialCustom .dxss-rowHeader
+{
+    border-right: 1px solid rgba(0,0,0,0.247);
+    border-top: 1px solid rgba(0,0,0,0.247);
+}
+.dxssControl_MaterialCustom .dxss-colHeader
+{
+    border-bottom: 1px solid rgba(0,0,0,0.247);
+    border-left: 1px solid rgba(0,0,0,0.247);
+}
+.dxssControl_MaterialCustom .dxss-crse
+{
+    background-color: #009688;
+    opacity: .20;
+}
+.dxssControl_MaterialCustom .dxss-trbe
+{
+    border-top-color: #009688;
+}
+.dxssControl_MaterialCustom .dxss-rrbe
+{
+    border-right-color: #009688;
+}
+.dxssControl_MaterialCustom .dxss-brbe
+{
+    border-bottom-color: #009688;
+}
+.dxssControl_MaterialCustom .dxss-lrbe
+{
+    border-left-color: #009688;
+}
+.dxssControl_MaterialCustom .dxss-fh
+{
+    background-color: #009688;
+}
+.dxssControl_MaterialCustom .dxss-sbe
+{
+    border-color: #009688;
+}
+.dxssControl_MaterialCustom .dxss-sbe
+{
+    border-color: #009688;
+}
+.dxssControl_MaterialCustom .dxtcLite_MaterialCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-rightIndent,
+.dxssControl_MaterialCustom .dxtcLite_MaterialCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-leftIndent
+{
+    width: 0px;
+}
+.dxssControl_MaterialCustom .dxrControl_MaterialCustom .dxtcLite_MaterialCustom.dxtc-top .dxtc-leftIndent
+{
+    width: 0px;
+}
+.dxssControl_MaterialCustom .dxtcLite_MaterialCustom.dxtc-bottom .dxtc-leftIndent
+{
+    width: 8px;
+}
+.dxssControl_MaterialCustom .dxss-hrg,
+.dxssControl_MaterialCustom .dxss-vrg
+{
+    background-color: #009688;
+}
+.dxssControl_MaterialCustom .dxss-md
+{
+    border-left: 1px solid rgba(0,0,0,0.247) !important;
+    border-right: 1px solid rgba(0,0,0,0.247) !important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dxssControl_MaterialCustom .dxrControl_MaterialCustom .dxmLite_MaterialCustom .dxm-item
+{
+    padding: 7px 20px 6px 22px;
+}
+.dxssControl_MaterialCustom .dxrControl_MaterialCustom .dxmLite_MaterialCustom .dxm-item
+{
+    padding: 0 4px;
+}
+.dxssControl_MaterialCustom .dxss-tse
+{
+    border-color: #009688;
+}
+.dxssControl_MaterialCustom .dxss-tre
+{
+    background: url('TouchResize.svg');
+}
+.dxssControl_MaterialCustom .dxss-ddp,
+.dxssControl_MaterialCustom .dxss-ddb
+{
+    border: 1px solid rgba(0,0,0,0.247);
+}
+.dxssControl_MaterialCustom .dxss-ddp tr:hover
+{
+    background-color: #e0e0e0;
+}
+/* Loading panel */
+.dxssLoadingDiv_MaterialCustom
+{
+    background: white;
+    opacity: 0.85 !important;
+    filter: alpha(opacity=85);
+}
+.dxssLoadingPanel_MaterialCustom
+{
+    background-color: white;
+    font: 14px 'Roboto Regular', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    color: #484848;
+    -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+}
+.dxssLoadingPanel_MaterialCustom td.dx
+{
+    font-size: 1.17em;
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px 14px;
+}
+.dxssLoadingPanel_MaterialCustom .dxlp-loadingImage
+{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+    animation: dxLoadSpinSys 1s linear infinite;
+    border: 4px solid #009688;
+    border-top: 4px solid #EEE;
+    width: 24px;
+    height: 24px;
+}
+html.dxIE.dxBrowserVersion-9 .dxssLoadingPanel_MaterialCustom .dxlp-loadingImage
+{
+    background-image: url('../Web/Loading.gif');
+    height: 32px;
+    width: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: none;
+    border: none;
+    border-radius: 0;
+}
+/* DX Spreadsheet Cell Editor Element, Formula Bar, IntelliSense elements */
+.dxssControl_MaterialCustom .dxss-ctve
+{
+    border: 2px solid #009688;
+    /*the same -dxss-cfe */
+}
+.dxssControl_MaterialCustom .dxss-fb
+{
+    height: 32px;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.247);
+    border-top-width: 0;
+}
+.dxssControl_MaterialCustom .dxss-fbw
+{
+    padding: 7px 8px 7px 7px;
+    border: 1px solid #DCDCDC;
+    background-color: white;
+}
+.dxFirefox .dxssControl_MaterialCustom .dxss-fbw
+{
+    padding: 7px 8px 6px 7px;
+}
+.dxssControl_MaterialCustom .dxmLite_MaterialCustom .dxss-fbMenu
+{
+    height: 32px;
+    border: 0;
+    background-color: transparent;
+    background-image: none;
+}
+.dxssControl_MaterialCustom .dxss-fbMenu .dxm-content
+{
+    padding-top: 8px !important;
+    padding-left: 27px !important;
+    padding-right: 27px !important;
+    padding-bottom: 0px !important;
+}
+.dxssControl_MaterialCustom .dxss-hint
+{
+    border: 1px solid #dedede;
+    background-color: #FFFFFF;
+    padding: 3px 8px 4px 8px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+.dxssControl_MaterialCustom .dxss-hint,
+.dxss-funcLB.dxeListBox_MaterialCustom
+{
+    -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+}
+.dxssControl_MaterialCustom .dxss-hint.dxss-funcInfo
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.dxpnlControl_MaterialCustom .dxssDlgPageSetupForm
+{
+    width: 530px;
+}
+.dxssDlgPageSetupForm .dxssPSContainer .dxssPageControl.dxtcLite_MaterialCustom .dxtc-content
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.dxssDlgPageSetupForm .dxssPSContainer .dxssPageControl.dxtcLite_MaterialCustom
+{
+    margin-top: 16px;
+}
+.dxssDlgPageSetupForm .dxtcLite_MaterialCustom > .dxtc-stripContainer .dxtc-link
+{
+    padding: 4px 25px;
+}
+.dxpnlControl_MaterialCustom .dxssDlgPageSetupForm .dxeButtonEdit_MaterialCustom
+{
+    min-width: 75px;
+}
+.dxpnlControl_MaterialCustom .dxssDlgPageSetupForm .dxssPSPrintContainer
+{
+    padding: 10px 19px 10px 10px;
+    margin-bottom: 4px;
+}
+.dxpnlControl_MaterialCustom .dxssDlgPageSetupForm .dxtcLite_MaterialCustom > .dxtc-content
+{
+    padding: 0px;
+}
+.dxssControlSys .dxmLite_MaterialCustom .dxm-popup .dxm-checked img[class*="ssRibbonGIcons_PageMarginsNormal"],
+.dxssControlSys .dxmLite_MaterialCustom .dxm-popup .dxm-checked img[class*="ssRibbonGIcons_PageMarginsWide"],
+.dxssControlSys .dxmLite_MaterialCustom .dxm-popup .dxm-checked img[class*="ssRibbonGIcons_PageMarginsNarrow"],
+.dxssControlSys .dxmLite_MaterialCustom .dxm-popup .dxm-checked span[class*="ssRibbonGIcons_PageMarginsNormal"],
+.dxssControlSys .dxmLite_MaterialCustom .dxm-popup .dxm-checked span[class*="ssRibbonGIcons_PageMarginsWide"],
+.dxssControlSys .dxmLite_MaterialCustom .dxm-popup .dxm-checked span[class*="ssRibbonGIcons_PageMarginsNarrow"]
+{
+    margin-top: 3px !important;
+}
+.dxssControlSys .dxmLite_MaterialCustom .dxm-popup img[class*="ssRibbonGIcons_PageMarginsNormal"],
+.dxssControlSys .dxmLite_MaterialCustom .dxm-popup img[class*="ssRibbonGIcons_PageMarginsWide"],
+.dxssControlSys .dxmLite_MaterialCustom .dxm-popup img[class*="ssRibbonGIcons_PageMarginsNarrow"],
+.dxssControlSys .dxmLite_MaterialCustom .dxm-popup span[class*="ssRibbonGIcons_PageMarginsNormal"],
+.dxssControlSys .dxmLite_MaterialCustom .dxm-popup span[class*="ssRibbonGIcons_PageMarginsWide"],
+.dxssControlSys .dxmLite_MaterialCustom .dxm-popup span[class*="ssRibbonGIcons_PageMarginsNarrow"]
+{
+    margin-top: 3px !important;
+}
+.dxssFCFormLayout .dxflGroupCell_MaterialCustom
+{
+    padding: 0 10px;
+}
+.dxpcLite_MaterialCustom .dxssDlgFormatCellsForm
+{
+    width: 623px;
+}
+.dxeListBox_MaterialCustom.dxssFCType
+{
+    width: 400px !important;
+    height: 159px !important;
+}
+.dxeListBox_MaterialCustom.dxssFCType .dxlbd
+{
+    width: 398px !important;
+}
+.dxeListBox_MaterialCustom.dxssFCCategory
+{
+    width: 150px !important;
+    height: 350px !important;
+    margin-top: 13px;
+}
+.dxflGroup_MaterialCustom.dxssFCDescription
+{
+    height: 85px;
+    padding-top: 13px !important;
+}
+.dxssFCFormLayout .dxflGroupBox_MaterialCustom
+{
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+}
+.dxssFCSampleGroup .dxflItem_MaterialCustom
+{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.dxeControlsCell_MaterialCustom > .dxssFCDecimalPlaces
+{
+    width: 100px !important;
+}
+/* Cell Editing */
+.dxssControl_MaterialCustom.icbem .dxss-inputTarget
+{
+    border: 2px solid #009688;
+}
+/*Cell position hint*/
+.dxssControl_MaterialCustom .dxss-cell-pos-hint
+{
+    background-color: #009688;
+    color: white;
+}
+.dxrControl_MaterialCustom .dxssRibbonCBSmall
+{
+    width: 100px;
+}
+.dxrControl_MaterialCustom .dxssRibbonCBLarge
+{
+    width: 130px;
+}
+/* --------------Dialogs----------------- */
+.dxssControl_MaterialCustom .dxss-dialogSimpleFooterGroup,
+.dxssControl_MaterialCustom .dxss-dialogFooter
+{
+    border-top: 1px #dfdfdf solid;
+    padding: 10px 19px 11px 10px;
+}
+.dxssControl_MaterialCustom .dxss-dialog .dxss-dialogFooterBtn
+{
+    width: 100px !important;
+}
+.dxssControl_MaterialCustom .dxss-dialog .dxss-imagePreviewCell
+{
+    color: #878787;
+    border: dashed 1px #cac8c8;
+}
+.dxssControl_MaterialCustom .dxss-customDataFilterForm .dxss-dialogRadionButtonList .dxe,
+.dxssControl_MaterialCustom .dxss-dialogHeaderGroup .dxss-dialogRadionButtonList .dxe
+{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.dxssControl_MaterialCustom .dxss-changeChartTypeForm .dxss-chartsbtn div.dxb
+{
+    padding: 6px 9px 7px;
+}
+.dxssControl_MaterialCustom .dxss-changeChartTypeForm .dxss-chartsbtn
+{
+    width: auto;
+}
+.dxssControl_MaterialCustom .dxss-changeChartTypeForm .dxtcLite_MaterialCustom.dxtc-left > .dxtc-stripContainer .dxtc-link
+{
+    padding-right: 5px;
+}
+@media (max-width: 400px)
+{
+    .dxssControl_MaterialCustom .dxss-dialog .dxss-dialogRadionButtonList .dxichTextCellSys
+    {
+        padding-right: 5px;
+    }
+    .dxssControl_MaterialCustom .dxss-saveFileAsForm .dxss-dialogContentGroup,
+    .dxssControl_MaterialCustom .dxss-insertLinkForm .dxss-dialogContentGroup
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .dxssControl_MaterialCustom .dxss-changeChartTypeForm .dxtcLite_MaterialCustom.dxtc-left > .dxtc-stripContainer .dxtc-link
+    {
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    .dxssControl_MaterialCustom .dxss-changeChartTypeForm .dxtcLite_MaterialCustom > .dxtc-content
+    {
+        padding-left: 7px;
+        padding-right: 7px;
+        text-align: center;
+    }
+    .dxssControl_MaterialCustom .dxss-changeChartTypeForm .dxss-dialogSimpleContentGroup
+    {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    .dxssControl_MaterialCustom .dxss-modifyTableStyleForm .dxss-dialogSimpleContentGroup
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .dxssControl_MaterialCustom .dxss-modifyTableStyleForm .dxtcLite_MaterialCustom.dxtc-left > .dxtc-stripContainer .dxtc-link
+    {
+        padding-left: 6px;
+        padding-right: 5px;
+    }
+    .dxssControl_MaterialCustom .dxss-modifyTableStyleForm .dxtcLite_MaterialCustom > .dxtc-content
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+    }
+}
+/*---------Change-Chart-Style-Dialog-------*/
+.dxss-modifyChartStyleContent .dxbButtonHover_MaterialCustom
+{
+    color: white;
+    background-color: #009688;
+    border: 1px solid #009688;
+}
+.dxss-modifyChartStyleContent .dxbButtonChecked_MaterialCustom
+{
+    color: #484848;
+    background-color: #C0C0C0;
+}
+.dxss-modifyChartStyleContent .dxbButtonPressed_MaterialCustom
+{
+    color: white;
+    background-color: #C0C0C0;
+}
+.dxss-modifyChartStyleContent .dxbButton_MaterialCustom div.dxb
+{
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.dxss-modifyChartStyleContent .dxbButton_MaterialCustom
+{
+    border-width: 1px;
+    border-style: solid;
+    width: auto;
+}
+.dxeBase_MaterialCustom.dxss-cbFindMatch td.dxichCellSys,
+.dxeBase_MaterialCustom.dxss-cbFindMatch td.dxichTextCellSys
+{
+    padding-top: 6px;
+}
+/* Format as Table */
+.dxss-modifyChartStyleContent .dxbButton_MaterialCustom div.dxb
+{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.dxss-modifyChartStyleContent .dxbButton_MaterialCustom div.dxbf
+{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+/*-----Filter-Dialogs-----*/
+.dxss-validationConfirmForm .dxbButton_MaterialCustom div.dxb,
+.dxss-dataFilterSimpleForm .dxbButton_MaterialCustom div.dxb
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+@media (max-width: 475px)
+{
+    .dxss-dataValidationForm .dxbButton_MaterialCustom div.dxb,
+    .dxss-dataFilterSimpleForm .dxbButton_MaterialCustom div.dxb
+    {
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .dxpnlControl_MaterialCustom .dxss-dataFilterSimpleForm .dxss-dialogControlsWrapper > tbody > tr > td:first-child
+    {
+        display: none;
+    }
+    .dxssControl_MaterialCustom .dxss-dataValidationForm .dxss-dialogSimpleFooterGroup,
+    .dxssControl_MaterialCustom .dxss-dataFilterSimpleForm .dxss-dialogSimpleFooterGroup
+    {
+        padding-left: 0px;
+        padding-right: 2px;
+    }
+    .dxssControl_MaterialCustom .dxss-dialog.dxss-dataValidationForm .dxss-dialogFooterBtn,
+    .dxssControl_MaterialCustom .dxss-dialog.dxss-validationConfirmForm .dxss-dialogFooterBtn,
+    .dxssControl_MaterialCustom .dxss-dialog.dxss-dataFilterSimpleForm .dxss-dialogFooterBtn
+    {
+        width: 85px !important;
+    }
+}
+/*---Page-Setup-Dialog---*/
+.dxssControl_MaterialCustom .dxss-pageSetupForm .dxss-pageSetupContent > div:first-child
+{
+    padding-right: 0px;
+    padding-left: 7px;
+}
+.dxssControl_MaterialCustom .dxss-pageSetupForm .dxss-pageSetupContent .dxss-customPaddingGroup
+{
+    padding-left: 0px;
+    padding-right: 10px;
+}
+.dxss-customPaddingGroup .dxflGroupCell_MaterialCustom
+{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.dxssControl_MaterialCustom .dxss-dialog .dxss-shortEditor
+{
+    min-width: 90px;
+    max-width: 90px;
+}
+.dxssControl_MaterialCustom .dxss-pageSetupForm .dxss-orientationGroup
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.dxssControl_MaterialCustom .dxss-pageSetupForm .dxss-scalingGroup,
+.dxssControl_MaterialCustom .dxss-pageSetupForm .dxss-pagePrintGroup,
+.dxssControl_MaterialCustom .dxss-pageSetupForm .dxss-firstPageGroup
+{
+    padding-left: 7px;
+}
+/*---Floating-content---*/
+.dxssControl_MaterialCustom .dxss-pageSetupForm .dxss-scalingGroup > div:first-child,
+.dxssControl_MaterialCustom .dxss-pageSetupForm .dxss-scalingGroup > div:nth-child(3)
+{
+    width: 25% !important;
+}
+.dxssControl_MaterialCustom .dxss-pageSetupForm .dxss-scalingGroup > div:nth-child(2)
+{
+    width: 75% !important;
+}
+.dxssControl_MaterialCustom .dxss-pageSetupForm .dxss-scalingGroup > div:nth-child(5)
+{
+    width: 35% !important;
+}
+/*---Spin-edits---*/
+.dxss-marginPreviewContainer .dxss-previewTable .dxeButtonEditSys .dxeSpinIncButton_MaterialCustom,
+.dxss-marginPreviewContainer .dxss-previewTable .dxeButtonEditSys .dxeSpinDecButton_MaterialCustom
+{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.dxssControl_MaterialCustom .dxss-pageSetupContent .dxss-HFMainGroup
+{
+    padding-left: 0px;
+    padding-right: 10px;
+}
+.dxssControl_MaterialCustom .dxss-previewTable .dxeCaptionCell_MaterialCustom
+{
+    padding-bottom: 3px;
+}
+/*---Custom-Header-Footer-Dialog---*/
+.dxssControl_MaterialCustom .dxss-headerFooterContent .dxss-HFHeaderGroup,
+.dxssControl_MaterialCustom .dxss-headerFooterContent .dxss-HFFooterGroup
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.dxss-headerFooterContent .dxss-HFHeaderGroup .dxflGroupCell_MaterialCustom,
+.dxss-headerFooterContent .dxss-HFFooterGroup .dxflGroupCell_MaterialCustom
+{
+    padding-left: 0px;
+    padding-right: 10px;
+}
+/***Data*Validation***/
+.dxss-dataValidationForm .dxtcLite_MaterialCustom .dxss-dvContent
+{
+    min-height: 314px;
+}
+.dxss-dataValidationForm .dxtcLite_MaterialCustom .dxss-dvSettingsContent
+{
+    min-height: 270px;
+}
+.dxss-dataValidationForm .dxtcLite_MaterialCustom .dxss-dvSettingsContent .dxss-dvDescriptionRow
+{
+    padding-top: 5px;
+}
+.dxssControl_MaterialCustom .dxss-dataValidationForm .dxss-zeroPaddingGroup
+{
+    padding-right: 0px;
+    padding-left: 0px;
+}

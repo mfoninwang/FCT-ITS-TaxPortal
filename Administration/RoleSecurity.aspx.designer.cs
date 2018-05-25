@@ -13,6 +13,51 @@ namespace TAAPs.Administration {
     public partial class RoleSecurity {
         
         /// <summary>
+        /// SecuritySplitter control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxSplitter SecuritySplitter;
+        
+        /// <summary>
+        /// ASPxcbRoles control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxComboBox ASPxcbRoles;
+        
+        /// <summary>
+        /// ASPxModules control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxComboBox ASPxModules;
+        
+        /// <summary>
+        /// ASPxCblRoleResources control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxCheckBoxList ASPxCblRoleResources;
+        
+        /// <summary>
+        /// ASPxbtnSaveRolePermissions control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxButton ASPxbtnSaveRolePermissions;
+        
+        /// <summary>
         /// edsRoleResources control.
         /// </summary>
         /// <remarks>
@@ -47,32 +92,5 @@ namespace TAAPs.Administration {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.EntityDataSource edsRoles;
-        
-        /// <summary>
-        /// ASPxcbRoles control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DevExpress.Web.ASPxComboBox ASPxcbRoles;
-        
-        /// <summary>
-        /// aspxChklResourses control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DevExpress.Web.ASPxCheckBoxList aspxChklResourses;
-        
-        /// <summary>
-        /// ASPxbtnSaveRolePermissions control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DevExpress.Web.ASPxButton ASPxbtnSaveRolePermissions;
     }
 }

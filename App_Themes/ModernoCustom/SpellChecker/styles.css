@@ -1,0 +1,65 @@
+.dxwscCheckedTextContainer_ModernoCustom
+{
+    background-color: white;
+    border: solid 1px #d1d1d1;
+    vertical-align: top;
+    overflow: auto;
+    width: 340px;
+    height: 110px;
+    padding: 5px;
+}
+.dxwscErrorWord_ModernoCustom
+{
+    background: url('scErrorUnderline.gif') bottom;
+    background-repeat: repeat-x;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+/* -- Loading panel -- */
+.dxwscLoadingPanel_ModernoCustom
+{
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #2b2b2b;
+    background-color: White;
+    border: 1px solid #cfcfcf;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxwscLoadingPanel_ModernoCustom td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 15px 34px 15px 20px;
+}
+.dxwscLoadingPanel_ModernoCustom .dxlp-loadingImage
+{
+    background-image: url('../Web/Loading.gif');
+    height: 40px;
+    width: 40px;
+}
+/* -- Forms -- */
+.dxwsc-main .dxpcLite_ModernoCustom .dxwscDlgFooter
+{
+    background-color: #fafafa;
+    border-top: 1px solid #d1d1d1;
+    padding: 16px 15px;
+    text-align: right;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_ModernoCustom .dxwscDlgFooter
+{
+    text-align: left;
+}
+.dxwsc-main .dxpcLite_ModernoCustom .dxwscDlgFooterBtn
+{
+    width: 100px;
+    margin-left: 10px;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_ModernoCustom .dxwscDlgFooterBtn
+{
+    margin-right: 10px;
+    margin-left: 0;
+}
+.dxwsc-main .dxpcLite_ModernoCustom .dxwscDlgSpellCheckBtn
+{
+    width: 132px;
+}

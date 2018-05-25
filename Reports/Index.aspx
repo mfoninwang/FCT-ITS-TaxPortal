@@ -1,13 +1,34 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="TAAPs.Reports.Index" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainLayout.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="TAAPs.Reports.Index" %>
 
-<%@ Register Assembly="DevExpress.Web.v15.2, Version=15.2.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
-
+<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="contentTitle" runat="server">
+    Report
+</asp:Content>
+
+
+<asp:Content ID="Content3" ContentPlaceHolderID="contentSubTitle" runat="server">
+    Report List
+</asp:Content>
+
+
+<asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
+    <div class="btn-group">
+        <a class="btn btn-primary" href="#">
+            <i class="fa fa-list"></i>
+            Report List
+        </a>
+    </div>
+</asp:Content>
+
+
+<asp:Content ID="Content5" ContentPlaceHolderID="contentBody" runat="server">
 
     <div style="padding-top: 20px; padding-bottom: 30px;">
 
@@ -15,8 +36,6 @@
         </dx:ASPxLabel>
         <dx:ASPxComboBox ID="ASPxcbReportList" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ASPxcbReportList_SelectedIndexChanged" Width="300px" DataSourceID="edsCategory" TextField="ReportCategoryName" ValueField="ReportCategoryId">
         </dx:ASPxComboBox>
-
-
 
     </div>
     <dx:ASPxDataView runat="server" RowPerPage="10" ColumnCount="4" AllowPaging="False" DataSourceID="edsReports" ID="ASPxDataView1">

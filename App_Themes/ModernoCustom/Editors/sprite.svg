@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50">
+<g transform="translate(0, 0)">
+<g xmlns="http://www.w3.org/2000/svg">
+	<circle fill="#D1D1D1" cx="12" cy="12" r="12" />
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+	<circle fill="#F1F1F1" cx="12" cy="12" r="11" />
+</g>
+<circle fill="#2B2B2B" cx="12" cy="12" r="5" xmlns="http://www.w3.org/2000/svg" />
+</g>
+
+<g transform="translate(0, 25)">
+<style type="text/css" xmlns="http://www.w3.org/2000/svg">
+	.st0{opacity:0.25;fill:#2B2B2B;}
+</style>
+<g xmlns="http://www.w3.org/2000/svg">
+	<circle fill="#D1D1D1" cx="12" cy="12" r="12" />
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+	<circle fill="#F1F1F1" cx="12" cy="12" r="11" />
+</g>
+<circle class="st0" cx="12" cy="12" r="5" xmlns="http://www.w3.org/2000/svg" />
+</g>
+
+<g transform="translate(25, 25)">
+<g xmlns="http://www.w3.org/2000/svg">
+	<circle fill="#D1D1D1" cx="12" cy="12" r="12" />
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+	<circle fill="#F1F1F1" cx="12" cy="12" r="11" />
+</g>
+</g>
+
+<g transform="translate(25, 0)">
+<g xmlns="http://www.w3.org/2000/svg">
+	<circle fill="#D1D1D1" cx="12" cy="12" r="12" />
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+	<circle fill="#F1F1F1" cx="12" cy="12" r="11" />
+</g>
+</g>
+
+
+</svg>
+

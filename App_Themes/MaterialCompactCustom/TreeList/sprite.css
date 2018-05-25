@@ -1,0 +1,344 @@
+.dxm-checked .dxTreeList_CTShowCustomizationWindow_MaterialCompactCustom,
+.dxTreeList_CollapsedButton_MaterialCompactCustom,
+.dxTreeList_CollapsedButtonRtl_MaterialCompactCustom,
+.dxTreeList_CTCollapseRow_MaterialCompactCustom,
+.dxTreeList_CTCollapseRowDisabled_MaterialCompactCustom,
+.dxTreeList_CTDeleteRow_MaterialCompactCustom,
+.dxTreeList_CTDeleteRowDisabled_MaterialCompactCustom,
+.dxTreeList_CTEditRow_MaterialCompactCustom,
+.dxTreeList_CTEditRowDisabled_MaterialCompactCustom,
+.dxTreeList_CTExpandRow_MaterialCompactCustom,
+.dxTreeList_CTExpandRowDisabled_MaterialCompactCustom,
+.dxTreeList_CTExportDocx_MaterialCompactCustom,
+.dxTreeList_CTExportDocxDisabled_MaterialCompactCustom,
+.dxTreeList_CTExportPdf_MaterialCompactCustom,
+.dxTreeList_CTExportPdfDisabled_MaterialCompactCustom,
+.dxTreeList_CTExportRtf_MaterialCompactCustom,
+.dxTreeList_CTExportRtfDisabled_MaterialCompactCustom,
+.dxTreeList_CTExportXls_MaterialCompactCustom,
+.dxTreeList_CTExportXlsDisabled_MaterialCompactCustom,
+.dxTreeList_CTExportXlsx_MaterialCompactCustom,
+.dxTreeList_CTExportXlsxDisabled_MaterialCompactCustom,
+.dxTreeList_CTFullCollapse_MaterialCompactCustom,
+.dxTreeList_CTFullCollapseDisabled_MaterialCompactCustom,
+.dxTreeList_CTFullExpand_MaterialCompactCustom,
+.dxTreeList_CTFullExpandDisabled_MaterialCompactCustom,
+.dxTreeList_CTNewRow_MaterialCompactCustom,
+.dxTreeList_CTNewRowDisabled_MaterialCompactCustom,
+.dxTreeList_CTRefresh_MaterialCompactCustom,
+.dxTreeList_CTRefreshDisabled_MaterialCompactCustom,
+.dxTreeList_CTShowCustomizationWindow_MaterialCompactCustom,
+.dxTreeList_CTShowCustomizationWindowDisabled_MaterialCompactCustom,
+.dxTreeList_DragAndDropArrowDown_MaterialCompactCustom,
+.dxTreeList_DragAndDropArrowUp_MaterialCompactCustom,
+.dxTreeList_DragAndDropHide_MaterialCompactCustom,
+.dxTreeList_DragAndDropNode_MaterialCompactCustom,
+.dxTreeList_ExpandedButton_MaterialCompactCustom,
+.dxTreeList_ExpandedButtonRtl_MaterialCompactCustom,
+.dxTreeList_FilterRowButton_MaterialCompactCustom,
+.dxTreeList_HeaderFilter_MaterialCompactCustom,
+.dxTreeList_HeaderFilterActive_MaterialCompactCustom,
+.dxTreeList_SortAsc_MaterialCompactCustom,
+.dxTreeList_SortDesc_MaterialCompactCustom
+{
+    background-image: url('sprite.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxIE .dx-acc-r .dxm-checked .dxTreeList_CTShowCustomizationWindow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CollapsedButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CollapsedButtonRtl_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTCollapseRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTCollapseRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTDeleteRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTDeleteRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTEditRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTEditRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTExpandRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTExpandRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportDocx_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportDocxDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportPdf_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportPdfDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportRtf_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportRtfDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportXls_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportXlsDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportXlsx_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportXlsxDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTFullCollapse_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTFullCollapseDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTFullExpand_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTFullExpandDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTNewRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTNewRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTRefresh_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTRefreshDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTShowCustomizationWindow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_CTShowCustomizationWindowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_DragAndDropArrowDown_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_DragAndDropArrowUp_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_DragAndDropHide_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_DragAndDropNode_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_ExpandedButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_ExpandedButtonRtl_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_FilterRowButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_HeaderFilter_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_HeaderFilterActive_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_SortAsc_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxTreeList_SortDesc_MaterialCompactCustom::before{
+    width: 17px;
+}
+.dxm-checked .dxTreeList_CTShowCustomizationWindow_MaterialCompactCustom
+{
+    background-position: 0px -408px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CollapsedButton_MaterialCompactCustom
+{
+    background-position: -11px -592px;
+    width: 4px;
+    height: 7px;
+}
+.dxTreeList_CollapsedButtonRtl_MaterialCompactCustom
+{
+    background-position: -10px -581px;
+    width: 4px;
+    height: 7px;
+}
+.dxTreeList_CTCollapseRow_MaterialCompactCustom
+{
+    background-position: 0px -391px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTCollapseRowDisabled_MaterialCompactCustom
+{
+    background-position: 0px -85px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTDeleteRow_MaterialCompactCustom
+{
+    background-position: 0px -476px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTDeleteRowDisabled_MaterialCompactCustom
+{
+    background-position: 0px -374px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTEditRow_MaterialCompactCustom
+{
+    background-position: 0px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTEditRowDisabled_MaterialCompactCustom
+{
+    background-position: 0px -170px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExpandRow_MaterialCompactCustom
+{
+    background-position: 0px -119px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExpandRowDisabled_MaterialCompactCustom
+{
+    background-position: 0px -340px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportDocx_MaterialCompactCustom
+{
+    background-position: 0px -238px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportDocxDisabled_MaterialCompactCustom
+{
+    background-position: 0px -136px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportPdf_MaterialCompactCustom
+{
+    background-position: 0px -493px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportPdfDisabled_MaterialCompactCustom
+{
+    background-position: 0px -204px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportRtf_MaterialCompactCustom
+{
+    background-position: 0px -102px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportRtfDisabled_MaterialCompactCustom
+{
+    background-position: 0px -323px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportXls_MaterialCompactCustom
+{
+    background-position: 0px -221px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportXlsDisabled_MaterialCompactCustom
+{
+    background-position: 0px -357px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportXlsx_MaterialCompactCustom
+{
+    background-position: 0px -187px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportXlsxDisabled_MaterialCompactCustom
+{
+    background-position: 0px -459px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTFullCollapse_MaterialCompactCustom
+{
+    background-position: 0px -289px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTFullCollapseDisabled_MaterialCompactCustom
+{
+    background-position: 0px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTFullExpand_MaterialCompactCustom
+{
+    background-position: 0px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTFullExpandDisabled_MaterialCompactCustom
+{
+    background-position: 0px -425px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTNewRow_MaterialCompactCustom
+{
+    background-position: 0px -306px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTNewRowDisabled_MaterialCompactCustom
+{
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTRefresh_MaterialCompactCustom
+{
+    background-position: 0px -442px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTRefreshDisabled_MaterialCompactCustom
+{
+    background-position: 0px -272px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTShowCustomizationWindow_MaterialCompactCustom
+{
+    background-position: 0px -255px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTShowCustomizationWindowDisabled_MaterialCompactCustom
+{
+    background-position: 0px -153px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_DragAndDropArrowDown_MaterialCompactCustom
+{
+    background-position: 0px -592px;
+    width: 10px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropArrowUp_MaterialCompactCustom
+{
+    background-position: 0px -602px;
+    width: 10px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropHide_MaterialCompactCustom
+{
+    background-position: 0px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_DragAndDropNode_MaterialCompactCustom
+{
+    background-position: 0px -581px;
+    width: 9px;
+    height: 10px;
+}
+.dxTreeList_ExpandedButton_MaterialCompactCustom
+{
+    background-position: 0px -612px;
+    width: 7px;
+    height: 4px;
+}
+.dxTreeList_ExpandedButtonRtl_MaterialCompactCustom
+{
+    background-position: -8px -612px;
+    width: 7px;
+    height: 4px;
+}
+.dxTreeList_FilterRowButton_MaterialCompactCustom
+{
+    background-position: 0px -510px;
+    width: 14px;
+    height: 14px;
+}
+.dxTreeList_HeaderFilter_MaterialCompactCustom
+{
+    background-position: 0px -525px;
+    width: 14px;
+    height: 14px;
+}
+.dxTreeList_HeaderFilterActive_MaterialCompactCustom
+{
+    background-position: 0px -540px;
+    width: 14px;
+    height: 14px;
+}
+.dxTreeList_SortAsc_MaterialCompactCustom
+{
+    background-position: 0px -568px;
+    width: 12px;
+    height: 12px;
+}
+.dxTreeList_SortDesc_MaterialCompactCustom
+{
+    background-position: 0px -555px;
+    width: 12px;
+    height: 12px;
+}
+

@@ -23,10 +23,6 @@ namespace TAAPs.Assessment
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            //if (!IsPostBack)
-            //{
-                ASPxgvAssessments.DataBind();
-            //}
         }
 
         protected void ASPxgvAssessments_CustomErrorText(object sender, DevExpress.Web.ASPxGridViewCustomErrorTextEventArgs e)

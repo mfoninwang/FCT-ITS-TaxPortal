@@ -1,8 +1,30 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="CollectionAgentList.aspx.cs" Inherits="TAAPs.Collections.CollectionAgentList" %>
-<%@ Register assembly="DevExpress.Web.v15.2, Version=15.2.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainLayout.Master" AutoEventWireup="true" CodeBehind="CollectionAgentList.aspx.cs" Inherits="TAAPs.Collections.CollectionAgentList" %>
+<%@ Register assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
+
+<asp:Content ID="Content2" ContentPlaceHolderID="contentTitle" runat="server">
+    Tax Collection Agent
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="contentSubTitle" runat="server">
+    Agent List
+</asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
+        <div class="btn-group">
+        <a class="btn btn-primary" href="#">
+            <i class="fa fa-plus"></i>
+            Add Tax Collection Agent
+        </a>
+    </div>
+</asp:Content>
+
+
+
+<asp:Content ID="Content5" ContentPlaceHolderID="contentBody" runat="server">
     <dx:ASPxGridView ID="aspxgvAgents" runat="server" AutoGenerateColumns="False" DataSourceID="edsAgents" KeyFieldName="AgentId" OnCellEditorInitialize="aspxgvAgents_CellEditorInitialize" OnCustomErrorText="aspxgvAgents_CustomErrorText">
         <ClientSideEvents RowDblClick="function(s, e) {
 	s.StartEditRow(e.visibleIndex);

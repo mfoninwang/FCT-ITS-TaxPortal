@@ -1,0 +1,505 @@
+.dxvgControl_ModernoCustom,
+.dxvgDisabled_ModernoCustom
+{
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #2b2b2b;
+    background-color: #FFFFFF;
+    cursor: default;
+}
+.dxvgDisabled_ModernoCustom
+{
+    color: #A6A6A6;
+}
+.dxvgControl_ModernoCustom a
+{
+    color: #045cad;
+}
+.dxvgControl_ModernoCustom a:hover
+{
+    color: #2b2b2b;
+}
+.dxvgControl_ModernoCustom a:hover.dxbDisabled_ModernoCustom
+{
+    color: #BBBBBB;
+}
+.dxvgDisabled_ModernoCustom a
+{
+    color: #A6A6A6;
+}
+.dxvgControl_ModernoCustom .dxeListBox_ModernoCustom
+{
+    background-color: #FFFFFF;
+}
+.dxvgTable_ModernoCustom
+{
+    background-color: #FFFFFF;
+    border: Solid 1px #d1d1d1;
+    border-collapse: separate !important;
+    overflow: hidden;
+    table-layout: fixed;
+}
+.dxvgTable_ModernoCustom .dxvgHEC
+{
+    background-color: #FFFFFF;
+    border-width: 0;
+    overflow: hidden;
+}
+.dxvgCSD .dxvgTable_ModernoCustom
+{
+    border-bottom: 0;
+    border-right: 0;
+}
+.dxvgControl_ModernoCustom .dxvgCSD
+{
+    border-right: Solid 1px #d1d1d1;
+    border-bottom: Solid 1px #d1d1d1;
+}
+.dxvgControl_ModernoCustom .dxvgFCW + .dxvgTable_ModernoCustom
+{
+    border-top: 0;
+}
+.dxvgControl_ModernoCustom table[id$='DXFixedTable']
+{
+    border-bottom: 0;
+}
+.dxvgHeader_ModernoCustom
+{
+    cursor: pointer;
+    color: #7e7e7e;
+    font-weight: normal;
+    text-align: left;
+    background-color: #fafafa;
+    padding: 7px 10px 6px;
+    border: 1px Solid #d1d1d1;
+    border-width: 0 1px 1px 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.dxvgCategory_ModernoCustom
+{
+    font-weight: bold;
+    color: #7e7e7e;
+    background-color: #FFFFFF;
+    padding: 16px 10px;
+    border-bottom: 1px solid #d1d1d1;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.dxvgCSD .dxvgCategory_ModernoCustom:not(.dxvg__I)
+{
+    border-right: 1px solid #d1d1d1;
+}
+.dxvgCategoryRow_ModernoCustom.dxvgER .dxvgCategory_ModernoCustom,
+.dxvgCategoryRow_ModernoCustom.dxvgCR .dxvgCategory_ModernoCustom
+{
+    cursor: pointer;
+}
+.dxvgCategoryRow_ModernoCustom.dxvgER .dxvgCategory_ModernoCustom.dxvg__I,
+.dxvgCategoryRow_ModernoCustom.dxvgCR .dxvgCategory_ModernoCustom.dxvg__I
+{
+    cursor: default;
+}
+.dxvgRecord_ModernoCustom
+{
+    padding: 8px 10px 9px;
+    border: 1px Solid #d1d1d1;
+    border-width: 0 1px 1px 0;
+    overflow: hidden;
+}
+.dxvgRecord_ModernoCustom:last-child
+{
+    border-right-width: 0;
+}
+.dxvgRPFC .dxvgRecord_ModernoCustom
+{
+    border-bottom: 1px Solid #cacbd3;
+}
+.dxvgGLNV .dxvgRecord_ModernoCustom
+{
+    border-right-width: 0;
+}
+.dxvgGLNH .dxvgRecord_ModernoCustom
+{
+    border-bottom-width: 0;
+}
+.dxvgGLNH .dxvgRPFC .dxvgRecord_ModernoCustom
+{
+    border-bottom-width: 1px;
+}
+.dxvgGLNH .dxvgRPFC.dxvgER .dxvgRecord_ModernoCustom
+{
+    border-bottom-width: 0;
+}
+.dxvgFC .dxvgGLNH tr:last-child .dxvgRecord_ModernoCustom
+{
+    border-bottom-width: 1px;
+}
+.dxvgRecordAlt_ModernoCustom
+{
+    background-color: #EEF6FB;
+}
+/* Select, Hover */
+.dxvgSelectedRecord_ModernoCustom
+{
+    background-color: #f3f3f3;
+}
+.dxvgSelectedRecord_ModernoCustom a
+{
+    color: #045cad;
+}
+.dxvgDataRowHover_ModernoCustom .dxvgRecord_ModernoCustom
+{
+    background: #1279C0;
+    color: white;
+}
+.dxvgDataRowHover_ModernoCustom a,
+.dxvgDataRowHover_ModernoCustom .dxvgCommandCell_ModernoCustom a
+{
+    color: white;
+}
+/* Command Items */
+.dxvgCommandCell_ModernoCustom a,
+.dxvgHeader_ModernoCustom a.dxvgCommandItem_ModernoCustom
+{
+    margin: 0px 5px 0px 0px;
+    vertical-align: middle;
+}
+.dxvgHeader_ModernoCustom a,
+.dxvgHeader_ModernoCustom a:hover
+{
+    color: #1279c0;
+}
+.dxvgHeader_ModernoCustom a.dxvgCommandItem_ModernoCustom:hover
+{
+    color: #2b2b2b;
+}
+.dxbButton_ModernoCustom[class~="dxvgCommandItem_ModernoCustom"]
+{
+    margin: -2px 2px;
+}
+.dxbButton_ModernoCustom[class~="dxvgCommandItem_ModernoCustom"] .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/* Indents */
+.dxvgControl_ModernoCustom .dxvg__I
+{
+    border-style: solid;
+    border-color: #cacbd3;
+    border-width: 0 1px 0 0;
+    cursor: default;
+}
+.dxvgControl_ModernoCustom .dxvg__I.dxvg__BB
+{
+    border-bottom-width: 1px;
+}
+.dxvgControl_ModernoCustom .dxvgER .dxvg__I.dxvg__BB
+{
+    border-bottom-width: 0;
+}
+.dxvgControl_ModernoCustom .dxvgMHI .dxvg__I
+{
+    border-right-width: 0;
+}
+.dxvgControl_ModernoCustom .dxvgMHI .dxvgER .dxvg__I.dxvg__BB
+{
+    border-bottom-width: 1px;
+}
+/* Title Panel, Status bar, Summary Panel */
+.dxvgTitlePanel_ModernoCustom,
+.dxvgTable_ModernoCustom caption
+{
+    font-weight: normal;
+    padding: 8px 5px 9px;
+    text-align: center;
+}
+.dxvgPagerBottomPanel_ModernoCustom + .dxvgStatusBar_ModernoCustom
+{
+    border-top: 1px Solid #d1d1d1;
+}
+.dxvgStatusBar_ModernoCustom tr.dxvg
+{
+    height: 20px;
+}
+.dxvgStatusBar_ModernoCustom tr.dxvg > td
+{
+    padding: 13px 5px;
+}
+.dxvgSummaryPanel_ModernoCustom
+{
+    background: #fafafa;
+    border: 1px solid #d1d1d1;
+    border-top: none;
+    padding: 8px 21px;
+}
+.dxvgSummaryItem_ModernoCustom
+{
+    display: inline-block;
+    margin: 5px 8px 5px 0;
+}
+/* Pager */
+.dxvgPagerTopPanel_ModernoCustom,
+.dxvgPagerBottomPanel_ModernoCustom
+{
+    padding: 4px 0;
+}
+.dxvgControl_ModernoCustom .dxpLite_ModernoCustom
+{
+    padding: 6px 6px 6px 0;
+}
+/* Filter Builder, Filter Bar */
+.dxvgFilterBar_ModernoCustom
+{
+    border-top: 1px solid #d1d1d1;
+}
+.dxvgFilterBar_ModernoCustom a
+{
+    color: #045cad;
+    text-decoration: underline;
+}
+.dxvgFilterBar_ModernoCustom a:hover
+{
+    color: #2b2b2b;
+}
+.dxvgFilterBarCheckBoxCell_ModernoCustom
+{
+    padding: 0 7px 0 3px;
+}
+.dxvgFilterBarImageCell_ModernoCustom
+{
+    padding: 0 1px 0 3px;
+    cursor: pointer;
+}
+.dxvgFilterBarExpressionCell_ModernoCustom
+{
+    padding: 8px 5px 10px 0;
+    white-space: nowrap;
+}
+.dxvgFilterBarClearButtonCell_ModernoCustom
+{
+    padding: 5px 6px 8px;
+}
+.dxvgFilterBuilderMainArea_ModernoCustom
+{
+    background: white none;
+    padding: 6px 2px;
+}
+.dxvgFilterBuilderButtonArea_ModernoCustom
+{
+    background-color: white;
+    border-top: 1px solid #d1d1d1;
+    padding: 12px;
+    white-space: nowrap;
+}
+/* Header Filter */
+.dxvgControl_ModernoCustom .dxvgHFC
+{
+    padding-left: 8px;
+    padding-bottom: 3px;
+}
+.dxvgControl_ModernoCustom .dxvgHFC .dxeCalendar_ModernoCustom
+{
+    margin-top: 3px;
+    margin-left: 38px;
+}
+.dxvgControl_ModernoCustom div[id$='DXEPLPC']
+{
+    height: 70px;
+}
+.dxvgControl_ModernoCustom .dxvgHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxvgControl_ModernoCustom .dxvgHFDRC
+{
+    margin: 20px 15px 30px;
+}
+.dxvgControl_ModernoCustom .dxvgHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxvgControl_ModernoCustom .dxvgHFDRP[id*="HFFDE"]
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.dxvgControl_ModernoCustom .dxvgHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 30px;
+}
+/* Batch Edit */
+.dxvgControl_ModernoCustom td.dxvgBatchEditCell_ModernoCustom
+{
+    padding: 0 2px;
+}
+.dxvgControl_ModernoCustom td.dxvgBatchEditModifiedCell_ModernoCustom
+{
+    background: #d7f9c7;
+}
+.dxvgBatchEditDeletedItem_ModernoCustom,
+.dxvgBatchEditNewItem_ModernoCustom.dxvgBatchEditDeletedItem_ModernoCustom
+{
+    background: #EFEFEF;
+}
+td.dxvgBatchEditDeletedItem_ModernoCustom:not(.dxvgCommandColumn_ModernoCustom)
+{
+    color: rgba(0,0,0,0.5);
+}
+.dxvgBatchEditDeletedItem_ModernoCustom.dxvgBatchEditModifiedCell_ModernoCustom
+{
+    background: #eefbe7 !important;
+}
+.dxvgBatchEditNewItem_ModernoCustom
+{
+    background: #F0FAEA;
+}
+.dxvgControl_ModernoCustom .dxvgErrorCell
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxvgControl_ModernoCustom .dxvgErrorCell img
+{
+    margin: -2px 0;
+}
+.dxvgStatusBar_ModernoCustom .dxbButton_ModernoCustom
+{
+    margin-right: 10px;
+}
+.dxvgControl_ModernoCustom td.dxvgBatchEditCell_ModernoCustom .dxichCellSys
+{
+    padding-left: 0;
+}
+.dxvgRecordError_ModernoCustom
+{
+    background-color: #F3D6D6;
+    color: #BA1717;
+    padding: 6px 10px;
+    height: 100%;
+}
+.dxvgERV .dxvgRecord_ModernoCustom
+{
+    display: none;
+}
+.dxvgEmptyRecord_ModernoCustom
+{
+    display: none;
+    text-align: center;
+}
+.dxvgERV .dxvgEmptyRecord_ModernoCustom
+{
+    display: table-cell;
+}
+/* LoadingPanel */
+.dxvgLoadingPanel_ModernoCustom
+{
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #2b2b2b;
+    background-color: White;
+    border: 1px solid #cfcfcf;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxvgLoadingPanel_ModernoCustom td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 15px 34px 15px 20px;
+}
+.dxvgLoadingPanel_ModernoCustom .dxlp-loadingImage
+{
+    background-image: url('../Web/Loading.gif');
+    height: 40px;
+    width: 40px;
+}
+.dxvgLoadingPanelStatusBar_ModernoCustom .dxlp-loadingImage
+{
+    background-image: url('../GridView/gvLoadingOnStatusBar.gif');
+    height: 16px;
+    width: 16px;
+}
+.dxvgLoadingPanelStatusBar_ModernoCustom
+{
+    background-color: transparent;
+}
+.dxvgLoadingPanelStatusBar_ModernoCustom td
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 0px 2px;
+}
+.dxvgLoadingDiv_ModernoCustom
+{
+    background-color: Gray;
+    opacity: 0.01;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+/* Search Panel */
+.dxvgSearchPanel_ModernoCustom
+{
+    padding: 16px 0;
+}
+.dxvgSearchPanel_ModernoCustom > table
+{
+    width: 70%;
+    max-width: 650px;
+}
+.dxvgControl_ModernoCustom .dxvgSearchPanel_ModernoCustom .dxbButton_ModernoCustom
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxvgControl_ModernoCustom .dxvgSearchPanel_ModernoCustom .dxbButton_ModernoCustom
+{
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxvgControl_ModernoCustom .dxvgHL
+{
+    background: #ffd83a;
+    color: #333333;
+    font-weight: bold;
+    font-style: normal;
+}
+/* TODO remove (replace to command button style) */
+.dxvgControl_ModernoCustom .dxvgSearchPanel_ModernoCustom .dxbButton_ModernoCustom
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.dxvgControl_ModernoCustom .dxvgSearchPanel_ModernoCustom .dxbButton_ModernoCustom .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/* Removes flicking in iOS Safari*/
+.dxvgTable_ModernoCustom
+{
+    -webkit-tap-highlight-color: transparent;
+}
+.dxVerticalGrid_ExpandedButton_ModernoCustom,
+.dxVerticalGrid_CollapsedButton_ModernoCustom
+{
+    margin: 2px 0 -2px;
+}
+.dxvgRecord_ModernoCustom .dxICheckBox_ModernoCustom,
+.dxvgRecord_ModernoCustom .dxeIRadioButton_ModernoCustom
+{
+    margin: 4px 1px;
+}
+.dxvgCommandCell_ModernoCustom .dxICheckBox_ModernoCustom,
+.dxvgCommandCell_ModernoCustom .dxeIRadioButton_ModernoCustom
+{
+    margin: -5px 1px -6px;
+}
+.dxvgFocusedCell_ModernoCustom
+{
+    box-shadow: inset 2px 2px 0 #2292B1, inset -2px -2px 0 #2292B1;
+    -webkit-box-shadow: inset 2px 2px 0 #2292B1, inset -2px -2px 0 #2292B1;
+    -moz-box-shadow: inset 2px 2px 0 #2292B1, inset -2px -2px 0 #2292B1;
+}

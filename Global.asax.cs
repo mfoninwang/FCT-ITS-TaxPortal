@@ -11,17 +11,17 @@ namespace TAAPs
 {
     public class Global : HttpApplication
     {
-        static TAAPsDBContext _context = new TAAPsDBContext();
+        static TAAPsDBContext context = new TAAPsDBContext();
         public static int FailedLoginAttemts;
-        private static Model.User _user;
-        static Tenant _tenant;
+        private static Model.User user;
+        static Tenant tenant;
 
         public static User SessionUser
         {
             get
             {
-                _user = (User)HttpContext.Current.Session["User"];
-                return _user;
+                user = (User)HttpContext.Current.Session["User"];
+                return user;
             }
         }
 
@@ -31,12 +31,11 @@ namespace TAAPs
 
         protected void Session_Start(object sender, EventArgs e)
         {
-            string taxauthority = ConfigurationManager.AppSettings["TaxAuthority"];
+            string taxAuthority = ConfigurationManager.AppSettings["TaxAuthority"].ToString();
+            tenant = context.Tenants.Where(t => t.TenantId == taxAuthority).Single();
+            FailedLoginAttemts = tenant.FailedLoginAttempts;
 
-            _tenant = _context.Tenants.Where(t => t.TenantId == taxauthority).Single();
-            FailedLoginAttemts = _tenant.FailedLoginAttempts;
-
-            Session.Timeout = _tenant.SessionTimeout;
+            Session.Timeout = tenant.SessionTimeout;
         }
 
         protected void Application_BeginRequest(object sender, EventArgs e)
@@ -50,8 +49,13 @@ namespace TAAPs
 
         protected void Application_Error(object sender, EventArgs e)
         {
-            //Exception Ex = Server.GetLastError();
-            //Server.ClearError();
+            Exception exception = Server.GetLastError();
+
+            if (exception is HttpUnhandledException)
+            {
+                // Pass the error on to the error page.
+                //Server.Transfer("ErrorPage.aspx?handler=Application_Error%20-%20Global.asax", true);
+            }
         }
 
         protected void Session_End(object sender, EventArgs e)
@@ -65,15 +69,17 @@ namespace TAAPs
 
         public static string GeneratePasswordHash(string password, string salt)
         {
-            string _SaltAndPassword = string.Concat(password, salt);
-            string _hashedpwd = FormsAuthentication.HashPasswordForStoringInConfigFile(_SaltAndPassword, "SHA1");
+            string saltAndPassword = string.Concat(password, salt);
+#pragma warning disable CS0618 // Type or member is obsolete
+            string hashedPwd = FormsAuthentication.HashPasswordForStoringInConfigFile(saltAndPassword, "SHA1");
+#pragma warning restore CS0618 // Type or member is obsolete
 
-            return _hashedpwd;
+            return hashedPwd;
         }
 
-        public static bool CompareStrings(string password1, string password2)
+        public static bool CompareStrings(string string1, string string2)
         {
-            return password1.Equals(password2) ? true : false;
+            return (0 == string.Compare(string1, string2, false));
         }
 
         public static void LogAttempt(string password1, string password2)
@@ -90,9 +96,10 @@ namespace TAAPs
                 CreateDate = DateTime.Now
             };
 
-            _context.UserLoginHistories.Add(_userAccess);
-            _context.SaveChanges();
+            context.UserLoginHistories.Add(_userAccess);
+            context.SaveChanges();
         }
 
+        public static string TaxAuthority => tenant.TenantId;
     }
 }

@@ -13,15 +13,6 @@ namespace TAAPs.Administration {
     public partial class Currency {
         
         /// <summary>
-        /// edsCurrency control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.EntityDataSource edsCurrency;
-        
-        /// <summary>
         /// gvCurrency control.
         /// </summary>
         /// <remarks>
@@ -29,5 +20,14 @@ namespace TAAPs.Administration {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxGridView gvCurrency;
+        
+        /// <summary>
+        /// edsCurrency control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.EntityDataSource edsCurrency;
     }
 }

@@ -1,9 +1,11 @@
-﻿The model was generated with warnings or errors.TAAPsDataModel.edmxPlease see the Error List for more details. These issues must be fixed before running your application.
-Loading metadata from the database took 00:00:03.8308717.
-Generating the model took 00:00:09.4148958.
+﻿Could not parse the configuration file. The error message is: 'Value cannot be null.
+Parameter name: projectItems'. Try editing the file manually and then saving it.
 The model was generated with warnings or errors.TAAPsDataModel.edmxPlease see the Error List for more details. These issues must be fixed before running your application.
-Loading metadata from the database took 00:00:01.2027580.
-Generating the model took 00:00:05.7153305.
+Loading metadata from the database took 00:00:00.8052439.
+Generating the model took 00:00:16.2134666.
 The model was generated with warnings or errors.TAAPsDataModel.edmxPlease see the Error List for more details. These issues must be fixed before running your application.
-Loading metadata from the database took 00:00:00.9862320.
-Generating the model took 00:00:01.3196046.
+Loading metadata from the database took 00:00:00.5487025.
+Generating the model took 00:00:08.4128106.
+The model was generated with warnings or errors.TAAPsDataModel.edmxPlease see the Error List for more details. These issues must be fixed before running your application.
+Loading metadata from the database took 00:00:00.5009924.
+Generating the model took 00:00:07.8222580.

@@ -1,0 +1,302 @@
+.dx-acc-r .dxpc-closeBtnHover .dxPivotGrid_pgCustomizationFormCloseButton_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_CTNAttribute:before,
+.dx-acc-r .dxPivotGrid_CTNCalculatedMeasure:before,
+.dx-acc-r .dxPivotGrid_CTNDimension:before,
+.dx-acc-r .dxPivotGrid_CTNFolderClosed:before,
+.dx-acc-r .dxPivotGrid_CTNFolderOpen:before,
+.dx-acc-r .dxPivotGrid_CTNHierarchy:before,
+.dx-acc-r .dxPivotGrid_CTNKpi:before,
+.dx-acc-r .dxPivotGrid_CTNMeasure:before,
+.dx-acc-r .dxPivotGrid_FLBottomPanelOnly1by4_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_FLBottomPanelOnly2by2_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_FLButton_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_FLColumnAreaHeaders_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_FLDataAreaHeaders_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_FLFieldList_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_FLFilterAreaHeaders_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_FLRowAreaHeaders_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_FLStackedDefault_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_FLStackedSideBySide_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_FLTopPanelOnly_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_pgCollapsedButton_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_pgCustomizationFormCloseButton_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_pgDataHeaders_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_pgDragArrowDown_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_pgDragArrowLeft_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_pgDragArrowRight_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_pgDragArrowUp_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_pgDragHideField_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_pgExpandedButton_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_pgFilterButton_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_pgFilterButtonActive_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_pgFilterResizer_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_pgGroupSeparator_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_pgPrefilterButton_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_pgSortByColumn_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_pgSortDownButton_ModernoCustom:before,
+.dx-acc-r .dxPivotGrid_pgSortUpButton_ModernoCustom:before
+
+{
+    content: url('spriteAccessible.png');
+
+}
+.dx-acc-r .dxpc-closeBtnHover .dxPivotGrid_pgCustomizationFormCloseButton_ModernoCustom:before
+
+{
+    left: -207px;
+    top: 0px;
+
+}
+.dx-acc-r .dxPivotGrid_CTNAttribute:before
+
+{
+    left: -187px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_CTNCalculatedMeasure:before
+
+{
+    left: -17px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_CTNDimension:before
+
+{
+    left: -119px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_CTNFolderClosed:before
+
+{
+    left: -102px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_CTNFolderOpen:before
+
+{
+    left: -204px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_CTNHierarchy:before
+
+{
+    left: -136px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_CTNKpi:before
+
+{
+    left: -68px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_CTNMeasure:before
+
+{
+    left: -170px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_FLBottomPanelOnly1by4_ModernoCustom:before
+
+{
+    left: -99px;
+    top: 0px;
+
+}
+.dx-acc-r .dxPivotGrid_FLBottomPanelOnly2by2_ModernoCustom:before
+
+{
+    left: -132px;
+    top: 0px;
+
+}
+.dx-acc-r .dxPivotGrid_FLButton_ModernoCustom:before
+
+{
+    left: -34px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_FLColumnAreaHeaders_ModernoCustom:before
+
+{
+    left: -221px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_FLDataAreaHeaders_ModernoCustom:before
+
+{
+    left: -85px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_FLFieldList_ModernoCustom:before
+
+{
+    left: -153px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_FLFilterAreaHeaders_ModernoCustom:before
+
+{
+    left: -245px;
+    top: 0px;
+
+}
+.dx-acc-r .dxPivotGrid_FLRowAreaHeaders_ModernoCustom:before
+
+{
+    left: -262px;
+    top: 0px;
+
+}
+.dx-acc-r .dxPivotGrid_FLStackedDefault_ModernoCustom:before
+
+{
+    left: -66px;
+    top: 0px;
+
+}
+.dx-acc-r .dxPivotGrid_FLStackedSideBySide_ModernoCustom:before
+
+{
+    left: -33px;
+    top: 0px;
+
+}
+.dx-acc-r .dxPivotGrid_FLTopPanelOnly_ModernoCustom:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxPivotGrid_pgCollapsedButton_ModernoCustom:before
+
+{
+    left: -51px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_pgCustomizationFormCloseButton_ModernoCustom:before
+
+{
+    left: -188px;
+    top: 0px;
+
+}
+.dx-acc-r .dxPivotGrid_pgDataHeaders_ModernoCustom:before
+
+{
+    left: -220px;
+    top: -20px;
+
+}
+.dx-acc-r .dxPivotGrid_pgDragArrowDown_ModernoCustom:before
+
+{
+    left: -176px;
+    top: -23px;
+
+}
+.dx-acc-r .dxPivotGrid_pgDragArrowLeft_ModernoCustom:before
+
+{
+    left: -200px;
+    top: -21px;
+
+}
+.dx-acc-r .dxPivotGrid_pgDragArrowRight_ModernoCustom:before
+
+{
+    left: -210px;
+    top: -21px;
+
+}
+.dx-acc-r .dxPivotGrid_pgDragArrowUp_ModernoCustom:before
+
+{
+    left: -188px;
+    top: -23px;
+
+}
+.dx-acc-r .dxPivotGrid_pgDragHideField_ModernoCustom:before
+
+{
+    left: -165px;
+    top: 0px;
+
+}
+.dx-acc-r .dxPivotGrid_pgExpandedButton_ModernoCustom:before
+
+{
+    left: 0px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_pgFilterButton_ModernoCustom:before
+
+{
+    left: -247px;
+    top: -17px;
+
+}
+.dx-acc-r .dxPivotGrid_pgFilterButtonActive_ModernoCustom:before
+
+{
+    left: -266px;
+    top: -17px;
+
+}
+.dx-acc-r .dxPivotGrid_pgFilterResizer_ModernoCustom:before
+
+{
+    left: -226px;
+    top: 0px;
+
+}
+.dx-acc-r .dxPivotGrid_pgGroupSeparator_ModernoCustom:before
+
+{
+    left: -279px;
+    top: 0px;
+
+}
+.dx-acc-r .dxPivotGrid_pgPrefilterButton_ModernoCustom:before
+
+{
+    left: -233px;
+    top: -19px;
+
+}
+.dx-acc-r .dxPivotGrid_pgSortByColumn_ModernoCustom:before
+
+{
+    left: -238px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_pgSortDownButton_ModernoCustom:before
+
+{
+    left: -265px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_pgSortUpButton_ModernoCustom:before
+
+{
+    left: -254px;
+    top: -33px;
+
+}
+

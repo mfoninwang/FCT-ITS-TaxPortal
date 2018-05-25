@@ -1,0 +1,362 @@
+.dxPivotGrid_CTNAttribute,
+.dxPivotGrid_CTNCalculatedMeasure,
+.dxPivotGrid_CTNDimension,
+.dxPivotGrid_CTNFolderClosed,
+.dxPivotGrid_CTNFolderOpen,
+.dxPivotGrid_CTNHierarchy,
+.dxPivotGrid_CTNKpi,
+.dxPivotGrid_CTNMeasure,
+.dxPivotGrid_FLBottomPanelOnly1by4_Office365,
+.dxPivotGrid_FLBottomPanelOnly2by2_Office365,
+.dxPivotGrid_FLButton_Office365,
+.dxPivotGrid_FLColumnAreaHeaders_Office365,
+.dxPivotGrid_FLDataAreaHeaders_Office365,
+.dxPivotGrid_FLFieldList_Office365,
+.dxPivotGrid_FLFilterAreaHeaders_Office365,
+.dxPivotGrid_FLRowAreaHeaders_Office365,
+.dxPivotGrid_FLStackedDefault_Office365,
+.dxPivotGrid_FLStackedSideBySide_Office365,
+.dxPivotGrid_FLTopPanelOnly_Office365,
+.dxPivotGrid_pgCollapsedButton_Office365,
+.dxPivotGrid_pgCustomizationFormCloseButton_Office365,
+.dxPivotGrid_pgDataHeaders_Office365,
+.dxPivotGrid_pgDragArrowDown_Office365,
+.dxPivotGrid_pgDragArrowLeft_Office365,
+.dxPivotGrid_pgDragArrowRight_Office365,
+.dxPivotGrid_pgDragArrowUp_Office365,
+.dxPivotGrid_pgDragHideField_Office365,
+.dxPivotGrid_pgExpandedButton_Office365,
+.dxPivotGrid_pgFilterButton_Office365,
+.dxPivotGrid_pgFilterButtonActive_Office365,
+.dxPivotGrid_pgFilterResizer_Office365,
+.dxPivotGrid_pgGroupSeparator_Office365,
+.dxPivotGrid_pgPrefilterButton_Office365,
+.dxPivotGrid_pgSortByColumn_Office365,
+.dxPivotGrid_pgSortDownButton_Office365,
+.dxPivotGrid_pgSortUpButton_Office365,
+.dxtv-ndSel .dxPivotGrid_CTNCalculatedMeasure,
+.dxtv-ndSel .dxPivotGrid_CTNDimension,
+.dxtv-ndSel .dxPivotGrid_CTNFolderClosed,
+.dxtv-ndSel .dxPivotGrid_CTNFolderOpen,
+.dxtv-ndSel .dxPivotGrid_CTNHierarchy,
+.dxtv-ndSel .dxPivotGrid_CTNKpi,
+.dxtv-ndSel .dxPivotGrid_CTNMeasure
+{
+    background-image: url('sprite.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxIE .dx-acc-r .dxPivotGrid_CTNAttribute::before,
+.dxIE .dx-acc-r .dxPivotGrid_CTNCalculatedMeasure::before,
+.dxIE .dx-acc-r .dxPivotGrid_CTNDimension::before,
+.dxIE .dx-acc-r .dxPivotGrid_CTNFolderClosed::before,
+.dxIE .dx-acc-r .dxPivotGrid_CTNFolderOpen::before,
+.dxIE .dx-acc-r .dxPivotGrid_CTNHierarchy::before,
+.dxIE .dx-acc-r .dxPivotGrid_CTNKpi::before,
+.dxIE .dx-acc-r .dxPivotGrid_CTNMeasure::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLBottomPanelOnly1by4_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLBottomPanelOnly2by2_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLButton_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLColumnAreaHeaders_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLDataAreaHeaders_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLFieldList_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLFilterAreaHeaders_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLRowAreaHeaders_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLStackedDefault_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLStackedSideBySide_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLTopPanelOnly_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgCollapsedButton_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgCustomizationFormCloseButton_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgDataHeaders_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgDragArrowDown_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgDragArrowLeft_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgDragArrowRight_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgDragArrowUp_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgDragHideField_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgExpandedButton_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgFilterButton_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgFilterButtonActive_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgFilterResizer_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgGroupSeparator_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgPrefilterButton_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgSortByColumn_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgSortDownButton_Office365::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgSortUpButton_Office365::before,
+.dxIE .dx-acc-r .dxtv-ndSel .dxPivotGrid_CTNCalculatedMeasure::before,
+.dxIE .dx-acc-r .dxtv-ndSel .dxPivotGrid_CTNDimension::before,
+.dxIE .dx-acc-r .dxtv-ndSel .dxPivotGrid_CTNFolderClosed::before,
+.dxIE .dx-acc-r .dxtv-ndSel .dxPivotGrid_CTNFolderOpen::before,
+.dxIE .dx-acc-r .dxtv-ndSel .dxPivotGrid_CTNHierarchy::before,
+.dxIE .dx-acc-r .dxtv-ndSel .dxPivotGrid_CTNKpi::before,
+.dxIE .dx-acc-r .dxtv-ndSel .dxPivotGrid_CTNMeasure::before{
+    width: 68px;
+}
+.dxPivotGrid_CTNAttribute
+{
+    background-position: -38px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNCalculatedMeasure
+{
+    background-position: -51px -121px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNDimension
+{
+    background-position: -17px -87px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNFolderClosed
+{
+    background-position: 0px -104px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNFolderOpen
+{
+    background-position: -17px -121px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNHierarchy
+{
+    background-position: -34px -36px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNKpi
+{
+    background-position: 0px -121px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNMeasure
+{
+    background-position: -51px -87px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLBottomPanelOnly1by4_Office365
+{
+    background-position: -34px -53px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLBottomPanelOnly2by2_Office365
+{
+    background-position: 0px -70px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLButton_Office365
+{
+    background-position: -17px -70px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLColumnAreaHeaders_Office365
+{
+    background-position: -51px -104px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLDataAreaHeaders_Office365
+{
+    background-position: -21px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLFieldList_Office365
+{
+    background-position: -34px -87px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLFilterAreaHeaders_Office365
+{
+    background-position: -15px -138px;
+    width: 12px;
+    height: 12px;
+}
+.dxPivotGrid_FLRowAreaHeaders_Office365
+{
+    background-position: -17px -53px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLStackedDefault_Office365
+{
+    background-position: 0px -87px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLStackedSideBySide_Office365
+{
+    background-position: -51px -36px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLTopPanelOnly_Office365
+{
+    background-position: -51px -70px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_pgCollapsedButton_Office365
+{
+    background-position: -63px -13px;
+    width: 4px;
+    height: 7px;
+}
+.dxPivotGrid_pgCustomizationFormCloseButton_Office365
+{
+    background-position: 0px 0px;
+    width: 20px;
+    height: 20px;
+}
+.dxPivotGrid_pgDataHeaders_Office365
+{
+    background-position: 0px -21px;
+    width: 22px;
+    height: 14px;
+}
+.dxPivotGrid_pgDragArrowDown_Office365
+{
+    background-position: -44px -153px;
+    width: 10px;
+    height: 9px;
+}
+.dxPivotGrid_pgDragArrowLeft_Office365
+{
+    background-position: -23px -153px;
+    width: 9px;
+    height: 10px;
+}
+.dxPivotGrid_pgDragArrowRight_Office365
+{
+    background-position: -13px -153px;
+    width: 9px;
+    height: 10px;
+}
+.dxPivotGrid_pgDragArrowUp_Office365
+{
+    background-position: -33px -153px;
+    width: 10px;
+    height: 9px;
+}
+.dxPivotGrid_pgDragHideField_Office365
+{
+    background-position: -34px -70px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_pgExpandedButton_Office365
+{
+    background-position: -55px -16px;
+    width: 7px;
+    height: 4px;
+}
+.dxPivotGrid_pgFilterButton_Office365
+{
+    background-position: -54px -138px;
+    width: 12px;
+    height: 12px;
+}
+.dxPivotGrid_pgFilterButtonActive_Office365
+{
+    background-position: -28px -138px;
+    width: 12px;
+    height: 12px;
+}
+.dxPivotGrid_pgFilterResizer_Office365
+{
+    background-position: 0px -138px;
+    width: 14px;
+    height: 14px;
+}
+.dxPivotGrid_pgGroupSeparator_Office365
+{
+    background-position: -23px -21px;
+    width: 20px;
+    height: 13px;
+}
+.dxPivotGrid_pgPrefilterButton_Office365
+{
+    background-position: 0px -153px;
+    width: 12px;
+    height: 12px;
+}
+.dxPivotGrid_pgSortByColumn_Office365
+{
+    background-position: -44px -21px;
+    width: 15px;
+    height: 14px;
+}
+.dxPivotGrid_pgSortDownButton_Office365
+{
+    background-position: -41px -138px;
+    width: 12px;
+    height: 12px;
+}
+.dxPivotGrid_pgSortUpButton_Office365
+{
+    background-position: -55px 0px;
+    width: 12px;
+    height: 12px;
+}
+.dxtv-ndSel .dxPivotGrid_CTNCalculatedMeasure
+{
+    background-position: -17px -104px;
+    width: 16px;
+    height: 16px;
+}
+.dxtv-ndSel .dxPivotGrid_CTNDimension
+{
+    background-position: 0px -53px;
+    width: 16px;
+    height: 16px;
+}
+.dxtv-ndSel .dxPivotGrid_CTNFolderClosed
+{
+    background-position: -34px -104px;
+    width: 16px;
+    height: 16px;
+}
+.dxtv-ndSel .dxPivotGrid_CTNFolderOpen
+{
+    background-position: -17px -36px;
+    width: 16px;
+    height: 16px;
+}
+.dxtv-ndSel .dxPivotGrid_CTNHierarchy
+{
+    background-position: 0px -36px;
+    width: 16px;
+    height: 16px;
+}
+.dxtv-ndSel .dxPivotGrid_CTNKpi
+{
+    background-position: -34px -121px;
+    width: 16px;
+    height: 16px;
+}
+.dxtv-ndSel .dxPivotGrid_CTNMeasure
+{
+    background-position: -51px -53px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_pgCustomizationFormCloseButton_Office365,
+.dxPivotGrid_FLButton_Office365
+{
+display:block;
+}
+.dxPivotGrid_pgGroupSeparator_Office365
+{
+width: 20px!important;
+height: 13px!important;
+}
+

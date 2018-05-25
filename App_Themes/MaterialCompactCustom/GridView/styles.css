@@ -1,0 +1,1471 @@
+.dxgvControl_MaterialCompactCustom,
+.dxgvDisabled_MaterialCompactCustom
+{
+    font: 14px 'Roboto Regular', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    background-color: White;
+    color: #484848;
+    cursor: default;
+}
+.dxgvDisabled_MaterialCompactCustom
+{
+    color: #b8b8b8;
+}
+.dxgvControl_MaterialCompactCustom a
+{
+    color: #35B86B;
+    text-decoration: none;
+}
+.dxgvControl_MaterialCompactCustom a:hover
+{
+    text-decoration: underline;
+}
+.dxgvControl_MaterialCompactCustom a:hover.dxbDisabled_MaterialCompactCustom
+{
+    color: #BBBBBB;
+    text-decoration: none;
+}
+.dxgvDisabled_MaterialCompactCustom a
+{
+    color: #b8b8b8;
+}
+.dxgvEmptyDataRow_MaterialCompactCustom.dxgvLVR > td.dxgv,
+.dxgvDataRow_MaterialCompactCustom.dxgvLVR > td.dxgv,
+.dxgvGroupRow_MaterialCompactCustom.dxgvLVR > td.dxgv
+{
+    border-bottom-width: 0;
+}
+.dxgvRBB .dxgvEmptyDataRow_MaterialCompactCustom.dxgvLVR > td.dxgv,
+.dxgvRBB .dxgvDataRow_MaterialCompactCustom.dxgvLVR > td.dxgv,
+.dxgvRBB .dxgvGroupRow_MaterialCompactCustom.dxgvLVR > td.dxgv
+{
+    border-bottom-width: 1px !important;
+}
+.dxgvGroupRow_MaterialCompactCustom td.dxgv.dxgvPHEC, .dxgvPreviewRow_MaterialCompactCustom td.dxgv.dxgvPHEC,
+.dxgvDetailRow_MaterialCompactCustom td.dxgv.dxgvPHEC, .dxgvGroupFooter_MaterialCompactCustom td.dxgv.dxgvPHEC,
+.dxgvDataRow_MaterialCompactCustom td.dxgvPHEC
+{
+    border-right: 1px solid #DFDFDF;
+}
+.dxgvLoadingPanel_MaterialCompactCustom
+{
+    background-color: white;
+    font: 14px 'Roboto Regular', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    color: #484848;
+    -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+}
+.dxgvLoadingPanel_MaterialCompactCustom td.dx
+{
+    font-size: 1.17em;
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px 14px;
+}
+.dxgvLoadingPanel_MaterialCompactCustom .dxlp-loadingImage
+{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+    animation: dxLoadSpinSys 1s linear infinite;
+    border: 4px solid #35B86B;
+    border-top: 4px solid #EEE;
+    width: 24px;
+    height: 24px;
+}
+html.dxIE.dxBrowserVersion-9 .dxgvLoadingPanel_MaterialCompactCustom .dxlp-loadingImage
+{
+    background-image: url('../Web/Loading.gif');
+    height: 32px;
+    width: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: none;
+    border: none;
+    border-radius: 0;
+}
+html.dxIE.dxBrowserVersion-9 .dxgvLoadingPanelStatusBar_MaterialCompactCustom .dxlp-loadingImage
+{
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: none;
+    border: none;
+    border-radius: 0;
+    background-image: url('gvLoadingOnStatusBar.gif');
+    height: 16px;
+    width: 16px;
+}
+.dxgvLoadingPanelStatusBar_MaterialCompactCustom .dxlp-loadingImage
+{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+    animation: dxLoadSpinSys 1s linear infinite;
+    border: 2px solid #35B86B;
+    border-top: 2px solid #EEE;
+    width: 12px;
+    height: 12px;
+}
+.dxgvLoadingPanelStatusBar_MaterialCompactCustom
+{
+    background-color: Transparent;
+}
+.dxgvLoadingPanelStatusBar_MaterialCompactCustom td
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 0px 2px;
+}
+.dxgvTable_MaterialCompactCustom
+{
+    background-color: White;
+    border: 1px solid #DFDFDF;
+    border-bottom-width: 0;
+    border-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+    border-collapse: separate !important;
+    overflow: hidden;
+}
+.dxIE .dxgvHeader_MaterialCompactCustom:first-child,
+.dxIE *[dir="rtl"] .dxgvHeader_MaterialCompactCustom:last-child
+{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 0;
+}
+.dxIE .dxgvHeader_MaterialCompactCustom:last-child,
+.dxIE *[dir="rtl"] .dxgvHeader_MaterialCompactCustom:first-child
+{
+    border-top-right-radius: 4px;
+    border-top-left-radius: 0;
+}
+.dxgvTable_MaterialCompactCustom .dxgvHEC
+{
+    background-color: White;
+    border-width: 0;
+    overflow: hidden;
+}
+.dxgvTable_MaterialCompactCustom .dxgvFooter_MaterialCompactCustom .dxgvHEC
+{
+    background-color: #f4f4f4;
+}
+.dxpcLite_MaterialCompactCustom .dxgvTable_MaterialCompactCustom
+{
+    box-shadow: none;
+}
+.dxpcLite_MaterialCompactCustom .dxgvStatusBar_MaterialCompactCustom
+{
+    border-top: 0;
+}
+.dxpcLite_MaterialCompactCustom .dxpc-content
+{
+    padding: 9px 12px 0 12px;
+}
+.dxgvControl_MaterialCompactCustom .dxgvFSDC .dxgvFooter_MaterialCompactCustom td.dxgv
+{
+    border-bottom-width: 0;
+}
+.dxgvControl_MaterialCompactCustom .dxgvFGI
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.dxgvControl_MaterialCompactCustom .dxgvFGI
+{
+    right: 5px;
+    left: auto;
+}
+*[dir="rtl"].dxgvControl_MaterialCompactCustom .dxgvFGI
+{
+    right: auto;
+    left: 5px;
+}
+.dxgvInlineEditRow_MaterialCompactCustom td.dxgv
+{
+    border-bottom: 1px solid #DFDFDF;
+}
+.dxgvInlineEditRow_MaterialCompactCustom td.dxgvIndentCell
+{
+    background-color: white;
+}
+.dxgvDataRowAlt_MaterialCompactCustom
+{
+    background-color: #F5F5F5;
+}
+.dxgvFilterRow_MaterialCompactCustom
+{
+    border-top: 1px solid #DFDFDF;
+}
+.dxgvEditForm_MaterialCompactCustom > td.dxgv
+{
+    border-bottom: 1px solid #DFDFDF !important;
+    padding: 8px 0 6px 7px;
+    background-color: #f4f4f4;
+}
+.dxgvControl_MaterialCompactCustom .dxgvTable_MaterialCompactCustom .dxgvFocusedRow_MaterialCompactCustom,
+.dxgvControl_MaterialCompactCustom .dxgvTable_MaterialCompactCustom .dxgvFocusedRow_MaterialCompactCustom.dxgvDataRowHover_MaterialCompactCustom
+{
+    background-color: #35B86B;
+    color: white;
+}
+.dxgvControl_MaterialCompactCustom .dxgvTable_MaterialCompactCustom .dxgvFocusedRow_MaterialCompactCustom a,
+.dxgvControl_MaterialCompactCustom .dxgvTable_MaterialCompactCustom .dxgvFocusedGroupRow_MaterialCompactCustom a
+{
+    color: white;
+}
+.dxgvControl_MaterialCompactCustom .dxgvAIC
+{
+    text-align: center;
+}
+.dxgvControl_MaterialCompactCustom .dxgvADSB > img
+{
+    opacity: 1;
+    margin-top: -33px;
+}
+.dxgvControl_MaterialCompactCustom .dxgvADSB::before
+{
+    content: '';
+    display: block;
+    height: 32px;
+    width: 32px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+    background-color: transparent;
+    transition-property: background-color,box-shadow;
+    transition-duration: .3s;
+}
+.dxgvControl_MaterialCompactCustom .dxgvADSB:hover::before
+{
+    background-color: #35B86B;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+.dxgvControl_MaterialCompactCustom .dxgvFocusedRow_MaterialCompactCustom .dxgvADSB:hover::before
+{
+    background-color: white;
+}
+.dxgvControl_MaterialCompactCustom .dxgvTable_MaterialCompactCustom .dxgvSelectedRow_MaterialCompactCustom,
+.dxgvControl_MaterialCompactCustom .dxgvTable_MaterialCompactCustom .dxgvSelectedRow_MaterialCompactCustom.dxgvDataRowHover_MaterialCompactCustom
+{
+    background-color: #F1F1F1;
+}
+.dxgvPreviewRow_MaterialCompactCustom
+{
+    color: #999999;
+}
+.dxgvDetailRow_MaterialCompactCustom td.dxgv,
+.dxgvPreviewRow_MaterialCompactCustom td.dxgv,
+.dxgvEmptyDataRow_MaterialCompactCustom td.dxgv
+{
+    padding: 20px 2px 20px 4px;
+    border-bottom: 1px solid #DFDFDF !important;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+.dxgvPreviewRow_MaterialCompactCustom td.dxgv
+{
+    padding: 10px 10px 9px 15px;
+}
+.dxgvDetailRow_MaterialCompactCustom td.dxgvDetailCell_MaterialCompactCustom
+{
+    padding: 16px 18px;
+}
+.dxgvDetailRow_MaterialCompactCustom td.dxgvIndentCell
+{
+    padding-right: 0px;
+    border-bottom: 1px solid #DFDFDF !important;
+}
+.dxgvDetailRow_MaterialCompactCustom.dxgvADR .dxgvADT > tbody > tr > td
+{
+    padding: 5px 6px 4px 0;
+}
+.dxgvDetailRow_MaterialCompactCustom.dxgvADR .dxgvADT > tbody > tr > td .dxeTextBoxSys,
+.dxgvDetailRow_MaterialCompactCustom.dxgvADR .dxgvADT > tbody > tr > td .dxichCellSys
+{
+    margin: -2px 0 -5px 0;
+}
+.dxgvDetailRow_MaterialCompactCustom.dxgvADR .dxgvADCC
+{
+    color: #7F7F7F;
+}
+.dxgvDetailRow_MaterialCompactCustom.dxgvADR.dxgvFocusedRow_MaterialCompactCustom .dxgvADCC,
+.dxgvDetailRow_MaterialCompactCustom.dxgvADR.dxgvFocusedRow_MaterialCompactCustom .dxgvADDC,
+.dxgvDetailRow_MaterialCompactCustom.dxgvADR.dxgvFocusedRow_MaterialCompactCustom .dxgvADCMDC a
+{
+    color: white;
+}
+.dxgvEmptyDataRow_MaterialCompactCustom
+{
+    color: Gray;
+}
+.dxgvEmptyDataRow_MaterialCompactCustom td.dxgv
+{
+    border-bottom: 1px solid #DFDFDF !important;
+    text-align: center;
+}
+.dxgvEditFormDisplayRow_MaterialCompactCustom td.dxgv,
+.dxgvDetailCell_MaterialCompactCustom td.dxgv,
+.dxgvDataRow_MaterialCompactCustom td.dxgv,
+.dxgvDetailRow_MaterialCompactCustom.dxgvADR td.dxgvAIC
+{
+    overflow: hidden;
+    border-bottom: 1px solid #DFDFDF !important;
+    border-right: 1px solid #DFDFDF;
+    border-top-width: 0;
+    border-left-width: 0;
+    padding: 10px 10px 9px;
+}
+.dxgvEditFormDisplayRow_MaterialCompactCustom:last-child td.dxgv,
+.dxgvDetailCell_MaterialCompactCustom:last-child td.dxgv,
+.dxgvDataRow_MaterialCompactCustom:last-child td.dxgv,
+.dxgvDetailRow_MaterialCompactCustom.dxgvADR:last-child td.dxgvAIC
+{
+    border-bottom: 1px solid #DFDFDF !important;
+}
+.dxgvDataRow_MaterialCompactCustom td.dxgvAIC,
+.dxgvInlineEditRow_MaterialCompactCustom td.dxgvAIC
+{
+    padding: 0 10px;
+}
+.dxgvDetailRow_MaterialCompactCustom.dxgvADR td.dxgvAIC
+{
+    padding: 6px 4px;
+}
+.dxgvEditFormDisplayRow_MaterialCompactCustom td.dxgvIndentCell
+{
+    border-bottom: 1px solid #DFDFDF !important;
+}
+.dxgvDataRow_MaterialCompactCustom .dxICheckBox_MaterialCompactCustom,
+.dxgvInlineEditRow_MaterialCompactCustom .dxICheckBox_MaterialCompactCustom,
+.dxgvDataRow_MaterialCompactCustom .dxeIRadioButton_MaterialCompactCustom,
+.dxgvInlineEditRow_MaterialCompactCustom .dxeIRadioButton_MaterialCompactCustom
+{
+    margin: -3px 10px -1px 10px;
+}
+*[dir="rtl"] .dxgvDataRow_MaterialCompactCustom .dxICheckBox_MaterialCompactCustom,
+*[dir="rtl"] .dxgvInlineEditRow_MaterialCompactCustom .dxICheckBox_MaterialCompactCustom,
+*[dir="rtl"] .dxgvDataRow_MaterialCompactCustom .dxeIRadioButton_MaterialCompactCustom,
+*[dir="rtl"] .dxgvInlineEditRow_MaterialCompactCustom .dxeIRadioButton_MaterialCompactCustom
+{
+    margin: -3px 10px -1px 10px;
+}
+.dxgvCommandColumn_MaterialCompactCustom .dxICheckBox_MaterialCompactCustom,
+.dxgvCommandColumn_MaterialCompactCustom .dxeIRadioButton_MaterialCompactCustom
+{
+    margin: -3px 10px -1px 10px;
+}
+*[dir="rtl"] .dxgvCommandColumn_MaterialCompactCustom .dxICheckBox_MaterialCompactCustom,
+*[dir="rtl"] .dxgvCommandColumn_MaterialCompactCustom .dxeIRadioButton_MaterialCompactCustom
+{
+    margin: -3px 10px -1px 10px;
+}
+.dxgvEditingErrorRow_MaterialCompactCustom
+{
+    background-color: #FFC8C8;
+    color: #FF0000;
+}
+.dxgvEditingErrorRow_MaterialCompactCustom td.dxgv
+{
+    white-space: pre-wrap;
+    border-bottom: 1px solid #DFDFDF !important;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-left-width: 0;
+    padding: 6px 10px;
+}
+.dxgvFilterRow_MaterialCompactCustom td.dxgv
+{
+    border-bottom: 1px solid #DFDFDF !important;
+    border-right: 1px solid #DFDFDF;
+    border-top-width: 0;
+    border-left-width: 0;
+    padding: 6px 10px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+.dxgvGroupRow_MaterialCompactCustom
+{
+    background-color: #f4f4f4;
+    color: #939393;
+}
+.dxgvFocusedGroupRow_MaterialCompactCustom
+{
+    background-color: #35B86B;
+    color: white;
+}
+.dxgvGroupRow_MaterialCompactCustom td.dxgv,
+.dxgvFocusedGroupRow_MaterialCompactCustom td.dxgv
+{
+    border: 0 none;
+    vertical-align: middle;
+    border-bottom: 1px solid #DFDFDF !important;
+    padding: 10px 10px 9px;
+    background-color: inherit;
+}
+.dxgvFocusedGroupRow_MaterialCompactCustom td.dxgvIndentCell
+{
+    background-color: #f4f4f4 !important;
+}
+.dxgvHeaderPanel_MaterialCompactCustom
+{
+    background-color: #ffffff;
+    padding: 21px 10px 17px;
+    border-bottom: 1px solid #DFDFDF;
+}
+.dxIE .dxgvMSDraggable .dxgvHeader_MaterialCompactCustom,
+.dxIE .dxgvMSDraggable.dxgvGroupPanel_MaterialCompactCustom
+{
+    -ms-touch-action: pinch-zoom;
+}
+.dxEdge .dxgvMSDraggable .dxgvHeader_MaterialCompactCustom,
+.dxEdge .dxgvMSDraggable.dxgvGroupPanel_MaterialCompactCustom
+{
+    touch-action: pinch-zoom;
+}
+.dxgvHeader_MaterialCompactCustom
+{
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 13px 10px 11px;
+    border: 1px solid #DFDFDF;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    font-weight: normal;
+    text-align: left;
+    font: 14px 'Roboto Medium', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    font-size: 1em;
+}
+.dxgvHeader_MaterialCompactCustom td
+{
+    white-space: nowrap;
+}
+.dxgvHeader_MaterialCompactCustom a,
+.dxgvHeader_MaterialCompactCustom a.dxgvCommandColumnItem_MaterialCompactCustom,
+.dxgvHeader_MaterialCompactCustom a.dxgvCommandColumnItem_MaterialCompactCustom.dxbDisabled_MaterialCompactCustom,
+.dxgvCommandColumn_MaterialCompactCustom a,
+.dxgvCommandColumn_MaterialCompactCustom a.dxgvCommandColumnItem_MaterialCompactCustom.dxbDisabled_MaterialCompactCustom
+{
+    color: #35B86B;
+}
+.dxgvHeader_MaterialCompactCustom a.dxgvCommandColumnItem_MaterialCompactCustom
+{
+    margin: 0 5px 0 0;
+}
+.dxgvHeader_MaterialCompactCustom a.dxgvCommandColumnItem_MaterialCompactCustom.dxbDisabled_MaterialCompactCustom,
+.dxgvCommandColumn_MaterialCompactCustom a.dxgvCommandColumnItem_MaterialCompactCustom.dxbDisabled_MaterialCompactCustom
+{
+    opacity: 0.5;
+}
+.dxgvPopupEditForm_MaterialCompactCustom
+{
+    padding: 10px;
+    margin: 0;
+}
+.dxgvCustomization_MaterialCompactCustom
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 10px 10px 10px;
+    min-width: 220px;
+}
+.dxgvCustomization_MaterialCompactCustom .dxgvHeader_MaterialCompactCustom
+{
+    padding: 10px;
+    background-color: white;
+    color: #484848;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.1);
+}
+.dxgvAdaptiveGroupPanel_MaterialCompactCustom,
+.dxgvGroupPanel_MaterialCompactCustom
+{
+    color: #8e8e93;
+    font-size: 0.85em;
+}
+.dxgvAdaptiveGroupPanel_MaterialCompactCustom .dxgvHeader_MaterialCompactCustom,
+.dxgvGroupPanel_MaterialCompactCustom .dxgvHeader_MaterialCompactCustom
+{
+    font-size: 1.2em;
+}
+.dxgvGroupPanel_MaterialCompactCustom
+{
+    padding: 8px 10px 16px;
+    white-space: nowrap;
+}
+.dxgvGroupPanel_MaterialCompactCustom .dxgvHeader_MaterialCompactCustom,
+.dxgvAdaptiveGroupPanel_MaterialCompactCustom .dxgvHeader_MaterialCompactCustom
+{
+    background-color: white;
+    font-weight: normal;
+    border: 1px solid #DFDFDF;
+    padding: 4px 18px;
+}
+.dxgvAdaptiveHeaderPanel_MaterialCompactCustom .dxgvHeader_MaterialCompactCustom
+{
+    border: 1px solid #DFDFDF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+}
+.dxgvAdaptiveGroupPanel_MaterialCompactCustom
+{
+    padding-left: 6px;
+    padding-top: 7px;
+}
+.dxgvAdaptiveGroupPanel_MaterialCompactCustom div.dxgvADH
+{
+    margin-right: 4px;
+    margin-bottom: 5px;
+}
+.dxgvAdaptiveGroupPanel_MaterialCompactCustom.dxgvEAHP
+{
+    padding-bottom: 8px;
+}
+.dxgvAdaptiveHeaderPanel_MaterialCompactCustom
+{
+    border-bottom: 1px solid #DFDFDF;
+    padding-top: 10px;
+}
+.dxgvAdaptiveHeaderPanel_MaterialCompactCustom.dxgvEAHP
+{
+    padding: 10px 7px;
+}
+.dxgvAdaptiveFooterPanel_MaterialCompactCustom
+{
+    padding-top: 6px;
+}
+.dxgvAdaptiveHeaderPanel_MaterialCompactCustom,
+.dxgvAdaptiveFooterPanel_MaterialCompactCustom
+{
+    padding-left: 24px;
+}
+.dxgvFooter_MaterialCompactCustom
+{
+    white-space: nowrap;
+}
+.dxgvFooter_MaterialCompactCustom td.dxgv
+{
+    padding: 9px 10px 10px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #DFDFDF;
+    color: #8e8e93;
+}
+.dxgvABRL .dxgvFooter_MaterialCompactCustom td.dxgv,
+.dxgvABRL .dxgvGroupFooter_MaterialCompactCustom td.dxgv
+{
+    border-right: 1px solid #DFDFDF;
+}
+.dxgvGroupFooter_MaterialCompactCustom td.dxgv
+{
+    padding: 9px 10px 10px;
+    color: #8e8e93;
+    border-bottom: 1px solid #DFDFDF;
+    border-right-width: 0;
+}
+.dxgvControl_MaterialCompactCustom .dxgvIndentCell
+{
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+}
+.dxgvDataRow_MaterialCompactCustom td.dxgvIndentCell,
+.dxgvDetailRow_MaterialCompactCustom td.dxgvIndentCell,
+.dxgvPreviewRow_MaterialCompactCustom td.dxgvIndentCell,
+.dxgvGroupFooter_MaterialCompactCustom td.dxgvIndentCell
+{
+    background-color: white;
+    border-bottom: 1px solid #DFDFDF !important;
+}
+.dxgvGroupRow_MaterialCompactCustom td.dxgvIndentCell
+{
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #DFDFDF !important;
+}
+.dxgvTitlePanel_MaterialCompactCustom,
+.dxgvTable_MaterialCompactCustom caption
+{
+    font-size: 1.25em;
+    font-weight: normal;
+    padding: 3px 3px 5px;
+    text-align: center;
+    color: #999999;
+}
+.dxgvStatusBar_MaterialCompactCustom
+{
+    border-top: 1px solid #DFDFDF;
+}
+.dxgvStatusBar_MaterialCompactCustom tr.dxgv
+{
+    height: 20px;
+}
+.dxgvStatusBar_MaterialCompactCustom tr.dxgv > td
+{
+    padding: 12px 0;
+}
+.dxgvStatusBar_MaterialCompactCustom tr.dxgv span .dxbButtonSys:first-child
+{
+    margin-left: 20px;
+}
+.dxgvCommandColumn_MaterialCompactCustom
+{
+    padding: 8px 4px;
+    white-space: nowrap;
+}
+.dxgvCommandColumn_MaterialCompactCustom a
+{
+    margin: 0 5px 0 0;
+}
+.dxgvEditFormTable_MaterialCompactCustom .dxflFormLayout_MaterialCompactCustom .dxflCommandItemSys,
+.dxgvEditFormTable_MaterialCompactCustom .dxgvCommandColumn_MaterialCompactCustom
+{
+    padding-top: 22px;
+    padding-bottom: 12px;
+}
+.dxgvEditFormTable_MaterialCompactCustom .dxflFormLayout_MaterialCompactCustom .dxflCommandItemSys a,
+.dxgvEditFormTable_MaterialCompactCustom .dxgvCommandColumn_MaterialCompactCustom a
+{
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 8px 16px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+.dxgvEditFormTable_MaterialCompactCustom .dxflFormLayout_MaterialCompactCustom .dxflCommandItemSys a:hover,
+.dxgvEditFormTable_MaterialCompactCustom .dxgvCommandColumn_MaterialCompactCustom a:hover
+{
+    background-color: #d1d1d1;
+    text-decoration: none;
+}
+.dxbButton_MaterialCompactCustom[class~="dxgvCommandColumnItem_MaterialCompactCustom"],
+.dxgvEditFormTable_MaterialCompactCustom div.dxbButton_MaterialCompactCustom
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.dxbButton_MaterialCompactCustom[class~="dxgvCommandColumnItem_MaterialCompactCustom"] .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.dxgvCommandColumnItem_MaterialCompactCustom
+.dxgvEditFormTable_MaterialCompactCustom
+{
+    padding: 2px 6px 6px 4px;
+    min-width: 300px;
+}
+.dxgvEditFormTable_MaterialCompactCustom a
+{
+    color: #35B86B;
+}
+.dxgvEditFormCaption_MaterialCompactCustom
+{
+    padding: 4px 4px 4px 10px;
+    white-space: nowrap;
+}
+.dxgvInlineEditCell_MaterialCompactCustom
+{
+    padding: 6px 10px;
+}
+.dxgvEditFormCell_MaterialCompactCustom
+{
+    padding: 4px;
+    border-width: 0;
+}
+.dxgvPagerTopPanel_MaterialCompactCustom,
+.dxgvPagerBottomPanel_MaterialCompactCustom
+{
+    padding: 3px 0 1px;
+}
+.dxgvPagerBottomPanel_MaterialCompactCustom
+{
+    background-color: white;
+    border-bottom: 1px solid #DFDFDF;
+    border-left: 1px solid #DFDFDF;
+    border-right: 1px solid #DFDFDF;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+.dxgvControl_MaterialCompactCustom .dxgvFSDC,
+.dxgvControl_MaterialCompactCustom .dxgvHSDC
+{
+    background-color: #f4f4f4;
+    border-right: 1px solid #DFDFDF;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+.dxgvControl_MaterialCompactCustom .dxgvHSDC
+{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top: 1px solid #DFDFDF;
+    border-left: 1px solid #DFDFDF;
+}
+.dxIE *[dir="rtl"] .dxgvHSDC .dxgvTable_MaterialCompactCustom .dxgvHEC
+{
+    border-top-left-radius: 4px;
+}
+.dxIE .dxgvHSDC .dxgvHeader_MaterialCompactCustom:last-child,
+.dxIE *[dir="rtl"] .dxgvHSDC .dxgvHeader_MaterialCompactCustom:first-child
+{
+    border-top-right-radius: 0;
+}
+.dxgvControl_MaterialCompactCustom .dxgvFSDC
+{
+    border-bottom: 1px solid #DFDFDF;
+}
+.dxgvControl_MaterialCompactCustom .dxgvHSDC .dxgvTable_MaterialCompactCustom,
+.dxgvControl_MaterialCompactCustom .dxgvCSD .dxgvTable_MaterialCompactCustom
+{
+    border-top-width: 0;
+    border-top-right-radius: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    box-shadow: none;
+}
+.dxgvControl_MaterialCompactCustom .dxgvCSD .dxgvTable_MaterialCompactCustom
+{
+    border-top-left-radius: 0;
+}
+.dxgvControl_MaterialCompactCustom .dxgvFSDC .dxgvTable_MaterialCompactCustom
+{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: none;
+    box-shadow: none;
+}
+.dxgvControl_MaterialCompactCustom .dxgvCSD
+{
+    border: 1px solid #DFDFDF;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+.dxgvControl_MaterialCompactCustom .dxgvHSDC + .dxgvCSD
+{
+    border-top: none;
+}
+.dxgvControl_MaterialCompactCustom .dxpcLite_MaterialCompactCustom
+{
+    -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+}
+.dxgvControl_MaterialCompactCustom .dxpcLite_MaterialCompactCustom .dxpc-mainDiv.dxpc-hf
+{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.dxgvControl_MaterialCompactCustom .dxpcLite_MaterialCompactCustom .headerFilterPopupFooter .dxpc-footerContent
+{
+    padding: 9px 20px 7px 12px;
+}
+.dxgvControl_MaterialCompactCustom .dxpcLite_MaterialCompactCustom .headerFilterPopupFooter .dxpc-footerContent > table
+{
+    margin: 0;
+}
+.dxgvFilterBar_MaterialCompactCustom
+{
+    margin-top: 16px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.1);
+    border-radius: 4px;
+    border: 1px solid #DFDFDF;
+    border-collapse: separate;
+}
+.dxgvFilterBar_MaterialCompactCustom a
+{
+    color: #35B86B;
+    text-decoration: none;
+}
+.dxgvFilterBar_MaterialCompactCustom a:hover
+{
+    text-decoration: underline;
+}
+.dxgvFilterBar_MaterialCompactCustom > tbody > tr > td
+{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.dxgvFilterBarCheckBoxCell_MaterialCompactCustom
+{
+    padding-left: 8px;
+}
+*[dir="rtl"] .dxgvFilterBarCheckBoxCell_MaterialCompactCustom
+{
+    padding-right: 8px;
+}
+.dxgvFilterBarImageCell_MaterialCompactCustom
+{
+    padding: 0 8px 0 20px;
+    cursor: pointer;
+}
+*[dir="rtl"] .dxgvFilterBarImageCell_MaterialCompactCustom
+{
+    padding: 0 20px 0 8px;
+}
+.dxgvFilterBarImageCell_MaterialCompactCustom img
+{
+    margin-top: 3px;
+    margin-left: 0;
+}
+.dxgvFilterBarExpressionCell_MaterialCompactCustom
+{
+    padding: 5px 5px 8px 0;
+    white-space: nowrap;
+}
+.dxgvFilterBarClearButtonCell_MaterialCompactCustom
+{
+    padding: 5px 11px 8px 6px;
+}
+*[dir="rtl"] .dxgvFilterBarClearButtonCell_MaterialCompactCustom
+{
+    padding: 5px 6px 8px 11px;
+}
+.dxgvFilterBuilderMainArea_MaterialCompactCustom
+{
+    background: white none;
+    padding: 6px 2px;
+}
+.dxgvFilterBuilderButtonArea_MaterialCompactCustom
+{
+    border-top: 1px solid #eaeaea;
+    padding: 10px;
+    white-space: nowrap;
+}
+.dxgvFilterBuilderButtonArea_MaterialCompactCustom .dxbButton_MaterialCompactCustom
+{
+    margin-left: 8px;
+}
+.dxgvDataRowHover_MaterialCompactCustom
+{
+    background-color: #EEE;
+}
+.dxgvControl_MaterialCompactCustom .dxpLite_MaterialCompactCustom,
+.dxgvDisabled_MaterialCompactCustom .dxpLite_MaterialCompactCustom
+{
+    padding-top: 4px;
+}
+.dxgvControl_MaterialCompactCustom .dxgvHFC
+{
+    padding-left: 4px;
+}
+.dxgvControl_MaterialCompactCustom .dxgvHFC .dxeCalendar_MaterialCompactCustom
+{
+    margin-top: 3px;
+    margin-left: 7px;
+}
+.dxgvControl_MaterialCompactCustom div[id$='DXEPLPC']
+{
+    height: 53px;
+}
+.dxgvControl_MaterialCompactCustom .dxgvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxgvControl_MaterialCompactCustom .dxgvHFDRC
+{
+    margin: 15px 15px 25px;
+}
+.dxgvControl_MaterialCompactCustom .dxgvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxgvControl_MaterialCompactCustom .dxgvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxgvControl_MaterialCompactCustom .dxgvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 25px;
+}
+/* Removes flicking in iOS Safari*/
+.dxgvTable_MaterialCompactCustom
+{
+    -webkit-tap-highlight-color: transparent;
+}
+.dxgvControl_MaterialCompactCustom td.dxgvBatchEditCell_MaterialCompactCustom
+{
+    padding: 0 2px;
+}
+.dxgvControl_MaterialCompactCustom td.dxgvBatchEditModifiedCell_MaterialCompactCustom
+{
+    background: #d7f9c7;
+}
+.dxgvBatchEditDeletedItem_MaterialCompactCustom,
+.dxgvBatchEditNewItem_MaterialCompactCustom.dxgvBatchEditDeletedItem_MaterialCompactCustom
+{
+    background: #EFEFEF;
+}
+.dxgvBatchEditDeletedItem_MaterialCompactCustom > td:not(.dxgvCommandColumn_MaterialCompactCustom)
+{
+    color: rgba(0,0,0,0.5);
+}
+.dxgvBatchEditDeletedItem_MaterialCompactCustom td.dxgvBatchEditModifiedCell_MaterialCompactCustom
+{
+    background: #eefbe7;
+}
+.dxgvBatchEditNewItem_MaterialCompactCustom
+{
+    background: #F0FAEA;
+}
+.dxgvControl_MaterialCompactCustom .dxgvErrorCell
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxgvControl_MaterialCompactCustom .dxgvErrorCell img
+{
+    margin: -3px 0;
+}
+.dxgvStatusBar_MaterialCompactCustom .dxgvCommandColumn_MaterialCompactCustom a
+{
+    margin-right: 10px;
+}
+.dxgvControl_MaterialCompactCustom td.dxgvBatchEditCell_MaterialCompactCustom .dxichCellSys
+{
+    padding-left: 0;
+}
+.dxgvSearchPanel_MaterialCompactCustom
+{
+    padding: 7px 0 16px;
+}
+.dxgvSearchPanel_MaterialCompactCustom > table
+{
+    width: 100%;
+}
+.dxgvSearchPanel_MaterialCompactCustom .dxeButtonEdit_MaterialCompactCustom
+{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.1);
+    width: 100%;
+}
+.dxgvSearchPanel_MaterialCompactCustom .dxeButtonEdit_MaterialCompactCustom,
+.dxgvSearchPanel_MaterialCompactCustom .dxeButtonEdit_MaterialCompactCustom input
+{
+    background-color: #FAFAFA;
+}
+.dxgvSearchPanel_MaterialCompactCustom .dxeButtonEdit_MaterialCompactCustom td.dxic
+{
+    padding: 13px 8px 14px 12px;
+}
+*[dir="rtl"] .dxgvSearchPanel_MaterialCompactCustom .dxeButtonEdit_MaterialCompactCustom td.dxic
+{
+    padding: 13px 12px 14px 8px;
+}
+.dxgvControl_MaterialCompactCustom .dxgvHL
+{
+    background: #35B86B;
+    color: white;
+    font-weight: bold;
+    font-style: normal;
+}
+.dxgvControl_MaterialCompactCustom .dxgvSearchPanel_MaterialCompactCustom > table > tbody > tr > td:nth-child(2) a.dxbButton_MaterialCompactCustom
+{
+    margin-left: 16px;
+}
+*[dir="rtl"].dxgvControl_MaterialCompactCustom .dxgvSearchPanel_MaterialCompactCustom > table > tbody > tr > td:nth-child(2) a.dxbButton_MaterialCompactCustom
+{
+    margin-right: 16px;
+    margin-left: 0;
+}
+.dxgvControl_MaterialCompactCustom .dxgvSearchPanel_MaterialCompactCustom > table > tbody > tr > td:last-child a.dxbButton_MaterialCompactCustom
+{
+    margin-right: 16px;
+}
+*[dir="rtl"].dxgvControl_MaterialCompactCustom .dxgvSearchPanel_MaterialCompactCustom > table > tbody > tr > td:last-child a.dxbButton_MaterialCompactCustom
+{
+    margin-left: 16px;
+}
+.dxgvControl_MaterialCompactCustom .dxgvSearchPanel_MaterialCompactCustom > table > tbody > tr > td a.dxbButton_MaterialCompactCustom
+{
+    margin-left: 10px;
+}
+*[dir="rtl"].dxgvControl_MaterialCompactCustom .dxgvSearchPanel_MaterialCompactCustom > table > tbody > tr > td a.dxbButton_MaterialCompactCustom
+{
+    margin-right: 10px;
+}
+.dxgvControl_MaterialCompactCustom .dxgvSearchPanel_MaterialCompactCustom .dxbButton_MaterialCompactCustom
+{
+    margin-left: 8px;
+}
+*[dir="rtl"].dxgvControl_MaterialCompactCustom .dxgvSearchPanel_MaterialCompactCustom .dxbButton_MaterialCompactCustom
+{
+    margin-left: 0;
+    margin-right: 8px;
+}
+.dxgvFocusedCell_MaterialCompactCustom
+{
+    box-shadow: inset 2px 2px 0 #dfdfdf, inset -2px -2px 0 #dfdfdf;
+    -webkit-box-shadow: inset 2px 2px 0 #dfdfdf, inset -2px -2px 0 #dfdfdf;
+    -moz-box-shadow: inset 2px 2px 0 #dfdfdf, inset -2px -2px 0 #dfdfdf;
+}
+.dxeDropDownWindow_MaterialCompactCustom > .dxgvControl_MaterialCompactCustom
+{
+    border: none;
+}
+.dxeDropDownWindow_MaterialCompactCustom > .dxgvControl_MaterialCompactCustom .dxgvTable_MaterialCompactCustom,
+.dxeDropDownWindow_MaterialCompactCustom > .dxgvControl_MaterialCompactCustom .dxgvPagerBottomPanel_MaterialCompactCustom
+{
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.dxeDropDownWindow_MaterialCompactCustom > .dxgvControl_MaterialCompactCustom .dxgvStatusBar_MaterialCompactCustom
+{
+    padding-right: 8px;
+}
+.dxeDropDownWindow_MaterialCompactCustom > .dxgvControl_MaterialCompactCustom .dxgvStatusBar_MaterialCompactCustom tr.dxgv > td
+{
+    padding: 10px 8px 10px 0;
+}
+/*Ripple*/
+.dxgvControl_MaterialCompactCustom .dxgvTable_MaterialCompactCustom .dxgvHeader_MaterialCompactCustom:not([style*="cursor: w-resize"])::before,
+.dxgvControl_MaterialCompactCustom .dxgvCustomization_MaterialCompactCustom .dxgvHeader_MaterialCompactCustom::before
+{
+    content: "dxRippleTarget";
+    display: none;
+}
+.dxgvTable_MaterialCompactCustom .dxgvDataRowHover_MaterialCompactCustom .dxICheckBox_MaterialCompactCustom.dxWeb_edtCheckBoxUnchecked_MaterialCompactCustom .dxRipple,
+.dxgvTable_MaterialCompactCustom .dxgvDataRowHover_MaterialCompactCustom .dxeIRadioButton_MaterialCompactCustom.dxEditors_edtRadioButtonUnchecked_MaterialCompactCustom .dxRipple
+.dxgvTable_MaterialCompactCustom .dxgvSelectedRow_MaterialCompactCustom .dxICheckBox_MaterialCompactCustom.dxWeb_edtCheckBoxChecked_MaterialCompactCustom .dxRipple,
+.dxgvTable_MaterialCompactCustom .dxgvSelectedRow_MaterialCompactCustom .dxeIRadioButton_MaterialCompactCustom.dxEditors_edtRadioButtonChecked_MaterialCompactCustom .dxRipple
+{
+    background-color: rgba(53,183,105,0.3);
+}
+.dxgvTable_MaterialCompactCustom .dxgvFocusedRow_MaterialCompactCustom .dxICheckBox_MaterialCompactCustom.dxWeb_edtCheckBoxChecked_MaterialCompactCustom .dxRipple,
+.dxgvTable_MaterialCompactCustom .dxgvFocusedRow_MaterialCompactCustom .dxICheckBox_MaterialCompactCustom.dxWeb_edtCheckBoxUnchecked_MaterialCompactCustom .dxRipple,
+.dxgvTable_MaterialCompactCustom .dxgvFocusedRow_MaterialCompactCustom .dxeIRadioButton_MaterialCompactCustom.dxEditors_edtRadioButtonChecked_MaterialCompactCustom .dxRipple,
+.dxgvTable_MaterialCompactCustom .dxgvFocusedRow_MaterialCompactCustom .dxeIRadioButton_MaterialCompactCustom.dxEditors_edtRadioButtonUnchecked_MaterialCompactCustom .dxRipple
+{
+    background-color: rgba(255,255,255,0.35);
+}
+/* Customization Dialog */
+.dxgvCustDialog_MaterialCompactCustom
+{
+    font: 15px 'Roboto Regular', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    font-weight: 400;
+}
+.dxpcLite_MaterialCompactCustom .dxgvCustDialog_MaterialCompactCustom.dxpc-mainDiv
+{
+    border: none;
+}
+.dxpcLite_MaterialCompactCustom .dxgvCustDialog_MaterialCompactCustom .dxpc-content
+{
+    padding: 0;
+}
+.dxgvCustDialog_MaterialCompactCustom .dxpc-content.dxgvCD_ColumnChooserPage,
+.dxgvCustDialog_MaterialCompactCustom .dxpc-content.dxgvCD_FilterPage,
+.dxgvCustDialog_MaterialCompactCustom .dxpc-content.dxgvCD_SortPage,
+.dxgvCustDialog_MaterialCompactCustom .dxpc-content.dxgvCD_GroupPage
+{
+    transition: background-color 0.4s;
+}
+.dxgvCustDialog_MaterialCompactCustom .dxpc-content.dxgvCD_ColumnChooserPage,
+.dxgvCustDialog_MaterialCompactCustom .dxpc-content.dxgvCD_FilterPage
+{
+    background-color: #EFEFEF;
+}
+.dxgvCustDialog_MaterialCompactCustom .dxpc-content.dxgvCD_SortPage,
+.dxgvCustDialog_MaterialCompactCustom .dxpc-content.dxgvCD_GroupPage
+{
+    background-color: White;
+}
+.dxgvCustDialogHeader_MaterialCompactCustom
+{
+    background-color: #35B86B;
+    color: #FFFFFF;
+    font-size: 22px;
+    padding: 10px;
+    padding-bottom: 25px;
+    white-space: nowrap;
+}
+.dxgvCustDialogHeader_MaterialCompactCustom > div
+{
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;
+}
+.dxgvCustDialogHeader_MaterialCompactCustom > div:first-child,
+.dxgvCustDialogHeader_MaterialCompactCustom > div:last-child
+{
+    padding: 12px;
+    vertical-align: top;
+}
+.dxgvCustDialogHeader_MaterialCompactCustom a.dxbButton_MaterialCompactCustom
+{
+    vertical-align: top;
+}
+.dxgvCustDialogHeader_MaterialCompactCustom .dxgvCD_TSC
+{
+    padding: 6px 0 0;
+    width: 100%;
+}
+.dxgvCustDialogHeader_MaterialCompactCustom .dxgvCD_TSBW
+{
+    overflow: hidden;
+    padding: 0 16px;
+}
+.dxgvCustDialogHeader_MaterialCompactCustom .dxgvCD_TS
+{
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    margin: 15px 0;
+    text-align: center;
+    margin-top: 0;
+}
+.dxgvCustDialogHeader_MaterialCompactCustom .dxgvCD_TS .dxtcLite_MaterialCompactCustom.dxtc-top > .dxtc-stripContainer .dxtc-tab .dxtc-link,
+.dxgvCustDialogHeader_MaterialCompactCustom .dxgvCD_TS .dxtcLite_MaterialCompactCustom.dxtc-top > .dxtc-stripContainer .dxtc-activeTab .dxtc-link
+{
+    color: white;
+    padding: 1px 0;
+}
+.dxgvCustDialogHeader_MaterialCompactCustom .dxgvCD_TS .dxtcLite_MaterialCompactCustom.dxtc-top > .dxtc-stripContainer .dxtc-tab,
+.dxgvCustDialogHeader_MaterialCompactCustom .dxgvCD_TS .dxtcLite_MaterialCompactCustom.dxtc-top > .dxtc-stripContainer .dxtc-activeTab
+{
+    margin-right: 16px;
+}
+.dxgvCustDialogHeader_MaterialCompactCustom .dxgvCD_TS .dxtcLite_MaterialCompactCustom.dxtc-top > .dxtc-stripContainer .dxtc-tab
+{
+    border-bottom-color: transparent;
+}
+.dxgvCustDialogHeader_MaterialCompactCustom .dxgvCD_TS .dxtcLite_MaterialCompactCustom.dxtc-top > .dxtc-stripContainer .dxtc-activeTab
+{
+    border-bottom-color: white;
+}
+.dxgvCustDialogHeader_MaterialCompactCustom .dxgvCD_TS .dxtcLite_MaterialCompactCustom.dxtc-top > .dxtc-stripContainer .dxtc-spacer,
+.dxgvCustDialogHeader_MaterialCompactCustom .dxgvCD_TS .dxtcLite_MaterialCompactCustom.dxtc-top > .dxtc-stripContainer .dxtc-leftIndent,
+.dxgvCustDialogHeader_MaterialCompactCustom .dxgvCD_TS .dxtcLite_MaterialCompactCustom.dxtc-top > .dxtc-stripContainer .dxtc-rightIndent
+{
+    display: none;
+}
+.dxgvCustDialogHeader_MaterialCompactCustom .dxgvCD_TS .dxgvCD_TSLS,
+.dxgvCustDialogHeader_MaterialCompactCustom .dxgvCD_TS .dxgvCD_TSRS
+{
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    box-shadow: 0 0 11px 11px #35B86B;
+}
+.dxgvCustDialogHeader_MaterialCompactCustom .dxgvCD_TS .dxgvCD_TSLS
+{
+    left: 0;
+}
+.dxgvCustDialogHeader_MaterialCompactCustom .dxgvCD_TS .dxgvCD_TSRS
+{
+    right: 0;
+}
+.dxgvCustDialogDragArea_MaterialCompactCustom
+{
+    background-color: #EFEFEF;
+}
+.dxgvCustDialogSortingPage_MaterialCompactCustom .dxgvCustDialogDragArea_MaterialCompactCustom,
+.dxgvCustDialogGroupingPage_MaterialCompactCustom .dxgvCustDialogDragArea_MaterialCompactCustom,
+.dxgvCustDialogColumnChooserPage_MaterialCompactCustom .dxgvCustDialogDragArea_MaterialCompactCustom,
+.dxgvCustDialogFilteringPage_MaterialCompactCustom
+{
+    padding: 15px 8px;
+    min-height: 15px;
+}
+.dxgvCustDialogDragArea_MaterialCompactCustom .dxgvCD_DAETC
+{
+    color: #999999;
+    font: 13px "Roboto Regular", Helvetica, "Droid Sans", Tahoma, Geneva, sans-serif;
+    text-align: center;
+    white-space: nowrap;
+}
+.dxgvCustDialogListArea_MaterialCompactCustom
+{
+    background: white;
+    padding-left: 4px;
+}
+.dxgvCustDialogListArea_MaterialCompactCustom .dxgvCD_LAC
+{
+    color: #666666;
+    font-weight: bold;
+    margin: 0 10px 10px 10px;
+    margin-left: 11px;
+    padding: 13px 0 8px 0;
+    border-bottom: 1px solid #DCDCDC;
+}
+.dxgvCustDialogColumnItem_MaterialCompactCustom
+{
+    background-color: #FFFFFF;
+    color: rgba(0,0,0,0.64);
+    min-height: 48px;
+    transition: all 0.2s;
+}
+.dxgvCustDialogSortingPage_MaterialCompactCustom .dxgvCD_DAW,
+.dxgvCustDialogGroupingPage_MaterialCompactCustom .dxgvCD_DAW,
+.dxgvCustDialogSortingPage_MaterialCompactCustom .dxgvCustDialogDragArea_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom:first-child,
+.dxgvCustDialogGroupingPage_MaterialCompactCustom .dxgvCustDialogDragArea_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom:first-child,
+.dxgvCustDialogSortingPage_MaterialCompactCustom .dxgvCustDialogDragArea_MaterialCompactCustom .dxgvCD_DAETC + .dxgvCustDialogColumnItem_MaterialCompactCustom,
+.dxgvCustDialogGroupingPage_MaterialCompactCustom .dxgvCustDialogDragArea_MaterialCompactCustom .dxgvCD_DAETC + .dxgvCustDialogColumnItem_MaterialCompactCustom,
+.dxgvCustDialogColumnChooserPage_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom:first-child,
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom:first-child
+{
+    margin-top: -39px;
+}
+.dxgvCustDialogColumnItem_MaterialCompactCustom:last-child
+{
+    margin-bottom: 0px;
+}
+.dxgvControl_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom > div
+{
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;
+}
+.dxgvCustDialogColumnItem_MaterialCompactCustom > div img
+{
+    vertical-align: middle;
+}
+.dxgvCustDialogDragArea_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom
+{
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 6px;
+}
+.dxgvCustDialogDragArea_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom > div:first-child
+{
+    background-color: #eeeeee;
+    height: 48px;
+    padding: 0;
+    text-align: center;
+    min-width: 28px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+.dxgvCustDialogColumnChooserPage_MaterialCompactCustom .dxgvCustDialogDragArea_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom > div:first-child
+{
+    background-color: White;
+}
+.dxgvCustDialogDragArea_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom > div:last-child,
+.dxgvCustDialogListArea_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom > div:last-child
+{
+    height: 48px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.dxgvCustDialogListArea_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom > div:last-child
+{
+    padding-right: 17px;
+}
+.dxgvCustDialogDragArea_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom.DXCDDraggingItem
+{
+    transition: none;
+    position: relative;
+    box-shadow: 0 10px 0.25rem rgba(0,0,0,0.12), 0 0.25rem 0.5rem rgba(0,0,0,0.24);
+    z-index: 1;
+}
+.dxgvCustDialogSortingPage_MaterialCompactCustom .dxgvCD_DAW,
+.dxgvCustDialogGroupingPage_MaterialCompactCustom .dxgvCD_DAW
+{
+    padding-top: 39px;
+    position: relative;
+}
+.dxgvCustDialogSortingPage_MaterialCompactCustom .dxgvCD_DAEB,
+.dxgvCustDialogGroupingPage_MaterialCompactCustom .dxgvCD_DAEB
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: #EFEFEF;
+    box-shadow: 0px -3px 5px 0px rgba(0,0,0,0.11);
+    cursor: pointer;
+    text-align: center;
+}
+.dxgvCustDialogSortingPage_MaterialCompactCustom .dxgvCD_DAEB img,
+.dxgvCustDialogGroupingPage_MaterialCompactCustom .dxgvCD_DAEB img
+{
+    margin-top: 14px;
+}
+.dxgvCustDialogFilteringPage_MaterialCompactCustom
+{
+    background-color: #EFEFEF;
+}
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom,
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCustDialogFilterItem_MaterialCompactCustom
+{
+    box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24);
+    background-color: white;
+    border-bottom: 1px solid #DCDCDC;
+    transition: none;
+}
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom > div
+{
+    height: 28px;
+}
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCustDialogFilterItem_MaterialCompactCustom a
+{
+    cursor: pointer;
+}
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCustDialogFilterItem_MaterialCompactCustom a,
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCustDialogFilterItem_MaterialCompactCustom .dxgvCD_FR > span.dxeBase_MaterialCompactCustom
+{
+    font-size: medium;
+    line-height: 50px;
+}
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom:first-child,
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom.dxgvCD_EFCI,
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom.dxgvCD_EFCI + .dxgvCustDialogFilterItem_MaterialCompactCustom + .dxgvCustDialogColumnItem_MaterialCompactCustom
+{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.dxgvCustDialogFilterItem_MaterialCompactCustom,
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom:nth-last-child(2)
+{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom.dxgvCD_EFCI:nth-last-child(2)
+{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.dxgvCustDialogFilterItem_MaterialCompactCustom
+{
+    margin-bottom: 17px;
+}
+.dxgvCustDialogFilterItem_MaterialCompactCustom + .dxgvCustDialogColumnItem_MaterialCompactCustom.dxgvCD_EFCI
+{
+    margin-top: 17px;
+}
+.dxgvCustDialogColumnItem_MaterialCompactCustom + .dxgvCustDialogFilterItem_MaterialCompactCustom
+{
+    display: none;
+}
+.dxgvCustDialogColumnItem_MaterialCompactCustom.dxgvCD_EFCI + .dxgvCustDialogFilterItem_MaterialCompactCustom
+{
+    display: block;
+}
+.dxgvCustDialogFilterItem_MaterialCompactCustom .dxgvCD_FR
+{
+    padding: 0 10px 18px 10px;
+}
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCD_UF
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCD_UF a
+{
+    text-transform: uppercase;
+}
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCD_FR + .dxgvCD_UF
+{
+    border-top: 1px solid #DCDCDC;
+}
+.dxgvCustDialogFilterItem_MaterialCompactCustom .dxgvCD_UF.dxgvCD_UFLBV
+{
+    border-bottom: 1px solid #DCDCDC;
+}
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCD_UF.dxgvCD_UFLBV a,
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCD_UFSC
+{
+    display: none;
+}
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCD_UF.dxgvCD_UFLBV .dxgvCD_UFSC
+{
+    display: block;
+}
+.dxgvCustDialogFilterItem_MaterialCompactCustom .dxgvCD_UF.dxgvCD_UFLBV
+{
+    margin-bottom: 19px;
+}
+.dxgvCustDialogFilterItem_MaterialCompactCustom .dxgvCD_UFSC
+{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    height: 200px;
+}
+.dxgvCustDialogHeader_MaterialCompactCustom .dxbButton_MaterialCompactCustom::before,
+.dxgvCustDialog_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom img::before,
+.dxgvCustDialog_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom .dxichSys::before
+{
+    content: "dxRippleTargetExternal";
+    display: none;
+}
+.dxgvCustDialogDragArea_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom > div:first-child img::before,
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom > div:last-child .dxichSys::before
+{
+    content: "";
+}
+.dxgvCustDialog_MaterialCompactCustom .dxgvCD_DAEB::before,
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom::before
+{
+    content: "dxRippleTarget";
+    display: none;
+}
+.dxgvCustDialogHeader_MaterialCompactCustom .dxbButton_MaterialCompactCustom .dxRippleContainer,
+.dxgvCustDialogColumnItem_MaterialCompactCustom .dxichSys.dxRippleTargetExternal .dxRippleContainer,
+.dxgvCustDialogColumnItem_MaterialCompactCustom img.dxRippleTargetExternal + .dxRippleContainer,
+.dxgvCustDialogColumnItem_MaterialCompactCustom img.dxRippleTargetExternal + img + .dxRippleContainer
+{
+    width: 50px !important;
+    height: 50px !important;
+    margin-top: -15px;
+    margin-left: -15px;
+}
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom > .dxRippleContainer
+{
+    min-height: 48px !important;
+    padding: 0;
+}
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCustDialogColumnItem_MaterialCompactCustom,
+.dxgvCustDialogFilteringPage_MaterialCompactCustom .dxgvCustDialogFilterItem_MaterialCompactCustom
+{
+    position: relative;
+}
+.dxgvCustDialogHeader_MaterialCompactCustom .dxRipple
+{
+    background-color: rgba(255,255,255,0.35);
+}
+.dxgvCustDialogContent_MaterialCompactCustom .dxRipple
+{
+    background-color: rgba(53,183,105,0.3);
+}
+.dxgvCustDialogContent_MaterialCompactCustom .dxgvDAEBBR .dxRipple
+{
+    background-color: rgba(0,0,0,0.3);
+}
+.dxgvControl_MaterialCompactCustom .headerFilterPopupFooter img.dxpc-sizeGrip
+{
+    width: 10px;
+}
+.dxgvEditFormTable_MaterialCompactCustom .dxflGroup_MaterialCompactCustom
+{
+    padding-left: 4px;
+    padding-right: 4px;
+}

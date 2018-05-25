@@ -14,8 +14,17 @@ namespace TAAPs.Model
     
     public partial class RegisteredCompany
     {
-        public string RCNo { get; set; }
+        public RegisteredCompany()
+        {
+            this.CTINRequests = new HashSet<CTINRequest>();
+            this.CTaxpayers = new HashSet<CTaxpayer>();
+        }
+    
+        public string CacNumber { get; set; }
         public string CompanyName { get; set; }
-        public System.DateTime DateOfIncorporation { get; set; }
+        public System.DateTime RegistrationDate { get; set; }
+    
+        public virtual ICollection<CTINRequest> CTINRequests { get; set; }
+        public virtual ICollection<CTaxpayer> CTaxpayers { get; set; }
     }
 }

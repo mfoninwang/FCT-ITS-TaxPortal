@@ -1,0 +1,90 @@
+.dxRichEdit_CenterTabDragHandle_Office2010Silver,
+.dxRichEdit_ColumnSeparatorDragHandle_Office2010Silver,
+.dxRichEdit_DecimalTabDragHandle_Office2010Silver,
+.dxRichEdit_FirstLineIdentDragHandle_Office2010Silver,
+.dxRichEdit_LeftIdentDragHandle_Office2010Silver,
+.dxRichEdit_LeftTabDragHandle_Office2010Silver,
+.dxRichEdit_QuickSearchCloseButton_Office2010Silver,
+.dxRichEdit_QuickSearchCollapseButton_Office2010Silver,
+.dxRichEdit_QuickSearchNextButton_Office2010Silver,
+.dxRichEdit_QuickSearchPrevButton_Office2010Silver,
+.dxRichEdit_RightIdentDragHandle_Office2010Silver,
+.dxRichEdit_RightTabDragHandle_Office2010Silver
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxRichEdit_CenterTabDragHandle_Office2010Silver
+{
+    background-position: -50px -24px;
+    width: 8px;
+    height: 6px;
+}
+.dxRichEdit_ColumnSeparatorDragHandle_Office2010Silver
+{
+    background-position: -42px -24px;
+    width: 7px;
+    height: 8px;
+}
+.dxRichEdit_DecimalTabDragHandle_Office2010Silver
+{
+    background-position: -50px -33px;
+    width: 8px;
+    height: 6px;
+}
+.dxRichEdit_FirstLineIdentDragHandle_Office2010Silver
+{
+    background-position: -48px 0px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_LeftIdentDragHandle_Office2010Silver
+{
+    background-position: -32px -24px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_LeftTabDragHandle_Office2010Silver
+{
+    background-position: -43px -33px;
+    width: 6px;
+    height: 6px;
+}
+.dxRichEdit_QuickSearchCloseButton_Office2010Silver
+{
+    background-position: 0px -24px;
+    width: 15px;
+    height: 15px;
+}
+.dxRichEdit_QuickSearchCollapseButton_Office2010Silver
+{
+    background-position: -16px -24px;
+    width: 15px;
+    height: 15px;
+}
+.dxRichEdit_QuickSearchNextButton_Office2010Silver
+{
+    background-position: 0px 0px;
+    width: 23px;
+    height: 23px;
+}
+.dxRichEdit_QuickSearchPrevButton_Office2010Silver
+{
+    background-position: -24px 0px;
+    width: 23px;
+    height: 23px;
+}
+.dxRichEdit_RightIdentDragHandle_Office2010Silver
+{
+    background-position: -49px -15px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_RightTabDragHandle_Office2010Silver
+{
+    background-position: -36px -33px;
+    width: 6px;
+    height: 6px;
+}
+

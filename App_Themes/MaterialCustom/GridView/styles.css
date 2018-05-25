@@ -1,0 +1,1462 @@
+.dxgvControl_MaterialCustom,
+.dxgvDisabled_MaterialCustom
+{
+    font: 14px 'Roboto Regular', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    background-color: White;
+    color: #484848;
+    cursor: default;
+}
+.dxgvDisabled_MaterialCustom
+{
+    color: #b8b8b8;
+}
+.dxgvControl_MaterialCustom a
+{
+    color: #009688;
+    text-decoration: none;
+}
+.dxgvControl_MaterialCustom a:hover
+{
+    text-decoration: underline;
+}
+.dxgvControl_MaterialCustom a:hover.dxbDisabled_MaterialCustom
+{
+    color: #BBBBBB;
+    text-decoration: none;
+}
+.dxgvDisabled_MaterialCustom a
+{
+    color: #b8b8b8;
+}
+.dxgvEmptyDataRow_MaterialCustom.dxgvLVR > td.dxgv,
+.dxgvDataRow_MaterialCustom.dxgvLVR > td.dxgv,
+.dxgvGroupRow_MaterialCustom.dxgvLVR > td.dxgv
+{
+    border-bottom-width: 0;
+}
+.dxgvRBB .dxgvEmptyDataRow_MaterialCustom.dxgvLVR > td.dxgv,
+.dxgvRBB .dxgvDataRow_MaterialCustom.dxgvLVR > td.dxgv,
+.dxgvRBB .dxgvGroupRow_MaterialCustom.dxgvLVR > td.dxgv
+{
+    border-bottom-width: 1px !important;
+}
+.dxgvGroupRow_MaterialCustom td.dxgv.dxgvPHEC, .dxgvPreviewRow_MaterialCustom td.dxgv.dxgvPHEC,
+.dxgvDetailRow_MaterialCustom td.dxgv.dxgvPHEC, .dxgvGroupFooter_MaterialCustom td.dxgv.dxgvPHEC,
+.dxgvDataRow_MaterialCustom td.dxgvPHEC
+{
+    border-right: 1px solid #DFDFDF;
+}
+.dxgvLoadingPanel_MaterialCustom
+{
+    background-color: white;
+    font: 14px 'Roboto Regular', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    color: #484848;
+    -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+}
+.dxgvLoadingPanel_MaterialCustom td.dx
+{
+    font-size: 1.17em;
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px 14px;
+}
+.dxgvLoadingPanel_MaterialCustom .dxlp-loadingImage
+{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+    animation: dxLoadSpinSys 1s linear infinite;
+    border: 4px solid #009688;
+    border-top: 4px solid #EEE;
+    width: 24px;
+    height: 24px;
+}
+html.dxIE.dxBrowserVersion-9 .dxgvLoadingPanel_MaterialCustom .dxlp-loadingImage
+{
+    background-image: url('../Web/Loading.gif');
+    height: 32px;
+    width: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: none;
+    border: none;
+    border-radius: 0;
+}
+html.dxIE.dxBrowserVersion-9 .dxgvLoadingPanelStatusBar_MaterialCustom .dxlp-loadingImage
+{
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: none;
+    border: none;
+    border-radius: 0;
+    background-image: url('gvLoadingOnStatusBar.gif');
+    height: 16px;
+    width: 16px;
+}
+.dxgvLoadingPanelStatusBar_MaterialCustom .dxlp-loadingImage
+{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+    animation: dxLoadSpinSys 1s linear infinite;
+    border: 2px solid #009688;
+    border-top: 2px solid #EEE;
+    width: 12px;
+    height: 12px;
+}
+.dxgvLoadingPanelStatusBar_MaterialCustom
+{
+    background-color: Transparent;
+}
+.dxgvLoadingPanelStatusBar_MaterialCustom td
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 0px 2px;
+}
+.dxgvTable_MaterialCustom
+{
+    background-color: White;
+    border: 1px solid #DFDFDF;
+    border-bottom-width: 0;
+    border-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+    border-collapse: separate !important;
+    overflow: hidden;
+}
+.dxIE .dxgvHeader_MaterialCustom:first-child,
+.dxIE *[dir="rtl"] .dxgvHeader_MaterialCustom:last-child
+{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 0;
+}
+.dxIE .dxgvHeader_MaterialCustom:last-child,
+.dxIE *[dir="rtl"] .dxgvHeader_MaterialCustom:first-child
+{
+    border-top-right-radius: 4px;
+    border-top-left-radius: 0;
+}
+.dxgvTable_MaterialCustom .dxgvHEC
+{
+    background-color: White;
+    border-width: 0;
+    overflow: hidden;
+}
+.dxgvTable_MaterialCustom .dxgvFooter_MaterialCustom .dxgvHEC
+{
+    background-color: #f4f4f4;
+}
+.dxpcLite_MaterialCustom .dxgvTable_MaterialCustom
+{
+    box-shadow: none;
+}
+.dxpcLite_MaterialCustom .dxgvStatusBar_MaterialCustom
+{
+    border-top: 0;
+}
+.dxpcLite_MaterialCustom .dxpc-content
+{
+    padding: 9px 12px 0 12px;
+}
+.dxgvControl_MaterialCustom .dxgvFSDC .dxgvFooter_MaterialCustom td.dxgv
+{
+    border-bottom-width: 0;
+}
+.dxgvControl_MaterialCustom .dxgvFGI
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.dxgvControl_MaterialCustom .dxgvFGI
+{
+    right: 5px;
+    left: auto;
+}
+*[dir="rtl"].dxgvControl_MaterialCustom .dxgvFGI
+{
+    right: auto;
+    left: 5px;
+}
+.dxgvInlineEditRow_MaterialCustom td.dxgv
+{
+    border-bottom: 1px solid #DFDFDF;
+}
+.dxgvInlineEditRow_MaterialCustom td.dxgvIndentCell
+{
+    background-color: white;
+}
+.dxgvDataRowAlt_MaterialCustom
+{
+    background-color: #F5F5F5;
+}
+.dxgvFilterRow_MaterialCustom
+{
+    border-top: 1px solid #DFDFDF;
+}
+.dxgvEditForm_MaterialCustom > td.dxgv
+{
+    border-bottom: 1px solid #DFDFDF !important;
+    padding: 21px 7px 23px;
+    background-color: #f4f4f4;
+}
+.dxgvControl_MaterialCustom .dxgvTable_MaterialCustom .dxgvFocusedRow_MaterialCustom,
+.dxgvControl_MaterialCustom .dxgvTable_MaterialCustom .dxgvFocusedRow_MaterialCustom.dxgvDataRowHover_MaterialCustom
+{
+    background-color: #009688;
+    color: white;
+}
+.dxgvControl_MaterialCustom .dxgvTable_MaterialCustom .dxgvFocusedRow_MaterialCustom a,
+.dxgvControl_MaterialCustom .dxgvTable_MaterialCustom .dxgvFocusedGroupRow_MaterialCustom a
+{
+    color: white;
+}
+.dxgvControl_MaterialCustom .dxgvAIC
+{
+    text-align: center;
+}
+.dxgvControl_MaterialCustom .dxgvADSB > img
+{
+    opacity: 1;
+    margin-top: -33px;
+}
+.dxgvControl_MaterialCustom .dxgvADSB::before
+{
+    content: '';
+    display: block;
+    height: 32px;
+    width: 32px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+    background-color: transparent;
+    transition-property: background-color,box-shadow;
+    transition-duration: .3s;
+}
+.dxgvControl_MaterialCustom .dxgvADSB:hover::before
+{
+    background-color: #009688;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+.dxgvControl_MaterialCustom .dxgvFocusedRow_MaterialCustom .dxgvADSB:hover::before
+{
+    background-color: white;
+}
+.dxgvControl_MaterialCustom .dxgvTable_MaterialCustom .dxgvSelectedRow_MaterialCustom,
+.dxgvControl_MaterialCustom .dxgvTable_MaterialCustom .dxgvSelectedRow_MaterialCustom.dxgvDataRowHover_MaterialCustom
+{
+    background-color: #F1F1F1;
+}
+.dxgvPreviewRow_MaterialCustom
+{
+    color: #999999;
+}
+.dxgvDetailRow_MaterialCustom td.dxgv,
+.dxgvPreviewRow_MaterialCustom td.dxgv,
+.dxgvEmptyDataRow_MaterialCustom td.dxgv
+{
+    padding: 20px 2px 20px 4px;
+    border-bottom: 1px solid #DFDFDF !important;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+.dxgvPreviewRow_MaterialCustom td.dxgv
+{
+    padding: 10px 10px 10px 15px;
+}
+.dxgvDetailRow_MaterialCustom td.dxgvDetailCell_MaterialCustom
+{
+    padding: 16px 18px;
+}
+.dxgvDetailRow_MaterialCustom td.dxgvIndentCell
+{
+    padding-right: 0px;
+    border-bottom: 1px solid #DFDFDF !important;
+}
+.dxgvDetailRow_MaterialCustom.dxgvADR .dxgvADT > tbody > tr > td
+{
+    padding: 5px 6px 4px 0;
+}
+.dxgvDetailRow_MaterialCustom.dxgvADR .dxgvADT > tbody > tr > td .dxeTextBoxSys,
+.dxgvDetailRow_MaterialCustom.dxgvADR .dxgvADT > tbody > tr > td .dxichCellSys
+{
+    margin: -2px 0 -5px 0;
+}
+.dxgvDetailRow_MaterialCustom.dxgvADR .dxgvADCC
+{
+    color: #7F7F7F;
+}
+.dxgvDetailRow_MaterialCustom.dxgvADR.dxgvFocusedRow_MaterialCustom .dxgvADCC,
+.dxgvDetailRow_MaterialCustom.dxgvADR.dxgvFocusedRow_MaterialCustom .dxgvADDC,
+.dxgvDetailRow_MaterialCustom.dxgvADR.dxgvFocusedRow_MaterialCustom .dxgvADCMDC a
+{
+    color: white;
+}
+.dxgvEmptyDataRow_MaterialCustom
+{
+    color: Gray;
+}
+.dxgvEmptyDataRow_MaterialCustom td.dxgv
+{
+    border-bottom: 1px solid #DFDFDF !important;
+    text-align: center;
+}
+.dxgvEditFormDisplayRow_MaterialCustom td.dxgv,
+.dxgvDetailCell_MaterialCustom td.dxgv,
+.dxgvDataRow_MaterialCustom td.dxgv,
+.dxgvDetailRow_MaterialCustom.dxgvADR td.dxgvAIC
+{
+    overflow: hidden;
+    border-bottom: 1px solid #DFDFDF !important;
+    border-right: 1px solid #DFDFDF;
+    border-top-width: 0;
+    border-left-width: 0;
+    padding: 16px 10px 16px;
+}
+.dxgvEditFormDisplayRow_MaterialCustom:last-child td.dxgv,
+.dxgvDetailCell_MaterialCustom:last-child td.dxgv,
+.dxgvDataRow_MaterialCustom:last-child td.dxgv,
+.dxgvDetailRow_MaterialCustom.dxgvADR:last-child td.dxgvAIC
+{
+    border-bottom: 1px solid #DFDFDF !important;
+}
+.dxgvDataRow_MaterialCustom td.dxgvAIC,
+.dxgvInlineEditRow_MaterialCustom td.dxgvAIC
+{
+    padding: 0 10px;
+}
+.dxgvDetailRow_MaterialCustom.dxgvADR td.dxgvAIC
+{
+    padding: 6px 4px;
+}
+.dxgvEditFormDisplayRow_MaterialCustom td.dxgvIndentCell
+{
+    border-bottom: 1px solid #DFDFDF !important;
+}
+.dxgvDataRow_MaterialCustom .dxICheckBox_MaterialCustom,
+.dxgvInlineEditRow_MaterialCustom .dxICheckBox_MaterialCustom,
+.dxgvDataRow_MaterialCustom .dxeIRadioButton_MaterialCustom,
+.dxgvInlineEditRow_MaterialCustom .dxeIRadioButton_MaterialCustom
+{
+    margin: -3px 10px -1px 10px;
+}
+*[dir="rtl"] .dxgvDataRow_MaterialCustom .dxICheckBox_MaterialCustom,
+*[dir="rtl"] .dxgvInlineEditRow_MaterialCustom .dxICheckBox_MaterialCustom,
+*[dir="rtl"] .dxgvDataRow_MaterialCustom .dxeIRadioButton_MaterialCustom,
+*[dir="rtl"] .dxgvInlineEditRow_MaterialCustom .dxeIRadioButton_MaterialCustom
+{
+    margin: -3px 10px -1px 10px;
+}
+.dxgvCommandColumn_MaterialCustom .dxICheckBox_MaterialCustom,
+.dxgvCommandColumn_MaterialCustom .dxeIRadioButton_MaterialCustom
+{
+    margin: -3px 10px -1px 10px;
+}
+*[dir="rtl"] .dxgvCommandColumn_MaterialCustom .dxICheckBox_MaterialCustom,
+*[dir="rtl"] .dxgvCommandColumn_MaterialCustom .dxeIRadioButton_MaterialCustom
+{
+    margin: -3px 10px -1px 10px;
+}
+.dxgvEditingErrorRow_MaterialCustom
+{
+    background-color: #FFC8C8;
+    color: #FF0000;
+}
+.dxgvEditingErrorRow_MaterialCustom td.dxgv
+{
+    white-space: pre-wrap;
+    border-bottom: 1px solid #DFDFDF !important;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-left-width: 0;
+    padding: 6px 10px;
+}
+.dxgvFilterRow_MaterialCustom td.dxgv
+{
+    border-bottom: 1px solid #DFDFDF !important;
+    border-right: 1px solid #DFDFDF;
+    border-top-width: 0;
+    border-left-width: 0;
+    padding: 8px 10px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+.dxgvGroupRow_MaterialCustom
+{
+    background-color: #f4f4f4;
+    color: #939393;
+}
+.dxgvFocusedGroupRow_MaterialCustom
+{
+    background-color: #009688;
+    color: white;
+}
+.dxgvGroupRow_MaterialCustom td.dxgv,
+.dxgvFocusedGroupRow_MaterialCustom td.dxgv
+{
+    border: 0 none;
+    vertical-align: middle;
+    border-bottom: 1px solid #DFDFDF !important;
+    padding: 13px 10px 13px;
+    background-color: inherit;
+}
+.dxgvFocusedGroupRow_MaterialCustom td.dxgvIndentCell
+{
+    background-color: #f4f4f4 !important;
+}
+.dxgvHeaderPanel_MaterialCustom
+{
+    background-color: #ffffff;
+    padding: 21px 10px 17px;
+    border-bottom: 1px solid #DFDFDF;
+}
+.dxIE .dxgvMSDraggable .dxgvHeader_MaterialCustom,
+.dxIE .dxgvMSDraggable.dxgvGroupPanel_MaterialCustom
+{
+    -ms-touch-action: pinch-zoom;
+}
+.dxEdge .dxgvMSDraggable .dxgvHeader_MaterialCustom,
+.dxEdge .dxgvMSDraggable.dxgvGroupPanel_MaterialCustom
+{
+    touch-action: pinch-zoom;
+}
+.dxgvHeader_MaterialCustom
+{
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 21px 10px 17px;
+    border: 1px solid #DFDFDF;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    font-weight: normal;
+    text-align: left;
+    font: 14px 'Roboto Medium', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    font-size: 1em;
+}
+.dxgvHeader_MaterialCustom td
+{
+    white-space: nowrap;
+}
+.dxgvHeader_MaterialCustom a,
+.dxgvHeader_MaterialCustom a.dxgvCommandColumnItem_MaterialCustom,
+.dxgvHeader_MaterialCustom a.dxgvCommandColumnItem_MaterialCustom.dxbDisabled_MaterialCustom,
+.dxgvCommandColumn_MaterialCustom a,
+.dxgvCommandColumn_MaterialCustom a.dxgvCommandColumnItem_MaterialCustom.dxbDisabled_MaterialCustom
+{
+    color: #009688;
+}
+.dxgvHeader_MaterialCustom a.dxgvCommandColumnItem_MaterialCustom
+{
+    margin: 0 5px 0 0;
+}
+.dxgvHeader_MaterialCustom a.dxgvCommandColumnItem_MaterialCustom.dxbDisabled_MaterialCustom,
+.dxgvCommandColumn_MaterialCustom a.dxgvCommandColumnItem_MaterialCustom.dxbDisabled_MaterialCustom
+{
+    opacity: 0.5;
+}
+.dxgvPopupEditForm_MaterialCustom
+{
+    padding: 10px;
+    margin: 0;
+}
+.dxgvCustomization_MaterialCustom
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 10px 10px 10px;
+    min-width: 220px;
+}
+.dxgvCustomization_MaterialCustom .dxgvHeader_MaterialCustom
+{
+    padding: 10px;
+    background-color: white;
+    color: #484848;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.1);
+}
+.dxgvAdaptiveGroupPanel_MaterialCustom,
+.dxgvGroupPanel_MaterialCustom
+{
+    color: #8e8e93;
+    font-size: 0.85em;
+}
+.dxgvAdaptiveGroupPanel_MaterialCustom .dxgvHeader_MaterialCustom,
+.dxgvGroupPanel_MaterialCustom .dxgvHeader_MaterialCustom
+{
+    font-size: 1.2em;
+}
+.dxgvGroupPanel_MaterialCustom
+{
+    padding: 8px 10px 19px;
+    white-space: nowrap;
+}
+.dxgvGroupPanel_MaterialCustom .dxgvHeader_MaterialCustom,
+.dxgvAdaptiveGroupPanel_MaterialCustom .dxgvHeader_MaterialCustom
+{
+    background-color: white;
+    font-weight: normal;
+    border: 1px solid #DFDFDF;
+    padding: 4px 18px;
+}
+.dxgvAdaptiveHeaderPanel_MaterialCustom .dxgvHeader_MaterialCustom
+{
+    border: 1px solid #DFDFDF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+}
+.dxgvAdaptiveGroupPanel_MaterialCustom
+{
+    padding-left: 6px;
+    padding-top: 7px;
+}
+.dxgvAdaptiveGroupPanel_MaterialCustom div.dxgvADH
+{
+    margin-right: 4px;
+    margin-bottom: 5px;
+}
+.dxgvAdaptiveGroupPanel_MaterialCustom.dxgvEAHP
+{
+    padding-bottom: 8px;
+}
+.dxgvAdaptiveHeaderPanel_MaterialCustom
+{
+    border-bottom: 1px solid #DFDFDF;
+    padding-top: 10px;
+}
+.dxgvAdaptiveHeaderPanel_MaterialCustom.dxgvEAHP
+{
+    padding: 10px 7px;
+}
+.dxgvAdaptiveFooterPanel_MaterialCustom
+{
+    padding-top: 6px;
+}
+.dxgvAdaptiveHeaderPanel_MaterialCustom,
+.dxgvAdaptiveFooterPanel_MaterialCustom
+{
+    padding-left: 24px;
+}
+.dxgvFooter_MaterialCustom
+{
+    white-space: nowrap;
+}
+.dxgvFooter_MaterialCustom td.dxgv
+{
+    padding: 15px 10px 16px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #DFDFDF;
+    color: #8e8e93;
+}
+.dxgvABRL .dxgvFooter_MaterialCustom td.dxgv,
+.dxgvABRL .dxgvGroupFooter_MaterialCustom td.dxgv
+{
+    border-right: 1px solid #DFDFDF;
+}
+.dxgvGroupFooter_MaterialCustom td.dxgv
+{
+    padding: 15px 10px 16px;
+    color: #8e8e93;
+    border-bottom: 1px solid #DFDFDF;
+    border-right-width: 0;
+}
+.dxgvControl_MaterialCustom .dxgvIndentCell
+{
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+}
+.dxgvDataRow_MaterialCustom td.dxgvIndentCell,
+.dxgvDetailRow_MaterialCustom td.dxgvIndentCell,
+.dxgvPreviewRow_MaterialCustom td.dxgvIndentCell,
+.dxgvGroupFooter_MaterialCustom td.dxgvIndentCell
+{
+    background-color: white;
+    border-bottom: 1px solid #DFDFDF !important;
+}
+.dxgvGroupRow_MaterialCustom td.dxgvIndentCell
+{
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #DFDFDF !important;
+}
+.dxgvTitlePanel_MaterialCustom,
+.dxgvTable_MaterialCustom caption
+{
+    font-size: 1.25em;
+    font-weight: normal;
+    padding: 3px 3px 5px;
+    text-align: center;
+    color: #999999;
+}
+.dxgvStatusBar_MaterialCustom
+{
+    border-top: 1px solid #DFDFDF;
+}
+.dxgvStatusBar_MaterialCustom tr.dxgv
+{
+    height: 20px;
+}
+.dxgvStatusBar_MaterialCustom tr.dxgv > td
+{
+    padding: 12px 0;
+}
+.dxgvStatusBar_MaterialCustom tr.dxgv span .dxbButtonSys:first-child
+{
+    margin-left: 20px;
+}
+.dxgvCommandColumn_MaterialCustom
+{
+    padding: 8px 4px;
+    white-space: nowrap;
+}
+.dxgvCommandColumn_MaterialCustom a
+{
+    margin: 0 5px 0 0;
+}
+.dxgvEditFormTable_MaterialCustom .dxflFormLayout_MaterialCustom .dxflCommandItemSys,
+.dxgvEditFormTable_MaterialCustom .dxgvCommandColumn_MaterialCustom
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.dxgvEditFormTable_MaterialCustom .dxflFormLayout_MaterialCustom .dxflCommandItemSys a,
+.dxgvEditFormTable_MaterialCustom .dxgvCommandColumn_MaterialCustom a
+{
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 8px 16px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+.dxgvEditFormTable_MaterialCustom .dxflFormLayout_MaterialCustom .dxflCommandItemSys a:hover,
+.dxgvEditFormTable_MaterialCustom .dxgvCommandColumn_MaterialCustom a:hover
+{
+    background-color: #d1d1d1;
+    text-decoration: none;
+}
+.dxbButton_MaterialCustom[class~="dxgvCommandColumnItem_MaterialCustom"],
+.dxgvEditFormTable_MaterialCustom div.dxbButton_MaterialCustom
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.dxbButton_MaterialCustom[class~="dxgvCommandColumnItem_MaterialCustom"] .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.dxgvCommandColumnItem_MaterialCustom
+.dxgvEditFormTable_MaterialCustom
+{
+    padding: 2px 6px 6px 4px;
+    min-width: 300px;
+}
+.dxgvEditFormTable_MaterialCustom a
+{
+    color: #009688;
+}
+.dxgvEditFormCaption_MaterialCustom
+{
+    padding: 4px 4px 4px 10px;
+    white-space: nowrap;
+}
+.dxgvInlineEditCell_MaterialCustom
+{
+    padding: 8px 10px;
+}
+.dxgvEditFormCell_MaterialCustom
+{
+    padding: 4px;
+    border-width: 0;
+}
+.dxgvPagerTopPanel_MaterialCustom,
+.dxgvPagerBottomPanel_MaterialCustom
+{
+    padding: 9px 0 9px;
+}
+.dxgvPagerBottomPanel_MaterialCustom
+{
+    background-color: white;
+    border-bottom: 1px solid #DFDFDF;
+    border-left: 1px solid #DFDFDF;
+    border-right: 1px solid #DFDFDF;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+.dxgvControl_MaterialCustom .dxgvFSDC,
+.dxgvControl_MaterialCustom .dxgvHSDC
+{
+    background-color: #f4f4f4;
+    border-right: 1px solid #DFDFDF;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+.dxgvControl_MaterialCustom .dxgvHSDC
+{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top: 1px solid #DFDFDF;
+    border-left: 1px solid #DFDFDF;
+}
+.dxIE *[dir="rtl"] .dxgvHSDC .dxgvTable_MaterialCustom .dxgvHEC
+{
+    border-top-left-radius: 4px;
+}
+.dxIE .dxgvHSDC .dxgvHeader_MaterialCustom:last-child,
+.dxIE *[dir="rtl"] .dxgvHSDC .dxgvHeader_MaterialCustom:first-child
+{
+    border-top-right-radius: 0;
+}
+.dxgvControl_MaterialCustom .dxgvFSDC
+{
+    border-bottom: 1px solid #DFDFDF;
+}
+.dxgvControl_MaterialCustom .dxgvHSDC .dxgvTable_MaterialCustom,
+.dxgvControl_MaterialCustom .dxgvCSD .dxgvTable_MaterialCustom
+{
+    border-top-width: 0;
+    border-top-right-radius: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    box-shadow: none;
+}
+.dxgvControl_MaterialCustom .dxgvCSD .dxgvTable_MaterialCustom
+{
+    border-top-left-radius: 0;
+}
+.dxgvControl_MaterialCustom .dxgvFSDC .dxgvTable_MaterialCustom
+{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: none;
+    box-shadow: none;
+}
+.dxgvControl_MaterialCustom .dxgvCSD
+{
+    border: 1px solid #DFDFDF;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+.dxgvControl_MaterialCustom .dxgvHSDC + .dxgvCSD
+{
+    border-top: none;
+}
+.dxgvControl_MaterialCustom .dxpcLite_MaterialCustom
+{
+    -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+}
+.dxgvControl_MaterialCustom .dxpcLite_MaterialCustom .dxpc-mainDiv.dxpc-hf
+{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.dxgvControl_MaterialCustom .dxpcLite_MaterialCustom .headerFilterPopupFooter .dxpc-footerContent
+{
+    padding: 6px 20px 7px 12px;
+}
+.dxgvControl_MaterialCustom .dxpcLite_MaterialCustom .headerFilterPopupFooter .dxpc-footerContent > table
+{
+    margin: 19px 20px 11px 0;
+}
+.dxgvFilterBar_MaterialCustom
+{
+    margin-top: 16px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.1);
+    border-radius: 4px;
+    border: 1px solid #DFDFDF;
+    border-collapse: separate;
+}
+.dxgvFilterBar_MaterialCustom a
+{
+    color: #009688;
+    text-decoration: none;
+}
+.dxgvFilterBar_MaterialCustom a:hover
+{
+    text-decoration: underline;
+}
+.dxgvFilterBar_MaterialCustom > tbody > tr > td
+{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.dxgvFilterBarCheckBoxCell_MaterialCustom
+{
+    padding-left: 20px;
+}
+*[dir="rtl"] .dxgvFilterBarCheckBoxCell_MaterialCustom
+{
+    padding-right: 20px;
+}
+.dxgvFilterBarImageCell_MaterialCustom
+{
+    padding: 0 8px 0 20px;
+    cursor: pointer;
+}
+*[dir="rtl"] .dxgvFilterBarImageCell_MaterialCustom
+{
+    padding: 0 20px 0 8px;
+}
+.dxgvFilterBarImageCell_MaterialCustom img
+{
+    margin-top: 3px;
+    margin-left: 0;
+}
+.dxgvFilterBarExpressionCell_MaterialCustom
+{
+    padding: 5px 5px 8px 0;
+    white-space: nowrap;
+}
+.dxgvFilterBarClearButtonCell_MaterialCustom
+{
+    padding: 5px 20px 8px 6px;
+}
+*[dir="rtl"] .dxgvFilterBarClearButtonCell_MaterialCustom
+{
+    padding: 5px 6px 8px 20px;
+}
+.dxgvFilterBuilderMainArea_MaterialCustom
+{
+    background: white none;
+    padding: 6px 2px;
+}
+.dxgvFilterBuilderButtonArea_MaterialCustom
+{
+    border-top: 1px solid #eaeaea;
+    padding: 10px;
+    white-space: nowrap;
+}
+.dxgvFilterBuilderButtonArea_MaterialCustom .dxbButton_MaterialCustom
+{
+    margin-left: 8px;
+}
+.dxgvDataRowHover_MaterialCustom
+{
+    background-color: #EEE;
+}
+.dxgvControl_MaterialCustom .dxpLite_MaterialCustom,
+.dxgvDisabled_MaterialCustom .dxpLite_MaterialCustom
+{
+    padding-top: 4px;
+}
+.dxgvControl_MaterialCustom .dxgvHFC
+{
+    padding-left: 4px;
+}
+.dxgvControl_MaterialCustom .dxgvHFC .dxeCalendar_MaterialCustom
+{
+    margin-top: 3px;
+    margin-left: 7px;
+}
+.dxgvControl_MaterialCustom div[id$='DXEPLPC']
+{
+    height: 53px;
+}
+.dxgvControl_MaterialCustom .dxgvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxgvControl_MaterialCustom .dxgvHFDRC
+{
+    margin: 15px 15px 25px;
+}
+.dxgvControl_MaterialCustom .dxgvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxgvControl_MaterialCustom .dxgvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxgvControl_MaterialCustom .dxgvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 25px;
+}
+/* Removes flicking in iOS Safari*/
+.dxgvTable_MaterialCustom
+{
+    -webkit-tap-highlight-color: transparent;
+}
+.dxgvControl_MaterialCustom td.dxgvBatchEditCell_MaterialCustom
+{
+    padding: 0 2px;
+}
+.dxgvControl_MaterialCustom td.dxgvBatchEditModifiedCell_MaterialCustom
+{
+    background: #d7f9c7;
+}
+.dxgvBatchEditDeletedItem_MaterialCustom,
+.dxgvBatchEditNewItem_MaterialCustom.dxgvBatchEditDeletedItem_MaterialCustom
+{
+    background: #EFEFEF;
+}
+.dxgvBatchEditDeletedItem_MaterialCustom > td:not(.dxgvCommandColumn_MaterialCustom)
+{
+    color: rgba(0,0,0,0.5);
+}
+.dxgvBatchEditDeletedItem_MaterialCustom td.dxgvBatchEditModifiedCell_MaterialCustom
+{
+    background: #eefbe7;
+}
+.dxgvBatchEditNewItem_MaterialCustom
+{
+    background: #F0FAEA;
+}
+.dxgvControl_MaterialCustom .dxgvErrorCell
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxgvControl_MaterialCustom .dxgvErrorCell img
+{
+    margin: -3px 0;
+}
+.dxgvStatusBar_MaterialCustom .dxgvCommandColumn_MaterialCustom a
+{
+    margin-right: 10px;
+}
+.dxgvControl_MaterialCustom td.dxgvBatchEditCell_MaterialCustom .dxichCellSys
+{
+    padding-left: 0;
+}
+.dxgvSearchPanel_MaterialCustom
+{
+    padding: 7px 0 16px;
+}
+.dxgvSearchPanel_MaterialCustom > table
+{
+    width: 100%;
+}
+.dxgvSearchPanel_MaterialCustom .dxeButtonEdit_MaterialCustom
+{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.1);
+    width: 100%;
+}
+.dxgvSearchPanel_MaterialCustom .dxeButtonEdit_MaterialCustom,
+.dxgvSearchPanel_MaterialCustom .dxeButtonEdit_MaterialCustom input
+{
+    background-color: #FAFAFA;
+}
+.dxgvSearchPanel_MaterialCustom .dxeButtonEdit_MaterialCustom td.dxic
+{
+    padding: 15px 8px 17px 12px;
+}
+*[dir="rtl"] .dxgvSearchPanel_MaterialCustom .dxeButtonEdit_MaterialCustom td.dxic
+{
+    padding: 15px 12px 17px 8px;
+}
+.dxgvControl_MaterialCustom .dxgvHL
+{
+    background: #009688;
+    color: white;
+    font-weight: bold;
+    font-style: normal;
+}
+.dxgvControl_MaterialCustom .dxgvSearchPanel_MaterialCustom > table > tbody > tr > td:nth-child(2) a.dxbButton_MaterialCustom
+{
+    margin-left: 16px;
+}
+*[dir="rtl"].dxgvControl_MaterialCustom .dxgvSearchPanel_MaterialCustom > table > tbody > tr > td:nth-child(2) a.dxbButton_MaterialCustom
+{
+    margin-right: 16px;
+    margin-left: 0;
+}
+.dxgvControl_MaterialCustom .dxgvSearchPanel_MaterialCustom > table > tbody > tr > td:last-child a.dxbButton_MaterialCustom
+{
+    margin-right: 16px;
+}
+*[dir="rtl"].dxgvControl_MaterialCustom .dxgvSearchPanel_MaterialCustom > table > tbody > tr > td:last-child a.dxbButton_MaterialCustom
+{
+    margin-left: 16px;
+}
+.dxgvControl_MaterialCustom .dxgvSearchPanel_MaterialCustom > table > tbody > tr > td a.dxbButton_MaterialCustom
+{
+    margin-left: 10px;
+}
+*[dir="rtl"].dxgvControl_MaterialCustom .dxgvSearchPanel_MaterialCustom > table > tbody > tr > td a.dxbButton_MaterialCustom
+{
+    margin-right: 10px;
+}
+.dxgvControl_MaterialCustom .dxgvSearchPanel_MaterialCustom .dxbButton_MaterialCustom
+{
+    margin-left: 8px;
+}
+*[dir="rtl"].dxgvControl_MaterialCustom .dxgvSearchPanel_MaterialCustom .dxbButton_MaterialCustom
+{
+    margin-left: 0;
+    margin-right: 8px;
+}
+.dxgvFocusedCell_MaterialCustom
+{
+    box-shadow: inset 2px 2px 0 #dfdfdf, inset -2px -2px 0 #dfdfdf;
+    -webkit-box-shadow: inset 2px 2px 0 #dfdfdf, inset -2px -2px 0 #dfdfdf;
+    -moz-box-shadow: inset 2px 2px 0 #dfdfdf, inset -2px -2px 0 #dfdfdf;
+}
+.dxeDropDownWindow_MaterialCustom > .dxgvControl_MaterialCustom
+{
+    border: none;
+}
+.dxeDropDownWindow_MaterialCustom > .dxgvControl_MaterialCustom .dxgvTable_MaterialCustom,
+.dxeDropDownWindow_MaterialCustom > .dxgvControl_MaterialCustom .dxgvPagerBottomPanel_MaterialCustom
+{
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.dxeDropDownWindow_MaterialCustom > .dxgvControl_MaterialCustom .dxgvStatusBar_MaterialCustom
+{
+    padding-right: 8px;
+}
+.dxeDropDownWindow_MaterialCustom > .dxgvControl_MaterialCustom .dxgvStatusBar_MaterialCustom tr.dxgv > td
+{
+    padding: 24px 8px 12px 0;
+}
+/*Ripple*/
+.dxgvControl_MaterialCustom .dxgvTable_MaterialCustom .dxgvHeader_MaterialCustom:not([style*="cursor: w-resize"])::before,
+.dxgvControl_MaterialCustom .dxgvCustomization_MaterialCustom .dxgvHeader_MaterialCustom::before
+{
+    content: "dxRippleTarget";
+    display: none;
+}
+.dxgvTable_MaterialCustom .dxgvDataRowHover_MaterialCustom .dxICheckBox_MaterialCustom.dxWeb_edtCheckBoxUnchecked_MaterialCustom .dxRipple,
+.dxgvTable_MaterialCustom .dxgvDataRowHover_MaterialCustom .dxeIRadioButton_MaterialCustom.dxEditors_edtRadioButtonUnchecked_MaterialCustom .dxRipple
+.dxgvTable_MaterialCustom .dxgvSelectedRow_MaterialCustom .dxICheckBox_MaterialCustom.dxWeb_edtCheckBoxChecked_MaterialCustom .dxRipple,
+.dxgvTable_MaterialCustom .dxgvSelectedRow_MaterialCustom .dxeIRadioButton_MaterialCustom.dxEditors_edtRadioButtonChecked_MaterialCustom .dxRipple
+{
+    background-color: rgba(0,150,136,0.3);
+}
+.dxgvTable_MaterialCustom .dxgvFocusedRow_MaterialCustom .dxICheckBox_MaterialCustom.dxWeb_edtCheckBoxChecked_MaterialCustom .dxRipple,
+.dxgvTable_MaterialCustom .dxgvFocusedRow_MaterialCustom .dxICheckBox_MaterialCustom.dxWeb_edtCheckBoxUnchecked_MaterialCustom .dxRipple,
+.dxgvTable_MaterialCustom .dxgvFocusedRow_MaterialCustom .dxeIRadioButton_MaterialCustom.dxEditors_edtRadioButtonChecked_MaterialCustom .dxRipple,
+.dxgvTable_MaterialCustom .dxgvFocusedRow_MaterialCustom .dxeIRadioButton_MaterialCustom.dxEditors_edtRadioButtonUnchecked_MaterialCustom .dxRipple
+{
+    background-color: rgba(255,255,255,0.35);
+}
+/* Customization Dialog */
+.dxgvCustDialog_MaterialCustom
+{
+    font: 15px 'Roboto Regular', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    font-weight: 400;
+}
+.dxpcLite_MaterialCustom .dxgvCustDialog_MaterialCustom.dxpc-mainDiv
+{
+    border: none;
+}
+.dxpcLite_MaterialCustom .dxgvCustDialog_MaterialCustom .dxpc-content
+{
+    padding: 0;
+}
+.dxgvCustDialog_MaterialCustom .dxpc-content.dxgvCD_ColumnChooserPage,
+.dxgvCustDialog_MaterialCustom .dxpc-content.dxgvCD_FilterPage,
+.dxgvCustDialog_MaterialCustom .dxpc-content.dxgvCD_SortPage,
+.dxgvCustDialog_MaterialCustom .dxpc-content.dxgvCD_GroupPage
+{
+    transition: background-color 0.4s;
+}
+.dxgvCustDialog_MaterialCustom .dxpc-content.dxgvCD_ColumnChooserPage,
+.dxgvCustDialog_MaterialCustom .dxpc-content.dxgvCD_FilterPage
+{
+    background-color: #EFEFEF;
+}
+.dxgvCustDialog_MaterialCustom .dxpc-content.dxgvCD_SortPage,
+.dxgvCustDialog_MaterialCustom .dxpc-content.dxgvCD_GroupPage
+{
+    background-color: White;
+}
+.dxgvCustDialogHeader_MaterialCustom
+{
+    background-color: #009688;
+    color: #FFFFFF;
+    font-size: 22px;
+    padding: 10px;
+    padding-bottom: 25px;
+    white-space: nowrap;
+}
+.dxgvCustDialogHeader_MaterialCustom > div
+{
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;
+}
+.dxgvCustDialogHeader_MaterialCustom > div:first-child,
+.dxgvCustDialogHeader_MaterialCustom > div:last-child
+{
+    padding: 12px;
+    vertical-align: top;
+}
+.dxgvCustDialogHeader_MaterialCustom a.dxbButton_MaterialCustom
+{
+    vertical-align: top;
+}
+.dxgvCustDialogHeader_MaterialCustom .dxgvCD_TSC
+{
+    padding: 6px 0 0;
+    width: 100%;
+}
+.dxgvCustDialogHeader_MaterialCustom .dxgvCD_TSBW
+{
+    overflow: hidden;
+    padding: 0 16px;
+}
+.dxgvCustDialogHeader_MaterialCustom .dxgvCD_TS
+{
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    margin: 15px 0;
+    text-align: center;
+    margin-top: 0;
+}
+.dxgvCustDialogHeader_MaterialCustom .dxgvCD_TS .dxtcLite_MaterialCustom.dxtc-top > .dxtc-stripContainer .dxtc-tab .dxtc-link,
+.dxgvCustDialogHeader_MaterialCustom .dxgvCD_TS .dxtcLite_MaterialCustom.dxtc-top > .dxtc-stripContainer .dxtc-activeTab .dxtc-link
+{
+    color: white;
+    padding: 1px 0;
+}
+.dxgvCustDialogHeader_MaterialCustom .dxgvCD_TS .dxtcLite_MaterialCustom.dxtc-top > .dxtc-stripContainer .dxtc-tab,
+.dxgvCustDialogHeader_MaterialCustom .dxgvCD_TS .dxtcLite_MaterialCustom.dxtc-top > .dxtc-stripContainer .dxtc-activeTab
+{
+    margin-right: 16px;
+}
+.dxgvCustDialogHeader_MaterialCustom .dxgvCD_TS .dxtcLite_MaterialCustom.dxtc-top > .dxtc-stripContainer .dxtc-tab
+{
+    border-bottom-color: transparent;
+}
+.dxgvCustDialogHeader_MaterialCustom .dxgvCD_TS .dxtcLite_MaterialCustom.dxtc-top > .dxtc-stripContainer .dxtc-activeTab
+{
+    border-bottom-color: white;
+}
+.dxgvCustDialogHeader_MaterialCustom .dxgvCD_TS .dxtcLite_MaterialCustom.dxtc-top > .dxtc-stripContainer .dxtc-spacer,
+.dxgvCustDialogHeader_MaterialCustom .dxgvCD_TS .dxtcLite_MaterialCustom.dxtc-top > .dxtc-stripContainer .dxtc-leftIndent,
+.dxgvCustDialogHeader_MaterialCustom .dxgvCD_TS .dxtcLite_MaterialCustom.dxtc-top > .dxtc-stripContainer .dxtc-rightIndent
+{
+    display: none;
+}
+.dxgvCustDialogHeader_MaterialCustom .dxgvCD_TS .dxgvCD_TSLS,
+.dxgvCustDialogHeader_MaterialCustom .dxgvCD_TS .dxgvCD_TSRS
+{
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    box-shadow: 0 0 11px 11px #009688;
+}
+.dxgvCustDialogHeader_MaterialCustom .dxgvCD_TS .dxgvCD_TSLS
+{
+    left: 0;
+}
+.dxgvCustDialogHeader_MaterialCustom .dxgvCD_TS .dxgvCD_TSRS
+{
+    right: 0;
+}
+.dxgvCustDialogDragArea_MaterialCustom
+{
+    background-color: #EFEFEF;
+}
+.dxgvCustDialogSortingPage_MaterialCustom .dxgvCustDialogDragArea_MaterialCustom,
+.dxgvCustDialogGroupingPage_MaterialCustom .dxgvCustDialogDragArea_MaterialCustom,
+.dxgvCustDialogColumnChooserPage_MaterialCustom .dxgvCustDialogDragArea_MaterialCustom,
+.dxgvCustDialogFilteringPage_MaterialCustom
+{
+    padding: 15px 8px;
+    min-height: 15px;
+}
+.dxgvCustDialogDragArea_MaterialCustom .dxgvCD_DAETC
+{
+    color: #999999;
+    font: 13px "Roboto Regular", Helvetica, "Droid Sans", Tahoma, Geneva, sans-serif;
+    text-align: center;
+    white-space: nowrap;
+}
+.dxgvCustDialogListArea_MaterialCustom
+{
+    background: white;
+    padding-left: 4px;
+}
+.dxgvCustDialogListArea_MaterialCustom .dxgvCD_LAC
+{
+    color: #666666;
+    font-weight: bold;
+    margin: 0 10px 10px 10px;
+    margin-left: 11px;
+    padding: 13px 0 8px 0;
+    border-bottom: 1px solid #DCDCDC;
+}
+.dxgvCustDialogColumnItem_MaterialCustom
+{
+    background-color: #FFFFFF;
+    color: rgba(0,0,0,0.64);
+    min-height: 48px;
+    transition: all 0.2s;
+}
+.dxgvCustDialogSortingPage_MaterialCustom .dxgvCD_DAW,
+.dxgvCustDialogGroupingPage_MaterialCustom .dxgvCD_DAW,
+.dxgvCustDialogSortingPage_MaterialCustom .dxgvCustDialogDragArea_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom:first-child,
+.dxgvCustDialogGroupingPage_MaterialCustom .dxgvCustDialogDragArea_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom:first-child,
+.dxgvCustDialogSortingPage_MaterialCustom .dxgvCustDialogDragArea_MaterialCustom .dxgvCD_DAETC + .dxgvCustDialogColumnItem_MaterialCustom,
+.dxgvCustDialogGroupingPage_MaterialCustom .dxgvCustDialogDragArea_MaterialCustom .dxgvCD_DAETC + .dxgvCustDialogColumnItem_MaterialCustom,
+.dxgvCustDialogColumnChooserPage_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom:first-child,
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom:first-child
+{
+    margin-top: -39px;
+}
+.dxgvCustDialogColumnItem_MaterialCustom:last-child
+{
+    margin-bottom: 0px;
+}
+.dxgvControl_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom > div
+{
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;
+}
+.dxgvCustDialogColumnItem_MaterialCustom > div img
+{
+    vertical-align: middle;
+}
+.dxgvCustDialogDragArea_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom
+{
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 6px;
+}
+.dxgvCustDialogDragArea_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom > div:first-child
+{
+    background-color: #eeeeee;
+    height: 48px;
+    padding: 0;
+    text-align: center;
+    min-width: 28px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+.dxgvCustDialogColumnChooserPage_MaterialCustom .dxgvCustDialogDragArea_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom > div:first-child
+{
+    background-color: White;
+}
+.dxgvCustDialogDragArea_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom > div:last-child,
+.dxgvCustDialogListArea_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom > div:last-child
+{
+    height: 48px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.dxgvCustDialogListArea_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom > div:last-child
+{
+    padding-right: 17px;
+}
+.dxgvCustDialogDragArea_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom.DXCDDraggingItem
+{
+    transition: none;
+    position: relative;
+    box-shadow: 0 10px 0.25rem rgba(0,0,0,0.12), 0 0.25rem 0.5rem rgba(0,0,0,0.24);
+    z-index: 1;
+}
+.dxgvCustDialogSortingPage_MaterialCustom .dxgvCD_DAW,
+.dxgvCustDialogGroupingPage_MaterialCustom .dxgvCD_DAW
+{
+    padding-top: 39px;
+    position: relative;
+}
+.dxgvCustDialogSortingPage_MaterialCustom .dxgvCD_DAEB,
+.dxgvCustDialogGroupingPage_MaterialCustom .dxgvCD_DAEB
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: #EFEFEF;
+    box-shadow: 0px -3px 5px 0px rgba(0,0,0,0.11);
+    cursor: pointer;
+    text-align: center;
+}
+.dxgvCustDialogSortingPage_MaterialCustom .dxgvCD_DAEB img,
+.dxgvCustDialogGroupingPage_MaterialCustom .dxgvCD_DAEB img
+{
+    margin-top: 14px;
+}
+.dxgvCustDialogFilteringPage_MaterialCustom
+{
+    background-color: #EFEFEF;
+}
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom,
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCustDialogFilterItem_MaterialCustom
+{
+    box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24);
+    background-color: white;
+    border-bottom: 1px solid #DCDCDC;
+    transition: none;
+}
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom > div
+{
+    height: 28px;
+}
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCustDialogFilterItem_MaterialCustom a
+{
+    cursor: pointer;
+}
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCustDialogFilterItem_MaterialCustom a,
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCustDialogFilterItem_MaterialCustom .dxgvCD_FR > span.dxeBase_MaterialCustom
+{
+    font-size: medium;
+    line-height: 50px;
+}
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom:first-child,
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom.dxgvCD_EFCI,
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom.dxgvCD_EFCI + .dxgvCustDialogFilterItem_MaterialCustom + .dxgvCustDialogColumnItem_MaterialCustom
+{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.dxgvCustDialogFilterItem_MaterialCustom,
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom:nth-last-child(2)
+{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom.dxgvCD_EFCI:nth-last-child(2)
+{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.dxgvCustDialogFilterItem_MaterialCustom
+{
+    margin-bottom: 17px;
+}
+.dxgvCustDialogFilterItem_MaterialCustom + .dxgvCustDialogColumnItem_MaterialCustom.dxgvCD_EFCI
+{
+    margin-top: 17px;
+}
+.dxgvCustDialogColumnItem_MaterialCustom + .dxgvCustDialogFilterItem_MaterialCustom
+{
+    display: none;
+}
+.dxgvCustDialogColumnItem_MaterialCustom.dxgvCD_EFCI + .dxgvCustDialogFilterItem_MaterialCustom
+{
+    display: block;
+}
+.dxgvCustDialogFilterItem_MaterialCustom .dxgvCD_FR
+{
+    padding: 0 10px 18px 10px;
+}
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCD_UF
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCD_UF a
+{
+    text-transform: uppercase;
+}
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCD_FR + .dxgvCD_UF
+{
+    border-top: 1px solid #DCDCDC;
+}
+.dxgvCustDialogFilterItem_MaterialCustom .dxgvCD_UF.dxgvCD_UFLBV
+{
+    border-bottom: 1px solid #DCDCDC;
+}
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCD_UF.dxgvCD_UFLBV a,
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCD_UFSC
+{
+    display: none;
+}
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCD_UF.dxgvCD_UFLBV .dxgvCD_UFSC
+{
+    display: block;
+}
+.dxgvCustDialogFilterItem_MaterialCustom .dxgvCD_UF.dxgvCD_UFLBV
+{
+    margin-bottom: 19px;
+}
+.dxgvCustDialogFilterItem_MaterialCustom .dxgvCD_UFSC
+{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    height: 200px;
+}
+.dxgvCustDialogHeader_MaterialCustom .dxbButton_MaterialCustom::before,
+.dxgvCustDialog_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom img::before,
+.dxgvCustDialog_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom .dxichSys::before
+{
+    content: "dxRippleTargetExternal";
+    display: none;
+}
+.dxgvCustDialogDragArea_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom > div:first-child img::before,
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom > div:last-child .dxichSys::before
+{
+    content: "";
+}
+.dxgvCustDialog_MaterialCustom .dxgvCD_DAEB::before,
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom::before
+{
+    content: "dxRippleTarget";
+    display: none;
+}
+.dxgvCustDialogHeader_MaterialCustom .dxbButton_MaterialCustom .dxRippleContainer,
+.dxgvCustDialogColumnItem_MaterialCustom .dxichSys.dxRippleTargetExternal .dxRippleContainer,
+.dxgvCustDialogColumnItem_MaterialCustom img.dxRippleTargetExternal + .dxRippleContainer,
+.dxgvCustDialogColumnItem_MaterialCustom img.dxRippleTargetExternal + img + .dxRippleContainer
+{
+    width: 50px !important;
+    height: 50px !important;
+    margin-top: -15px;
+    margin-left: -15px;
+}
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom > .dxRippleContainer
+{
+    min-height: 48px !important;
+    padding: 0;
+}
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCustDialogColumnItem_MaterialCustom,
+.dxgvCustDialogFilteringPage_MaterialCustom .dxgvCustDialogFilterItem_MaterialCustom
+{
+    position: relative;
+}
+.dxgvCustDialogHeader_MaterialCustom .dxRipple
+{
+    background-color: rgba(255,255,255,0.35);
+}
+.dxgvCustDialogContent_MaterialCustom .dxRipple
+{
+    background-color: rgba(0,150,136,0.3);
+}
+.dxgvCustDialogContent_MaterialCustom .dxgvDAEBBR .dxRipple
+{
+    background-color: rgba(0,0,0,0.3);
+}

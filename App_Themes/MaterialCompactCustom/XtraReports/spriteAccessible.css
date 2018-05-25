@@ -1,0 +1,278 @@
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnFirstPage_MaterialCompactCustom:before,
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnLastPage_MaterialCompactCustom:before,
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnNextPage_MaterialCompactCustom:before,
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnPrevPage_MaterialCompactCustom:before,
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnPrint_MaterialCompactCustom:before,
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnPrintPage_MaterialCompactCustom:before,
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnSave_MaterialCompactCustom:before,
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnSaveWindow_MaterialCompactCustom:before,
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnSearch_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_BtnFirstPage_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_BtnFirstPageDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_BtnLastPage_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_BtnLastPageDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_BtnNextPage_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_BtnNextPageDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_BtnPrevPage_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_BtnPrevPageDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_BtnPrint_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_BtnPrintDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_BtnPrintPage_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_BtnPrintPageDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_BtnSave_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_BtnSaveDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_BtnSaveWindow_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_BtnSaveWindowDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_BtnSearch_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_BtnSearchDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_PageBorder_blc_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_PageBorder_brc_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_PageBorder_tlc_MaterialCompactCustom:before,
+.dx-acc-r .dxXtraReports_PageBorder_trc_MaterialCompactCustom:before
+
+{
+    content: url('sprite.svg');
+
+}
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnFirstPage_MaterialCompactCustom:before
+
+{
+    left: -19px;
+    top: -38px;
+
+}
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnLastPage_MaterialCompactCustom:before
+
+{
+    left: -76px;
+    top: -19px;
+
+}
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnNextPage_MaterialCompactCustom:before
+
+{
+    left: -38px;
+    top: 0px;
+
+}
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnPrevPage_MaterialCompactCustom:before
+
+{
+    left: -57px;
+    top: -19px;
+
+}
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnPrint_MaterialCompactCustom:before
+
+{
+    left: -51px;
+    top: -57px;
+
+}
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnPrintPage_MaterialCompactCustom:before
+
+{
+    left: -17px;
+    top: -74px;
+
+}
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnSave_MaterialCompactCustom:before
+
+{
+    left: -85px;
+    top: -57px;
+
+}
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnSaveWindow_MaterialCompactCustom:before
+
+{
+    left: -51px;
+    top: -74px;
+
+}
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnSearch_MaterialCompactCustom:before
+
+{
+    left: 0px;
+    top: -57px;
+
+}
+.dx-acc-r .dxXtraReports_BtnFirstPage_MaterialCompactCustom:before
+
+{
+    left: 0px;
+    top: -38px;
+
+}
+.dx-acc-r .dxXtraReports_BtnFirstPageDisabled_MaterialCompactCustom:before
+
+{
+    left: -57px;
+    top: 0px;
+
+}
+.dx-acc-r .dxXtraReports_BtnLastPage_MaterialCompactCustom:before
+
+{
+    left: -76px;
+    top: 0px;
+
+}
+.dx-acc-r .dxXtraReports_BtnLastPageDisabled_MaterialCompactCustom:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxXtraReports_BtnNextPage_MaterialCompactCustom:before
+
+{
+    left: -19px;
+    top: 0px;
+
+}
+.dx-acc-r .dxXtraReports_BtnNextPageDisabled_MaterialCompactCustom:before
+
+{
+    left: 0px;
+    top: -19px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrevPage_MaterialCompactCustom:before
+
+{
+    left: -38px;
+    top: -19px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrevPageDisabled_MaterialCompactCustom:before
+
+{
+    left: -19px;
+    top: -19px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrint_MaterialCompactCustom:before
+
+{
+    left: -72px;
+    top: -38px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrintDisabled_MaterialCompactCustom:before
+
+{
+    left: -89px;
+    top: -38px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrintPage_MaterialCompactCustom:before
+
+{
+    left: 0px;
+    top: -74px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrintPageDisabled_MaterialCompactCustom:before
+
+{
+    left: -55px;
+    top: -38px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSave_MaterialCompactCustom:before
+
+{
+    left: -34px;
+    top: -57px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSaveDisabled_MaterialCompactCustom:before
+
+{
+    left: -68px;
+    top: -74px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSaveWindow_MaterialCompactCustom:before
+
+{
+    left: -68px;
+    top: -57px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSaveWindowDisabled_MaterialCompactCustom:before
+
+{
+    left: -34px;
+    top: -74px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSearch_MaterialCompactCustom:before
+
+{
+    left: -38px;
+    top: -38px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSearchDisabled_MaterialCompactCustom:before
+
+{
+    left: -17px;
+    top: -57px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_blc_MaterialCompactCustom:before
+
+{
+    left: -95px;
+    top: -19px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_brc_MaterialCompactCustom:before
+
+{
+    left: -85px;
+    top: -74px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_tlc_MaterialCompactCustom:before
+
+{
+    left: -95px;
+    top: 0px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_trc_MaterialCompactCustom:before
+
+{
+    left: -96px;
+    top: -74px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_t_MaterialCompactCustom :before
+
+{
+    content: url('pageTopBorder.svg');
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_l_MaterialCompactCustom :before
+
+{
+    content: url('pageLeftBorder.svg');
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_r_MaterialCompactCustom :before
+
+{
+    content: url('pageRightBorder.svg');
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_b_MaterialCompactCustom :before
+
+{
+    content: url('pageBottomBorder.svg');
+
+}
+

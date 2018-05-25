@@ -7,9 +7,6 @@ namespace TAAPs.Administration
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
-            }
         }
 
         protected void ASPxgvTargets_CommandButtonInitialize(object sender, DevExpress.Web.ASPxGridViewCommandButtonEventArgs e)
@@ -24,17 +21,17 @@ namespace TAAPs.Administration
 
         private bool DeleteButtonVisibleCriteria(ASPxGridView grid, int _visibleIndex)
         {
-            bool _visible = false;
-            int _currentyear = DateTime.Today.Year;
+            bool visible = false;
+            int currentYear = DateTime.Today.Year;
 
             object row = grid.GetRowValues(_visibleIndex, "Year");
 
             if (row == null) return false;
 
-            int _rowvalue = (int)row;
-            _visible = _rowvalue >= _currentyear ? true : false;
+            int rowValue = (int)row;
+            visible = rowValue >= currentYear ? true : false;
 
-            return _visible;
+            return visible;
         }
 
         protected void ASPxgvTargets_HtmlDataCellPrepared(object sender, ASPxGridViewTableDataCellEventArgs e)

@@ -23,7 +23,7 @@ namespace TAAPs.Model
         public string CreatedBy { get; set; }
         public System.DateTime CreateDate { get; set; }
     
-        public virtual CorporateTaxpayer TaxAgents2 { get; set; }
         public virtual User User { get; set; }
+        public virtual CTaxpayer CTaxpayer { get; set; }
     }
 }

@@ -1,0 +1,233 @@
+.dxeListBoxItemHover_ModernoCustom img.dxHtmlEditor_heEnumIcon_ModernoCustom,
+.dxeListBoxItemHover_ModernoCustom img.dxHtmlEditor_heEventIcon_ModernoCustom,
+.dxeListBoxItemHover_ModernoCustom img.dxHtmlEditor_heFieldIcon_ModernoCustom,
+.dxeListBoxItemHover_ModernoCustom img.dxHtmlEditor_heXmlItemIcon_ModernoCustom,
+.dxeListBoxItemSelected_ModernoCustom .dxHtmlEditor_heEnumIcon_ModernoCustom,
+.dxeListBoxItemSelected_ModernoCustom .dxHtmlEditor_heEventIcon_ModernoCustom,
+.dxeListBoxItemSelected_ModernoCustom .dxHtmlEditor_heFieldIcon_ModernoCustom,
+.dxeListBoxItemSelected_ModernoCustom .dxHtmlEditor_heXmlItemIcon_ModernoCustom,
+.dxHtmlEditor_heConstrainProportionsBottom_ModernoCustom,
+.dxHtmlEditor_heConstrainProportionsBottomRtl_ModernoCustom,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_ModernoCustom,
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_ModernoCustom,
+.dxHtmlEditor_heConstrainProportionsMiddleOn_ModernoCustom,
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_ModernoCustom,
+.dxHtmlEditor_heConstrainProportionsTop_ModernoCustom,
+.dxHtmlEditor_heConstrainProportionsTopRtl_ModernoCustom,
+.dxHtmlEditor_heEnumIcon_ModernoCustom,
+.dxHtmlEditor_heErrorFrameCloseButton_ModernoCustom,
+.dxHtmlEditor_heEventIcon_ModernoCustom,
+.dxHtmlEditor_heFieldIcon_ModernoCustom,
+.dxHtmlEditor_heReset_ModernoCustom,
+.dxHtmlEditor_heSizeGrip_ModernoCustom,
+.dxHtmlEditor_heSizeGripRtl_ModernoCustom,
+.dxHtmlEditor_heTagInspectorChangeButton_ModernoCustom,
+.dxHtmlEditor_heTagInspectorRemoveButton_ModernoCustom,
+.dxHtmlEditor_heTagInspectorSeparator_ModernoCustom,
+.dxHtmlEditor_heToolbarPopOut_ModernoCustom,
+.dxHtmlEditor_heToolbarPopOutDisabled_ModernoCustom,
+.dxHtmlEditor_heXmlItemIcon_ModernoCustom,
+.dxm-hovered .dxHtmlEditor_heToolbarPopOut_ModernoCustom
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxeListBoxItemHover_ModernoCustom img.dxHtmlEditor_heEnumIcon_ModernoCustom
+{
+    background-position: -17px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemHover_ModernoCustom img.dxHtmlEditor_heEventIcon_ModernoCustom
+{
+    background-position: 0px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemHover_ModernoCustom img.dxHtmlEditor_heFieldIcon_ModernoCustom
+{
+    background-position: -17px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemHover_ModernoCustom img.dxHtmlEditor_heXmlItemIcon_ModernoCustom
+{
+    background-position: -34px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemSelected_ModernoCustom .dxHtmlEditor_heEnumIcon_ModernoCustom
+{
+    background-position: 0px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemSelected_ModernoCustom .dxHtmlEditor_heEventIcon_ModernoCustom
+{
+    background-position: -51px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemSelected_ModernoCustom .dxHtmlEditor_heFieldIcon_ModernoCustom
+{
+    background-position: -51px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemSelected_ModernoCustom .dxHtmlEditor_heXmlItemIcon_ModernoCustom
+{
+    background-position: -17px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heConstrainProportionsBottom_ModernoCustom
+{
+    background-position: -68px -40px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsBottomRtl_ModernoCustom
+{
+    background-position: -69px -50px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOff_ModernoCustom
+{
+    background-position: -43px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_ModernoCustom
+{
+    background-position: -55px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_ModernoCustom
+{
+    background-position: -19px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_ModernoCustom
+{
+    background-position: -31px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsTop_ModernoCustom
+{
+    background-position: -68px -57px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heConstrainProportionsTopRtl_ModernoCustom
+{
+    background-position: -69px -68px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heEnumIcon_ModernoCustom
+{
+    background-position: -34px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heErrorFrameCloseButton_ModernoCustom
+{
+    background-position: -67px -21px;
+    width: 13px;
+    height: 9px;
+}
+.dxHtmlEditor_heEventIcon_ModernoCustom
+{
+    background-position: 0px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heFieldIcon_ModernoCustom
+{
+    background-position: -51px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heReset_ModernoCustom
+{
+    background-position: 0px 0px;
+    width: 20px;
+    height: 20px;
+}
+.dxHtmlEditor_heSizeGrip_ModernoCustom
+{
+    background-position: -61px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxHtmlEditor_heSizeGripRtl_ModernoCustom
+{
+    background-position: 0px -21px;
+    width: 18px;
+    height: 18px;
+}
+.dxHtmlEditor_heTagInspectorChangeButton_ModernoCustom
+{
+    background-position: -41px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorRemoveButton_ModernoCustom
+{
+    background-position: -21px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorSeparator_ModernoCustom
+{
+    background-position: -76px -32px;
+    width: 4px;
+    height: 7px;
+}
+.dxHtmlEditor_heToolbarPopOut_ModernoCustom
+{
+    background-position: -67px -35px;
+    width: 8px;
+    height: 4px;
+}
+.dxHtmlEditor_heToolbarPopOutDisabled_ModernoCustom
+{
+    background-position: -68px -63px;
+    width: 8px;
+    height: 4px;
+}
+.dxHtmlEditor_heXmlItemIcon_ModernoCustom
+{
+    background-position: -34px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxHtmlEditor_heToolbarPopOut_ModernoCustom
+{
+    background-position: -68px -74px;
+    width: 8px;
+    height: 4px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_ModernoCustom,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_ModernoCustom,
+.dxHtmlEditor_heConstrainProportionsBottom_ModernoCustom,
+.dxHtmlEditor_heConstrainProportionsTop_ModernoCustom,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_ModernoCustom,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_ModernoCustom,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_ModernoCustom,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_ModernoCustom,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_ModernoCustom,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_ModernoCustom,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_ModernoCustom,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_ModernoCustom,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_ModernoCustom,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_ModernoCustom
+{
+	display:block;
+}
+

@@ -1,0 +1,1795 @@
+.dxmLite_ModernoCustom .dxm-left .dxm-back-icon,
+.dxWeb_edtCheckBoxChecked_ModernoCustom,
+.dxWeb_edtCheckBoxCheckedDisabled_ModernoCustom,
+.dxWeb_edtCheckBoxGrayed_ModernoCustom,
+.dxWeb_edtCheckBoxGrayedDisabled_ModernoCustom,
+.dxWeb_edtCheckBoxUnchecked_ModernoCustom,
+.dxWeb_edtCheckBoxUncheckedDisabled_ModernoCustom
+{
+    background-image: url('sprite.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxIE .dx-acc-r .dxmLite_ModernoCustom .dxm-left .dxm-back-icon::before,
+.dxIE .dx-acc-r .dxWeb_edtCheckBoxChecked_ModernoCustom::before,
+.dxIE .dx-acc-r .dxWeb_edtCheckBoxCheckedDisabled_ModernoCustom::before,
+.dxIE .dx-acc-r .dxWeb_edtCheckBoxGrayed_ModernoCustom::before,
+.dxIE .dx-acc-r .dxWeb_edtCheckBoxGrayedDisabled_ModernoCustom::before,
+.dxIE .dx-acc-r .dxWeb_edtCheckBoxUnchecked_ModernoCustom::before,
+.dxIE .dx-acc-r .dxWeb_edtCheckBoxUncheckedDisabled_ModernoCustom::before{
+    width: 25px;
+}
+.dxmLite_ModernoCustom .dxm-left .dxm-back-icon
+{
+    background-position: 0px -150px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_edtCheckBoxChecked_ModernoCustom
+{
+    background-position: 0px 0px;
+    width: 24px;
+    height: 24px;
+}
+.dxWeb_edtCheckBoxCheckedDisabled_ModernoCustom
+{
+    background-position: 0px -100px;
+    width: 24px;
+    height: 24px;
+}
+.dxWeb_edtCheckBoxGrayed_ModernoCustom
+{
+    background-position: 0px -125px;
+    width: 24px;
+    height: 24px;
+}
+.dxWeb_edtCheckBoxGrayedDisabled_ModernoCustom
+{
+    background-position: 0px -75px;
+    width: 24px;
+    height: 24px;
+}
+.dxWeb_edtCheckBoxUnchecked_ModernoCustom
+{
+    background-position: 0px -25px;
+    width: 24px;
+    height: 24px;
+}
+.dxWeb_edtCheckBoxUncheckedDisabled_ModernoCustom
+{
+    background-position: 0px -50px;
+    width: 24px;
+    height: 24px;
+}
+.dxWeb_rpHeaderTopLeftCorner_ModernoCustom,
+.dxWeb_rpHeaderTopRightCorner_ModernoCustom,
+.dxWeb_rpBottomLeftCorner_ModernoCustom,
+.dxWeb_rpBottomRightCorner_ModernoCustom,
+.dxWeb_rpTopLeftCorner_ModernoCustom,
+.dxWeb_rpTopRightCorner_ModernoCustom,
+.dxWeb_rpGroupBoxBottomLeftCorner_ModernoCustom,
+.dxWeb_rpGroupBoxBottomRightCorner_ModernoCustom,
+.dxWeb_rpGroupBoxTopLeftCorner_ModernoCustom,
+.dxWeb_rpGroupBoxTopRightCorner_ModernoCustom,
+.dxWeb_mHorizontalPopOut_ModernoCustom,
+.dxWeb_mHorizontalPopOutHover_ModernoCustom,
+.dxWeb_mVerticalPopOut_ModernoCustom,
+.dxWeb_mVerticalPopOutHover_ModernoCustom,
+.dxWeb_mVerticalPopOutRtl_ModernoCustom,
+.dxWeb_mSubMenuItem_ModernoCustom,
+.dxWeb_mSubMenuItemChecked_ModernoCustom,
+.dxWeb_mScrollUp_ModernoCustom,
+.dxWeb_mScrollUpHover_ModernoCustom,
+.dxWeb_mScrollUpDisabled_ModernoCustom,
+.dxWeb_mScrollDown_ModernoCustom,
+.dxWeb_mScrollDownHover_ModernoCustom,
+.dxWeb_mScrollDownDisabled_ModernoCustom,
+.dxWeb_tcScrollLeft_ModernoCustom,
+.dxWeb_tcScrollRight_ModernoCustom,
+.dxWeb_tcScrollLeftHover_ModernoCustom,
+.dxWeb_tcScrollRightHover_ModernoCustom,
+.dxWeb_tcScrollLeftPressed_ModernoCustom,
+.dxWeb_tcScrollRightPressed_ModernoCustom,
+.dxWeb_tcScrollLeftDisabled_ModernoCustom,
+.dxWeb_tcScrollRightDisabled_ModernoCustom,
+.dxWeb_nbCollapse_ModernoCustom,
+.dxWeb_nbExpand_ModernoCustom,
+.dxWeb_splVSeparator_ModernoCustom,
+.dxWeb_splVSeparatorHover_ModernoCustom,
+.dxWeb_splHSeparator_ModernoCustom,
+.dxWeb_splHSeparatorHover_ModernoCustom,
+.dxWeb_splVCollapseBackwardButton_ModernoCustom,
+.dxWeb_splVCollapseBackwardButtonHover_ModernoCustom,
+.dxWeb_splHCollapseBackwardButton_ModernoCustom,
+.dxWeb_splHCollapseBackwardButtonHover_ModernoCustom,
+.dxWeb_splVCollapseForwardButton_ModernoCustom,
+.dxWeb_splVCollapseForwardButtonHover_ModernoCustom,
+.dxWeb_splHCollapseForwardButton_ModernoCustom,
+.dxWeb_splHCollapseForwardButtonHover_ModernoCustom,
+.dxWeb_pcCloseButton_ModernoCustom,
+.dxWeb_pcPinButton_ModernoCustom,
+.dxWeb_pcRefreshButton_ModernoCustom,
+.dxWeb_pcCollapseButton_ModernoCustom,
+.dxWeb_pcMaximizeButton_ModernoCustom,
+.dxWeb_pcSizeGrip_ModernoCustom,
+.dxWeb_pcSizeGripRtl_ModernoCustom,
+.dxWeb_pPopOut_ModernoCustom,
+.dxWeb_pPopOutDisabled_ModernoCustom,
+.dxWeb_pAll_ModernoCustom,
+.dxWeb_pAllDisabled_ModernoCustom,
+.dxWeb_pPrev_ModernoCustom,
+.dxWeb_pPrevDisabled_ModernoCustom,
+.dxWeb_pNext_ModernoCustom,
+.dxWeb_pNextDisabled_ModernoCustom,
+.dxWeb_pLast_ModernoCustom,
+.dxWeb_pLastDisabled_ModernoCustom,
+.dxWeb_pFirst_ModernoCustom,
+.dxWeb_pFirstDisabled_ModernoCustom,
+.dxWeb_tiBackToTop_ModernoCustom,
+.dxWeb_smBullet_ModernoCustom,
+.dxWeb_tvColBtn_ModernoCustom,
+.dxWeb_tvColBtnRtl_ModernoCustom,
+.dxWeb_tvExpBtn_ModernoCustom,
+.dxWeb_tvExpBtnRtl_ModernoCustom,
+.dxWeb_fmFolder_ModernoCustom,
+.dxWeb_fmFolderLocked_ModernoCustom,
+.dxWeb_fmCreateButton_ModernoCustom,
+.dxWeb_fmMoveButton_ModernoCustom,
+.dxWeb_fmRenameButton_ModernoCustom,
+.dxWeb_fmDeleteButton_ModernoCustom,
+.dxWeb_fmRefreshButton_ModernoCustom,
+.dxWeb_fmDwnlButton_ModernoCustom,
+.dxWeb_fmCreateButtonDisabled_ModernoCustom,
+.dxWeb_fmMoveButtonDisabled_ModernoCustom,
+.dxWeb_fmRenameButtonDisabled_ModernoCustom,
+.dxWeb_fmDeleteButtonDisabled_ModernoCustom,
+.dxWeb_fmRefreshButtonDisabled_ModernoCustom,
+.dxWeb_fmDwnlButtonDisabled_ModernoCustom,
+.dxWeb_ucClearButton_ModernoCustom,
+.dxWeb_ucClearButtonDisabled_ModernoCustom,
+.dxWeb_isPrevBtnHor_ModernoCustom,
+.dxWeb_isNextBtnHor_ModernoCustom,
+.dxWeb_isPrevBtnVert_ModernoCustom,
+.dxWeb_isNextBtnVert_ModernoCustom,
+.dxWeb_isPrevPageBtnHor_ModernoCustom,
+.dxWeb_isPrevPageBtnHorOutside_ModernoCustom,
+.dxWeb_isNextPageBtnHor_ModernoCustom,
+.dxWeb_isNextPageBtnHorOutside_ModernoCustom,
+.dxWeb_isPrevPageBtnVert_ModernoCustom,
+.dxWeb_isPrevPageBtnVertOutside_ModernoCustom,
+.dxWeb_isNextPageBtnVert_ModernoCustom,
+.dxWeb_isNextPageBtnVertOutside_ModernoCustom,
+.dxWeb_isPrevBtnHorDisabled_ModernoCustom,
+.dxWeb_isNextBtnHorDisabled_ModernoCustom,
+.dxWeb_isPrevBtnVertDisabled_ModernoCustom,
+.dxWeb_isNextBtnVertDisabled_ModernoCustom,
+.dxWeb_isPrevPageBtnHorDisabled_ModernoCustom,
+.dxWeb_isPrevPageBtnHorOutsideDisabled_ModernoCustom,
+.dxWeb_isNextPageBtnHorDisabled_ModernoCustom,
+.dxWeb_isNextPageBtnHorOutsideDisabled_ModernoCustom,
+.dxWeb_isPrevPageBtnVertDisabled_ModernoCustom,
+.dxWeb_isPrevPageBtnVertOutsideDisabled_ModernoCustom,
+.dxWeb_isNextPageBtnVertDisabled_ModernoCustom,
+.dxWeb_isNextPageBtnVertOutsideDisabled_ModernoCustom,
+.dxWeb_isDot_ModernoCustom,
+.dxWeb_isDotDisabled_ModernoCustom,
+.dxWeb_isDotSelected_ModernoCustom,
+.dxWeb_fmGvHeaderFilter_ModernoCustom,
+.dxWeb_fmGvHeaderFilterActive_ModernoCustom,
+.dxWeb_fmThumbnailCheck_ModernoCustom,
+.dxWeb_isPlayBtn_ModernoCustom,
+.dxWeb_isPauseBtn_ModernoCustom,
+.dxWeb_igCloseButton_ModernoCustom,
+.dxWeb_igNextButton_ModernoCustom,
+.dxWeb_igPrevButton_ModernoCustom,
+.dxWeb_igPlayButton_ModernoCustom,
+.dxWeb_igPauseButton_ModernoCustom,
+.dxWeb_igNavigationBarMarker_ModernoCustom
+{
+	display: block;
+}
+.dxWeb_mScrollUp_ModernoCustom, .dxWeb_mScrollDown_ModernoCustom
+{
+	margin: auto;
+}
+.dxWeb_smBullet_ModernoCustom,
+.dxWeb_tiBackToTop_ModernoCustom
+{
+	display:inline;
+}
+.dxWeb_rPinBtn_ModernoCustom {
+    margin-right: 3px;
+}.dxigControl_ModernoCustom.dxTouchUI .dxWeb_igCloseButton_ModernoCustom,
+.dxigControl_ModernoCustom.dxTouchUI .dxWeb_igPauseButton_ModernoCustom,
+.dxigControl_ModernoCustom.dxTouchUI .dxWeb_igPlayButton_ModernoCustom,
+.dxm-disabled .dxWeb_mHorizontalPopOut_ModernoCustom,
+.dxm-disabled .dxWeb_mVerticalPopOut_ModernoCustom,
+.dxm-disabled .dxWeb_mVerticalPopOutRtl_ModernoCustom,
+.dxm-hovered .dxWeb_fmCopyButton_ModernoCustom,
+.dxm-hovered .dxWeb_fmCreateButton_ModernoCustom,
+.dxm-hovered .dxWeb_fmDeleteButton_ModernoCustom,
+.dxm-hovered .dxWeb_fmDwnlButton_ModernoCustom,
+.dxm-hovered .dxWeb_fmExpandFolderContBtn_ModernoCustom,
+.dxm-hovered .dxWeb_fmMoveButton_ModernoCustom,
+.dxm-hovered .dxWeb_fmRefreshButton_ModernoCustom,
+.dxm-hovered .dxWeb_fmRenameButton_ModernoCustom,
+.dxm-hovered .dxWeb_fmUplButton_ModernoCustom,
+.dxm-hovered .dxWeb_mAdaptiveMenu_ModernoCustom,
+.dxm-hovered .dxWeb_mHorizontalPopOut_ModernoCustom,
+.dxm-hovered .dxWeb_mSubMenuItemChecked_ModernoCustom,
+.dxm-hovered .dxWeb_mVerticalPopOut_ModernoCustom,
+.dxm-hovered .dxWeb_mVerticalPopOutRtl_ModernoCustom,
+.dxmLite_ModernoCustom .dxm-left .dxm-back-icon,
+.dxm-scrollBtnHovered .dxWeb_mScrollDown_ModernoCustom,
+.dxm-scrollBtnHovered .dxWeb_mScrollUp_ModernoCustom,
+.dxpc-closeBtnHover .dxWeb_pcCloseButton_ModernoCustom,
+.dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_ModernoCustom,
+.dxpc-collapseBtnHover .dxWeb_pcCollapseButton_ModernoCustom,
+.dxpc-collapseBtnHover.dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_ModernoCustom,
+.dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_ModernoCustom,
+.dxpc-maximizeBtnHover .dxWeb_pcMaximizeButton_ModernoCustom,
+.dxpc-maximizeBtnHover.dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_ModernoCustom,
+.dxpc-pinBtnChecked .dxWeb_pcPinButton_ModernoCustom,
+.dxpc-pinBtnHover .dxWeb_pcPinButton_ModernoCustom,
+.dxpc-pinBtnHover.dxpc-pinBtnChecked .dxWeb_pcPinButton_ModernoCustom,
+.dxpc-refreshBtnHover .dxWeb_pcRefreshButton_ModernoCustom,
+.dxp-hoverDropDownButton .dxWeb_pPopOut_ModernoCustom,
+.dxpnl-btnHover .dxWeb_pnlExpand_ModernoCustom,
+.dxpnl-btnHover .dxWeb_pnlExpandArrowBottom_ModernoCustom,
+.dxpnl-btnHover .dxWeb_pnlExpandArrowLeft_ModernoCustom,
+.dxpnl-btnHover .dxWeb_pnlExpandArrowRight_ModernoCustom,
+.dxpnl-btnHover .dxWeb_pnlExpandArrowTop_ModernoCustom,
+.dxpnl-btnSelected .dxWeb_pnlExpand_ModernoCustom,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowBottom_ModernoCustom,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowLeft_ModernoCustom,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowRight_ModernoCustom,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowTop_ModernoCustom,
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpand_ModernoCustom,
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowBottom_ModernoCustom,
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowLeft_ModernoCustom,
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowRight_ModernoCustom,
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowTop_ModernoCustom,
+.dxp-pressedDropDownButton .dxWeb_pPopOut_ModernoCustom,
+.dxr-grExpBtnHover .dxWeb_rPopOut_ModernoCustom,
+.dxr-itemHover .dxWeb_rPopOut_ModernoCustom,
+.dxrpCollapsed .dxWeb_rpCollapseButton_ModernoCustom,
+.dxWeb_fmBreadCrumbsSeparatorArrow_ModernoCustom,
+.dxWeb_fmBreadCrumbsUpButton_ModernoCustom,
+.dxWeb_fmBreadCrumbsUpButtonDisabled_ModernoCustom,
+.dxWeb_fmBreadCrumbsUpButtonHover_ModernoCustom,
+.dxWeb_fmCopyButton_ModernoCustom,
+.dxWeb_fmCopyButtonDisabled_ModernoCustom,
+.dxWeb_fmCreateButton_ModernoCustom,
+.dxWeb_fmCreateButtonDisabled_ModernoCustom,
+.dxWeb_fmDeleteButton_ModernoCustom,
+.dxWeb_fmDeleteButtonDisabled_ModernoCustom,
+.dxWeb_fmDwnlButton_ModernoCustom,
+.dxWeb_fmDwnlButtonDisabled_ModernoCustom,
+.dxWeb_fmExpandFolderContBtn_ModernoCustom,
+.dxWeb_fmFolder_ModernoCustom,
+.dxWeb_fmFolderLocked_ModernoCustom,
+.dxWeb_fmMoveButton_ModernoCustom,
+.dxWeb_fmMoveButtonDisabled_ModernoCustom,
+.dxWeb_fmRefreshButton_ModernoCustom,
+.dxWeb_fmRefreshButtonDisabled_ModernoCustom,
+.dxWeb_fmRenameButton_ModernoCustom,
+.dxWeb_fmRenameButtonDisabled_ModernoCustom,
+.dxWeb_fmThumbnailCheck_ModernoCustom,
+.dxWeb_fmUplButton_ModernoCustom,
+.dxWeb_fmUplButtonDisabled_ModernoCustom,
+.dxWeb_igCloseButton_ModernoCustom,
+.dxWeb_igNavigationBarMarker_ModernoCustom,
+.dxWeb_igNextButton_ModernoCustom,
+.dxWeb_igNextButtonDisabled_ModernoCustom,
+.dxWeb_igNextButtonHover_ModernoCustom,
+.dxWeb_igNextButtonPressed_ModernoCustom,
+.dxWeb_igPauseButton_ModernoCustom,
+.dxWeb_igPlayButton_ModernoCustom,
+.dxWeb_igPrevButton_ModernoCustom,
+.dxWeb_igPrevButtonDisabled_ModernoCustom,
+.dxWeb_igPrevButtonHover_ModernoCustom,
+.dxWeb_igPrevButtonPressed_ModernoCustom,
+.dxWeb_isDot_ModernoCustom,
+.dxWeb_isDotDisabled_ModernoCustom,
+.dxWeb_isDotPressed_ModernoCustom,
+.dxWeb_isDotSelected_ModernoCustom,
+.dxWeb_isNextBtnHor_ModernoCustom,
+.dxWeb_isNextBtnHorDisabled_ModernoCustom,
+.dxWeb_isNextBtnVert_ModernoCustom,
+.dxWeb_isNextBtnVertDisabled_ModernoCustom,
+.dxWeb_isNextPageBtnHor_ModernoCustom,
+.dxWeb_isNextPageBtnHorDisabled_ModernoCustom,
+.dxWeb_isNextPageBtnHorOutside_ModernoCustom,
+.dxWeb_isNextPageBtnHorOutsideDisabled_ModernoCustom,
+.dxWeb_isNextPageBtnVert_ModernoCustom,
+.dxWeb_isNextPageBtnVertDisabled_ModernoCustom,
+.dxWeb_isNextPageBtnVertOutside_ModernoCustom,
+.dxWeb_isNextPageBtnVertOutsideDisabled_ModernoCustom,
+.dxWeb_isPauseBtn_ModernoCustom,
+.dxWeb_isPlayBtn_ModernoCustom,
+.dxWeb_isPrevBtnHor_ModernoCustom,
+.dxWeb_isPrevBtnHorDisabled_ModernoCustom,
+.dxWeb_isPrevBtnVert_ModernoCustom,
+.dxWeb_isPrevBtnVertDisabled_ModernoCustom,
+.dxWeb_isPrevPageBtnHor_ModernoCustom,
+.dxWeb_isPrevPageBtnHorDisabled_ModernoCustom,
+.dxWeb_isPrevPageBtnHorOutside_ModernoCustom,
+.dxWeb_isPrevPageBtnHorOutsideDisabled_ModernoCustom,
+.dxWeb_isPrevPageBtnVert_ModernoCustom,
+.dxWeb_isPrevPageBtnVertDisabled_ModernoCustom,
+.dxWeb_isPrevPageBtnVertOutside_ModernoCustom,
+.dxWeb_isPrevPageBtnVertOutsideDisabled_ModernoCustom,
+.dxWeb_izEWCloseButton_ModernoCustom,
+.dxWeb_izHint_ModernoCustom,
+.dxWeb_mAdaptiveMenu_ModernoCustom,
+.dxWeb_mHorizontalPopOut_ModernoCustom,
+.dxWeb_mScrollDown_ModernoCustom,
+.dxWeb_mScrollUp_ModernoCustom,
+.dxWeb_mSubMenuItem_ModernoCustom,
+.dxWeb_mSubMenuItemChecked_ModernoCustom,
+.dxWeb_mVerticalPopOut_ModernoCustom,
+.dxWeb_mVerticalPopOutRtl_ModernoCustom,
+.dxWeb_nbCollapse_ModernoCustom,
+.dxWeb_nbExpand_ModernoCustom,
+.dxWeb_pAll_ModernoCustom,
+.dxWeb_pAllDisabled_ModernoCustom,
+.dxWeb_pcCloseButton_ModernoCustom,
+.dxWeb_pcCollapseButton_ModernoCustom,
+.dxWeb_pcMaximizeButton_ModernoCustom,
+.dxWeb_pcPinButton_ModernoCustom,
+.dxWeb_pcRefreshButton_ModernoCustom,
+.dxWeb_pcSizeGrip_ModernoCustom,
+.dxWeb_pcSizeGripRtl_ModernoCustom,
+.dxWeb_pFirst_ModernoCustom,
+.dxWeb_pFirstDisabled_ModernoCustom,
+.dxWeb_pLast_ModernoCustom,
+.dxWeb_pLastDisabled_ModernoCustom,
+.dxWeb_pNext_ModernoCustom,
+.dxWeb_pNextDisabled_ModernoCustom,
+.dxWeb_pnlExpand_ModernoCustom,
+.dxWeb_pnlExpandArrowBottom_ModernoCustom,
+.dxWeb_pnlExpandArrowLeft_ModernoCustom,
+.dxWeb_pnlExpandArrowRight_ModernoCustom,
+.dxWeb_pnlExpandArrowTop_ModernoCustom,
+.dxWeb_pPopOut_ModernoCustom,
+.dxWeb_pPopOutDisabled_ModernoCustom,
+.dxWeb_pPrev_ModernoCustom,
+.dxWeb_pPrevDisabled_ModernoCustom,
+.dxWeb_rDialogBoxLauncher_ModernoCustom,
+.dxWeb_rDialogBoxLauncherDisabled_ModernoCustom,
+.dxWeb_rDialogBoxLauncherHover_ModernoCustom,
+.dxWeb_rDialogBoxLauncherPressed_ModernoCustom,
+.dxWeb_rGlrDown_ModernoCustom,
+.dxWeb_rGlrDownDisabled_ModernoCustom,
+.dxWeb_rGlrDownHover_ModernoCustom,
+.dxWeb_rGlrPopOut_ModernoCustom,
+.dxWeb_rGlrPopOutDisabled_ModernoCustom,
+.dxWeb_rGlrPopOutHover_ModernoCustom,
+.dxWeb_rGlrUp_ModernoCustom,
+.dxWeb_rGlrUpDisabled_ModernoCustom,
+.dxWeb_rGlrUpHover_ModernoCustom,
+.dxWeb_rMinBtn_ModernoCustom,
+.dxWeb_rMinBtnChecked_ModernoCustom.dxWeb_rMinBtn_ModernoCustom,
+.dxWeb_rMinBtnChecked_ModernoCustom.dxWeb_rMinBtnDisabled_ModernoCustom,
+.dxWeb_rMinBtnChecked_ModernoCustom.dxWeb_rMinBtnHover_ModernoCustom,
+.dxWeb_rMinBtnChecked_ModernoCustom.dxWeb_rMinBtnPressed_ModernoCustom,
+.dxWeb_rMinBtnDisabled_ModernoCustom,
+.dxWeb_rMinBtnHover_ModernoCustom,
+.dxWeb_rMinBtnPressed_ModernoCustom,
+.dxWeb_rpCollapseButton_ModernoCustom,
+.dxWeb_rPinBtn_ModernoCustom,
+.dxWeb_rPopOut_ModernoCustom,
+.dxWeb_splHCollapseBackwardButton_ModernoCustom,
+.dxWeb_splHCollapseBackwardButtonHover_ModernoCustom,
+.dxWeb_splHCollapseForwardButton_ModernoCustom,
+.dxWeb_splHCollapseForwardButtonHover_ModernoCustom,
+.dxWeb_splHSeparator_ModernoCustom,
+.dxWeb_splHSeparatorHover_ModernoCustom,
+.dxWeb_splVCollapseBackwardButton_ModernoCustom,
+.dxWeb_splVCollapseBackwardButtonHover_ModernoCustom,
+.dxWeb_splVCollapseForwardButton_ModernoCustom,
+.dxWeb_splVCollapseForwardButtonHover_ModernoCustom,
+.dxWeb_splVSeparator_ModernoCustom,
+.dxWeb_splVSeparatorHover_ModernoCustom,
+.dxWeb_tcScrollLeft_ModernoCustom,
+.dxWeb_tcScrollLeftDisabled_ModernoCustom,
+.dxWeb_tcScrollLeftHover_ModernoCustom,
+.dxWeb_tcScrollLeftPressed_ModernoCustom,
+.dxWeb_tcScrollRight_ModernoCustom,
+.dxWeb_tcScrollRightDisabled_ModernoCustom,
+.dxWeb_tcScrollRightHover_ModernoCustom,
+.dxWeb_tcScrollRightPressed_ModernoCustom,
+.dxWeb_tiBackToTop_ModernoCustom,
+.dxWeb_tvColBtn_ModernoCustom,
+.dxWeb_tvColBtnRtl_ModernoCustom,
+.dxWeb_tvExpBtn_ModernoCustom,
+.dxWeb_tvExpBtnRtl_ModernoCustom,
+.dxWeb_ucClearButton_ModernoCustom,
+.dxWeb_ucClearButtonDisabled_ModernoCustom
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxigControl_ModernoCustom.dxTouchUI .dxWeb_igCloseButton_ModernoCustom
+{
+    background-position: -70px -367px;
+    width: 23px;
+    height: 23px;
+}
+.dxigControl_ModernoCustom.dxTouchUI .dxWeb_igPauseButton_ModernoCustom
+{
+    background-position: -48px -367px;
+    width: 21px;
+    height: 25px;
+}
+.dxigControl_ModernoCustom.dxTouchUI .dxWeb_igPlayButton_ModernoCustom
+{
+    background-position: -26px -367px;
+    width: 21px;
+    height: 25px;
+}
+.dxm-disabled .dxWeb_mHorizontalPopOut_ModernoCustom
+{
+    background-position: -79px -391px;
+    width: 8px;
+    height: 4px;
+}
+.dxm-disabled .dxWeb_mVerticalPopOut_ModernoCustom
+{
+    background-position: -174px -250px;
+    width: 5px;
+    height: 10px;
+}
+.dxm-disabled .dxWeb_mVerticalPopOutRtl_ModernoCustom
+{
+    background-position: -180px -250px;
+    width: 5px;
+    height: 10px;
+}
+.dxm-hovered .dxWeb_fmCopyButton_ModernoCustom
+{
+    background-position: -51px -507px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxWeb_fmCreateButton_ModernoCustom
+{
+    background-position: -170px -507px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxWeb_fmDeleteButton_ModernoCustom
+{
+    background-position: -108px -476px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxWeb_fmDwnlButton_ModernoCustom
+{
+    background-position: -125px -476px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxWeb_fmExpandFolderContBtn_ModernoCustom
+{
+    background-position: -176px -476px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxWeb_fmMoveButton_ModernoCustom
+{
+    background-position: -85px -507px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxWeb_fmRefreshButton_ModernoCustom
+{
+    background-position: -187px -507px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxWeb_fmRenameButton_ModernoCustom
+{
+    background-position: -189px -396px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxWeb_fmUplButton_ModernoCustom
+{
+    background-position: -17px -507px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxWeb_mAdaptiveMenu_ModernoCustom
+{
+    background-position: -193px -413px;
+    width: 12px;
+    height: 3px;
+}
+.dxm-hovered .dxWeb_mHorizontalPopOut_ModernoCustom
+{
+    background-position: -197px -489px;
+    width: 8px;
+    height: 4px;
+}
+.dxm-hovered .dxWeb_mSubMenuItemChecked_ModernoCustom
+{
+    background-position: -187px -46px;
+    width: 18px;
+    height: 19px;
+}
+.dxm-hovered .dxWeb_mVerticalPopOut_ModernoCustom
+{
+    background-position: -174px -207px;
+    width: 5px;
+    height: 10px;
+}
+.dxm-hovered .dxWeb_mVerticalPopOutRtl_ModernoCustom
+{
+    background-position: -186px -250px;
+    width: 5px;
+    height: 10px;
+}
+.dxmLite_ModernoCustom .dxm-left .dxm-back-icon
+{
+    background-position: -192px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxm-scrollBtnHovered .dxWeb_mScrollDown_ModernoCustom
+{
+    background-position: -168px -433px;
+    width: 8px;
+    height: 4px;
+}
+.dxm-scrollBtnHovered .dxWeb_mScrollUp_ModernoCustom
+{
+    background-position: -70px -391px;
+    width: 8px;
+    height: 4px;
+}
+.dxpc-closeBtnHover .dxWeb_pcCloseButton_ModernoCustom
+{
+    background-position: 0px -457px;
+    width: 18px;
+    height: 18px;
+}
+.dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_ModernoCustom
+{
+    background-position: -95px -438px;
+    width: 18px;
+    height: 18px;
+}
+.dxpc-collapseBtnHover .dxWeb_pcCollapseButton_ModernoCustom
+{
+    background-position: -19px -438px;
+    width: 18px;
+    height: 18px;
+}
+.dxpc-collapseBtnHover.dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_ModernoCustom
+{
+    background-position: -133px -438px;
+    width: 18px;
+    height: 18px;
+}
+.dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_ModernoCustom
+{
+    background-position: -57px -438px;
+    width: 18px;
+    height: 18px;
+}
+.dxpc-maximizeBtnHover .dxWeb_pcMaximizeButton_ModernoCustom
+{
+    background-position: -38px -457px;
+    width: 18px;
+    height: 18px;
+}
+.dxpc-maximizeBtnHover.dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_ModernoCustom
+{
+    background-position: -171px -438px;
+    width: 18px;
+    height: 18px;
+}
+.dxpc-pinBtnChecked .dxWeb_pcPinButton_ModernoCustom
+{
+    background-position: -38px -438px;
+    width: 18px;
+    height: 18px;
+}
+.dxpc-pinBtnHover .dxWeb_pcPinButton_ModernoCustom
+{
+    background-position: -114px -438px;
+    width: 18px;
+    height: 18px;
+}
+.dxpc-pinBtnHover.dxpc-pinBtnChecked .dxWeb_pcPinButton_ModernoCustom
+{
+    background-position: -152px -438px;
+    width: 18px;
+    height: 18px;
+}
+.dxpc-refreshBtnHover .dxWeb_pcRefreshButton_ModernoCustom
+{
+    background-position: -95px -457px;
+    width: 18px;
+    height: 18px;
+}
+.dxp-hoverDropDownButton .dxWeb_pPopOut_ModernoCustom
+{
+    background-position: -195px -361px;
+    width: 10px;
+    height: 5px;
+}
+.dxpnl-btnHover .dxWeb_pnlExpand_ModernoCustom
+{
+    background-position: 0px -304px;
+    width: 42px;
+    height: 42px;
+}
+.dxpnl-btnHover .dxWeb_pnlExpandArrowBottom_ModernoCustom
+{
+    background-position: 0px -132px;
+    width: 42px;
+    height: 42px;
+}
+.dxpnl-btnHover .dxWeb_pnlExpandArrowLeft_ModernoCustom
+{
+    background-position: -86px -218px;
+    width: 42px;
+    height: 42px;
+}
+.dxpnl-btnHover .dxWeb_pnlExpandArrowRight_ModernoCustom
+{
+    background-position: -129px -304px;
+    width: 42px;
+    height: 42px;
+}
+.dxpnl-btnHover .dxWeb_pnlExpandArrowTop_ModernoCustom
+{
+    background-position: -43px -218px;
+    width: 42px;
+    height: 42px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpand_ModernoCustom
+{
+    background-position: -43px -261px;
+    width: 42px;
+    height: 42px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowBottom_ModernoCustom
+{
+    background-position: 0px -175px;
+    width: 42px;
+    height: 42px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowLeft_ModernoCustom
+{
+    background-position: 0px -261px;
+    width: 42px;
+    height: 42px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowRight_ModernoCustom
+{
+    background-position: -43px -304px;
+    width: 42px;
+    height: 42px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowTop_ModernoCustom
+{
+    background-position: -129px -175px;
+    width: 42px;
+    height: 42px;
+}
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpand_ModernoCustom
+{
+    background-position: 0px -218px;
+    width: 42px;
+    height: 42px;
+}
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowBottom_ModernoCustom
+{
+    background-position: -43px -132px;
+    width: 42px;
+    height: 42px;
+}
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowLeft_ModernoCustom
+{
+    background-position: -86px -304px;
+    width: 42px;
+    height: 42px;
+}
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowRight_ModernoCustom
+{
+    background-position: -129px -132px;
+    width: 42px;
+    height: 42px;
+}
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowTop_ModernoCustom
+{
+    background-position: -129px -218px;
+    width: 42px;
+    height: 42px;
+}
+.dxp-pressedDropDownButton .dxWeb_pPopOut_ModernoCustom
+{
+    background-position: -152px -390px;
+    width: 10px;
+    height: 5px;
+}
+.dxr-grExpBtnHover .dxWeb_rPopOut_ModernoCustom
+{
+    background-position: -126px -432px;
+    width: 10px;
+    height: 5px;
+}
+.dxr-itemHover .dxWeb_rPopOut_ModernoCustom
+{
+    background-position: -108px -390px;
+    width: 10px;
+    height: 5px;
+}
+.dxrpCollapsed .dxWeb_rpCollapseButton_ModernoCustom
+{
+    background-position: -97px -390px;
+    width: 10px;
+    height: 5px;
+}
+.dxWeb_fmBreadCrumbsSeparatorArrow_ModernoCustom
+{
+    background-position: -200px -347px;
+    width: 4px;
+    height: 7px;
+}
+.dxWeb_fmBreadCrumbsUpButton_ModernoCustom
+{
+    background-position: -102px -524px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmBreadCrumbsUpButtonDisabled_ModernoCustom
+{
+    background-position: -119px -507px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmBreadCrumbsUpButtonHover_ModernoCustom
+{
+    background-position: -102px -507px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCopyButton_ModernoCustom
+{
+    background-position: 0px -524px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCopyButtonDisabled_ModernoCustom
+{
+    background-position: -74px -476px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCreateButton_ModernoCustom
+{
+    background-position: -34px -507px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCreateButtonDisabled_ModernoCustom
+{
+    background-position: -153px -507px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDeleteButton_ModernoCustom
+{
+    background-position: -142px -476px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDeleteButtonDisabled_ModernoCustom
+{
+    background-position: -68px -524px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDwnlButton_ModernoCustom
+{
+    background-position: -119px -524px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDwnlButtonDisabled_ModernoCustom
+{
+    background-position: -153px -524px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmExpandFolderContBtn_ModernoCustom
+{
+    background-position: -91px -476px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmFolder_ModernoCustom
+{
+    background-position: -57px -476px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmFolderLocked_ModernoCustom
+{
+    background-position: -159px -476px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmMoveButton_ModernoCustom
+{
+    background-position: -68px -507px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmMoveButtonDisabled_ModernoCustom
+{
+    background-position: 0px -507px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRefreshButton_ModernoCustom
+{
+    background-position: -136px -524px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRefreshButtonDisabled_ModernoCustom
+{
+    background-position: -85px -524px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRenameButton_ModernoCustom
+{
+    background-position: -170px -524px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRenameButtonDisabled_ModernoCustom
+{
+    background-position: -136px -507px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmThumbnailCheck_ModernoCustom
+{
+    background-position: -60px -358px;
+    width: 9px;
+    height: 8px;
+}
+.dxWeb_fmUplButton_ModernoCustom
+{
+    background-position: -187px -524px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmUplButtonDisabled_ModernoCustom
+{
+    background-position: -51px -524px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_igCloseButton_ModernoCustom
+{
+    background-position: -145px -541px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_igNavigationBarMarker_ModernoCustom
+{
+    background-position: -185px -158px;
+    width: 20px;
+    height: 16px;
+}
+.dxWeb_igNextButton_ModernoCustom
+{
+    background-position: -46px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonDisabled_ModernoCustom
+{
+    background-position: -138px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonHover_ModernoCustom
+{
+    background-position: 0px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonPressed_ModernoCustom
+{
+    background-position: -138px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPauseButton_ModernoCustom
+{
+    background-position: -31px -476px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_igPlayButton_ModernoCustom
+{
+    background-position: -18px -476px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_igPrevButton_ModernoCustom
+{
+    background-position: -46px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonDisabled_ModernoCustom
+{
+    background-position: 0px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonHover_ModernoCustom
+{
+    background-position: -92px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonPressed_ModernoCustom
+{
+    background-position: -92px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_isDot_ModernoCustom
+{
+    background-position: -159px -541px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotDisabled_ModernoCustom
+{
+    background-position: -117px -541px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotPressed_ModernoCustom
+{
+    background-position: -192px -204px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotSelected_ModernoCustom
+{
+    background-position: -131px -541px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isNextBtnHor_ModernoCustom
+{
+    background-position: -172px -175px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isNextBtnHorDisabled_ModernoCustom
+{
+    background-position: -184px -66px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isNextBtnVert_ModernoCustom
+{
+    background-position: -172px -261px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isNextBtnVertDisabled_ModernoCustom
+{
+    background-position: -172px -304px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isNextPageBtnHor_ModernoCustom
+{
+    background-position: -176px -282px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isNextPageBtnHorDisabled_ModernoCustom
+{
+    background-position: -191px -325px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isNextPageBtnHorOutside_ModernoCustom
+{
+    background-position: -191px -175px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isNextPageBtnHorOutsideDisabled_ModernoCustom
+{
+    background-position: -13px -367px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isNextPageBtnVert_ModernoCustom
+{
+    background-position: -22px -541px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isNextPageBtnVertDisabled_ModernoCustom
+{
+    background-position: -66px -541px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isNextPageBtnVertOutside_ModernoCustom
+{
+    background-position: 0px -494px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isNextPageBtnVertOutsideDisabled_ModernoCustom
+{
+    background-position: -171px -347px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isPauseBtn_ModernoCustom
+{
+    background-position: -44px -476px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_isPlayBtn_ModernoCustom
+{
+    background-position: -190px -438px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_isPrevBtnHor_ModernoCustom
+{
+    background-position: -187px -100px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isPrevBtnHorDisabled_ModernoCustom
+{
+    background-position: -172px -218px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isPrevBtnVert_ModernoCustom
+{
+    background-position: 0px -347px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isPrevBtnVertDisabled_ModernoCustom
+{
+    background-position: -30px -347px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isPrevPageBtnHor_ModernoCustom
+{
+    background-position: -176px -325px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isPrevPageBtnHorDisabled_ModernoCustom
+{
+    background-position: -191px -282px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isPrevPageBtnHorOutside_ModernoCustom
+{
+    background-position: 0px -367px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isPrevPageBtnHorOutsideDisabled_ModernoCustom
+{
+    background-position: -191px -218px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isPrevPageBtnVert_ModernoCustom
+{
+    background-position: -44px -541px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isPrevPageBtnVertDisabled_ModernoCustom
+{
+    background-position: 0px -541px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isPrevPageBtnVertOutside_ModernoCustom
+{
+    background-position: -126px -417px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isPrevPageBtnVertOutsideDisabled_ModernoCustom
+{
+    background-position: -155px -417px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_izEWCloseButton_ModernoCustom
+{
+    background-position: -172px -132px;
+    width: 25px;
+    height: 25px;
+}
+.dxWeb_izHint_ModernoCustom
+{
+    background-position: 0px -476px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_mAdaptiveMenu_ModernoCustom
+{
+    background-position: -172px -158px;
+    width: 12px;
+    height: 3px;
+}
+.dxWeb_mHorizontalPopOut_ModernoCustom
+{
+    background-position: -172px -494px;
+    width: 8px;
+    height: 4px;
+}
+.dxWeb_mScrollDown_ModernoCustom
+{
+    background-position: -88px -391px;
+    width: 8px;
+    height: 4px;
+}
+.dxWeb_mScrollUp_ModernoCustom
+{
+    background-position: -159px -433px;
+    width: 8px;
+    height: 4px;
+}
+.dxWeb_mSubMenuItem_ModernoCustom
+{
+    background-position: -88px -541px;
+    width: 14px;
+    height: 14px;
+}
+.dxWeb_mSubMenuItemChecked_ModernoCustom
+{
+    background-position: -152px -347px;
+    width: 18px;
+    height: 19px;
+}
+.dxWeb_mVerticalPopOut_ModernoCustom
+{
+    background-position: -186px -207px;
+    width: 5px;
+    height: 10px;
+}
+.dxWeb_mVerticalPopOutRtl_ModernoCustom
+{
+    background-position: -180px -207px;
+    width: 5px;
+    height: 10px;
+}
+.dxWeb_nbCollapse_ModernoCustom
+{
+    background-position: -94px -494px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_nbExpand_ModernoCustom
+{
+    background-position: -146px -494px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_pAll_ModernoCustom
+{
+    background-position: -193px -476px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_pAllDisabled_ModernoCustom
+{
+    background-position: -107px -494px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_pcCloseButton_ModernoCustom
+{
+    background-position: -19px -457px;
+    width: 18px;
+    height: 18px;
+}
+.dxWeb_pcCollapseButton_ModernoCustom
+{
+    background-position: -76px -457px;
+    width: 18px;
+    height: 18px;
+}
+.dxWeb_pcMaximizeButton_ModernoCustom
+{
+    background-position: -76px -438px;
+    width: 18px;
+    height: 18px;
+}
+.dxWeb_pcPinButton_ModernoCustom
+{
+    background-position: -57px -457px;
+    width: 18px;
+    height: 18px;
+}
+.dxWeb_pcRefreshButton_ModernoCustom
+{
+    background-position: 0px -438px;
+    width: 18px;
+    height: 18px;
+}
+.dxWeb_pcSizeGrip_ModernoCustom
+{
+    background-position: -184px -417px;
+    width: 18px;
+    height: 18px;
+}
+.dxWeb_pcSizeGripRtl_ModernoCustom
+{
+    background-position: -114px -457px;
+    width: 18px;
+    height: 18px;
+}
+.dxWeb_pFirst_ModernoCustom
+{
+    background-position: -68px -494px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_pFirstDisabled_ModernoCustom
+{
+    background-position: -133px -494px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_pLast_ModernoCustom
+{
+    background-position: -172px -162px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_pLastDisabled_ModernoCustom
+{
+    background-position: -81px -494px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_pNext_ModernoCustom
+{
+    background-position: -159px -494px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_pNextDisabled_ModernoCustom
+{
+    background-position: -120px -494px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_pnlExpand_ModernoCustom
+{
+    background-position: -86px -132px;
+    width: 42px;
+    height: 42px;
+}
+.dxWeb_pnlExpandArrowBottom_ModernoCustom
+{
+    background-position: -43px -175px;
+    width: 42px;
+    height: 42px;
+}
+.dxWeb_pnlExpandArrowLeft_ModernoCustom
+{
+    background-position: -129px -261px;
+    width: 42px;
+    height: 42px;
+}
+.dxWeb_pnlExpandArrowRight_ModernoCustom
+{
+    background-position: -86px -261px;
+    width: 42px;
+    height: 42px;
+}
+.dxWeb_pnlExpandArrowTop_ModernoCustom
+{
+    background-position: -86px -175px;
+    width: 42px;
+    height: 42px;
+}
+.dxWeb_pPopOut_ModernoCustom
+{
+    background-position: -119px -390px;
+    width: 10px;
+    height: 5px;
+}
+.dxWeb_pPopOutDisabled_ModernoCustom
+{
+    background-position: -185px -390px;
+    width: 10px;
+    height: 5px;
+}
+.dxWeb_pPrev_ModernoCustom
+{
+    background-position: -42px -494px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_pPrevDisabled_ModernoCustom
+{
+    background-position: -55px -494px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_rDialogBoxLauncher_ModernoCustom
+{
+    background-position: -21px -417px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rDialogBoxLauncherDisabled_ModernoCustom
+{
+    background-position: -94px -367px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rDialogBoxLauncherHover_ModernoCustom
+{
+    background-position: -84px -417px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rDialogBoxLauncherPressed_ModernoCustom
+{
+    background-position: -168px -396px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rGlrDown_ModernoCustom
+{
+    background-position: -173px -361px;
+    width: 10px;
+    height: 5px;
+}
+.dxWeb_rGlrDownDisabled_ModernoCustom
+{
+    background-position: -130px -390px;
+    width: 10px;
+    height: 5px;
+}
+.dxWeb_rGlrDownHover_ModernoCustom
+{
+    background-position: -174px -390px;
+    width: 10px;
+    height: 5px;
+}
+.dxWeb_rGlrPopOut_ModernoCustom
+{
+    background-position: -70px -359px;
+    width: 10px;
+    height: 7px;
+}
+.dxWeb_rGlrPopOutDisabled_ModernoCustom
+{
+    background-position: -81px -359px;
+    width: 10px;
+    height: 7px;
+}
+.dxWeb_rGlrPopOutHover_ModernoCustom
+{
+    background-position: -92px -359px;
+    width: 10px;
+    height: 7px;
+}
+.dxWeb_rGlrUp_ModernoCustom
+{
+    background-position: -184px -361px;
+    width: 10px;
+    height: 5px;
+}
+.dxWeb_rGlrUpDisabled_ModernoCustom
+{
+    background-position: -163px -390px;
+    width: 10px;
+    height: 5px;
+}
+.dxWeb_rGlrUpHover_ModernoCustom
+{
+    background-position: -137px -432px;
+    width: 10px;
+    height: 5px;
+}
+.dxWeb_rMinBtn_ModernoCustom
+{
+    background-position: -126px -396px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rMinBtnChecked_ModernoCustom.dxWeb_rMinBtn_ModernoCustom
+{
+    background-position: -105px -417px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rMinBtnChecked_ModernoCustom.dxWeb_rMinBtnDisabled_ModernoCustom
+{
+    background-position: -178px -367px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rMinBtnChecked_ModernoCustom.dxWeb_rMinBtnHover_ModernoCustom
+{
+    background-position: -21px -396px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rMinBtnChecked_ModernoCustom.dxWeb_rMinBtnPressed_ModernoCustom
+{
+    background-position: -157px -367px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rMinBtnDisabled_ModernoCustom
+{
+    background-position: -84px -396px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rMinBtnHover_ModernoCustom
+{
+    background-position: -42px -396px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rMinBtnPressed_ModernoCustom
+{
+    background-position: -147px -396px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rpCollapseButton_ModernoCustom
+{
+    background-position: -141px -390px;
+    width: 10px;
+    height: 5px;
+}
+.dxWeb_rPinBtn_ModernoCustom
+{
+    background-position: -29px -494px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_rPopOut_ModernoCustom
+{
+    background-position: -148px -432px;
+    width: 10px;
+    height: 5px;
+}
+.dxWeb_splHCollapseBackwardButton_ModernoCustom
+{
+    background-position: -198px -132px;
+    width: 7px;
+    height: 9px;
+}
+.dxWeb_splHCollapseBackwardButtonHover_ModernoCustom
+{
+    background-position: -198px -148px;
+    width: 7px;
+    height: 9px;
+}
+.dxWeb_splHCollapseForwardButton_ModernoCustom
+{
+    background-position: -103px -357px;
+    width: 7px;
+    height: 9px;
+}
+.dxWeb_splHCollapseForwardButtonHover_ModernoCustom
+{
+    background-position: -111px -357px;
+    width: 7px;
+    height: 9px;
+}
+.dxWeb_splHSeparator_ModernoCustom
+{
+    background-position: -106px -347px;
+    width: 45px;
+    height: 9px;
+}
+.dxWeb_splHSeparatorHover_ModernoCustom
+{
+    background-position: -60px -347px;
+    width: 45px;
+    height: 9px;
+}
+.dxWeb_splVCollapseBackwardButton_ModernoCustom
+{
+    background-position: -196px -388px;
+    width: 9px;
+    height: 7px;
+}
+.dxWeb_splVCollapseBackwardButtonHover_ModernoCustom
+{
+    background-position: -119px -359px;
+    width: 9px;
+    height: 7px;
+}
+.dxWeb_splVCollapseForwardButton_ModernoCustom
+{
+    background-position: -139px -359px;
+    width: 9px;
+    height: 7px;
+}
+.dxWeb_splVCollapseForwardButtonHover_ModernoCustom
+{
+    background-position: -129px -359px;
+    width: 9px;
+    height: 7px;
+}
+.dxWeb_splVSeparator_ModernoCustom
+{
+    background-position: -194px 0px;
+    width: 9px;
+    height: 45px;
+}
+.dxWeb_splVSeparatorHover_ModernoCustom
+{
+    background-position: -184px 0px;
+    width: 9px;
+    height: 45px;
+}
+.dxWeb_tcScrollLeft_ModernoCustom
+{
+    background-position: 0px -417px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_tcScrollLeftDisabled_ModernoCustom
+{
+    background-position: -136px -367px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_tcScrollLeftHover_ModernoCustom
+{
+    background-position: -42px -417px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_tcScrollLeftPressed_ModernoCustom
+{
+    background-position: -63px -396px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_tcScrollRight_ModernoCustom
+{
+    background-position: -105px -396px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_tcScrollRightDisabled_ModernoCustom
+{
+    background-position: 0px -396px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_tcScrollRightHover_ModernoCustom
+{
+    background-position: -63px -417px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_tcScrollRightPressed_ModernoCustom
+{
+    background-position: -115px -367px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_tiBackToTop_ModernoCustom
+{
+    background-position: -103px -541px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_tvColBtn_ModernoCustom
+{
+    background-position: -133px -457px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_tvColBtnRtl_ModernoCustom
+{
+    background-position: -187px -457px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_tvExpBtn_ModernoCustom
+{
+    background-position: -151px -457px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_tvExpBtnRtl_ModernoCustom
+{
+    background-position: -169px -457px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_ucClearButton_ModernoCustom
+{
+    background-position: -17px -524px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_ucClearButtonDisabled_ModernoCustom
+{
+    background-position: -34px -524px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_rpHeaderTopLeftCorner_ModernoCustom,
+.dxWeb_rpHeaderTopRightCorner_ModernoCustom,
+.dxWeb_rpBottomLeftCorner_ModernoCustom,
+.dxWeb_rpBottomRightCorner_ModernoCustom,
+.dxWeb_rpTopLeftCorner_ModernoCustom,
+.dxWeb_rpTopRightCorner_ModernoCustom,
+.dxWeb_rpGroupBoxBottomLeftCorner_ModernoCustom,
+.dxWeb_rpGroupBoxBottomRightCorner_ModernoCustom,
+.dxWeb_rpGroupBoxTopLeftCorner_ModernoCustom,
+.dxWeb_rpGroupBoxTopRightCorner_ModernoCustom,
+.dxWeb_mHorizontalPopOut_ModernoCustom,
+.dxWeb_mHorizontalPopOutHover_ModernoCustom,
+.dxWeb_mVerticalPopOut_ModernoCustom,
+.dxWeb_mVerticalPopOutHover_ModernoCustom,
+.dxWeb_mVerticalPopOutRtl_ModernoCustom,
+.dxWeb_mSubMenuItem_ModernoCustom,
+.dxWeb_mSubMenuItemChecked_ModernoCustom,
+.dxWeb_mScrollUp_ModernoCustom,
+.dxWeb_mScrollUpHover_ModernoCustom,
+.dxWeb_mScrollUpDisabled_ModernoCustom,
+.dxWeb_mScrollDown_ModernoCustom,
+.dxWeb_mScrollDownHover_ModernoCustom,
+.dxWeb_mScrollDownDisabled_ModernoCustom,
+.dxWeb_tcScrollLeft_ModernoCustom,
+.dxWeb_tcScrollRight_ModernoCustom,
+.dxWeb_tcScrollLeftHover_ModernoCustom,
+.dxWeb_tcScrollRightHover_ModernoCustom,
+.dxWeb_tcScrollLeftPressed_ModernoCustom,
+.dxWeb_tcScrollRightPressed_ModernoCustom,
+.dxWeb_tcScrollLeftDisabled_ModernoCustom,
+.dxWeb_tcScrollRightDisabled_ModernoCustom,
+.dxWeb_nbCollapse_ModernoCustom,
+.dxWeb_nbExpand_ModernoCustom,
+.dxWeb_splVSeparator_ModernoCustom,
+.dxWeb_splVSeparatorHover_ModernoCustom,
+.dxWeb_splHSeparator_ModernoCustom,
+.dxWeb_splHSeparatorHover_ModernoCustom,
+.dxWeb_splVCollapseBackwardButton_ModernoCustom,
+.dxWeb_splVCollapseBackwardButtonHover_ModernoCustom,
+.dxWeb_splHCollapseBackwardButton_ModernoCustom,
+.dxWeb_splHCollapseBackwardButtonHover_ModernoCustom,
+.dxWeb_splVCollapseForwardButton_ModernoCustom,
+.dxWeb_splVCollapseForwardButtonHover_ModernoCustom,
+.dxWeb_splHCollapseForwardButton_ModernoCustom,
+.dxWeb_splHCollapseForwardButtonHover_ModernoCustom,
+.dxWeb_pcCloseButton_ModernoCustom,
+.dxWeb_pcPinButton_ModernoCustom,
+.dxWeb_pcRefreshButton_ModernoCustom,
+.dxWeb_pcCollapseButton_ModernoCustom,
+.dxWeb_pcMaximizeButton_ModernoCustom,
+.dxWeb_pcSizeGrip_ModernoCustom,
+.dxWeb_pcSizeGripRtl_ModernoCustom,
+.dxWeb_pPopOut_ModernoCustom,
+.dxWeb_pPopOutDisabled_ModernoCustom,
+.dxWeb_pAll_ModernoCustom,
+.dxWeb_pAllDisabled_ModernoCustom,
+.dxWeb_pPrev_ModernoCustom,
+.dxWeb_pPrevDisabled_ModernoCustom,
+.dxWeb_pNext_ModernoCustom,
+.dxWeb_pNextDisabled_ModernoCustom,
+.dxWeb_pLast_ModernoCustom,
+.dxWeb_pLastDisabled_ModernoCustom,
+.dxWeb_pFirst_ModernoCustom,
+.dxWeb_pFirstDisabled_ModernoCustom,
+.dxWeb_tiBackToTop_ModernoCustom,
+.dxWeb_smBullet_ModernoCustom,
+.dxWeb_tvColBtn_ModernoCustom,
+.dxWeb_tvColBtnRtl_ModernoCustom,
+.dxWeb_tvExpBtn_ModernoCustom,
+.dxWeb_tvExpBtnRtl_ModernoCustom,
+.dxWeb_fmFolder_ModernoCustom,
+.dxWeb_fmFolderLocked_ModernoCustom,
+.dxWeb_fmCreateButton_ModernoCustom,
+.dxWeb_fmMoveButton_ModernoCustom,
+.dxWeb_fmRenameButton_ModernoCustom,
+.dxWeb_fmDeleteButton_ModernoCustom,
+.dxWeb_fmRefreshButton_ModernoCustom,
+.dxWeb_fmDwnlButton_ModernoCustom,
+.dxWeb_fmCreateButtonDisabled_ModernoCustom,
+.dxWeb_fmMoveButtonDisabled_ModernoCustom,
+.dxWeb_fmRenameButtonDisabled_ModernoCustom,
+.dxWeb_fmDeleteButtonDisabled_ModernoCustom,
+.dxWeb_fmRefreshButtonDisabled_ModernoCustom,
+.dxWeb_fmDwnlButtonDisabled_ModernoCustom,
+.dxWeb_ucClearButton_ModernoCustom,
+.dxWeb_ucClearButtonDisabled_ModernoCustom,
+.dxWeb_isPrevBtnHor_ModernoCustom,
+.dxWeb_isNextBtnHor_ModernoCustom,
+.dxWeb_isPrevBtnVert_ModernoCustom,
+.dxWeb_isNextBtnVert_ModernoCustom,
+.dxWeb_isPrevPageBtnHor_ModernoCustom,
+.dxWeb_isPrevPageBtnHorOutside_ModernoCustom,
+.dxWeb_isNextPageBtnHor_ModernoCustom,
+.dxWeb_isNextPageBtnHorOutside_ModernoCustom,
+.dxWeb_isPrevPageBtnVert_ModernoCustom,
+.dxWeb_isPrevPageBtnVertOutside_ModernoCustom,
+.dxWeb_isNextPageBtnVert_ModernoCustom,
+.dxWeb_isNextPageBtnVertOutside_ModernoCustom,
+.dxWeb_isPrevBtnHorDisabled_ModernoCustom,
+.dxWeb_isNextBtnHorDisabled_ModernoCustom,
+.dxWeb_isPrevBtnVertDisabled_ModernoCustom,
+.dxWeb_isNextBtnVertDisabled_ModernoCustom,
+.dxWeb_isPrevPageBtnHorDisabled_ModernoCustom,
+.dxWeb_isPrevPageBtnHorOutsideDisabled_ModernoCustom,
+.dxWeb_isNextPageBtnHorDisabled_ModernoCustom,
+.dxWeb_isNextPageBtnHorOutsideDisabled_ModernoCustom,
+.dxWeb_isPrevPageBtnVertDisabled_ModernoCustom,
+.dxWeb_isPrevPageBtnVertOutsideDisabled_ModernoCustom,
+.dxWeb_isNextPageBtnVertDisabled_ModernoCustom,
+.dxWeb_isNextPageBtnVertOutsideDisabled_ModernoCustom,
+.dxWeb_isDot_ModernoCustom,
+.dxWeb_isDotDisabled_ModernoCustom,
+.dxWeb_isDotSelected_ModernoCustom,
+.dxWeb_fmGvHeaderFilter_ModernoCustom,
+.dxWeb_fmGvHeaderFilterActive_ModernoCustom,
+.dxWeb_fmThumbnailCheck_ModernoCustom,
+.dxWeb_isPlayBtn_ModernoCustom,
+.dxWeb_isPauseBtn_ModernoCustom,
+.dxWeb_igCloseButton_ModernoCustom,
+.dxWeb_igNextButton_ModernoCustom,
+.dxWeb_igPrevButton_ModernoCustom,
+.dxWeb_igPlayButton_ModernoCustom,
+.dxWeb_igPauseButton_ModernoCustom,
+.dxWeb_igNavigationBarMarker_ModernoCustom
+{
+	display: block;
+}
+.dxWeb_mScrollUp_ModernoCustom, .dxWeb_mScrollDown_ModernoCustom
+{
+	margin: auto;
+}
+.dxWeb_smBullet_ModernoCustom,
+.dxWeb_tiBackToTop_ModernoCustom
+{
+	display:inline;
+}
+.dxWeb_rPinBtn_ModernoCustom {
+    margin-right: 3px;
+}
+

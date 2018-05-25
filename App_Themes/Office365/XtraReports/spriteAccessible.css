@@ -1,0 +1,278 @@
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnFirstPage_Office365:before,
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnLastPage_Office365:before,
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnNextPage_Office365:before,
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnPrevPage_Office365:before,
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnPrint_Office365:before,
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnPrintPage_Office365:before,
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnSave_Office365:before,
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnSaveWindow_Office365:before,
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnSearch_Office365:before,
+.dx-acc-r .dxXtraReports_BtnFirstPage_Office365:before,
+.dx-acc-r .dxXtraReports_BtnFirstPageDisabled_Office365:before,
+.dx-acc-r .dxXtraReports_BtnLastPage_Office365:before,
+.dx-acc-r .dxXtraReports_BtnLastPageDisabled_Office365:before,
+.dx-acc-r .dxXtraReports_BtnNextPage_Office365:before,
+.dx-acc-r .dxXtraReports_BtnNextPageDisabled_Office365:before,
+.dx-acc-r .dxXtraReports_BtnPrevPage_Office365:before,
+.dx-acc-r .dxXtraReports_BtnPrevPageDisabled_Office365:before,
+.dx-acc-r .dxXtraReports_BtnPrint_Office365:before,
+.dx-acc-r .dxXtraReports_BtnPrintDisabled_Office365:before,
+.dx-acc-r .dxXtraReports_BtnPrintPage_Office365:before,
+.dx-acc-r .dxXtraReports_BtnPrintPageDisabled_Office365:before,
+.dx-acc-r .dxXtraReports_BtnSave_Office365:before,
+.dx-acc-r .dxXtraReports_BtnSaveDisabled_Office365:before,
+.dx-acc-r .dxXtraReports_BtnSaveWindow_Office365:before,
+.dx-acc-r .dxXtraReports_BtnSaveWindowDisabled_Office365:before,
+.dx-acc-r .dxXtraReports_BtnSearch_Office365:before,
+.dx-acc-r .dxXtraReports_BtnSearchDisabled_Office365:before,
+.dx-acc-r .dxXtraReports_PageBorder_blc_Office365:before,
+.dx-acc-r .dxXtraReports_PageBorder_brc_Office365:before,
+.dx-acc-r .dxXtraReports_PageBorder_tlc_Office365:before,
+.dx-acc-r .dxXtraReports_PageBorder_trc_Office365:before
+
+{
+    content: url('sprite.svg');
+
+}
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnFirstPage_Office365:before
+
+{
+    left: -19px;
+    top: -38px;
+
+}
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnLastPage_Office365:before
+
+{
+    left: -76px;
+    top: -19px;
+
+}
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnNextPage_Office365:before
+
+{
+    left: -38px;
+    top: 0px;
+
+}
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnPrevPage_Office365:before
+
+{
+    left: -57px;
+    top: -19px;
+
+}
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnPrint_Office365:before
+
+{
+    left: -51px;
+    top: -57px;
+
+}
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnPrintPage_Office365:before
+
+{
+    left: -17px;
+    top: -74px;
+
+}
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnSave_Office365:before
+
+{
+    left: -85px;
+    top: -57px;
+
+}
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnSaveWindow_Office365:before
+
+{
+    left: -51px;
+    top: -74px;
+
+}
+.dx-acc-r .dxm-hovered .dxXtraReports_BtnSearch_Office365:before
+
+{
+    left: 0px;
+    top: -57px;
+
+}
+.dx-acc-r .dxXtraReports_BtnFirstPage_Office365:before
+
+{
+    left: 0px;
+    top: -38px;
+
+}
+.dx-acc-r .dxXtraReports_BtnFirstPageDisabled_Office365:before
+
+{
+    left: -57px;
+    top: 0px;
+
+}
+.dx-acc-r .dxXtraReports_BtnLastPage_Office365:before
+
+{
+    left: -76px;
+    top: 0px;
+
+}
+.dx-acc-r .dxXtraReports_BtnLastPageDisabled_Office365:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxXtraReports_BtnNextPage_Office365:before
+
+{
+    left: -19px;
+    top: 0px;
+
+}
+.dx-acc-r .dxXtraReports_BtnNextPageDisabled_Office365:before
+
+{
+    left: 0px;
+    top: -19px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrevPage_Office365:before
+
+{
+    left: -38px;
+    top: -19px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrevPageDisabled_Office365:before
+
+{
+    left: -19px;
+    top: -19px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrint_Office365:before
+
+{
+    left: -72px;
+    top: -38px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrintDisabled_Office365:before
+
+{
+    left: -89px;
+    top: -38px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrintPage_Office365:before
+
+{
+    left: 0px;
+    top: -74px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrintPageDisabled_Office365:before
+
+{
+    left: -55px;
+    top: -38px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSave_Office365:before
+
+{
+    left: -34px;
+    top: -57px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSaveDisabled_Office365:before
+
+{
+    left: -68px;
+    top: -74px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSaveWindow_Office365:before
+
+{
+    left: -68px;
+    top: -57px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSaveWindowDisabled_Office365:before
+
+{
+    left: -34px;
+    top: -74px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSearch_Office365:before
+
+{
+    left: -38px;
+    top: -38px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSearchDisabled_Office365:before
+
+{
+    left: -17px;
+    top: -57px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_blc_Office365:before
+
+{
+    left: -95px;
+    top: -19px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_brc_Office365:before
+
+{
+    left: -85px;
+    top: -74px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_tlc_Office365:before
+
+{
+    left: -95px;
+    top: 0px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_trc_Office365:before
+
+{
+    left: -96px;
+    top: -74px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_t_Office365 :before
+
+{
+    content: url('pageTopBorder.svg');
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_l_Office365 :before
+
+{
+    content: url('pageLeftBorder.svg');
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_r_Office365 :before
+
+{
+    content: url('pageRightBorder.svg');
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_b_Office365 :before
+
+{
+    content: url('pageBottomBorder.svg');
+
+}
+

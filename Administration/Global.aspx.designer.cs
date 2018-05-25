@@ -13,15 +13,6 @@ namespace TAAPs.Administration {
     public partial class Global {
         
         /// <summary>
-        /// ASPxCallback1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DevExpress.Web.ASPxCallback ASPxCallback1;
-        
-        /// <summary>
         /// formlayout control.
         /// </summary>
         /// <remarks>
@@ -157,22 +148,22 @@ namespace TAAPs.Administration {
         protected global::DevExpress.Web.ASPxTextBox formlayout_E11;
         
         /// <summary>
-        /// btnSave control.
+        /// SaveButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxButton btnSave;
+        protected global::DevExpress.Web.ASPxButton SaveButton;
         
         /// <summary>
-        /// sdsSettings control.
+        /// CancelButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource sdsSettings;
+        protected global::DevExpress.Web.ASPxButton CancelButton;
         
         /// <summary>
         /// edsTenant control.
@@ -182,14 +173,5 @@ namespace TAAPs.Administration {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.EntityDataSource edsTenant;
-        
-        /// <summary>
-        /// LoadingPanel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DevExpress.Web.ASPxLoadingPanel LoadingPanel;
     }
 }

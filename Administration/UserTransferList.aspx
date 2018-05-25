@@ -1,16 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="UserTransferList.aspx.cs" Inherits="TAAPs.Administration.UserTransferList" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainLayout.Master" AutoEventWireup="true" CodeBehind="UserTransferList.aspx.cs" Inherits="TAAPs.Administration.UserTransferList" %>
 
-<%@ Register Assembly="DevExpress.Web.v15.2, Version=15.2.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
-
-
-
-
-
-
+<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
     <script type="text/javascript">
         function OnGetSelectedFieldValues(selectedValues) {
             currentTaxOffice.value = selectedValues[0]
@@ -39,7 +31,29 @@
         }
 
     </script>
+</asp:Content>
 
+<asp:Content ID="Content2" ContentPlaceHolderID="contentTitle" runat="server">
+    Administration
+</asp:Content>
+
+
+<asp:Content ID="Content3" ContentPlaceHolderID="contentSubTitle" runat="server">
+    User Transfers
+</asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
+    <div class="btn-group">
+        <a class="btn btn-primary" href="#">
+            <i class="glyphicon glyphicon-align-justify"></i>
+            User Transfer List
+        </a>
+    </div>
+</asp:Content>
+
+
+
+<asp:Content ID="Content5" ContentPlaceHolderID="contentBody" runat="server">
 
     <dx:ASPxGridView ID="ASPxgvUsers" runat="server" AutoGenerateColumns="False" DataSourceID="edsUsers" KeyFieldName="UserName" Width="100%" ClientInstanceName="mastergrid" OnCustomCallback="ASPxgvUsers_CustomCallback">
         <ClientSideEvents CustomButtonClick="OnCustomButtonClick" />
@@ -63,11 +77,11 @@
                 </PropertiesComboBox>
             </dx:GridViewDataComboBoxColumn>
         </Columns>
-        <SettingsBehavior AllowSelectByRowClick="True" AllowSelectSingleRowOnly="True" FilterRowMode="OnClick" />
+        <SettingsBehavior AllowSelectByRowClick="True" AllowSelectSingleRowOnly="True" />
         <SettingsEditing Mode="PopupEditForm">
         </SettingsEditing>
-        <Settings EnableFilterControlPopupMenuScrolling="True" ShowFilterRow="True" ShowFilterRowMenu="True" ShowFilterBar="Visible" ShowPreview="True" />
-        <SettingsText CommandNew="New Transfer" />
+        <Settings EnableFilterControlPopupMenuScrolling="True" ShowFilterRow="True" ShowFilterBar="Auto" ShowPreview="True" />
+        <SettingsText CommandNew="Add New Transfer" />
         <SettingsLoadingPanel Mode="ShowAsPopup" />
         <SettingsPopup>
             <EditForm HorizontalAlign="Center" Modal="True" VerticalAlign="Middle" />
@@ -90,6 +104,8 @@
                             <ClientSideEvents EndCallback="function(s, e) {
 	if (s.cpIsInserted == true || s.cpIsCancelled == true) HidePopUp(0);
 }" />
+
+<EditFormLayoutProperties ColCount="1"></EditFormLayoutProperties>
                             <Columns>
                                 <dx:GridViewDataTextColumn FieldName="TransferId" ReadOnly="True" ShowInCustomizationForm="True" Visible="False" VisibleIndex="0">
                                     <EditFormSettings Visible="False" />
@@ -102,8 +118,6 @@
                                     </PropertiesDateEdit>
                                     <EditFormSettings Visible="False" />
                                 </dx:GridViewDataDateColumn>
-                                <dx:GridViewCommandColumn ShowInCustomizationForm="True" ShowNewButtonInHeader="True" VisibleIndex="10">
-                                </dx:GridViewCommandColumn>
                                 <dx:GridViewDataMemoColumn FieldName="Reason" ShowInCustomizationForm="True" Visible="False" VisibleIndex="6">
                                     <PropertiesMemoEdit>
                                         <ValidationSettings CausesValidation="True" ErrorDisplayMode="ImageWithText" SetFocusOnError="True">
@@ -131,6 +145,11 @@
                                 </dx:GridViewDataComboBoxColumn>
                             </Columns>
                             <SettingsBehavior AllowSelectByRowClick="True" AllowSelectSingleRowOnly="True" />
+
+<SettingsAdaptivity>
+<AdaptiveDetailLayoutProperties ColCount="1"></AdaptiveDetailLayoutProperties>
+</SettingsAdaptivity>
+
                             <Settings EnableFilterControlPopupMenuScrolling="True" ShowFilterBar="Auto" ShowPreview="True" ShowTitlePanel="True" />
                             <SettingsText CommandNew="New Transfer" EmptyDataRow="No Transfers" />
                             <SettingsLoadingPanel Mode="ShowAsPopup" />
@@ -147,6 +166,14 @@
                             <SettingsDataSecurity AllowDelete="False" AllowEdit="False" />
                             <Templates>
                             </Templates>
+                            <Toolbars>
+                                <dx:GridViewToolbar ItemAlign="Right">
+                                    <Items>
+                                        <dx:GridViewToolbarItem Command="New" Text="Add New Transfer">
+                                        </dx:GridViewToolbarItem>
+                                    </Items>
+                                </dx:GridViewToolbar>
+                            </Toolbars>
                         </dx:ASPxGridView>
                     </dx:PopupControlContentControl>
                 </ContentCollection>
@@ -154,7 +181,8 @@
         </Windows>
         <ClientSideEvents EndCallback="function(s, e) {
 	//mastergrid.PerformCallback();
-}" CloseUp="function(s, e) {
+}"
+            CloseUp="function(s, e) {
 	mastergrid.Refresh();
 }" />
         <ContentCollection>
@@ -163,8 +191,8 @@
         </ContentCollection>
     </dx:ASPxPopupControl>
 
-    <asp:EntityDataSource ID="edsUsers" runat="server" ConnectionString="name=TAAPsDBContext" 
-        DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EnableInsert="True" EnableUpdate="True" 
+    <asp:EntityDataSource ID="edsUsers" runat="server" ConnectionString="name=TAAPsDBContext"
+        DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EnableInsert="True" EnableUpdate="True"
         EntitySetName="Users" Where="it.TaxOfficeId is not null" Include="Role" EntityTypeFilter="" Select="">
     </asp:EntityDataSource>
     <asp:EntityDataSource ID="edsTaxOffices" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EntitySetName="TaxOffices" Select="it.[TaxOfficeId], it.[TaxOfficeName]">
@@ -182,4 +210,4 @@
             <asp:SessionParameter Name="CreatedBy" SessionField="UserName" Type="String" />
         </InsertParameters>
     </asp:EntityDataSource>
-    </asp:Content>
+</asp:Content>

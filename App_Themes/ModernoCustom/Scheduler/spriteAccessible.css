@@ -1,0 +1,1046 @@
+.dx-acc-r .dxbButtonHover_ModernoCustom .dxScheduler_SmartTag_ModernoCustom:before,
+.dx-acc-r .dxsc-agenda-show-time .dxsc-selected .dxScheduler_Appointment_NoRecurrence_ModernoCustom:before,
+.dx-acc-r .dxsc-agenda-show-time .dxsc-selected .dxScheduler_Appointment_Recurrence_ModernoCustom:before,
+.dx-acc-r .dxsc-agenda-show-time .dxsc-selected .dxScheduler_Appointment_Reminder_ModernoCustom:before,
+.dx-acc-r .dxScheduler_Appointment_DayClock_ModernoCustom:before,
+.dx-acc-r .dxScheduler_Appointment_EndArrow_ModernoCustom:before,
+.dx-acc-r .dxScheduler_Appointment_NightClock_ModernoCustom:before,
+.dx-acc-r .dxScheduler_Appointment_NoRecurrence_ModernoCustom:before,
+.dx-acc-r .dxScheduler_Appointment_Recurrence_ModernoCustom:before,
+.dx-acc-r .dxScheduler_Appointment_Reminder_ModernoCustom:before,
+.dx-acc-r .dxScheduler_Appointment_StartArrow_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_00_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_05_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_10_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_15_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_20_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_25_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_30_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_35_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_40_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_45_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_50_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_55_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_00_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_05_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_10_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_15_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_20_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_25_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_30_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_35_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_40_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_45_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_50_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_55_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_00_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_05_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_10_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_15_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_20_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_25_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_30_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_35_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_40_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_45_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_50_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_55_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_00_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_05_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_10_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_15_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_20_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_25_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_30_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_35_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_40_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_45_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_50_ModernoCustom:before,
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_55_ModernoCustom:before,
+.dx-acc-r .dxScheduler_InplaceEditor_Cancel_ModernoCustom:before,
+.dx-acc-r .dxScheduler_InplaceEditor_EditForm_ModernoCustom:before,
+.dx-acc-r .dxScheduler_InplaceEditor_Save_ModernoCustom:before,
+.dx-acc-r .dxScheduler_Menu_Delete_ModernoCustom:before,
+.dx-acc-r .dxScheduler_Menu_GoToDate_ModernoCustom:before,
+.dx-acc-r .dxScheduler_Menu_NewAppointment_ModernoCustom:before,
+.dx-acc-r .dxScheduler_Menu_RecurringAppointment_ModernoCustom:before,
+.dx-acc-r .dxScheduler_MoreButton_Bottom_ModernoCustom:before,
+.dx-acc-r .dxScheduler_MoreButton_BottomHover_ModernoCustom:before,
+.dx-acc-r .dxScheduler_MoreButton_Top_ModernoCustom:before,
+.dx-acc-r .dxScheduler_MoreButton_TopHover_ModernoCustom:before,
+.dx-acc-r .dxScheduler_NavigationButton_Backward_ModernoCustom:before,
+.dx-acc-r .dxScheduler_NavigationButton_BackwardDisabled_ModernoCustom:before,
+.dx-acc-r .dxScheduler_NavigationButton_BackwardHover_ModernoCustom:before,
+.dx-acc-r .dxScheduler_NavigationButton_Forward_ModernoCustom:before,
+.dx-acc-r .dxScheduler_NavigationButton_ForwardDisabled_ModernoCustom:before,
+.dx-acc-r .dxScheduler_NavigationButton_ForwardHover_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_Decrease_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_DecreaseDisabled_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_DecreaseHover_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_First_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_FirstDisabled_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_FirstHover_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_Increase_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_IncreaseDisabled_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_IncreaseHover_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_Last_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_LastDisabled_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_LastHover_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_Next_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_NextDisabled_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_NextHover_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_NextPage_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_NextPageDisabled_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_NextPageHover_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_Prev_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_PrevDisabled_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_PrevHover_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_PrevPage_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_PrevPageDisabled_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ResourceNavigator_PrevPageHover_ModernoCustom:before,
+.dx-acc-r .dxScheduler_SmartTag_ModernoCustom:before,
+.dx-acc-r .dxScheduler_StatusInfo_Error_ModernoCustom:before,
+.dx-acc-r .dxScheduler_TimeMarker_ModernoCustom:before,
+.dx-acc-r .dxScheduler_Tooltip_Bottom_ModernoCustom:before,
+.dx-acc-r .dxScheduler_Tooltip_BottomLeft_ModernoCustom:before,
+.dx-acc-r .dxScheduler_Tooltip_BottomRight_ModernoCustom:before,
+.dx-acc-r .dxScheduler_Tooltip_BottomStem_ModernoCustom:before,
+.dx-acc-r .dxScheduler_Tooltip_Empty_ModernoCustom:before,
+.dx-acc-r .dxScheduler_Tooltip_TopLeft_ModernoCustom:before,
+.dx-acc-r .dxScheduler_Tooltip_TopRight_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ViewNavigator_Backward_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ViewNavigator_Down_ModernoCustom:before,
+.dx-acc-r .dxScheduler_ViewNavigator_Forward_ModernoCustom:before,
+.dx-acc-r .dxsc-info.dxeImage_ModernoCustom .dxScheduler_StatusInfo_Info_ModernoCustom:before,
+.dx-acc-r .dxsc-selected .dxScheduler_Appointment_DayClock_ModernoCustom:before,
+.dx-acc-r .dxsc-selected .dxScheduler_Appointment_EndArrow_ModernoCustom:before,
+.dx-acc-r .dxsc-selected .dxScheduler_Appointment_NightClock_ModernoCustom:before,
+.dx-acc-r .dxsc-selected .dxScheduler_Appointment_NoRecurrence_ModernoCustom:before,
+.dx-acc-r .dxsc-selected .dxScheduler_Appointment_Recurrence_ModernoCustom:before,
+.dx-acc-r .dxsc-selected .dxScheduler_Appointment_Reminder_ModernoCustom:before,
+.dx-acc-r .dxsc-selected .dxScheduler_Appointment_StartArrow_ModernoCustom:before,
+.dx-acc-r .dxscViewNavigatorButtonHover_ModernoCustom .dxScheduler_ViewNavigator_Backward_ModernoCustom:before,
+.dx-acc-r .dxscViewNavigatorButtonHover_ModernoCustom .dxScheduler_ViewNavigator_Forward_ModernoCustom:before,
+.dx-acc-r .dxscViewNavigatorButtonPressed_ModernoCustom .dxScheduler_ViewNavigator_Backward_ModernoCustom:before,
+.dx-acc-r .dxscViewNavigatorButtonPressed_ModernoCustom .dxScheduler_ViewNavigator_Forward_ModernoCustom:before,
+.dx-acc-r .dxscViewNavigatorGotoDateButtonHover_ModernoCustom .dxScheduler_ViewNavigator_Down_ModernoCustom:before,
+.dx-acc-r .dxscViewNavigatorGotoDateButtonPressed_ModernoCustom .dxScheduler_ViewNavigator_Down_ModernoCustom:before,
+.dx-acc-r .dxscViewSelector_ModernoCustom .dxm-hovered .dxWeb_mAdaptiveMenu_ModernoCustom:before,
+.dx-acc-r .dxscViewSelector_ModernoCustom .dxWeb_mAdaptiveMenu_ModernoCustom:before,
+.dx-acc-r .dxsc-warning.dxeImage_ModernoCustom, .dxScheduler_StatusInfo_Warning_ModernoCustom:before
+
+{
+    content: url('spriteAccessible.png');
+
+}
+.dx-acc-r .dxbButtonHover_ModernoCustom .dxScheduler_SmartTag_ModernoCustom:before
+
+{
+    left: -384px;
+    top: -71px;
+
+}
+.dx-acc-r .dxsc-agenda-show-time .dxsc-selected .dxScheduler_Appointment_NoRecurrence_ModernoCustom:before
+
+{
+    left: -258px;
+    top: 0px;
+
+}
+.dx-acc-r .dxsc-agenda-show-time .dxsc-selected .dxScheduler_Appointment_Recurrence_ModernoCustom:before
+
+{
+    left: -275px;
+    top: 0px;
+
+}
+.dx-acc-r .dxsc-agenda-show-time .dxsc-selected .dxScheduler_Appointment_Reminder_ModernoCustom:before
+
+{
+    left: -326px;
+    top: 0px;
+
+}
+.dx-acc-r .dxScheduler_Appointment_DayClock_ModernoCustom:before
+
+{
+    left: -132px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_Appointment_EndArrow_ModernoCustom:before
+
+{
+    left: -383px;
+    top: -37px;
+
+}
+.dx-acc-r .dxScheduler_Appointment_NightClock_ModernoCustom:before
+
+{
+    left: -288px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_Appointment_NoRecurrence_ModernoCustom:before
+
+{
+    left: -309px;
+    top: 0px;
+
+}
+.dx-acc-r .dxScheduler_Appointment_Recurrence_ModernoCustom:before
+
+{
+    left: -281px;
+    top: -37px;
+
+}
+.dx-acc-r .dxScheduler_Appointment_Reminder_ModernoCustom:before
+
+{
+    left: -315px;
+    top: -37px;
+
+}
+.dx-acc-r .dxScheduler_Appointment_StartArrow_ModernoCustom:before
+
+{
+    left: -349px;
+    top: -37px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_00_ModernoCustom:before
+
+{
+    left: -36px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_05_ModernoCustom:before
+
+{
+    left: -260px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_10_ModernoCustom:before
+
+{
+    left: -16px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_15_ModernoCustom:before
+
+{
+    left: -336px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_20_ModernoCustom:before
+
+{
+    left: -84px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_25_ModernoCustom:before
+
+{
+    left: -148px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_30_ModernoCustom:before
+
+{
+    left: -116px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_35_ModernoCustom:before
+
+{
+    left: -176px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_40_ModernoCustom:before
+
+{
+    left: -324px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_45_ModernoCustom:before
+
+{
+    left: -192px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_50_ModernoCustom:before
+
+{
+    left: -188px;
+    top: -21px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_hour_55_ModernoCustom:before
+
+{
+    left: -144px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_00_ModernoCustom:before
+
+{
+    left: -320px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_05_ModernoCustom:before
+
+{
+    left: 0px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_10_ModernoCustom:before
+
+{
+    left: -160px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_15_ModernoCustom:before
+
+{
+    left: -100px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_20_ModernoCustom:before
+
+{
+    left: -112px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_25_ModernoCustom:before
+
+{
+    left: -304px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_30_ModernoCustom:before
+
+{
+    left: -68px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_35_ModernoCustom:before
+
+{
+    left: -244px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_40_ModernoCustom:before
+
+{
+    left: -196px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_45_ModernoCustom:before
+
+{
+    left: -96px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_50_ModernoCustom:before
+
+{
+    left: -272px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_day_minute_55_ModernoCustom:before
+
+{
+    left: -308px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_00_ModernoCustom:before
+
+{
+    left: -248px;
+    top: -21px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_05_ModernoCustom:before
+
+{
+    left: -164px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_10_ModernoCustom:before
+
+{
+    left: -292px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_15_ModernoCustom:before
+
+{
+    left: -204px;
+    top: -21px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_20_ModernoCustom:before
+
+{
+    left: -20px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_25_ModernoCustom:before
+
+{
+    left: -48px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_30_ModernoCustom:before
+
+{
+    left: -352px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_35_ModernoCustom:before
+
+{
+    left: -128px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_40_ModernoCustom:before
+
+{
+    left: -372px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_45_ModernoCustom:before
+
+{
+    left: -212px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_50_ModernoCustom:before
+
+{
+    left: -388px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_hour_55_ModernoCustom:before
+
+{
+    left: -368px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_00_ModernoCustom:before
+
+{
+    left: -32px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_05_ModernoCustom:before
+
+{
+    left: -208px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_10_ModernoCustom:before
+
+{
+    left: -356px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_15_ModernoCustom:before
+
+{
+    left: -228px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_20_ModernoCustom:before
+
+{
+    left: -276px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_25_ModernoCustom:before
+
+{
+    left: -256px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_30_ModernoCustom:before
+
+{
+    left: -220px;
+    top: -21px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_35_ModernoCustom:before
+
+{
+    left: -340px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_40_ModernoCustom:before
+
+{
+    left: -52px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_45_ModernoCustom:before
+
+{
+    left: -180px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_50_ModernoCustom:before
+
+{
+    left: -64px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_AppointmentClockArrows_night_minute_55_ModernoCustom:before
+
+{
+    left: -224px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_InplaceEditor_Cancel_ModernoCustom:before
+
+{
+    left: -208px;
+    top: 0px;
+
+}
+.dx-acc-r .dxScheduler_InplaceEditor_EditForm_ModernoCustom:before
+
+{
+    left: -188px;
+    top: 0px;
+
+}
+.dx-acc-r .dxScheduler_InplaceEditor_Save_ModernoCustom:before
+
+{
+    left: -228px;
+    top: 0px;
+
+}
+.dx-acc-r .dxScheduler_Menu_Delete_ModernoCustom:before
+
+{
+    left: -332px;
+    top: -37px;
+
+}
+.dx-acc-r .dxScheduler_Menu_GoToDate_ModernoCustom:before
+
+{
+    left: -298px;
+    top: -37px;
+
+}
+.dx-acc-r .dxScheduler_Menu_NewAppointment_ModernoCustom:before
+
+{
+    left: -400px;
+    top: -37px;
+
+}
+.dx-acc-r .dxScheduler_Menu_RecurringAppointment_ModernoCustom:before
+
+{
+    left: -394px;
+    top: 0px;
+
+}
+.dx-acc-r .dxScheduler_MoreButton_Bottom_ModernoCustom:before
+
+{
+    left: -379px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_MoreButton_BottomHover_ModernoCustom:before
+
+{
+    left: -362px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_MoreButton_Top_ModernoCustom:before
+
+{
+    left: -396px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_MoreButton_TopHover_ModernoCustom:before
+
+{
+    left: -345px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_NavigationButton_Backward_ModernoCustom:before
+
+{
+    left: -211px;
+    top: -37px;
+
+}
+.dx-acc-r .dxScheduler_NavigationButton_BackwardDisabled_ModernoCustom:before
+
+{
+    left: -10px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_NavigationButton_BackwardHover_ModernoCustom:before
+
+{
+    left: -261px;
+    top: -37px;
+
+}
+.dx-acc-r .dxScheduler_NavigationButton_Forward_ModernoCustom:before
+
+{
+    left: 0px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_NavigationButton_ForwardDisabled_ModernoCustom:before
+
+{
+    left: -241px;
+    top: -37px;
+
+}
+.dx-acc-r .dxScheduler_NavigationButton_ForwardHover_ModernoCustom:before
+
+{
+    left: -201px;
+    top: -37px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_Decrease_ModernoCustom:before
+
+{
+    left: -270px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_DecreaseDisabled_ModernoCustom:before
+
+{
+    left: -393px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_DecreaseHover_ModernoCustom:before
+
+{
+    left: -240px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_First_ModernoCustom:before
+
+{
+    left: -315px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_FirstDisabled_ModernoCustom:before
+
+{
+    left: -15px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_FirstHover_ModernoCustom:before
+
+{
+    left: -330px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_Increase_ModernoCustom:before
+
+{
+    left: -255px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_IncreaseDisabled_ModernoCustom:before
+
+{
+    left: -210px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_IncreaseHover_ModernoCustom:before
+
+{
+    left: -180px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_Last_ModernoCustom:before
+
+{
+    left: -45px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_LastDisabled_ModernoCustom:before
+
+{
+    left: -75px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_LastHover_ModernoCustom:before
+
+{
+    left: -150px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_Next_ModernoCustom:before
+
+{
+    left: -285px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_NextDisabled_ModernoCustom:before
+
+{
+    left: -90px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_NextHover_ModernoCustom:before
+
+{
+    left: -165px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_NextPage_ModernoCustom:before
+
+{
+    left: 0px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_NextPageDisabled_ModernoCustom:before
+
+{
+    left: -300px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_NextPageHover_ModernoCustom:before
+
+{
+    left: -195px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_Prev_ModernoCustom:before
+
+{
+    left: -30px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_PrevDisabled_ModernoCustom:before
+
+{
+    left: -225px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_PrevHover_ModernoCustom:before
+
+{
+    left: -60px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_PrevPage_ModernoCustom:before
+
+{
+    left: -105px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_PrevPageDisabled_ModernoCustom:before
+
+{
+    left: -120px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_ResourceNavigator_PrevPageHover_ModernoCustom:before
+
+{
+    left: -135px;
+    top: -95px;
+
+}
+.dx-acc-r .dxScheduler_SmartTag_ModernoCustom:before
+
+{
+    left: -404px;
+    top: -54px;
+
+}
+.dx-acc-r .dxScheduler_StatusInfo_Error_ModernoCustom:before
+
+{
+    left: -139px;
+    top: 0px;
+
+}
+.dx-acc-r .dxScheduler_TimeMarker_ModernoCustom:before
+
+{
+    left: -248px;
+    top: 0px;
+
+}
+.dx-acc-r .dxScheduler_Tooltip_Bottom_ModernoCustom:before
+
+{
+    left: 0px;
+    top: -87px;
+
+}
+.dx-acc-r .dxScheduler_Tooltip_BottomLeft_ModernoCustom:before
+
+{
+    left: -409px;
+    top: -87px;
+
+}
+.dx-acc-r .dxScheduler_Tooltip_BottomRight_ModernoCustom:before
+
+{
+    left: -409px;
+    top: -79px;
+
+}
+.dx-acc-r .dxScheduler_Tooltip_BottomStem_ModernoCustom:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxScheduler_Tooltip_Empty_ModernoCustom:before
+
+{
+    left: -415px;
+    top: 0px;
+
+}
+.dx-acc-r .dxScheduler_Tooltip_TopLeft_ModernoCustom:before
+
+{
+    left: -401px;
+    top: -87px;
+
+}
+.dx-acc-r .dxScheduler_Tooltip_TopRight_ModernoCustom:before
+
+{
+    left: -408px;
+    top: -71px;
+
+}
+.dx-acc-r .dxScheduler_ViewNavigator_Backward_ModernoCustom:before
+
+{
+    left: -251px;
+    top: -37px;
+
+}
+.dx-acc-r .dxScheduler_ViewNavigator_Down_ModernoCustom:before
+
+{
+    left: -173px;
+    top: -49px;
+
+}
+.dx-acc-r .dxScheduler_ViewNavigator_Forward_ModernoCustom:before
+
+{
+    left: -236px;
+    top: -20px;
+
+}
+.dx-acc-r .dxsc-info.dxeImage_ModernoCustom, .dxScheduler_StatusInfo_Info_ModernoCustom:before
+
+{
+    left: -90px;
+    top: 0px;
+
+}
+.dx-acc-r .dxsc-selected .dxScheduler_Appointment_DayClock_ModernoCustom:before
+
+{
+    left: -80px;
+    top: -71px;
+
+}
+.dx-acc-r .dxsc-selected .dxScheduler_Appointment_EndArrow_ModernoCustom:before
+
+{
+    left: -343px;
+    top: 0px;
+
+}
+.dx-acc-r .dxsc-selected .dxScheduler_Appointment_NightClock_ModernoCustom:before
+
+{
+    left: -240px;
+    top: -71px;
+
+}
+.dx-acc-r .dxsc-selected .dxScheduler_Appointment_NoRecurrence_ModernoCustom:before
+
+{
+    left: -366px;
+    top: -37px;
+
+}
+.dx-acc-r .dxsc-selected .dxScheduler_Appointment_Recurrence_ModernoCustom:before
+
+{
+    left: -377px;
+    top: 0px;
+
+}
+.dx-acc-r .dxsc-selected .dxScheduler_Appointment_Reminder_ModernoCustom:before
+
+{
+    left: -292px;
+    top: 0px;
+
+}
+.dx-acc-r .dxsc-selected .dxScheduler_Appointment_StartArrow_ModernoCustom:before
+
+{
+    left: -360px;
+    top: 0px;
+
+}
+.dx-acc-r .dxscViewNavigatorButtonHover_ModernoCustom .dxScheduler_ViewNavigator_Backward_ModernoCustom:before
+
+{
+    left: -271px;
+    top: -37px;
+
+}
+.dx-acc-r .dxscViewNavigatorButtonHover_ModernoCustom .dxScheduler_ViewNavigator_Forward_ModernoCustom:before
+
+{
+    left: -221px;
+    top: -37px;
+
+}
+.dx-acc-r .dxscViewNavigatorButtonPressed_ModernoCustom .dxScheduler_ViewNavigator_Backward_ModernoCustom:before
+
+{
+    left: -231px;
+    top: -37px;
+
+}
+.dx-acc-r .dxscViewNavigatorButtonPressed_ModernoCustom .dxScheduler_ViewNavigator_Forward_ModernoCustom:before
+
+{
+    left: -191px;
+    top: -37px;
+
+}
+.dx-acc-r .dxscViewNavigatorGotoDateButtonHover_ModernoCustom .dxScheduler_ViewNavigator_Down_ModernoCustom:before
+
+{
+    left: -164px;
+    top: -49px;
+
+}
+.dx-acc-r .dxscViewNavigatorGotoDateButtonPressed_ModernoCustom .dxScheduler_ViewNavigator_Down_ModernoCustom:before
+
+{
+    left: -182px;
+    top: -49px;
+
+}
+.dx-acc-r .dxscViewSelector_ModernoCustom .dxm-hovered .dxWeb_mAdaptiveMenu_ModernoCustom:before
+
+{
+    left: -411px;
+    top: 0px;
+
+}
+.dx-acc-r .dxscViewSelector_ModernoCustom .dxWeb_mAdaptiveMenu_ModernoCustom:before
+
+{
+    left: -411px;
+    top: -24px;
+
+}
+.dx-acc-r .dxsc-warning.dxeImage_ModernoCustom, .dxScheduler_StatusInfo_Warning_ModernoCustom:before
+
+{
+    left: -41px;
+    top: 0px;
+
+}
+

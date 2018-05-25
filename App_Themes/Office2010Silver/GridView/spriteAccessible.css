@@ -1,0 +1,1342 @@
+.dx-acc-r .dxGridView_CTClearFilter_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTClearFilterDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTClearGrouping_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTClearGroupingDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTCollapseDetailRow_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTCollapseDetailRowDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTCollapseRow_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTCollapseRowDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTDeleteRow_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTDeleteRowDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTEditRow_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTEditRowDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTExpandDetailRow_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTExpandDetailRowDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTExpandRow_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTExpandRowDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTExportCsv_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTExportCsvDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTExportDocx_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTExportDocxDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTExportPdf_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTExportPdfDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTExportRtf_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTExportRtfDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTExportXls_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTExportXlsDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTExportXlsx_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTExportXlsxDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTFullCollapse_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTFullCollapseDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTFullExpand_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTFullExpandDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTNewRow_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTNewRowDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTRefresh_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTRefreshDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTShowCustDialog_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTShowCustDialogDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTShowCustomizationWindow_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTShowCustomizationWindowDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTShowFilterEditor_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTShowFilterEditorDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTShowFilterRow_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTShowFilterRowDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTShowGroupPanel_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTShowGroupPanelDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTShowSearchPanel_Office2010Silver:before,
+.dx-acc-r .dxGridView_CTShowSearchPanelDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCellError_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMClearFilter_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMClearFilterDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMClearGrouping_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMClearGroupingDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMCollapseDetailRow_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMCollapseDetailRowDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMCollapseRow_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMCollapseRowDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMDeleteRow_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMDeleteRowDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMEditRow_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMEditRowDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMExpandDetailRow_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMExpandDetailRowDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMExpandRow_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMExpandRowDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMExportCsv_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMExportCsvDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMExportDocx_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMExportDocxDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMExportPdf_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMExportPdfDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMExportRtf_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMExportRtfDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMExportXls_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMExportXlsDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMExportXlsx_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMExportXlsxDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMFullCollapse_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMFullCollapseDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMFullExpand_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMFullExpandDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMGroupByColumn_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMGroupByColumnDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMNewRow_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMNewRowDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMRefresh_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMRefreshDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMSearchPanel_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMSearchPanelDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMShowCustDialog_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMShowCustDialogDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMShowCustomizationWindow_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMShowCustomizationWindowDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMShowFilterEditor_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMShowFilterEditorDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMShowGroupPanel_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMShowGroupPanelDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMShowSearchPanel_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMShowSearchPanelDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMSortAscending_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMSortAscendingDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMSortDescending_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMSortDescendingDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMSummaryAverage_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMSummaryAverageDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMSummaryCount_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMSummaryCountDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMSummaryMax_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMSummaryMaxDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMSummaryMin_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMSummaryMinDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMSummarySum_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMSummarySumDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCMUngroupColumn_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOApply_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOApplyDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOClearFilter_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOClearFilterDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOClose_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnDrag_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnDragDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnGroup_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnGroupDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnHide_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnHideDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnRemove_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnRemoveDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnShow_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnShowDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnSort_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnSortDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnSortDown_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnSortDownDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnSortUp_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnSortUpDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnUngroup_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnUngroupDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnUnsort_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOColumnUnsortDisabled_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCODragAreaCollapse_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCODragAreaExpand_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOFilterCollapse_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCOFilterExpand_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCollapsedButton_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvCollapsedButtonRtl_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvDetailCollapsedButton_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvDetailCollapsedButtonRtl_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvDetailExpandedButton_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvDetailExpandedButtonRtl_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvDragAndDropArrowDown_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvDragAndDropArrowLeft_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvDragAndDropArrowRight_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvDragAndDropArrowUp_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvDragAndDropHideColumn_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvExpandedButton_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvExpandedButtonRtl_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvFilterRowButton_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvFixedGroupRow_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvHeaderFilter_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvHeaderFilterActive_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvHeaderSortDown_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvHeaderSortUp_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvHideAdaptiveDetailButton_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvParentGroupRows_Office2010Silver:before,
+.dx-acc-r .dxGridView_gvShowAdaptiveDetailButton_Office2010Silver:before,
+.dx-acc-r .dxGridView_WindowResizer_Office2010Silver:before,
+.dx-acc-r .dxGridView_WindowResizerRtl_Office2010Silver:before
+
+{
+    content: url('spriteAccessible.png');
+
+}
+.dx-acc-r .dxGridView_CTClearFilter_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -189px;
+
+}
+.dx-acc-r .dxGridView_CTClearFilterDisabled_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -257px;
+
+}
+.dx-acc-r .dxGridView_CTClearGrouping_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -274px;
+
+}
+.dx-acc-r .dxGridView_CTClearGroupingDisabled_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -393px;
+
+}
+.dx-acc-r .dxGridView_CTCollapseDetailRow_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -308px;
+
+}
+.dx-acc-r .dxGridView_CTCollapseDetailRowDisabled_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -155px;
+
+}
+.dx-acc-r .dxGridView_CTCollapseRow_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -291px;
+
+}
+.dx-acc-r .dxGridView_CTCollapseRowDisabled_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -291px;
+
+}
+.dx-acc-r .dxGridView_CTDeleteRow_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -240px;
+
+}
+.dx-acc-r .dxGridView_CTDeleteRowDisabled_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -376px;
+
+}
+.dx-acc-r .dxGridView_CTEditRow_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -172px;
+
+}
+.dx-acc-r .dxGridView_CTEditRowDisabled_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -291px;
+
+}
+.dx-acc-r .dxGridView_CTExpandDetailRow_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -223px;
+
+}
+.dx-acc-r .dxGridView_CTExpandDetailRowDisabled_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -359px;
+
+}
+.dx-acc-r .dxGridView_CTExpandRow_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -325px;
+
+}
+.dx-acc-r .dxGridView_CTExpandRowDisabled_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -291px;
+
+}
+.dx-acc-r .dxGridView_CTExportCsv_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -376px;
+
+}
+.dx-acc-r .dxGridView_CTExportCsvDisabled_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -240px;
+
+}
+.dx-acc-r .dxGridView_CTExportDocx_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -206px;
+
+}
+.dx-acc-r .dxGridView_CTExportDocxDisabled_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -206px;
+
+}
+.dx-acc-r .dxGridView_CTExportPdf_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -308px;
+
+}
+.dx-acc-r .dxGridView_CTExportPdfDisabled_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -138px;
+
+}
+.dx-acc-r .dxGridView_CTExportRtf_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -189px;
+
+}
+.dx-acc-r .dxGridView_CTExportRtfDisabled_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -291px;
+
+}
+.dx-acc-r .dxGridView_CTExportXls_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -393px;
+
+}
+.dx-acc-r .dxGridView_CTExportXlsDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -240px;
+
+}
+.dx-acc-r .dxGridView_CTExportXlsx_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -155px;
+
+}
+.dx-acc-r .dxGridView_CTExportXlsxDisabled_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -240px;
+
+}
+.dx-acc-r .dxGridView_CTFullCollapse_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -376px;
+
+}
+.dx-acc-r .dxGridView_CTFullCollapseDisabled_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -325px;
+
+}
+.dx-acc-r .dxGridView_CTFullExpand_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -189px;
+
+}
+.dx-acc-r .dxGridView_CTFullExpandDisabled_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -376px;
+
+}
+.dx-acc-r .dxGridView_CTNewRow_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -342px;
+
+}
+.dx-acc-r .dxGridView_CTNewRowDisabled_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -189px;
+
+}
+.dx-acc-r .dxGridView_CTRefresh_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -138px;
+
+}
+.dx-acc-r .dxGridView_CTRefreshDisabled_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -138px;
+
+}
+.dx-acc-r .dxGridView_CTShowCustDialog_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -291px;
+
+}
+.dx-acc-r .dxGridView_CTShowCustDialogDisabled_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -257px;
+
+}
+.dx-acc-r .dxGridView_CTShowCustomizationWindow_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -155px;
+
+}
+.dx-acc-r .dxGridView_CTShowCustomizationWindowDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -308px;
+
+}
+.dx-acc-r .dxGridView_CTShowFilterEditor_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -274px;
+
+}
+.dx-acc-r .dxGridView_CTShowFilterEditorDisabled_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -206px;
+
+}
+.dx-acc-r .dxGridView_CTShowFilterRow_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -342px;
+
+}
+.dx-acc-r .dxGridView_CTShowFilterRowDisabled_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -189px;
+
+}
+.dx-acc-r .dxGridView_CTShowGroupPanel_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -308px;
+
+}
+.dx-acc-r .dxGridView_CTShowGroupPanelDisabled_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -189px;
+
+}
+.dx-acc-r .dxGridView_CTShowSearchPanel_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -240px;
+
+}
+.dx-acc-r .dxGridView_CTShowSearchPanelDisabled_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -308px;
+
+}
+.dx-acc-r .dxGridView_gvCellError_Office2010Silver:before
+
+{
+    left: -16px;
+    top: -410px;
+
+}
+.dx-acc-r .dxGridView_gvCMClearFilter_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -342px;
+
+}
+.dx-acc-r .dxGridView_gvCMClearFilterDisabled_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -138px;
+
+}
+.dx-acc-r .dxGridView_gvCMClearGrouping_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -172px;
+
+}
+.dx-acc-r .dxGridView_gvCMClearGroupingDisabled_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -325px;
+
+}
+.dx-acc-r .dxGridView_gvCMCollapseDetailRow_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -172px;
+
+}
+.dx-acc-r .dxGridView_gvCMCollapseDetailRowDisabled_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -223px;
+
+}
+.dx-acc-r .dxGridView_gvCMCollapseRow_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -257px;
+
+}
+.dx-acc-r .dxGridView_gvCMCollapseRowDisabled_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -308px;
+
+}
+.dx-acc-r .dxGridView_gvCMDeleteRow_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -223px;
+
+}
+.dx-acc-r .dxGridView_gvCMDeleteRowDisabled_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -342px;
+
+}
+.dx-acc-r .dxGridView_gvCMEditRow_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -359px;
+
+}
+.dx-acc-r .dxGridView_gvCMEditRowDisabled_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -223px;
+
+}
+.dx-acc-r .dxGridView_gvCMExpandDetailRow_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -155px;
+
+}
+.dx-acc-r .dxGridView_gvCMExpandDetailRowDisabled_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -155px;
+
+}
+.dx-acc-r .dxGridView_gvCMExpandRow_Office2010Silver:before
+
+{
+    left: -97px;
+    top: -115px;
+
+}
+.dx-acc-r .dxGridView_gvCMExpandRowDisabled_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -359px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportCsv_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -325px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportCsvDisabled_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -189px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportDocx_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -308px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportDocxDisabled_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -206px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportPdf_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -257px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportPdfDisabled_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -223px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportRtf_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -376px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportRtfDisabled_Office2010Silver:before
+
+{
+    left: -80px;
+    top: -115px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportXls_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -393px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportXlsDisabled_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -155px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportXlsx_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -342px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportXlsxDisabled_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -393px;
+
+}
+.dx-acc-r .dxGridView_gvCMFullCollapse_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -138px;
+
+}
+.dx-acc-r .dxGridView_gvCMFullCollapseDisabled_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -172px;
+
+}
+.dx-acc-r .dxGridView_gvCMFullExpand_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -206px;
+
+}
+.dx-acc-r .dxGridView_gvCMFullExpandDisabled_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -257px;
+
+}
+.dx-acc-r .dxGridView_gvCMGroupByColumn_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -172px;
+
+}
+.dx-acc-r .dxGridView_gvCMGroupByColumnDisabled_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -342px;
+
+}
+.dx-acc-r .dxGridView_gvCMNewRow_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -223px;
+
+}
+.dx-acc-r .dxGridView_gvCMNewRowDisabled_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -274px;
+
+}
+.dx-acc-r .dxGridView_gvCMRefresh_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -138px;
+
+}
+.dx-acc-r .dxGridView_gvCMRefreshDisabled_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -325px;
+
+}
+.dx-acc-r .dxGridView_gvCMSearchPanel_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -359px;
+
+}
+.dx-acc-r .dxGridView_gvCMSearchPanelDisabled_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -393px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowCustDialog_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -240px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowCustDialogDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -155px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowCustomizationWindow_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -393px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowCustomizationWindowDisabled_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -172px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowFilterEditor_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -138px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowFilterEditorDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -223px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowGroupPanel_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -376px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowGroupPanelDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -342px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowSearchPanel_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -206px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowSearchPanelDisabled_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -257px;
+
+}
+.dx-acc-r .dxGridView_gvCMSortAscending_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -376px;
+
+}
+.dx-acc-r .dxGridView_gvCMSortAscendingDisabled_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -274px;
+
+}
+.dx-acc-r .dxGridView_gvCMSortDescending_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -359px;
+
+}
+.dx-acc-r .dxGridView_gvCMSortDescendingDisabled_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -325px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryAverage_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -257px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryAverageDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -274px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryCount_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -359px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryCountDisabled_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -359px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryMax_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -325px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryMaxDisabled_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -274px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryMin_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -291px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryMinDisabled_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -206px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummarySum_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -172px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummarySumDisabled_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -240px;
+
+}
+.dx-acc-r .dxGridView_gvCMUngroupColumn_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -274px;
+
+}
+.dx-acc-r .dxGridView_gvCOApply_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -92px;
+
+}
+.dx-acc-r .dxGridView_gvCOApplyDisabled_Office2010Silver:before
+
+{
+    left: -92px;
+    top: -92px;
+
+}
+.dx-acc-r .dxGridView_gvCOClearFilter_Office2010Silver:before
+
+{
+    left: -23px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCOClearFilterDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCOClose_Office2010Silver:before
+
+{
+    left: -92px;
+    top: -69px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnDrag_Office2010Silver:before
+
+{
+    left: -23px;
+    top: -115px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnDragDisabled_Office2010Silver:before
+
+{
+    left: -42px;
+    top: -115px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnGroup_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnGroupDisabled_Office2010Silver:before
+
+{
+    left: -23px;
+    top: -92px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnHide_Office2010Silver:before
+
+{
+    left: -23px;
+    top: -69px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnHideDisabled_Office2010Silver:before
+
+{
+    left: -69px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnRemove_Office2010Silver:before
+
+{
+    left: -69px;
+    top: -46px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnRemoveDisabled_Office2010Silver:before
+
+{
+    left: -92px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnShow_Office2010Silver:before
+
+{
+    left: -23px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnShowDisabled_Office2010Silver:before
+
+{
+    left: -69px;
+    top: -92px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnSort_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -46px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnSortDisabled_Office2010Silver:before
+
+{
+    left: -92px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnSortDown_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -69px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnSortDownDisabled_Office2010Silver:before
+
+{
+    left: -46px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnSortUp_Office2010Silver:before
+
+{
+    left: -46px;
+    top: -46px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnSortUpDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -115px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnUngroup_Office2010Silver:before
+
+{
+    left: -92px;
+    top: -46px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnUngroupDisabled_Office2010Silver:before
+
+{
+    left: -46px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnUnsort_Office2010Silver:before
+
+{
+    left: -46px;
+    top: -69px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnUnsortDisabled_Office2010Silver:before
+
+{
+    left: -69px;
+    top: -69px;
+
+}
+.dx-acc-r .dxGridView_gvCODragAreaCollapse_Office2010Silver:before
+
+{
+    left: -84px;
+    top: -426px;
+
+}
+.dx-acc-r .dxGridView_gvCODragAreaExpand_Office2010Silver:before
+
+{
+    left: -42px;
+    top: -426px;
+
+}
+.dx-acc-r .dxGridView_gvCOFilterCollapse_Office2010Silver:before
+
+{
+    left: -46px;
+    top: -92px;
+
+}
+.dx-acc-r .dxGridView_gvCOFilterExpand_Office2010Silver:before
+
+{
+    left: -69px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvCollapsedButton_Office2010Silver:before
+
+{
+    left: -98px;
+    top: -426px;
+
+}
+.dx-acc-r .dxGridView_gvCollapsedButtonRtl_Office2010Silver:before
+
+{
+    left: -70px;
+    top: -426px;
+
+}
+.dx-acc-r .dxGridView_gvDetailCollapsedButton_Office2010Silver:before
+
+{
+    left: -92px;
+    top: -410px;
+
+}
+.dx-acc-r .dxGridView_gvDetailCollapsedButtonRtl_Office2010Silver:before
+
+{
+    left: -64px;
+    top: -410px;
+
+}
+.dx-acc-r .dxGridView_gvDetailExpandedButton_Office2010Silver:before
+
+{
+    left: -50px;
+    top: -410px;
+
+}
+.dx-acc-r .dxGridView_gvDetailExpandedButtonRtl_Office2010Silver:before
+
+{
+    left: -14px;
+    top: -426px;
+
+}
+.dx-acc-r .dxGridView_gvDragAndDropArrowDown_Office2010Silver:before
+
+{
+    left: -42px;
+    top: -440px;
+
+}
+.dx-acc-r .dxGridView_gvDragAndDropArrowLeft_Office2010Silver:before
+
+{
+    left: -106px;
+    top: -410px;
+
+}
+.dx-acc-r .dxGridView_gvDragAndDropArrowRight_Office2010Silver:before
+
+{
+    left: -54px;
+    top: -440px;
+
+}
+.dx-acc-r .dxGridView_gvDragAndDropArrowUp_Office2010Silver:before
+
+{
+    left: -66px;
+    top: -440px;
+
+}
+.dx-acc-r .dxGridView_gvDragAndDropHideColumn_Office2010Silver:before
+
+{
+    left: -23px;
+    top: -46px;
+
+}
+.dx-acc-r .dxGridView_gvExpandedButton_Office2010Silver:before
+
+{
+    left: -78px;
+    top: -410px;
+
+}
+.dx-acc-r .dxGridView_gvExpandedButtonRtl_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -426px;
+
+}
+.dx-acc-r .dxGridView_gvFilterRowButton_Office2010Silver:before
+
+{
+    left: -28px;
+    top: -426px;
+
+}
+.dx-acc-r .dxGridView_gvFixedGroupRow_Office2010Silver:before
+
+{
+    left: -61px;
+    top: -115px;
+
+}
+.dx-acc-r .dxGridView_gvHeaderFilter_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -393px;
+
+}
+.dx-acc-r .dxGridView_gvHeaderFilterActive_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -410px;
+
+}
+.dx-acc-r .dxGridView_gvHeaderSortDown_Office2010Silver:before
+
+{
+    left: -103px;
+    top: -132px;
+
+}
+.dx-acc-r .dxGridView_gvHeaderSortUp_Office2010Silver:before
+
+{
+    left: -111px;
+    top: -132px;
+
+}
+.dx-acc-r .dxGridView_gvHideAdaptiveDetailButton_Office2010Silver:before
+
+{
+    left: -14px;
+    top: -440px;
+
+}
+.dx-acc-r .dxGridView_gvParentGroupRows_Office2010Silver:before
+
+{
+    left: -31px;
+    top: -410px;
+
+}
+.dx-acc-r .dxGridView_gvShowAdaptiveDetailButton_Office2010Silver:before
+
+{
+    left: -28px;
+    top: -440px;
+
+}
+.dx-acc-r .dxGridView_WindowResizer_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -440px;
+
+}
+.dx-acc-r .dxGridView_WindowResizerRtl_Office2010Silver:before
+
+{
+    left: -56px;
+    top: -426px;
+
+}
+

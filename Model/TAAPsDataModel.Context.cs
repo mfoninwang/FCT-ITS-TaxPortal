@@ -37,39 +37,28 @@ namespace TAAPs.Model
         public virtual DbSet<Role> Roles { get; set; }
         public virtual DbSet<TaxOfficeRegion> TaxOfficeRegions { get; set; }
         public virtual DbSet<RevenueTarget> RevenueTargets { get; set; }
-        public virtual DbSet<CorporateTaxpayer> CorporateTaxpayers { get; set; }
         public virtual DbSet<UserTransfer> UserTransfers { get; set; }
-        public virtual DbSet<ITaxpayer> ITaxpayers { get; set; }
         public virtual DbSet<ITaxpayerAssociate> ITaxpayerAssociates { get; set; }
         public virtual DbSet<ITaxpayerBank> ITaxpayerBanks { get; set; }
         public virtual DbSet<ITaxpayerOtherIncome> ITaxpayerOtherIncomes { get; set; }
         public virtual DbSet<ITaxpayerRepresentative> ITaxpayerRepresentatives { get; set; }
         public virtual DbSet<Bank> Banks { get; set; }
         public virtual DbSet<ITaxpayerTransfer> ITaxpayerTransfers { get; set; }
-        public virtual DbSet<RegisteredCompany> RegisteredCompanies { get; set; }
         public virtual DbSet<State> States { get; set; }
         public virtual DbSet<LGA> LGAs { get; set; }
         public virtual DbSet<TaxOffice> TaxOffices { get; set; }
         public virtual DbSet<NotificationSetting> NotificationSettings { get; set; }
         public virtual DbSet<Tenant> Tenants { get; set; }
-        public virtual DbSet<CorporateBranch> CorporateBranches { get; set; }
         public virtual DbSet<CorporateTransfer> CorporateTransfers { get; set; }
         public virtual DbSet<User> Users { get; set; }
-        public virtual DbSet<CAssociate> CAssociates { get; set; }
-        public virtual DbSet<CDirector> CDirectors { get; set; }
-        public virtual DbSet<CRepresentative> CRepresentatives { get; set; }
         public virtual DbSet<CTurnover> CTurnovers { get; set; }
         public virtual DbSet<CBank> CBanks { get; set; }
-        public virtual DbSet<CShareHolder> CShareHolders { get; set; }
         public virtual DbSet<Resource> Resources { get; set; }
         public virtual DbSet<RoleResource> RoleResources { get; set; }
-        public virtual DbSet<CTINRequest> CTINRequests { get; set; }
         public virtual DbSet<TaxOfficeType> TaxOfficeTypes { get; set; }
         public virtual DbSet<GeneratedReceipt> GeneratedReceipts { get; set; }
         public virtual DbSet<ITaxAccount> ITaxAccounts { get; set; }
         public virtual DbSet<CollectionAgent> CollectionAgents { get; set; }
-        public virtual DbSet<Payment> Payments { get; set; }
-        public virtual DbSet<ITINRequest> ITINRequests { get; set; }
         public virtual DbSet<IAssessmentIncome> IAssessmentIncomes { get; set; }
         public virtual DbSet<TaxExclusion> TaxExclusions { get; set; }
         public virtual DbSet<IAssessmentExclusion> IAssessmentExclusions { get; set; }
@@ -86,6 +75,20 @@ namespace TAAPs.Model
         public virtual DbSet<CTaxpayerFile> CTaxpayerFiles { get; set; }
         public virtual DbSet<IPenalty> IPenalties { get; set; }
         public virtual DbSet<IInterest> IInterests { get; set; }
+        public virtual DbSet<Country> Countries { get; set; }
+        public virtual DbSet<ITaxpayer> ITaxpayers { get; set; }
+        public virtual DbSet<ITaxpayerAddress> ITaxpayerAddresses { get; set; }
+        public virtual DbSet<ITaxpayerNoK> ITaxpayerNoKs { get; set; }
+        public virtual DbSet<CTaxpayerBranch> CTaxpayerBranches { get; set; }
+        public virtual DbSet<NINData> NINDatas { get; set; }
+        public virtual DbSet<Payment> Payments { get; set; }
+        public virtual DbSet<ITaxpayerSMSNotification> ITaxpayerSMSNotifications { get; set; }
+        public virtual DbSet<Profession> Professions { get; set; }
+        public virtual DbSet<ITINRequest> ITINRequests { get; set; }
+        public virtual DbSet<RegisteredCompany> RegisteredCompanies { get; set; }
+        public virtual DbSet<CTINRequest> CTINRequests { get; set; }
+        public virtual DbSet<CTaxpayer> CTaxpayers { get; set; }
+        public virtual DbSet<IssueLog> IssueLogs { get; set; }
     
         public virtual int GenerateReceipt(string receiptId, string paymentReference, Nullable<decimal> amount, Nullable<System.DateTime> paymentDate, string receivedFrom, string address, string tin, string taxType, string periodFrom, string periodTo, string bank, string bankBranch, string generatedBy, string taxOffice, string scheduleReference)
         {
@@ -166,32 +169,6 @@ namespace TAAPs.Model
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("DecryptData", encryptedDataParameter);
         }
     
-        public virtual int CreateCorporateTaxpayer(Nullable<int> requestId, string createdBy, ObjectParameter tIN)
-        {
-            var requestIdParameter = requestId.HasValue ?
-                new ObjectParameter("RequestId", requestId) :
-                new ObjectParameter("RequestId", typeof(int));
-    
-            var createdByParameter = createdBy != null ?
-                new ObjectParameter("CreatedBy", createdBy) :
-                new ObjectParameter("CreatedBy", typeof(string));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("CreateCorporateTaxpayer", requestIdParameter, createdByParameter, tIN);
-        }
-    
-        public virtual int CreateIndividualTaxpayer(Nullable<int> requestId, string createdBy, ObjectParameter tIN)
-        {
-            var requestIdParameter = requestId.HasValue ?
-                new ObjectParameter("RequestId", requestId) :
-                new ObjectParameter("RequestId", typeof(int));
-    
-            var createdByParameter = createdBy != null ?
-                new ObjectParameter("CreatedBy", createdBy) :
-                new ObjectParameter("CreatedBy", typeof(string));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("CreateIndividualTaxpayer", requestIdParameter, createdByParameter, tIN);
-        }
-    
         [DbFunction("TAAPsDBContext", "PITComputationDetails")]
         public virtual IQueryable<PITComputationDetails> PITComputationDetails(Nullable<decimal> assesableIncome, Nullable<int> year)
         {
@@ -214,6 +191,32 @@ namespace TAAPs.Model
                 new ObjectParameter("TaxAccountNo", typeof(int));
     
             return ((IObjectContextAdapter)this).ObjectContext.CreateQuery<ITaxAccountSummary>("[TAAPsDBContext].[ITaxAccountSummary](@TaxAccountNo)", taxAccountNoParameter);
+        }
+    
+        public virtual int ApproveCTINRequest(Nullable<long> requestId, string approvedBy, ObjectParameter tIN)
+        {
+            var requestIdParameter = requestId.HasValue ?
+                new ObjectParameter("RequestId", requestId) :
+                new ObjectParameter("RequestId", typeof(long));
+    
+            var approvedByParameter = approvedBy != null ?
+                new ObjectParameter("approvedBy", approvedBy) :
+                new ObjectParameter("approvedBy", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("ApproveCTINRequest", requestIdParameter, approvedByParameter, tIN);
+        }
+    
+        public virtual int ApproveITINRequest(Nullable<long> requestId, string approvedBy, ObjectParameter tIN)
+        {
+            var requestIdParameter = requestId.HasValue ?
+                new ObjectParameter("RequestId", requestId) :
+                new ObjectParameter("RequestId", typeof(long));
+    
+            var approvedByParameter = approvedBy != null ?
+                new ObjectParameter("approvedBy", approvedBy) :
+                new ObjectParameter("approvedBy", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("ApproveITINRequest", requestIdParameter, approvedByParameter, tIN);
         }
     }
 }

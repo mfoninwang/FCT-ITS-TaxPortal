@@ -1,0 +1,294 @@
+.dx-acc-r .dxCardView_CTClearFilter_Office365:before,
+.dx-acc-r .dxCardView_CTClearFilterDisabled_Office365:before,
+.dx-acc-r .dxCardView_CTDeleteRow_Office365:before,
+.dx-acc-r .dxCardView_CTDeleteRowDisabled_Office365:before,
+.dx-acc-r .dxCardView_CTEditRow_Office365:before,
+.dx-acc-r .dxCardView_CTEditRowDisabled_Office365:before,
+.dx-acc-r .dxCardView_CTExportCsv_Office365:before,
+.dx-acc-r .dxCardView_CTExportCsvDisabled_Office365:before,
+.dx-acc-r .dxCardView_CTExportDocx_Office365:before,
+.dx-acc-r .dxCardView_CTExportDocxDisabled_Office365:before,
+.dx-acc-r .dxCardView_CTExportPdf_Office365:before,
+.dx-acc-r .dxCardView_CTExportPdfDisabled_Office365:before,
+.dx-acc-r .dxCardView_CTExportRtf_Office365:before,
+.dx-acc-r .dxCardView_CTExportRtfDisabled_Office365:before,
+.dx-acc-r .dxCardView_CTExportXls_Office365:before,
+.dx-acc-r .dxCardView_CTExportXlsDisabled_Office365:before,
+.dx-acc-r .dxCardView_CTExportXlsx_Office365:before,
+.dx-acc-r .dxCardView_CTExportXlsxDisabled_Office365:before,
+.dx-acc-r .dxCardView_CTNewRow_Office365:before,
+.dx-acc-r .dxCardView_CTNewRowDisabled_Office365:before,
+.dx-acc-r .dxCardView_CTRefresh_Office365:before,
+.dx-acc-r .dxCardView_CTRefreshDisabled_Office365:before,
+.dx-acc-r .dxCardView_CTShowCustomizationWindow_Office365:before,
+.dx-acc-r .dxCardView_CTShowCustomizationWindowDisabled_Office365:before,
+.dx-acc-r .dxCardView_CTShowFilterEditor_Office365:before,
+.dx-acc-r .dxCardView_CTShowFilterEditorDisabled_Office365:before,
+.dx-acc-r .dxCardView_CTShowSearchPanel_Office365:before,
+.dx-acc-r .dxCardView_CTShowSearchPanelDisabled_Office365:before,
+.dx-acc-r .dxCardView_gvCellError_Office365:before,
+.dx-acc-r .dxCardView_gvFilterRowButton_Office365:before,
+.dx-acc-r .dxCardView_gvHeaderFilter_Office365:before,
+.dx-acc-r .dxCardView_gvHeaderFilterActive_Office365:before,
+.dx-acc-r .dxCardView_gvHeaderSortDown_Office365:before,
+.dx-acc-r .dxCardView_gvHeaderSortUp_Office365:before,
+.dx-acc-r .dxm-checked .dxCardView_CTShowCustomizationWindow_Office365:before,
+.dx-acc-r .dxm-checked .dxCardView_CTShowSearchPanel_Office365:before
+
+{
+    content: url('sprite.svg');
+
+}
+.dx-acc-r .dxCardView_CTClearFilter_Office365:before
+
+{
+    left: -85px;
+    top: -17px;
+
+}
+.dx-acc-r .dxCardView_CTClearFilterDisabled_Office365:before
+
+{
+    left: -136px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTDeleteRow_Office365:before
+
+{
+    left: -51px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTDeleteRowDisabled_Office365:before
+
+{
+    left: -153px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTEditRow_Office365:before
+
+{
+    left: -204px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTEditRowDisabled_Office365:before
+
+{
+    left: -68px;
+    top: -17px;
+
+}
+.dx-acc-r .dxCardView_CTExportCsv_Office365:before
+
+{
+    left: -119px;
+    top: -17px;
+
+}
+.dx-acc-r .dxCardView_CTExportCsvDisabled_Office365:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportDocx_Office365:before
+
+{
+    left: -119px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportDocxDisabled_Office365:before
+
+{
+    left: -85px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportPdf_Office365:before
+
+{
+    left: -136px;
+    top: -17px;
+
+}
+.dx-acc-r .dxCardView_CTExportPdfDisabled_Office365:before
+
+{
+    left: 0px;
+    top: -17px;
+
+}
+.dx-acc-r .dxCardView_CTExportRtf_Office365:before
+
+{
+    left: -102px;
+    top: -17px;
+
+}
+.dx-acc-r .dxCardView_CTExportRtfDisabled_Office365:before
+
+{
+    left: -255px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportXls_Office365:before
+
+{
+    left: -170px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportXlsDisabled_Office365:before
+
+{
+    left: -17px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportXlsx_Office365:before
+
+{
+    left: -17px;
+    top: -17px;
+
+}
+.dx-acc-r .dxCardView_CTExportXlsxDisabled_Office365:before
+
+{
+    left: -34px;
+    top: -17px;
+
+}
+.dx-acc-r .dxCardView_CTNewRow_Office365:before
+
+{
+    left: -68px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTNewRowDisabled_Office365:before
+
+{
+    left: -51px;
+    top: -17px;
+
+}
+.dx-acc-r .dxCardView_CTRefresh_Office365:before
+
+{
+    left: -221px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTRefreshDisabled_Office365:before
+
+{
+    left: -102px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTShowCustomizationWindow_Office365:before
+
+{
+    left: -34px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTShowCustomizationWindowDisabled_Office365:before
+
+{
+    left: -187px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTShowFilterEditor_Office365:before
+
+{
+    left: -250px;
+    top: -17px;
+
+}
+.dx-acc-r .dxCardView_CTShowFilterEditorDisabled_Office365:before
+
+{
+    left: -276px;
+    top: -17px;
+
+}
+.dx-acc-r .dxCardView_CTShowSearchPanel_Office365:before
+
+{
+    left: -168px;
+    top: -17px;
+
+}
+.dx-acc-r .dxCardView_CTShowSearchPanelDisabled_Office365:before
+
+{
+    left: -272px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_gvCellError_Office365:before
+
+{
+    left: -153px;
+    top: -17px;
+
+}
+.dx-acc-r .dxCardView_gvFilterRowButton_Office365:before
+
+{
+    left: -237px;
+    top: -17px;
+
+}
+.dx-acc-r .dxCardView_gvHeaderFilter_Office365:before
+
+{
+    left: -263px;
+    top: -17px;
+
+}
+.dx-acc-r .dxCardView_gvHeaderFilterActive_Office365:before
+
+{
+    left: -211px;
+    top: -17px;
+
+}
+.dx-acc-r .dxCardView_gvHeaderSortDown_Office365:before
+
+{
+    left: -224px;
+    top: -17px;
+
+}
+.dx-acc-r .dxCardView_gvHeaderSortUp_Office365:before
+
+{
+    left: -198px;
+    top: -17px;
+
+}
+.dx-acc-r .dxm-checked .dxCardView_CTShowCustomizationWindow_Office365:before
+
+{
+    left: -238px;
+    top: 0px;
+
+}
+.dx-acc-r .dxm-checked .dxCardView_CTShowSearchPanel_Office365:before
+
+{
+    left: -183px;
+    top: -17px;
+
+}
+

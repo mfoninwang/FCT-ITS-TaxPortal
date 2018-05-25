@@ -1,0 +1,541 @@
+.dxpgControl_ModernoCustom, .dxpgCustForm_ModernoCustom
+{
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #2b2b2b;
+}
+.dxpgContainerCell_ModernoCustom
+{
+    vertical-align: top;
+}
+.dxpgMainTable_ModernoCustom
+{
+    width: 100%;
+    text-align: left;
+}
+.dxpgMainTable_ModernoCustom
+{
+    border: 0;
+}
+div.dxpgMainTable_ModernoCustom
+{
+    -ms-touch-action: pinch-zoom;
+    touch-action: pinch-zoom;
+}
+.dxpgMainTable_ModernoCustom caption
+{
+    background: #F7FAFF;
+    color: #2b2b2b;
+    border-bottom: Solid 1px #d1d1d1;
+    padding: 5px 5px 6px;
+    font-weight: normal;
+    text-align: center;
+}
+table.dxpgHeader_ModernoCustom
+{
+    background: #fafafa;
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: left;
+}
+.dxpgHeaderTable_ModernoCustom
+{
+    border: 1px Solid #d1d1d1;
+    width: 100%;
+}
+.dxpgMSDraggable .dxpgHeaderTable_ModernoCustom,
+.dxpgCustFieldsDiv_ModernoCustom .dxpgHeaderTable_ModernoCustom
+{
+    -ms-touch-action: pinch-zoom;
+    touch-action: pinch-zoom;
+}
+.dxpgHeaderGroupButton_ModernoCustom
+{
+    padding: 0 4px 0 8px;
+}
+.dxpgHeaderText_ModernoCustom
+{
+    color: #7e7e7e;
+    padding: 8px 10px;
+}
+.dxpgHeaderSort_ModernoCustom
+{
+    padding-left: 0px;
+    padding-right: 4px;
+    vertical-align: middle;
+}
+.dxpgHeaderFilter_ModernoCustom
+{
+    padding: 0 8px 0 4px;
+}
+.dxpgArea_ModernoCustom,
+.dxpgArea_ModernoCustom table
+{
+    color: #979797;
+}
+.dxpgArea_ModernoCustom
+{
+    border: 1px none #d1d1d1;
+}
+.dxpgColumnArea_ModernoCustom
+{
+    border-top: 1px solid #d1d1d1;
+    padding: 2px 0;
+}
+.dxpgRowArea_ModernoCustom + td:last-child
+{
+    border: 0;
+    border-bottom: 1px solid #d1d1d1;
+}
+.dxpgDataArea_ModernoCustom
+{
+    border-top: 1px solid #d1d1d1;
+}
+.dxpgFilterArea_ModernoCustom
+{
+    border-top: 1px solid #d1d1d1;
+    padding: 2px 0;
+}
+.dxpgEmptyArea_ModernoCustom
+{
+    cursor: default;
+    padding: 16px 6px;
+}
+.dxpgColumnFieldValue_ModernoCustom
+{
+    background-color: #fafafa;
+    border: Solid 1px #d1d1d1;
+    padding: 4px 6px 5px;
+    font-weight: normal;
+    text-align: left;
+    border-right-style: none;
+    border-bottom-style: none;
+}
+.dxpgColumnTotalFieldValue_ModernoCustom
+{
+    background-color: #eaeaea;
+    background-image: none;
+}
+.dxpgColumnGrandTotalFieldValue_ModernoCustom
+{
+    background-color: #e4e4e4;
+}
+.dxpgRowFieldValue_ModernoCustom
+{
+    color: #4F4F4F;
+    background-color: #fafafa;
+    border: Solid 1px #d1d1d1;
+    padding: 4px 6px 5px 6px;
+    font-weight: normal;
+    text-align: left;
+    border-right-style: none;
+    border-bottom-style: none;
+}
+.dxpgRowTotalFieldValue_ModernoCustom
+{
+    background-color: #eaeaea;
+}
+.dxpgRowTreeFieldValue_ModernoCustom
+{
+    padding: 0;
+    font-size: 0;
+}
+.dxpgRowGrandTotalFieldValue_ModernoCustom
+{
+    background-color: #e4e4e4;
+    padding: 12px 10px;
+}
+.dxpgCollapsedButton_ModernoCustom
+{
+    vertical-align: -3px;
+    border: 0px;
+    margin-right: 5px;
+}
+.dxpgSortByColumnImage_ModernoCustom
+{
+    vertical-align: -3px;
+    border: 0px;
+    margin-left: 5px;
+}
+.dxpgCell_ModernoCustom
+{
+    text-align: right;
+    background-color: #FFFFFF;
+    border: 1px solid #d1d1d1;
+    padding: 8px 10px;
+    white-space: nowrap;
+    border-top-style: solid !important;
+    border-left-style: solid !important;
+    border-bottom-style: none;
+    border-right-style: none;
+}
+div.dxpgMainTable_ModernoCustom .dxpgCell_ModernoCustom
+{
+    border-bottom-style: none;
+}
+.dxpgKPICell_ModernoCustom
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.dxpgTotalCell_ModernoCustom
+{
+    background-color: #fcfcfc;
+}
+.dxpgGrandTotalCell_ModernoCustom
+{
+    background-color: #efefef;
+}
+.dxpgCellsArea_ModernoCustom
+{
+    background-color: #FFFFFF;
+}
+.dxpgRowFieldValuesArea_ModernoCustom
+{
+    background-color: #fafafa;
+}
+.dxpgColumnFieldValuesArea_ModernoCustom
+{
+    background-color: #fafafa;
+}
+.dxpgFilterItem_ModernoCustom
+{
+    white-space: nowrap;
+}
+.dxpgTopPager_ModernoCustom,
+.dxpgBottomPager_ModernoCustom
+{
+    padding: 4px 0px;
+}
+.dxpgControl_ModernoCustom .dxpLite_ModernoCustom
+{
+    padding: 6px 0;
+}
+.dxpgTopPager_ModernoCustom,
+.dxpgBottomPager_ModernoCustom
+{
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+.dxpgCustomizationFieldsHeader_ModernoCustom
+{
+    color: #2b2b2b;
+    background-image: none !important;
+    padding: 7px 6px 7px 12px !important;
+}
+.dxpgCustomizationFieldsContent_ModernoCustom
+{
+    padding: 0px !important;
+}
+.dxpgDataHeadersImage_ModernoCustom
+{
+    margin-right: 5px;
+    vertical-align: -2px;
+}
+.dxpgPrefilterPanelContainer_ModernoCustom
+{
+    border: 1px solid white;
+}
+.dxpgPrefilterPanelLink_ModernoCustom
+{
+    text-decoration: underline;
+}
+.dxpgPrefilterPanel_ModernoCustom
+{
+    border-top: 1px solid #d1d1d1;
+}
+.dxpgPrefilterPanel_ModernoCustom a
+{
+    color: #045cad;
+    text-decoration: underline;
+}
+.dxpgPrefilterPanel_ModernoCustom a:hover
+{
+    color: #2b2b2b;
+}
+.dxpgPrefilterPanelCheckBoxCell_ModernoCustom
+{
+    padding: 0 3px;
+    padding-right: 7px;
+}
+.dxpgPrefilterPanelImageCell_ModernoCustom
+{
+    padding: 0 3px;
+    padding-right: 1px;
+    cursor: pointer;
+}
+.dxpgPrefilterPanelClearButtonCell_ModernoCustom
+{
+    padding: 8px 6px 10px;
+}
+.dxpgPrefilterPanelExpressionCell_ModernoCustom
+{
+    padding: 8px 5px 10px 0;
+    white-space: nowrap;
+}
+.dxpgFilterBuilderMainArea_ModernoCustom
+{
+    background: white;
+    padding: 6px 2px;
+}
+.dxpgFilterBuilderButtonArea_ModernoCustom
+{
+    background-color: #fafafa;
+    border-top: solid 1px #d1d1d1;
+    padding: 6px;
+    white-space: nowrap;
+}
+.dxpgGroupSeparator_ModernoCustom
+{
+    vertical-align: middle;
+}
+.dxpgCustFieldsFilterAreaHeaders_ModernoCustom,
+.dxpgCustFieldsRowAreaHeaders_ModernoCustom,
+.dxpgCustFieldsColumnAreaHeaders_ModernoCustom,
+.dxpgCustFieldsDataAreaHeaders_ModernoCustom,
+.BottomPanelOnly1by4 .dxpgFLFRDiv_ModernoCustom,
+.BottomPanelOnly1by4 .dxpgFLCDDiv_ModernoCustom
+{
+    width: 100%;
+    height: 50%;
+}
+.StackedDefault .dxpgCustFieldsFieldList_ModernoCustom
+{
+    height: 34%;
+}
+.StackedDefault .dxpgFLFRDiv_ModernoCustom
+{
+    width: 50%;
+    height: 66%;
+    float: left;
+}
+.StackedDefault .dxpgFLCDDiv_ModernoCustom
+{
+    width: 50%;
+    height: 66%;
+    float: right;
+}
+.StackedDefault .dxpgCustFieldsFilterAreaHeaders_ModernoCustom .dxpgFLTextDiv_ModernoCustom,
+.StackedDefault .dxpgCustFieldsColumnAreaHeaders_ModernoCustom .dxpgFLTextDiv_ModernoCustom
+{
+    height: 47px;
+}
+.TopPanelOnly .dxpgCustFieldsFieldList_ModernoCustom
+{
+    width: 100%;
+    height: 100%;
+}
+.TopPanelOnly .dxpgFLDefereDiv_ModernoCustom .dxeBase_ModernoCustom,
+.TopPanelOnly .dxpgFLDefereDiv_ModernoCustom .dxpgFLDefereDB_ModernoCustom,
+.TopPanelOnly .dxpgFLFRDiv_ModernoCustom,
+.TopPanelOnly .dxpgFLCDDiv_ModernoCustom,
+.BottomPanelOnly1by4 .dxpgCustFieldsFieldList_ModernoCustom,
+.BottomPanelOnly2by2 .dxpgCustFieldsFieldList_ModernoCustom,
+.TopPanelOnly .dxpgFLTextDiv_ModernoCustom div
+{
+    display: none;
+}
+.TopPanelOnly .dxpgFLTextDiv_ModernoCustom
+{
+    height: 19px;
+}
+.TopPanelOnly .dxpgFLDefereDiv_ModernoCustom
+{
+    height: 16px;
+}
+.BottomPanelOnly2by2 .dxpgFLFRDiv_ModernoCustom,
+.StackedSideBySide .dxpgCustFieldsFieldList_ModernoCustom
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.BottomPanelOnly2by2 .dxpgFLCDDiv_ModernoCustom
+{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.StackedSideBySide .dxpgFLFRDiv_ModernoCustom,
+.StackedSideBySide .dxpgFLCDDiv_ModernoCustom
+{
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+.dxpgCustFields_ModernoCustom
+{
+    display: block;
+    position: relative;
+}
+.dxpgFLListDiv_ModernoCustom > div
+{
+    border: 1px solid #d1d1d1;
+    position: relative;
+    display: block;
+    height: 100%;
+    padding: 1px;
+    background: #FFFFFF;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.dxpgFLListDiv_ModernoCustom > div > div
+{
+    position: relative;
+    display: block;
+    height: 100%;
+    padding: 0px;
+    background: #FFFFFF;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.DragOver .dxpgFLListDiv_ModernoCustom > div
+{
+    background: #FFD324;
+}
+.dxpgFLListDiv_ModernoCustom
+{
+    padding: 0px 3px 0px 3px;
+}
+.dxpgFLButtonDiv_ModernoCustom .dxbButton_ModernoCustom div.dxb
+{
+    border: dotted 1px transparent;
+    padding: 1px 7px 0px;
+}
+.dxpgFLButtonDiv_ModernoCustom .dxbButton_ModernoCustom div.dxbf
+{
+    border: dotted 1px black;
+}
+.dxpgFLTextDiv_ModernoCustom
+{
+    height: 40px;
+}
+.dxpgFLTextDiv_ModernoCustom div
+{
+    display: block;
+    float: left;
+    margin: -22px 0px 8px 0px;
+    left: 6px;
+    top: 100%;
+    position: relative;
+}
+div.dxpgFLTextImgDiv_ModernoCustom
+{
+    display: block;
+    height: 16px;
+    width: 16px;
+    margin: -21px 0px 8px 0px;
+    left: 3px;
+}
+.dxpgFLButtonDiv_ModernoCustom
+{
+    float: right;
+    height: 40px;
+    position: relative;
+    z-index: 1;
+}
+.dxpgFLDefereDiv_ModernoCustom
+{
+    height: 64px;
+}
+.dxpgCustFieldsDiv_ModernoCustom
+{
+    clear: both;
+    padding: 0px 9px;
+}
+.dxpgFLButton_ModernoCustom
+{
+    margin: 12px 12px 0px 0px;
+    width: 40px;
+    height: 23px;
+}
+.dxpgFLDefereDiv_ModernoCustom .dxeBase_ModernoCustom
+{
+    float: left;
+    display: block;
+    border-collapse: separate;
+    padding: 18px 0px 0px 0px;
+    margin-left: 8px;
+}
+.dxpgCustForm_ModernoCustom .dxpgFLDefereDiv_ModernoCustom .dxeBase_ModernoCustom
+{
+    padding: 18px 0px 0px;
+}
+.dxpgFLDefereDB_ModernoCustom
+{
+    float: right;
+    display: block;
+    margin: 16px 12px 0 0;
+}
+.dxpgFLDefereDiv_ModernoCustom .dxbButton_ModernoCustom div.dxb
+{
+    padding: 1px 13px 1px 13px;
+    border: dotted 1px transparent;
+}
+.dxpgFLDefereDiv_ModernoCustom .dxbButton_ModernoCustom div.dxbf
+{
+    border: dotted 1px black;
+}
+.dxpgFLListDiv_ModernoCustom table
+{
+    width: 100%;
+    table-layout: fixed;
+    overflow: visible;
+}
+.dxpgFLListDiv_ModernoCustom table table td
+{
+    overflow: hidden;
+}
+/*Loading Panel*/
+.dxpgLoadingPanel_ModernoCustom
+{
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #2b2b2b;
+    background-color: White;
+    border: 1px solid #cfcfcf;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxpgLoadingPanel_ModernoCustom td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 15px 34px 15px 20px;
+}
+.dxpgLoadingPanel_ModernoCustom .dxlp-loadingImage
+{
+    background-image: url('../Web/Loading.gif');
+    height: 40px;
+    width: 40px;
+}
+.dxpgPTContainerDiv_ModernoCustom td.lastVertCell
+{
+    border-bottom: 1px solid #d1d1d1 !important;
+}
+.dxpgPTContainerDiv_ModernoCustom td.lastHorzCell
+{
+    border-right: 1px solid #d1d1d1 !important;
+}
+.dxpgVScrollBarAreaCell_ModernoCustom
+{
+    background-color: #fafafa;
+    border-right: Solid 1px #d1d1d1;
+    border-top: Solid 1px #d1d1d1;
+}
+.dxpgHScrollBarAreaCell_ModernoCustom
+{
+    background-color: #fafafa;
+    border-left: Solid 1px #d1d1d1;
+    border-bottom: Solid 1px #d1d1d1;
+}
+.dxpgScrollBarEdgeCell_ModernoCustom
+{
+    background-color: #fafafa;
+    border-right: Solid 1px #d1d1d1;
+    border-bottom: Solid 1px #d1d1d1;
+}

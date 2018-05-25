@@ -8,31 +8,28 @@ using System.Web.UI;
 
 namespace TAAPs
 {
-    public class BasePage : System.Web.UI.Page
+    public class BasePage : Page
     {
-        public void DisplayAlert(string message)
+
+
+        public void DisplayAlert(string type, string message)
         {
             string alertString = string.Concat("alert('", message, "')");
-            ClientScript.RegisterStartupScript(this.GetType(), "alert", alertString, true);
+            ClientScript.RegisterStartupScript(this.GetType(), "ClientScript1", alertString, true);
         }
 
-        public void DisplayAlert(string message, string type)
+        public void DisplayAlert(string type, string title, string message)
         {
-            //string alertString = string.Concat("alert('", message, "')");
-            //ClientScript.RegisterStartupScript(this.GetType(), "alert", alertString, true);
-
-            var alert = new JavaScriptSerializer().Serialize(message);
-            var script = string.Format("alert({0});", message);
-            ScriptManager.RegisterClientScriptBlock(Page, Page.GetType(), "", script, true);
-
+            ClientScript.RegisterStartupScript(GetType(), "ClientScript1", "ShowDialog('" + type +"','" + title + "','" + message +"')", true);
         }
 
         protected override void OnError(EventArgs e)
         {
-            Exception Ex = Server.GetLastError();
-            Server.ClearError();
+            Exception ex = Server.GetLastError();
+            DisplayAlert("Danger", title: "Page Error", message: ex.Message);
 
-            DisplayAlert(Ex.Message);
+            // Clear the error from the server.
+            Server.ClearError();
         }
     }
 }

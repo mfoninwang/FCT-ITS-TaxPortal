@@ -17,15 +17,29 @@ namespace TAAPs.Model
         public State()
         {
             this.LGAs = new HashSet<LGA>();
-            this.CTINRequests = new HashSet<CTINRequest>();
+            this.ITaxpayers = new HashSet<ITaxpayer>();
+            this.ITaxpayers1 = new HashSet<ITaxpayer>();
+            this.ITaxpayerAddresses = new HashSet<ITaxpayerAddress>();
             this.ITINRequests = new HashSet<ITINRequest>();
+            this.ITINRequests1 = new HashSet<ITINRequest>();
+            this.ITINRequests2 = new HashSet<ITINRequest>();
+            this.CTINRequests = new HashSet<CTINRequest>();
+            this.CTaxpayers = new HashSet<CTaxpayer>();
         }
     
         public string StateId { get; set; }
         public string StateName { get; set; }
+        public int CountryId { get; set; }
     
         public virtual ICollection<LGA> LGAs { get; set; }
-        public virtual ICollection<CTINRequest> CTINRequests { get; set; }
+        public virtual ICollection<ITaxpayer> ITaxpayers { get; set; }
+        public virtual ICollection<ITaxpayer> ITaxpayers1 { get; set; }
+        public virtual ICollection<ITaxpayerAddress> ITaxpayerAddresses { get; set; }
         public virtual ICollection<ITINRequest> ITINRequests { get; set; }
+        public virtual ICollection<ITINRequest> ITINRequests1 { get; set; }
+        public virtual ICollection<ITINRequest> ITINRequests2 { get; set; }
+        public virtual Country Country { get; set; }
+        public virtual ICollection<CTINRequest> CTINRequests { get; set; }
+        public virtual ICollection<CTaxpayer> CTaxpayers { get; set; }
     }
 }

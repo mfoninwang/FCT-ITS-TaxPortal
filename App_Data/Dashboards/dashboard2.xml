@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="bin-NG">
+  <Title Visible="false" Text="Revenue Analysis" />
+  <DataSources>
+    <SqlDataSource ComponentName="DataSource1">
+      <Name>Payments</Name>
+      <Connection Name="TAAPsCon" FromAppConfig="true" />
+      <Query Type="SelectQuery" Name="Payments">
+        <Tables>
+          <Table Name="Payments" />
+        </Tables>
+        <Columns>
+          <AllColumns Table="Payments" />
+          <Column Table="Payments" Name="PaymentReference" />
+          <Column Table="Payments" Name="PaymentDate" />
+          <Column Table="Payments" Name="TIN" />
+          <Column Table="Payments" Name="TaxpayerName" />
+          <Column Table="Payments" Name="AssessmentId" />
+          <Column Table="Payments" Name="Amount" />
+          <Column Table="Payments" Name="PaymentMethod" />
+          <Column Table="Payments" Name="PaymentDescription" />
+          <Column Table="Payments" Name="TaxOffice" />
+          <Column Table="Payments" Name="TaxType" />
+          <Column Table="Payments" Name="BankBranch" />
+          <Column Table="Payments" Name="PaymentServiceProvider" />
+        </Columns>
+      </Query>
+      <ConnectionOptions CloseConnection="true" />
+    </SqlDataSource>
+  </DataSources>
+  <Items>
+    <Chart ComponentName="chartDashboardItem1" Name="Chart 1" DataSource="DataSource1" DataMember="Payments">
+      <DataItems>
+        <Measure DataMember="Amount" DefaultId="DataItem0" />
+        <Dimension DataMember="PaymentDate" DefaultId="DataItem1" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension DefaultId="DataItem1" />
+      </SeriesDimensions>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple>
+              <Value DefaultId="DataItem0" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <Pivot ComponentName="pivotDashboardItem1" Name="Revenue by Tax Office" DataSource="DataSource1" DataMember="Payments">
+      <DataItems>
+        <Measure DataMember="Amount" Name="Total Revenue" DefaultId="DataItem0" />
+        <Dimension DataMember="TaxOffice" DefaultId="DataItem1" />
+        <Measure DataMember="PaymentReference" Name="Total Transactions" SummaryType="Count" DefaultId="DataItem2" />
+      </DataItems>
+      <Rows>
+        <Row DefaultId="DataItem1" />
+      </Rows>
+      <Values>
+        <Value DefaultId="DataItem0" />
+        <Value DefaultId="DataItem2" />
+      </Values>
+      <LayoutType>Tabular</LayoutType>
+    </Pivot>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup Weight="100">
+      <LayoutItem DashboardItem="chartDashboardItem1" Weight="87.136563876651991" />
+      <LayoutItem DashboardItem="pivotDashboardItem1" Weight="112.86343612334801" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

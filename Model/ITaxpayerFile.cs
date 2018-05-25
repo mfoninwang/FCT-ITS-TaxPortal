@@ -21,7 +21,9 @@ namespace TAAPs.Model
         public byte[] FileContent { get; set; }
         public System.DateTime CreateDate { get; set; }
         public string TIN { get; set; }
+        public string CreatedBy { get; set; }
     
         public virtual ITaxpayer ITaxpayer { get; set; }
+        public virtual User User { get; set; }
     }
 }

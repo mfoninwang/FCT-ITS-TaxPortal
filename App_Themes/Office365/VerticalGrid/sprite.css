@@ -1,0 +1,304 @@
+.dxm-checked .dxVerticalGrid_CTShowSearchPanel_Office365,
+.dxVerticalGrid_CategoryCollapsed_Office365,
+.dxVerticalGrid_CategoryExpanded_Office365,
+.dxVerticalGrid_CollapsedButton_Office365,
+.dxVerticalGrid_CTClearFilter_Office365,
+.dxVerticalGrid_CTClearFilterDisabled_Office365,
+.dxVerticalGrid_CTDeleteRow_Office365,
+.dxVerticalGrid_CTDeleteRowDisabled_Office365,
+.dxVerticalGrid_CTEditRow_Office365,
+.dxVerticalGrid_CTEditRowDisabled_Office365,
+.dxVerticalGrid_CTExportCsv_Office365,
+.dxVerticalGrid_CTExportCsvDisabled_Office365,
+.dxVerticalGrid_CTExportDocx_Office365,
+.dxVerticalGrid_CTExportDocxDisabled_Office365,
+.dxVerticalGrid_CTExportPdf_Office365,
+.dxVerticalGrid_CTExportPdfDisabled_Office365,
+.dxVerticalGrid_CTExportRtf_Office365,
+.dxVerticalGrid_CTExportRtfDisabled_Office365,
+.dxVerticalGrid_CTExportXls_Office365,
+.dxVerticalGrid_CTExportXlsDisabled_Office365,
+.dxVerticalGrid_CTExportXlsx_Office365,
+.dxVerticalGrid_CTExportXlsxDisabled_Office365,
+.dxVerticalGrid_CTNewRow_Office365,
+.dxVerticalGrid_CTNewRowDisabled_Office365,
+.dxVerticalGrid_CTRefresh_Office365,
+.dxVerticalGrid_CTRefreshDisabled_Office365,
+.dxVerticalGrid_CTShowFilterEditor_Office365,
+.dxVerticalGrid_CTShowFilterEditorDisabled_Office365,
+.dxVerticalGrid_CTShowSearchPanel_Office365,
+.dxVerticalGrid_CTShowSearchPanelDisabled_Office365,
+.dxVerticalGrid_ExpandedButton_Office365,
+.dxVerticalGrid_gvCellError_Office365,
+.dxVerticalGrid_gvFilterRowButton_Office365,
+.dxVerticalGrid_gvHeaderFilter_Office365,
+.dxVerticalGrid_gvHeaderFilterActive_Office365,
+.dxVerticalGrid_gvHeaderSortDown_Office365,
+.dxVerticalGrid_gvHeaderSortUp_Office365
+{
+    background-image: url('sprite.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxIE .dx-acc-r .dxm-checked .dxVerticalGrid_CTShowSearchPanel_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CategoryCollapsed_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CategoryExpanded_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CollapsedButton_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTClearFilter_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTClearFilterDisabled_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTDeleteRow_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTDeleteRowDisabled_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTEditRow_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTEditRowDisabled_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportCsv_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportCsvDisabled_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportDocx_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportDocxDisabled_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportPdf_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportPdfDisabled_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportRtf_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportRtfDisabled_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportXls_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportXlsDisabled_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportXlsx_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportXlsxDisabled_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTNewRow_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTNewRowDisabled_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTRefresh_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTRefreshDisabled_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTShowFilterEditor_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTShowFilterEditorDisabled_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTShowSearchPanel_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTShowSearchPanelDisabled_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_ExpandedButton_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_gvCellError_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_gvFilterRowButton_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_gvHeaderFilter_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_gvHeaderFilterActive_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_gvHeaderSortDown_Office365::before,
+.dxIE .dx-acc-r .dxVerticalGrid_gvHeaderSortUp_Office365::before{
+    width: 121px;
+}
+.dxm-checked .dxVerticalGrid_CTShowSearchPanel_Office365
+{
+    background-position: -49px -51px;
+    width: 14px;
+    height: 14px;
+}
+.dxVerticalGrid_CategoryCollapsed_Office365
+{
+    background-position: -26px -68px;
+    width: 12px;
+    height: 12px;
+}
+.dxVerticalGrid_CategoryExpanded_Office365
+{
+    background-position: -105px -51px;
+    width: 12px;
+    height: 12px;
+}
+.dxVerticalGrid_CollapsedButton_Office365
+{
+    background-position: -13px -68px;
+    width: 12px;
+    height: 12px;
+}
+.dxVerticalGrid_CTClearFilter_Office365
+{
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTClearFilterDisabled_Office365
+{
+    background-position: -17px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTDeleteRow_Office365
+{
+    background-position: -68px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTDeleteRowDisabled_Office365
+{
+    background-position: -34px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTEditRow_Office365
+{
+    background-position: -51px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTEditRowDisabled_Office365
+{
+    background-position: 0px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportCsv_Office365
+{
+    background-position: -17px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportCsvDisabled_Office365
+{
+    background-position: -68px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportDocx_Office365
+{
+    background-position: -102px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportDocxDisabled_Office365
+{
+    background-position: 0px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportPdf_Office365
+{
+    background-position: -85px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportPdfDisabled_Office365
+{
+    background-position: -102px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportRtf_Office365
+{
+    background-position: -85px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportRtfDisabled_Office365
+{
+    background-position: -85px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportXls_Office365
+{
+    background-position: 0px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportXlsDisabled_Office365
+{
+    background-position: -51px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportXlsx_Office365
+{
+    background-position: -68px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportXlsxDisabled_Office365
+{
+    background-position: -34px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTNewRow_Office365
+{
+    background-position: -17px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTNewRowDisabled_Office365
+{
+    background-position: -17px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTRefresh_Office365
+{
+    background-position: -51px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTRefreshDisabled_Office365
+{
+    background-position: -102px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTShowFilterEditor_Office365
+{
+    background-position: 0px -68px;
+    width: 12px;
+    height: 12px;
+}
+.dxVerticalGrid_CTShowFilterEditorDisabled_Office365
+{
+    background-position: -39px -68px;
+    width: 12px;
+    height: 12px;
+}
+.dxVerticalGrid_CTShowSearchPanel_Office365
+{
+    background-position: -34px -51px;
+    width: 14px;
+    height: 14px;
+}
+.dxVerticalGrid_CTShowSearchPanelDisabled_Office365
+{
+    background-position: -34px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_ExpandedButton_Office365
+{
+    background-position: -79px -51px;
+    width: 12px;
+    height: 12px;
+}
+.dxVerticalGrid_gvCellError_Office365
+{
+    background-position: -64px -51px;
+    width: 14px;
+    height: 14px;
+}
+.dxVerticalGrid_gvFilterRowButton_Office365
+{
+    background-position: -92px -51px;
+    width: 12px;
+    height: 12px;
+}
+.dxVerticalGrid_gvHeaderFilter_Office365
+{
+    background-position: -78px -68px;
+    width: 12px;
+    height: 12px;
+}
+.dxVerticalGrid_gvHeaderFilterActive_Office365
+{
+    background-position: -91px -68px;
+    width: 12px;
+    height: 12px;
+}
+.dxVerticalGrid_gvHeaderSortDown_Office365
+{
+    background-position: -52px -68px;
+    width: 12px;
+    height: 12px;
+}
+.dxVerticalGrid_gvHeaderSortUp_Office365
+{
+    background-position: -65px -68px;
+    width: 12px;
+    height: 12px;
+}
+

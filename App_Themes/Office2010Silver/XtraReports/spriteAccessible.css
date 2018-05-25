@@ -1,0 +1,206 @@
+.dx-acc-r .dxXtraReports_BtnFirstPage_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_BtnFirstPageDisabled_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_BtnLastPage_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_BtnLastPageDisabled_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_BtnNextPage_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_BtnNextPageDisabled_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_BtnPrevPage_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_BtnPrevPageDisabled_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_BtnPrint_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_BtnPrintDisabled_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_BtnPrintPage_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_BtnPrintPageDisabled_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_BtnSave_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_BtnSaveDisabled_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_BtnSaveWindow_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_BtnSaveWindowDisabled_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_BtnSearch_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_BtnSearchDisabled_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_PageBorder_blc_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_PageBorder_brc_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_PageBorder_tlc_Office2010Silver:before,
+.dx-acc-r .dxXtraReports_PageBorder_trc_Office2010Silver:before
+
+{
+    content: url('spriteAccessible.png');
+
+}
+.dx-acc-r .dxXtraReports_BtnFirstPage_Office2010Silver:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxXtraReports_BtnFirstPageDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -289px;
+
+}
+.dx-acc-r .dxXtraReports_BtnLastPage_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -85px;
+
+}
+.dx-acc-r .dxXtraReports_BtnLastPageDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -51px;
+
+}
+.dx-acc-r .dxXtraReports_BtnNextPage_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -255px;
+
+}
+.dx-acc-r .dxXtraReports_BtnNextPageDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -119px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrevPage_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -136px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrevPageDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -204px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrint_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -102px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrintDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -272px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrintPage_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -34px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrintPageDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -68px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSave_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -170px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSaveDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -187px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSaveWindow_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -153px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSaveWindowDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -221px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSearch_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -17px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSearchDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -238px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_blc_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -306px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_brc_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -317px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_tlc_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -328px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_trc_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -339px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_t_Office2010Silver :before
+
+{
+    content: url('pageTopBorder.png');
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_l_Office2010Silver :before
+
+{
+    content: url('pageLeftBorder.png');
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_r_Office2010Silver :before
+
+{
+    content: url('pageRightBorder.png');
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_b_Office2010Silver :before
+
+{
+    content: url('pageBottomBorder.png');
+
+}
+

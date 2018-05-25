@@ -14,27 +14,70 @@ namespace TAAPs.Model
     
     public partial class ITINRequest
     {
-        public int RequestId { get; set; }
-        public string TaxpayerName { get; set; }
-        public string RegistrationNo { get; set; }
-        public Nullable<System.DateTime> RegistrationDate { get; set; }
+        public long RequestId { get; set; }
+        public string RecordSource { get; set; }
+        public string Title { get; set; }
+        public string LastName { get; set; }
+        public string FirstName { get; set; }
+        public string MiddleName { get; set; }
+        public string MaidenName { get; set; }
+        public string PreviousLastName { get; set; }
+        public string PreviousFirstname { get; set; }
+        public string PreviousMiddleName { get; set; }
+        public string BVN { get; set; }
+        public string NIN { get; set; }
+        public string JTBTIN { get; set; }
+        public string MaritalStatus { get; set; }
+        public string Gender { get; set; }
+        public string SpouseNIN { get; set; }
+        public System.DateTime BirthDate { get; set; }
+        public int BirthCountryId { get; set; }
+        public string BirthCity { get; set; }
+        public string BirthStateId { get; set; }
+        public Nullable<int> BirthLgaId { get; set; }
+        public int NationalityId { get; set; }
+        public string OriginStateId { get; set; }
+        public Nullable<int> OriginLgaId { get; set; }
+        public string Religion { get; set; }
+        public Nullable<decimal> Height { get; set; }
+        public string Employer { get; set; }
+        public string Profession { get; set; }
+        public string EmploymentId { get; set; }
+        public string EmploymentStatus { get; set; }
+        public string HighestEducation { get; set; }
+        public string IdentificationType { get; set; }
+        public string IdentificationNumber { get; set; }
+        public string NativeSpokenLanguage { get; set; }
+        public string OtherSpokenLanguage { get; set; }
+        public string ReadWriteLanguage { get; set; }
+        public string GuadianFirstName { get; set; }
+        public string GuadianLastName { get; set; }
+        public string GuadianMiddleName { get; set; }
+        public string GuadianNIN { get; set; }
         public string TaxOfficeId { get; set; }
         public string StreetNo { get; set; }
-        public string Street { get; set; }
-        public string City { get; set; }
-        public Nullable<int> LgaId { get; set; }
-        public string StateId { get; set; }
+        public string AddressLine1 { get; set; }
+        public string AddressLine2 { get; set; }
+        public string AddressCity { get; set; }
+        public string AddressStateId { get; set; }
+        public Nullable<int> AddressLgaId { get; set; }
         public string Email { get; set; }
+        public string Website { get; set; }
         public string Phone1 { get; set; }
-        public bool InEmployment { get; set; }
-        public string EmploymentType { get; set; }
-        public string BusinessLineId { get; set; }
-        public System.DateTime CreateDate { get; set; }
         public string Phone2 { get; set; }
+        public string Status { get; set; }
+        public string Remarks { get; set; }
+        public System.DateTime CreateDate { get; set; }
+        public string CreatedBy { get; set; }
     
-        public virtual BusinessLine BusinessLine { get; set; }
+        public virtual Country Country { get; set; }
+        public virtual Country Country1 { get; set; }
+        public virtual TaxOffice TaxOffice { get; set; }
         public virtual LGA LGA { get; set; }
         public virtual State State { get; set; }
-        public virtual TaxOffice TaxOffice { get; set; }
+        public virtual LGA LGA1 { get; set; }
+        public virtual LGA LGA2 { get; set; }
+        public virtual State State1 { get; set; }
+        public virtual State State2 { get; set; }
     }
 }

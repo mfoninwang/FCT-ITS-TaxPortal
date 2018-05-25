@@ -1,0 +1,291 @@
+.dxm-hovered .dxXtraReports_BtnFirstPage_MaterialCustom,
+.dxm-hovered .dxXtraReports_BtnLastPage_MaterialCustom,
+.dxm-hovered .dxXtraReports_BtnNextPage_MaterialCustom,
+.dxm-hovered .dxXtraReports_BtnPrevPage_MaterialCustom,
+.dxm-hovered .dxXtraReports_BtnPrint_MaterialCustom,
+.dxm-hovered .dxXtraReports_BtnPrintPage_MaterialCustom,
+.dxm-hovered .dxXtraReports_BtnSave_MaterialCustom,
+.dxm-hovered .dxXtraReports_BtnSaveWindow_MaterialCustom,
+.dxm-hovered .dxXtraReports_BtnSearch_MaterialCustom,
+.dxXtraReports_BtnFirstPage_MaterialCustom,
+.dxXtraReports_BtnFirstPageDisabled_MaterialCustom,
+.dxXtraReports_BtnLastPage_MaterialCustom,
+.dxXtraReports_BtnLastPageDisabled_MaterialCustom,
+.dxXtraReports_BtnNextPage_MaterialCustom,
+.dxXtraReports_BtnNextPageDisabled_MaterialCustom,
+.dxXtraReports_BtnPrevPage_MaterialCustom,
+.dxXtraReports_BtnPrevPageDisabled_MaterialCustom,
+.dxXtraReports_BtnPrint_MaterialCustom,
+.dxXtraReports_BtnPrintDisabled_MaterialCustom,
+.dxXtraReports_BtnPrintPage_MaterialCustom,
+.dxXtraReports_BtnPrintPageDisabled_MaterialCustom,
+.dxXtraReports_BtnSave_MaterialCustom,
+.dxXtraReports_BtnSaveDisabled_MaterialCustom,
+.dxXtraReports_BtnSaveWindow_MaterialCustom,
+.dxXtraReports_BtnSaveWindowDisabled_MaterialCustom,
+.dxXtraReports_BtnSearch_MaterialCustom,
+.dxXtraReports_BtnSearchDisabled_MaterialCustom,
+.dxXtraReports_PageBorder_blc_MaterialCustom,
+.dxXtraReports_PageBorder_brc_MaterialCustom,
+.dxXtraReports_PageBorder_tlc_MaterialCustom,
+.dxXtraReports_PageBorder_trc_MaterialCustom
+{
+    background-image: url('sprite.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxIE .dx-acc-r .dxm-hovered .dxXtraReports_BtnFirstPage_MaterialCustom::before,
+.dxIE .dx-acc-r .dxm-hovered .dxXtraReports_BtnLastPage_MaterialCustom::before,
+.dxIE .dx-acc-r .dxm-hovered .dxXtraReports_BtnNextPage_MaterialCustom::before,
+.dxIE .dx-acc-r .dxm-hovered .dxXtraReports_BtnPrevPage_MaterialCustom::before,
+.dxIE .dx-acc-r .dxm-hovered .dxXtraReports_BtnPrint_MaterialCustom::before,
+.dxIE .dx-acc-r .dxm-hovered .dxXtraReports_BtnPrintPage_MaterialCustom::before,
+.dxIE .dx-acc-r .dxm-hovered .dxXtraReports_BtnSave_MaterialCustom::before,
+.dxIE .dx-acc-r .dxm-hovered .dxXtraReports_BtnSaveWindow_MaterialCustom::before,
+.dxIE .dx-acc-r .dxm-hovered .dxXtraReports_BtnSearch_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnFirstPage_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnFirstPageDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnLastPage_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnLastPageDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnNextPage_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnNextPageDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnPrevPage_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnPrevPageDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnPrint_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnPrintDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnPrintPage_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnPrintPageDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnSave_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnSaveDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnSaveWindow_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnSaveWindowDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnSearch_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_BtnSearchDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_PageBorder_blc_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_PageBorder_brc_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_PageBorder_tlc_MaterialCustom::before,
+.dxIE .dx-acc-r .dxXtraReports_PageBorder_trc_MaterialCustom::before{
+    width: 107px;
+}
+.dxm-hovered .dxXtraReports_BtnFirstPage_MaterialCustom
+{
+    background-position: -19px -38px;
+    width: 18px;
+    height: 18px;
+}
+.dxm-hovered .dxXtraReports_BtnLastPage_MaterialCustom
+{
+    background-position: -76px -19px;
+    width: 18px;
+    height: 18px;
+}
+.dxm-hovered .dxXtraReports_BtnNextPage_MaterialCustom
+{
+    background-position: -38px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxm-hovered .dxXtraReports_BtnPrevPage_MaterialCustom
+{
+    background-position: -57px -19px;
+    width: 18px;
+    height: 18px;
+}
+.dxm-hovered .dxXtraReports_BtnPrint_MaterialCustom
+{
+    background-position: -51px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxXtraReports_BtnPrintPage_MaterialCustom
+{
+    background-position: -17px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxXtraReports_BtnSave_MaterialCustom
+{
+    background-position: -85px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxXtraReports_BtnSaveWindow_MaterialCustom
+{
+    background-position: -51px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxXtraReports_BtnSearch_MaterialCustom
+{
+    background-position: 0px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnFirstPage_MaterialCustom
+{
+    background-position: 0px -38px;
+    width: 18px;
+    height: 18px;
+}
+.dxXtraReports_BtnFirstPageDisabled_MaterialCustom
+{
+    background-position: -57px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxXtraReports_BtnLastPage_MaterialCustom
+{
+    background-position: -76px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxXtraReports_BtnLastPageDisabled_MaterialCustom
+{
+    background-position: 0px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxXtraReports_BtnNextPage_MaterialCustom
+{
+    background-position: -19px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxXtraReports_BtnNextPageDisabled_MaterialCustom
+{
+    background-position: 0px -19px;
+    width: 18px;
+    height: 18px;
+}
+.dxXtraReports_BtnPrevPage_MaterialCustom
+{
+    background-position: -38px -19px;
+    width: 18px;
+    height: 18px;
+}
+.dxXtraReports_BtnPrevPageDisabled_MaterialCustom
+{
+    background-position: -19px -19px;
+    width: 18px;
+    height: 18px;
+}
+.dxXtraReports_BtnPrint_MaterialCustom
+{
+    background-position: -72px -38px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintDisabled_MaterialCustom
+{
+    background-position: -89px -38px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintPage_MaterialCustom
+{
+    background-position: 0px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintPageDisabled_MaterialCustom
+{
+    background-position: -55px -38px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSave_MaterialCustom
+{
+    background-position: -34px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveDisabled_MaterialCustom
+{
+    background-position: -68px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveWindow_MaterialCustom
+{
+    background-position: -68px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveWindowDisabled_MaterialCustom
+{
+    background-position: -34px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSearch_MaterialCustom
+{
+    background-position: -38px -38px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSearchDisabled_MaterialCustom
+{
+    background-position: -17px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_PageBorder_blc_MaterialCustom
+{
+    background-position: -95px -19px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_brc_MaterialCustom
+{
+    background-position: -85px -74px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_tlc_MaterialCustom
+{
+    background-position: -95px 0px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_trc_MaterialCustom
+{
+    background-position: -96px -74px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_t_MaterialCustom,
+.dxXtraReports_PageBorder_l_MaterialCustom,
+.dxXtraReports_PageBorder_r_MaterialCustom,
+.dxXtraReports_PageBorder_b_MaterialCustom {
+    padding: 0px;
+    background-color: transparent;
+}
+
+.dxXtraReports_PageBorder_t_MaterialCustom {
+    background-image: url('pageTopBorder.svg');
+    background-repeat: repeat-x;
+    width: 1px;
+    height: 10px;
+}
+
+.dxXtraReports_PageBorder_l_MaterialCustom {
+    background-image: url('pageLeftBorder.svg');
+    background-repeat: repeat-y;
+    width: 10px;
+    height: 1px;
+}
+
+.dxXtraReports_PageBorder_r_MaterialCustom {
+    background-image: url('pageRightBorder.svg');
+    background-repeat: repeat-y;
+    width: 10px;
+    height: 1px;
+}
+
+.dxXtraReports_PageBorder_b_MaterialCustom {
+    background-image: url('pageBottomBorder.svg');
+    background-repeat: repeat-x;
+    width: 1px;
+    height: 10px;
+}
+

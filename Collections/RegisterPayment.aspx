@@ -1,14 +1,35 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="RegisterPayment.aspx.cs" Inherits="TAAPs.Collections.RegisterPayment" %>
-<%@ Register assembly="DevExpress.Web.v15.2, Version=15.2.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainLayout.Master" AutoEventWireup="true" CodeBehind="RegisterPayment.aspx.cs" Inherits="TAAPs.Collections.RegisterPayment" %>
+
+<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
-    <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="edsIAssessment" KeyFieldName="AssessmentId">
+
+<asp:Content ID="Content2" ContentPlaceHolderID="contentTitle" runat="server">
+    Payment
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="contentSubTitle" runat="server">
+    Register Payment
+</asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
+    <div class="btn-group">
+        <a class="btn btn-primary" href="#">
+            <i class="fa fa-plus"></i>
+            Payment
+        </a>
+    </div>
+</asp:Content>
+
+<asp:Content ID="Content5" ContentPlaceHolderID="contentBody" runat="server">
+    <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="edsIAssessment" KeyFieldName="AssessmentId" Width="100%">
+        <SettingsAdaptivity AdaptivityMode="HideDataCells">
+        </SettingsAdaptivity>
         <SettingsDataSecurity AllowDelete="False" AllowEdit="False" AllowInsert="False" />
         <Columns>
-            <dx:GridViewDataTextColumn FieldName="AssessmentId" ReadOnly="True" VisibleIndex="0">
+            <dx:GridViewDataTextColumn FieldName="AssessmentId" ReadOnly="True" VisibleIndex="0" Caption="Assessment #">
             </dx:GridViewDataTextColumn>
-            <dx:GridViewDataTextColumn FieldName="AssessmentYear" VisibleIndex="1">
+            <dx:GridViewDataTextColumn FieldName="AssessmentYear" VisibleIndex="1" Caption="Year">
             </dx:GridViewDataTextColumn>
             <dx:GridViewDataTextColumn FieldName="ITaxAccount.Itaxpayer.TIN" VisibleIndex="2" Caption="TIN">
             </dx:GridViewDataTextColumn>
@@ -41,8 +62,8 @@
             </dx:GridViewDataHyperLinkColumn>
         </Columns>
 
-<Styles AdaptiveDetailButtonWidth="22"></Styles>
+        <Styles AdaptiveDetailButtonWidth="22"></Styles>
     </dx:ASPxGridView>
-<asp:EntityDataSource ID="edsIAssessment" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EnableInsert="True" EnableUpdate="True" EntitySetName="IAssessments" Include="ITaxAccount,ITaxAccount.ITaxpayer">
-</asp:EntityDataSource>
-    </asp:Content>
+    <asp:EntityDataSource ID="edsIAssessment" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EnableInsert="True" EnableUpdate="True" EntitySetName="IAssessments" Include="ITaxAccount,ITaxAccount.ITaxpayer">
+    </asp:EntityDataSource>
+</asp:Content>

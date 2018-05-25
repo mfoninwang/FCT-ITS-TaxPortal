@@ -1,0 +1,2214 @@
+.dx-acc-r .dxctToolbar_MaterialCustom .dxm-hovered .dxWeb_mAdaptiveMenu_MaterialCustom:before,
+.dx-acc-r .dxctToolbar_MaterialCustom .dxm-hovered .dxWeb_mHorizontalPopOut_MaterialCustom:before,
+.dx-acc-r .dxctToolbar_MaterialCustom .dxWeb_mAdaptiveMenu_MaterialCustom:before,
+.dx-acc-r .dxeListBoxItemSelected_MaterialCustom .dxWeb_edtCheckBoxChecked_MaterialCustom:before,
+.dx-acc-r .dxfmControl_MaterialCustom .dxmLite_MaterialCustom .dxm-popupMain .dxm-gutter .dxm-hovered .dxWeb_fmCopyButton_MaterialCustom:before,
+.dx-acc-r .dxfmControl_MaterialCustom .dxmLite_MaterialCustom .dxm-popupMain .dxm-gutter .dxm-hovered .dxWeb_fmCreateButton_MaterialCustom:before,
+.dx-acc-r .dxfmControl_MaterialCustom .dxmLite_MaterialCustom .dxm-popupMain .dxm-gutter .dxm-hovered .dxWeb_fmDeleteButton_MaterialCustom:before,
+.dx-acc-r .dxfmControl_MaterialCustom .dxmLite_MaterialCustom .dxm-popupMain .dxm-gutter .dxm-hovered .dxWeb_fmDwnlButton_MaterialCustom:before,
+.dx-acc-r .dxfmControl_MaterialCustom .dxmLite_MaterialCustom .dxm-popupMain .dxm-gutter .dxm-hovered .dxWeb_fmMoveButton_MaterialCustom:before,
+.dx-acc-r .dxfmControl_MaterialCustom .dxmLite_MaterialCustom .dxm-popupMain .dxm-gutter .dxm-hovered .dxWeb_fmRefreshButton_MaterialCustom:before,
+.dx-acc-r .dxfmControl_MaterialCustom .dxmLite_MaterialCustom .dxm-popupMain .dxm-gutter .dxm-hovered .dxWeb_fmRenameButton_MaterialCustom:before,
+.dx-acc-r .dxfmControl_MaterialCustom .dxmLite_MaterialCustom .dxm-popupMain .dxm-gutter .dxm-hovered .dxWeb_fmUplButton_MaterialCustom:before,
+.dx-acc-r .dxfm-file .dxWeb_edtCheckBoxChecked_MaterialCustom:before,
+.dx-acc-r .dxfm-file .dxWeb_edtCheckBoxUnchecked_MaterialCustom:before,
+.dx-acc-r .dxgvFocusedRow_MaterialCustom .dxWeb_edtCheckBoxChecked_MaterialCustom:before,
+.dx-acc-r .dxgvFocusedRow_MaterialCustom .dxWeb_edtCheckBoxGrayed_MaterialCustom:before,
+.dx-acc-r .dxgvFocusedRow_MaterialCustom .dxWeb_edtCheckBoxUnchecked_MaterialCustom:before,
+.dx-acc-r .dxigControl_MaterialCustom.dxTouchUI .dxWeb_igCloseButton_MaterialCustom:before,
+.dx-acc-r .dxigControl_MaterialCustom.dxTouchUI .dxWeb_igPauseButton_MaterialCustom:before,
+.dx-acc-r .dxigControl_MaterialCustom.dxTouchUI .dxWeb_igPlayButton_MaterialCustom:before,
+.dx-acc-r .dxm-checked .dxWeb_mHorizontalPopOut_MaterialCustom:before,
+.dx-acc-r .dxm-checked .dxWeb_mVerticalPopOut_MaterialCustom:before,
+.dx-acc-r .dxm-checked .dxWeb_mVerticalPopOutRtl_MaterialCustom:before,
+.dx-acc-r .dxm-checked.dxm-hovered .dxWeb_mHorizontalPopOut_MaterialCustom:before,
+.dx-acc-r .dxm-checked.dxm-hovered .dxWeb_mSubMenuItemChecked_MaterialCustom:before,
+.dx-acc-r .dxm-checked.dxm-hovered .dxWeb_mVerticalPopOut_MaterialCustom:before,
+.dx-acc-r .dxm-checked.dxm-hovered .dxWeb_mVerticalPopOutRtl_MaterialCustom:before,
+.dx-acc-r .dxm-disabled .dxWeb_mHorizontalPopOut_MaterialCustom:before,
+.dx-acc-r .dxm-disabled .dxWeb_mVerticalPopOut_MaterialCustom:before,
+.dx-acc-r .dxm-disabled .dxWeb_mVerticalPopOutRtl_MaterialCustom:before,
+.dx-acc-r .dxm-hovered .dxWeb_fmCopyButton_MaterialCustom:before,
+.dx-acc-r .dxm-hovered .dxWeb_fmCreateButton_MaterialCustom:before,
+.dx-acc-r .dxm-hovered .dxWeb_fmDeleteButton_MaterialCustom:before,
+.dx-acc-r .dxm-hovered .dxWeb_fmDwnlButton_MaterialCustom:before,
+.dx-acc-r .dxm-hovered .dxWeb_fmMoveButton_MaterialCustom:before,
+.dx-acc-r .dxm-hovered .dxWeb_fmRefreshButton_MaterialCustom:before,
+.dx-acc-r .dxm-hovered .dxWeb_fmRenameButton_MaterialCustom:before,
+.dx-acc-r .dxm-hovered .dxWeb_fmUplButton_MaterialCustom:before,
+.dx-acc-r .dxm-hovered .dxWeb_mAdaptiveMenu_MaterialCustom:before,
+.dx-acc-r .dxm-hovered .dxWeb_mHorizontalPopOut_MaterialCustom:before,
+.dx-acc-r .dxm-hovered .dxWeb_mVerticalPopOut_MaterialCustom:before,
+.dx-acc-r .dxm-hovered .dxWeb_mVerticalPopOutRtl_MaterialCustom:before,
+.dx-acc-r .dxmLite_MaterialCustom .dxm-left .dxm-back-icon:before,
+.dx-acc-r .dxm-scrollBtnHovered .dxWeb_mScrollDown_MaterialCustom:before,
+.dx-acc-r .dxm-scrollBtnHovered .dxWeb_mScrollUp_MaterialCustom:before,
+.dx-acc-r .dxm-scrollBtnPressed .dxWeb_mScrollDown_MaterialCustom:before,
+.dx-acc-r .dxm-scrollBtnPressed .dxWeb_mScrollUp_MaterialCustom:before,
+.dx-acc-r .dxm-selected .dxWeb_mHorizontalPopOut_MaterialCustom:before,
+.dx-acc-r .dxm-selected .dxWeb_mSubMenuItemChecked_MaterialCustom:before,
+.dx-acc-r .dxm-selected .dxWeb_mVerticalPopOut_MaterialCustom:before,
+.dx-acc-r .dxm-selected .dxWeb_mVerticalPopOutRtl_MaterialCustom:before,
+.dx-acc-r .dxm-selected.dxm-hovered .dxWeb_mHorizontalPopOut_MaterialCustom:before,
+.dx-acc-r .dxm-selected.dxm-hovered .dxWeb_mVerticalPopOut_MaterialCustom:before,
+.dx-acc-r .dxm-selected.dxm-hovered .dxWeb_mVerticalPopOutRtl_MaterialCustom:before,
+.dx-acc-r .dxm-vertical .dxm-checked .dxWeb_mVerticalPopOut_MaterialCustom:before,
+.dx-acc-r .dxm-vertical .dxm-checked.dxm-hovered .dxWeb_mVerticalPopOut_MaterialCustom:before,
+.dx-acc-r .dxm-vertical .dxm-hovered .dxWeb_mVerticalPopOut_MaterialCustom:before,
+.dx-acc-r .dxm-vertical .dxm-selected .dxWeb_mVerticalPopOut_MaterialCustom:before,
+.dx-acc-r .dxm-vertical .dxm-selected.dxm-hovered .dxWeb_mVerticalPopOut_MaterialCustom:before,
+.dx-acc-r .dxm-vertical .dxWeb_mVerticalPopOut_MaterialCustom:before,
+.dx-acc-r .dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_MaterialCustom:before,
+.dx-acc-r .dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_MaterialCustom:before,
+.dx-acc-r .dxpc-pinBtnChecked .dxWeb_pcPinButton_MaterialCustom:before,
+.dx-acc-r .dxp-hoverDropDownButton .dxWeb_pPopOut_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpand_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpandArrowBottom_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpandArrowLeft_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpandArrowRight_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpandArrowTop_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpand_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpand_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpandArrowBottom_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpandArrowLeft_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpandArrowRight_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpandArrowTop_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpand_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowBottom_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowLeft_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowRight_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowTop_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpand_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_MaterialCustom:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_MaterialCustom:before,
+.dx-acc-r .dxp-pressedDropDownButton .dxWeb_pPopOut_MaterialCustom:before,
+.dx-acc-r .dxr-glrBtnPressed .dxWeb_rGlrDown_MaterialCustom:before,
+.dx-acc-r .dxr-glrBtnPressed .dxWeb_rGlrPopOut_MaterialCustom:before,
+.dx-acc-r .dxr-glrBtnPressed .dxWeb_rGlrUp_MaterialCustom:before,
+.dx-acc-r .dxr-grExpBtnHover .dxWeb_rPopOut_MaterialCustom:before,
+.dx-acc-r .dxr-grExpBtnPressed .dxWeb_rPopOut_MaterialCustom:before,
+.dx-acc-r .dxr-itemDisabled .dxWeb_rPopOut_MaterialCustom:before,
+.dx-acc-r .dxr-itemHover .dxWeb_rPopOut_MaterialCustom:before,
+.dx-acc-r .dxr-itemPressed .dxWeb_rPopOut_MaterialCustom:before,
+.dx-acc-r .dxrp-collapseBtnHover .dxWeb_rpCollapseButton_MaterialCustom:before,
+.dx-acc-r .dxrp-collapseBtnPressed .dxWeb_rpCollapseButton_MaterialCustom:before,
+.dx-acc-r .dxrpCollapsed .dxrp-collapseBtnHover .dxWeb_rpCollapseButton_MaterialCustom:before,
+.dx-acc-r .dxrpCollapsed .dxrp-collapseBtnPressed .dxWeb_rpCollapseButton_MaterialCustom:before,
+.dx-acc-r .dxrpCollapsed .dxWeb_rpCollapseButton_MaterialCustom:before,
+.dx-acc-r .dxtlFocusedNode_MaterialCustom .dxWeb_edtCheckBoxChecked_MaterialCustom:before,
+.dx-acc-r .dxtlFocusedNode_MaterialCustom .dxWeb_edtCheckBoxGrayed_MaterialCustom:before,
+.dx-acc-r .dxtlFocusedNode_MaterialCustom .dxWeb_edtCheckBoxUnchecked_MaterialCustom:before,
+.dx-acc-r .dxtv-ndSel .dxWeb_edtCheckBoxChecked_MaterialCustom:before,
+.dx-acc-r .dxtv-ndSel .dxWeb_edtCheckBoxGrayed_MaterialCustom:before,
+.dx-acc-r .dxtv-ndSel .dxWeb_edtCheckBoxUnchecked_MaterialCustom:before,
+.dx-acc-r .dxtv-ndSel .dxWeb_fmFolder_MaterialCustom:before,
+.dx-acc-r .dxtv-ndSel .dxWeb_fmFolderLocked_MaterialCustom:before,
+.dx-acc-r .dxWeb_edtCheckBoxChecked_MaterialCustom:before,
+.dx-acc-r .dxWeb_edtCheckBoxCheckedDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_edtCheckBoxGrayed_MaterialCustom:before,
+.dx-acc-r .dxWeb_edtCheckBoxGrayedDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_edtCheckBoxUnchecked_MaterialCustom:before,
+.dx-acc-r .dxWeb_edtCheckBoxUncheckedDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmBreadCrumbsSeparatorArrow_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmBreadCrumbsUpButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmBreadCrumbsUpButtonDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmBreadCrumbsUpButtonHover_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmCopyButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmCopyButtonDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmCreateButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmCreateButtonDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmDeleteButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmDeleteButtonDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmDwnlButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmDwnlButtonDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmExpandFolderContBtn_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmFolder_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmFolderLocked_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmMoveButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmMoveButtonDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmRefreshButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmRefreshButtonDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmRenameButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmRenameButtonDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmUplButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_fmUplButtonDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_igCloseButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_igNavigationBarMarker_MaterialCustom:before,
+.dx-acc-r .dxWeb_igNextButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_igNextButtonDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_igNextButtonHover_MaterialCustom:before,
+.dx-acc-r .dxWeb_igNextButtonPressed_MaterialCustom:before,
+.dx-acc-r .dxWeb_igPauseButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_igPlayButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_igPrevButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_igPrevButtonDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_igPrevButtonHover_MaterialCustom:before,
+.dx-acc-r .dxWeb_igPrevButtonPressed_MaterialCustom:before,
+.dx-acc-r .dxWeb_isDot_MaterialCustom:before,
+.dx-acc-r .dxWeb_isDotDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_isDotPressed_MaterialCustom:before,
+.dx-acc-r .dxWeb_isDotSelected_MaterialCustom:before,
+.dx-acc-r .dxWeb_isNextBtnHor_MaterialCustom:before,
+.dx-acc-r .dxWeb_isNextBtnHorDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_isNextBtnVert_MaterialCustom:before,
+.dx-acc-r .dxWeb_isNextBtnVertDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_isNextPageBtnHor_MaterialCustom:before,
+.dx-acc-r .dxWeb_isNextPageBtnHorDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_isNextPageBtnHorOutside_MaterialCustom:before,
+.dx-acc-r .dxWeb_isNextPageBtnHorOutsideDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_isNextPageBtnVert_MaterialCustom:before,
+.dx-acc-r .dxWeb_isNextPageBtnVertDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_isNextPageBtnVertOutside_MaterialCustom:before,
+.dx-acc-r .dxWeb_isNextPageBtnVertOutsideDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_isPauseBtn_MaterialCustom:before,
+.dx-acc-r .dxWeb_isPlayBtn_MaterialCustom:before,
+.dx-acc-r .dxWeb_isPrevBtnHor_MaterialCustom:before,
+.dx-acc-r .dxWeb_isPrevBtnHorDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_isPrevBtnVert_MaterialCustom:before,
+.dx-acc-r .dxWeb_isPrevBtnVertDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_isPrevPageBtnHor_MaterialCustom:before,
+.dx-acc-r .dxWeb_isPrevPageBtnHorDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_isPrevPageBtnHorOutside_MaterialCustom:before,
+.dx-acc-r .dxWeb_isPrevPageBtnHorOutsideDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_isPrevPageBtnVert_MaterialCustom:before,
+.dx-acc-r .dxWeb_isPrevPageBtnVertDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_isPrevPageBtnVertOutside_MaterialCustom:before,
+.dx-acc-r .dxWeb_isPrevPageBtnVertOutsideDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_izEWCloseButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_izHint_MaterialCustom:before,
+.dx-acc-r .dxWeb_mAdaptiveMenu_MaterialCustom:before,
+.dx-acc-r .dxWeb_mHorizontalPopOut_MaterialCustom:before,
+.dx-acc-r .dxWeb_mScrollDown_MaterialCustom:before,
+.dx-acc-r .dxWeb_mScrollUp_MaterialCustom:before,
+.dx-acc-r .dxWeb_mSubMenuItem_MaterialCustom:before,
+.dx-acc-r .dxWeb_mSubMenuItemChecked_MaterialCustom:before,
+.dx-acc-r .dxWeb_mVerticalPopOut_MaterialCustom:before,
+.dx-acc-r .dxWeb_mVerticalPopOutRtl_MaterialCustom:before,
+.dx-acc-r .dxWeb_nbCollapse_MaterialCustom:before,
+.dx-acc-r .dxWeb_nbExpand_MaterialCustom:before,
+.dx-acc-r .dxWeb_pAll_MaterialCustom:before,
+.dx-acc-r .dxWeb_pAllDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_pcCloseButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_pcCollapseButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_pcExpandButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_pcMaximizeButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_pcPinButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_pcRefreshButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_pcSizeGrip_MaterialCustom:before,
+.dx-acc-r .dxWeb_pcSizeGripRtl_MaterialCustom:before,
+.dx-acc-r .dxWeb_pFirst_MaterialCustom:before,
+.dx-acc-r .dxWeb_pFirstDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_pLast_MaterialCustom:before,
+.dx-acc-r .dxWeb_pLastDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_pNext_MaterialCustom:before,
+.dx-acc-r .dxWeb_pNextDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_pnlExpand_MaterialCustom:before,
+.dx-acc-r .dxWeb_pnlExpandArrowBottom_MaterialCustom:before,
+.dx-acc-r .dxWeb_pnlExpandArrowLeft_MaterialCustom:before,
+.dx-acc-r .dxWeb_pnlExpandArrowRight_MaterialCustom:before,
+.dx-acc-r .dxWeb_pnlExpandArrowTop_MaterialCustom:before,
+.dx-acc-r .dxWeb_pPopOut_MaterialCustom:before,
+.dx-acc-r .dxWeb_pPopOutDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_pPrev_MaterialCustom:before,
+.dx-acc-r .dxWeb_pPrevDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_rDialogBoxLauncher_MaterialCustom:before,
+.dx-acc-r .dxWeb_rDialogBoxLauncherDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_rDialogBoxLauncherHover_MaterialCustom:before,
+.dx-acc-r .dxWeb_rDialogBoxLauncherPressed_MaterialCustom:before,
+.dx-acc-r .dxWeb_rGlrDown_MaterialCustom:before,
+.dx-acc-r .dxWeb_rGlrDownDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_rGlrDownHover_MaterialCustom:before,
+.dx-acc-r .dxWeb_rGlrPopOut_MaterialCustom:before,
+.dx-acc-r .dxWeb_rGlrPopOutDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_rGlrPopOutHover_MaterialCustom:before,
+.dx-acc-r .dxWeb_rGlrUp_MaterialCustom:before,
+.dx-acc-r .dxWeb_rGlrUpDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_rGlrUpHover_MaterialCustom:before,
+.dx-acc-r .dxWeb_rMinBtn_MaterialCustom:before,
+.dx-acc-r .dxWeb_rMinBtn_MaterialCustom.dxWeb_rMinBtnHover_MaterialCustom:before,
+.dx-acc-r .dxWeb_rMinBtn_MaterialCustom.dxWeb_rMinBtnPressed_MaterialCustom:before,
+.dx-acc-r .dxWeb_rMinBtnChecked_MaterialCustom.dxWeb_rMinBtn_MaterialCustom:before,
+.dx-acc-r .dxWeb_rMinBtnChecked_MaterialCustom.dxWeb_rMinBtnDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_rMinBtnChecked_MaterialCustom.dxWeb_rMinBtnHover_MaterialCustom:before,
+.dx-acc-r .dxWeb_rMinBtnChecked_MaterialCustom.dxWeb_rMinBtnPressed_MaterialCustom:before,
+.dx-acc-r .dxWeb_rMinBtnDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_rpCollapseButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_rPinBtn_MaterialCustom:before,
+.dx-acc-r .dxWeb_rPopOut_MaterialCustom:before,
+.dx-acc-r .dxWeb_splHCollapseBackwardButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_splHCollapseBackwardButtonHover_MaterialCustom:before,
+.dx-acc-r .dxWeb_splHCollapseForwardButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_splHCollapseForwardButtonHover_MaterialCustom:before,
+.dx-acc-r .dxWeb_splHSeparator_MaterialCustom:before,
+.dx-acc-r .dxWeb_splHSeparatorHover_MaterialCustom:before,
+.dx-acc-r .dxWeb_splVCollapseBackwardButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_splVCollapseBackwardButtonHover_MaterialCustom:before,
+.dx-acc-r .dxWeb_splVCollapseForwardButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_splVCollapseForwardButtonHover_MaterialCustom:before,
+.dx-acc-r .dxWeb_splVSeparator_MaterialCustom:before,
+.dx-acc-r .dxWeb_splVSeparatorHover_MaterialCustom:before,
+.dx-acc-r .dxWeb_tcScrollLeft_MaterialCustom:before,
+.dx-acc-r .dxWeb_tcScrollLeftDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_tcScrollLeftHover_MaterialCustom:before,
+.dx-acc-r .dxWeb_tcScrollLeftPressed_MaterialCustom:before,
+.dx-acc-r .dxWeb_tcScrollRight_MaterialCustom:before,
+.dx-acc-r .dxWeb_tcScrollRightDisabled_MaterialCustom:before,
+.dx-acc-r .dxWeb_tcScrollRightHover_MaterialCustom:before,
+.dx-acc-r .dxWeb_tcScrollRightPressed_MaterialCustom:before,
+.dx-acc-r .dxWeb_tvColBtn_MaterialCustom:before,
+.dx-acc-r .dxWeb_tvColBtnRtl_MaterialCustom:before,
+.dx-acc-r .dxWeb_tvExpBtn_MaterialCustom:before,
+.dx-acc-r .dxWeb_tvExpBtnRtl_MaterialCustom:before,
+.dx-acc-r .dxWeb_ucClearButton_MaterialCustom:before,
+.dx-acc-r .dxWeb_ucClearButtonDisabled_MaterialCustom:before,
+.dx-acc-r div.dxfm-fileF .dxWeb_edtCheckBoxChecked_MaterialCustom:before,
+.dx-acc-r div.dxfm-fileF .dxWeb_edtCheckBoxUnchecked_MaterialCustom:before,
+.dx-acc-r div.dxfm-fileF.dxfm-file.dxfm-fileSA .dxWeb_edtCheckBoxChecked_MaterialCustom:before,
+.dx-acc-r div.dxfm-fileF.dxfm-file.dxfm-fileSI .dxWeb_edtCheckBoxChecked_MaterialCustom:before,
+.dx-acc-r div.dxfm-fileH.dxfm-file.dxfm-fileSA .dxWeb_edtCheckBoxChecked_MaterialCustom:before,
+.dx-acc-r div.dxfm-fileH.dxfm-file.dxfm-fileSI .dxWeb_edtCheckBoxChecked_MaterialCustom:before,
+.dx-acc-r div.dxfm-fileSA.dxfm-file .dxWeb_edtCheckBoxChecked_MaterialCustom:before
+
+{
+    content: url('sprite.svg');
+
+}
+.dx-acc-r .dxctToolbar_MaterialCustom .dxm-hovered .dxWeb_mAdaptiveMenu_MaterialCustom:before
+
+{
+    left: -170px;
+    top: -187px;
+
+}
+.dx-acc-r .dxctToolbar_MaterialCustom .dxm-hovered .dxWeb_mHorizontalPopOut_MaterialCustom:before
+
+{
+    left: -268px;
+    top: -266px;
+
+}
+.dx-acc-r .dxctToolbar_MaterialCustom .dxWeb_mAdaptiveMenu_MaterialCustom:before
+
+{
+    left: -102px;
+    top: -187px;
+
+}
+.dx-acc-r .dxeListBoxItemSelected_MaterialCustom .dxWeb_edtCheckBoxChecked_MaterialCustom:before
+
+{
+    left: -228px;
+    top: -151px;
+
+}
+.dx-acc-r .dxfmControl_MaterialCustom .dxmLite_MaterialCustom .dxm-popupMain .dxm-gutter .dxm-hovered .dxWeb_fmCopyButton_MaterialCustom:before
+
+{
+    left: -85px;
+    top: -187px;
+
+}
+.dx-acc-r .dxfmControl_MaterialCustom .dxmLite_MaterialCustom .dxm-popupMain .dxm-gutter .dxm-hovered .dxWeb_fmCreateButton_MaterialCustom:before
+
+{
+    left: -170px;
+    top: -204px;
+
+}
+.dx-acc-r .dxfmControl_MaterialCustom .dxmLite_MaterialCustom .dxm-popupMain .dxm-gutter .dxm-hovered .dxWeb_fmDeleteButton_MaterialCustom:before
+
+{
+    left: -221px;
+    top: -170px;
+
+}
+.dx-acc-r .dxfmControl_MaterialCustom .dxmLite_MaterialCustom .dxm-popupMain .dxm-gutter .dxm-hovered .dxWeb_fmDwnlButton_MaterialCustom:before
+
+{
+    left: -102px;
+    top: -221px;
+
+}
+.dx-acc-r .dxfmControl_MaterialCustom .dxmLite_MaterialCustom .dxm-popupMain .dxm-gutter .dxm-hovered .dxWeb_fmMoveButton_MaterialCustom:before
+
+{
+    left: -204px;
+    top: -221px;
+
+}
+.dx-acc-r .dxfmControl_MaterialCustom .dxmLite_MaterialCustom .dxm-popupMain .dxm-gutter .dxm-hovered .dxWeb_fmRefreshButton_MaterialCustom:before
+
+{
+    left: -221px;
+    top: -221px;
+
+}
+.dx-acc-r .dxfmControl_MaterialCustom .dxmLite_MaterialCustom .dxm-popupMain .dxm-gutter .dxm-hovered .dxWeb_fmRenameButton_MaterialCustom:before
+
+{
+    left: -255px;
+    top: -170px;
+
+}
+.dx-acc-r .dxfmControl_MaterialCustom .dxmLite_MaterialCustom .dxm-popupMain .dxm-gutter .dxm-hovered .dxWeb_fmUplButton_MaterialCustom:before
+
+{
+    left: -153px;
+    top: -221px;
+
+}
+.dx-acc-r .dxfm-file .dxWeb_edtCheckBoxChecked_MaterialCustom:before
+
+{
+    left: -76px;
+    top: -132px;
+
+}
+.dx-acc-r .dxfm-file .dxWeb_edtCheckBoxUnchecked_MaterialCustom:before
+
+{
+    left: -133px;
+    top: -151px;
+
+}
+.dx-acc-r .dxgvFocusedRow_MaterialCustom .dxWeb_edtCheckBoxChecked_MaterialCustom:before
+
+{
+    left: -38px;
+    top: -132px;
+
+}
+.dx-acc-r .dxgvFocusedRow_MaterialCustom .dxWeb_edtCheckBoxGrayed_MaterialCustom:before
+
+{
+    left: -266px;
+    top: -151px;
+
+}
+.dx-acc-r .dxgvFocusedRow_MaterialCustom .dxWeb_edtCheckBoxUnchecked_MaterialCustom:before
+
+{
+    left: -209px;
+    top: -151px;
+
+}
+.dx-acc-r .dxigControl_MaterialCustom.dxTouchUI .dxWeb_igCloseButton_MaterialCustom:before
+
+{
+    left: -105px;
+    top: -111px;
+
+}
+.dx-acc-r .dxigControl_MaterialCustom.dxTouchUI .dxWeb_igPauseButton_MaterialCustom:before
+
+{
+    left: -126px;
+    top: -111px;
+
+}
+.dx-acc-r .dxigControl_MaterialCustom.dxTouchUI .dxWeb_igPlayButton_MaterialCustom:before
+
+{
+    left: -42px;
+    top: -111px;
+
+}
+.dx-acc-r .dxm-checked .dxWeb_mHorizontalPopOut_MaterialCustom:before
+
+{
+    left: -208px;
+    top: -266px;
+
+}
+.dx-acc-r .dxm-checked .dxWeb_mVerticalPopOut_MaterialCustom:before
+
+{
+    left: -150px;
+    top: -279px;
+
+}
+.dx-acc-r .dxm-checked .dxWeb_mVerticalPopOutRtl_MaterialCustom:before
+
+{
+    left: -302px;
+    top: -151px;
+
+}
+.dx-acc-r .dxm-checked.dxm-hovered .dxWeb_mHorizontalPopOut_MaterialCustom:before
+
+{
+    left: -288px;
+    top: -266px;
+
+}
+.dx-acc-r .dxm-checked.dxm-hovered .dxWeb_mSubMenuItemChecked_MaterialCustom:before
+
+{
+    left: -76px;
+    top: -151px;
+
+}
+.dx-acc-r .dxm-checked.dxm-hovered .dxWeb_mVerticalPopOut_MaterialCustom:before
+
+{
+    left: -100px;
+    top: -279px;
+
+}
+.dx-acc-r .dxm-checked.dxm-hovered .dxWeb_mVerticalPopOutRtl_MaterialCustom:before
+
+{
+    left: -50px;
+    top: -279px;
+
+}
+.dx-acc-r .dxm-disabled .dxWeb_mHorizontalPopOut_MaterialCustom:before
+
+{
+    left: -298px;
+    top: -266px;
+
+}
+.dx-acc-r .dxm-disabled .dxWeb_mVerticalPopOut_MaterialCustom:before
+
+{
+    left: -140px;
+    top: -279px;
+
+}
+.dx-acc-r .dxm-disabled .dxWeb_mVerticalPopOutRtl_MaterialCustom:before
+
+{
+    left: -80px;
+    top: -279px;
+
+}
+.dx-acc-r .dxm-hovered .dxWeb_fmCopyButton_MaterialCustom:before
+
+{
+    left: -34px;
+    top: -221px;
+
+}
+.dx-acc-r .dxm-hovered .dxWeb_fmCreateButton_MaterialCustom:before
+
+{
+    left: -68px;
+    top: -170px;
+
+}
+.dx-acc-r .dxm-hovered .dxWeb_fmDeleteButton_MaterialCustom:before
+
+{
+    left: -289px;
+    top: -187px;
+
+}
+.dx-acc-r .dxm-hovered .dxWeb_fmDwnlButton_MaterialCustom:before
+
+{
+    left: -68px;
+    top: -204px;
+
+}
+.dx-acc-r .dxm-hovered .dxWeb_fmMoveButton_MaterialCustom:before
+
+{
+    left: -255px;
+    top: -221px;
+
+}
+.dx-acc-r .dxm-hovered .dxWeb_fmRefreshButton_MaterialCustom:before
+
+{
+    left: -187px;
+    top: -221px;
+
+}
+.dx-acc-r .dxm-hovered .dxWeb_fmRenameButton_MaterialCustom:before
+
+{
+    left: -289px;
+    top: -204px;
+
+}
+.dx-acc-r .dxm-hovered .dxWeb_fmUplButton_MaterialCustom:before
+
+{
+    left: -221px;
+    top: -187px;
+
+}
+.dx-acc-r .dxm-hovered .dxWeb_mAdaptiveMenu_MaterialCustom:before
+
+{
+    left: -17px;
+    top: -204px;
+
+}
+.dx-acc-r .dxm-hovered .dxWeb_mHorizontalPopOut_MaterialCustom:before
+
+{
+    left: -90px;
+    top: -279px;
+
+}
+.dx-acc-r .dxm-hovered .dxWeb_mVerticalPopOut_MaterialCustom:before
+
+{
+    left: -30px;
+    top: -279px;
+
+}
+.dx-acc-r .dxm-hovered .dxWeb_mVerticalPopOutRtl_MaterialCustom:before
+
+{
+    left: -130px;
+    top: -279px;
+
+}
+.dx-acc-r .dxmLite_MaterialCustom .dxm-left .dxm-back-icon:before
+
+{
+    left: -105px;
+    top: -238px;
+
+}
+.dx-acc-r .dxm-scrollBtnHovered .dxWeb_mScrollDown_MaterialCustom:before
+
+{
+    left: -228px;
+    top: -266px;
+
+}
+.dx-acc-r .dxm-scrollBtnHovered .dxWeb_mScrollUp_MaterialCustom:before
+
+{
+    left: -178px;
+    top: -266px;
+
+}
+.dx-acc-r .dxm-scrollBtnPressed .dxWeb_mScrollDown_MaterialCustom:before
+
+{
+    left: -160px;
+    top: -279px;
+
+}
+.dx-acc-r .dxm-scrollBtnPressed .dxWeb_mScrollUp_MaterialCustom:before
+
+{
+    left: -258px;
+    top: -266px;
+
+}
+.dx-acc-r .dxm-selected .dxWeb_mHorizontalPopOut_MaterialCustom:before
+
+{
+    left: -200px;
+    top: -279px;
+
+}
+.dx-acc-r .dxm-selected .dxWeb_mSubMenuItemChecked_MaterialCustom:before
+
+{
+    left: -30px;
+    top: -238px;
+
+}
+.dx-acc-r .dxm-selected .dxWeb_mVerticalPopOut_MaterialCustom:before
+
+{
+    left: -110px;
+    top: -279px;
+
+}
+.dx-acc-r .dxm-selected .dxWeb_mVerticalPopOutRtl_MaterialCustom:before
+
+{
+    left: -168px;
+    top: -266px;
+
+}
+.dx-acc-r .dxm-selected.dxm-hovered .dxWeb_mHorizontalPopOut_MaterialCustom:before
+
+{
+    left: -198px;
+    top: -266px;
+
+}
+.dx-acc-r .dxm-selected.dxm-hovered .dxWeb_mVerticalPopOut_MaterialCustom:before
+
+{
+    left: 0px;
+    top: -279px;
+
+}
+.dx-acc-r .dxm-selected.dxm-hovered .dxWeb_mVerticalPopOutRtl_MaterialCustom:before
+
+{
+    left: -248px;
+    top: -266px;
+
+}
+.dx-acc-r .dxm-vertical .dxm-checked .dxWeb_mVerticalPopOut_MaterialCustom:before
+
+{
+    left: -60px;
+    top: -279px;
+
+}
+.dx-acc-r .dxm-vertical .dxm-checked.dxm-hovered .dxWeb_mVerticalPopOut_MaterialCustom:before
+
+{
+    left: -148px;
+    top: -266px;
+
+}
+.dx-acc-r .dxm-vertical .dxm-hovered .dxWeb_mVerticalPopOut_MaterialCustom:before
+
+{
+    left: -238px;
+    top: -266px;
+
+}
+.dx-acc-r .dxm-vertical .dxm-selected .dxWeb_mVerticalPopOut_MaterialCustom:before
+
+{
+    left: -278px;
+    top: -266px;
+
+}
+.dx-acc-r .dxm-vertical .dxm-selected.dxm-hovered .dxWeb_mVerticalPopOut_MaterialCustom:before
+
+{
+    left: -190px;
+    top: -279px;
+
+}
+.dx-acc-r .dxm-vertical .dxWeb_mVerticalPopOut_MaterialCustom:before
+
+{
+    left: -210px;
+    top: -279px;
+
+}
+.dx-acc-r .dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_MaterialCustom:before
+
+{
+    left: -45px;
+    top: -238px;
+
+}
+.dx-acc-r .dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_MaterialCustom:before
+
+{
+    left: -272px;
+    top: -170px;
+
+}
+.dx-acc-r .dxpc-pinBtnChecked .dxWeb_pcPinButton_MaterialCustom:before
+
+{
+    left: 0px;
+    top: -238px;
+
+}
+.dx-acc-r .dxp-hoverDropDownButton .dxWeb_pPopOut_MaterialCustom:before
+
+{
+    left: -105px;
+    top: -266px;
+
+}
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpand_MaterialCustom:before
+
+{
+    left: -152px;
+    top: -132px;
+
+}
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpandArrowBottom_MaterialCustom:before
+
+{
+    left: -285px;
+    top: -151px;
+
+}
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpandArrowLeft_MaterialCustom:before
+
+{
+    left: -136px;
+    top: -221px;
+
+}
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpandArrowRight_MaterialCustom:before
+
+{
+    left: -187px;
+    top: -187px;
+
+}
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpandArrowTop_MaterialCustom:before
+
+{
+    left: 0px;
+    top: -221px;
+
+}
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpand_MaterialCustom:before
+
+{
+    left: -266px;
+    top: -132px;
+
+}
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_MaterialCustom:before
+
+{
+    left: -119px;
+    top: -170px;
+
+}
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_MaterialCustom:before
+
+{
+    left: -187px;
+    top: -204px;
+
+}
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_MaterialCustom:before
+
+{
+    left: -136px;
+    top: -204px;
+
+}
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_MaterialCustom:before
+
+{
+    left: -153px;
+    top: -187px;
+
+}
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpand_MaterialCustom:before
+
+{
+    left: -204px;
+    top: -187px;
+
+}
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpandArrowBottom_MaterialCustom:before
+
+{
+    left: -153px;
+    top: -204px;
+
+}
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpandArrowLeft_MaterialCustom:before
+
+{
+    left: -102px;
+    top: -170px;
+
+}
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpandArrowRight_MaterialCustom:before
+
+{
+    left: -85px;
+    top: -221px;
+
+}
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpandArrowTop_MaterialCustom:before
+
+{
+    left: -51px;
+    top: -187px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpand_MaterialCustom:before
+
+{
+    left: -119px;
+    top: -221px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowBottom_MaterialCustom:before
+
+{
+    left: -272px;
+    top: -187px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowLeft_MaterialCustom:before
+
+{
+    left: -255px;
+    top: -204px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowRight_MaterialCustom:before
+
+{
+    left: -272px;
+    top: -204px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowTop_MaterialCustom:before
+
+{
+    left: -289px;
+    top: -170px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpand_MaterialCustom:before
+
+{
+    left: -68px;
+    top: -221px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_MaterialCustom:before
+
+{
+    left: -34px;
+    top: -187px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_MaterialCustom:before
+
+{
+    left: -238px;
+    top: -204px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_MaterialCustom:before
+
+{
+    left: -238px;
+    top: -221px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_MaterialCustom:before
+
+{
+    left: -85px;
+    top: -170px;
+
+}
+.dx-acc-r .dxp-pressedDropDownButton .dxWeb_pPopOut_MaterialCustom:before
+
+{
+    left: -61px;
+    top: -266px;
+
+}
+.dx-acc-r .dxr-glrBtnPressed .dxWeb_rGlrDown_MaterialCustom:before
+
+{
+    left: -259px;
+    top: -279px;
+
+}
+.dx-acc-r .dxr-glrBtnPressed .dxWeb_rGlrPopOut_MaterialCustom:before
+
+{
+    left: -304px;
+    top: -132px;
+
+}
+.dx-acc-r .dxr-glrBtnPressed .dxWeb_rGlrUp_MaterialCustom:before
+
+{
+    left: -275px;
+    top: -279px;
+
+}
+.dx-acc-r .dxr-grExpBtnHover .dxWeb_rPopOut_MaterialCustom:before
+
+{
+    left: -20px;
+    top: -279px;
+
+}
+.dx-acc-r .dxr-grExpBtnPressed .dxWeb_rPopOut_MaterialCustom:before
+
+{
+    left: -70px;
+    top: -279px;
+
+}
+.dx-acc-r .dxr-itemDisabled .dxWeb_rPopOut_MaterialCustom:before
+
+{
+    left: -188px;
+    top: -266px;
+
+}
+.dx-acc-r .dxr-itemHover .dxWeb_rPopOut_MaterialCustom:before
+
+{
+    left: -10px;
+    top: -279px;
+
+}
+.dx-acc-r .dxr-itemPressed .dxWeb_rPopOut_MaterialCustom:before
+
+{
+    left: -120px;
+    top: -279px;
+
+}
+.dx-acc-r .dxrp-collapseBtnHover .dxWeb_rpCollapseButton_MaterialCustom:before
+
+{
+    left: -288px;
+    top: -238px;
+
+}
+.dx-acc-r .dxrp-collapseBtnPressed .dxWeb_rpCollapseButton_MaterialCustom:before
+
+{
+    left: -195px;
+    top: -253px;
+
+}
+.dx-acc-r .dxrpCollapsed .dxrp-collapseBtnHover .dxWeb_rpCollapseButton_MaterialCustom:before
+
+{
+    left: 0px;
+    top: -253px;
+
+}
+.dx-acc-r .dxrpCollapsed .dxrp-collapseBtnPressed .dxWeb_rpCollapseButton_MaterialCustom:before
+
+{
+    left: -247px;
+    top: -253px;
+
+}
+.dx-acc-r .dxrpCollapsed .dxWeb_rpCollapseButton_MaterialCustom:before
+
+{
+    left: -208px;
+    top: -253px;
+
+}
+.dx-acc-r .dxtlFocusedNode_MaterialCustom .dxWeb_edtCheckBoxChecked_MaterialCustom:before
+
+{
+    left: -247px;
+    top: -132px;
+
+}
+.dx-acc-r .dxtlFocusedNode_MaterialCustom .dxWeb_edtCheckBoxGrayed_MaterialCustom:before
+
+{
+    left: -190px;
+    top: -151px;
+
+}
+.dx-acc-r .dxtlFocusedNode_MaterialCustom .dxWeb_edtCheckBoxUnchecked_MaterialCustom:before
+
+{
+    left: -57px;
+    top: -132px;
+
+}
+.dx-acc-r .dxtv-ndSel .dxWeb_edtCheckBoxChecked_MaterialCustom:before
+
+{
+    left: -95px;
+    top: -132px;
+
+}
+.dx-acc-r .dxtv-ndSel .dxWeb_edtCheckBoxGrayed_MaterialCustom:before
+
+{
+    left: -247px;
+    top: -151px;
+
+}
+.dx-acc-r .dxtv-ndSel .dxWeb_edtCheckBoxUnchecked_MaterialCustom:before
+
+{
+    left: -292px;
+    top: -111px;
+
+}
+.dx-acc-r .dxtv-ndSel .dxWeb_fmFolder_MaterialCustom:before
+
+{
+    left: -119px;
+    top: -187px;
+
+}
+.dx-acc-r .dxtv-ndSel .dxWeb_fmFolderLocked_MaterialCustom:before
+
+{
+    left: -136px;
+    top: -187px;
+
+}
+.dx-acc-r .dxWeb_edtCheckBoxChecked_MaterialCustom:before
+
+{
+    left: 0px;
+    top: -151px;
+
+}
+.dx-acc-r .dxWeb_edtCheckBoxCheckedDisabled_MaterialCustom:before
+
+{
+    left: -152px;
+    top: -151px;
+
+}
+.dx-acc-r .dxWeb_edtCheckBoxGrayed_MaterialCustom:before
+
+{
+    left: -133px;
+    top: -132px;
+
+}
+.dx-acc-r .dxWeb_edtCheckBoxGrayedDisabled_MaterialCustom:before
+
+{
+    left: -95px;
+    top: -151px;
+
+}
+.dx-acc-r .dxWeb_edtCheckBoxUnchecked_MaterialCustom:before
+
+{
+    left: -57px;
+    top: -151px;
+
+}
+.dx-acc-r .dxWeb_edtCheckBoxUncheckedDisabled_MaterialCustom:before
+
+{
+    left: -285px;
+    top: -132px;
+
+}
+.dx-acc-r .dxWeb_fmBreadCrumbsSeparatorArrow_MaterialCustom:before
+
+{
+    left: -306px;
+    top: -9px;
+
+}
+.dx-acc-r .dxWeb_fmBreadCrumbsUpButton_MaterialCustom:before
+
+{
+    left: -153px;
+    top: -170px;
+
+}
+.dx-acc-r .dxWeb_fmBreadCrumbsUpButtonDisabled_MaterialCustom:before
+
+{
+    left: -238px;
+    top: -170px;
+
+}
+.dx-acc-r .dxWeb_fmBreadCrumbsUpButtonHover_MaterialCustom:before
+
+{
+    left: -238px;
+    top: -187px;
+
+}
+.dx-acc-r .dxWeb_fmCopyButton_MaterialCustom:before
+
+{
+    left: -170px;
+    top: -221px;
+
+}
+.dx-acc-r .dxWeb_fmCopyButtonDisabled_MaterialCustom:before
+
+{
+    left: -204px;
+    top: -170px;
+
+}
+.dx-acc-r .dxWeb_fmCreateButton_MaterialCustom:before
+
+{
+    left: -34px;
+    top: -204px;
+
+}
+.dx-acc-r .dxWeb_fmCreateButtonDisabled_MaterialCustom:before
+
+{
+    left: -51px;
+    top: -221px;
+
+}
+.dx-acc-r .dxWeb_fmDeleteButton_MaterialCustom:before
+
+{
+    left: 0px;
+    top: -204px;
+
+}
+.dx-acc-r .dxWeb_fmDeleteButtonDisabled_MaterialCustom:before
+
+{
+    left: -17px;
+    top: -170px;
+
+}
+.dx-acc-r .dxWeb_fmDwnlButton_MaterialCustom:before
+
+{
+    left: -34px;
+    top: -170px;
+
+}
+.dx-acc-r .dxWeb_fmDwnlButtonDisabled_MaterialCustom:before
+
+{
+    left: -255px;
+    top: -187px;
+
+}
+.dx-acc-r .dxWeb_fmExpandFolderContBtn_MaterialCustom:before
+
+{
+    left: -190px;
+    top: -132px;
+
+}
+.dx-acc-r .dxWeb_fmFolder_MaterialCustom:before
+
+{
+    left: -272px;
+    top: -221px;
+
+}
+.dx-acc-r .dxWeb_fmFolderLocked_MaterialCustom:before
+
+{
+    left: -51px;
+    top: -204px;
+
+}
+.dx-acc-r .dxWeb_fmMoveButton_MaterialCustom:before
+
+{
+    left: -17px;
+    top: -187px;
+
+}
+.dx-acc-r .dxWeb_fmMoveButtonDisabled_MaterialCustom:before
+
+{
+    left: -187px;
+    top: -170px;
+
+}
+.dx-acc-r .dxWeb_fmRefreshButton_MaterialCustom:before
+
+{
+    left: -136px;
+    top: -170px;
+
+}
+.dx-acc-r .dxWeb_fmRefreshButtonDisabled_MaterialCustom:before
+
+{
+    left: 0px;
+    top: -170px;
+
+}
+.dx-acc-r .dxWeb_fmRenameButton_MaterialCustom:before
+
+{
+    left: 0px;
+    top: -187px;
+
+}
+.dx-acc-r .dxWeb_fmRenameButtonDisabled_MaterialCustom:before
+
+{
+    left: -102px;
+    top: -204px;
+
+}
+.dx-acc-r .dxWeb_fmUplButton_MaterialCustom:before
+
+{
+    left: -51px;
+    top: -170px;
+
+}
+.dx-acc-r .dxWeb_fmUplButtonDisabled_MaterialCustom:before
+
+{
+    left: -85px;
+    top: -204px;
+
+}
+.dx-acc-r .dxWeb_igCloseButton_MaterialCustom:before
+
+{
+    left: -168px;
+    top: -111px;
+
+}
+.dx-acc-r .dxWeb_igNavigationBarMarker_MaterialCustom:before
+
+{
+    left: -13px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_igNextButton_MaterialCustom:before
+
+{
+    left: -222px;
+    top: 0px;
+
+}
+.dx-acc-r .dxWeb_igNextButtonDisabled_MaterialCustom:before
+
+{
+    left: -111px;
+    top: -37px;
+
+}
+.dx-acc-r .dxWeb_igNextButtonHover_MaterialCustom:before
+
+{
+    left: -148px;
+    top: 0px;
+
+}
+.dx-acc-r .dxWeb_igNextButtonPressed_MaterialCustom:before
+
+{
+    left: -37px;
+    top: -37px;
+
+}
+.dx-acc-r .dxWeb_igPauseButton_MaterialCustom:before
+
+{
+    left: -147px;
+    top: -111px;
+
+}
+.dx-acc-r .dxWeb_igPlayButton_MaterialCustom:before
+
+{
+    left: -189px;
+    top: -111px;
+
+}
+.dx-acc-r .dxWeb_igPrevButton_MaterialCustom:before
+
+{
+    left: -148px;
+    top: -37px;
+
+}
+.dx-acc-r .dxWeb_igPrevButtonDisabled_MaterialCustom:before
+
+{
+    left: -185px;
+    top: -74px;
+
+}
+.dx-acc-r .dxWeb_igPrevButtonHover_MaterialCustom:before
+
+{
+    left: -259px;
+    top: -74px;
+
+}
+.dx-acc-r .dxWeb_igPrevButtonPressed_MaterialCustom:before
+
+{
+    left: -37px;
+    top: -74px;
+
+}
+.dx-acc-r .dxWeb_isDot_MaterialCustom:before
+
+{
+    left: 0px;
+    top: -111px;
+
+}
+.dx-acc-r .dxWeb_isDotDisabled_MaterialCustom:before
+
+{
+    left: -210px;
+    top: -111px;
+
+}
+.dx-acc-r .dxWeb_isDotPressed_MaterialCustom:before
+
+{
+    left: -63px;
+    top: -111px;
+
+}
+.dx-acc-r .dxWeb_isDotSelected_MaterialCustom:before
+
+{
+    left: -252px;
+    top: -111px;
+
+}
+.dx-acc-r .dxWeb_isNextBtnHor_MaterialCustom:before
+
+{
+    left: -185px;
+    top: 0px;
+
+}
+.dx-acc-r .dxWeb_isNextBtnHorDisabled_MaterialCustom:before
+
+{
+    left: -74px;
+    top: -74px;
+
+}
+.dx-acc-r .dxWeb_isNextBtnVert_MaterialCustom:before
+
+{
+    left: -259px;
+    top: -37px;
+
+}
+.dx-acc-r .dxWeb_isNextBtnVertDisabled_MaterialCustom:before
+
+{
+    left: -259px;
+    top: 0px;
+
+}
+.dx-acc-r .dxWeb_isNextPageBtnHor_MaterialCustom:before
+
+{
+    left: -223px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_isNextPageBtnHorDisabled_MaterialCustom:before
+
+{
+    left: -234px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_isNextPageBtnHorOutside_MaterialCustom:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxWeb_isNextPageBtnHorOutsideDisabled_MaterialCustom:before
+
+{
+    left: -37px;
+    top: 0px;
+
+}
+.dx-acc-r .dxWeb_isNextPageBtnVert_MaterialCustom:before
+
+{
+    left: -119px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_isNextPageBtnVertDisabled_MaterialCustom:before
+
+{
+    left: -91px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_isNextPageBtnVertOutside_MaterialCustom:before
+
+{
+    left: -148px;
+    top: -74px;
+
+}
+.dx-acc-r .dxWeb_isNextPageBtnVertOutsideDisabled_MaterialCustom:before
+
+{
+    left: 0px;
+    top: -37px;
+
+}
+.dx-acc-r .dxWeb_isPauseBtn_MaterialCustom:before
+
+{
+    left: -21px;
+    top: -111px;
+
+}
+.dx-acc-r .dxWeb_isPlayBtn_MaterialCustom:before
+
+{
+    left: -84px;
+    top: -111px;
+
+}
+.dx-acc-r .dxWeb_isPrevBtnHor_MaterialCustom:before
+
+{
+    left: -222px;
+    top: -37px;
+
+}
+.dx-acc-r .dxWeb_isPrevBtnHorDisabled_MaterialCustom:before
+
+{
+    left: -185px;
+    top: -37px;
+
+}
+.dx-acc-r .dxWeb_isPrevBtnVert_MaterialCustom:before
+
+{
+    left: -111px;
+    top: -74px;
+
+}
+.dx-acc-r .dxWeb_isPrevBtnVertDisabled_MaterialCustom:before
+
+{
+    left: -111px;
+    top: 0px;
+
+}
+.dx-acc-r .dxWeb_isPrevPageBtnHor_MaterialCustom:before
+
+{
+    left: -171px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_isPrevPageBtnHorDisabled_MaterialCustom:before
+
+{
+    left: -275px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_isPrevPageBtnHorOutside_MaterialCustom:before
+
+{
+    left: -74px;
+    top: 0px;
+
+}
+.dx-acc-r .dxWeb_isPrevPageBtnHorOutsideDisabled_MaterialCustom:before
+
+{
+    left: -222px;
+    top: -74px;
+
+}
+.dx-acc-r .dxWeb_isPrevPageBtnVert_MaterialCustom:before
+
+{
+    left: -26px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_isPrevPageBtnVertDisabled_MaterialCustom:before
+
+{
+    left: -26px;
+    top: -266px;
+
+}
+.dx-acc-r .dxWeb_isPrevPageBtnVertOutside_MaterialCustom:before
+
+{
+    left: -74px;
+    top: -37px;
+
+}
+.dx-acc-r .dxWeb_isPrevPageBtnVertOutsideDisabled_MaterialCustom:before
+
+{
+    left: 0px;
+    top: -74px;
+
+}
+.dx-acc-r .dxWeb_izEWCloseButton_MaterialCustom:before
+
+{
+    left: -221px;
+    top: -204px;
+
+}
+.dx-acc-r .dxWeb_izHint_MaterialCustom:before
+
+{
+    left: -90px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_mAdaptiveMenu_MaterialCustom:before
+
+{
+    left: -170px;
+    top: -170px;
+
+}
+.dx-acc-r .dxWeb_mHorizontalPopOut_MaterialCustom:before
+
+{
+    left: -138px;
+    top: -266px;
+
+}
+.dx-acc-r .dxWeb_mScrollDown_MaterialCustom:before
+
+{
+    left: -170px;
+    top: -279px;
+
+}
+.dx-acc-r .dxWeb_mScrollUp_MaterialCustom:before
+
+{
+    left: -180px;
+    top: -279px;
+
+}
+.dx-acc-r .dxWeb_mSubMenuItem_MaterialCustom:before
+
+{
+    left: -38px;
+    top: -151px;
+
+}
+.dx-acc-r .dxWeb_mSubMenuItemChecked_MaterialCustom:before
+
+{
+    left: -209px;
+    top: -132px;
+
+}
+.dx-acc-r .dxWeb_mVerticalPopOut_MaterialCustom:before
+
+{
+    left: -218px;
+    top: -266px;
+
+}
+.dx-acc-r .dxWeb_mVerticalPopOutRtl_MaterialCustom:before
+
+{
+    left: -40px;
+    top: -279px;
+
+}
+.dx-acc-r .dxWeb_nbCollapse_MaterialCustom:before
+
+{
+    left: -143px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_nbExpand_MaterialCustom:before
+
+{
+    left: -182px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_pAll_MaterialCustom:before
+
+{
+    left: -94px;
+    top: -266px;
+
+}
+.dx-acc-r .dxWeb_pAllDisabled_MaterialCustom:before
+
+{
+    left: -116px;
+    top: -266px;
+
+}
+.dx-acc-r .dxWeb_pcCloseButton_MaterialCustom:before
+
+{
+    left: -289px;
+    top: -221px;
+
+}
+.dx-acc-r .dxWeb_pcCollapseButton_MaterialCustom:before
+
+{
+    left: -60px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_pcExpandButton_MaterialCustom:before
+
+{
+    left: -296px;
+    top: -37px;
+
+}
+.dx-acc-r .dxWeb_pcMaximizeButton_MaterialCustom:before
+
+{
+    left: -75px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_pcPinButton_MaterialCustom:before
+
+{
+    left: -297px;
+    top: -22px;
+
+}
+.dx-acc-r .dxWeb_pcRefreshButton_MaterialCustom:before
+
+{
+    left: -296px;
+    top: -74px;
+
+}
+.dx-acc-r .dxWeb_pcSizeGrip_MaterialCustom:before
+
+{
+    left: -15px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_pcSizeGripRtl_MaterialCustom:before
+
+{
+    left: -297px;
+    top: -59px;
+
+}
+.dx-acc-r .dxWeb_pFirst_MaterialCustom:before
+
+{
+    left: -117px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_pFirstDisabled_MaterialCustom:before
+
+{
+    left: -65px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_pLast_MaterialCustom:before
+
+{
+    left: -221px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_pLastDisabled_MaterialCustom:before
+
+{
+    left: -13px;
+    top: -266px;
+
+}
+.dx-acc-r .dxWeb_pNext_MaterialCustom:before
+
+{
+    left: -132px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_pNextDisabled_MaterialCustom:before
+
+{
+    left: -104px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_pnlExpand_MaterialCustom:before
+
+{
+    left: 0px;
+    top: -132px;
+
+}
+.dx-acc-r .dxWeb_pnlExpandArrowBottom_MaterialCustom:before
+
+{
+    left: -119px;
+    top: -204px;
+
+}
+.dx-acc-r .dxWeb_pnlExpandArrowLeft_MaterialCustom:before
+
+{
+    left: -68px;
+    top: -187px;
+
+}
+.dx-acc-r .dxWeb_pnlExpandArrowRight_MaterialCustom:before
+
+{
+    left: -17px;
+    top: -221px;
+
+}
+.dx-acc-r .dxWeb_pnlExpandArrowTop_MaterialCustom:before
+
+{
+    left: -204px;
+    top: -204px;
+
+}
+.dx-acc-r .dxWeb_pPopOut_MaterialCustom:before
+
+{
+    left: -39px;
+    top: -266px;
+
+}
+.dx-acc-r .dxWeb_pPopOutDisabled_MaterialCustom:before
+
+{
+    left: -301px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_pPrev_MaterialCustom:before
+
+{
+    left: -262px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_pPrevDisabled_MaterialCustom:before
+
+{
+    left: -210px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_rDialogBoxLauncher_MaterialCustom:before
+
+{
+    left: -296px;
+    top: -89px;
+
+}
+.dx-acc-r .dxWeb_rDialogBoxLauncherDisabled_MaterialCustom:before
+
+{
+    left: -305px;
+    top: -231px;
+
+}
+.dx-acc-r .dxWeb_rDialogBoxLauncherHover_MaterialCustom:before
+
+{
+    left: -303px;
+    top: -89px;
+
+}
+.dx-acc-r .dxWeb_rDialogBoxLauncherPressed_MaterialCustom:before
+
+{
+    left: -220px;
+    top: -279px;
+
+}
+.dx-acc-r .dxWeb_rGlrDown_MaterialCustom:before
+
+{
+    left: -283px;
+    top: -279px;
+
+}
+.dx-acc-r .dxWeb_rGlrDownDisabled_MaterialCustom:before
+
+{
+    left: -243px;
+    top: -279px;
+
+}
+.dx-acc-r .dxWeb_rGlrDownHover_MaterialCustom:before
+
+{
+    left: -304px;
+    top: -284px;
+
+}
+.dx-acc-r .dxWeb_rGlrPopOut_MaterialCustom:before
+
+{
+    left: -304px;
+    top: -221px;
+
+}
+.dx-acc-r .dxWeb_rGlrPopOutDisabled_MaterialCustom:before
+
+{
+    left: -304px;
+    top: -162px;
+
+}
+.dx-acc-r .dxWeb_rGlrPopOutHover_MaterialCustom:before
+
+{
+    left: -304px;
+    top: -143px;
+
+}
+.dx-acc-r .dxWeb_rGlrUp_MaterialCustom:before
+
+{
+    left: -251px;
+    top: -279px;
+
+}
+.dx-acc-r .dxWeb_rGlrUpDisabled_MaterialCustom:before
+
+{
+    left: -291px;
+    top: -279px;
+
+}
+.dx-acc-r .dxWeb_rGlrUpHover_MaterialCustom:before
+
+{
+    left: -296px;
+    top: -284px;
+
+}
+.dx-acc-r .dxWeb_rMinBtn_MaterialCustom:before
+
+{
+    left: -286px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_rMinBtn_MaterialCustom.dxWeb_rMinBtnHover_MaterialCustom:before
+
+{
+    left: -249px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_rMinBtn_MaterialCustom.dxWeb_rMinBtnPressed_MaterialCustom:before
+
+{
+    left: -130px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_rMinBtnChecked_MaterialCustom.dxWeb_rMinBtn_MaterialCustom:before
+
+{
+    left: -299px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_rMinBtnChecked_MaterialCustom.dxWeb_rMinBtnDisabled_MaterialCustom:before
+
+{
+    left: -169px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_rMinBtnChecked_MaterialCustom.dxWeb_rMinBtnHover_MaterialCustom:before
+
+{
+    left: -184px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_rMinBtnChecked_MaterialCustom.dxWeb_rMinBtnPressed_MaterialCustom:before
+
+{
+    left: -273px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_rMinBtnDisabled_MaterialCustom:before
+
+{
+    left: -236px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_rpCollapseButton_MaterialCustom:before
+
+{
+    left: -197px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_rPinBtn_MaterialCustom:before
+
+{
+    left: -297px;
+    top: -96px;
+
+}
+.dx-acc-r .dxWeb_rPopOut_MaterialCustom:before
+
+{
+    left: -158px;
+    top: -266px;
+
+}
+.dx-acc-r .dxWeb_splHCollapseBackwardButton_MaterialCustom:before
+
+{
+    left: -267px;
+    top: -279px;
+
+}
+.dx-acc-r .dxWeb_splHCollapseBackwardButtonHover_MaterialCustom:before
+
+{
+    left: -299px;
+    top: -279px;
+
+}
+.dx-acc-r .dxWeb_splHCollapseForwardButton_MaterialCustom:before
+
+{
+    left: -227px;
+    top: -279px;
+
+}
+.dx-acc-r .dxWeb_splHCollapseForwardButtonHover_MaterialCustom:before
+
+{
+    left: -235px;
+    top: -279px;
+
+}
+.dx-acc-r .dxWeb_splHSeparator_MaterialCustom:before
+
+{
+    left: -296px;
+    top: -17px;
+
+}
+.dx-acc-r .dxWeb_splHSeparatorHover_MaterialCustom:before
+
+{
+    left: -296px;
+    top: -54px;
+
+}
+.dx-acc-r .dxWeb_splVCollapseBackwardButton_MaterialCustom:before
+
+{
+    left: -306px;
+    top: -187px;
+
+}
+.dx-acc-r .dxWeb_splVCollapseBackwardButtonHover_MaterialCustom:before
+
+{
+    left: -306px;
+    top: 0px;
+
+}
+.dx-acc-r .dxWeb_splVCollapseForwardButton_MaterialCustom:before
+
+{
+    left: -306px;
+    top: -170px;
+
+}
+.dx-acc-r .dxWeb_splVCollapseForwardButtonHover_MaterialCustom:before
+
+{
+    left: -307px;
+    top: -179px;
+
+}
+.dx-acc-r .dxWeb_splVSeparator_MaterialCustom:before
+
+{
+    left: -296px;
+    top: 0px;
+
+}
+.dx-acc-r .dxWeb_splVSeparatorHover_MaterialCustom:before
+
+{
+    left: -301px;
+    top: 0px;
+
+}
+.dx-acc-r .dxWeb_tcScrollLeft_MaterialCustom:before
+
+{
+    left: 0px;
+    top: -266px;
+
+}
+.dx-acc-r .dxWeb_tcScrollLeftDisabled_MaterialCustom:before
+
+{
+    left: -158px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_tcScrollLeftHover_MaterialCustom:before
+
+{
+    left: -156px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_tcScrollLeftPressed_MaterialCustom:before
+
+{
+    left: -260px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_tcScrollRight_MaterialCustom:before
+
+{
+    left: -78px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_tcScrollRightDisabled_MaterialCustom:before
+
+{
+    left: -145px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_tcScrollRightHover_MaterialCustom:before
+
+{
+    left: -39px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_tcScrollRightPressed_MaterialCustom:before
+
+{
+    left: -52px;
+    top: -253px;
+
+}
+.dx-acc-r .dxWeb_tvColBtn_MaterialCustom:before
+
+{
+    left: -127px;
+    top: -266px;
+
+}
+.dx-acc-r .dxWeb_tvColBtnRtl_MaterialCustom:before
+
+{
+    left: -50px;
+    top: -266px;
+
+}
+.dx-acc-r .dxWeb_tvExpBtn_MaterialCustom:before
+
+{
+    left: -72px;
+    top: -266px;
+
+}
+.dx-acc-r .dxWeb_tvExpBtnRtl_MaterialCustom:before
+
+{
+    left: -83px;
+    top: -266px;
+
+}
+.dx-acc-r .dxWeb_ucClearButton_MaterialCustom:before
+
+{
+    left: -231px;
+    top: -111px;
+
+}
+.dx-acc-r .dxWeb_ucClearButtonDisabled_MaterialCustom:before
+
+{
+    left: -114px;
+    top: -151px;
+
+}
+.dx-acc-r div.dxfm-fileF .dxWeb_edtCheckBoxChecked_MaterialCustom:before
+
+{
+    left: -228px;
+    top: -132px;
+
+}
+.dx-acc-r div.dxfm-fileF .dxWeb_edtCheckBoxUnchecked_MaterialCustom:before
+
+{
+    left: -19px;
+    top: -132px;
+
+}
+.dx-acc-r div.dxfm-fileF.dxfm-file.dxfm-fileSA .dxWeb_edtCheckBoxChecked_MaterialCustom:before
+
+{
+    left: -171px;
+    top: -132px;
+
+}
+.dx-acc-r div.dxfm-fileF.dxfm-file.dxfm-fileSI .dxWeb_edtCheckBoxChecked_MaterialCustom:before
+
+{
+    left: -19px;
+    top: -151px;
+
+}
+.dx-acc-r div.dxfm-fileH.dxfm-file.dxfm-fileSA .dxWeb_edtCheckBoxChecked_MaterialCustom:before
+
+{
+    left: -273px;
+    top: -111px;
+
+}
+.dx-acc-r div.dxfm-fileH.dxfm-file.dxfm-fileSI .dxWeb_edtCheckBoxChecked_MaterialCustom:before
+
+{
+    left: -114px;
+    top: -132px;
+
+}
+.dx-acc-r div.dxfm-fileSA.dxfm-file .dxWeb_edtCheckBoxChecked_MaterialCustom:before
+
+{
+    left: -171px;
+    top: -151px;
+
+}
+

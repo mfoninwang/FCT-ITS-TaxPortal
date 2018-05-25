@@ -1,0 +1,627 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingDiv_ModernoCustom
+{
+    background: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.dxheLoadingPanel_ModernoCustom
+{
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #2b2b2b;
+    background-color: White;
+    border: 1px solid #cfcfcf;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxheLoadingPanel_ModernoCustom td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 15px 34px 15px 20px;
+}
+.dxheLoadingPanel_ModernoCustom .dxlp-loadingImage,
+.dxheDesignViewArea_ModernoCustom .dx-base64img-wrapper:after
+{
+    background-image: url('../Web/Loading.gif');
+    height: 40px;
+    width: 40px;
+}
+.dxheDesignViewArea_ModernoCustom .dx-base64img-wrapper:after
+{
+    margin: -20px 0px 0px -20px;
+}
+.dxheControl_ModernoCustom
+{
+    border: Solid 1px #d1d1d1;
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+}
+/* Area */
+.dxheContentArea_ModernoCustom
+{
+    padding: 0;
+}
+.dxheErrorFrame_ModernoCustom
+{
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #D00707;
+    background-color: #FBC7C7;
+    border-bottom: solid 1px #DEC0C0;
+}
+.dxheControl_ModernoCustom .dxeMemo_ModernoCustom .dxheErrorFrame_ModernoCustom .dxhe,
+.dxheControl_ModernoCustom.dxhe-rtl .dxeMemo_ModernoCustom .dxheErrorFrame_ModernoCustom .dxhe,
+.dxheErrorFrame_ModernoCustom .dxhe
+{
+    padding: 5px;
+}
+.dxheControl_ModernoCustom .dxeMemo_ModernoCustom .dxheErrorFrame_ModernoCustom .dxhe td,
+.dxheControl_ModernoCustom.dxhe-rtl .dxeMemo_ModernoCustom .dxheErrorFrame_ModernoCustom .dxhe td,
+.dxheErrorFrame_ModernoCustom .dxhe td
+{
+    padding: 0;
+}
+.dxheErrorFrame_ModernoCustom .dxheErrorFrameCloseButton_ModernoCustom
+{
+    cursor: pointer;
+}
+.dxheViewArea_ModernoCustom,
+.dxheViewArea_ModernoCustom.dxeMemo_ModernoCustom
+{
+    border: 0;
+}
+.dxheContentArea_ModernoCustom td.dxheViewArea_ModernoCustom
+{
+    line-height: 0;
+}
+.dxheContentArea_ModernoCustom td.dxheViewArea_ModernoCustom.dxheHtmlViewArea_ModernoCustom
+{
+    line-height: inherit;
+}
+.dxheDesignViewArea_ModernoCustom,
+.dxhePreviewArea_ModernoCustom
+{
+    background-color: #FFFFFF;
+}
+.dxheControl_ModernoCustom .dxheHtmlViewArea_ModernoCustom,
+body.dxheDesignViewArea_ModernoCustom,
+body.dxhePreviewArea_ModernoCustom
+{
+    margin: 0px;
+    background-color: #FFFFFF;
+    background-image: none;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #2b2b2b;
+}
+.dxheContentArea_ModernoCustom .dxeMemo_ModernoCustom,
+.dxheContentArea_ModernoCustom .dxeMemoEditArea_ModernoCustom
+{
+    background-color: white;
+}
+.dxheControl_ModernoCustom .dxeMemo_ModernoCustom.dxheHtmlViewArea_ModernoCustom .dxeMemoEditArea_ModernoCustom,
+body.dxheDesignViewArea_ModernoCustom,
+body.dxhePreviewArea_ModernoCustom
+{
+    padding: 15px 20px 0 20px;
+}
+.dxheControl_ModernoCustom .dxeMemo_ModernoCustom.dxheHtmlViewArea_ModernoCustom td
+{
+    padding: 0 40px 0 0;
+}
+.dxheControl_ModernoCustom.dxhe-rtl .dxheContentArea_ModernoCustom .dxeMemo_ModernoCustom.dxheHtmlViewArea_ModernoCustom td
+{
+    padding: 0 0 0 40px;
+}
+.dxheControl_ModernoCustom .dxeMemo_ModernoCustom textarea
+{
+    resize: none;
+}
+.dxheControl_ModernoCustom td.dxheDesignViewArea_ModernoCustom .dxm-main.dxmtb
+{
+    border: 1px solid #cfcfcf;
+    padding: 4px;
+}
+td.dxheDesignViewArea_ModernoCustom .dxmLite_ModernoCustom .dxm-horizontal .dxm-spacing
+{
+    width: 1px;
+}
+.dxheControl_ModernoCustom td.dxheDesignViewArea_ModernoCustom
+{
+    position: relative;
+}
+td.dxheDesignViewArea_ModernoCustom .dxmLite_ModernoCustom
+{
+    position: absolute;
+    right: 0;
+    padding-top: 5px;
+    padding-right: 22px;
+}
+td.dxheDesignViewArea_ModernoCustom .dxmLite_ModernoCustom.dxm-rtl
+{
+    right: inherit;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+.dxheViewArea_ModernoCustom .dxheAudio
+{
+    background-image: url('dxheAudio.png');
+}
+.dxheViewArea_ModernoCustom .dxheFlash
+{
+    background-image: url('dxheFlash.png');
+}
+.dxheViewArea_ModernoCustom .dxheVideo
+{
+    background-image: url('dxheVideo.png');
+}
+.dxheViewArea_ModernoCustom .dxheYoutube
+{
+    background-image: url('dxheYoutube.png');
+}
+.dxheViewArea_ModernoCustom img.dxheNotSupported
+{
+    background-image: url('dxheNotSupported.png');
+}
+.dxheViewArea_ModernoCustom img.dxheAudio,
+.dxheViewArea_ModernoCustom img.dxheFlash,
+.dxheViewArea_ModernoCustom img.dxheVideo,
+.dxheViewArea_ModernoCustom img.dxheYoutube,
+.dxheViewArea_ModernoCustom img.dxheNotSupported
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cfcfcf;
+    border: 1px dotted #FFFFFF;
+    opacity: 0.8;
+}
+.dxheViewArea_ModernoCustom .dxhePlaceholder
+{
+    cursor: default;
+    white-space: nowrap;
+}
+.dxheViewArea_ModernoCustom.dxheDesignViewArea_ModernoCustom .dxheSelected
+{
+    background-color: #1279C0;
+    color: white;
+}
+.dxhe-insertPlaceholder .dxeListBox_ModernoCustom.dxeFocused_ModernoCustom
+{
+    border: 1px solid #CFCFCF;
+}
+div.dxflFormLayout_ModernoCustom.dxhe-dialog.dxhe-insertPlaceholder > table.dxhe-dialogLG.dxflGroupSys
+{
+    padding: 20px 40px 30px 40px;
+}
+.dxhe-insertPlaceholder .dxflGroup_ModernoCustom .dxhe-dialogLI.dxhe-dialogButtonsContainer
+{
+    padding-top: 13px;
+}
+.dxhe-insertPlaceholder .dxeListBox_ModernoCustom,
+.dxhe-insertPlaceholder .dxeListBox_ModernoCustom .dxlbd
+{
+    width: 260px;
+    height: 250px;
+}
+/* CodeMirror */
+.dxheHtmlViewArea_ModernoCustom .CodeMirror-activeline-background
+{
+    background: #f3f3f3;
+}
+.dxheHtmlViewArea_ModernoCustom .CodeMirror-foldgutter-open::after
+{
+    content: url('heFoldGutterOpen.png');
+}
+.dxheHtmlViewArea_ModernoCustom .CodeMirror-foldgutter-folded::after
+{
+    content: url('heFoldGutterFolded.png');
+}
+.dxheHtmlViewArea_ModernoCustom .CodeMirror-foldmarker::after
+{
+    content: url('dxheFoldMarker.png');
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_ModernoCustom table.dxEmptyBorderTable,
+body.dxheDesignViewArea_ModernoCustom table.dxEmptyBorderTable td
+{
+    border: 1px dotted gray;
+}
+@media print
+{
+    body.dxheDesignViewArea_ModernoCustom table.dxEmptyBorderTable,
+    body.dxheDesignViewArea_ModernoCustom table.dxEmptyBorderTable td
+    {
+        border: 0px;
+    }
+}
+body.dxheDesignViewArea_ModernoCustom
+{
+    word-wrap: inherit;
+}
+body.dxheDesignViewArea_ModernoCustom pre
+{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+/* Status Bar */
+.dxHtmlEditor_heSizeGrip_ModernoCustom
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_ModernoCustom
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_ModernoCustom
+{
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top: -18px;
+}
+.dxheControl_ModernoCustom.dxhe-rtl .dxheSizeGripContainer_ModernoCustom
+{
+    text-align: left;
+}
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom .dxtc-leftIndent
+{
+    width: 0 !important;
+}
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom > .dxtc-stripContainer.dxtc-strip
+{
+    background: #fafafa;
+    padding: 0 !important;
+}
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-tab,
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab,
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead,
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-leftIndent,
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-spacer,
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-rightIndent,
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-sbIndent,
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-sbSpacer
+{
+    border-top: 1px solid #d1d1d1 !important;
+}
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-tab .dxtc-link
+{
+    padding: 7px 15px 5px 16px;
+}
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab
+{
+    border-top-width: 0 !important;
+    padding-top: 1px;
+}
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab .dxtc-link
+{
+    padding: 7px 14px 5px 15px;
+}
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+    border-left: 1px solid transparent !important;
+}
+.dxheControl_ModernoCustom.dxhe-rtl .dxtcLite_ModernoCustom.dxtc-bottom .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+    border-left: 1px solid #d1d1d1 !important;
+    border-right: 1px solid transparent !important;
+}
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom > .dxtc-stripContainer .dxtc-tab
+{
+    background: transparent;
+}
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom > .dxtc-stripContainer .dxtc-tabHover
+{
+    background: #1279c0;
+}
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom > .dxtc-stripContainer .dxtc-activeTab
+{
+    background-color: white;
+    border: 1px solid #d1d1d1;
+    border-top: 0 !important;
+}
+.dxheControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > ul
+{
+    border: 0 !important;
+}
+/* ----------------- Dialog Forms ----------------- */
+.dxpcLite_ModernoCustom .dxheDlgFooter,
+.dxpcLite_ModernoCustom .dxheCustomDialog_ModernoCustom .dxhecd-Buttons
+{
+    background-color: #fafafa;
+    border-top: 1px #d1d1d1 solid;
+    padding: 16px 11px;
+    text-align: right;
+}
+.dxpcLite_ModernoCustom.dxRtl .dxheDlgFooter,
+.dxpcLite_ModernoCustom.dxRtl .dxheCustomDialog_ModernoCustom .dxhecd-Buttons
+{
+    text-align: left;
+}
+.dxpcLite_ModernoCustom .dxheDlgFooterBtn
+{
+    width: 100px;
+    margin-left: 10px;
+}
+.dxpcLite_ModernoCustom.dxRtl .dxheDlgFooterBtn
+{
+    margin-right: 10px;
+    margin-left: 0;
+}
+.dxpcLite_ModernoCustom .dxheDlgInsertImageForm .dxheDlgImagePreviewCell
+{
+    color: #737373;
+    border: dashed 1px #cac8c8;
+}
+.dxpcLite_ModernoCustom .dxheDlgPasteFromWordForm .dxheDlgPasteContainerCell td
+{
+    border: Solid 1px #d1d1d1;
+}
+.dxpcLite_ModernoCustom .dxheDlgInsertImageForm .dxheDlgRadionButtonTable
+{
+    width: 360px;
+}
+.dxpcLite_ModernoCustom .dxheDlgInsertImageForm .dxheDlgFromTheWeb
+{
+    width: 360px;
+}
+.dxpcLite_ModernoCustom .dxheDlgInsertImageForm .dxheDlgWrapTextCell
+{
+    width: 180px;
+}
+.dxpcLite_ModernoCustom .dxheDlgInsertTableForm .dxheDlgCaptionCell,
+.dxpcLite_ModernoCustom .dxheDlgTableColumnPropertiesForm .dxheDlgCaptionCell
+{
+    padding-top: 9px;
+}
+.dxpcLite_ModernoCustom .dxheDlgInsertImageForm .dxheDlgImagePropertiesForm .dxheDlgImagePropertiesCell .dxeTextBox_ModernoCustom,
+.dxpcLite_ModernoCustom .dxheDlgInsertImageForm .dxheDlgImagePropertiesForm .dxheDlgImagePropertiesCell .dxeButtonEdit_ModernoCustom
+{
+    width: 200px !important;
+}
+.dxpcLite_ModernoCustom .dxheDlgInsertTableForm .dxrpControl_ModernoCustom > tbody > tr > td > table,
+.dxpcLite_ModernoCustom .dxheDlgTableColumnPropertiesForm .dxrpControl_ModernoCustom > tbody > tr > td > table
+{
+    width: 480px !important;
+}
+.dxpcLite_ModernoCustom .dxheDlgInsertImageForm .dxheDlgSpinEdit,
+.dxpcLite_ModernoCustom .dxheDlgInsertTableForm .dxheDlgSpinEdit,
+.dxpcLite_ModernoCustom .dxheDlgTableColumnPropertiesForm .dxheDlgSpinEdit
+{
+    width: 70px !important;
+}
+.dxpcLite_ModernoCustom .dxheDlgInsertImageForm .dxheDlgColorEdit,
+.dxpcLite_ModernoCustom .dxheDlgInsertTableForm .dxheDlgColorEdit,
+.dxpcLite_ModernoCustom .dxheDlgTableColumnPropertiesForm .dxheDlgColorEdit
+{
+    width: 140px !important;
+}
+.dxpcLite_ModernoCustom .dxheDlgInsertTableForm .dxheDlgSizeComboBox,
+.dxpcLite_ModernoCustom .dxheDlgTableColumnPropertiesForm .dxheDlgSizeComboBox
+{
+    width: 170px !important;
+}
+.dxpcLite_ModernoCustom .dxheDlgInsertTableForm .dxheDlgSizeTypeComboBox,
+.dxpcLite_ModernoCustom .dxheDlgTableColumnPropertiesForm .dxheDlgSizeTypeComboBox
+{
+    width: 60px !important;
+}
+.dxpcLite_ModernoCustom .dxheDlgInsertTableForm .dxheDlgAlignComboBox,
+.dxpcLite_ModernoCustom .dxheDlgTableColumnPropertiesForm .dxheDlgAlignComboBox
+{
+    width: 100px !important;
+}
+.dxpcLite_ModernoCustom .dxheDlgInsertTableForm .dxheDlgHeaderComboBox,
+.dxpcLite_ModernoCustom .dxheDlgTableColumnPropertiesForm .dxheDlgHeaderComboBox
+{
+    width: 120px !important;
+}
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_ModernoCustom
+{
+    height: 1px;
+}
+.dxtbControl_ModernoCustom
+{
+    color: #2b2b2b;
+    background-color: #fafafa;
+    border-bottom: Solid 1px #d1d1d1;
+}
+.dxtbControl_ModernoCustom td.dxmMenu_ModernoCustom
+{
+    border: 0px;
+}
+.dxtbComboBoxMenuItem_ModernoCustom
+{
+    padding: 3px 2px;
+}
+.dxheControl_ModernoCustom .dxrControl_ModernoCustom .dxtcLite_ModernoCustom > .dxtc-stripContainer.dxtc-strip
+{
+    padding-top: 4px !important;
+}
+.dxheControl_ModernoCustom .dxrControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-top .dxtc-leftIndent
+{
+    width: 4px !important;
+}
+.dxheControl_ModernoCustom .dxrControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-top > .dxtc-stripContainer .dxtc-tab,
+.dxheControl_ModernoCustom .dxrControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-top > .dxtc-stripContainer .dxtc-activeTab,
+.dxheControl_ModernoCustom .dxrControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-top.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead,
+.dxheControl_ModernoCustom .dxrControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-top > .dxtc-stripContainer .dxtc-leftIndent,
+.dxheControl_ModernoCustom .dxrControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-top > .dxtc-stripContainer .dxtc-spacer,
+.dxheControl_ModernoCustom .dxrControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-top > .dxtc-stripContainer .dxtc-rightIndent
+{
+    border-bottom: 1px solid #d1d1d1 !important;
+}
+.dxheControl_ModernoCustom .dxrControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-top > .dxtc-stripContainer .dxtc-activeTab
+{
+    border-bottom: 1px solid transparent !important;
+    border-top: 1px solid #d1d1d1 !important;
+}
+.dxheControl_ModernoCustom.dxhe-rtl .dxrControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-top .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+    border-left: 1px solid #d1d1d1 !important;
+    border-right: 1px solid transparent !important;
+}
+.dxheControl_ModernoCustom .dxrControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-top .dxtc-strip.dxtc-stripContainer .dxtc-tab
+{
+    border-top: 1px solid transparent !important;
+    border-left: 1px solid transparent !important;
+    border-right: 1px solid transparent !important;
+}
+.dxheControl_ModernoCustom .dxrControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-top .dxtc-strip.dxtc-stripContainer .dxtc-tab.dxr-inactiveTab,
+.dxheControl_ModernoCustom .dxrControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-top .dxtc-strip.dxtc-stripContainer .dxtc-activeTab.dxr-inactiveTab
+{
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+.dxheControl_ModernoCustom .dxrControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-top .dxtc-strip.dxtc-stripContainer .dxtc-spacer
+{
+    width: 2px;
+    margin-left: -1px;
+}
+.dxheControl_ModernoCustom .dxrControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-top > ul
+{
+    border: 0 !important;
+}
+.dxheControl_ModernoCustom .dxrControl_ModernoCustom .dxr-minBtn
+{
+    margin: 1px 5px 0 0;
+}
+.dxheControl_ModernoCustom .dxtbControl_ModernoCustom.dxtbr_ModernoCustom,
+.dxheControl_ModernoCustom .dxrControl_ModernoCustom .dxpc-mainDiv.dxr-minPopup
+{
+    border: 0;
+}
+.dxheControl_ModernoCustom .dxrControl_ModernoCustom .dxr-tabContent
+{
+    border-width: 0 0 1px 0;
+    border-color: #d1d1d1;
+}
+/* Toolbars Lightweight Mode */
+.dxtbControl_ModernoCustom .dxmLite_ModernoCustom .dxm-main.dxmtb
+{
+    padding: 3px 2px;
+    border-width: 0px;
+}
+.dxtbControl_ModernoCustom .dxmLite_ModernoCustom .dxmtb.dxm-horizontal .dxm-separator
+{
+    padding: 1px 3px !important;
+}
+.dxtbControl_ModernoCustom .dxmLite_ModernoCustom .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem > .dxeButtonEditSys,
+.dxtbControl_ModernoCustom .dxmLite_ModernoCustom .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem > .dxeTextBoxSys
+{
+    margin: 0;
+}
+.dxmLite_ModernoCustom .dxhetipControl_ModernoCustom img
+{
+    vertical-align: top;
+    margin-top: 3px;
+}
+.dxtbControl_ModernoCustom .dxm-horizontal.dxmtb .dxm-dropDownMode .dxtcbControl_ModernoCustom > img
+{
+    margin-top: -1px;
+}
+.dxtbControl_ModernoCustom .dxm-horizontal.dxmtb .dxm-dropDownMode .dxtcbColorDiv_ModernoCustom
+{
+    margin-top: -1px;
+    margin-bottom: -2px;
+}
+.dxtbControl_ModernoCustom .dxmLite_ModernoCustom .dxm-horizontal.dxmtb .dxm-image-l .dxm-item.dxtb-cddi .dxm-content,
+.dxtbControl_ModernoCustom .dxmLite_ModernoCustom .dxm-horizontal.dxmtb .dxm-image-r .dxm-item.dxtb-cddi .dxm-content
+{
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+/* ToolbarColorButton */
+.dxtcbColorDiv_ModernoCustom
+{
+    width: 16px;
+    height: 4px;
+    font-size: 0;
+    background-color: Red;
+}
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_ModernoCustom .dxrpcontent
+{
+    padding: 9px 10px 10px 10px !important;
+}
+/* InsertMediaDialogs */
+.dxflFormLayout_ModernoCustom .dxhe-dialogSettings
+{
+    width: 320px;
+    padding-left: 30px;
+}
+.dxpcLite_ModernoCustom.dx-dialog.dxhe-dialog-media-popup
+{
+    max-width: 950px;
+}
+.dxflFormLayout_ModernoCustom.dxhe-mediaDialog
+{
+    width: 900px;
+}
+.dxflFormLayout_ModernoCustom.dxhe-mediaDialog .dxic-control,
+.dxflFormLayout_ModernoCustom.dxhe-mediaDialog .dxhe-dialogSettings
+{
+    height: 610px;
+}
+div.dxflFormLayout_ModernoCustom.dxhe-dialog table.dxhe-dialogLG
+{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+div.dxflFormLayout_ModernoCustom.dxhe-dialog > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_ModernoCustom.dxhe-dialog .dxhe-dialogButtonsContainer
+{
+    padding: 30px;
+}
+div.dxflFormLayout_ModernoCustom.dxhe-mediaDialogStyleSettings > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_ModernoCustom.dxhe-mediaDialogMainSettings > table.dxhe-dialogLG.dxflGroupSys
+{
+    padding: 40px;
+}
+/* tag inspector */
+.dxheDesignViewArea_ModernoCustom .dxhe-tiSelection
+{
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid #2255FF;
+    background-color: #0066FF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    opacity: 0.3;
+}
+.dxheDesignViewArea_ModernoCustom .dxhe-tiSeparator,
+.dxheDesignViewArea_ModernoCustom .dxhe-tiTagName
+{
+    color: #2b2b2b;
+}
+.dxhe-intelliSenseSysWin .dxeListBox_ModernoCustom.dxeFocused_ModernoCustom
+{
+    border-color: #d1d1d1;
+    box-shadow: none;
+}
+div.dxhe-searchQuick div.dxbButton_ModernoCustom .dxb
+{
+    padding: 8px;
+}
+.dxpcLite_ModernoCustom.dxhe-quickSearchSysWin .dxhe-flItem1
+{
+    padding-left: 12px !important;
+    padding-right: 6px !important;
+}
+div.dxhe-searchAdvancedButtons div.dxbButton_ModernoCustom
+{
+    padding: 4px 6px;
+}
+.dxflFormLayout_ModernoCustom.dxhe-searchAdvancedButtons .dxhe-searchdialogLG,
+.dxpcLite_ModernoCustom .dxhe-searchWarning
+{
+    padding: 20px;
+}
+.dxhe-searchAdvanced .dxflGroup_ModernoCustom.dxhe-searchdialogLG
+{
+    padding: 32px;
+}
+.dxflFormLayout_ModernoCustom.dxhe-insertTableDialog
+{
+    width: 575px;
+}

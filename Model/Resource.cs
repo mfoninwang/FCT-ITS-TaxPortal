@@ -25,6 +25,7 @@ namespace TAAPs.Model
         public string ResourceType { get; set; }
         public byte[] Url { get; set; }
         public Nullable<int> ParentId { get; set; }
+        public string CssFont { get; set; }
     
         public virtual ICollection<Resource> Resources1 { get; set; }
         public virtual Resource Parent { get; set; }

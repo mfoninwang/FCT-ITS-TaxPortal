@@ -14,94 +14,67 @@ namespace TAAPs.Administration
 {
     public partial class LAdministrators : AccessPage
     {
-        OrderedDictionary newValues;
-        TAAPsDBContext _context = new TAAPsDBContext();
+        TAAPsDBContext context = new TAAPsDBContext();
 
         ASPxFormLayout formLayout;
         ASPxButton ASPxButtonPwdReset;
         
-        string _username;
+        string userName;
 
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-                formLayout = (ASPxFormLayout)ASPxGridView1.FindEditFormTemplateControl("formLayout");
+                formLayout = (ASPxFormLayout)LAdministratorGridview.FindEditFormTemplateControl("formLayout");
             }
         }
 
-        protected void ASPxGridView1_RowUpdating(object sender, DevExpress.Web.Data.ASPxDataUpdatingEventArgs e)
+        protected void LAdministratorGridview_RowInserting(object sender, DevExpress.Web.Data.ASPxDataInsertingEventArgs e)
         {
-            this.newValues = e.NewValues;
-            PopulateNewValues();
-        }
+            string userName = (string)e.NewValues["UserName"];
+            string salt = Model.Global.GenerateSalt(10);
+            string password = Model.Global.GeneratePasswordHash(userName.Trim().ToLower(), salt);
 
-        private void PopulateNewValues()
-        {
-            formLayout = (ASPxFormLayout)ASPxGridView1.FindEditFormTemplateControl("formLayout");
-            formLayout.ForEach(ProcessItem);
-        }
-
-        private void ProcessItem(LayoutItemBase item)
-        {
-            LayoutItem layoutItem = item as LayoutItem;
-            if (layoutItem != null)
-            {
-                ASPxEditBase editBase = layoutItem.GetNestedControl() as ASPxEditBase;
-                if (editBase != null)
-                    this.newValues[layoutItem.FieldName] = editBase.Value;
-            }
-        }
-
-        protected void ASPxGridView1_CellEditorInitialize(object sender, DevExpress.Web.ASPxGridViewEditorEventArgs e)
-        {
-            if (e.Column.FieldName == "UserName" && ASPxGridView1.IsNewRowEditing)
-            {
-                e.Editor.ReadOnly = false;
-            }
-            else if (e.Column.FieldName == "UserName")
-            { 
-                _username = (string)e.KeyValue; 
-            }
-        }
-
-        protected void ASPxGridView1_CustomErrorText(object sender, ASPxGridViewCustomErrorTextEventArgs e)
-        {
-            e.ErrorText = e.Exception.ToString();
-        }
-
-        protected void ASPxGridView1_RowInserting(object sender, DevExpress.Web.Data.ASPxDataInsertingEventArgs e)
-        {
-            string _username = (string)e.NewValues["UserName"];
-            string _salt = Model.Global.GenerateSalt(10);
-            string _password = Model.Global.GeneratePasswordHash(_username.Trim().ToLower(), _salt);
-
-            e.NewValues.Add("Salt", _salt);
-            e.NewValues.Add("PasswordHash", _password);
-
-            this.newValues = e.NewValues;
-            PopulateNewValues();
+            e.NewValues["Salt"] = salt;
+            e.NewValues["PasswordHash"] = password;
         }
 
         protected void ASPxButtonPwdReset_Click(object sender, EventArgs e)
         {
-                string _salt = Model.Global.GenerateSalt(10);
-                string _hash = Model.Global.GeneratePasswordHash(_username.ToLower(), _salt);
+                string salt = Model.Global.GenerateSalt(10);
+                string hash = Model.Global.GeneratePasswordHash(userName.ToLower(), salt);
 
-                Model.User _user = _context.Users.Where(u => u.UserName == _username).Single();
+                Model.User user = context.Users.Where(u => u.UserName == userName).Single();
 
-                _user.Salt = _salt;
-                _user.PasswordHash = _hash;
+                user.Salt = salt;
+                user.PasswordHash = hash;
 
-                _context.SaveChanges();
+                context.SaveChanges();
 
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('User password has been reset successfully.')", true);
+            DisplayAlert("Success", "Password Reset", "User password has been reset successfully");
         }
 
         protected void ASPxButtonPwdReset_Init(object sender, EventArgs e)
         {
-            ASPxButtonPwdReset = (ASPxButton)ASPxGridView1.FindEditFormTemplateControl("ASPxButtonPwdReset");
-            ASPxButtonPwdReset.Visible = !ASPxGridView1.IsNewRowEditing; 
+            ASPxButtonPwdReset = (ASPxButton)LAdministratorGridview.FindEditFormTemplateControl("ASPxButtonPwdReset");
+            ASPxButtonPwdReset.Visible = !LAdministratorGridview.IsNewRowEditing; 
+        }
+
+        protected void LAdministratorGridview_CellEditorInitialize(object sender, ASPxGridViewEditorEventArgs e)
+        {
+            if (e.Column.FieldName == "UserName" && LAdministratorGridview.IsNewRowEditing)
+            {
+                e.Editor.ReadOnly = false;
+            }
+            else if (e.Column.FieldName == "UserName")
+            {
+                userName = (string)e.KeyValue;
+            }
+        }
+
+        protected void LAdministratorGridview_CustomErrorText(object sender, ASPxGridViewCustomErrorTextEventArgs e)
+        {
+            e.ErrorText = e.Exception.ToString();
         }
     }
 }

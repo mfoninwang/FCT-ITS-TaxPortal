@@ -1,0 +1,940 @@
+.dxcaRefreshButtonHover_Office365 .dxEditors_caRefresh_Office365,
+.dxeButtonEditButtonHover_Office365 .dxEditors_edtClear_Office365,
+.dxeButtonEditButtonHover_Office365 .dxEditors_edtDropDown_Office365,
+.dxeButtonEditButtonHover_Office365 .dxEditors_edtEllipsis_Office365,
+.dxeButtonEditButtonPressed_Office365 .dxEditors_edtDropDown_Office365,
+.dxeButtonEditButtonPressed_Office365 .dxEditors_edtEllipsis_Office365,
+.dxEditors_caRefresh_Office365,
+.dxEditors_edtBinaryImageDelete_Office365,
+.dxEditors_edtBinaryImageOpenDialog_Office365,
+.dxEditors_edtCalendarFastNavBackToPrevMode_Office365,
+.dxEditors_edtCalendarFastNavBackToPrevModeRtl_Office365,
+.dxEditors_edtCalendarFNNextPeriod_Office365,
+.dxEditors_edtCalendarFNNextYear_Office365,
+.dxEditors_edtCalendarFNPrevPeriod_Office365,
+.dxEditors_edtCalendarFNPrevYear_Office365,
+.dxEditors_edtCalendarNextMonth_Office365,
+.dxEditors_edtCalendarNextMonthDisabled_Office365,
+.dxEditors_edtCalendarNextYear_Office365,
+.dxEditors_edtCalendarNextYearDisabled_Office365,
+.dxEditors_edtCalendarPrevMonth_Office365,
+.dxEditors_edtCalendarPrevMonthDisabled_Office365,
+.dxEditors_edtCalendarPrevYear_Office365,
+.dxEditors_edtCalendarPrevYearDisabled_Office365,
+.dxEditors_edtClear_Office365,
+.dxEditors_edtDETSClockFace_Office365,
+.dxEditors_edtDETSHourHand_Office365,
+.dxEditors_edtDETSMinuteHand_Office365,
+.dxEditors_edtDETSSecondHand_Office365,
+.dxEditors_edtDropDown_Office365,
+.dxEditors_edtDropDownDisabled_Office365,
+.dxEditors_edtEllipsis_Office365,
+.dxEditors_edtEllipsisDisabled_Office365,
+.dxEditors_edtError_Office365,
+.dxEditors_edtListBoxFilterBtn_Office365,
+.dxEditors_edtListBoxFilterBtnDisabled_Office365,
+.dxEditors_edtListBoxHideFilterBtn_Office365,
+.dxEditors_edtListBoxHideFilterBtnDisabled_Office365,
+.dxEditors_edtListBoxHideFilterBtnRtl_Office365,
+.dxEditors_edtListBoxHideFilterBtnRtlDisabled_Office365,
+.dxEditors_edtRadioButtonChecked_Office365,
+.dxEditors_edtRadioButtonCheckedDisabled_Office365,
+.dxEditors_edtRadioButtonUnchecked_Office365,
+.dxEditors_edtRadioButtonUncheckedDisabled_Office365,
+.dxEditors_edtSpinEditDecrementImage_Office365,
+.dxEditors_edtSpinEditDecrementImageDisabled_Office365,
+.dxEditors_edtSpinEditIncrementImage_Office365,
+.dxEditors_edtSpinEditIncrementImageDisabled_Office365,
+.dxEditors_edtSpinEditLargeDecImage_Office365,
+.dxEditors_edtSpinEditLargeDecImageDisabled_Office365,
+.dxEditors_edtSpinEditLargeIncImage_Office365,
+.dxEditors_edtSpinEditLargeIncImageDisabled_Office365,
+.dxEditors_edtTBDecBtn_Office365,
+.dxEditors_edtTBIncBtn_Office365,
+.dxEditors_edtTokenBoxTokenRemoveButton_Office365,
+.dxEditors_edtTokenBoxTokenRemoveButton_Office365.dxeTokenRemoveButtonHover_Office365,
+.dxEditors_edtTokenBoxTokenRemoveButtonDisabled_Office365,
+.dxEditors_fcadd_Office365,
+.dxEditors_fcaddhot_Office365,
+.dxEditors_fcgroupaddcondition_Office365,
+.dxEditors_fcgroupaddgroup_Office365,
+.dxEditors_fcgroupand_Office365,
+.dxEditors_fcgroupnotand_Office365,
+.dxEditors_fcgroupnotor_Office365,
+.dxEditors_fcgroupor_Office365,
+.dxEditors_fcgroupremove_Office365,
+.dxEditors_fcopany_Office365,
+.dxEditors_fcopavg_Office365,
+.dxEditors_fcopbegin_Office365,
+.dxEditors_fcopbetween_Office365,
+.dxEditors_fcopblank_Office365,
+.dxEditors_fcopcontain_Office365,
+.dxEditors_fcopcount_Office365,
+.dxEditors_fcopend_Office365,
+.dxEditors_fcopequal_Office365,
+.dxEditors_fcopexists_Office365,
+.dxEditors_fcopgreater_Office365,
+.dxEditors_fcopgreaterorequal_Office365,
+.dxEditors_fcopless_Office365,
+.dxEditors_fcoplessorequal_Office365,
+.dxEditors_fcoplike_Office365,
+.dxEditors_fcopmax_Office365,
+.dxEditors_fcopmin_Office365,
+.dxEditors_fcopnotany_Office365,
+.dxEditors_fcopnotbetween_Office365,
+.dxEditors_fcopnotblank_Office365,
+.dxEditors_fcopnotcontain_Office365,
+.dxEditors_fcopnotequal_Office365,
+.dxEditors_fcopnotlike_Office365,
+.dxEditors_fcopsum_Office365,
+.dxEditors_fcoptypefield_Office365,
+.dxEditors_fcoptypefieldhot_Office365,
+.dxEditors_fcoptypevalue_Office365,
+.dxEditors_fcoptypevaluehot_Office365,
+.dxEditors_fcremove_Office365,
+.dxEditors_fcremovehot_Office365,
+.dxeSpinDecButtonHover_Office365 .dxEditors_edtSpinEditDecrementImage_Office365,
+.dxeSpinDecButtonPressed_Office365 .dxEditors_edtSpinEditDecrementImage_Office365,
+.dxeSpinIncButtonHover_Office365 .dxEditors_edtSpinEditIncrementImage_Office365,
+.dxeSpinIncButtonPressed_Office365 .dxEditors_edtSpinEditIncrementImage_Office365,
+.dxeSpinLargeDecButtonHover_Office365 .dxEditors_edtSpinEditLargeDecImage_Office365,
+.dxeSpinLargeDecButtonPressed_Office365 .dxEditors_edtSpinEditLargeDecImage_Office365,
+.dxeSpinLargeIncButtonHover_Office365 .dxEditors_edtSpinEditLargeIncImage_Office365,
+.dxeSpinLargeIncButtonPressed_Office365 .dxEditors_edtSpinEditLargeIncImage_Office365,
+.dxeTBDecBtnHover_Office365.dxEditors_edtTBDecBtn_Office365,
+.dxeTBDecBtnPressed_Office365.dxEditors_edtTBDecBtn_Office365,
+.dxeTBIncBtnHover_Office365.dxEditors_edtTBIncBtn_Office365,
+.dxeTBIncBtnPressed_Office365.dxEditors_edtTBIncBtn_Office365,
+.dxeTrackBar_Office365.dxeDisabled_Office365 .dxEditors_edtTBDecBtn_Office365,
+.dxeTrackBar_Office365.dxeDisabled_Office365 .dxEditors_edtTBIncBtn_Office365,
+.dxgvFocusedRow_Office365 .dxEditors_edtRadioButtonChecked_Office365
+{
+    background-image: url('sprite.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxIE .dx-acc-r .dxcaRefreshButtonHover_Office365 .dxEditors_caRefresh_Office365::before,
+.dxIE .dx-acc-r .dxeButtonEditButtonHover_Office365 .dxEditors_edtClear_Office365::before,
+.dxIE .dx-acc-r .dxeButtonEditButtonHover_Office365 .dxEditors_edtDropDown_Office365::before,
+.dxIE .dx-acc-r .dxeButtonEditButtonHover_Office365 .dxEditors_edtEllipsis_Office365::before,
+.dxIE .dx-acc-r .dxeButtonEditButtonPressed_Office365 .dxEditors_edtDropDown_Office365::before,
+.dxIE .dx-acc-r .dxeButtonEditButtonPressed_Office365 .dxEditors_edtEllipsis_Office365::before,
+.dxIE .dx-acc-r .dxEditors_caRefresh_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtBinaryImageDelete_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtBinaryImageOpenDialog_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtCalendarFastNavBackToPrevMode_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtCalendarFastNavBackToPrevModeRtl_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtCalendarFNNextPeriod_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtCalendarFNNextYear_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtCalendarFNPrevPeriod_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtCalendarFNPrevYear_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtCalendarNextMonth_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtCalendarNextMonthDisabled_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtCalendarNextYear_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtCalendarNextYearDisabled_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtCalendarPrevMonth_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtCalendarPrevMonthDisabled_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtCalendarPrevYear_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtCalendarPrevYearDisabled_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtClear_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtDETSClockFace_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtDETSHourHand_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtDETSMinuteHand_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtDETSSecondHand_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtDropDown_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtDropDownDisabled_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtEllipsis_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtEllipsisDisabled_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtError_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtListBoxFilterBtn_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtListBoxFilterBtnDisabled_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtListBoxHideFilterBtn_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtListBoxHideFilterBtnDisabled_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtListBoxHideFilterBtnRtl_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtListBoxHideFilterBtnRtlDisabled_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtRadioButtonChecked_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtRadioButtonCheckedDisabled_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtRadioButtonUnchecked_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtRadioButtonUncheckedDisabled_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtSpinEditDecrementImage_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtSpinEditDecrementImageDisabled_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtSpinEditIncrementImage_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtSpinEditIncrementImageDisabled_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtSpinEditLargeDecImage_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtSpinEditLargeDecImageDisabled_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtSpinEditLargeIncImage_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtSpinEditLargeIncImageDisabled_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtTBDecBtn_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtTBIncBtn_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtTokenBoxTokenRemoveButton_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtTokenBoxTokenRemoveButton_Office365.dxeTokenRemoveButtonHover_Office365::before,
+.dxIE .dx-acc-r .dxEditors_edtTokenBoxTokenRemoveButtonDisabled_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcadd_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcaddhot_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcgroupaddcondition_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcgroupaddgroup_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcgroupand_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcgroupnotand_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcgroupnotor_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcgroupor_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcgroupremove_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopany_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopavg_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopbegin_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopbetween_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopblank_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopcontain_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopcount_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopend_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopequal_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopexists_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopgreater_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopgreaterorequal_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopless_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcoplessorequal_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcoplike_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopmax_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopmin_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopnotany_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopnotbetween_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopnotblank_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopnotcontain_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopnotequal_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopnotlike_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcopsum_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcoptypefield_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcoptypefieldhot_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcoptypevalue_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcoptypevaluehot_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcremove_Office365::before,
+.dxIE .dx-acc-r .dxEditors_fcremovehot_Office365::before,
+.dxIE .dx-acc-r .dxeSpinDecButtonHover_Office365 .dxEditors_edtSpinEditDecrementImage_Office365::before,
+.dxIE .dx-acc-r .dxeSpinDecButtonPressed_Office365 .dxEditors_edtSpinEditDecrementImage_Office365::before,
+.dxIE .dx-acc-r .dxeSpinIncButtonHover_Office365 .dxEditors_edtSpinEditIncrementImage_Office365::before,
+.dxIE .dx-acc-r .dxeSpinIncButtonPressed_Office365 .dxEditors_edtSpinEditIncrementImage_Office365::before,
+.dxIE .dx-acc-r .dxeSpinLargeDecButtonHover_Office365 .dxEditors_edtSpinEditLargeDecImage_Office365::before,
+.dxIE .dx-acc-r .dxeSpinLargeDecButtonPressed_Office365 .dxEditors_edtSpinEditLargeDecImage_Office365::before,
+.dxIE .dx-acc-r .dxeSpinLargeIncButtonHover_Office365 .dxEditors_edtSpinEditLargeIncImage_Office365::before,
+.dxIE .dx-acc-r .dxeSpinLargeIncButtonPressed_Office365 .dxEditors_edtSpinEditLargeIncImage_Office365::before,
+.dxIE .dx-acc-r .dxeTBDecBtnHover_Office365.dxEditors_edtTBDecBtn_Office365::before,
+.dxIE .dx-acc-r .dxeTBDecBtnPressed_Office365.dxEditors_edtTBDecBtn_Office365::before,
+.dxIE .dx-acc-r .dxeTBIncBtnHover_Office365.dxEditors_edtTBIncBtn_Office365::before,
+.dxIE .dx-acc-r .dxeTBIncBtnPressed_Office365.dxEditors_edtTBIncBtn_Office365::before,
+.dxIE .dx-acc-r .dxeTrackBar_Office365.dxeDisabled_Office365 .dxEditors_edtTBDecBtn_Office365::before,
+.dxIE .dx-acc-r .dxeTrackBar_Office365.dxeDisabled_Office365 .dxEditors_edtTBIncBtn_Office365::before,
+.dxIE .dx-acc-r .dxgvFocusedRow_Office365 .dxEditors_edtRadioButtonChecked_Office365::before{
+    width: 407px;
+}
+.dxcaRefreshButtonHover_Office365 .dxEditors_caRefresh_Office365
+{
+    background-position: -257px -394px;
+    width: 24px;
+    height: 24px;
+}
+.dxeButtonEditButtonHover_Office365 .dxEditors_edtClear_Office365
+{
+    background-position: -332px -394px;
+    width: 24px;
+    height: 24px;
+}
+.dxeButtonEditButtonHover_Office365 .dxEditors_edtDropDown_Office365
+{
+    background-position: -394px -162px;
+    width: 10px;
+    height: 10px;
+}
+.dxeButtonEditButtonHover_Office365 .dxEditors_edtEllipsis_Office365
+{
+    background-position: -204px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxeButtonEditButtonPressed_Office365 .dxEditors_edtDropDown_Office365
+{
+    background-position: -394px -151px;
+    width: 10px;
+    height: 10px;
+}
+.dxeButtonEditButtonPressed_Office365 .dxEditors_edtEllipsis_Office365
+{
+    background-position: -279px -423px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_caRefresh_Office365
+{
+    background-position: -307px -394px;
+    width: 24px;
+    height: 24px;
+}
+.dxEditors_edtBinaryImageDelete_Office365
+{
+    background-position: -289px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_edtBinaryImageOpenDialog_Office365
+{
+    background-position: -21px -423px;
+    width: 20px;
+    height: 20px;
+}
+.dxEditors_edtCalendarFastNavBackToPrevMode_Office365
+{
+    background-position: -137px -423px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_edtCalendarFastNavBackToPrevModeRtl_Office365
+{
+    background-position: -156px -423px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_edtCalendarFNNextPeriod_Office365
+{
+    background-position: -328px -461px;
+    width: 14px;
+    height: 14px;
+}
+.dxEditors_edtCalendarFNNextYear_Office365
+{
+    background-position: -394px -184px;
+    width: 12px;
+    height: 12px;
+}
+.dxEditors_edtCalendarFNPrevPeriod_Office365
+{
+    background-position: -313px -461px;
+    width: 14px;
+    height: 14px;
+}
+.dxEditors_edtCalendarFNPrevYear_Office365
+{
+    background-position: -394px 0px;
+    width: 12px;
+    height: 12px;
+}
+.dxEditors_edtCalendarNextMonth_Office365
+{
+    background-position: -238px -461px;
+    width: 14px;
+    height: 14px;
+}
+.dxEditors_edtCalendarNextMonthDisabled_Office365
+{
+    background-position: -268px -461px;
+    width: 14px;
+    height: 14px;
+}
+.dxEditors_edtCalendarNextYear_Office365
+{
+    background-position: -391px -444px;
+    width: 14px;
+    height: 14px;
+}
+.dxEditors_edtCalendarNextYearDisabled_Office365
+{
+    background-position: -343px -461px;
+    width: 14px;
+    height: 14px;
+}
+.dxEditors_edtCalendarPrevMonth_Office365
+{
+    background-position: -298px -461px;
+    width: 14px;
+    height: 14px;
+}
+.dxEditors_edtCalendarPrevMonthDisabled_Office365
+{
+    background-position: -283px -461px;
+    width: 14px;
+    height: 14px;
+}
+.dxEditors_edtCalendarPrevYear_Office365
+{
+    background-position: -358px -461px;
+    width: 14px;
+    height: 14px;
+}
+.dxEditors_edtCalendarPrevYearDisabled_Office365
+{
+    background-position: -253px -461px;
+    width: 14px;
+    height: 14px;
+}
+.dxEditors_edtClear_Office365
+{
+    background-position: -282px -394px;
+    width: 24px;
+    height: 24px;
+}
+.dxEditors_edtDETSClockFace_Office365
+{
+    background-position: 0px -197px;
+    width: 196px;
+    height: 196px;
+}
+.dxEditors_edtDETSHourHand_Office365
+{
+    background-position: 0px 0px;
+    width: 196px;
+    height: 196px;
+}
+.dxEditors_edtDETSMinuteHand_Office365
+{
+    background-position: -197px -197px;
+    width: 196px;
+    height: 196px;
+}
+.dxEditors_edtDETSSecondHand_Office365
+{
+    background-position: -197px 0px;
+    width: 196px;
+    height: 196px;
+}
+.dxEditors_edtDropDown_Office365
+{
+    background-position: -394px -140px;
+    width: 10px;
+    height: 10px;
+}
+.dxEditors_edtDropDownDisabled_Office365
+{
+    background-position: -394px -173px;
+    width: 10px;
+    height: 10px;
+}
+.dxEditors_edtEllipsis_Office365
+{
+    background-position: -119px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_edtEllipsisDisabled_Office365
+{
+    background-position: -51px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_edtError_Office365
+{
+    background-position: -228px -423px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_edtListBoxFilterBtn_Office365
+{
+    background-position: -99px -423px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_edtListBoxFilterBtnDisabled_Office365
+{
+    background-position: -80px -423px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_edtListBoxHideFilterBtn_Office365
+{
+    background-position: -61px -423px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_edtListBoxHideFilterBtnDisabled_Office365
+{
+    background-position: -175px -423px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_edtListBoxHideFilterBtnRtl_Office365
+{
+    background-position: -118px -423px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_edtListBoxHideFilterBtnRtlDisabled_Office365
+{
+    background-position: -42px -423px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_edtRadioButtonChecked_Office365
+{
+    background-position: -34px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_edtRadioButtonCheckedDisabled_Office365
+{
+    background-position: -245px -423px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_edtRadioButtonUnchecked_Office365
+{
+    background-position: -102px -461px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_edtRadioButtonUncheckedDisabled_Office365
+{
+    background-position: -68px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_edtSpinEditDecrementImage_Office365
+{
+    background-position: -394px -40px;
+    width: 9px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditDecrementImageDisabled_Office365
+{
+    background-position: -394px -70px;
+    width: 9px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditIncrementImage_Office365
+{
+    background-position: -394px -80px;
+    width: 9px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditIncrementImageDisabled_Office365
+{
+    background-position: -394px -110px;
+    width: 9px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditLargeDecImage_Office365
+{
+    background-position: -394px -50px;
+    width: 9px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditLargeDecImageDisabled_Office365
+{
+    background-position: -394px -197px;
+    width: 9px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditLargeIncImage_Office365
+{
+    background-position: -394px -130px;
+    width: 9px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditLargeIncImageDisabled_Office365
+{
+    background-position: -394px -30px;
+    width: 9px;
+    height: 9px;
+}
+.dxEditors_edtTBDecBtn_Office365
+{
+    background-position: -29px -394px;
+    width: 28px;
+    height: 28px;
+}
+.dxEditors_edtTBIncBtn_Office365
+{
+    background-position: 0px -394px;
+    width: 28px;
+    height: 28px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButton_Office365
+{
+    background-position: -382px -394px;
+    width: 24px;
+    height: 24px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButton_Office365.dxeTokenRemoveButtonHover_Office365
+{
+    background-position: -357px -394px;
+    width: 24px;
+    height: 24px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButtonDisabled_Office365
+{
+    background-position: -232px -394px;
+    width: 24px;
+    height: 24px;
+}
+.dxEditors_fcadd_Office365
+{
+    background-position: -262px -423px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcaddhot_Office365
+{
+    background-position: -170px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcgroupaddcondition_Office365
+{
+    background-position: -85px -461px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcgroupaddgroup_Office365
+{
+    background-position: -153px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcgroupand_Office365
+{
+    background-position: -296px -423px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcgroupnotand_Office365
+{
+    background-position: -221px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcgroupnotor_Office365
+{
+    background-position: -272px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcgroupor_Office365
+{
+    background-position: -381px -423px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcgroupremove_Office365
+{
+    background-position: -347px -423px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopany_Office365
+{
+    background-position: -323px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopavg_Office365
+{
+    background-position: -340px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopbegin_Office365
+{
+    background-position: 0px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopbetween_Office365
+{
+    background-position: -51px -461px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopblank_Office365
+{
+    background-position: -34px -461px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopcontain_Office365
+{
+    background-position: -68px -461px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopcount_Office365
+{
+    background-position: -136px -461px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopend_Office365
+{
+    background-position: -187px -461px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopequal_Office365
+{
+    background-position: -255px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopexists_Office365
+{
+    background-position: -170px -461px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopgreater_Office365
+{
+    background-position: -119px -461px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopgreaterorequal_Office365
+{
+    background-position: -313px -423px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopless_Office365
+{
+    background-position: -102px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcoplessorequal_Office365
+{
+    background-position: -17px -461px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcoplike_Office365
+{
+    background-position: -374px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopmax_Office365
+{
+    background-position: -330px -423px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopmin_Office365
+{
+    background-position: -153px -461px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopnotany_Office365
+{
+    background-position: -187px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopnotbetween_Office365
+{
+    background-position: -85px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopnotblank_Office365
+{
+    background-position: -17px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopnotcontain_Office365
+{
+    background-position: -221px -461px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopnotequal_Office365
+{
+    background-position: -238px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopnotlike_Office365
+{
+    background-position: -306px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopsum_Office365
+{
+    background-position: -357px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcoptypefield_Office365
+{
+    background-position: -204px -461px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcoptypefieldhot_Office365
+{
+    background-position: 0px -461px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcoptypevalue_Office365
+{
+    background-position: -194px -423px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcoptypevaluehot_Office365
+{
+    background-position: -136px -444px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcremove_Office365
+{
+    background-position: -364px -423px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcremovehot_Office365
+{
+    background-position: -211px -423px;
+    width: 16px;
+    height: 16px;
+}
+.dxeSpinDecButtonHover_Office365 .dxEditors_edtSpinEditDecrementImage_Office365
+{
+    background-position: -394px -364px;
+    width: 9px;
+    height: 9px;
+}
+.dxeSpinDecButtonPressed_Office365 .dxEditors_edtSpinEditDecrementImage_Office365
+{
+    background-position: -394px -60px;
+    width: 9px;
+    height: 9px;
+}
+.dxeSpinIncButtonHover_Office365 .dxEditors_edtSpinEditIncrementImage_Office365
+{
+    background-position: -394px -90px;
+    width: 9px;
+    height: 9px;
+}
+.dxeSpinIncButtonPressed_Office365 .dxEditors_edtSpinEditIncrementImage_Office365
+{
+    background-position: -394px -20px;
+    width: 9px;
+    height: 9px;
+}
+.dxeSpinLargeDecButtonHover_Office365 .dxEditors_edtSpinEditLargeDecImage_Office365
+{
+    background-position: -394px -374px;
+    width: 9px;
+    height: 9px;
+}
+.dxeSpinLargeDecButtonPressed_Office365 .dxEditors_edtSpinEditLargeDecImage_Office365
+{
+    background-position: -397px -384px;
+    width: 9px;
+    height: 9px;
+}
+.dxeSpinLargeIncButtonHover_Office365 .dxEditors_edtSpinEditLargeIncImage_Office365
+{
+    background-position: -394px -100px;
+    width: 9px;
+    height: 9px;
+}
+.dxeSpinLargeIncButtonPressed_Office365 .dxEditors_edtSpinEditLargeIncImage_Office365
+{
+    background-position: -394px -120px;
+    width: 9px;
+    height: 9px;
+}
+.dxeTBDecBtnHover_Office365.dxEditors_edtTBDecBtn_Office365
+{
+    background-position: -87px -394px;
+    width: 28px;
+    height: 28px;
+}
+.dxeTBDecBtnPressed_Office365.dxEditors_edtTBDecBtn_Office365
+{
+    background-position: -116px -394px;
+    width: 28px;
+    height: 28px;
+}
+.dxeTBIncBtnHover_Office365.dxEditors_edtTBIncBtn_Office365
+{
+    background-position: -58px -394px;
+    width: 28px;
+    height: 28px;
+}
+.dxeTBIncBtnPressed_Office365.dxEditors_edtTBIncBtn_Office365
+{
+    background-position: -203px -394px;
+    width: 28px;
+    height: 28px;
+}
+.dxeTrackBar_Office365.dxeDisabled_Office365 .dxEditors_edtTBDecBtn_Office365
+{
+    background-position: -174px -394px;
+    width: 28px;
+    height: 28px;
+}
+.dxeTrackBar_Office365.dxeDisabled_Office365 .dxEditors_edtTBIncBtn_Office365
+{
+    background-position: -145px -394px;
+    width: 28px;
+    height: 28px;
+}
+.dxgvFocusedRow_Office365 .dxEditors_edtRadioButtonChecked_Office365
+{
+    background-position: 0px -423px;
+    width: 20px;
+    height: 20px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_Office365,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_Office365,
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_Office365,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_Office365
+{
+z-index: 7;
+}
+.dxEditors_edtError_Office365,
+.dxEditors_edtCalendarPrevYear_Office365,
+.dxEditors_edtCalendarPrevYearDisabled_Office365,
+.dxEditors_edtCalendarPrevMonth_Office365,
+.dxEditors_edtCalendarPrevMonthDisabled_Office365,
+.dxEditors_edtCalendarNextMonth_Office365,
+.dxEditors_edtCalendarNextMonthDisabled_Office365,
+.dxEditors_edtCalendarNextYear_Office365,
+.dxEditors_edtCalendarNextYearDisabled_Office365,
+.dxEditors_edtCalendarFNPrevYear_Office365,
+.dxEditors_edtCalendarFNNextYear_Office365,
+.dxEditors_edtCalendarFNPrevPeriod_Office365,
+.dxEditors_edtCalendarFNNextPeriod_Office365,
+.dxEditors_edtEllipsis_Office365,
+.dxEditors_edtEllipsisDisabled_Office365,
+.dxEditors_edtDropDown_Office365,
+.dxEditors_edtDropDownDisabled_Office365,
+.dxEditors_edtSpinEditIncrementImage_Office365,
+.dxEditors_edtSpinEditIncrementImageDisabled_Office365,
+.dxEditors_edtSpinEditDecrementImage_Office365,
+.dxEditors_edtSpinEditDecrementImageDisabled_Office365,
+.dxEditors_edtSpinEditLargeIncImage_Office365,
+.dxEditors_edtSpinEditLargeIncImageDisabled_Office365,
+.dxEditors_edtSpinEditLargeDecImage_Office365,
+.dxEditors_edtSpinEditLargeDecImageDisabled_Office365
+{
+display:block;
+margin:auto;
+}
+.dxEditors_edtCalendarFNPrevYear_Office365
+{
+margin-right: 8px;
+}
+.dxEditors_edtCalendarFNNextYear_Office365
+{
+margin-left: 8px;
+}
+.dxEditors_edtDETSHourHand_Office365 {
+z-index:9;
+}
+.dxEditors_edtCalendarFastNavBackToPrevMode_Office365,
+.dxEditors_edtCalendarFastNavBackToPrevModeRtl_Office365 {
+    margin-top: 2px;
+    margin-bottom: -2px;
+}
+

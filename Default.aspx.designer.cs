@@ -13,12 +13,39 @@ namespace TAAPs {
     public partial class Default {
         
         /// <summary>
-        /// ASPxImageSlider1 control.
+        /// SubjectTextField control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxImageSlider ASPxImageSlider1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText SubjectTextField;
+        
+        /// <summary>
+        /// DescriptionTextField control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlTextArea DescriptionTextField;
+        
+        /// <summary>
+        /// PriorityField control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlSelect PriorityField;
+        
+        /// <summary>
+        /// SubmitIssue control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlButton SubmitIssue;
     }
 }

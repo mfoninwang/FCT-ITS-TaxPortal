@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="ha-Latn-NG">
+  <Title Visible="false" Text="Tax Revenue Dashboard" />
+  <DataSources>
+    <SqlDataSource ComponentName="DataSource1">
+      <Name>Payments</Name>
+      <Connection Name="TAAPsCon" FromAppConfig="true" />
+      <Query Type="SelectQuery" Name="Payments">
+        <Tables>
+          <Table Name="Payments" />
+        </Tables>
+        <Columns>
+          <AllColumns />
+        </Columns>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="Payments">
+          <View Name="Payments">
+            <Field Name="PaymentReference" Type="String" />
+            <Field Name="PaymentDate" Type="DateTime" />
+            <Field Name="TIN" Type="String" />
+            <Field Name="TaxpayerName" Type="String" />
+            <Field Name="AssessmentId" Type="Int32" />
+            <Field Name="Amount" Type="Decimal" />
+            <Field Name="PaymentMethod" Type="String" />
+            <Field Name="PaymentDescription" Type="String" />
+            <Field Name="TaxOffice" Type="String" />
+            <Field Name="TaxType" Type="String" />
+            <Field Name="BankBranch" Type="String" />
+            <Field Name="PaymentServiceProvider" Type="String" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" />
+    </SqlDataSource>
+    <SqlDataSource ComponentName="sqlDataSource1">
+      <Name>ITaxpayer</Name>
+      <Connection Name="TAAPsCon" FromAppConfig="true" />
+      <Query Type="SelectQuery" Name="ITaxpayer">
+        <Tables>
+          <Table Name="ITaxpayer" />
+        </Tables>
+        <Columns>
+          <AllColumns />
+        </Columns>
+      </Query>
+      <ConnectionOptions CloseConnection="true" />
+    </SqlDataSource>
+  </DataSources>
+  <Items>
+    <Chart ComponentName="chartDashboardItem1" Name="Tax Collections by Tax Type" Group="groupDashboardItem2" DataSource="DataSource1" DataMember="Payments" Rotated="true">
+      <DataItems>
+        <Measure DataMember="Amount" DefaultId="DataItem3" />
+        <Dimension DataMember="PaymentDate" DateTimeGroupInterval="Day" DefaultId="DataItem1" />
+        <Dimension DataMember="TaxType" DefaultId="DataItem6" />
+        <Measure DataMember="Amount" DefaultId="DataItem4" />
+      </DataItems>
+      <HiddenMeasures>
+        <Measure DefaultId="DataItem3" />
+      </HiddenMeasures>
+      <Arguments>
+        <Argument DefaultId="DataItem6" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Pane 1">
+          <AxisY Title="Collections" />
+          <Series>
+            <Simple>
+              <Value DefaultId="DataItem4" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+      <ChartLegend Visible="false" />
+    </Chart>
+    <Card ComponentName="cardDashboardItem1" Name="Cards 1" ShowCaption="false" DataSource="DataSource1" DataMember="Payments" IsMasterFilterCrossDataSource="true" ContentLineCount="2">
+      <InteractivityOptions IsDrillDownEnabled="true" />
+      <DataItems>
+        <Measure DataMember="TaxOffice" SummaryType="Count" DefaultId="DataItem1" />
+        <Measure DataMember="Amount" DefaultId="DataItem0" />
+        <Measure DataMember="TaxOffice" SummaryType="Count" DefaultId="DataItem2" />
+        <Measure DataMember="TaxOffice" SummaryType="Count" DefaultId="DataItem3" />
+        <Measure DataMember="Amount" DefaultId="DataItem4" />
+        <Dimension DataMember="TaxOffice" SortOrder="Descending" SortByMeasure="DataItem0" DefaultId="DataItem5" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension DefaultId="DataItem5" />
+      </SeriesDimensions>
+      <Card>
+        <ActualValue DefaultId="DataItem4" />
+        <AbsoluteVariationNumericFormat />
+        <PercentVariationNumericFormat />
+        <PercentOfTargetNumericFormat />
+        <LayoutTemplate MinWidth="125" MaxWidth="200" Type="Compact">
+          <MainValue Visible="true" ValueType="Title" DimensionIndex="0" />
+          <SubValue Visible="false" ValueType="Subtitle" DimensionIndex="0" />
+          <BottomValue Visible="true" ValueType="ActualValue" DimensionIndex="0" />
+          <BottomSubValue1 Visible="false" ValueType="AbsoluteVariation" DimensionIndex="0" />
+          <BottomSubValue2 Visible="false" ValueType="PercentVariation" DimensionIndex="0" />
+          <DeltaIndicator Visible="false" />
+          <Sparkline Visible="false" />
+        </LayoutTemplate>
+      </Card>
+    </Card>
+    <Pie ComponentName="pieDashboardItem1" Name="Revenue by Payment Provider" Group="groupDashboardItem2" DataSource="DataSource1" DataMember="Payments" ShowPieCaptions="false">
+      <DataItems>
+        <Measure DataMember="Amount" DefaultId="DataItem0" />
+        <Dimension DataMember="PaymentServiceProvider" DefaultId="DataItem1" />
+      </DataItems>
+      <Arguments>
+        <Argument DefaultId="DataItem1" />
+      </Arguments>
+      <Values>
+        <Value DefaultId="DataItem0" />
+      </Values>
+    </Pie>
+    <RangeFilter ComponentName="rangeFilterDashboardItem1" Name="Period Filter" ShowCaption="true" DataSource="DataSource1" DataMember="Payments" IsMasterFilterCrossDataSource="true">
+      <ColoringOptions MeasuresColoringMode="Hue" />
+      <DataItems>
+        <Measure DataMember="Amount" DefaultId="DataItem0" />
+        <Dimension DataMember="PaymentDate" Name="Period" DateTimeGroupInterval="DayMonthYear" DefaultId="DataItem1" />
+        <Dimension DataMember="PaymentDate" DateTimeGroupInterval="DayMonthYear" DefaultId="DataItem2" />
+      </DataItems>
+      <HiddenDimensions>
+        <Dimension DefaultId="DataItem2" />
+      </HiddenDimensions>
+      <Argument DefaultId="DataItem1" />
+      <Series>
+        <Simple SeriesType="StackedLine">
+          <Value DefaultId="DataItem0" />
+        </Simple>
+      </Series>
+      <DateTimePeriods>
+        <DateTimePeriod Name="Last 2 Years">
+          <StartLimit>
+            <FlowDateTimePeriodLimit Offset="-2" />
+          </StartLimit>
+          <EndLimit>
+            <FlowDateTimePeriodLimit />
+          </EndLimit>
+        </DateTimePeriod>
+        <DateTimePeriod Name="This Year">
+          <StartLimit>
+            <FlowDateTimePeriodLimit />
+          </StartLimit>
+          <EndLimit>
+            <FlowDateTimePeriodLimit Offset="1" />
+          </EndLimit>
+        </DateTimePeriod>
+        <DateTimePeriod Name="Last Quarter">
+          <StartLimit>
+            <FlowDateTimePeriodLimit Interval="Quarter" Offset="-1" />
+          </StartLimit>
+          <EndLimit>
+            <FlowDateTimePeriodLimit Interval="Quarter" />
+          </EndLimit>
+        </DateTimePeriod>
+        <DateTimePeriod Name="This Quarter">
+          <StartLimit>
+            <FlowDateTimePeriodLimit Interval="Quarter" />
+          </StartLimit>
+          <EndLimit>
+            <FlowDateTimePeriodLimit Interval="Quarter" Offset="1" />
+          </EndLimit>
+        </DateTimePeriod>
+        <DateTimePeriod Name="Last Month">
+          <StartLimit>
+            <FlowDateTimePeriodLimit Interval="Month" Offset="-1" />
+          </StartLimit>
+          <EndLimit>
+            <FlowDateTimePeriodLimit Interval="Month" />
+          </EndLimit>
+        </DateTimePeriod>
+        <DateTimePeriod Name="Last 3 Months">
+          <StartLimit>
+            <FlowDateTimePeriodLimit Interval="Month" Offset="-3" />
+          </StartLimit>
+          <EndLimit>
+            <FlowDateTimePeriodLimit Interval="Month" />
+          </EndLimit>
+        </DateTimePeriod>
+        <DateTimePeriod Name="Last 12 Months">
+          <StartLimit>
+            <FlowDateTimePeriodLimit Interval="Month" Offset="-12" />
+          </StartLimit>
+          <EndLimit>
+            <FlowDateTimePeriodLimit Interval="Month" />
+          </EndLimit>
+        </DateTimePeriod>
+        <DateTimePeriod Name="Last 7 Days">
+          <StartLimit>
+            <FlowDateTimePeriodLimit Interval="Day" Offset="-7" />
+          </StartLimit>
+          <EndLimit>
+            <FlowDateTimePeriodLimit Interval="Day" />
+          </EndLimit>
+        </DateTimePeriod>
+      </DateTimePeriods>
+    </RangeFilter>
+    <Card ComponentName="cardDashboardItem3" Name="Cards 3" ShowCaption="false" Group="groupDashboardItem2" DataSource="DataSource1" DataMember="Payments">
+      <DataItems>
+        <Measure DataMember="Amount" DefaultId="DataItem0" />
+      </DataItems>
+      <Card Name="Total Revenue">
+        <ActualValue DefaultId="DataItem0" />
+        <AbsoluteVariationNumericFormat />
+        <PercentVariationNumericFormat />
+        <PercentOfTargetNumericFormat />
+        <LayoutTemplate MinWidth="270" MaxWidth="270" Type="Centered">
+          <MainValue Visible="true" ValueType="Title" DimensionIndex="0" />
+          <SubValue Visible="true" ValueType="Subtitle" DimensionIndex="0" />
+          <BottomValue Visible="true" ValueType="ActualValue" DimensionIndex="0" />
+          <BottomSubValue1 Visible="true" ValueType="AbsoluteVariation" DimensionIndex="0" />
+          <BottomSubValue2 Visible="true" ValueType="PercentVariation" DimensionIndex="0" />
+          <DeltaIndicator Visible="true" />
+          <Sparkline Visible="true" />
+        </LayoutTemplate>
+      </Card>
+    </Card>
+  </Items>
+  <Groups>
+    <Group ComponentName="groupDashboardItem2" Name="Group 2" ShowCaption="false">
+      <InteractivityOptions IgnoreMasterFilters="false" />
+    </Group>
+  </Groups>
+  <LayoutTree>
+    <LayoutGroup Orientation="Vertical" Weight="100">
+      <LayoutGroup Weight="52.727272727272727">
+        <LayoutGroup Orientation="Vertical" Weight="78.799135126718639">
+          <LayoutItem DashboardItem="rangeFilterDashboardItem1" Weight="22.734356552538369" />
+          <LayoutGroup DashboardItem="groupDashboardItem2" Weight="82.720188902007081">
+            <LayoutGroup Orientation="Vertical" Weight="188.61355058802">
+              <LayoutGroup Weight="152.27518444752059">
+                <LayoutItem DashboardItem="cardDashboardItem3" Weight="121.80530309134937" />
+                <LayoutItem DashboardItem="chartDashboardItem1" Weight="141.78744338031927" />
+              </LayoutGroup>
+              <LayoutItem DashboardItem="pieDashboardItem1" Weight="211.51328792233926" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+        <LayoutItem DashboardItem="cardDashboardItem1" Weight="39.969675844784113" />
+      </LayoutGroup>
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

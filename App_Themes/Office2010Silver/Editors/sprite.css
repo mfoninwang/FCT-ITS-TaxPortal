@@ -1,0 +1,927 @@
+.dxeButtonEditButtonHover_Office2010Silver .dxEditors_edtClear_Office2010Silver,
+.dxEditors_caRefresh_Office2010Silver,
+.dxEditors_edtBinaryImageDelete_Office2010Silver,
+.dxEditors_edtBinaryImageOpenDialog_Office2010Silver,
+.dxEditors_edtCalendarFastNavBackToPrevMode_Office2010Silver,
+.dxEditors_edtCalendarFastNavBackToPrevModeRtl_Office2010Silver,
+.dxEditors_edtCalendarFNNextPeriod_Office2010Silver,
+.dxEditors_edtCalendarFNNextYear_Office2010Silver,
+.dxEditors_edtCalendarFNPrevPeriod_Office2010Silver,
+.dxEditors_edtCalendarFNPrevYear_Office2010Silver,
+.dxEditors_edtCalendarNextMonth_Office2010Silver,
+.dxEditors_edtCalendarNextMonthDisabled_Office2010Silver,
+.dxEditors_edtCalendarNextYear_Office2010Silver,
+.dxEditors_edtCalendarNextYearDisabled_Office2010Silver,
+.dxEditors_edtCalendarPrevMonth_Office2010Silver,
+.dxEditors_edtCalendarPrevMonthDisabled_Office2010Silver,
+.dxEditors_edtCalendarPrevYear_Office2010Silver,
+.dxEditors_edtCalendarPrevYearDisabled_Office2010Silver,
+.dxEditors_edtClear_Office2010Silver,
+.dxEditors_edtDETSClockFace_Office2010Silver,
+.dxEditors_edtDETSHourHand_Office2010Silver,
+.dxEditors_edtDETSMinuteHand_Office2010Silver,
+.dxEditors_edtDETSSecondHand_Office2010Silver,
+.dxEditors_edtDropDown_Office2010Silver,
+.dxEditors_edtDropDownDisabled_Office2010Silver,
+.dxEditors_edtEllipsis_Office2010Silver,
+.dxEditors_edtEllipsisDisabled_Office2010Silver,
+.dxEditors_edtError_Office2010Silver,
+.dxEditors_edtListBoxFilterBtn_Office2010Silver,
+.dxEditors_edtListBoxFilterBtnDisabled_Office2010Silver,
+.dxEditors_edtListBoxHideFilterBtn_Office2010Silver,
+.dxEditors_edtListBoxHideFilterBtnDisabled_Office2010Silver,
+.dxEditors_edtListBoxHideFilterBtnRtl_Office2010Silver,
+.dxEditors_edtListBoxHideFilterBtnRtlDisabled_Office2010Silver,
+.dxEditors_edtRadioButtonChecked_Office2010Silver,
+.dxEditors_edtRadioButtonCheckedDisabled_Office2010Silver,
+.dxEditors_edtRadioButtonUnchecked_Office2010Silver,
+.dxEditors_edtRadioButtonUncheckedDisabled_Office2010Silver,
+.dxEditors_edtSpinEditDecrementImage_Office2010Silver,
+.dxEditors_edtSpinEditDecrementImageDisabled_Office2010Silver,
+.dxEditors_edtSpinEditIncrementImage_Office2010Silver,
+.dxEditors_edtSpinEditIncrementImageDisabled_Office2010Silver,
+.dxEditors_edtSpinEditLargeDecImage_Office2010Silver,
+.dxEditors_edtSpinEditLargeDecImageDisabled_Office2010Silver,
+.dxEditors_edtSpinEditLargeIncImage_Office2010Silver,
+.dxEditors_edtSpinEditLargeIncImageDisabled_Office2010Silver,
+.dxEditors_edtTBDecBtn_Office2010Silver,
+.dxEditors_edtTBDecBtnDisabled_Office2010Silver,
+.dxEditors_edtTBDecBtnHover_Office2010Silver,
+.dxEditors_edtTBDecBtnPressed_Office2010Silver,
+.dxEditors_edtTBIncBtn_Office2010Silver,
+.dxEditors_edtTBIncBtnDisabled_Office2010Silver,
+.dxEditors_edtTBIncBtnHover_Office2010Silver,
+.dxEditors_edtTBIncBtnPressed_Office2010Silver,
+.dxEditors_edtTokenBoxTokenRemoveButton_Office2010Silver,
+.dxEditors_edtTokenBoxTokenRemoveButtonDisabled_Office2010Silver,
+.dxEditors_fcadd_Office2010Silver,
+.dxEditors_fcaddhot_Office2010Silver,
+.dxEditors_fcgroupaddcondition_Office2010Silver,
+.dxEditors_fcgroupaddgroup_Office2010Silver,
+.dxEditors_fcgroupand_Office2010Silver,
+.dxEditors_fcgroupnotand_Office2010Silver,
+.dxEditors_fcgroupnotor_Office2010Silver,
+.dxEditors_fcgroupor_Office2010Silver,
+.dxEditors_fcgroupremove_Office2010Silver,
+.dxEditors_fcopany_Office2010Silver,
+.dxEditors_fcopavg_Office2010Silver,
+.dxEditors_fcopbegin_Office2010Silver,
+.dxEditors_fcopbetween_Office2010Silver,
+.dxEditors_fcopblank_Office2010Silver,
+.dxEditors_fcopcontain_Office2010Silver,
+.dxEditors_fcopcount_Office2010Silver,
+.dxEditors_fcopend_Office2010Silver,
+.dxEditors_fcopequal_Office2010Silver,
+.dxEditors_fcopexists_Office2010Silver,
+.dxEditors_fcopgreater_Office2010Silver,
+.dxEditors_fcopgreaterorequal_Office2010Silver,
+.dxEditors_fcopless_Office2010Silver,
+.dxEditors_fcoplessorequal_Office2010Silver,
+.dxEditors_fcoplike_Office2010Silver,
+.dxEditors_fcopmax_Office2010Silver,
+.dxEditors_fcopmin_Office2010Silver,
+.dxEditors_fcopnotany_Office2010Silver,
+.dxEditors_fcopnotbetween_Office2010Silver,
+.dxEditors_fcopnotblank_Office2010Silver,
+.dxEditors_fcopnotcontain_Office2010Silver,
+.dxEditors_fcopnotequal_Office2010Silver,
+.dxEditors_fcopnotlike_Office2010Silver,
+.dxEditors_fcopsingle_Office2010Silver,
+.dxEditors_fcopsum_Office2010Silver,
+.dxEditors_fcoptypefield_Office2010Silver,
+.dxEditors_fcoptypefieldhot_Office2010Silver,
+.dxEditors_fcoptypevalue_Office2010Silver,
+.dxEditors_fcoptypevaluehot_Office2010Silver,
+.dxEditors_fcremove_Office2010Silver,
+.dxEditors_fcremovehot_Office2010Silver,
+.dxeFocused_Office2010Silver .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_Office2010Silver,
+.dxeFocused_Office2010Silver .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_Office2010Silver,
+.dxeFocused_Office2010Silver .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_Office2010Silver,
+.dxeFocused_Office2010Silver .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_Office2010Silver,
+.dxeFocused_Office2010Silver .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_Office2010Silver,
+.dxeFocused_Office2010Silver .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_Office2010Silver,
+.dxeFocused_Office2010Silver .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_Office2010Silver,
+.dxeFocused_Office2010Silver .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_Office2010Silver,
+.dxeFocused_Office2010Silver .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_Office2010Silver,
+.dxeFocused_Office2010Silver .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_Office2010Silver,
+.dxeFocused_Office2010Silver .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_Office2010Silver,
+.dxeFocused_Office2010Silver .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_Office2010Silver,
+.dxeTBHSys .dxEditors_edtTBMainDH_Office2010Silver,
+.dxeTBHSys .dxEditors_edtTBMainDHDisabled_Office2010Silver,
+.dxeTBHSys .dxEditors_edtTBMainDHHover_Office2010Silver,
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_Office2010Silver,
+.dxeTBHSys .dxEditors_edtTBSecondaryDH_Office2010Silver,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHDisabled_Office2010Silver,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHHover_Office2010Silver,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_Office2010Silver,
+.dxeTBVSys .dxEditors_edtTBMainDH_Office2010Silver,
+.dxeTBVSys .dxEditors_edtTBMainDHDisabled_Office2010Silver,
+.dxeTBVSys .dxEditors_edtTBMainDHHover_Office2010Silver,
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_Office2010Silver,
+.dxeTBVSys .dxEditors_edtTBSecondaryDH_Office2010Silver,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHDisabled_Office2010Silver,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHHover_Office2010Silver,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_Office2010Silver
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxeButtonEditButtonHover_Office2010Silver .dxEditors_edtClear_Office2010Silver
+{
+    background-position: -56px -349px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_caRefresh_Office2010Silver
+{
+    background-position: -82px -114px;
+    width: 25px;
+    height: 25px;
+}
+.dxEditors_edtBinaryImageDelete_Office2010Silver
+{
+    background-position: -49px -114px;
+    width: 32px;
+    height: 32px;
+}
+.dxEditors_edtBinaryImageOpenDialog_Office2010Silver
+{
+    background-position: -16px -114px;
+    width: 32px;
+    height: 32px;
+}
+.dxEditors_edtCalendarFastNavBackToPrevMode_Office2010Silver
+{
+    background-position: -111px -277px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_edtCalendarFastNavBackToPrevModeRtl_Office2010Silver
+{
+    background-position: -98px -335px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_edtCalendarFNNextPeriod_Office2010Silver
+{
+    background-position: 0px -170px;
+    width: 23px;
+    height: 23px;
+}
+.dxEditors_edtCalendarFNNextYear_Office2010Silver
+{
+    background-position: -96px -194px;
+    width: 23px;
+    height: 23px;
+}
+.dxEditors_edtCalendarFNPrevPeriod_Office2010Silver
+{
+    background-position: -102px -146px;
+    width: 23px;
+    height: 23px;
+}
+.dxEditors_edtCalendarFNPrevYear_Office2010Silver
+{
+    background-position: 0px -194px;
+    width: 23px;
+    height: 23px;
+}
+.dxEditors_edtCalendarNextMonth_Office2010Silver
+{
+    background-position: -72px -194px;
+    width: 23px;
+    height: 23px;
+}
+.dxEditors_edtCalendarNextMonthDisabled_Office2010Silver
+{
+    background-position: 0px -218px;
+    width: 23px;
+    height: 23px;
+}
+.dxEditors_edtCalendarNextYear_Office2010Silver
+{
+    background-position: -72px -170px;
+    width: 23px;
+    height: 23px;
+}
+.dxEditors_edtCalendarNextYearDisabled_Office2010Silver
+{
+    background-position: -24px -194px;
+    width: 23px;
+    height: 23px;
+}
+.dxEditors_edtCalendarPrevMonth_Office2010Silver
+{
+    background-position: -24px -170px;
+    width: 23px;
+    height: 23px;
+}
+.dxEditors_edtCalendarPrevMonthDisabled_Office2010Silver
+{
+    background-position: -96px -170px;
+    width: 23px;
+    height: 23px;
+}
+.dxEditors_edtCalendarPrevYear_Office2010Silver
+{
+    background-position: -48px -170px;
+    width: 23px;
+    height: 23px;
+}
+.dxEditors_edtCalendarPrevYearDisabled_Office2010Silver
+{
+    background-position: -48px -194px;
+    width: 23px;
+    height: 23px;
+}
+.dxEditors_edtClear_Office2010Silver
+{
+    background-position: -42px -307px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_edtDETSClockFace_Office2010Silver
+{
+    background-position: 0px 0px;
+    width: 113px;
+    height: 113px;
+}
+.dxEditors_edtDETSHourHand_Office2010Silver
+{
+    background-position: 0px -114px;
+    width: 7px;
+    height: 55px;
+}
+.dxEditors_edtDETSMinuteHand_Office2010Silver
+{
+    background-position: -8px -114px;
+    width: 7px;
+    height: 55px;
+}
+.dxEditors_edtDETSSecondHand_Office2010Silver
+{
+    background-position: -114px 0px;
+    width: 7px;
+    height: 74px;
+}
+.dxEditors_edtDropDown_Office2010Silver
+{
+    background-position: 0px -363px;
+    width: 10px;
+    height: 13px;
+}
+.dxEditors_edtDropDownDisabled_Office2010Silver
+{
+    background-position: -108px -349px;
+    width: 10px;
+    height: 13px;
+}
+.dxEditors_edtEllipsis_Office2010Silver
+{
+    background-position: -84px -349px;
+    width: 11px;
+    height: 13px;
+}
+.dxEditors_edtEllipsisDisabled_Office2010Silver
+{
+    background-position: -96px -349px;
+    width: 11px;
+    height: 13px;
+}
+.dxEditors_edtError_Office2010Silver
+{
+    background-position: -96px -277px;
+    width: 14px;
+    height: 14px;
+}
+.dxEditors_edtListBoxFilterBtn_Office2010Silver
+{
+    background-position: -70px -349px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_edtListBoxFilterBtnDisabled_Office2010Silver
+{
+    background-position: -98px -293px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_edtListBoxHideFilterBtn_Office2010Silver
+{
+    background-position: -56px -321px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_edtListBoxHideFilterBtnDisabled_Office2010Silver
+{
+    background-position: -84px -307px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_edtListBoxHideFilterBtnRtl_Office2010Silver
+{
+    background-position: -98px -321px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_edtListBoxHideFilterBtnRtlDisabled_Office2010Silver
+{
+    background-position: -56px -335px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_edtRadioButtonChecked_Office2010Silver
+{
+    background-position: -32px -277px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtRadioButtonCheckedDisabled_Office2010Silver
+{
+    background-position: -16px -277px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtRadioButtonUnchecked_Office2010Silver
+{
+    background-position: -80px -277px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtRadioButtonUncheckedDisabled_Office2010Silver
+{
+    background-position: -48px -277px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtSpinEditDecrementImage_Office2010Silver
+{
+    background-position: -96px -140px;
+    width: 7px;
+    height: 5px;
+}
+.dxEditors_edtSpinEditDecrementImageDisabled_Office2010Silver
+{
+    background-position: -110px -236px;
+    width: 7px;
+    height: 5px;
+}
+.dxEditors_edtSpinEditIncrementImage_Office2010Silver
+{
+    background-position: -118px -236px;
+    width: 7px;
+    height: 5px;
+}
+.dxEditors_edtSpinEditIncrementImageDisabled_Office2010Silver
+{
+    background-position: -82px -140px;
+    width: 7px;
+    height: 5px;
+}
+.dxEditors_edtSpinEditLargeDecImage_Office2010Silver
+{
+    background-position: -120px -170px;
+    width: 5px;
+    height: 7px;
+}
+.dxEditors_edtSpinEditLargeDecImageDisabled_Office2010Silver
+{
+    background-position: -90px -141px;
+    width: 5px;
+    height: 7px;
+}
+.dxEditors_edtSpinEditLargeIncImage_Office2010Silver
+{
+    background-position: -120px -126px;
+    width: 5px;
+    height: 7px;
+}
+.dxEditors_edtSpinEditLargeIncImageDisabled_Office2010Silver
+{
+    background-position: -120px -114px;
+    width: 5px;
+    height: 7px;
+}
+.dxEditors_edtTBDecBtn_Office2010Silver
+{
+    background-position: -66px -218px;
+    width: 20px;
+    height: 20px;
+}
+.dxEditors_edtTBDecBtnDisabled_Office2010Silver
+{
+    background-position: -60px -149px;
+    width: 20px;
+    height: 20px;
+}
+.dxEditors_edtTBDecBtnHover_Office2010Silver
+{
+    background-position: -45px -218px;
+    width: 20px;
+    height: 20px;
+}
+.dxEditors_edtTBDecBtnPressed_Office2010Silver
+{
+    background-position: -39px -149px;
+    width: 20px;
+    height: 20px;
+}
+.dxEditors_edtTBIncBtn_Office2010Silver
+{
+    background-position: -18px -149px;
+    width: 20px;
+    height: 20px;
+}
+.dxEditors_edtTBIncBtnDisabled_Office2010Silver
+{
+    background-position: -81px -149px;
+    width: 20px;
+    height: 20px;
+}
+.dxEditors_edtTBIncBtnHover_Office2010Silver
+{
+    background-position: -24px -218px;
+    width: 20px;
+    height: 20px;
+}
+.dxEditors_edtTBIncBtnPressed_Office2010Silver
+{
+    background-position: -87px -218px;
+    width: 20px;
+    height: 20px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButton_Office2010Silver
+{
+    background-position: 0px -277px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButtonDisabled_Office2010Silver
+{
+    background-position: -64px -277px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_fcadd_Office2010Silver
+{
+    background-position: -112px -307px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcaddhot_Office2010Silver
+{
+    background-position: -84px -335px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupaddcondition_Office2010Silver
+{
+    background-position: -14px -335px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupaddgroup_Office2010Silver
+{
+    background-position: -70px -335px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupand_Office2010Silver
+{
+    background-position: -14px -307px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupnotand_Office2010Silver
+{
+    background-position: -28px -307px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupnotor_Office2010Silver
+{
+    background-position: -28px -335px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupor_Office2010Silver
+{
+    background-position: -70px -293px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupremove_Office2010Silver
+{
+    background-position: -42px -349px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopany_Office2010Silver
+{
+    background-position: -28px -349px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopavg_Office2010Silver
+{
+    background-position: -34px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopbegin_Office2010Silver
+{
+    background-position: 0px -349px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopbetween_Office2010Silver
+{
+    background-position: -112px -321px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopblank_Office2010Silver
+{
+    background-position: -42px -321px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopcontain_Office2010Silver
+{
+    background-position: -84px -293px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopcount_Office2010Silver
+{
+    background-position: -85px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopend_Office2010Silver
+{
+    background-position: -14px -293px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopequal_Office2010Silver
+{
+    background-position: -112px -293px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopexists_Office2010Silver
+{
+    background-position: 0px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopgreater_Office2010Silver
+{
+    background-position: -42px -335px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopgreaterorequal_Office2010Silver
+{
+    background-position: -56px -293px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopless_Office2010Silver
+{
+    background-position: 0px -293px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoplessorequal_Office2010Silver
+{
+    background-position: -98px -307px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoplike_Office2010Silver
+{
+    background-position: -42px -293px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopmax_Office2010Silver
+{
+    background-position: -102px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopmin_Office2010Silver
+{
+    background-position: -68px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopnotany_Office2010Silver
+{
+    background-position: -28px -321px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotbetween_Office2010Silver
+{
+    background-position: -70px -307px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotblank_Office2010Silver
+{
+    background-position: -14px -349px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotcontain_Office2010Silver
+{
+    background-position: -56px -307px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotequal_Office2010Silver
+{
+    background-position: 0px -335px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotlike_Office2010Silver
+{
+    background-position: -28px -293px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopsingle_Office2010Silver
+{
+    background-position: -51px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopsum_Office2010Silver
+{
+    background-position: -17px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcoptypefield_Office2010Silver
+{
+    background-position: 0px -321px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypefieldhot_Office2010Silver
+{
+    background-position: -84px -321px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypevalue_Office2010Silver
+{
+    background-position: -14px -321px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypevaluehot_Office2010Silver
+{
+    background-position: -112px -335px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcremove_Office2010Silver
+{
+    background-position: 0px -307px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcremovehot_Office2010Silver
+{
+    background-position: -70px -321px;
+    width: 13px;
+    height: 13px;
+}
+.dxeFocused_Office2010Silver .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_Office2010Silver
+{
+    background-position: -60px -259px;
+    width: 11px;
+    height: 17px;
+}
+.dxeFocused_Office2010Silver .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_Office2010Silver
+{
+    background-position: -48px -259px;
+    width: 11px;
+    height: 17px;
+}
+.dxeFocused_Office2010Silver .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_Office2010Silver
+{
+    background-position: -108px -218px;
+    width: 11px;
+    height: 17px;
+}
+.dxeFocused_Office2010Silver .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_Office2010Silver
+{
+    background-position: -108px -259px;
+    width: 11px;
+    height: 17px;
+}
+.dxeFocused_Office2010Silver .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_Office2010Silver
+{
+    background-position: -84px -259px;
+    width: 11px;
+    height: 17px;
+}
+.dxeFocused_Office2010Silver .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_Office2010Silver
+{
+    background-position: -24px -259px;
+    width: 11px;
+    height: 17px;
+}
+.dxeFocused_Office2010Silver .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_Office2010Silver
+{
+    background-position: -72px -377px;
+    width: 17px;
+    height: 11px;
+}
+.dxeFocused_Office2010Silver .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_Office2010Silver
+{
+    background-position: -29px -363px;
+    width: 17px;
+    height: 11px;
+}
+.dxeFocused_Office2010Silver .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_Office2010Silver
+{
+    background-position: -18px -377px;
+    width: 17px;
+    height: 11px;
+}
+.dxeFocused_Office2010Silver .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_Office2010Silver
+{
+    background-position: -36px -377px;
+    width: 17px;
+    height: 11px;
+}
+.dxeFocused_Office2010Silver .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_Office2010Silver
+{
+    background-position: 0px -377px;
+    width: 17px;
+    height: 11px;
+}
+.dxeFocused_Office2010Silver .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_Office2010Silver
+{
+    background-position: -11px -363px;
+    width: 17px;
+    height: 11px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDH_Office2010Silver
+{
+    background-position: -12px -259px;
+    width: 11px;
+    height: 17px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHDisabled_Office2010Silver
+{
+    background-position: 0px -259px;
+    width: 11px;
+    height: 17px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHHover_Office2010Silver
+{
+    background-position: -114px -96px;
+    width: 11px;
+    height: 17px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_Office2010Silver
+{
+    background-position: -114px -78px;
+    width: 11px;
+    height: 17px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDH_Office2010Silver
+{
+    background-position: -72px -259px;
+    width: 11px;
+    height: 17px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDHDisabled_Office2010Silver
+{
+    background-position: -108px -114px;
+    width: 11px;
+    height: 17px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDHHover_Office2010Silver
+{
+    background-position: -96px -259px;
+    width: 11px;
+    height: 17px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_Office2010Silver
+{
+    background-position: -36px -259px;
+    width: 11px;
+    height: 17px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDH_Office2010Silver
+{
+    background-position: -54px -377px;
+    width: 17px;
+    height: 11px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHDisabled_Office2010Silver
+{
+    background-position: -108px -377px;
+    width: 17px;
+    height: 11px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHHover_Office2010Silver
+{
+    background-position: -90px -377px;
+    width: 17px;
+    height: 11px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_Office2010Silver
+{
+    background-position: -83px -363px;
+    width: 17px;
+    height: 11px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDH_Office2010Silver
+{
+    background-position: -101px -363px;
+    width: 17px;
+    height: 11px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDHDisabled_Office2010Silver
+{
+    background-position: -47px -363px;
+    width: 17px;
+    height: 11px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDHHover_Office2010Silver
+{
+    background-position: -65px -363px;
+    width: 17px;
+    height: 11px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_Office2010Silver
+{
+    background-position: -108px -134px;
+    width: 17px;
+    height: 11px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_Office2010Silver,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_Office2010Silver
+{
+	z-index: 7;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_Office2010Silver,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_Office2010Silver
+{
+	z-index: 7;
+}
+.dxEditors_edtError_Office2010Silver,
+.dxEditors_edtCalendarPrevYear_Office2010Silver,
+.dxEditors_edtCalendarPrevYearDisabled_Office2010Silver,
+.dxEditors_edtCalendarPrevMonth_Office2010Silver,
+.dxEditors_edtCalendarPrevMonthDisabled_Office2010Silver,
+.dxEditors_edtCalendarNextMonth_Office2010Silver,
+.dxEditors_edtCalendarNextMonthDisabled_Office2010Silver,
+.dxEditors_edtCalendarNextYear_Office2010Silver,
+.dxEditors_edtCalendarNextYearDisabled_Office2010Silver,
+.dxEditors_edtCalendarFNPrevYear_Office2010Silver,
+.dxEditors_edtCalendarFNNextYear_Office2010Silver,
+.dxEditors_edtCalendarFNPrevPeriod_Office2010Silver,
+.dxEditors_edtCalendarFNNextPeriod_Office2010Silver,
+.dxEditors_edtCheckBoxOn_Office2010Silver,
+.dxEditors_edtCheckBoxOff_Office2010Silver,
+.dxEditors_edtCheckBoxUndefined_Office2010Silver,
+.dxEditors_edtRadioButtonOn_Office2010Silver,
+.dxEditors_edtRadioButtonOff_Office2010Silver,
+.dxEditors_edtRadioButtonUndefined_Office2010Silver,
+.dxEditors_edtEllipsis_Office2010Silver,
+.dxEditors_edtEllipsisDisabled_Office2010Silver,
+.dxEditors_edtDropDown_Office2010Silver,
+.dxEditors_edtDropDownDisabled_Office2010Silver,
+.dxEditors_edtSpinEditIncrementImage_Office2010Silver,
+.dxEditors_edtSpinEditIncrementImageDisabled_Office2010Silver,
+.dxEditors_edtSpinEditDecrementImage_Office2010Silver,
+.dxEditors_edtSpinEditDecrementImageDisabled_Office2010Silver,
+.dxEditors_edtSpinEditLargeIncImage_Office2010Silver,
+.dxEditors_edtSpinEditLargeIncImageDisabled_Office2010Silver,
+.dxEditors_edtSpinEditLargeDecImage_Office2010Silver,
+.dxEditors_edtSpinEditLargeDecImageDisabled_Office2010Silver
+{
+	display:block;
+	margin:auto;
+}
+.dxEditors_edtCalendarFNPrevYear_Office2010Silver
+{
+    margin-right: 8px;
+}
+.dxEditors_edtCalendarFNNextYear_Office2010Silver
+{
+    margin-left: 8px;
+}
+

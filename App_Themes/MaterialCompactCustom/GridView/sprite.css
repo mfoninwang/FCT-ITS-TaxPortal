@@ -1,0 +1,1651 @@
+.dxGridView_CTClearFilter_MaterialCompactCustom,
+.dxGridView_CTClearFilterDisabled_MaterialCompactCustom,
+.dxGridView_CTClearGrouping_MaterialCompactCustom,
+.dxGridView_CTClearGroupingDisabled_MaterialCompactCustom,
+.dxGridView_CTCollapseDetailRow_MaterialCompactCustom,
+.dxGridView_CTCollapseDetailRowDisabled_MaterialCompactCustom,
+.dxGridView_CTCollapseRow_MaterialCompactCustom,
+.dxGridView_CTCollapseRowDisabled_MaterialCompactCustom,
+.dxGridView_CTDeleteRow_MaterialCompactCustom,
+.dxGridView_CTDeleteRowDisabled_MaterialCompactCustom,
+.dxGridView_CTEditRow_MaterialCompactCustom,
+.dxGridView_CTEditRowDisabled_MaterialCompactCustom,
+.dxGridView_CTExpandDetailRow_MaterialCompactCustom,
+.dxGridView_CTExpandDetailRowDisabled_MaterialCompactCustom,
+.dxGridView_CTExpandRow_MaterialCompactCustom,
+.dxGridView_CTExpandRowDisabled_MaterialCompactCustom,
+.dxGridView_CTExportCsv_MaterialCompactCustom,
+.dxGridView_CTExportCsvDisabled_MaterialCompactCustom,
+.dxGridView_CTExportDocx_MaterialCompactCustom,
+.dxGridView_CTExportDocxDisabled_MaterialCompactCustom,
+.dxGridView_CTExportPdf_MaterialCompactCustom,
+.dxGridView_CTExportPdfDisabled_MaterialCompactCustom,
+.dxGridView_CTExportRtf_MaterialCompactCustom,
+.dxGridView_CTExportRtfDisabled_MaterialCompactCustom,
+.dxGridView_CTExportXls_MaterialCompactCustom,
+.dxGridView_CTExportXlsDisabled_MaterialCompactCustom,
+.dxGridView_CTExportXlsx_MaterialCompactCustom,
+.dxGridView_CTExportXlsxDisabled_MaterialCompactCustom,
+.dxGridView_CTFullCollapse_MaterialCompactCustom,
+.dxGridView_CTFullCollapseDisabled_MaterialCompactCustom,
+.dxGridView_CTFullExpand_MaterialCompactCustom,
+.dxGridView_CTFullExpandDisabled_MaterialCompactCustom,
+.dxGridView_CTNewRow_MaterialCompactCustom,
+.dxGridView_CTNewRowDisabled_MaterialCompactCustom,
+.dxGridView_CTRefresh_MaterialCompactCustom,
+.dxGridView_CTRefreshDisabled_MaterialCompactCustom,
+.dxGridView_CTShowCustDialog_MaterialCompactCustom,
+.dxGridView_CTShowCustDialogDisabled_MaterialCompactCustom,
+.dxGridView_CTShowCustomizationWindow_MaterialCompactCustom,
+.dxGridView_CTShowCustomizationWindowDisabled_MaterialCompactCustom,
+.dxGridView_CTShowFilterEditor_MaterialCompactCustom,
+.dxGridView_CTShowFilterEditorDisabled_MaterialCompactCustom,
+.dxGridView_CTShowGroupPanel_MaterialCompactCustom,
+.dxGridView_CTShowGroupPanelDisabled_MaterialCompactCustom,
+.dxGridView_CTShowSearchPanel_MaterialCompactCustom,
+.dxGridView_CTShowSearchPanelDisabled_MaterialCompactCustom,
+.dxGridView_gvCellError_MaterialCompactCustom,
+.dxGridView_gvCMClearFilter_MaterialCompactCustom,
+.dxGridView_gvCMClearFilterDisabled_MaterialCompactCustom,
+.dxGridView_gvCMClearGrouping_MaterialCompactCustom,
+.dxGridView_gvCMClearGroupingDisabled_MaterialCompactCustom,
+.dxGridView_gvCMCollapseDetailRow_MaterialCompactCustom,
+.dxGridView_gvCMCollapseDetailRowDisabled_MaterialCompactCustom,
+.dxGridView_gvCMCollapseRow_MaterialCompactCustom,
+.dxGridView_gvCMCollapseRowDisabled_MaterialCompactCustom,
+.dxGridView_gvCMDeleteRow_MaterialCompactCustom,
+.dxGridView_gvCMDeleteRowDisabled_MaterialCompactCustom,
+.dxGridView_gvCMEditRow_MaterialCompactCustom,
+.dxGridView_gvCMEditRowDisabled_MaterialCompactCustom,
+.dxGridView_gvCMExpandDetailRow_MaterialCompactCustom,
+.dxGridView_gvCMExpandDetailRowDisabled_MaterialCompactCustom,
+.dxGridView_gvCMExpandRow_MaterialCompactCustom,
+.dxGridView_gvCMExpandRowDisabled_MaterialCompactCustom,
+.dxGridView_gvCMExportCsv_MaterialCompactCustom,
+.dxGridView_gvCMExportCsvDisabled_MaterialCompactCustom,
+.dxGridView_gvCMExportDocx_MaterialCompactCustom,
+.dxGridView_gvCMExportDocxDisabled_MaterialCompactCustom,
+.dxGridView_gvCMExportPdf_MaterialCompactCustom,
+.dxGridView_gvCMExportPdfDisabled_MaterialCompactCustom,
+.dxGridView_gvCMExportRtf_MaterialCompactCustom,
+.dxGridView_gvCMExportRtfDisabled_MaterialCompactCustom,
+.dxGridView_gvCMExportXls_MaterialCompactCustom,
+.dxGridView_gvCMExportXlsDisabled_MaterialCompactCustom,
+.dxGridView_gvCMExportXlsx_MaterialCompactCustom,
+.dxGridView_gvCMExportXlsxDisabled_MaterialCompactCustom,
+.dxGridView_gvCMFullCollapse_MaterialCompactCustom,
+.dxGridView_gvCMFullCollapseDisabled_MaterialCompactCustom,
+.dxGridView_gvCMFullExpand_MaterialCompactCustom,
+.dxGridView_gvCMFullExpandDisabled_MaterialCompactCustom,
+.dxGridView_gvCMGroupByColumn_MaterialCompactCustom,
+.dxGridView_gvCMGroupByColumnDisabled_MaterialCompactCustom,
+.dxGridView_gvCMNewRow_MaterialCompactCustom,
+.dxGridView_gvCMNewRowDisabled_MaterialCompactCustom,
+.dxGridView_gvCMRefresh_MaterialCompactCustom,
+.dxGridView_gvCMRefreshDisabled_MaterialCompactCustom,
+.dxGridView_gvCMSearchPanel_MaterialCompactCustom,
+.dxGridView_gvCMSearchPanelDisabled_MaterialCompactCustom,
+.dxGridView_gvCMShowCustDialog_MaterialCompactCustom,
+.dxGridView_gvCMShowCustDialogDisabled_MaterialCompactCustom,
+.dxGridView_gvCMShowCustomizationWindow_MaterialCompactCustom,
+.dxGridView_gvCMShowCustomizationWindowDisabled_MaterialCompactCustom,
+.dxGridView_gvCMShowFilterEditor_MaterialCompactCustom,
+.dxGridView_gvCMShowFilterEditorDisabled_MaterialCompactCustom,
+.dxGridView_gvCMShowGroupPanel_MaterialCompactCustom,
+.dxGridView_gvCMShowGroupPanelDisabled_MaterialCompactCustom,
+.dxGridView_gvCMShowSearchPanel_MaterialCompactCustom,
+.dxGridView_gvCMShowSearchPanelDisabled_MaterialCompactCustom,
+.dxGridView_gvCMSortAscending_MaterialCompactCustom,
+.dxGridView_gvCMSortAscendingDisabled_MaterialCompactCustom,
+.dxGridView_gvCMSortDescending_MaterialCompactCustom,
+.dxGridView_gvCMSortDescendingDisabled_MaterialCompactCustom,
+.dxGridView_gvCMSummaryAverage_MaterialCompactCustom,
+.dxGridView_gvCMSummaryAverageDisabled_MaterialCompactCustom,
+.dxGridView_gvCMSummaryCount_MaterialCompactCustom,
+.dxGridView_gvCMSummaryCountDisabled_MaterialCompactCustom,
+.dxGridView_gvCMSummaryMax_MaterialCompactCustom,
+.dxGridView_gvCMSummaryMaxDisabled_MaterialCompactCustom,
+.dxGridView_gvCMSummaryMin_MaterialCompactCustom,
+.dxGridView_gvCMSummaryMinDisabled_MaterialCompactCustom,
+.dxGridView_gvCMSummarySum_MaterialCompactCustom,
+.dxGridView_gvCMSummarySumDisabled_MaterialCompactCustom,
+.dxGridView_gvCMUngroupColumn_MaterialCompactCustom,
+.dxGridView_gvCOApply_MaterialCompactCustom,
+.dxGridView_gvCOApplyDisabled_MaterialCompactCustom,
+.dxGridView_gvCOClearFilter_MaterialCompactCustom,
+.dxGridView_gvCOClearFilterDisabled_MaterialCompactCustom,
+.dxGridView_gvCOClose_MaterialCompactCustom,
+.dxGridView_gvCOColumnDrag_MaterialCompactCustom,
+.dxGridView_gvCOColumnDragDisabled_MaterialCompactCustom,
+.dxGridView_gvCOColumnGroup_MaterialCompactCustom,
+.dxGridView_gvCOColumnGroupDisabled_MaterialCompactCustom,
+.dxGridView_gvCOColumnHide_MaterialCompactCustom,
+.dxGridView_gvCOColumnHideDisabled_MaterialCompactCustom,
+.dxGridView_gvCOColumnRemove_MaterialCompactCustom,
+.dxGridView_gvCOColumnRemoveDisabled_MaterialCompactCustom,
+.dxGridView_gvCOColumnShow_MaterialCompactCustom,
+.dxGridView_gvCOColumnShowDisabled_MaterialCompactCustom,
+.dxGridView_gvCOColumnSort_MaterialCompactCustom,
+.dxGridView_gvCOColumnSortDisabled_MaterialCompactCustom,
+.dxGridView_gvCOColumnSortDown_MaterialCompactCustom,
+.dxGridView_gvCOColumnSortDownDisabled_MaterialCompactCustom,
+.dxGridView_gvCOColumnSortUp_MaterialCompactCustom,
+.dxGridView_gvCOColumnSortUpDisabled_MaterialCompactCustom,
+.dxGridView_gvCOColumnUngroup_MaterialCompactCustom,
+.dxGridView_gvCOColumnUngroupDisabled_MaterialCompactCustom,
+.dxGridView_gvCOColumnUnsort_MaterialCompactCustom,
+.dxGridView_gvCOColumnUnsortDisabled_MaterialCompactCustom,
+.dxGridView_gvCODragAreaCollapse_MaterialCompactCustom,
+.dxGridView_gvCODragAreaExpand_MaterialCompactCustom,
+.dxGridView_gvCOFilterCollapse_MaterialCompactCustom,
+.dxGridView_gvCOFilterExpand_MaterialCompactCustom,
+.dxGridView_gvCollapsedButton_MaterialCompactCustom,
+.dxGridView_gvCollapsedButtonRtl_MaterialCompactCustom,
+.dxGridView_gvDetailCollapsedButton_MaterialCompactCustom,
+.dxGridView_gvDetailCollapsedButtonRtl_MaterialCompactCustom,
+.dxGridView_gvDetailExpandedButton_MaterialCompactCustom,
+.dxGridView_gvDetailExpandedButtonRtl_MaterialCompactCustom,
+.dxGridView_gvDragAndDropArrowDown_MaterialCompactCustom,
+.dxGridView_gvDragAndDropArrowLeft_MaterialCompactCustom,
+.dxGridView_gvDragAndDropArrowRight_MaterialCompactCustom,
+.dxGridView_gvDragAndDropArrowUp_MaterialCompactCustom,
+.dxGridView_gvDragAndDropHideColumn_MaterialCompactCustom,
+.dxGridView_gvExpandedButton_MaterialCompactCustom,
+.dxGridView_gvExpandedButtonRtl_MaterialCompactCustom,
+.dxGridView_gvFilterRowButton_MaterialCompactCustom,
+.dxGridView_gvFixedGroupRow_MaterialCompactCustom,
+.dxGridView_gvHeaderFilter_MaterialCompactCustom,
+.dxGridView_gvHeaderFilterActive_MaterialCompactCustom,
+.dxGridView_gvHeaderSortDown_MaterialCompactCustom,
+.dxGridView_gvHeaderSortUp_MaterialCompactCustom,
+.dxGridView_gvHideAdaptiveDetailButton_MaterialCompactCustom,
+.dxGridView_gvParentGroupRows_MaterialCompactCustom,
+.dxGridView_gvShowAdaptiveDetailButton_MaterialCompactCustom,
+.dxGridView_WindowResizer_MaterialCompactCustom,
+.dxGridView_WindowResizerRtl_MaterialCompactCustom,
+.dxgvADSB:hover .dxGridView_gvShowAdaptiveDetailButton_MaterialCompactCustom,
+.dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvCollapsedButton_MaterialCompactCustom,
+.dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvCollapsedButtonRtl_MaterialCompactCustom,
+.dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvDetailCollapsedButton_MaterialCompactCustom,
+.dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvDetailCollapsedButtonRtl_MaterialCompactCustom,
+.dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvDetailExpandedButton_MaterialCompactCustom,
+.dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvDetailExpandedButtonRtl_MaterialCompactCustom,
+.dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvExpandedButton_MaterialCompactCustom,
+.dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvExpandedButtonRtl_MaterialCompactCustom,
+.dxgvFocusedRow_MaterialCompactCustom .dxGridView_gvShowAdaptiveDetailButton_MaterialCompactCustom,
+.dxgvFocusedRow_MaterialCompactCustom .dxgvADSB:hover [class^='dxGridView_gvShowAdaptiveDeta'],
+.dxm-checked .dxGridView_CTShowCustomizationWindow_MaterialCompactCustom,
+.dxm-checked .dxGridView_CTShowGroupPanel_MaterialCompactCustom,
+.dxm-checked .dxGridView_CTShowSearchPanel_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMClearFilter_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMClearGrouping_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMCollapseDetailRow_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMCollapseRow_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMDeleteRow_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMEditRow_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMExpandDetailRow_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMExpandRow_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMFullCollapse_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMFullExpand_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMGroupByColumn_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMNewRow_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMRefresh_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMSearchPanel_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMShowCustomizationWindow_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMShowFilterEditor_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMShowGroupPanel_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMShowSearchPanel_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMSortAscending_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMSortDescending_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMSummaryAverage_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMSummaryCount_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMSummaryMax_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMSummaryMin_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMSummarySum_MaterialCompactCustom,
+.dxm-checked .dxGridView_gvCMUngroupColumn_MaterialCompactCustom
+{
+    background-image: url('sprite.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxIE .dx-acc-r .dxGridView_CTClearFilter_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTClearFilterDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTClearGrouping_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTClearGroupingDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTCollapseDetailRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTCollapseDetailRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTCollapseRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTCollapseRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTDeleteRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTDeleteRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTEditRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTEditRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTExpandDetailRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTExpandDetailRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTExpandRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTExpandRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTExportCsv_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTExportCsvDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTExportDocx_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTExportDocxDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTExportPdf_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTExportPdfDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTExportRtf_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTExportRtfDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTExportXls_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTExportXlsDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTExportXlsx_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTExportXlsxDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTFullCollapse_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTFullCollapseDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTFullExpand_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTFullExpandDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTNewRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTNewRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTRefresh_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTRefreshDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTShowCustDialog_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTShowCustDialogDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTShowCustomizationWindow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTShowCustomizationWindowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTShowFilterEditor_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTShowFilterEditorDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTShowGroupPanel_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTShowGroupPanelDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTShowSearchPanel_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_CTShowSearchPanelDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCellError_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMClearFilter_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMClearFilterDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMClearGrouping_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMClearGroupingDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMCollapseDetailRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMCollapseDetailRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMCollapseRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMCollapseRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMDeleteRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMDeleteRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMEditRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMEditRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMExpandDetailRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMExpandDetailRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMExpandRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMExpandRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMExportCsv_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMExportCsvDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMExportDocx_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMExportDocxDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMExportPdf_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMExportPdfDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMExportRtf_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMExportRtfDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMExportXls_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMExportXlsDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMExportXlsx_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMExportXlsxDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMFullCollapse_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMFullCollapseDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMFullExpand_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMFullExpandDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMGroupByColumn_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMGroupByColumnDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMNewRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMNewRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMRefresh_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMRefreshDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMSearchPanel_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMSearchPanelDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMShowCustDialog_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMShowCustDialogDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMShowCustomizationWindow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMShowCustomizationWindowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMShowFilterEditor_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMShowFilterEditorDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMShowGroupPanel_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMShowGroupPanelDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMShowSearchPanel_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMShowSearchPanelDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMSortAscending_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMSortAscendingDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMSortDescending_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMSortDescendingDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMSummaryAverage_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMSummaryAverageDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMSummaryCount_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMSummaryCountDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMSummaryMax_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMSummaryMaxDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMSummaryMin_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMSummaryMinDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMSummarySum_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMSummarySumDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCMUngroupColumn_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOApply_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOApplyDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOClearFilter_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOClearFilterDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOClose_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnDrag_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnDragDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnGroup_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnGroupDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnHide_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnHideDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnRemove_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnRemoveDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnShow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnShowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnSort_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnSortDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnSortDown_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnSortDownDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnSortUp_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnSortUpDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnUngroup_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnUngroupDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnUnsort_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOColumnUnsortDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCODragAreaCollapse_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCODragAreaExpand_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOFilterCollapse_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCOFilterExpand_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCollapsedButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvCollapsedButtonRtl_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvDetailCollapsedButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvDetailCollapsedButtonRtl_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvDetailExpandedButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvDetailExpandedButtonRtl_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvDragAndDropArrowDown_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvDragAndDropArrowLeft_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvDragAndDropArrowRight_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvDragAndDropArrowUp_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvDragAndDropHideColumn_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvExpandedButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvExpandedButtonRtl_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvFilterRowButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvFixedGroupRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvHeaderFilter_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvHeaderFilterActive_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvHeaderSortDown_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvHeaderSortUp_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvHideAdaptiveDetailButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvParentGroupRows_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_gvShowAdaptiveDetailButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_WindowResizer_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxGridView_WindowResizerRtl_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxgvADSB:hover .dxGridView_gvShowAdaptiveDetailButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvCollapsedButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvCollapsedButtonRtl_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvDetailCollapsedButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvDetailCollapsedButtonRtl_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvDetailExpandedButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvDetailExpandedButtonRtl_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvExpandedButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvExpandedButtonRtl_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxgvFocusedRow_MaterialCompactCustom .dxGridView_gvShowAdaptiveDetailButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxgvFocusedRow_MaterialCompactCustom .dxgvADSB:hover [class^='dxGridView_gvShowAdaptiveDeta']::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_CTShowCustomizationWindow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_CTShowGroupPanel_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_CTShowSearchPanel_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMClearFilter_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMClearGrouping_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMCollapseDetailRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMCollapseRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMDeleteRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMEditRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMExpandDetailRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMExpandRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMFullCollapse_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMFullExpand_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMGroupByColumn_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMNewRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMRefresh_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMSearchPanel_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMShowCustomizationWindow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMShowFilterEditor_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMShowGroupPanel_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMShowSearchPanel_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMSortAscending_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMSortDescending_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMSummaryAverage_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMSummaryCount_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMSummaryMax_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMSummaryMin_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMSummarySum_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxGridView_gvCMUngroupColumn_MaterialCompactCustom::before{
+    width: 273px;
+}
+.dxGridView_CTClearFilter_MaterialCompactCustom
+{
+    background-position: -136px -84px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTClearFilterDisabled_MaterialCompactCustom
+{
+    background-position: -85px -118px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTClearGrouping_MaterialCompactCustom
+{
+    background-position: -204px -84px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTClearGroupingDisabled_MaterialCompactCustom
+{
+    background-position: -68px -152px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTCollapseDetailRow_MaterialCompactCustom
+{
+    background-position: -85px -101px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTCollapseDetailRowDisabled_MaterialCompactCustom
+{
+    background-position: -204px -152px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTCollapseRow_MaterialCompactCustom
+{
+    background-position: -143px -46px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTCollapseRowDisabled_MaterialCompactCustom
+{
+    background-position: -17px -84px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTDeleteRow_MaterialCompactCustom
+{
+    background-position: -255px -152px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTDeleteRowDisabled_MaterialCompactCustom
+{
+    background-position: -170px -135px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTEditRow_MaterialCompactCustom
+{
+    background-position: -17px -169px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTEditRowDisabled_MaterialCompactCustom
+{
+    background-position: -102px -186px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTExpandDetailRow_MaterialCompactCustom
+{
+    background-position: -187px -152px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTExpandDetailRowDisabled_MaterialCompactCustom
+{
+    background-position: -51px -118px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTExpandRow_MaterialCompactCustom
+{
+    background-position: -255px -186px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTExpandRowDisabled_MaterialCompactCustom
+{
+    background-position: -109px -46px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTExportCsv_MaterialCompactCustom
+{
+    background-position: 0px -118px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTExportCsvDisabled_MaterialCompactCustom
+{
+    background-position: -170px -169px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTExportDocx_MaterialCompactCustom
+{
+    background-position: -255px -84px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTExportDocxDisabled_MaterialCompactCustom
+{
+    background-position: -34px -135px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTExportPdf_MaterialCompactCustom
+{
+    background-position: -187px -118px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTExportPdfDisabled_MaterialCompactCustom
+{
+    background-position: -34px -169px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTExportRtf_MaterialCompactCustom
+{
+    background-position: -187px -186px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTExportRtfDisabled_MaterialCompactCustom
+{
+    background-position: -119px -169px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTExportXls_MaterialCompactCustom
+{
+    background-position: -34px -152px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTExportXlsDisabled_MaterialCompactCustom
+{
+    background-position: -92px -46px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTExportXlsx_MaterialCompactCustom
+{
+    background-position: -187px -135px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTExportXlsxDisabled_MaterialCompactCustom
+{
+    background-position: -228px -46px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTFullCollapse_MaterialCompactCustom
+{
+    background-position: -204px -169px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTFullCollapseDisabled_MaterialCompactCustom
+{
+    background-position: 0px -169px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTFullExpand_MaterialCompactCustom
+{
+    background-position: -238px -135px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTFullExpandDisabled_MaterialCompactCustom
+{
+    background-position: -153px -135px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTNewRow_MaterialCompactCustom
+{
+    background-position: -136px -203px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTNewRowDisabled_MaterialCompactCustom
+{
+    background-position: -255px -101px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTRefresh_MaterialCompactCustom
+{
+    background-position: -34px -203px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTRefreshDisabled_MaterialCompactCustom
+{
+    background-position: -102px -135px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTShowCustDialog_MaterialCompactCustom
+{
+    background-position: -119px -203px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTShowCustDialogDisabled_MaterialCompactCustom
+{
+    background-position: -194px -46px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTShowCustomizationWindow_MaterialCompactCustom
+{
+    background-position: -238px -101px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTShowCustomizationWindowDisabled_MaterialCompactCustom
+{
+    background-position: -68px -135px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTShowFilterEditor_MaterialCompactCustom
+{
+    background-position: -203px -69px;
+    width: 14px;
+    height: 14px;
+}
+.dxGridView_CTShowFilterEditorDisabled_MaterialCompactCustom
+{
+    background-position: -38px -69px;
+    width: 14px;
+    height: 14px;
+}
+.dxGridView_CTShowGroupPanel_MaterialCompactCustom
+{
+    background-position: -34px -118px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTShowGroupPanelDisabled_MaterialCompactCustom
+{
+    background-position: 0px -203px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_CTShowSearchPanel_MaterialCompactCustom
+{
+    background-position: -248px -69px;
+    width: 14px;
+    height: 14px;
+}
+.dxGridView_CTShowSearchPanelDisabled_MaterialCompactCustom
+{
+    background-position: -221px -118px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCellError_MaterialCompactCustom
+{
+    background-position: -23px -69px;
+    width: 14px;
+    height: 14px;
+}
+.dxGridView_gvCMClearFilter_MaterialCompactCustom
+{
+    background-position: -68px -203px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMClearFilterDisabled_MaterialCompactCustom
+{
+    background-position: -153px -101px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMClearGrouping_MaterialCompactCustom
+{
+    background-position: -17px -203px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMClearGroupingDisabled_MaterialCompactCustom
+{
+    background-position: -51px -186px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseDetailRow_MaterialCompactCustom
+{
+    background-position: -238px -186px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseDetailRowDisabled_MaterialCompactCustom
+{
+    background-position: -51px -203px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseRow_MaterialCompactCustom
+{
+    background-position: -153px -169px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseRowDisabled_MaterialCompactCustom
+{
+    background-position: -102px -118px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMDeleteRow_MaterialCompactCustom
+{
+    background-position: -119px -118px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMDeleteRowDisabled_MaterialCompactCustom
+{
+    background-position: -102px -101px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMEditRow_MaterialCompactCustom
+{
+    background-position: -85px -203px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMEditRowDisabled_MaterialCompactCustom
+{
+    background-position: -51px -152px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandDetailRow_MaterialCompactCustom
+{
+    background-position: -136px -169px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandDetailRowDisabled_MaterialCompactCustom
+{
+    background-position: -221px -84px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandRow_MaterialCompactCustom
+{
+    background-position: -68px -101px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandRowDisabled_MaterialCompactCustom
+{
+    background-position: -221px -101px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExportCsv_MaterialCompactCustom
+{
+    background-position: -17px -118px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExportCsvDisabled_MaterialCompactCustom
+{
+    background-position: -85px -152px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExportDocx_MaterialCompactCustom
+{
+    background-position: -136px -152px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExportDocxDisabled_MaterialCompactCustom
+{
+    background-position: -153px -186px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExportPdf_MaterialCompactCustom
+{
+    background-position: 0px -135px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExportPdfDisabled_MaterialCompactCustom
+{
+    background-position: -136px -135px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExportRtf_MaterialCompactCustom
+{
+    background-position: -85px -135px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExportRtfDisabled_MaterialCompactCustom
+{
+    background-position: -211px -46px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExportXls_MaterialCompactCustom
+{
+    background-position: 0px -84px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExportXlsDisabled_MaterialCompactCustom
+{
+    background-position: 0px -101px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExportXlsx_MaterialCompactCustom
+{
+    background-position: -136px -118px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExportXlsxDisabled_MaterialCompactCustom
+{
+    background-position: -34px -186px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullCollapse_MaterialCompactCustom
+{
+    background-position: 0px -152px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullCollapseDisabled_MaterialCompactCustom
+{
+    background-position: -204px -101px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullExpand_MaterialCompactCustom
+{
+    background-position: -119px -152px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullExpandDisabled_MaterialCompactCustom
+{
+    background-position: -238px -118px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMGroupByColumn_MaterialCompactCustom
+{
+    background-position: -170px -118px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMGroupByColumnDisabled_MaterialCompactCustom
+{
+    background-position: -34px -84px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMNewRow_MaterialCompactCustom
+{
+    background-position: -170px -203px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMNewRowDisabled_MaterialCompactCustom
+{
+    background-position: -255px -118px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMRefresh_MaterialCompactCustom
+{
+    background-position: -119px -135px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMRefreshDisabled_MaterialCompactCustom
+{
+    background-position: -51px -169px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSearchPanel_MaterialCompactCustom
+{
+    background-position: -218px -69px;
+    width: 14px;
+    height: 14px;
+}
+.dxGridView_gvCMSearchPanelDisabled_MaterialCompactCustom
+{
+    background-position: -85px -169px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowCustDialog_MaterialCompactCustom
+{
+    background-position: -136px -186px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowCustDialogDisabled_MaterialCompactCustom
+{
+    background-position: -221px -169px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowCustomizationWindow_MaterialCompactCustom
+{
+    background-position: -126px -46px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowCustomizationWindowDisabled_MaterialCompactCustom
+{
+    background-position: -221px -186px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowFilterEditor_MaterialCompactCustom
+{
+    background-position: -53px -69px;
+    width: 14px;
+    height: 14px;
+}
+.dxGridView_gvCMShowFilterEditorDisabled_MaterialCompactCustom
+{
+    background-position: -221px -203px;
+    width: 14px;
+    height: 14px;
+}
+.dxGridView_gvCMShowGroupPanel_MaterialCompactCustom
+{
+    background-position: -136px -101px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowGroupPanelDisabled_MaterialCompactCustom
+{
+    background-position: -221px -135px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowSearchPanel_MaterialCompactCustom
+{
+    background-position: -83px -69px;
+    width: 14px;
+    height: 14px;
+}
+.dxGridView_gvCMShowSearchPanelDisabled_MaterialCompactCustom
+{
+    background-position: -68px -118px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortAscending_MaterialCompactCustom
+{
+    background-position: -102px -84px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortAscendingDisabled_MaterialCompactCustom
+{
+    background-position: -51px -84px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortDescending_MaterialCompactCustom
+{
+    background-position: -51px -135px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortDescendingDisabled_MaterialCompactCustom
+{
+    background-position: -51px -101px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryAverage_MaterialCompactCustom
+{
+    background-position: -17px -186px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryAverageDisabled_MaterialCompactCustom
+{
+    background-position: -187px -169px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryCount_MaterialCompactCustom
+{
+    background-position: -68px -84px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryCountDisabled_MaterialCompactCustom
+{
+    background-position: -102px -169px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMax_MaterialCompactCustom
+{
+    background-position: -153px -84px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMaxDisabled_MaterialCompactCustom
+{
+    background-position: -170px -84px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMin_MaterialCompactCustom
+{
+    background-position: -170px -101px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMinDisabled_MaterialCompactCustom
+{
+    background-position: -187px -101px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummarySum_MaterialCompactCustom
+{
+    background-position: -170px -152px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummarySumDisabled_MaterialCompactCustom
+{
+    background-position: -102px -152px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMUngroupColumn_MaterialCompactCustom
+{
+    background-position: -245px -46px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCOApply_MaterialCompactCustom
+{
+    background-position: -46px -46px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOApplyDisabled_MaterialCompactCustom
+{
+    background-position: -184px -23px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOClearFilter_MaterialCompactCustom
+{
+    background-position: 0px -46px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOClearFilterDisabled_MaterialCompactCustom
+{
+    background-position: -69px -46px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOClose_MaterialCompactCustom
+{
+    background-position: -115px -23px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOColumnDrag_MaterialCompactCustom
+{
+    background-position: -253px -23px;
+    width: 18px;
+    height: 18px;
+}
+.dxGridView_gvCOColumnDragDisabled_MaterialCompactCustom
+{
+    background-position: -253px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxGridView_gvCOColumnGroup_MaterialCompactCustom
+{
+    background-position: -161px -23px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOColumnGroupDisabled_MaterialCompactCustom
+{
+    background-position: 0px -23px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOColumnHide_MaterialCompactCustom
+{
+    background-position: -69px -23px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOColumnHideDisabled_MaterialCompactCustom
+{
+    background-position: -46px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOColumnRemove_MaterialCompactCustom
+{
+    background-position: 0px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOColumnRemoveDisabled_MaterialCompactCustom
+{
+    background-position: -230px -23px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOColumnShow_MaterialCompactCustom
+{
+    background-position: -92px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOColumnShowDisabled_MaterialCompactCustom
+{
+    background-position: -207px -23px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOColumnSort_MaterialCompactCustom
+{
+    background-position: -23px -46px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOColumnSortDisabled_MaterialCompactCustom
+{
+    background-position: -92px -23px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOColumnSortDown_MaterialCompactCustom
+{
+    background-position: -161px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOColumnSortDownDisabled_MaterialCompactCustom
+{
+    background-position: -69px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOColumnSortUp_MaterialCompactCustom
+{
+    background-position: -138px -23px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOColumnSortUpDisabled_MaterialCompactCustom
+{
+    background-position: -115px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOColumnUngroup_MaterialCompactCustom
+{
+    background-position: -184px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOColumnUngroupDisabled_MaterialCompactCustom
+{
+    background-position: -138px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOColumnUnsort_MaterialCompactCustom
+{
+    background-position: -23px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOColumnUnsortDisabled_MaterialCompactCustom
+{
+    background-position: -230px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCODragAreaCollapse_MaterialCompactCustom
+{
+    background-position: -250px -203px;
+    width: 13px;
+    height: 13px;
+}
+.dxGridView_gvCODragAreaExpand_MaterialCompactCustom
+{
+    background-position: -236px -203px;
+    width: 13px;
+    height: 13px;
+}
+.dxGridView_gvCOFilterCollapse_MaterialCompactCustom
+{
+    background-position: -23px -23px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCOFilterExpand_MaterialCompactCustom
+{
+    background-position: -46px -23px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvCollapsedButton_MaterialCompactCustom
+{
+    background-position: -143px -220px;
+    width: 12px;
+    height: 12px;
+}
+.dxGridView_gvCollapsedButtonRtl_MaterialCompactCustom
+{
+    background-position: -91px -220px;
+    width: 12px;
+    height: 12px;
+}
+.dxGridView_gvDetailCollapsedButton_MaterialCompactCustom
+{
+    background-position: 0px -220px;
+    width: 12px;
+    height: 12px;
+}
+.dxGridView_gvDetailCollapsedButtonRtl_MaterialCompactCustom
+{
+    background-position: -52px -220px;
+    width: 12px;
+    height: 12px;
+}
+.dxGridView_gvDetailExpandedButton_MaterialCompactCustom
+{
+    background-position: -156px -220px;
+    width: 12px;
+    height: 12px;
+}
+.dxGridView_gvDetailExpandedButtonRtl_MaterialCompactCustom
+{
+    background-position: -39px -220px;
+    width: 12px;
+    height: 12px;
+}
+.dxGridView_gvDragAndDropArrowDown_MaterialCompactCustom
+{
+    background-position: -246px -220px;
+    width: 11px;
+    height: 9px;
+}
+.dxGridView_gvDragAndDropArrowLeft_MaterialCompactCustom
+{
+    background-position: -262px -46px;
+    width: 9px;
+    height: 10px;
+}
+.dxGridView_gvDragAndDropArrowRight_MaterialCompactCustom
+{
+    background-position: -263px -58px;
+    width: 9px;
+    height: 10px;
+}
+.dxGridView_gvDragAndDropArrowUp_MaterialCompactCustom
+{
+    background-position: -234px -220px;
+    width: 11px;
+    height: 9px;
+}
+.dxGridView_gvDragAndDropHideColumn_MaterialCompactCustom
+{
+    background-position: -17px -101px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvExpandedButton_MaterialCompactCustom
+{
+    background-position: -117px -220px;
+    width: 12px;
+    height: 12px;
+}
+.dxGridView_gvExpandedButtonRtl_MaterialCompactCustom
+{
+    background-position: -26px -220px;
+    width: 12px;
+    height: 12px;
+}
+.dxGridView_gvFilterRowButton_MaterialCompactCustom
+{
+    background-position: -113px -69px;
+    width: 14px;
+    height: 14px;
+}
+.dxGridView_gvFixedGroupRow_MaterialCompactCustom
+{
+    background-position: 0px -69px;
+    width: 22px;
+    height: 14px;
+}
+.dxGridView_gvHeaderFilter_MaterialCompactCustom
+{
+    background-position: -98px -69px;
+    width: 14px;
+    height: 14px;
+}
+.dxGridView_gvHeaderFilterActive_MaterialCompactCustom
+{
+    background-position: -173px -69px;
+    width: 14px;
+    height: 14px;
+}
+.dxGridView_gvHeaderSortDown_MaterialCompactCustom
+{
+    background-position: -78px -220px;
+    width: 12px;
+    height: 12px;
+}
+.dxGridView_gvHeaderSortUp_MaterialCompactCustom
+{
+    background-position: -65px -220px;
+    width: 12px;
+    height: 12px;
+}
+.dxGridView_gvHideAdaptiveDetailButton_MaterialCompactCustom
+{
+    background-position: -68px -186px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvParentGroupRows_MaterialCompactCustom
+{
+    background-position: -207px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvShowAdaptiveDetailButton_MaterialCompactCustom
+{
+    background-position: -153px -152px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_WindowResizer_MaterialCompactCustom
+{
+    background-position: -128px -69px;
+    width: 14px;
+    height: 14px;
+}
+.dxGridView_WindowResizerRtl_MaterialCompactCustom
+{
+    background-position: -233px -69px;
+    width: 14px;
+    height: 14px;
+}
+.dxgvADSB:hover .dxGridView_gvShowAdaptiveDetailButton_MaterialCompactCustom
+{
+    background-position: 0px -186px;
+    width: 16px;
+    height: 16px;
+}
+.dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvCollapsedButton_MaterialCompactCustom
+{
+    background-position: -104px -220px;
+    width: 12px;
+    height: 12px;
+}
+.dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvCollapsedButtonRtl_MaterialCompactCustom
+{
+    background-position: -208px -220px;
+    width: 12px;
+    height: 12px;
+}
+.dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvDetailCollapsedButton_MaterialCompactCustom
+{
+    background-position: -13px -220px;
+    width: 12px;
+    height: 12px;
+}
+.dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvDetailCollapsedButtonRtl_MaterialCompactCustom
+{
+    background-position: -182px -220px;
+    width: 12px;
+    height: 12px;
+}
+.dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvDetailExpandedButton_MaterialCompactCustom
+{
+    background-position: -169px -220px;
+    width: 12px;
+    height: 12px;
+}
+.dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvDetailExpandedButtonRtl_MaterialCompactCustom
+{
+    background-position: -195px -220px;
+    width: 12px;
+    height: 12px;
+}
+.dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvExpandedButton_MaterialCompactCustom
+{
+    background-position: -130px -220px;
+    width: 12px;
+    height: 12px;
+}
+.dxgvFocusedGroupRow_MaterialCompactCustom .dxGridView_gvExpandedButtonRtl_MaterialCompactCustom
+{
+    background-position: -221px -220px;
+    width: 12px;
+    height: 12px;
+}
+.dxgvFocusedRow_MaterialCompactCustom .dxGridView_gvShowAdaptiveDetailButton_MaterialCompactCustom
+{
+    background-position: -238px -84px;
+    width: 16px;
+    height: 16px;
+}
+.dxgvFocusedRow_MaterialCompactCustom .dxgvADSB:hover [class^='dxGridView_gvShowAdaptiveDeta']
+{
+    background-position: -238px -169px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_CTShowCustomizationWindow_MaterialCompactCustom
+{
+    background-position: -119px -101px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_CTShowGroupPanel_MaterialCompactCustom
+{
+    background-position: -85px -186px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_CTShowSearchPanel_MaterialCompactCustom
+{
+    background-position: -158px -69px;
+    width: 14px;
+    height: 14px;
+}
+.dxm-checked .dxGridView_gvCMClearFilter_MaterialCompactCustom
+{
+    background-position: -204px -135px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMClearGrouping_MaterialCompactCustom
+{
+    background-position: -119px -186px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMCollapseDetailRow_MaterialCompactCustom
+{
+    background-position: -17px -135px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMCollapseRow_MaterialCompactCustom
+{
+    background-position: -255px -169px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMDeleteRow_MaterialCompactCustom
+{
+    background-position: -238px -152px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMEditRow_MaterialCompactCustom
+{
+    background-position: -153px -118px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMExpandDetailRow_MaterialCompactCustom
+{
+    background-position: -17px -152px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMExpandRow_MaterialCompactCustom
+{
+    background-position: -177px -46px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMFullCollapse_MaterialCompactCustom
+{
+    background-position: -187px -84px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMFullExpand_MaterialCompactCustom
+{
+    background-position: -119px -84px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMGroupByColumn_MaterialCompactCustom
+{
+    background-position: -34px -101px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMNewRow_MaterialCompactCustom
+{
+    background-position: -170px -186px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMRefresh_MaterialCompactCustom
+{
+    background-position: -187px -203px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMSearchPanel_MaterialCompactCustom
+{
+    background-position: -188px -69px;
+    width: 14px;
+    height: 14px;
+}
+.dxm-checked .dxGridView_gvCMShowCustomizationWindow_MaterialCompactCustom
+{
+    background-position: -68px -169px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMShowFilterEditor_MaterialCompactCustom
+{
+    background-position: -68px -69px;
+    width: 14px;
+    height: 14px;
+}
+.dxm-checked .dxGridView_gvCMShowGroupPanel_MaterialCompactCustom
+{
+    background-position: -221px -152px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMShowSearchPanel_MaterialCompactCustom
+{
+    background-position: -143px -69px;
+    width: 14px;
+    height: 14px;
+}
+.dxm-checked .dxGridView_gvCMSortAscending_MaterialCompactCustom
+{
+    background-position: -204px -118px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMSortDescending_MaterialCompactCustom
+{
+    background-position: -153px -203px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMSummaryAverage_MaterialCompactCustom
+{
+    background-position: -255px -135px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMSummaryCount_MaterialCompactCustom
+{
+    background-position: -160px -46px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMSummaryMax_MaterialCompactCustom
+{
+    background-position: -204px -186px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMSummaryMin_MaterialCompactCustom
+{
+    background-position: -85px -84px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMSummarySum_MaterialCompactCustom
+{
+    background-position: -102px -203px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxGridView_gvCMUngroupColumn_MaterialCompactCustom
+{
+    background-position: -204px -203px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvFilterRowButton_MaterialCompactCustom
+{
+    margin-left: 8px;
+}

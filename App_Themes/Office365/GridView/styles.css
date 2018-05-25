@@ -1,0 +1,1335 @@
+.dxgvControl_Office365,
+.dxgvDisabled_Office365
+{
+    font: 14px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    background-color: White;
+    color: #666;
+    cursor: default;
+}
+.dxgvDisabled_Office365
+{
+    color: #b8b8b8;
+}
+.dxgvControl_Office365 a
+{
+    color: #009688;
+    text-decoration: none;
+}
+.dxgvControl_Office365 a:hover
+{
+    text-decoration: underline;
+}
+.dxgvControl_Office365 a:hover.dxbDisabled_Office365
+{
+    color: #BBBBBB;
+    text-decoration: none;
+}
+.dxgvDisabled_Office365 a
+{
+    color: #b8b8b8;
+}
+.dxgvEmptyDataRow_Office365.dxgvLVR > td.dxgv,
+.dxgvDataRow_Office365.dxgvLVR > td.dxgv,
+.dxgvGroupRow_Office365.dxgvLVR > td.dxgv
+{
+    border-bottom-width: 0;
+}
+.dxgvRBB .dxgvEmptyDataRow_Office365.dxgvLVR > td.dxgv,
+.dxgvRBB .dxgvDataRow_Office365.dxgvLVR > td.dxgv,
+.dxgvRBB .dxgvGroupRow_Office365.dxgvLVR > td.dxgv
+{
+    border-bottom-width: 1px !important;
+}
+.dxgvGroupRow_Office365 td.dxgv.dxgvPHEC, .dxgvPreviewRow_Office365 td.dxgv.dxgvPHEC,
+.dxgvDetailRow_Office365 td.dxgv.dxgvPHEC, .dxgvGroupFooter_Office365 td.dxgv.dxgvPHEC,
+.dxgvDataRow_Office365 td.dxgvPHEC
+{
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+.dxgvLoadingPanel_Office365
+{
+    background-color: white;
+    font: 14px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    color: #666;
+    -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+}
+.dxgvLoadingPanel_Office365 td.dx
+{
+    font-size: 1.17em;
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px 14px;
+}
+.dxgvLoadingPanel_Office365 .dxlp-loadingImage
+{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+    animation: dxLoadSpinSys 1s linear infinite;
+    border: 4px solid #009688;
+    border-top: 4px solid #EEE;
+    width: 24px;
+    height: 24px;
+}
+html.dxIE.dxBrowserVersion-9 .dxgvLoadingPanel_Office365 .dxlp-loadingImage
+{
+    background-image: url('../Web/Loading.gif');
+    height: 32px;
+    width: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: none;
+    border: none;
+    border-radius: 0;
+}
+html.dxIE.dxBrowserVersion-9 .dxgvLoadingPanelStatusBar_Office365 .dxlp-loadingImage
+{
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: none;
+    border: none;
+    border-radius: 0;
+    background-image: url('gvLoadingOnStatusBar.gif');
+    height: 16px;
+    width: 16px;
+}
+.dxgvLoadingPanelStatusBar_Office365 .dxlp-loadingImage
+{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+    animation: dxLoadSpinSys 1s linear infinite;
+    border: 2px solid #009688;
+    border-top: 2px solid #EEE;
+    width: 12px;
+    height: 12px;
+}
+.dxgvLoadingPanelStatusBar_Office365
+{
+    background-color: Transparent;
+}
+.dxgvLoadingPanelStatusBar_Office365 td
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 0px 2px;
+}
+.dxgvTable_Office365
+{
+    background-color: White;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-bottom-width: 0;
+    border-collapse: separate !important;
+    overflow: hidden;
+}
+.dxgvTable_Office365 .dxgvHEC
+{
+    background-color: White;
+    border-width: 0;
+    overflow: hidden;
+}
+.dxgvTable_Office365 .dxgvFooter_Office365 .dxgvHEC
+{
+    background-color: #f4f4f4;
+}
+.dxgvControl_Office365 .dxgvFSDC .dxgvFooter_Office365 td.dxgv
+{
+    border-bottom-width: 0;
+}
+.dxgvControl_Office365 .dxgvFGI
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.dxgvControl_Office365 .dxgvFGI
+{
+    right: 5px;
+    left: auto;
+}
+*[dir="rtl"].dxgvControl_Office365 .dxgvFGI
+{
+    right: auto;
+    left: 5px;
+}
+.dxgvInlineEditRow_Office365 td.dxgv
+{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.dxgvInlineEditRow_Office365 td.dxgvIndentCell
+{
+    background-color: white;
+}
+.dxgvDataRowAlt_Office365
+{
+    background-color: rgba(0,0,0,0.04);
+}
+.dxgvFilterRow_Office365
+{
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.dxgvEditForm_Office365 > td.dxgv
+{
+    border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+    padding: 8px 0 6px 7px;
+    background-color: #f4f4f4;
+}
+.dxgvControl_Office365 .dxgvTable_Office365 .dxgvFocusedRow_Office365,
+.dxgvControl_Office365 .dxgvTable_Office365 .dxgvFocusedRow_Office365.dxgvDataRowHover_Office365
+{
+    background-color: #009688;
+    color: white;
+}
+.dxgvControl_Office365 .dxgvTable_Office365 .dxgvFocusedRow_Office365 a,
+.dxgvControl_Office365 .dxgvTable_Office365 .dxgvFocusedGroupRow_Office365 a
+{
+    color: white;
+}
+.dxgvControl_Office365 .dxgvAIC
+{
+    text-align: center;
+}
+.dxgvControl_Office365 .dxgvADSB > img
+{
+    opacity: 1;
+    margin-top: -33px;
+}
+.dxgvControl_Office365 .dxgvADSB::before
+{
+    content: '';
+    display: block;
+    height: 32px;
+    width: 32px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+    background-color: transparent;
+    transition-property: background-color,box-shadow;
+    transition-duration: .3s;
+}
+.dxgvControl_Office365 .dxgvADSB:hover::before
+{
+    background-color: #009688;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+.dxgvControl_Office365 .dxgvFocusedRow_Office365 .dxgvADSB:hover::before
+{
+    background-color: white;
+}
+.dxgvControl_Office365 .dxgvTable_Office365 .dxgvSelectedRow_Office365,
+.dxgvControl_Office365 .dxgvTable_Office365 .dxgvSelectedRow_Office365.dxgvDataRowHover_Office365
+{
+    background-color: #90AAA6;
+}
+.dxgvPreviewRow_Office365
+{
+    color: #999999;
+}
+.dxgvDetailRow_Office365 td.dxgv,
+.dxgvPreviewRow_Office365 td.dxgv,
+.dxgvEmptyDataRow_Office365 td.dxgv
+{
+    padding: 20px 2px 20px 4px;
+    border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+.dxgvPreviewRow_Office365 td.dxgv
+{
+    padding: 10px 10px 9px 15px;
+}
+.dxgvDetailRow_Office365 td.dxgvDetailCell_Office365
+{
+    padding: 16px 18px;
+}
+.dxgvDetailRow_Office365 td.dxgvIndentCell
+{
+    padding-right: 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+}
+.dxgvDetailRow_Office365.dxgvADR .dxgvADT > tbody > tr > td
+{
+    padding: 5px 6px 4px 0;
+}
+.dxgvDetailRow_Office365.dxgvADR .dxgvADT > tbody > tr > td .dxeTextBoxSys,
+.dxgvDetailRow_Office365.dxgvADR .dxgvADT > tbody > tr > td .dxichCellSys
+{
+    margin: -2px 0 -5px 0;
+}
+.dxgvDetailRow_Office365.dxgvADR .dxgvADCC
+{
+    color: #7F7F7F;
+}
+.dxgvDetailRow_Office365.dxgvADR.dxgvFocusedRow_Office365 .dxgvADCC,
+.dxgvDetailRow_Office365.dxgvADR.dxgvFocusedRow_Office365 .dxgvADDC,
+.dxgvDetailRow_Office365.dxgvADR.dxgvFocusedRow_Office365 .dxgvADCMDC a
+{
+    color: white;
+}
+.dxgvEmptyDataRow_Office365
+{
+    color: Gray;
+}
+.dxgvEmptyDataRow_Office365 td.dxgv
+{
+    border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+    text-align: center;
+}
+.dxgvEditFormDisplayRow_Office365 td.dxgv,
+.dxgvDetailCell_Office365 td.dxgv,
+.dxgvDataRow_Office365 td.dxgv,
+.dxgvDetailRow_Office365.dxgvADR td.dxgvAIC
+{
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+    border-top-width: 0;
+    border-left-width: 0;
+    padding: 10px 10px 9px;
+}
+.dxgvEditFormDisplayRow_Office365:last-child td.dxgv,
+.dxgvDetailCell_Office365:last-child td.dxgv,
+.dxgvDataRow_Office365:last-child td.dxgv,
+.dxgvDetailRow_Office365.dxgvADR:last-child td.dxgvAIC
+{
+    border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+}
+.dxgvDataRow_Office365 td.dxgvAIC,
+.dxgvInlineEditRow_Office365 td.dxgvAIC
+{
+    padding: 0 10px;
+}
+.dxgvDetailRow_Office365.dxgvADR td.dxgvAIC
+{
+    padding: 6px 4px;
+}
+.dxgvEditFormDisplayRow_Office365 td.dxgvIndentCell
+{
+    border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+}
+.dxgvDataRow_Office365 .dxICheckBox_Office365,
+.dxgvInlineEditRow_Office365 .dxICheckBox_Office365,
+.dxgvDataRow_Office365 .dxeIRadioButton_Office365,
+.dxgvInlineEditRow_Office365 .dxeIRadioButton_Office365
+{
+    margin: -3px 10px 0 10px;
+}
+*[dir="rtl"] .dxgvDataRow_Office365 .dxICheckBox_Office365,
+*[dir="rtl"] .dxgvInlineEditRow_Office365 .dxICheckBox_Office365,
+*[dir="rtl"] .dxgvDataRow_Office365 .dxeIRadioButton_Office365,
+*[dir="rtl"] .dxgvInlineEditRow_Office365 .dxeIRadioButton_Office365
+{
+    margin: -3px 10px 0 10px;
+}
+.dxgvCommandColumn_Office365 .dxICheckBox_Office365,
+.dxgvCommandColumn_Office365 .dxeIRadioButton_Office365
+{
+    margin: -3px 10px 0 10px;
+}
+*[dir="rtl"] .dxgvCommandColumn_Office365 .dxICheckBox_Office365,
+*[dir="rtl"] .dxgvCommandColumn_Office365 .dxeIRadioButton_Office365
+{
+    margin: -3px 10px 0 10px;
+}
+.dxgvEditingErrorRow_Office365
+{
+    background-color: #FFC8C8;
+    color: #FF0000;
+}
+.dxgvEditingErrorRow_Office365 td.dxgv
+{
+    white-space: pre-wrap;
+    border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-left-width: 0;
+    padding: 6px 10px;
+}
+.dxgvFilterRow_Office365 td.dxgv
+{
+    border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    border-top-width: 0;
+    border-left-width: 0;
+    padding: 6px 10px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+.dxgvGroupRow_Office365
+{
+    background-color: #f4f4f4;
+    color: #939393;
+}
+.dxgvFocusedGroupRow_Office365
+{
+    background-color: #009688;
+    color: white;
+}
+.dxgvGroupRow_Office365 td.dxgv,
+.dxgvFocusedGroupRow_Office365 td.dxgv
+{
+    border: 0 none;
+    vertical-align: middle;
+    border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+    padding: 10px 10px 9px;
+    background-color: inherit;
+}
+.dxgvFocusedGroupRow_Office365 td.dxgvIndentCell
+{
+    background-color: #f4f4f4 !important;
+}
+.dxgvHeaderPanel_Office365
+{
+    background-color: #ffffff;
+    padding: 21px 10px 17px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.dxIE .dxgvMSDraggable .dxgvHeader_Office365,
+.dxIE .dxgvMSDraggable.dxgvGroupPanel_Office365
+{
+    -ms-touch-action: pinch-zoom;
+}
+.dxEdge .dxgvMSDraggable .dxgvHeader_Office365,
+.dxEdge .dxgvMSDraggable.dxgvGroupPanel_Office365
+{
+    touch-action: pinch-zoom;
+}
+.dxgvHeader_Office365
+{
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 13px 10px 11px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    font-weight: normal;
+    text-align: left;
+    font: 14px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    font-size: 1em;
+}
+.dxgvHeader_Office365 td
+{
+    white-space: nowrap;
+}
+.dxgvHeader_Office365 a,
+.dxgvHeader_Office365 a.dxgvCommandColumnItem_Office365,
+.dxgvHeader_Office365 a.dxgvCommandColumnItem_Office365.dxbDisabled_Office365,
+.dxgvCommandColumn_Office365 a,
+.dxgvCommandColumn_Office365 a.dxgvCommandColumnItem_Office365.dxbDisabled_Office365
+{
+    color: #009688;
+}
+.dxgvHeader_Office365 a.dxgvCommandColumnItem_Office365
+{
+    margin: 0 5px 0 0;
+}
+.dxgvHeader_Office365 a.dxgvCommandColumnItem_Office365.dxbDisabled_Office365,
+.dxgvCommandColumn_Office365 a.dxgvCommandColumnItem_Office365.dxbDisabled_Office365
+{
+    opacity: 0.5;
+}
+.dxgvPopupEditForm_Office365
+{
+    padding: 10px;
+    margin: 0;
+}
+.dxgvCustomization_Office365
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: calc(0.6em - 3px);
+    min-width: 220px;
+}
+.dxgvCustomization_Office365 .dxgvHeader_Office365
+{
+    padding: 0.71em;
+    background-color: white;
+    color: #666;
+}
+.dxgvAdaptiveGroupPanel_Office365,
+.dxgvGroupPanel_Office365
+{
+    color: #8e8e93;
+    font-size: 0.85em;
+}
+.dxgvAdaptiveGroupPanel_Office365 .dxgvHeader_Office365,
+.dxgvGroupPanel_Office365 .dxgvHeader_Office365
+{
+    font-size: 1.2em;
+}
+.dxgvGroupPanel_Office365
+{
+    padding: 8px 10px 16px;
+    white-space: nowrap;
+}
+.dxgvGroupPanel_Office365 .dxgvHeader_Office365,
+.dxgvAdaptiveGroupPanel_Office365 .dxgvHeader_Office365
+{
+    background-color: white;
+    font-weight: normal;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 4px 18px;
+}
+.dxgvAdaptiveHeaderPanel_Office365 .dxgvHeader_Office365
+{
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.dxgvAdaptiveGroupPanel_Office365
+{
+    padding-left: 6px;
+    padding-top: 7px;
+}
+.dxgvAdaptiveGroupPanel_Office365 div.dxgvADH
+{
+    margin-right: 4px;
+    margin-bottom: 5px;
+}
+.dxgvAdaptiveGroupPanel_Office365.dxgvEAHP
+{
+    padding-bottom: 8px;
+}
+.dxgvAdaptiveHeaderPanel_Office365
+{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-top: 10px;
+}
+.dxgvAdaptiveHeaderPanel_Office365.dxgvEAHP
+{
+    padding: 10px 7px;
+}
+.dxgvAdaptiveFooterPanel_Office365
+{
+    padding-top: 6px;
+}
+.dxgvAdaptiveHeaderPanel_Office365,
+.dxgvAdaptiveFooterPanel_Office365
+{
+    padding-left: 24px;
+}
+.dxgvFooter_Office365
+{
+    white-space: nowrap;
+}
+.dxgvFooter_Office365 td.dxgv
+{
+    padding: 9px 10px 10px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    color: #8e8e93;
+}
+.dxgvABRL .dxgvFooter_Office365 td.dxgv,
+.dxgvABRL .dxgvGroupFooter_Office365 td.dxgv
+{
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+.dxgvGroupFooter_Office365 td.dxgv
+{
+    padding: 9px 10px 10px;
+    color: #8e8e93;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-right-width: 0;
+}
+.dxgvControl_Office365 .dxgvIndentCell
+{
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+}
+.dxgvDataRow_Office365 td.dxgvIndentCell,
+.dxgvDetailRow_Office365 td.dxgvIndentCell,
+.dxgvPreviewRow_Office365 td.dxgvIndentCell,
+.dxgvGroupFooter_Office365 td.dxgvIndentCell
+{
+    background-color: white;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.dxgvGroupRow_Office365 td.dxgvIndentCell
+{
+    background-color: #f4f4f4;
+    border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+}
+.dxgvTitlePanel_Office365,
+.dxgvTable_Office365 caption
+{
+    font-size: 1.25em;
+    font-weight: normal;
+    padding: 3px 3px 5px;
+    text-align: center;
+    color: #999999;
+}
+.dxgvStatusBar_Office365
+{
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.dxgvStatusBar_Office365 tr.dxgv
+{
+    height: 20px;
+}
+.dxgvStatusBar_Office365 tr.dxgv > td
+{
+    padding: 12px 0;
+}
+.dxgvStatusBar_Office365 tr.dxgv span .dxbButtonSys:first-child
+{
+    margin-left: 20px;
+}
+.dxgvCommandColumn_Office365
+{
+    padding: 8px 4px;
+    white-space: nowrap;
+}
+.dxgvCommandColumn_Office365 a
+{
+    margin: 0 5px 0 0;
+}
+.dxgvEditFormTable_Office365 .dxflFormLayout_Office365 .dxflCommandItemSys,
+.dxgvEditFormTable_Office365 .dxgvCommandColumn_Office365
+{
+    padding-top: 22px;
+    padding-bottom: 12px;
+}
+.dxgvEditFormTable_Office365 .dxflFormLayout_Office365 .dxflCommandItemSys a,
+.dxgvEditFormTable_Office365 .dxgvCommandColumn_Office365 a
+{
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 8px 16px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+.dxgvEditFormTable_Office365 .dxflFormLayout_Office365 .dxflCommandItemSys a:hover,
+.dxgvEditFormTable_Office365 .dxgvCommandColumn_Office365 a:hover
+{
+    background-color: #d1d1d1;
+    text-decoration: none;
+}
+.dxbButton_Office365[class~="dxgvCommandColumnItem_Office365"],
+.dxgvEditFormTable_Office365 div.dxbButton_Office365
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.dxbButton_Office365[class~="dxgvCommandColumnItem_Office365"] .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.dxgvCommandColumnItem_Office365
+.dxgvEditFormTable_Office365
+{
+    padding: 2px 6px 6px 4px;
+    min-width: 300px;
+}
+.dxgvEditFormTable_Office365 a
+{
+    color: #009688;
+}
+.dxgvEditFormCaption_Office365
+{
+    padding: 4px 4px 4px 10px;
+    white-space: nowrap;
+}
+.dxgvInlineEditCell_Office365
+{
+    padding: 6px 10px;
+}
+.dxgvEditFormCell_Office365
+{
+    padding: 4px;
+    border-width: 0;
+}
+.dxgvPagerTopPanel_Office365,
+.dxgvPagerBottomPanel_Office365
+{
+    padding: 3px 0 1px;
+}
+.dxgvPagerBottomPanel_Office365
+{
+    background-color: white;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-left: 1px solid rgba(0,0,0,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+.dxgvControl_Office365 .dxgvFSDC,
+.dxgvControl_Office365 .dxgvHSDC
+{
+    background-color: #f4f4f4;
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+.dxgvControl_Office365 .dxgvHSDC
+{
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-left: 1px solid rgba(0,0,0,0.1);
+}
+.dxgvControl_Office365 .dxgvFSDC
+{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.dxgvControl_Office365 .dxgvHSDC .dxgvTable_Office365,
+.dxgvControl_Office365 .dxgvCSD > .dxgvTable_Office365
+{
+    border-top-width: 0;
+    border-top-right-radius: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    box-shadow: none;
+}
+.dxgvControl_Office365 .dxgvCSD .dxgvTable_Office365
+{
+    border-top-left-radius: 0;
+}
+.dxgvControl_Office365 .dxgvFSDC .dxgvTable_Office365
+{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: none;
+    box-shadow: none;
+}
+.dxgvControl_Office365 .dxgvCSD
+{
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.dxgvControl_Office365 .dxgvHSDC + .dxgvCSD
+{
+    border-top: none;
+}
+.dxgvControl_Office365 .dxpcLite_Office365
+{
+    -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+}
+.dxgvControl_Office365 .dxpcLite_Office365 .dxpc-mainDiv.dxpc-hf
+{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.dxgvControl_Office365 .dxpcLite_Office365 .headerFilterPopupFooter .dxpc-footerContent
+{
+    padding: 9px 20px 7px 12px;
+}
+.dxgvControl_Office365 .dxpcLite_Office365 .headerFilterPopupFooter .dxpc-footerContent > table
+{
+    margin: 0;
+}
+.dxgvFilterBar_Office365
+{
+    margin-top: 16px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-collapse: separate;
+}
+.dxgvFilterBar_Office365 a
+{
+    color: #009688;
+    text-decoration: none;
+}
+.dxgvFilterBar_Office365 a:hover
+{
+    text-decoration: underline;
+}
+.dxgvFilterBar_Office365 > tbody > tr > td
+{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.dxgvFilterBarCheckBoxCell_Office365
+{
+    padding-left: 8px;
+}
+*[dir="rtl"] .dxgvFilterBarCheckBoxCell_Office365
+{
+    padding-right: 8px;
+}
+.dxgvFilterBarImageCell_Office365
+{
+    padding: 0 8px 0 20px;
+    cursor: pointer;
+}
+*[dir="rtl"] .dxgvFilterBarImageCell_Office365
+{
+    padding: 0 20px 0 8px;
+}
+.dxgvFilterBarImageCell_Office365 img
+{
+    margin-top: 3px;
+    margin-left: 0;
+}
+.dxgvFilterBarExpressionCell_Office365
+{
+    padding: 5px 5px 8px 0;
+    white-space: nowrap;
+}
+.dxgvFilterBarClearButtonCell_Office365
+{
+    padding: 5px 11px 8px 6px;
+}
+*[dir="rtl"] .dxgvFilterBarClearButtonCell_Office365
+{
+    padding: 5px 6px 8px 11px;
+}
+.dxgvFilterBuilderMainArea_Office365
+{
+    background: white none;
+    padding: 6px 2px;
+}
+.dxgvFilterBuilderButtonArea_Office365
+{
+    border-top: 1px solid #eaeaea;
+    padding: 10px;
+    white-space: nowrap;
+}
+.dxgvFilterBuilderButtonArea_Office365 .dxbButton_Office365
+{
+    margin-left: 8px;
+}
+.dxgvDataRowHover_Office365
+{
+    background-color: rgba(0,0,0,0.1);
+}
+.dxgvControl_Office365 .dxpLite_Office365,
+.dxgvDisabled_Office365 .dxpLite_Office365
+{
+    padding-top: 4px;
+}
+.dxgvControl_Office365 .dxgvHFC
+{
+    padding-left: 4px;
+}
+.dxgvControl_Office365 .dxgvHFC .dxeCalendar_Office365
+{
+    margin-top: 3px;
+    margin-left: 7px;
+}
+.dxgvControl_Office365 div[id$='DXEPLPC']
+{
+    height: 53px;
+}
+.dxgvControl_Office365 .dxgvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxgvControl_Office365 .dxgvHFDRC
+{
+    margin: 15px 15px 25px;
+}
+.dxgvControl_Office365 .dxgvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxgvControl_Office365 .dxgvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxgvControl_Office365 .dxgvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 25px;
+}
+/* Removes flicking in iOS Safari*/
+.dxgvTable_Office365
+{
+    -webkit-tap-highlight-color: transparent;
+}
+.dxgvControl_Office365 td.dxgvBatchEditCell_Office365
+{
+    padding: 0 2px;
+}
+.dxgvControl_Office365 td.dxgvBatchEditModifiedCell_Office365
+{
+    background: #d7f9c7;
+}
+.dxgvBatchEditDeletedItem_Office365,
+.dxgvBatchEditNewItem_Office365.dxgvBatchEditDeletedItem_Office365
+{
+    background: #EFEFEF;
+}
+.dxgvBatchEditDeletedItem_Office365 > td:not(.dxgvCommandColumn_Office365)
+{
+    color: rgba(0,0,0,0.5);
+}
+.dxgvBatchEditDeletedItem_Office365 td.dxgvBatchEditModifiedCell_Office365
+{
+    background: #eefbe7;
+}
+.dxgvBatchEditNewItem_Office365
+{
+    background: #F0FAEA;
+}
+.dxgvControl_Office365 .dxgvErrorCell
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxgvControl_Office365 .dxgvErrorCell img
+{
+    margin: -3px 0;
+}
+.dxgvStatusBar_Office365 .dxgvCommandColumn_Office365 a
+{
+    margin-right: 10px;
+}
+.dxgvControl_Office365 td.dxgvBatchEditCell_Office365 .dxichCellSys
+{
+    padding-left: 0;
+}
+.dxgvSearchPanel_Office365
+{
+    padding: 7px 0 16px;
+}
+.dxgvSearchPanel_Office365 > table
+{
+    width: 100%;
+}
+.dxgvSearchPanel_Office365 .dxeButtonEdit_Office365
+{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.1);
+    width: 100%;
+}
+.dxgvSearchPanel_Office365 .dxeButtonEdit_Office365,
+.dxgvSearchPanel_Office365 .dxeButtonEdit_Office365 input
+{
+    background-color: #FAFAFA;
+}
+.dxgvSearchPanel_Office365 .dxeButtonEdit_Office365 td.dxic
+{
+    padding: 13px 8px 14px 12px;
+}
+*[dir="rtl"] .dxgvSearchPanel_Office365 .dxeButtonEdit_Office365 td.dxic
+{
+    padding: 13px 12px 14px 8px;
+}
+.dxgvControl_Office365 .dxgvHL
+{
+    background: #009688;
+    color: white;
+    font-weight: bold;
+    font-style: normal;
+}
+.dxgvControl_Office365 .dxgvSearchPanel_Office365 > table > tbody > tr > td:nth-child(2) a.dxbButton_Office365
+{
+    margin-left: 16px;
+}
+*[dir="rtl"].dxgvControl_Office365 .dxgvSearchPanel_Office365 > table > tbody > tr > td:nth-child(2) a.dxbButton_Office365
+{
+    margin-right: 16px;
+    margin-left: 0;
+}
+.dxgvControl_Office365 .dxgvSearchPanel_Office365 > table > tbody > tr > td:last-child a.dxbButton_Office365
+{
+    margin-right: 16px;
+}
+*[dir="rtl"].dxgvControl_Office365 .dxgvSearchPanel_Office365 > table > tbody > tr > td:last-child a.dxbButton_Office365
+{
+    margin-left: 16px;
+}
+.dxgvControl_Office365 .dxgvSearchPanel_Office365 > table > tbody > tr > td a.dxbButton_Office365
+{
+    margin-left: 10px;
+}
+*[dir="rtl"].dxgvControl_Office365 .dxgvSearchPanel_Office365 > table > tbody > tr > td a.dxbButton_Office365
+{
+    margin-right: 10px;
+}
+.dxgvControl_Office365 .dxgvSearchPanel_Office365 .dxbButton_Office365
+{
+    margin-left: 8px;
+}
+*[dir="rtl"].dxgvControl_Office365 .dxgvSearchPanel_Office365 .dxbButton_Office365
+{
+    margin-left: 0;
+    margin-right: 8px;
+}
+.dxeDropDownWindow_Office365 > .dxgvControl_Office365
+{
+    border: none;
+}
+.dxeDropDownWindow_Office365 > .dxgvControl_Office365 .dxgvTable_Office365,
+.dxeDropDownWindow_Office365 > .dxgvControl_Office365 .dxgvPagerBottomPanel_Office365
+{
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.dxeDropDownWindow_Office365 > .dxgvControl_Office365 .dxgvStatusBar_Office365
+{
+    padding-right: 8px;
+}
+.dxeDropDownWindow_Office365 > .dxgvControl_Office365 .dxgvStatusBar_Office365 tr.dxgv > td
+{
+    padding: 10px 8px 10px 0;
+}
+/*Ripple*/
+/* Customization Dialog */
+.dxgvCustDialog_Office365
+{
+    font: 15px 'Roboto Regular', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    font-weight: 400;
+}
+.dxpcLite_Office365 .dxgvCustDialog_Office365.dxpc-mainDiv
+{
+    border: none;
+}
+.dxpcLite_Office365 .dxgvCustDialog_Office365 .dxpc-content
+{
+    padding: 0;
+}
+.dxgvCustDialog_Office365 .dxpc-content.dxgvCD_ColumnChooserPage,
+.dxgvCustDialog_Office365 .dxpc-content.dxgvCD_FilterPage,
+.dxgvCustDialog_Office365 .dxpc-content.dxgvCD_SortPage,
+.dxgvCustDialog_Office365 .dxpc-content.dxgvCD_GroupPage
+{
+    transition: background-color 0.4s;
+}
+.dxgvCustDialog_Office365 .dxpc-content.dxgvCD_ColumnChooserPage,
+.dxgvCustDialog_Office365 .dxpc-content.dxgvCD_FilterPage
+{
+    background-color: #EFEFEF;
+}
+.dxgvCustDialog_Office365 .dxpc-content.dxgvCD_SortPage,
+.dxgvCustDialog_Office365 .dxpc-content.dxgvCD_GroupPage
+{
+    background-color: White;
+}
+.dxgvCustDialogHeader_Office365
+{
+    background-color: #009688;
+    color: #FFFFFF;
+    font-size: 22px;
+    padding: 10px;
+    padding-bottom: 25px;
+    white-space: nowrap;
+}
+.dxgvCustDialogHeader_Office365 > div
+{
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;
+}
+.dxgvCustDialogHeader_Office365 > div:first-child,
+.dxgvCustDialogHeader_Office365 > div:last-child
+{
+    padding: 12px;
+    vertical-align: top;
+}
+.dxgvCustDialogHeader_Office365 a.dxbButton_Office365
+{
+    vertical-align: top;
+}
+.dxgvCustDialogHeader_Office365 .dxgvCD_TSC
+{
+    padding: 6px 0 0;
+    width: 100%;
+}
+.dxgvCustDialogHeader_Office365 .dxgvCD_TSBW
+{
+    overflow: hidden;
+    padding: 0 16px;
+}
+.dxgvCustDialogHeader_Office365 .dxgvCD_TS
+{
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    margin: 15px 0;
+    text-align: center;
+    margin-top: 0;
+}
+.dxgvCustDialogHeader_Office365 .dxgvCD_TS .dxtcLite_Office365.dxtc-top > .dxtc-stripContainer .dxtc-tab .dxtc-link,
+.dxgvCustDialogHeader_Office365 .dxgvCD_TS .dxtcLite_Office365.dxtc-top > .dxtc-stripContainer .dxtc-activeTab .dxtc-link
+{
+    color: white;
+    padding: 1px 0;
+}
+.dxgvCustDialogHeader_Office365 .dxgvCD_TS .dxtcLite_Office365.dxtc-top > .dxtc-stripContainer .dxtc-tab,
+.dxgvCustDialogHeader_Office365 .dxgvCD_TS .dxtcLite_Office365.dxtc-top > .dxtc-stripContainer .dxtc-activeTab
+{
+    margin-right: 16px;
+}
+.dxgvCustDialogHeader_Office365 .dxgvCD_TS .dxtcLite_Office365.dxtc-top > .dxtc-stripContainer .dxtc-tab
+{
+    border-bottom-color: transparent;
+}
+.dxgvCustDialogHeader_Office365 .dxgvCD_TS .dxtcLite_Office365.dxtc-top > .dxtc-stripContainer .dxtc-activeTab
+{
+    border-bottom-color: white;
+}
+.dxgvCustDialogHeader_Office365 .dxgvCD_TS .dxtcLite_Office365.dxtc-top > .dxtc-stripContainer .dxtc-spacer,
+.dxgvCustDialogHeader_Office365 .dxgvCD_TS .dxtcLite_Office365.dxtc-top > .dxtc-stripContainer .dxtc-leftIndent,
+.dxgvCustDialogHeader_Office365 .dxgvCD_TS .dxtcLite_Office365.dxtc-top > .dxtc-stripContainer .dxtc-rightIndent
+{
+    display: none;
+}
+.dxgvCustDialogHeader_Office365 .dxgvCD_TS .dxgvCD_TSLS,
+.dxgvCustDialogHeader_Office365 .dxgvCD_TS .dxgvCD_TSRS
+{
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    box-shadow: 0 0 11px 11px #009688;
+}
+.dxgvCustDialogHeader_Office365 .dxgvCD_TS .dxgvCD_TSLS
+{
+    left: 0;
+}
+.dxgvCustDialogHeader_Office365 .dxgvCD_TS .dxgvCD_TSRS
+{
+    right: 0;
+}
+.dxgvCustDialogDragArea_Office365
+{
+    background-color: #EFEFEF;
+}
+.dxgvCustDialogSortingPage_Office365 .dxgvCustDialogDragArea_Office365,
+.dxgvCustDialogGroupingPage_Office365 .dxgvCustDialogDragArea_Office365,
+.dxgvCustDialogColumnChooserPage_Office365 .dxgvCustDialogDragArea_Office365,
+.dxgvCustDialogFilteringPage_Office365
+{
+    padding: 15px 8px;
+    min-height: 15px;
+}
+.dxgvCustDialogDragArea_Office365 .dxgvCD_DAETC
+{
+    color: #999999;
+    font: 13px "Roboto Regular", Helvetica, "Droid Sans", Tahoma, Geneva, sans-serif;
+    text-align: center;
+    white-space: nowrap;
+}
+.dxgvCustDialogListArea_Office365
+{
+    background: white;
+    padding-left: 4px;
+}
+.dxgvCustDialogListArea_Office365 .dxgvCD_LAC
+{
+    color: #666666;
+    font-weight: bold;
+    margin: 0 10px 10px 10px;
+    margin-left: 11px;
+    padding: 13px 0 8px 0;
+    border-bottom: 1px solid #DCDCDC;
+}
+.dxgvCustDialogColumnItem_Office365
+{
+    background-color: #FFFFFF;
+    color: rgba(0,0,0,0.64);
+    min-height: 48px;
+    transition: all 0.2s;
+}
+.dxgvCustDialogSortingPage_Office365 .dxgvCD_DAW,
+.dxgvCustDialogGroupingPage_Office365 .dxgvCD_DAW,
+.dxgvCustDialogSortingPage_Office365 .dxgvCustDialogDragArea_Office365 .dxgvCustDialogColumnItem_Office365:first-child,
+.dxgvCustDialogGroupingPage_Office365 .dxgvCustDialogDragArea_Office365 .dxgvCustDialogColumnItem_Office365:first-child,
+.dxgvCustDialogSortingPage_Office365 .dxgvCustDialogDragArea_Office365 .dxgvCD_DAETC + .dxgvCustDialogColumnItem_Office365,
+.dxgvCustDialogGroupingPage_Office365 .dxgvCustDialogDragArea_Office365 .dxgvCD_DAETC + .dxgvCustDialogColumnItem_Office365,
+.dxgvCustDialogColumnChooserPage_Office365 .dxgvCustDialogColumnItem_Office365:first-child,
+.dxgvCustDialogFilteringPage_Office365 .dxgvCustDialogColumnItem_Office365:first-child
+{
+    margin-top: -39px;
+}
+.dxgvCustDialogColumnItem_Office365:last-child
+{
+    margin-bottom: 0px;
+}
+.dxgvControl_Office365 .dxgvCustDialogColumnItem_Office365 > div
+{
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;
+}
+.dxgvCustDialogColumnItem_Office365 > div img
+{
+    vertical-align: middle;
+}
+.dxgvCustDialogDragArea_Office365 .dxgvCustDialogColumnItem_Office365
+{
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+    margin-bottom: 6px;
+}
+.dxgvCustDialogDragArea_Office365 .dxgvCustDialogColumnItem_Office365 > div:first-child
+{
+    background-color: #eeeeee;
+    height: 48px;
+    padding: 0;
+    text-align: center;
+    min-width: 28px;
+}
+.dxgvCustDialogColumnChooserPage_Office365 .dxgvCustDialogDragArea_Office365 .dxgvCustDialogColumnItem_Office365 > div:first-child
+{
+    background-color: White;
+}
+.dxgvCustDialogDragArea_Office365 .dxgvCustDialogColumnItem_Office365 > div:last-child,
+.dxgvCustDialogListArea_Office365 .dxgvCustDialogColumnItem_Office365 > div:last-child
+{
+    height: 48px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.dxgvCustDialogListArea_Office365 .dxgvCustDialogColumnItem_Office365 > div:last-child
+{
+    padding-right: 17px;
+}
+.dxgvCustDialogDragArea_Office365 .dxgvCustDialogColumnItem_Office365.DXCDDraggingItem
+{
+    transition: none;
+    position: relative;
+    box-shadow: 0 10px 0.25rem rgba(0,0,0,0.12), 0 0.25rem 0.5rem rgba(0,0,0,0.24);
+    z-index: 1;
+}
+.dxgvCustDialogSortingPage_Office365 .dxgvCD_DAW,
+.dxgvCustDialogGroupingPage_Office365 .dxgvCD_DAW
+{
+    padding-top: 39px;
+    position: relative;
+}
+.dxgvCustDialogSortingPage_Office365 .dxgvCD_DAEB,
+.dxgvCustDialogGroupingPage_Office365 .dxgvCD_DAEB
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: #EFEFEF;
+    box-shadow: 0px -3px 5px 0px rgba(0,0,0,0.11);
+    cursor: pointer;
+    text-align: center;
+}
+.dxgvCustDialogSortingPage_Office365 .dxgvCD_DAEB img,
+.dxgvCustDialogGroupingPage_Office365 .dxgvCD_DAEB img
+{
+    margin-top: 14px;
+}
+.dxgvCustDialogFilteringPage_Office365
+{
+    background-color: #EFEFEF;
+}
+.dxgvCustDialogFilteringPage_Office365 .dxgvCustDialogColumnItem_Office365,
+.dxgvCustDialogFilteringPage_Office365 .dxgvCustDialogFilterItem_Office365
+{
+    box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24);
+    background-color: white;
+    border-bottom: 1px solid #DCDCDC;
+    transition: none;
+}
+.dxgvCustDialogFilteringPage_Office365 .dxgvCustDialogColumnItem_Office365 > div
+{
+    height: 28px;
+}
+.dxgvCustDialogFilteringPage_Office365 .dxgvCustDialogFilterItem_Office365 a
+{
+    cursor: pointer;
+}
+.dxgvCustDialogFilteringPage_Office365 .dxgvCustDialogFilterItem_Office365 a,
+.dxgvCustDialogFilteringPage_Office365 .dxgvCustDialogFilterItem_Office365 .dxgvCD_FR > span.dxeBase_Office365
+{
+    font-size: medium;
+    line-height: 50px;
+}
+.dxgvCustDialogFilterItem_Office365
+{
+    margin-bottom: 17px;
+}
+.dxgvCustDialogFilterItem_Office365 + .dxgvCustDialogColumnItem_Office365.dxgvCD_EFCI
+{
+    margin-top: 17px;
+}
+.dxgvCustDialogColumnItem_Office365 + .dxgvCustDialogFilterItem_Office365
+{
+    display: none;
+}
+.dxgvCustDialogColumnItem_Office365.dxgvCD_EFCI + .dxgvCustDialogFilterItem_Office365
+{
+    display: block;
+}
+.dxgvCustDialogFilterItem_Office365 .dxgvCD_FR
+{
+    padding: 0 10px 18px 10px;
+}
+.dxgvCustDialogFilteringPage_Office365 .dxgvCD_UF
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.dxgvCustDialogFilteringPage_Office365 .dxgvCD_FR + .dxgvCD_UF
+{
+    border-top: 1px solid #DCDCDC;
+}
+.dxgvCustDialogFilterItem_Office365 .dxgvCD_UF.dxgvCD_UFLBV
+{
+    border-bottom: 1px solid #DCDCDC;
+}
+.dxgvCustDialogFilteringPage_Office365 .dxgvCD_UF.dxgvCD_UFLBV a,
+.dxgvCustDialogFilteringPage_Office365 .dxgvCD_UFSC
+{
+    display: none;
+}
+.dxgvCustDialogFilteringPage_Office365 .dxgvCD_UF.dxgvCD_UFLBV .dxgvCD_UFSC
+{
+    display: block;
+}
+.dxgvCustDialogFilterItem_Office365 .dxgvCD_UF.dxgvCD_UFLBV
+{
+    margin-bottom: 19px;
+}
+.dxgvCustDialogFilterItem_Office365 .dxgvCD_UFSC
+{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    height: 200px;
+}
+.dxgvControl_Office365 .headerFilterPopupFooter img.dxpc-sizeGrip
+{
+    width: 10px;
+}
+.dxgvEditFormTable_Office365 .dxflGroup_Office365
+{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.dxgvControl_Office365 .dxgvTable_Office365 .dxgvSelectedRow_Office365 td.dxgvIndentCell,
+.dxgvControl_Office365 .dxgvTable_Office365 .dxgvSelectedRow_Office365.dxgvDataRowHover_Office365 td.dxgvIndentCell
+{
+    background-color: #90AAA6;
+}
+.dxgvDataRowAlt_Office365 td.dxgvIndentCell
+{
+    background-color: transparent;
+}
+.dxgvControl_Office365 .dxgvTable_Office365 .dxgvFocusedRow_Office365 td.dxgvIndentCell,
+.dxgvControl_Office365 .dxgvTable_Office365 .dxgvFocusedRow_Office365.dxgvDataRowHover_Office365 td.dxgvIndentCell
+{
+    background-color: #009688;
+}
+.dxgvFilterRow_Office365
+{
+    background-color: rgba(0,0,0,0.04);
+}
+.dxgvFilterRow_Office365 .dxgvDIC
+{
+    background-color: transparent !important;
+}
+.dxgvDetailRow_Office365:not(.dxgvDataRow_Office365):not(:last-child) td.dxgv
+{
+    border-top: 1px solid rgba(0,0,0,0.1) !important;
+}
+.dxgvFocusedCell_Office365
+{
+    box-shadow: inset 2px 2px 0 #009688, inset -2px -2px 0 #009688;
+    -webkit-box-shadow: inset 2px 2px 0 #009688, inset -2px -2px 0 #009688;
+    -moz-box-shadow: inset 2px 2px 0 #009688, inset -2px -2px 0 #009688;
+}

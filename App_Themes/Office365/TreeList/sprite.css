@@ -1,0 +1,384 @@
+.dxm-checked .dxTreeList_CTShowCustomizationWindow_Office365,
+.dxm-checked .dxTreeList_CTShowFilterRow_Office365,
+.dxTreeList_CollapsedButton_Office365,
+.dxTreeList_CollapsedButtonRtl_Office365,
+.dxTreeList_CTClearFilter_Office365,
+.dxTreeList_CTClearFilterDisabled_Office365,
+.dxTreeList_CTCollapseRow_Office365,
+.dxTreeList_CTCollapseRowDisabled_Office365,
+.dxTreeList_CTDeleteRow_Office365,
+.dxTreeList_CTDeleteRowDisabled_Office365,
+.dxTreeList_CTEditRow_Office365,
+.dxTreeList_CTEditRowDisabled_Office365,
+.dxTreeList_CTExpandRow_Office365,
+.dxTreeList_CTExpandRowDisabled_Office365,
+.dxTreeList_CTExportDocx_Office365,
+.dxTreeList_CTExportDocxDisabled_Office365,
+.dxTreeList_CTExportPdf_Office365,
+.dxTreeList_CTExportPdfDisabled_Office365,
+.dxTreeList_CTExportRtf_Office365,
+.dxTreeList_CTExportRtfDisabled_Office365,
+.dxTreeList_CTExportXls_Office365,
+.dxTreeList_CTExportXlsDisabled_Office365,
+.dxTreeList_CTExportXlsx_Office365,
+.dxTreeList_CTExportXlsxDisabled_Office365,
+.dxTreeList_CTFullCollapse_Office365,
+.dxTreeList_CTFullCollapseDisabled_Office365,
+.dxTreeList_CTFullExpand_Office365,
+.dxTreeList_CTFullExpandDisabled_Office365,
+.dxTreeList_CTNewRow_Office365,
+.dxTreeList_CTNewRowDisabled_Office365,
+.dxTreeList_CTRefresh_Office365,
+.dxTreeList_CTRefreshDisabled_Office365,
+.dxTreeList_CTShowCustomizationWindow_Office365,
+.dxTreeList_CTShowCustomizationWindowDisabled_Office365,
+.dxTreeList_CTShowFilterRow_Office365,
+.dxTreeList_CTShowFilterRowDisabled_Office365,
+.dxTreeList_DragAndDropArrowDown_Office365,
+.dxTreeList_DragAndDropArrowUp_Office365,
+.dxTreeList_DragAndDropHide_Office365,
+.dxTreeList_DragAndDropNode_Office365,
+.dxTreeList_ExpandedButton_Office365,
+.dxTreeList_ExpandedButtonRtl_Office365,
+.dxTreeList_FilterRowButton_Office365,
+.dxTreeList_HeaderFilter_Office365,
+.dxTreeList_HeaderFilterActive_Office365,
+.dxTreeList_SortAsc_Office365,
+.dxTreeList_SortDesc_Office365
+{
+    background-image: url('sprite.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxIE .dx-acc-r .dxm-checked .dxTreeList_CTShowCustomizationWindow_Office365::before,
+.dxIE .dx-acc-r .dxm-checked .dxTreeList_CTShowFilterRow_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CollapsedButton_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CollapsedButtonRtl_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTClearFilter_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTClearFilterDisabled_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTCollapseRow_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTCollapseRowDisabled_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTDeleteRow_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTDeleteRowDisabled_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTEditRow_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTEditRowDisabled_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTExpandRow_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTExpandRowDisabled_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportDocx_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportDocxDisabled_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportPdf_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportPdfDisabled_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportRtf_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportRtfDisabled_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportXls_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportXlsDisabled_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportXlsx_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTExportXlsxDisabled_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTFullCollapse_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTFullCollapseDisabled_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTFullExpand_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTFullExpandDisabled_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTNewRow_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTNewRowDisabled_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTRefresh_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTRefreshDisabled_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTShowCustomizationWindow_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTShowCustomizationWindowDisabled_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTShowFilterRow_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_CTShowFilterRowDisabled_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_DragAndDropArrowDown_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_DragAndDropArrowUp_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_DragAndDropHide_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_DragAndDropNode_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_ExpandedButton_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_ExpandedButtonRtl_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_FilterRowButton_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_HeaderFilter_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_HeaderFilterActive_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_SortAsc_Office365::before,
+.dxIE .dx-acc-r .dxTreeList_SortDesc_Office365::before{
+    width: 102px;
+}
+.dxm-checked .dxTreeList_CTShowCustomizationWindow_Office365
+{
+    background-position: -17px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxTreeList_CTShowFilterRow_Office365
+{
+    background-position: -51px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CollapsedButton_Office365
+{
+    background-position: -89px -102px;
+    width: 4px;
+    height: 7px;
+}
+.dxTreeList_CollapsedButtonRtl_Office365
+{
+    background-position: -84px -102px;
+    width: 4px;
+    height: 7px;
+}
+.dxTreeList_CTClearFilter_Office365
+{
+    background-position: -68px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTClearFilterDisabled_Office365
+{
+    background-position: -85px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTCollapseRow_Office365
+{
+    background-position: -85px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTCollapseRowDisabled_Office365
+{
+    background-position: -34px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTDeleteRow_Office365
+{
+    background-position: 0px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTDeleteRowDisabled_Office365
+{
+    background-position: -68px -85px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTEditRow_Office365
+{
+    background-position: -34px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTEditRowDisabled_Office365
+{
+    background-position: -34px -85px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExpandRow_Office365
+{
+    background-position: -51px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExpandRowDisabled_Office365
+{
+    background-position: -51px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportDocx_Office365
+{
+    background-position: 0px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportDocxDisabled_Office365
+{
+    background-position: -34px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportPdf_Office365
+{
+    background-position: -17px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportPdfDisabled_Office365
+{
+    background-position: 0px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportRtf_Office365
+{
+    background-position: -17px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportRtfDisabled_Office365
+{
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportXls_Office365
+{
+    background-position: -68px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportXlsDisabled_Office365
+{
+    background-position: -51px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportXlsx_Office365
+{
+    background-position: 0px -85px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportXlsxDisabled_Office365
+{
+    background-position: -17px -85px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTFullCollapse_Office365
+{
+    background-position: -34px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTFullCollapseDisabled_Office365
+{
+    background-position: -17px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTFullExpand_Office365
+{
+    background-position: -85px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTFullExpandDisabled_Office365
+{
+    background-position: 0px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTNewRow_Office365
+{
+    background-position: -34px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTNewRowDisabled_Office365
+{
+    background-position: -51px -85px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTRefresh_Office365
+{
+    background-position: -68px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTRefreshDisabled_Office365
+{
+    background-position: -85px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTShowCustomizationWindow_Office365
+{
+    background-position: -17px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTShowCustomizationWindowDisabled_Office365
+{
+    background-position: -68px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTShowFilterRow_Office365
+{
+    background-position: -85px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTShowFilterRowDisabled_Office365
+{
+    background-position: -68px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_DragAndDropArrowDown_Office365
+{
+    background-position: -73px -102px;
+    width: 10px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropArrowUp_Office365
+{
+    background-position: -62px -102px;
+    width: 10px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropHide_Office365
+{
+    background-position: -51px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_DragAndDropNode_Office365
+{
+    background-position: -52px -102px;
+    width: 9px;
+    height: 10px;
+}
+.dxTreeList_ExpandedButton_Office365
+{
+    background-position: -94px -110px;
+    width: 7px;
+    height: 4px;
+}
+.dxTreeList_ExpandedButtonRtl_Office365
+{
+    background-position: -94px -102px;
+    width: 7px;
+    height: 4px;
+}
+.dxTreeList_FilterRowButton_Office365
+{
+    background-position: -39px -102px;
+    width: 12px;
+    height: 12px;
+}
+.dxTreeList_HeaderFilter_Office365
+{
+    background-position: -26px -102px;
+    width: 12px;
+    height: 12px;
+}
+.dxTreeList_HeaderFilterActive_Office365
+{
+    background-position: -13px -102px;
+    width: 12px;
+    height: 12px;
+}
+.dxTreeList_SortAsc_Office365
+{
+    background-position: -85px -85px;
+    width: 12px;
+    height: 12px;
+}
+.dxTreeList_SortDesc_Office365
+{
+    background-position: 0px -102px;
+    width: 12px;
+    height: 12px;
+}
+

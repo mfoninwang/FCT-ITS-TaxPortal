@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.Security;
+
 
 namespace TAAPs.Administration
 {
@@ -19,7 +24,8 @@ namespace TAAPs.Administration
 
         protected void ASPxgvTaxTypes_CustomErrorText(object sender, DevExpress.Web.ASPxGridViewCustomErrorTextEventArgs e)
         {
-            e.ErrorText = e.Exception.InnerException.ToString();
+            //e.ErrorText = e.Exception.InnerException.ToString();
+            DisplayAlert("Danger", "Tax Type", e.Exception.Message);
         }
     }
 }

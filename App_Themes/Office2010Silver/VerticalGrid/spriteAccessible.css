@@ -1,0 +1,294 @@
+.dx-acc-r .dxVerticalGrid_CategoryCollapsed_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CategoryExpanded_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CollapsedButton_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTClearFilter_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTClearFilterDisabled_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTDeleteRow_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTDeleteRowDisabled_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTEditRow_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTEditRowDisabled_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTExportCsv_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTExportCsvDisabled_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTExportDocx_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTExportDocxDisabled_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTExportPdf_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTExportPdfDisabled_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTExportRtf_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTExportRtfDisabled_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTExportXls_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTExportXlsDisabled_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTExportXlsx_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTExportXlsxDisabled_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTNewRow_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTNewRowDisabled_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTRefresh_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTRefreshDisabled_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTShowFilterEditor_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTShowFilterEditorDisabled_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTShowSearchPanel_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_CTShowSearchPanelDisabled_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_ExpandedButton_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_gvCellError_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_gvFilterRowButton_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_gvHeaderFilter_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_gvHeaderFilterActive_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_gvHeaderSortDown_Office2010Silver:before,
+.dx-acc-r .dxVerticalGrid_gvHeaderSortUp_Office2010Silver:before
+
+{
+    content: url('spriteAccessible.png');
+
+}
+.dx-acc-r .dxVerticalGrid_CategoryCollapsed_Office2010Silver:before
+
+{
+    left: -502px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CategoryExpanded_Office2010Silver:before
+
+{
+    left: -474px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CollapsedButton_Office2010Silver:before
+
+{
+    left: -488px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTClearFilter_Office2010Silver:before
+
+{
+    left: -204px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTClearFilterDisabled_Office2010Silver:before
+
+{
+    left: -272px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTDeleteRow_Office2010Silver:before
+
+{
+    left: -170px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTDeleteRowDisabled_Office2010Silver:before
+
+{
+    left: -85px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTEditRow_Office2010Silver:before
+
+{
+    left: -102px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTEditRowDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTExportCsv_Office2010Silver:before
+
+{
+    left: -289px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTExportCsvDisabled_Office2010Silver:before
+
+{
+    left: -323px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTExportDocx_Office2010Silver:before
+
+{
+    left: -136px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTExportDocxDisabled_Office2010Silver:before
+
+{
+    left: -340px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTExportPdf_Office2010Silver:before
+
+{
+    left: -51px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTExportPdfDisabled_Office2010Silver:before
+
+{
+    left: -408px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTExportRtf_Office2010Silver:before
+
+{
+    left: -374px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTExportRtfDisabled_Office2010Silver:before
+
+{
+    left: -238px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTExportXls_Office2010Silver:before
+
+{
+    left: -357px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTExportXlsDisabled_Office2010Silver:before
+
+{
+    left: -391px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTExportXlsx_Office2010Silver:before
+
+{
+    left: -425px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTExportXlsxDisabled_Office2010Silver:before
+
+{
+    left: -221px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTNewRow_Office2010Silver:before
+
+{
+    left: -306px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTNewRowDisabled_Office2010Silver:before
+
+{
+    left: -153px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTRefresh_Office2010Silver:before
+
+{
+    left: -68px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTRefreshDisabled_Office2010Silver:before
+
+{
+    left: -187px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTShowFilterEditor_Office2010Silver:before
+
+{
+    left: -17px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTShowFilterEditorDisabled_Office2010Silver:before
+
+{
+    left: -34px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTShowSearchPanel_Office2010Silver:before
+
+{
+    left: -255px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_CTShowSearchPanelDisabled_Office2010Silver:before
+
+{
+    left: -119px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_ExpandedButton_Office2010Silver:before
+
+{
+    left: -516px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_gvCellError_Office2010Silver:before
+
+{
+    left: -530px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_gvFilterRowButton_Office2010Silver:before
+
+{
+    left: -545px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_gvHeaderFilter_Office2010Silver:before
+
+{
+    left: -442px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_gvHeaderFilterActive_Office2010Silver:before
+
+{
+    left: -458px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_gvHeaderSortDown_Office2010Silver:before
+
+{
+    left: -559px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_gvHeaderSortUp_Office2010Silver:before
+
+{
+    left: -561px;
+    top: -11px;
+
+}
+

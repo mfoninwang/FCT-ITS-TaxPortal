@@ -1,0 +1,870 @@
+.dx-acc-r .dxeButtonEditButtonHover_MaterialCompactCustom .dxEditors_edtClear_MaterialCompactCustom:before,
+.dx-acc-r .dxeButtonEditButtonHover_MaterialCompactCustom .dxEditors_edtDropDown_MaterialCompactCustom:before,
+.dx-acc-r .dxeButtonEditButtonHover_MaterialCompactCustom .dxEditors_edtEllipsis_MaterialCompactCustom:before,
+.dx-acc-r .dxeButtonEditButtonPressed_MaterialCompactCustom .dxEditors_edtDropDown_MaterialCompactCustom:before,
+.dx-acc-r .dxeButtonEditButtonPressed_MaterialCompactCustom .dxEditors_edtEllipsis_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_caRefresh_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtBinaryImageDelete_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtBinaryImageOpenDialog_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtCalendarFastNavBackToPrevMode_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtCalendarFastNavBackToPrevModeRtl_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtCalendarFNNextPeriod_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtCalendarFNNextYear_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtCalendarFNPrevPeriod_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtCalendarFNPrevYear_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtCalendarNextMonth_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtCalendarNextMonthDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtCalendarNextYear_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtCalendarNextYearDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtCalendarPrevMonth_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtCalendarPrevMonthDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtCalendarPrevYear_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtCalendarPrevYearDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtClear_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtDETSClockFace_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtDETSHourHand_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtDETSMinuteHand_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtDETSSecondHand_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtDropDown_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtDropDownDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtEllipsis_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtEllipsisDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtError_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtListBoxFilterBtn_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtListBoxFilterBtnDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtListBoxHideFilterBtn_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtListBoxHideFilterBtnDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtListBoxHideFilterBtnRtl_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtListBoxHideFilterBtnRtlDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtRadioButtonChecked_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtRadioButtonCheckedDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtRadioButtonUnchecked_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtRadioButtonUncheckedDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtSpinEditDecrementImage_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtSpinEditDecrementImageDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtSpinEditIncrementImage_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtSpinEditIncrementImageDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtSpinEditLargeDecImage_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtSpinEditLargeDecImageDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtSpinEditLargeIncImage_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtSpinEditLargeIncImageDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtTBDecBtn_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtTBIncBtn_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtTokenBoxTokenRemoveButton_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_edtTokenBoxTokenRemoveButtonDisabled_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcadd_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcaddhot_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcgroupaddcondition_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcgroupaddgroup_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcgroupand_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcgroupnotand_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcgroupnotor_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcgroupor_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcgroupremove_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopany_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopavg_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopbegin_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopbetween_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopblank_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopcontain_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopcount_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopend_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopequal_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopexists_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopgreater_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopgreaterorequal_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopless_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcoplessorequal_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcoplike_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopmax_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopmin_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopnotany_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopnotbetween_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopnotblank_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopnotcontain_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopnotequal_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopnotlike_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcopsum_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcoptypefield_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcoptypefieldhot_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcoptypevalue_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcoptypevaluehot_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcremove_MaterialCompactCustom:before,
+.dx-acc-r .dxEditors_fcremovehot_MaterialCompactCustom:before,
+.dx-acc-r .dxeSpinDecButtonHover_MaterialCompactCustom .dxEditors_edtSpinEditDecrementImage_MaterialCompactCustom:before,
+.dx-acc-r .dxeSpinDecButtonPressed_MaterialCompactCustom .dxEditors_edtSpinEditDecrementImage_MaterialCompactCustom:before,
+.dx-acc-r .dxeSpinIncButtonHover_MaterialCompactCustom .dxEditors_edtSpinEditIncrementImage_MaterialCompactCustom:before,
+.dx-acc-r .dxeSpinIncButtonPressed_MaterialCompactCustom .dxEditors_edtSpinEditIncrementImage_MaterialCompactCustom:before,
+.dx-acc-r .dxeSpinLargeDecButtonHover_MaterialCompactCustom .dxEditors_edtSpinEditLargeDecImage_MaterialCompactCustom:before,
+.dx-acc-r .dxeSpinLargeDecButtonPressed_MaterialCompactCustom .dxEditors_edtSpinEditLargeDecImage_MaterialCompactCustom:before,
+.dx-acc-r .dxeSpinLargeIncButtonHover_MaterialCompactCustom .dxEditors_edtSpinEditLargeIncImage_MaterialCompactCustom:before,
+.dx-acc-r .dxeSpinLargeIncButtonPressed_MaterialCompactCustom .dxEditors_edtSpinEditLargeIncImage_MaterialCompactCustom:before,
+.dx-acc-r .dxeTBDecBtnHover_MaterialCompactCustom.dxEditors_edtTBDecBtn_MaterialCompactCustom:before,
+.dx-acc-r .dxeTBDecBtnPressed_MaterialCompactCustom.dxEditors_edtTBDecBtn_MaterialCompactCustom:before,
+.dx-acc-r .dxeTBIncBtnHover_MaterialCompactCustom.dxEditors_edtTBIncBtn_MaterialCompactCustom:before,
+.dx-acc-r .dxeTBIncBtnPressed_MaterialCompactCustom.dxEditors_edtTBIncBtn_MaterialCompactCustom:before,
+.dx-acc-r .dxeTrackBar_MaterialCompactCustom.dxeDisabled_MaterialCompactCustom .dxEditors_edtTBDecBtn_MaterialCompactCustom:before,
+.dx-acc-r .dxeTrackBar_MaterialCompactCustom.dxeDisabled_MaterialCompactCustom .dxEditors_edtTBIncBtn_MaterialCompactCustom:before,
+.dx-acc-r .dxgvFocusedRow_MaterialCompactCustom .dxEditors_edtRadioButtonChecked_MaterialCompactCustom:before
+
+{
+    content: url('sprite.svg');
+
+}
+.dx-acc-r .dxeButtonEditButtonHover_MaterialCompactCustom .dxEditors_edtClear_MaterialCompactCustom:before
+
+{
+    left: -394px;
+    top: -31px;
+
+}
+.dx-acc-r .dxeButtonEditButtonHover_MaterialCompactCustom .dxEditors_edtDropDown_MaterialCompactCustom:before
+
+{
+    left: -411px;
+    top: -234px;
+
+}
+.dx-acc-r .dxeButtonEditButtonHover_MaterialCompactCustom .dxEditors_edtEllipsis_MaterialCompactCustom:before
+
+{
+    left: -34px;
+    top: -394px;
+
+}
+.dx-acc-r .dxeButtonEditButtonPressed_MaterialCompactCustom .dxEditors_edtDropDown_MaterialCompactCustom:before
+
+{
+    left: -423px;
+    top: -217px;
+
+}
+.dx-acc-r .dxeButtonEditButtonPressed_MaterialCompactCustom .dxEditors_edtEllipsis_MaterialCompactCustom:before
+
+{
+    left: -102px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_caRefresh_MaterialCompactCustom:before
+
+{
+    left: -394px;
+    top: -110px;
+
+}
+.dx-acc-r .dxEditors_edtBinaryImageDelete_MaterialCompactCustom:before
+
+{
+    left: -425px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_edtBinaryImageOpenDialog_MaterialCompactCustom:before
+
+{
+    left: -423px;
+    top: -21px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarFastNavBackToPrevMode_MaterialCompactCustom:before
+
+{
+    left: -413px;
+    top: -298px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarFastNavBackToPrevModeRtl_MaterialCompactCustom:before
+
+{
+    left: -413px;
+    top: -317px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarFNNextPeriod_MaterialCompactCustom:before
+
+{
+    left: -433px;
+    top: -333px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarFNNextYear_MaterialCompactCustom:before
+
+{
+    left: -166px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarFNPrevPeriod_MaterialCompactCustom:before
+
+{
+    left: -432px;
+    top: -320px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarFNPrevYear_MaterialCompactCustom:before
+
+{
+    left: -205px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarNextMonth_MaterialCompactCustom:before
+
+{
+    left: -218px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarNextMonthDisabled_MaterialCompactCustom:before
+
+{
+    left: -244px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarNextYear_MaterialCompactCustom:before
+
+{
+    left: -432px;
+    top: -307px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarNextYearDisabled_MaterialCompactCustom:before
+
+{
+    left: -192px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarPrevMonth_MaterialCompactCustom:before
+
+{
+    left: -257px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarPrevMonthDisabled_MaterialCompactCustom:before
+
+{
+    left: -231px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarPrevYear_MaterialCompactCustom:before
+
+{
+    left: -153px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarPrevYearDisabled_MaterialCompactCustom:before
+
+{
+    left: -179px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtClear_MaterialCompactCustom:before
+
+{
+    left: -423px;
+    top: -42px;
+
+}
+.dx-acc-r .dxEditors_edtDETSClockFace_MaterialCompactCustom:before
+
+{
+    left: -197px;
+    top: -197px;
+
+}
+.dx-acc-r .dxEditors_edtDETSHourHand_MaterialCompactCustom:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxEditors_edtDETSMinuteHand_MaterialCompactCustom:before
+
+{
+    left: -197px;
+    top: 0px;
+
+}
+.dx-acc-r .dxEditors_edtDETSSecondHand_MaterialCompactCustom:before
+
+{
+    left: 0px;
+    top: -197px;
+
+}
+.dx-acc-r .dxEditors_edtDropDown_MaterialCompactCustom:before
+
+{
+    left: -281px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtDropDownDisabled_MaterialCompactCustom:before
+
+{
+    left: -270px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtEllipsis_MaterialCompactCustom:before
+
+{
+    left: -394px;
+    top: -228px;
+
+}
+.dx-acc-r .dxEditors_edtEllipsisDisabled_MaterialCompactCustom:before
+
+{
+    left: -306px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_edtError_MaterialCompactCustom:before
+
+{
+    left: -17px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtListBoxFilterBtn_MaterialCompactCustom:before
+
+{
+    left: -394px;
+    top: -279px;
+
+}
+.dx-acc-r .dxEditors_edtListBoxFilterBtnDisabled_MaterialCompactCustom:before
+
+{
+    left: -394px;
+    top: -317px;
+
+}
+.dx-acc-r .dxEditors_edtListBoxHideFilterBtn_MaterialCompactCustom:before
+
+{
+    left: -394px;
+    top: -298px;
+
+}
+.dx-acc-r .dxEditors_edtListBoxHideFilterBtnDisabled_MaterialCompactCustom:before
+
+{
+    left: -423px;
+    top: -197px;
+
+}
+.dx-acc-r .dxEditors_edtListBoxHideFilterBtnRtl_MaterialCompactCustom:before
+
+{
+    left: -423px;
+    top: -346px;
+
+}
+.dx-acc-r .dxEditors_edtListBoxHideFilterBtnRtlDisabled_MaterialCompactCustom:before
+
+{
+    left: -399px;
+    top: -375px;
+
+}
+.dx-acc-r .dxEditors_edtRadioButtonChecked_MaterialCompactCustom:before
+
+{
+    left: -423px;
+    top: -126px;
+
+}
+.dx-acc-r .dxEditors_edtRadioButtonCheckedDisabled_MaterialCompactCustom:before
+
+{
+    left: -397px;
+    top: -176px;
+
+}
+.dx-acc-r .dxEditors_edtRadioButtonUnchecked_MaterialCompactCustom:before
+
+{
+    left: -423px;
+    top: -105px;
+
+}
+.dx-acc-r .dxEditors_edtRadioButtonUncheckedDisabled_MaterialCompactCustom:before
+
+{
+    left: -423px;
+    top: 0px;
+
+}
+.dx-acc-r .dxEditors_edtSpinEditDecrementImage_MaterialCompactCustom:before
+
+{
+    left: -332px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtSpinEditDecrementImageDisabled_MaterialCompactCustom:before
+
+{
+    left: -312px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtSpinEditIncrementImage_MaterialCompactCustom:before
+
+{
+    left: -322px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtSpinEditIncrementImageDisabled_MaterialCompactCustom:before
+
+{
+    left: -382px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtSpinEditLargeDecImage_MaterialCompactCustom:before
+
+{
+    left: -352px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtSpinEditLargeDecImageDisabled_MaterialCompactCustom:before
+
+{
+    left: -292px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtSpinEditLargeIncImage_MaterialCompactCustom:before
+
+{
+    left: -362px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtSpinEditLargeIncImageDisabled_MaterialCompactCustom:before
+
+{
+    left: -372px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_edtTBDecBtn_MaterialCompactCustom:before
+
+{
+    left: -418px;
+    top: -365px;
+
+}
+.dx-acc-r .dxEditors_edtTBIncBtn_MaterialCompactCustom:before
+
+{
+    left: -418px;
+    top: -168px;
+
+}
+.dx-acc-r .dxEditors_edtTokenBoxTokenRemoveButton_MaterialCompactCustom:before
+
+{
+    left: -423px;
+    top: -84px;
+
+}
+.dx-acc-r .dxEditors_edtTokenBoxTokenRemoveButtonDisabled_MaterialCompactCustom:before
+
+{
+    left: -423px;
+    top: -147px;
+
+}
+.dx-acc-r .dxEditors_fcadd_MaterialCompactCustom:before
+
+{
+    left: -85px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcaddhot_MaterialCompactCustom:before
+
+{
+    left: -323px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcgroupaddcondition_MaterialCompactCustom:before
+
+{
+    left: -187px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcgroupaddgroup_MaterialCompactCustom:before
+
+{
+    left: -374px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcgroupand_MaterialCompactCustom:before
+
+{
+    left: -17px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcgroupnotand_MaterialCompactCustom:before
+
+{
+    left: -51px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_fcgroupnotor_MaterialCompactCustom:before
+
+{
+    left: -394px;
+    top: -262px;
+
+}
+.dx-acc-r .dxEditors_fcgroupor_MaterialCompactCustom:before
+
+{
+    left: -34px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_fcgroupremove_MaterialCompactCustom:before
+
+{
+    left: -408px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcopany_MaterialCompactCustom:before
+
+{
+    left: -413px;
+    top: -281px;
+
+}
+.dx-acc-r .dxEditors_fcopavg_MaterialCompactCustom:before
+
+{
+    left: -238px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcopbegin_MaterialCompactCustom:before
+
+{
+    left: -68px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_fcopbetween_MaterialCompactCustom:before
+
+{
+    left: -391px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcopblank_MaterialCompactCustom:before
+
+{
+    left: -423px;
+    top: -228px;
+
+}
+.dx-acc-r .dxEditors_fcopcontain_MaterialCompactCustom:before
+
+{
+    left: -204px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcopcount_MaterialCompactCustom:before
+
+{
+    left: -221px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcopend_MaterialCompactCustom:before
+
+{
+    left: -394px;
+    top: -245px;
+
+}
+.dx-acc-r .dxEditors_fcopequal_MaterialCompactCustom:before
+
+{
+    left: 0px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_fcopexists_MaterialCompactCustom:before
+
+{
+    left: -428px;
+    top: -262px;
+
+}
+.dx-acc-r .dxEditors_fcopgreater_MaterialCompactCustom:before
+
+{
+    left: -119px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_fcopgreaterorequal_MaterialCompactCustom:before
+
+{
+    left: 0px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcopless_MaterialCompactCustom:before
+
+{
+    left: -68px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcoplessorequal_MaterialCompactCustom:before
+
+{
+    left: -411px;
+    top: -245px;
+
+}
+.dx-acc-r .dxEditors_fcoplike_MaterialCompactCustom:before
+
+{
+    left: -136px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_fcopmax_MaterialCompactCustom:before
+
+{
+    left: -272px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcopmin_MaterialCompactCustom:before
+
+{
+    left: -340px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcopnotany_MaterialCompactCustom:before
+
+{
+    left: -85px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_fcopnotbetween_MaterialCompactCustom:before
+
+{
+    left: -289px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcopnotblank_MaterialCompactCustom:before
+
+{
+    left: -102px;
+    top: -411px;
+
+}
+.dx-acc-r .dxEditors_fcopnotcontain_MaterialCompactCustom:before
+
+{
+    left: -411px;
+    top: -262px;
+
+}
+.dx-acc-r .dxEditors_fcopnotequal_MaterialCompactCustom:before
+
+{
+    left: -428px;
+    top: -245px;
+
+}
+.dx-acc-r .dxEditors_fcopnotlike_MaterialCompactCustom:before
+
+{
+    left: -430px;
+    top: -281px;
+
+}
+.dx-acc-r .dxEditors_fcopsum_MaterialCompactCustom:before
+
+{
+    left: -255px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcoptypefield_MaterialCompactCustom:before
+
+{
+    left: -51px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcoptypefieldhot_MaterialCompactCustom:before
+
+{
+    left: -153px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcoptypevalue_MaterialCompactCustom:before
+
+{
+    left: -357px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcoptypevaluehot_MaterialCompactCustom:before
+
+{
+    left: -136px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcremove_MaterialCompactCustom:before
+
+{
+    left: -119px;
+    top: -394px;
+
+}
+.dx-acc-r .dxEditors_fcremovehot_MaterialCompactCustom:before
+
+{
+    left: -170px;
+    top: -394px;
+
+}
+.dx-acc-r .dxeSpinDecButtonHover_MaterialCompactCustom .dxEditors_edtSpinEditDecrementImage_MaterialCompactCustom:before
+
+{
+    left: -402px;
+    top: -411px;
+
+}
+.dx-acc-r .dxeSpinDecButtonPressed_MaterialCompactCustom .dxEditors_edtSpinEditDecrementImage_MaterialCompactCustom:before
+
+{
+    left: -394px;
+    top: -365px;
+
+}
+.dx-acc-r .dxeSpinIncButtonHover_MaterialCompactCustom .dxEditors_edtSpinEditIncrementImage_MaterialCompactCustom:before
+
+{
+    left: -404px;
+    top: -365px;
+
+}
+.dx-acc-r .dxeSpinIncButtonPressed_MaterialCompactCustom .dxEditors_edtSpinEditIncrementImage_MaterialCompactCustom:before
+
+{
+    left: -342px;
+    top: -411px;
+
+}
+.dx-acc-r .dxeSpinLargeDecButtonHover_MaterialCompactCustom .dxEditors_edtSpinEditLargeDecImage_MaterialCompactCustom:before
+
+{
+    left: -423px;
+    top: -336px;
+
+}
+.dx-acc-r .dxeSpinLargeDecButtonPressed_MaterialCompactCustom .dxEditors_edtSpinEditLargeDecImage_MaterialCompactCustom:before
+
+{
+    left: -302px;
+    top: -411px;
+
+}
+.dx-acc-r .dxeSpinLargeIncButtonHover_MaterialCompactCustom .dxEditors_edtSpinEditLargeIncImage_MaterialCompactCustom:before
+
+{
+    left: -434px;
+    top: -216px;
+
+}
+.dx-acc-r .dxeSpinLargeIncButtonPressed_MaterialCompactCustom .dxEditors_edtSpinEditLargeIncImage_MaterialCompactCustom:before
+
+{
+    left: -392px;
+    top: -411px;
+
+}
+.dx-acc-r .dxeTBDecBtnHover_MaterialCompactCustom.dxEditors_edtTBDecBtn_MaterialCompactCustom:before
+
+{
+    left: -394px;
+    top: 0px;
+
+}
+.dx-acc-r .dxeTBDecBtnPressed_MaterialCompactCustom.dxEditors_edtTBDecBtn_MaterialCompactCustom:before
+
+{
+    left: -394px;
+    top: -52px;
+
+}
+.dx-acc-r .dxeTBIncBtnHover_MaterialCompactCustom.dxEditors_edtTBIncBtn_MaterialCompactCustom:before
+
+{
+    left: -394px;
+    top: -197px;
+
+}
+.dx-acc-r .dxeTBIncBtnPressed_MaterialCompactCustom.dxEditors_edtTBIncBtn_MaterialCompactCustom:before
+
+{
+    left: -394px;
+    top: -336px;
+
+}
+.dx-acc-r .dxeTrackBar_MaterialCompactCustom.dxeDisabled_MaterialCompactCustom .dxEditors_edtTBDecBtn_MaterialCompactCustom:before
+
+{
+    left: -394px;
+    top: -139px;
+
+}
+.dx-acc-r .dxeTrackBar_MaterialCompactCustom.dxeDisabled_MaterialCompactCustom .dxEditors_edtTBIncBtn_MaterialCompactCustom:before
+
+{
+    left: -394px;
+    top: -81px;
+
+}
+.dx-acc-r .dxgvFocusedRow_MaterialCompactCustom .dxEditors_edtRadioButtonChecked_MaterialCompactCustom:before
+
+{
+    left: -423px;
+    top: -63px;
+
+}
+

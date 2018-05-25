@@ -1,0 +1,1670 @@
+.dx-acc-r .dxGridView_CTClearFilter_Office365:before,
+.dx-acc-r .dxGridView_CTClearFilterDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTClearGrouping_Office365:before,
+.dx-acc-r .dxGridView_CTClearGroupingDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTCollapseDetailRow_Office365:before,
+.dx-acc-r .dxGridView_CTCollapseDetailRowDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTCollapseRow_Office365:before,
+.dx-acc-r .dxGridView_CTCollapseRowDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTDeleteRow_Office365:before,
+.dx-acc-r .dxGridView_CTDeleteRowDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTEditRow_Office365:before,
+.dx-acc-r .dxGridView_CTEditRowDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTExpandDetailRow_Office365:before,
+.dx-acc-r .dxGridView_CTExpandDetailRowDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTExpandRow_Office365:before,
+.dx-acc-r .dxGridView_CTExpandRowDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTExportCsv_Office365:before,
+.dx-acc-r .dxGridView_CTExportCsvDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTExportDocx_Office365:before,
+.dx-acc-r .dxGridView_CTExportDocxDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTExportPdf_Office365:before,
+.dx-acc-r .dxGridView_CTExportPdfDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTExportRtf_Office365:before,
+.dx-acc-r .dxGridView_CTExportRtfDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTExportXls_Office365:before,
+.dx-acc-r .dxGridView_CTExportXlsDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTExportXlsx_Office365:before,
+.dx-acc-r .dxGridView_CTExportXlsxDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTFullCollapse_Office365:before,
+.dx-acc-r .dxGridView_CTFullCollapseDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTFullExpand_Office365:before,
+.dx-acc-r .dxGridView_CTFullExpandDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTNewRow_Office365:before,
+.dx-acc-r .dxGridView_CTNewRowDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTRefresh_Office365:before,
+.dx-acc-r .dxGridView_CTRefreshDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTShowCustDialog_Office365:before,
+.dx-acc-r .dxGridView_CTShowCustDialogDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTShowCustomizationWindow_Office365:before,
+.dx-acc-r .dxGridView_CTShowCustomizationWindowDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTShowFilterEditor_Office365:before,
+.dx-acc-r .dxGridView_CTShowFilterEditorDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTShowFilterRow_Office365:before,
+.dx-acc-r .dxGridView_CTShowFilterRowDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTShowGroupPanel_Office365:before,
+.dx-acc-r .dxGridView_CTShowGroupPanelDisabled_Office365:before,
+.dx-acc-r .dxGridView_CTShowSearchPanel_Office365:before,
+.dx-acc-r .dxGridView_CTShowSearchPanelDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCellError_Office365:before,
+.dx-acc-r .dxGridView_gvCMClearFilter_Office365:before,
+.dx-acc-r .dxGridView_gvCMClearFilterDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMClearGrouping_Office365:before,
+.dx-acc-r .dxGridView_gvCMClearGroupingDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMCollapseDetailRow_Office365:before,
+.dx-acc-r .dxGridView_gvCMCollapseDetailRowDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMCollapseRow_Office365:before,
+.dx-acc-r .dxGridView_gvCMCollapseRowDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMDeleteRow_Office365:before,
+.dx-acc-r .dxGridView_gvCMDeleteRowDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMEditRow_Office365:before,
+.dx-acc-r .dxGridView_gvCMEditRowDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMExpandDetailRow_Office365:before,
+.dx-acc-r .dxGridView_gvCMExpandDetailRowDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMExpandRow_Office365:before,
+.dx-acc-r .dxGridView_gvCMExpandRowDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMExportCsv_Office365:before,
+.dx-acc-r .dxGridView_gvCMExportCsvDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMExportDocx_Office365:before,
+.dx-acc-r .dxGridView_gvCMExportDocxDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMExportPdf_Office365:before,
+.dx-acc-r .dxGridView_gvCMExportPdfDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMExportRtf_Office365:before,
+.dx-acc-r .dxGridView_gvCMExportRtfDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMExportXls_Office365:before,
+.dx-acc-r .dxGridView_gvCMExportXlsDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMExportXlsx_Office365:before,
+.dx-acc-r .dxGridView_gvCMExportXlsxDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMFullCollapse_Office365:before,
+.dx-acc-r .dxGridView_gvCMFullCollapseDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMFullExpand_Office365:before,
+.dx-acc-r .dxGridView_gvCMFullExpandDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMGroupByColumn_Office365:before,
+.dx-acc-r .dxGridView_gvCMGroupByColumnDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMNewRow_Office365:before,
+.dx-acc-r .dxGridView_gvCMNewRowDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMRefresh_Office365:before,
+.dx-acc-r .dxGridView_gvCMRefreshDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMSearchPanel_Office365:before,
+.dx-acc-r .dxGridView_gvCMSearchPanelDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMShowCustDialog_Office365:before,
+.dx-acc-r .dxGridView_gvCMShowCustDialogDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMShowCustomizationWindow_Office365:before,
+.dx-acc-r .dxGridView_gvCMShowCustomizationWindowDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMShowFilterEditor_Office365:before,
+.dx-acc-r .dxGridView_gvCMShowFilterEditorDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMShowGroupPanel_Office365:before,
+.dx-acc-r .dxGridView_gvCMShowGroupPanelDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMShowSearchPanel_Office365:before,
+.dx-acc-r .dxGridView_gvCMShowSearchPanelDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMSortAscending_Office365:before,
+.dx-acc-r .dxGridView_gvCMSortAscendingDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMSortDescending_Office365:before,
+.dx-acc-r .dxGridView_gvCMSortDescendingDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMSummaryAverage_Office365:before,
+.dx-acc-r .dxGridView_gvCMSummaryAverageDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMSummaryCount_Office365:before,
+.dx-acc-r .dxGridView_gvCMSummaryCountDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMSummaryMax_Office365:before,
+.dx-acc-r .dxGridView_gvCMSummaryMaxDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMSummaryMin_Office365:before,
+.dx-acc-r .dxGridView_gvCMSummaryMinDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMSummarySum_Office365:before,
+.dx-acc-r .dxGridView_gvCMSummarySumDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCMUngroupColumn_Office365:before,
+.dx-acc-r .dxGridView_gvCOApply_Office365:before,
+.dx-acc-r .dxGridView_gvCOApplyDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCOClearFilter_Office365:before,
+.dx-acc-r .dxGridView_gvCOClearFilterDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCOClose_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnDrag_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnDragDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnGroup_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnGroupDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnHide_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnHideDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnRemove_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnRemoveDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnShow_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnShowDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnSort_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnSortDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnSortDown_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnSortDownDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnSortUp_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnSortUpDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnUngroup_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnUngroupDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnUnsort_Office365:before,
+.dx-acc-r .dxGridView_gvCOColumnUnsortDisabled_Office365:before,
+.dx-acc-r .dxGridView_gvCODragAreaCollapse_Office365:before,
+.dx-acc-r .dxGridView_gvCODragAreaExpand_Office365:before,
+.dx-acc-r .dxGridView_gvCOFilterCollapse_Office365:before,
+.dx-acc-r .dxGridView_gvCOFilterExpand_Office365:before,
+.dx-acc-r .dxGridView_gvCollapsedButton_Office365:before,
+.dx-acc-r .dxGridView_gvCollapsedButtonRtl_Office365:before,
+.dx-acc-r .dxGridView_gvDetailCollapsedButton_Office365:before,
+.dx-acc-r .dxGridView_gvDetailCollapsedButtonRtl_Office365:before,
+.dx-acc-r .dxGridView_gvDetailExpandedButton_Office365:before,
+.dx-acc-r .dxGridView_gvDetailExpandedButtonRtl_Office365:before,
+.dx-acc-r .dxGridView_gvDragAndDropArrowDown_Office365:before,
+.dx-acc-r .dxGridView_gvDragAndDropArrowLeft_Office365:before,
+.dx-acc-r .dxGridView_gvDragAndDropArrowRight_Office365:before,
+.dx-acc-r .dxGridView_gvDragAndDropArrowUp_Office365:before,
+.dx-acc-r .dxGridView_gvDragAndDropHideColumn_Office365:before,
+.dx-acc-r .dxGridView_gvExpandedButton_Office365:before,
+.dx-acc-r .dxGridView_gvExpandedButtonRtl_Office365:before,
+.dx-acc-r .dxGridView_gvFilterRowButton_Office365:before,
+.dx-acc-r .dxGridView_gvFixedGroupRow_Office365:before,
+.dx-acc-r .dxGridView_gvHeaderFilter_Office365:before,
+.dx-acc-r .dxGridView_gvHeaderFilterActive_Office365:before,
+.dx-acc-r .dxGridView_gvHeaderSortDown_Office365:before,
+.dx-acc-r .dxGridView_gvHeaderSortUp_Office365:before,
+.dx-acc-r .dxGridView_gvHideAdaptiveDetailButton_Office365:before,
+.dx-acc-r .dxGridView_gvParentGroupRows_Office365:before,
+.dx-acc-r .dxGridView_gvShowAdaptiveDetailButton_Office365:before,
+.dx-acc-r .dxGridView_WindowResizer_Office365:before,
+.dx-acc-r .dxGridView_WindowResizerRtl_Office365:before,
+.dx-acc-r .dxgvADSB:hover .dxGridView_gvShowAdaptiveDetailButton_Office365:before,
+.dx-acc-r .dxgvFocusedGroupRow_Office365 .dxGridView_gvCollapsedButton_Office365:before,
+.dx-acc-r .dxgvFocusedGroupRow_Office365 .dxGridView_gvCollapsedButtonRtl_Office365:before,
+.dx-acc-r .dxgvFocusedGroupRow_Office365 .dxGridView_gvDetailCollapsedButton_Office365:before,
+.dx-acc-r .dxgvFocusedGroupRow_Office365 .dxGridView_gvDetailCollapsedButtonRtl_Office365:before,
+.dx-acc-r .dxgvFocusedGroupRow_Office365 .dxGridView_gvDetailExpandedButton_Office365:before,
+.dx-acc-r .dxgvFocusedGroupRow_Office365 .dxGridView_gvDetailExpandedButtonRtl_Office365:before,
+.dx-acc-r .dxgvFocusedGroupRow_Office365 .dxGridView_gvExpandedButton_Office365:before,
+.dx-acc-r .dxgvFocusedGroupRow_Office365 .dxGridView_gvExpandedButtonRtl_Office365:before,
+.dx-acc-r .dxgvFocusedRow_Office365 .dxGridView_gvShowAdaptiveDetailButton_Office365:before,
+.dx-acc-r .dxgvFocusedRow_Office365 .dxgvADSB:hover .dxGridView_gvShowAdaptiveDetailButton_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_CTShowCustomizationWindow_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_CTShowFilterRow_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_CTShowGroupPanel_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_CTShowSearchPanel_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMClearFilter_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMClearGrouping_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMCollapseDetailRow_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMCollapseRow_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMDeleteRow_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMEditRow_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMExpandDetailRow_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMExpandRow_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMFullCollapse_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMFullExpand_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMGroupByColumn_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMNewRow_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMRefresh_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMSearchPanel_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMShowCustomizationWindow_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMShowFilterEditor_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMShowGroupPanel_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMShowSearchPanel_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMSortAscending_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMSortDescending_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMSummaryAverage_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMSummaryCount_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMSummaryMax_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMSummaryMin_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMSummarySum_Office365:before,
+.dx-acc-r .dxm-checked .dxGridView_gvCMUngroupColumn_Office365:before
+
+{
+    content: url('sprite.svg');
+
+}
+.dx-acc-r .dxGridView_CTClearFilter_Office365:before
+
+{
+    left: -17px;
+    top: -63px;
+
+}
+.dx-acc-r .dxGridView_CTClearFilterDisabled_Office365:before
+
+{
+    left: -221px;
+    top: -97px;
+
+}
+.dx-acc-r .dxGridView_CTClearGrouping_Office365:before
+
+{
+    left: -221px;
+    top: -114px;
+
+}
+.dx-acc-r .dxGridView_CTClearGroupingDisabled_Office365:before
+
+{
+    left: -272px;
+    top: -63px;
+
+}
+.dx-acc-r .dxGridView_CTCollapseDetailRow_Office365:before
+
+{
+    left: 0px;
+    top: -97px;
+
+}
+.dx-acc-r .dxGridView_CTCollapseDetailRowDisabled_Office365:before
+
+{
+    left: -187px;
+    top: -114px;
+
+}
+.dx-acc-r .dxGridView_CTCollapseRow_Office365:before
+
+{
+    left: -187px;
+    top: -63px;
+
+}
+.dx-acc-r .dxGridView_CTCollapseRowDisabled_Office365:before
+
+{
+    left: -204px;
+    top: -63px;
+
+}
+.dx-acc-r .dxGridView_CTDeleteRow_Office365:before
+
+{
+    left: -102px;
+    top: -97px;
+
+}
+.dx-acc-r .dxGridView_CTDeleteRowDisabled_Office365:before
+
+{
+    left: -255px;
+    top: -148px;
+
+}
+.dx-acc-r .dxGridView_CTEditRow_Office365:before
+
+{
+    left: -17px;
+    top: -131px;
+
+}
+.dx-acc-r .dxGridView_CTEditRowDisabled_Office365:before
+
+{
+    left: -272px;
+    top: -114px;
+
+}
+.dx-acc-r .dxGridView_CTExpandDetailRow_Office365:before
+
+{
+    left: -170px;
+    top: -114px;
+
+}
+.dx-acc-r .dxGridView_CTExpandDetailRowDisabled_Office365:before
+
+{
+    left: -51px;
+    top: -148px;
+
+}
+.dx-acc-r .dxGridView_CTExpandRow_Office365:before
+
+{
+    left: -34px;
+    top: -80px;
+
+}
+.dx-acc-r .dxGridView_CTExpandRowDisabled_Office365:before
+
+{
+    left: -187px;
+    top: -80px;
+
+}
+.dx-acc-r .dxGridView_CTExportCsv_Office365:before
+
+{
+    left: -285px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_CTExportCsvDisabled_Office365:before
+
+{
+    left: 0px;
+    top: -165px;
+
+}
+.dx-acc-r .dxGridView_CTExportDocx_Office365:before
+
+{
+    left: -51px;
+    top: -114px;
+
+}
+.dx-acc-r .dxGridView_CTExportDocxDisabled_Office365:before
+
+{
+    left: -51px;
+    top: -80px;
+
+}
+.dx-acc-r .dxGridView_CTExportPdf_Office365:before
+
+{
+    left: 0px;
+    top: -63px;
+
+}
+.dx-acc-r .dxGridView_CTExportPdfDisabled_Office365:before
+
+{
+    left: -136px;
+    top: -148px;
+
+}
+.dx-acc-r .dxGridView_CTExportRtf_Office365:before
+
+{
+    left: -34px;
+    top: -114px;
+
+}
+.dx-acc-r .dxGridView_CTExportRtfDisabled_Office365:before
+
+{
+    left: -119px;
+    top: -80px;
+
+}
+.dx-acc-r .dxGridView_CTExportXls_Office365:before
+
+{
+    left: -306px;
+    top: -114px;
+
+}
+.dx-acc-r .dxGridView_CTExportXlsDisabled_Office365:before
+
+{
+    left: -255px;
+    top: -46px;
+
+}
+.dx-acc-r .dxGridView_CTExportXlsx_Office365:before
+
+{
+    left: -238px;
+    top: -63px;
+
+}
+.dx-acc-r .dxGridView_CTExportXlsxDisabled_Office365:before
+
+{
+    left: -153px;
+    top: -46px;
+
+}
+.dx-acc-r .dxGridView_CTFullCollapse_Office365:before
+
+{
+    left: -51px;
+    top: -131px;
+
+}
+.dx-acc-r .dxGridView_CTFullCollapseDisabled_Office365:before
+
+{
+    left: -102px;
+    top: -80px;
+
+}
+.dx-acc-r .dxGridView_CTFullExpand_Office365:before
+
+{
+    left: -221px;
+    top: -63px;
+
+}
+.dx-acc-r .dxGridView_CTFullExpandDisabled_Office365:before
+
+{
+    left: -204px;
+    top: -46px;
+
+}
+.dx-acc-r .dxGridView_CTNewRow_Office365:before
+
+{
+    left: -272px;
+    top: -80px;
+
+}
+.dx-acc-r .dxGridView_CTNewRowDisabled_Office365:before
+
+{
+    left: -204px;
+    top: -80px;
+
+}
+.dx-acc-r .dxGridView_CTRefresh_Office365:before
+
+{
+    left: -85px;
+    top: -131px;
+
+}
+.dx-acc-r .dxGridView_CTRefreshDisabled_Office365:before
+
+{
+    left: -289px;
+    top: -131px;
+
+}
+.dx-acc-r .dxGridView_CTShowCustDialog_Office365:before
+
+{
+    left: -255px;
+    top: -63px;
+
+}
+.dx-acc-r .dxGridView_CTShowCustDialogDisabled_Office365:before
+
+{
+    left: -306px;
+    top: -131px;
+
+}
+.dx-acc-r .dxGridView_CTShowCustomizationWindow_Office365:before
+
+{
+    left: -102px;
+    top: -131px;
+
+}
+.dx-acc-r .dxGridView_CTShowCustomizationWindowDisabled_Office365:before
+
+{
+    left: -68px;
+    top: -97px;
+
+}
+.dx-acc-r .dxGridView_CTShowFilterEditor_Office365:before
+
+{
+    left: -91px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_CTShowFilterEditorDisabled_Office365:before
+
+{
+    left: -13px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_CTShowFilterRow_Office365:before
+
+{
+    left: -34px;
+    top: -131px;
+
+}
+.dx-acc-r .dxGridView_CTShowFilterRowDisabled_Office365:before
+
+{
+    left: -204px;
+    top: -97px;
+
+}
+.dx-acc-r .dxGridView_CTShowGroupPanel_Office365:before
+
+{
+    left: -221px;
+    top: -80px;
+
+}
+.dx-acc-r .dxGridView_CTShowGroupPanelDisabled_Office365:before
+
+{
+    left: -272px;
+    top: -46px;
+
+}
+.dx-acc-r .dxGridView_CTShowSearchPanel_Office365:before
+
+{
+    left: -211px;
+    top: -165px;
+
+}
+.dx-acc-r .dxGridView_CTShowSearchPanelDisabled_Office365:before
+
+{
+    left: -306px;
+    top: -63px;
+
+}
+.dx-acc-r .dxGridView_gvCellError_Office365:before
+
+{
+    left: -106px;
+    top: -165px;
+
+}
+.dx-acc-r .dxGridView_gvCMClearFilter_Office365:before
+
+{
+    left: -289px;
+    top: -148px;
+
+}
+.dx-acc-r .dxGridView_gvCMClearFilterDisabled_Office365:before
+
+{
+    left: -68px;
+    top: -148px;
+
+}
+.dx-acc-r .dxGridView_gvCMClearGrouping_Office365:before
+
+{
+    left: -85px;
+    top: -114px;
+
+}
+.dx-acc-r .dxGridView_gvCMClearGroupingDisabled_Office365:before
+
+{
+    left: -102px;
+    top: -46px;
+
+}
+.dx-acc-r .dxGridView_gvCMCollapseDetailRow_Office365:before
+
+{
+    left: -170px;
+    top: -80px;
+
+}
+.dx-acc-r .dxGridView_gvCMCollapseDetailRowDisabled_Office365:before
+
+{
+    left: -204px;
+    top: -114px;
+
+}
+.dx-acc-r .dxGridView_gvCMCollapseRow_Office365:before
+
+{
+    left: -272px;
+    top: -131px;
+
+}
+.dx-acc-r .dxGridView_gvCMCollapseRowDisabled_Office365:before
+
+{
+    left: -268px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvCMDeleteRow_Office365:before
+
+{
+    left: -102px;
+    top: -63px;
+
+}
+.dx-acc-r .dxGridView_gvCMDeleteRowDisabled_Office365:before
+
+{
+    left: -187px;
+    top: -148px;
+
+}
+.dx-acc-r .dxGridView_gvCMEditRow_Office365:before
+
+{
+    left: -187px;
+    top: -97px;
+
+}
+.dx-acc-r .dxGridView_gvCMEditRowDisabled_Office365:before
+
+{
+    left: -153px;
+    top: -63px;
+
+}
+.dx-acc-r .dxGridView_gvCMExpandDetailRow_Office365:before
+
+{
+    left: -255px;
+    top: -114px;
+
+}
+.dx-acc-r .dxGridView_gvCMExpandDetailRowDisabled_Office365:before
+
+{
+    left: -119px;
+    top: -97px;
+
+}
+.dx-acc-r .dxGridView_gvCMExpandRow_Office365:before
+
+{
+    left: -34px;
+    top: -97px;
+
+}
+.dx-acc-r .dxGridView_gvCMExpandRowDisabled_Office365:before
+
+{
+    left: -34px;
+    top: -63px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportCsv_Office365:before
+
+{
+    left: -136px;
+    top: -97px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportCsvDisabled_Office365:before
+
+{
+    left: -17px;
+    top: -114px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportDocx_Office365:before
+
+{
+    left: -221px;
+    top: -148px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportDocxDisabled_Office365:before
+
+{
+    left: -302px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportPdf_Office365:before
+
+{
+    left: -17px;
+    top: -97px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportPdfDisabled_Office365:before
+
+{
+    left: -306px;
+    top: -80px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportRtf_Office365:before
+
+{
+    left: -306px;
+    top: -148px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportRtfDisabled_Office365:before
+
+{
+    left: -34px;
+    top: -148px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportXls_Office365:before
+
+{
+    left: -102px;
+    top: -148px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportXlsDisabled_Office365:before
+
+{
+    left: -85px;
+    top: -97px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportXlsx_Office365:before
+
+{
+    left: -136px;
+    top: -63px;
+
+}
+.dx-acc-r .dxGridView_gvCMExportXlsxDisabled_Office365:before
+
+{
+    left: -68px;
+    top: -80px;
+
+}
+.dx-acc-r .dxGridView_gvCMFullCollapse_Office365:before
+
+{
+    left: -289px;
+    top: -97px;
+
+}
+.dx-acc-r .dxGridView_gvCMFullCollapseDisabled_Office365:before
+
+{
+    left: -17px;
+    top: -165px;
+
+}
+.dx-acc-r .dxGridView_gvCMFullExpand_Office365:before
+
+{
+    left: -153px;
+    top: -131px;
+
+}
+.dx-acc-r .dxGridView_gvCMFullExpandDisabled_Office365:before
+
+{
+    left: -238px;
+    top: -46px;
+
+}
+.dx-acc-r .dxGridView_gvCMGroupByColumn_Office365:before
+
+{
+    left: -238px;
+    top: -80px;
+
+}
+.dx-acc-r .dxGridView_gvCMGroupByColumnDisabled_Office365:before
+
+{
+    left: -170px;
+    top: -148px;
+
+}
+.dx-acc-r .dxGridView_gvCMNewRow_Office365:before
+
+{
+    left: -153px;
+    top: -114px;
+
+}
+.dx-acc-r .dxGridView_gvCMNewRowDisabled_Office365:before
+
+{
+    left: 0px;
+    top: -131px;
+
+}
+.dx-acc-r .dxGridView_gvCMRefresh_Office365:before
+
+{
+    left: -119px;
+    top: -131px;
+
+}
+.dx-acc-r .dxGridView_gvCMRefreshDisabled_Office365:before
+
+{
+    left: -289px;
+    top: -63px;
+
+}
+.dx-acc-r .dxGridView_gvCMSearchPanel_Office365:before
+
+{
+    left: -151px;
+    top: -165px;
+
+}
+.dx-acc-r .dxGridView_gvCMSearchPanelDisabled_Office365:before
+
+{
+    left: -170px;
+    top: -46px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowCustDialog_Office365:before
+
+{
+    left: -51px;
+    top: -63px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowCustDialogDisabled_Office365:before
+
+{
+    left: -272px;
+    top: -148px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowCustomizationWindow_Office365:before
+
+{
+    left: -102px;
+    top: -114px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowCustomizationWindowDisabled_Office365:before
+
+{
+    left: -204px;
+    top: -148px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowFilterEditor_Office365:before
+
+{
+    left: -182px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowFilterEditorDisabled_Office365:before
+
+{
+    left: -39px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowGroupPanel_Office365:before
+
+{
+    left: -255px;
+    top: -97px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowGroupPanelDisabled_Office365:before
+
+{
+    left: -136px;
+    top: -131px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowSearchPanel_Office365:before
+
+{
+    left: -196px;
+    top: -165px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowSearchPanelDisabled_Office365:before
+
+{
+    left: -187px;
+    top: -131px;
+
+}
+.dx-acc-r .dxGridView_gvCMSortAscending_Office365:before
+
+{
+    left: -238px;
+    top: -148px;
+
+}
+.dx-acc-r .dxGridView_gvCMSortAscendingDisabled_Office365:before
+
+{
+    left: -136px;
+    top: -114px;
+
+}
+.dx-acc-r .dxGridView_gvCMSortDescending_Office365:before
+
+{
+    left: -289px;
+    top: -80px;
+
+}
+.dx-acc-r .dxGridView_gvCMSortDescendingDisabled_Office365:before
+
+{
+    left: -51px;
+    top: -97px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryAverage_Office365:before
+
+{
+    left: -238px;
+    top: -114px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryAverageDisabled_Office365:before
+
+{
+    left: -119px;
+    top: -114px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryCount_Office365:before
+
+{
+    left: -51px;
+    top: -165px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryCountDisabled_Office365:before
+
+{
+    left: -170px;
+    top: -63px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryMax_Office365:before
+
+{
+    left: -170px;
+    top: -131px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryMaxDisabled_Office365:before
+
+{
+    left: -68px;
+    top: -63px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryMin_Office365:before
+
+{
+    left: -221px;
+    top: -46px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryMinDisabled_Office365:before
+
+{
+    left: -85px;
+    top: -148px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummarySum_Office365:before
+
+{
+    left: -221px;
+    top: -131px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummarySumDisabled_Office365:before
+
+{
+    left: -119px;
+    top: -63px;
+
+}
+.dx-acc-r .dxGridView_gvCMUngroupColumn_Office365:before
+
+{
+    left: 0px;
+    top: -114px;
+
+}
+.dx-acc-r .dxGridView_gvCOApply_Office365:before
+
+{
+    left: -46px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvCOApplyDisabled_Office365:before
+
+{
+    left: -207px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCOClearFilter_Office365:before
+
+{
+    left: -153px;
+    top: -97px;
+
+}
+.dx-acc-r .dxGridView_gvCOClearFilterDisabled_Office365:before
+
+{
+    left: -204px;
+    top: -131px;
+
+}
+.dx-acc-r .dxGridView_gvCOClose_Office365:before
+
+{
+    left: -69px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnDrag_Office365:before
+
+{
+    left: -230px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnDragDisabled_Office365:before
+
+{
+    left: -249px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnGroup_Office365:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnGroupDisabled_Office365:before
+
+{
+    left: -184px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnHide_Office365:before
+
+{
+    left: -184px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnHideDisabled_Office365:before
+
+{
+    left: -276px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnRemove_Office365:before
+
+{
+    left: -92px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnRemoveDisabled_Office365:before
+
+{
+    left: -69px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnShow_Office365:before
+
+{
+    left: -46px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnShowDisabled_Office365:before
+
+{
+    left: -230px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnSort_Office365:before
+
+{
+    left: -92px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnSortDisabled_Office365:before
+
+{
+    left: 0px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnSortDown_Office365:before
+
+{
+    left: -138px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnSortDownDisabled_Office365:before
+
+{
+    left: -299px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnSortUp_Office365:before
+
+{
+    left: -23px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnSortUpDisabled_Office365:before
+
+{
+    left: -115px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnUngroup_Office365:before
+
+{
+    left: -161px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnUngroupDisabled_Office365:before
+
+{
+    left: -253px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnUnsort_Office365:before
+
+{
+    left: -161px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCOColumnUnsortDisabled_Office365:before
+
+{
+    left: -138px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCODragAreaCollapse_Office365:before
+
+{
+    left: -226px;
+    top: -165px;
+
+}
+.dx-acc-r .dxGridView_gvCODragAreaExpand_Office365:before
+
+{
+    left: -240px;
+    top: -165px;
+
+}
+.dx-acc-r .dxGridView_gvCOFilterCollapse_Office365:before
+
+{
+    left: -207px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvCOFilterExpand_Office365:before
+
+{
+    left: -23px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvCollapsedButton_Office365:before
+
+{
+    left: -280px;
+    top: -165px;
+
+}
+.dx-acc-r .dxGridView_gvCollapsedButtonRtl_Office365:before
+
+{
+    left: -117px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_gvDetailCollapsedButton_Office365:before
+
+{
+    left: -156px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_gvDetailCollapsedButtonRtl_Office365:before
+
+{
+    left: -247px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_gvDetailExpandedButton_Office365:before
+
+{
+    left: -208px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_gvDetailExpandedButtonRtl_Office365:before
+
+{
+    left: -104px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_gvDragAndDropArrowDown_Office365:before
+
+{
+    left: -305px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_gvDragAndDropArrowLeft_Office365:before
+
+{
+    left: -283px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_gvDragAndDropArrowRight_Office365:before
+
+{
+    left: -273px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_gvDragAndDropArrowUp_Office365:before
+
+{
+    left: -293px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_gvDragAndDropHideColumn_Office365:before
+
+{
+    left: -255px;
+    top: -80px;
+
+}
+.dx-acc-r .dxGridView_gvExpandedButton_Office365:before
+
+{
+    left: -26px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_gvExpandedButtonRtl_Office365:before
+
+{
+    left: -234px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_gvFilterRowButton_Office365:before
+
+{
+    left: -130px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_gvFixedGroupRow_Office365:before
+
+{
+    left: -68px;
+    top: -165px;
+
+}
+.dx-acc-r .dxGridView_gvHeaderFilter_Office365:before
+
+{
+    left: -169px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_gvHeaderFilterActive_Office365:before
+
+{
+    left: -65px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_gvHeaderSortDown_Office365:before
+
+{
+    left: -221px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_gvHeaderSortUp_Office365:before
+
+{
+    left: -260px;
+    top: -182px;
+
+}
+.dx-acc-r .dxGridView_gvHideAdaptiveDetailButton_Office365:before
+
+{
+    left: -34px;
+    top: -46px;
+
+}
+.dx-acc-r .dxGridView_gvParentGroupRows_Office365:before
+
+{
+    left: -115px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvShowAdaptiveDetailButton_Office365:before
+
+{
+    left: -85px;
+    top: -46px;
+
+}
+.dx-acc-r .dxGridView_WindowResizer_Office365:before
+
+{
+    left: -166px;
+    top: -165px;
+
+}
+.dx-acc-r .dxGridView_WindowResizerRtl_Office365:before
+
+{
+    left: -91px;
+    top: -165px;
+
+}
+.dx-acc-r .dxgvADSB:hover .dxGridView_gvShowAdaptiveDetailButton_Office365:before
+
+{
+    left: -68px;
+    top: -46px;
+
+}
+.dx-acc-r .dxgvFocusedGroupRow_Office365 .dxGridView_gvCollapsedButton_Office365:before
+
+{
+    left: -293px;
+    top: -165px;
+
+}
+.dx-acc-r .dxgvFocusedGroupRow_Office365 .dxGridView_gvCollapsedButtonRtl_Office365:before
+
+{
+    left: 0px;
+    top: -182px;
+
+}
+.dx-acc-r .dxgvFocusedGroupRow_Office365 .dxGridView_gvDetailCollapsedButton_Office365:before
+
+{
+    left: -254px;
+    top: -165px;
+
+}
+.dx-acc-r .dxgvFocusedGroupRow_Office365 .dxGridView_gvDetailCollapsedButtonRtl_Office365:before
+
+{
+    left: -143px;
+    top: -182px;
+
+}
+.dx-acc-r .dxgvFocusedGroupRow_Office365 .dxGridView_gvDetailExpandedButton_Office365:before
+
+{
+    left: -52px;
+    top: -182px;
+
+}
+.dx-acc-r .dxgvFocusedGroupRow_Office365 .dxGridView_gvDetailExpandedButtonRtl_Office365:before
+
+{
+    left: -306px;
+    top: -165px;
+
+}
+.dx-acc-r .dxgvFocusedGroupRow_Office365 .dxGridView_gvExpandedButton_Office365:before
+
+{
+    left: -267px;
+    top: -165px;
+
+}
+.dx-acc-r .dxgvFocusedGroupRow_Office365 .dxGridView_gvExpandedButtonRtl_Office365:before
+
+{
+    left: -195px;
+    top: -182px;
+
+}
+.dx-acc-r .dxgvFocusedRow_Office365 .dxGridView_gvShowAdaptiveDetailButton_Office365:before
+
+{
+    left: -187px;
+    top: -46px;
+
+}
+.dx-acc-r .dxgvFocusedRow_Office365 .dxgvADSB:hover .dxGridView_gvShowAdaptiveDetailButton_Office365:before
+
+{
+    left: -51px;
+    top: -46px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_CTShowCustomizationWindow_Office365:before
+
+{
+    left: 0px;
+    top: -80px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_CTShowFilterRow_Office365:before
+
+{
+    left: -153px;
+    top: -80px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_CTShowGroupPanel_Office365:before
+
+{
+    left: -306px;
+    top: -97px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_CTShowSearchPanel_Office365:before
+
+{
+    left: -181px;
+    top: -165px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMClearFilter_Office365:before
+
+{
+    left: 0px;
+    top: -46px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMClearGrouping_Office365:before
+
+{
+    left: -119px;
+    top: -148px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMCollapseDetailRow_Office365:before
+
+{
+    left: -85px;
+    top: -80px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMCollapseRow_Office365:before
+
+{
+    left: -153px;
+    top: -148px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMDeleteRow_Office365:before
+
+{
+    left: -255px;
+    top: -131px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMEditRow_Office365:before
+
+{
+    left: -85px;
+    top: -63px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMExpandDetailRow_Office365:before
+
+{
+    left: -272px;
+    top: -97px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMExpandRow_Office365:before
+
+{
+    left: -17px;
+    top: -46px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMFullCollapse_Office365:before
+
+{
+    left: -17px;
+    top: -80px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMFullExpand_Office365:before
+
+{
+    left: -119px;
+    top: -46px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMGroupByColumn_Office365:before
+
+{
+    left: -289px;
+    top: -114px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMNewRow_Office365:before
+
+{
+    left: -170px;
+    top: -97px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMRefresh_Office365:before
+
+{
+    left: -136px;
+    top: -46px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMSearchPanel_Office365:before
+
+{
+    left: -136px;
+    top: -165px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMShowCustomizationWindow_Office365:before
+
+{
+    left: -68px;
+    top: -131px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMShowFilterEditor_Office365:before
+
+{
+    left: -78px;
+    top: -182px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMShowGroupPanel_Office365:before
+
+{
+    left: -136px;
+    top: -80px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMShowSearchPanel_Office365:before
+
+{
+    left: -121px;
+    top: -165px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMSortAscending_Office365:before
+
+{
+    left: 0px;
+    top: -148px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMSortDescending_Office365:before
+
+{
+    left: -238px;
+    top: -131px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMSummaryAverage_Office365:before
+
+{
+    left: -238px;
+    top: -97px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMSummaryCount_Office365:before
+
+{
+    left: -34px;
+    top: -165px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMSummaryMax_Office365:before
+
+{
+    left: -68px;
+    top: -114px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMSummaryMin_Office365:before
+
+{
+    left: -289px;
+    top: -46px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMSummarySum_Office365:before
+
+{
+    left: -306px;
+    top: -46px;
+
+}
+.dx-acc-r .dxm-checked .dxGridView_gvCMUngroupColumn_Office365:before
+
+{
+    left: -17px;
+    top: -148px;
+
+}
+

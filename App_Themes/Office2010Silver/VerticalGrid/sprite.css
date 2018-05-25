@@ -1,0 +1,258 @@
+.dxVerticalGrid_CategoryCollapsed_Office2010Silver,
+.dxVerticalGrid_CategoryExpanded_Office2010Silver,
+.dxVerticalGrid_CollapsedButton_Office2010Silver,
+.dxVerticalGrid_CTClearFilter_Office2010Silver,
+.dxVerticalGrid_CTClearFilterDisabled_Office2010Silver,
+.dxVerticalGrid_CTDeleteRow_Office2010Silver,
+.dxVerticalGrid_CTDeleteRowDisabled_Office2010Silver,
+.dxVerticalGrid_CTEditRow_Office2010Silver,
+.dxVerticalGrid_CTEditRowDisabled_Office2010Silver,
+.dxVerticalGrid_CTExportCsv_Office2010Silver,
+.dxVerticalGrid_CTExportCsvDisabled_Office2010Silver,
+.dxVerticalGrid_CTExportDocx_Office2010Silver,
+.dxVerticalGrid_CTExportDocxDisabled_Office2010Silver,
+.dxVerticalGrid_CTExportPdf_Office2010Silver,
+.dxVerticalGrid_CTExportPdfDisabled_Office2010Silver,
+.dxVerticalGrid_CTExportRtf_Office2010Silver,
+.dxVerticalGrid_CTExportRtfDisabled_Office2010Silver,
+.dxVerticalGrid_CTExportXls_Office2010Silver,
+.dxVerticalGrid_CTExportXlsDisabled_Office2010Silver,
+.dxVerticalGrid_CTExportXlsx_Office2010Silver,
+.dxVerticalGrid_CTExportXlsxDisabled_Office2010Silver,
+.dxVerticalGrid_CTNewRow_Office2010Silver,
+.dxVerticalGrid_CTNewRowDisabled_Office2010Silver,
+.dxVerticalGrid_CTRefresh_Office2010Silver,
+.dxVerticalGrid_CTRefreshDisabled_Office2010Silver,
+.dxVerticalGrid_CTShowFilterEditor_Office2010Silver,
+.dxVerticalGrid_CTShowFilterEditorDisabled_Office2010Silver,
+.dxVerticalGrid_CTShowSearchPanel_Office2010Silver,
+.dxVerticalGrid_CTShowSearchPanelDisabled_Office2010Silver,
+.dxVerticalGrid_ExpandedButton_Office2010Silver,
+.dxVerticalGrid_gvCellError_Office2010Silver,
+.dxVerticalGrid_gvFilterRowButton_Office2010Silver,
+.dxVerticalGrid_gvHeaderFilter_Office2010Silver,
+.dxVerticalGrid_gvHeaderFilterActive_Office2010Silver,
+.dxVerticalGrid_gvHeaderSortDown_Office2010Silver,
+.dxVerticalGrid_gvHeaderSortUp_Office2010Silver
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxVerticalGrid_CategoryCollapsed_Office2010Silver
+{
+    background-position: -502px 0px;
+    width: 13px;
+    height: 15px;
+}
+.dxVerticalGrid_CategoryExpanded_Office2010Silver
+{
+    background-position: -474px 0px;
+    width: 13px;
+    height: 15px;
+}
+.dxVerticalGrid_CollapsedButton_Office2010Silver
+{
+    background-position: -488px 0px;
+    width: 13px;
+    height: 15px;
+}
+.dxVerticalGrid_CTClearFilter_Office2010Silver
+{
+    background-position: -204px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTClearFilterDisabled_Office2010Silver
+{
+    background-position: -272px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTDeleteRow_Office2010Silver
+{
+    background-position: -170px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTDeleteRowDisabled_Office2010Silver
+{
+    background-position: -85px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTEditRow_Office2010Silver
+{
+    background-position: -102px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTEditRowDisabled_Office2010Silver
+{
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportCsv_Office2010Silver
+{
+    background-position: -289px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportCsvDisabled_Office2010Silver
+{
+    background-position: -323px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportDocx_Office2010Silver
+{
+    background-position: -136px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportDocxDisabled_Office2010Silver
+{
+    background-position: -340px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportPdf_Office2010Silver
+{
+    background-position: -51px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportPdfDisabled_Office2010Silver
+{
+    background-position: -408px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportRtf_Office2010Silver
+{
+    background-position: -374px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportRtfDisabled_Office2010Silver
+{
+    background-position: -238px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportXls_Office2010Silver
+{
+    background-position: -357px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportXlsDisabled_Office2010Silver
+{
+    background-position: -391px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportXlsx_Office2010Silver
+{
+    background-position: -425px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportXlsxDisabled_Office2010Silver
+{
+    background-position: -221px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTNewRow_Office2010Silver
+{
+    background-position: -306px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTNewRowDisabled_Office2010Silver
+{
+    background-position: -153px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTRefresh_Office2010Silver
+{
+    background-position: -68px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTRefreshDisabled_Office2010Silver
+{
+    background-position: -187px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTShowFilterEditor_Office2010Silver
+{
+    background-position: -17px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTShowFilterEditorDisabled_Office2010Silver
+{
+    background-position: -34px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTShowSearchPanel_Office2010Silver
+{
+    background-position: -255px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTShowSearchPanelDisabled_Office2010Silver
+{
+    background-position: -119px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_ExpandedButton_Office2010Silver
+{
+    background-position: -516px 0px;
+    width: 13px;
+    height: 15px;
+}
+.dxVerticalGrid_gvCellError_Office2010Silver
+{
+    background-position: -530px 0px;
+    width: 14px;
+    height: 14px;
+}
+.dxVerticalGrid_gvFilterRowButton_Office2010Silver
+{
+    background-position: -545px 0px;
+    width: 13px;
+    height: 13px;
+}
+.dxVerticalGrid_gvHeaderFilter_Office2010Silver
+{
+    background-position: -442px 0px;
+    width: 15px;
+    height: 15px;
+}
+.dxVerticalGrid_gvHeaderFilterActive_Office2010Silver
+{
+    background-position: -458px 0px;
+    width: 15px;
+    height: 15px;
+}
+.dxVerticalGrid_gvHeaderSortDown_Office2010Silver
+{
+    background-position: -559px 0px;
+    width: 7px;
+    height: 5px;
+}
+.dxVerticalGrid_gvHeaderSortUp_Office2010Silver
+{
+    background-position: -561px -11px;
+    width: 7px;
+    height: 5px;
+}
+

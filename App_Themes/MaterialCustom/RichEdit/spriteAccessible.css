@@ -1,0 +1,102 @@
+.dx-acc-r .dxRichEdit_CenterTabDragHandle_MaterialCustom:before,
+.dx-acc-r .dxRichEdit_ColumnSeparatorDragHandle_MaterialCustom:before,
+.dx-acc-r .dxRichEdit_DecimalTabDragHandle_MaterialCustom:before,
+.dx-acc-r .dxRichEdit_FirstLineIdentDragHandle_MaterialCustom:before,
+.dx-acc-r .dxRichEdit_LeftIdentDragHandle_MaterialCustom:before,
+.dx-acc-r .dxRichEdit_LeftTabDragHandle_MaterialCustom:before,
+.dx-acc-r .dxRichEdit_QuickSearchCloseButton_MaterialCustom:before,
+.dx-acc-r .dxRichEdit_QuickSearchCollapseButton_MaterialCustom:before,
+.dx-acc-r .dxRichEdit_QuickSearchNextButton_MaterialCustom:before,
+.dx-acc-r .dxRichEdit_QuickSearchPrevButton_MaterialCustom:before,
+.dx-acc-r .dxRichEdit_RightIdentDragHandle_MaterialCustom:before,
+.dx-acc-r .dxRichEdit_RightTabDragHandle_MaterialCustom:before
+
+{
+    content: url('sprite.svg');
+
+}
+.dx-acc-r .dxRichEdit_CenterTabDragHandle_MaterialCustom:before
+
+{
+    left: -24px;
+    top: -14px;
+
+}
+.dx-acc-r .dxRichEdit_ColumnSeparatorDragHandle_MaterialCustom:before
+
+{
+    left: -26px;
+    top: -21px;
+
+}
+.dx-acc-r .dxRichEdit_DecimalTabDragHandle_MaterialCustom:before
+
+{
+    left: -33px;
+    top: -14px;
+
+}
+.dx-acc-r .dxRichEdit_FirstLineIdentDragHandle_MaterialCustom:before
+
+{
+    left: -10px;
+    top: -34px;
+
+}
+.dx-acc-r .dxRichEdit_LeftIdentDragHandle_MaterialCustom:before
+
+{
+    left: 0px;
+    top: -34px;
+
+}
+.dx-acc-r .dxRichEdit_LeftTabDragHandle_MaterialCustom:before
+
+{
+    left: -34px;
+    top: -7px;
+
+}
+.dx-acc-r .dxRichEdit_QuickSearchCloseButton_MaterialCustom:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxRichEdit_QuickSearchCollapseButton_MaterialCustom:before
+
+{
+    left: 0px;
+    top: -21px;
+
+}
+.dx-acc-r .dxRichEdit_QuickSearchNextButton_MaterialCustom:before
+
+{
+    left: -13px;
+    top: -21px;
+
+}
+.dx-acc-r .dxRichEdit_QuickSearchPrevButton_MaterialCustom:before
+
+{
+    left: -21px;
+    top: 0px;
+
+}
+.dx-acc-r .dxRichEdit_RightIdentDragHandle_MaterialCustom:before
+
+{
+    left: -20px;
+    top: -34px;
+
+}
+.dx-acc-r .dxRichEdit_RightTabDragHandle_MaterialCustom:before
+
+{
+    left: -34px;
+    top: 0px;
+
+}
+

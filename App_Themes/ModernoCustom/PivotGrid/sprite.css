@@ -1,0 +1,274 @@
+.dxpc-closeBtnHover .dxPivotGrid_pgCustomizationFormCloseButton_ModernoCustom,
+.dxPivotGrid_CTNAttribute,
+.dxPivotGrid_CTNCalculatedMeasure,
+.dxPivotGrid_CTNDimension,
+.dxPivotGrid_CTNFolderClosed,
+.dxPivotGrid_CTNFolderOpen,
+.dxPivotGrid_CTNHierarchy,
+.dxPivotGrid_CTNKpi,
+.dxPivotGrid_CTNMeasure,
+.dxPivotGrid_FLBottomPanelOnly1by4_ModernoCustom,
+.dxPivotGrid_FLBottomPanelOnly2by2_ModernoCustom,
+.dxPivotGrid_FLButton_ModernoCustom,
+.dxPivotGrid_FLColumnAreaHeaders_ModernoCustom,
+.dxPivotGrid_FLDataAreaHeaders_ModernoCustom,
+.dxPivotGrid_FLFieldList_ModernoCustom,
+.dxPivotGrid_FLFilterAreaHeaders_ModernoCustom,
+.dxPivotGrid_FLRowAreaHeaders_ModernoCustom,
+.dxPivotGrid_FLStackedDefault_ModernoCustom,
+.dxPivotGrid_FLStackedSideBySide_ModernoCustom,
+.dxPivotGrid_FLTopPanelOnly_ModernoCustom,
+.dxPivotGrid_pgCollapsedButton_ModernoCustom,
+.dxPivotGrid_pgCustomizationFormCloseButton_ModernoCustom,
+.dxPivotGrid_pgDataHeaders_ModernoCustom,
+.dxPivotGrid_pgDragArrowDown_ModernoCustom,
+.dxPivotGrid_pgDragArrowLeft_ModernoCustom,
+.dxPivotGrid_pgDragArrowRight_ModernoCustom,
+.dxPivotGrid_pgDragArrowUp_ModernoCustom,
+.dxPivotGrid_pgDragHideField_ModernoCustom,
+.dxPivotGrid_pgExpandedButton_ModernoCustom,
+.dxPivotGrid_pgFilterButton_ModernoCustom,
+.dxPivotGrid_pgFilterButtonActive_ModernoCustom,
+.dxPivotGrid_pgFilterResizer_ModernoCustom,
+.dxPivotGrid_pgGroupSeparator_ModernoCustom,
+.dxPivotGrid_pgPrefilterButton_ModernoCustom,
+.dxPivotGrid_pgSortByColumn_ModernoCustom,
+.dxPivotGrid_pgSortDownButton_ModernoCustom,
+.dxPivotGrid_pgSortUpButton_ModernoCustom
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxpc-closeBtnHover .dxPivotGrid_pgCustomizationFormCloseButton_ModernoCustom
+{
+    background-position: -207px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxPivotGrid_CTNAttribute
+{
+    background-position: -187px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNCalculatedMeasure
+{
+    background-position: -17px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNDimension
+{
+    background-position: -119px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNFolderClosed
+{
+    background-position: -102px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNFolderOpen
+{
+    background-position: -204px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNHierarchy
+{
+    background-position: -136px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNKpi
+{
+    background-position: -68px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNMeasure
+{
+    background-position: -170px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLBottomPanelOnly1by4_ModernoCustom
+{
+    background-position: -99px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLBottomPanelOnly2by2_ModernoCustom
+{
+    background-position: -132px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLButton_ModernoCustom
+{
+    background-position: -34px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLColumnAreaHeaders_ModernoCustom
+{
+    background-position: -221px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLDataAreaHeaders_ModernoCustom
+{
+    background-position: -85px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLFieldList_ModernoCustom
+{
+    background-position: -153px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLFilterAreaHeaders_ModernoCustom
+{
+    background-position: -245px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLRowAreaHeaders_ModernoCustom
+{
+    background-position: -262px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLStackedDefault_ModernoCustom
+{
+    background-position: -66px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLStackedSideBySide_ModernoCustom
+{
+    background-position: -33px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLTopPanelOnly_ModernoCustom
+{
+    background-position: 0px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_pgCollapsedButton_ModernoCustom
+{
+    background-position: -51px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_pgCustomizationFormCloseButton_ModernoCustom
+{
+    background-position: -188px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxPivotGrid_pgDataHeaders_ModernoCustom
+{
+    background-position: -220px -20px;
+    width: 12px;
+    height: 12px;
+}
+.dxPivotGrid_pgDragArrowDown_ModernoCustom
+{
+    background-position: -176px -23px;
+    width: 11px;
+    height: 9px;
+}
+.dxPivotGrid_pgDragArrowLeft_ModernoCustom
+{
+    background-position: -200px -21px;
+    width: 9px;
+    height: 11px;
+}
+.dxPivotGrid_pgDragArrowRight_ModernoCustom
+{
+    background-position: -210px -21px;
+    width: 9px;
+    height: 11px;
+}
+.dxPivotGrid_pgDragArrowUp_ModernoCustom
+{
+    background-position: -188px -23px;
+    width: 11px;
+    height: 9px;
+}
+.dxPivotGrid_pgDragHideField_ModernoCustom
+{
+    background-position: -165px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxPivotGrid_pgExpandedButton_ModernoCustom
+{
+    background-position: 0px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_pgFilterButton_ModernoCustom
+{
+    background-position: -247px -17px;
+    width: 18px;
+    height: 15px;
+}
+.dxPivotGrid_pgFilterButtonActive_ModernoCustom
+{
+    background-position: -266px -17px;
+    width: 18px;
+    height: 15px;
+}
+.dxPivotGrid_pgFilterResizer_ModernoCustom
+{
+    background-position: -226px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxPivotGrid_pgGroupSeparator_ModernoCustom
+{
+    background-position: -279px 0px;
+    width: 5px;
+    height: 1px;
+}
+.dxPivotGrid_pgPrefilterButton_ModernoCustom
+{
+    background-position: -233px -19px;
+    width: 13px;
+    height: 13px;
+}
+.dxPivotGrid_pgSortByColumn_ModernoCustom
+{
+    background-position: -238px -33px;
+    width: 15px;
+    height: 14px;
+}
+.dxPivotGrid_pgSortDownButton_ModernoCustom
+{
+    background-position: -265px -33px;
+    width: 10px;
+    height: 15px;
+}
+.dxPivotGrid_pgSortUpButton_ModernoCustom
+{
+    background-position: -254px -33px;
+    width: 10px;
+    height: 15px;
+}
+.dxPivotGrid_pgFilterButtonActive_ModernoCustom
+{
+	background-color: #1279C0;
+}
+.dxPivotGrid_pgCustomizationFormCloseButton_ModernoCustom,
+.dxPivotGrid_FLButton_ModernoCustom
+{
+    display:block;
+}
+

@@ -1,0 +1,328 @@
+.dxTreeList_CollapsedButton_ModernoCustom,
+.dxTreeList_CollapsedButtonRtl_ModernoCustom,
+.dxTreeList_CTCollapseRow_ModernoCustom,
+.dxTreeList_CTCollapseRowDisabled_ModernoCustom,
+.dxTreeList_CTDeleteRow_ModernoCustom,
+.dxTreeList_CTDeleteRowDisabled_ModernoCustom,
+.dxTreeList_CTEditRow_ModernoCustom,
+.dxTreeList_CTEditRowDisabled_ModernoCustom,
+.dxTreeList_CTExpandRow_ModernoCustom,
+.dxTreeList_CTExpandRowDisabled_ModernoCustom,
+.dxTreeList_CTExportDocx_ModernoCustom,
+.dxTreeList_CTExportDocxDisabled_ModernoCustom,
+.dxTreeList_CTExportDocxHover_ModernoCustom,
+.dxTreeList_CTExportPdf_ModernoCustom,
+.dxTreeList_CTExportPdfDisabled_ModernoCustom,
+.dxTreeList_CTExportPdfHover_ModernoCustom,
+.dxTreeList_CTExportRtf_ModernoCustom,
+.dxTreeList_CTExportRtfDisabled_ModernoCustom,
+.dxTreeList_CTExportRtfHover_ModernoCustom,
+.dxTreeList_CTExportXls_ModernoCustom,
+.dxTreeList_CTExportXlsDisabled_ModernoCustom,
+.dxTreeList_CTExportXlsHover_ModernoCustom,
+.dxTreeList_CTExportXlsx_ModernoCustom,
+.dxTreeList_CTExportXlsxDisabled_ModernoCustom,
+.dxTreeList_CTExportXlsxHover_ModernoCustom,
+.dxTreeList_CTFullCollapse_ModernoCustom,
+.dxTreeList_CTFullCollapseDisabled_ModernoCustom,
+.dxTreeList_CTFullExpand_ModernoCustom,
+.dxTreeList_CTFullExpandDisabled_ModernoCustom,
+.dxTreeList_CTNewRow_ModernoCustom,
+.dxTreeList_CTNewRowDisabled_ModernoCustom,
+.dxTreeList_CTRefresh_ModernoCustom,
+.dxTreeList_CTRefreshDisabled_ModernoCustom,
+.dxTreeList_CTShowCustomizationWindow_ModernoCustom,
+.dxTreeList_CTShowCustomizationWindowDisabled_ModernoCustom,
+.dxTreeList_DragAndDropArrowDown_ModernoCustom,
+.dxTreeList_DragAndDropArrowUp_ModernoCustom,
+.dxTreeList_DragAndDropHide_ModernoCustom,
+.dxTreeList_DragAndDropNode_ModernoCustom,
+.dxTreeList_ExpandedButton_ModernoCustom,
+.dxTreeList_ExpandedButtonRtl_ModernoCustom,
+.dxTreeList_FilterRowButton_ModernoCustom,
+.dxTreeList_HeaderFilter_ModernoCustom,
+.dxTreeList_HeaderFilterActive_ModernoCustom,
+.dxTreeList_SortAsc_ModernoCustom,
+.dxTreeList_SortDesc_ModernoCustom
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxTreeList_CollapsedButton_ModernoCustom
+{
+    background-position: 0px -23px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CollapsedButtonRtl_ModernoCustom
+{
+    background-position: 0px -295px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTCollapseRow_ModernoCustom
+{
+    background-position: -17px -295px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTCollapseRowDisabled_ModernoCustom
+{
+    background-position: 0px -210px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTDeleteRow_ModernoCustom
+{
+    background-position: 0px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTDeleteRowDisabled_ModernoCustom
+{
+    background-position: -17px -278px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTEditRow_ModernoCustom
+{
+    background-position: 0px -227px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTEditRowDisabled_ModernoCustom
+{
+    background-position: 0px -329px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExpandRow_ModernoCustom
+{
+    background-position: 0px -244px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExpandRowDisabled_ModernoCustom
+{
+    background-position: 0px -261px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportDocx_ModernoCustom
+{
+    background-position: -17px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportDocxDisabled_ModernoCustom
+{
+    background-position: 0px -193px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportDocxHover_ModernoCustom
+{
+    background-position: -17px -227px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportPdf_ModernoCustom
+{
+    background-position: -17px -125px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportPdfDisabled_ModernoCustom
+{
+    background-position: -17px -261px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportPdfHover_ModernoCustom
+{
+    background-position: -17px -244px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportRtf_ModernoCustom
+{
+    background-position: -17px -176px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportRtfDisabled_ModernoCustom
+{
+    background-position: 0px -312px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportRtfHover_ModernoCustom
+{
+    background-position: -17px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportXls_ModernoCustom
+{
+    background-position: 0px -159px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportXlsDisabled_ModernoCustom
+{
+    background-position: -17px -108px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportXlsHover_ModernoCustom
+{
+    background-position: -17px -23px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportXlsx_ModernoCustom
+{
+    background-position: -17px -193px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportXlsxDisabled_ModernoCustom
+{
+    background-position: -17px -312px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTExportXlsxHover_ModernoCustom
+{
+    background-position: -17px -91px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTFullCollapse_ModernoCustom
+{
+    background-position: 0px -176px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTFullCollapseDisabled_ModernoCustom
+{
+    background-position: 0px -125px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTFullExpand_ModernoCustom
+{
+    background-position: 0px -108px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTFullExpandDisabled_ModernoCustom
+{
+    background-position: -17px -210px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTNewRow_ModernoCustom
+{
+    background-position: 0px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTNewRowDisabled_ModernoCustom
+{
+    background-position: -17px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTRefresh_ModernoCustom
+{
+    background-position: 0px -91px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTRefreshDisabled_ModernoCustom
+{
+    background-position: 0px -142px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTShowCustomizationWindow_ModernoCustom
+{
+    background-position: -17px -159px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CTShowCustomizationWindowDisabled_ModernoCustom
+{
+    background-position: 0px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_DragAndDropArrowDown_ModernoCustom
+{
+    background-position: 0px -378px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropArrowUp_ModernoCustom
+{
+    background-position: -12px -378px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropHide_ModernoCustom
+{
+    background-position: 0px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxTreeList_DragAndDropNode_ModernoCustom
+{
+    background-position: -19px -346px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_ExpandedButton_ModernoCustom
+{
+    background-position: 0px -278px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_ExpandedButtonRtl_ModernoCustom
+{
+    background-position: -17px -142px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_FilterRowButton_ModernoCustom
+{
+    background-position: -19px -362px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_HeaderFilter_ModernoCustom
+{
+    background-position: 0px -362px;
+    width: 18px;
+    height: 15px;
+}
+.dxTreeList_HeaderFilterActive_ModernoCustom
+{
+    background-position: 0px -346px;
+    width: 18px;
+    height: 15px;
+}
+.dxTreeList_SortAsc_ModernoCustom
+{
+    background-position: -23px 0px;
+    width: 10px;
+    height: 15px;
+}
+.dxTreeList_SortDesc_ModernoCustom
+{
+    background-position: -17px -329px;
+    width: 10px;
+    height: 15px;
+}
+

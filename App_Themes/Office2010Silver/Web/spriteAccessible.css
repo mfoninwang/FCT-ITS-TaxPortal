@@ -1,0 +1,1550 @@
+.dx-acc-r .dxigControl_Office2010Silver.dxTouchUI .dxWeb_igCloseButton_Office2010Silver:before,
+.dx-acc-r .dxigControl_Office2010Silver.dxTouchUI .dxWeb_igPauseButton_Office2010Silver:before,
+.dx-acc-r .dxigControl_Office2010Silver.dxTouchUI .dxWeb_igPlayButton_Office2010Silver:before,
+.dx-acc-r .dxm-disabled .dxWeb_mHorizontalPopOut_Office2010Silver:before,
+.dx-acc-r .dxm-disabled .dxWeb_mVerticalPopOut_Office2010Silver:before,
+.dx-acc-r .dxm-disabled .dxWeb_mVerticalPopOutRtl_Office2010Silver:before,
+.dx-acc-r .dxmLite_Office2010Silver .dxm-left .dxm-back-icon:before,
+.dx-acc-r .dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_Office2010Silver:before,
+.dx-acc-r .dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_Office2010Silver:before,
+.dx-acc-r .dxpc-pinBtnChecked .dxWeb_pcPinButton_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpand_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpandArrowBottom_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpandArrowLeft_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpandArrowRight_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpandArrowTop_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpand_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpand_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpandArrowBottom_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpandArrowLeft_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpandArrowRight_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpandArrowTop_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpand_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowBottom_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowLeft_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowRight_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowTop_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpand_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_Office2010Silver:before,
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_Office2010Silver:before,
+.dx-acc-r .dxrpCollapsed .dxWeb_rpCollapseButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_edtCheckBoxChecked_Office2010Silver:before,
+.dx-acc-r .dxWeb_edtCheckBoxCheckedDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_edtCheckBoxGrayed_Office2010Silver:before,
+.dx-acc-r .dxWeb_edtCheckBoxGrayedDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_edtCheckBoxUnchecked_Office2010Silver:before,
+.dx-acc-r .dxWeb_edtCheckBoxUncheckedDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmBreadCrumbsSeparatorArrow_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmBreadCrumbsUpButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmBreadCrumbsUpButtonDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmCopyButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmCopyButtonDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmCreateButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmCreateButtonDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmDeleteButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmDeleteButtonDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmDwnlButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmDwnlButtonDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmExpandFolderContBtn_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmFolder_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmFolderLocked_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmMoveButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmMoveButtonDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmRefreshButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmRefreshButtonDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmRenameButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmRenameButtonDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmThumbnailCheck_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmUplButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_fmUplButtonDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_igCloseButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_igNavigationBarMarker_Office2010Silver:before,
+.dx-acc-r .dxWeb_igNextButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_igNextButtonDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_igNextButtonHover_Office2010Silver:before,
+.dx-acc-r .dxWeb_igNextButtonPressed_Office2010Silver:before,
+.dx-acc-r .dxWeb_igPauseButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_igPlayButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_igPrevButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_igPrevButtonDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_igPrevButtonHover_Office2010Silver:before,
+.dx-acc-r .dxWeb_igPrevButtonPressed_Office2010Silver:before,
+.dx-acc-r .dxWeb_isDot_Office2010Silver:before,
+.dx-acc-r .dxWeb_isDotDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_isDotPressed_Office2010Silver:before,
+.dx-acc-r .dxWeb_isDotSelected_Office2010Silver:before,
+.dx-acc-r .dxWeb_isNextBtnHor_Office2010Silver:before,
+.dx-acc-r .dxWeb_isNextBtnHorDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_isNextBtnVert_Office2010Silver:before,
+.dx-acc-r .dxWeb_isNextBtnVertDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_isNextPageBtnHor_Office2010Silver:before,
+.dx-acc-r .dxWeb_isNextPageBtnHorDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_isNextPageBtnHorOutside_Office2010Silver:before,
+.dx-acc-r .dxWeb_isNextPageBtnHorOutsideDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_isNextPageBtnVert_Office2010Silver:before,
+.dx-acc-r .dxWeb_isNextPageBtnVertDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_isNextPageBtnVertOutside_Office2010Silver:before,
+.dx-acc-r .dxWeb_isNextPageBtnVertOutsideDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_isPauseBtn_Office2010Silver:before,
+.dx-acc-r .dxWeb_isPlayBtn_Office2010Silver:before,
+.dx-acc-r .dxWeb_isPrevBtnHor_Office2010Silver:before,
+.dx-acc-r .dxWeb_isPrevBtnHorDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_isPrevBtnVert_Office2010Silver:before,
+.dx-acc-r .dxWeb_isPrevBtnVertDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_isPrevPageBtnHor_Office2010Silver:before,
+.dx-acc-r .dxWeb_isPrevPageBtnHorDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_isPrevPageBtnHorOutside_Office2010Silver:before,
+.dx-acc-r .dxWeb_isPrevPageBtnHorOutsideDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_isPrevPageBtnVert_Office2010Silver:before,
+.dx-acc-r .dxWeb_isPrevPageBtnVertDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_isPrevPageBtnVertOutside_Office2010Silver:before,
+.dx-acc-r .dxWeb_isPrevPageBtnVertOutsideDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_izEWCloseButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_izHint_Office2010Silver:before,
+.dx-acc-r .dxWeb_mAdaptiveMenu_Office2010Silver:before,
+.dx-acc-r .dxWeb_mHorizontalPopOut_Office2010Silver:before,
+.dx-acc-r .dxWeb_mScrollDown_Office2010Silver:before,
+.dx-acc-r .dxWeb_mScrollUp_Office2010Silver:before,
+.dx-acc-r .dxWeb_mSubMenuItem_Office2010Silver:before,
+.dx-acc-r .dxWeb_mSubMenuItemChecked_Office2010Silver:before,
+.dx-acc-r .dxWeb_mVerticalPopOut_Office2010Silver:before,
+.dx-acc-r .dxWeb_mVerticalPopOutRtl_Office2010Silver:before,
+.dx-acc-r .dxWeb_nbCollapse_Office2010Silver:before,
+.dx-acc-r .dxWeb_nbExpand_Office2010Silver:before,
+.dx-acc-r .dxWeb_ncBackToTop_Office2010Silver:before,
+.dx-acc-r .dxWeb_pAll_Office2010Silver:before,
+.dx-acc-r .dxWeb_pAllDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_pcCloseButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_pcCollapseButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_pcMaximizeButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_pcPinButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_pcRefreshButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_pcSizeGrip_Office2010Silver:before,
+.dx-acc-r .dxWeb_pcSizeGripRtl_Office2010Silver:before,
+.dx-acc-r .dxWeb_pFirst_Office2010Silver:before,
+.dx-acc-r .dxWeb_pFirstDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_pLast_Office2010Silver:before,
+.dx-acc-r .dxWeb_pLastDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_pNext_Office2010Silver:before,
+.dx-acc-r .dxWeb_pNextDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_pnlExpand_Office2010Silver:before,
+.dx-acc-r .dxWeb_pnlExpandArrowBottom_Office2010Silver:before,
+.dx-acc-r .dxWeb_pnlExpandArrowLeft_Office2010Silver:before,
+.dx-acc-r .dxWeb_pnlExpandArrowRight_Office2010Silver:before,
+.dx-acc-r .dxWeb_pnlExpandArrowTop_Office2010Silver:before,
+.dx-acc-r .dxWeb_pPopOut_Office2010Silver:before,
+.dx-acc-r .dxWeb_pPopOutDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_pPrev_Office2010Silver:before,
+.dx-acc-r .dxWeb_pPrevDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_rDialogBoxLauncher_Office2010Silver:before,
+.dx-acc-r .dxWeb_rDialogBoxLauncherDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_rDialogBoxLauncherHover_Office2010Silver:before,
+.dx-acc-r .dxWeb_rDialogBoxLauncherPressed_Office2010Silver:before,
+.dx-acc-r .dxWeb_rGlrDown_Office2010Silver:before,
+.dx-acc-r .dxWeb_rGlrDownDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_rGlrPopOut_Office2010Silver:before,
+.dx-acc-r .dxWeb_rGlrPopOutDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_rGlrUp_Office2010Silver:before,
+.dx-acc-r .dxWeb_rGlrUpDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_rMinBtn_Office2010Silver:before,
+.dx-acc-r .dxWeb_rMinBtn_Office2010Silver.dxWeb_rMinBtnHover_Office2010Silver:before,
+.dx-acc-r .dxWeb_rMinBtn_Office2010Silver.dxWeb_rMinBtnPressed_Office2010Silver:before,
+.dx-acc-r .dxWeb_rMinBtnChecked_Office2010Silver.dxWeb_rMinBtn_Office2010Silver:before,
+.dx-acc-r .dxWeb_rMinBtnChecked_Office2010Silver.dxWeb_rMinBtnDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_rMinBtnChecked_Office2010Silver.dxWeb_rMinBtnHover_Office2010Silver:before,
+.dx-acc-r .dxWeb_rMinBtnChecked_Office2010Silver.dxWeb_rMinBtnPressed_Office2010Silver:before,
+.dx-acc-r .dxWeb_rMinBtnDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_rpCollapseButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_rPinBtn_Office2010Silver:before,
+.dx-acc-r .dxWeb_rPopOut_Office2010Silver:before,
+.dx-acc-r .dxWeb_smBullet_Office2010Silver:before,
+.dx-acc-r .dxWeb_splHCollapseBackwardButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_splHCollapseBackwardButtonHover_Office2010Silver:before,
+.dx-acc-r .dxWeb_splHCollapseForwardButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_splHCollapseForwardButtonHover_Office2010Silver:before,
+.dx-acc-r .dxWeb_splHSeparator_Office2010Silver:before,
+.dx-acc-r .dxWeb_splHSeparatorHover_Office2010Silver:before,
+.dx-acc-r .dxWeb_splVCollapseBackwardButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_splVCollapseBackwardButtonHover_Office2010Silver:before,
+.dx-acc-r .dxWeb_splVCollapseForwardButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_splVCollapseForwardButtonHover_Office2010Silver:before,
+.dx-acc-r .dxWeb_splVSeparator_Office2010Silver:before,
+.dx-acc-r .dxWeb_splVSeparatorHover_Office2010Silver:before,
+.dx-acc-r .dxWeb_tcScrollLeft_Office2010Silver:before,
+.dx-acc-r .dxWeb_tcScrollLeftDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_tcScrollLeftHover_Office2010Silver:before,
+.dx-acc-r .dxWeb_tcScrollLeftPressed_Office2010Silver:before,
+.dx-acc-r .dxWeb_tcScrollRight_Office2010Silver:before,
+.dx-acc-r .dxWeb_tcScrollRightDisabled_Office2010Silver:before,
+.dx-acc-r .dxWeb_tcScrollRightHover_Office2010Silver:before,
+.dx-acc-r .dxWeb_tcScrollRightPressed_Office2010Silver:before,
+.dx-acc-r .dxWeb_tiBackToTop_Office2010Silver:before,
+.dx-acc-r .dxWeb_tvColBtn_Office2010Silver:before,
+.dx-acc-r .dxWeb_tvColBtnRtl_Office2010Silver:before,
+.dx-acc-r .dxWeb_tvExpBtn_Office2010Silver:before,
+.dx-acc-r .dxWeb_tvExpBtnRtl_Office2010Silver:before,
+.dx-acc-r .dxWeb_ucClearButton_Office2010Silver:before,
+.dx-acc-r .dxWeb_ucClearButtonDisabled_Office2010Silver:before
+
+{
+    content: url('spriteAccessible.png');
+
+}
+.dx-acc-r .dxigControl_Office2010Silver.dxTouchUI .dxWeb_igCloseButton_Office2010Silver:before
+
+{
+    left: -89px;
+    top: -420px;
+
+}
+.dx-acc-r .dxigControl_Office2010Silver.dxTouchUI .dxWeb_igPauseButton_Office2010Silver:before
+
+{
+    left: -48px;
+    top: -394px;
+
+}
+.dx-acc-r .dxigControl_Office2010Silver.dxTouchUI .dxWeb_igPlayButton_Office2010Silver:before
+
+{
+    left: -26px;
+    top: -394px;
+
+}
+.dx-acc-r .dxm-disabled .dxWeb_mHorizontalPopOut_Office2010Silver:before
+
+{
+    left: -72px;
+    top: -560px;
+
+}
+.dx-acc-r .dxm-disabled .dxWeb_mVerticalPopOut_Office2010Silver:before
+
+{
+    left: -92px;
+    top: -174px;
+
+}
+.dx-acc-r .dxm-disabled .dxWeb_mVerticalPopOutRtl_Office2010Silver:before
+
+{
+    left: -125px;
+    top: -164px;
+
+}
+.dx-acc-r .dxmLite_Office2010Silver .dxm-left .dxm-back-icon:before
+
+{
+    left: -102px;
+    top: -565px;
+
+}
+.dx-acc-r .dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -648px;
+
+}
+.dx-acc-r .dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_Office2010Silver:before
+
+{
+    left: -16px;
+    top: -648px;
+
+}
+.dx-acc-r .dxpc-pinBtnChecked .dxWeb_pcPinButton_Office2010Silver:before
+
+{
+    left: -96px;
+    top: -648px;
+
+}
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpand_Office2010Silver:before
+
+{
+    left: -52px;
+    top: -290px;
+
+}
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpandArrowBottom_Office2010Silver:before
+
+{
+    left: -26px;
+    top: -264px;
+
+}
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpandArrowLeft_Office2010Silver:before
+
+{
+    left: -26px;
+    top: -368px;
+
+}
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpandArrowRight_Office2010Silver:before
+
+{
+    left: -78px;
+    top: -368px;
+
+}
+.dx-acc-r .dxpnl-btnHover .dxWeb_pnlExpandArrowTop_Office2010Silver:before
+
+{
+    left: -104px;
+    top: -264px;
+
+}
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpand_Office2010Silver:before
+
+{
+    left: -92px;
+    top: -198px;
+
+}
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -342px;
+
+}
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_Office2010Silver:before
+
+{
+    left: -104px;
+    top: -342px;
+
+}
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -290px;
+
+}
+.dx-acc-r .dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_Office2010Silver:before
+
+{
+    left: -78px;
+    top: -290px;
+
+}
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpand_Office2010Silver:before
+
+{
+    left: -104px;
+    top: -290px;
+
+}
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpandArrowBottom_Office2010Silver:before
+
+{
+    left: -26px;
+    top: -316px;
+
+}
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpandArrowLeft_Office2010Silver:before
+
+{
+    left: -78px;
+    top: -342px;
+
+}
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpandArrowRight_Office2010Silver:before
+
+{
+    left: -52px;
+    top: -342px;
+
+}
+.dx-acc-r .dxpnl-btnSelected .dxWeb_pnlExpandArrowTop_Office2010Silver:before
+
+{
+    left: -104px;
+    top: -368px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpand_Office2010Silver:before
+
+{
+    left: -26px;
+    top: -290px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowBottom_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -316px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowLeft_Office2010Silver:before
+
+{
+    left: -78px;
+    top: -264px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowRight_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -394px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowTop_Office2010Silver:before
+
+{
+    left: -52px;
+    top: -316px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpand_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -368px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_Office2010Silver:before
+
+{
+    left: -105px;
+    top: -172px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_Office2010Silver:before
+
+{
+    left: -92px;
+    top: -132px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_Office2010Silver:before
+
+{
+    left: -52px;
+    top: -264px;
+
+}
+.dx-acc-r .dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_Office2010Silver:before
+
+{
+    left: -105px;
+    top: -238px;
+
+}
+.dx-acc-r .dxrpCollapsed .dxWeb_rpCollapseButton_Office2010Silver:before
+
+{
+    left: -46px;
+    top: -664px;
+
+}
+.dx-acc-r .dxWeb_edtCheckBoxChecked_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -664px;
+
+}
+.dx-acc-r .dxWeb_edtCheckBoxCheckedDisabled_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -631px;
+
+}
+.dx-acc-r .dxWeb_edtCheckBoxGrayed_Office2010Silver:before
+
+{
+    left: -32px;
+    top: -648px;
+
+}
+.dx-acc-r .dxWeb_edtCheckBoxGrayedDisabled_Office2010Silver:before
+
+{
+    left: -50px;
+    top: -631px;
+
+}
+.dx-acc-r .dxWeb_edtCheckBoxUnchecked_Office2010Silver:before
+
+{
+    left: -16px;
+    top: -664px;
+
+}
+.dx-acc-r .dxWeb_edtCheckBoxUncheckedDisabled_Office2010Silver:before
+
+{
+    left: -98px;
+    top: -631px;
+
+}
+.dx-acc-r .dxWeb_fmBreadCrumbsSeparatorArrow_Office2010Silver:before
+
+{
+    left: -125px;
+    top: -132px;
+
+}
+.dx-acc-r .dxWeb_fmBreadCrumbsUpButton_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -614px;
+
+}
+.dx-acc-r .dxWeb_fmBreadCrumbsUpButtonDisabled_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -580px;
+
+}
+.dx-acc-r .dxWeb_fmCopyButton_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -597px;
+
+}
+.dx-acc-r .dxWeb_fmCopyButtonDisabled_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -580px;
+
+}
+.dx-acc-r .dxWeb_fmCreateButton_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -614px;
+
+}
+.dx-acc-r .dxWeb_fmCreateButtonDisabled_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -597px;
+
+}
+.dx-acc-r .dxWeb_fmDeleteButton_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -597px;
+
+}
+.dx-acc-r .dxWeb_fmDeleteButtonDisabled_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -597px;
+
+}
+.dx-acc-r .dxWeb_fmDwnlButton_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -614px;
+
+}
+.dx-acc-r .dxWeb_fmDwnlButtonDisabled_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -597px;
+
+}
+.dx-acc-r .dxWeb_fmExpandFolderContBtn_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -631px;
+
+}
+.dx-acc-r .dxWeb_fmFolder_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -631px;
+
+}
+.dx-acc-r .dxWeb_fmFolderLocked_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -580px;
+
+}
+.dx-acc-r .dxWeb_fmMoveButton_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -580px;
+
+}
+.dx-acc-r .dxWeb_fmMoveButtonDisabled_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -580px;
+
+}
+.dx-acc-r .dxWeb_fmRefreshButton_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -614px;
+
+}
+.dx-acc-r .dxWeb_fmRefreshButtonDisabled_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -614px;
+
+}
+.dx-acc-r .dxWeb_fmRenameButton_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -614px;
+
+}
+.dx-acc-r .dxWeb_fmRenameButtonDisabled_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -614px;
+
+}
+.dx-acc-r .dxWeb_fmThumbnailCheck_Office2010Silver:before
+
+{
+    left: -120px;
+    top: -457px;
+
+}
+.dx-acc-r .dxWeb_fmUplButton_Office2010Silver:before
+
+{
+    left: -34px;
+    top: -597px;
+
+}
+.dx-acc-r .dxWeb_fmUplButtonDisabled_Office2010Silver:before
+
+{
+    left: -51px;
+    top: -597px;
+
+}
+.dx-acc-r .dxWeb_igCloseButton_Office2010Silver:before
+
+{
+    left: -14px;
+    top: -680px;
+
+}
+.dx-acc-r .dxWeb_igNavigationBarMarker_Office2010Silver:before
+
+{
+    left: -98px;
+    top: -534px;
+
+}
+.dx-acc-r .dxWeb_igNextButton_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -132px;
+
+}
+.dx-acc-r .dxWeb_igNextButtonDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -198px;
+
+}
+.dx-acc-r .dxWeb_igNextButtonHover_Office2010Silver:before
+
+{
+    left: -46px;
+    top: -132px;
+
+}
+.dx-acc-r .dxWeb_igNextButtonPressed_Office2010Silver:before
+
+{
+    left: -46px;
+    top: -66px;
+
+}
+.dx-acc-r .dxWeb_igPauseButton_Office2010Silver:before
+
+{
+    left: -92px;
+    top: -246px;
+
+}
+.dx-acc-r .dxWeb_igPlayButton_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -534px;
+
+}
+.dx-acc-r .dxWeb_igPrevButton_Office2010Silver:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxWeb_igPrevButtonDisabled_Office2010Silver:before
+
+{
+    left: -46px;
+    top: 0px;
+
+}
+.dx-acc-r .dxWeb_igPrevButtonHover_Office2010Silver:before
+
+{
+    left: -46px;
+    top: -198px;
+
+}
+.dx-acc-r .dxWeb_igPrevButtonPressed_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -66px;
+
+}
+.dx-acc-r .dxWeb_isDot_Office2010Silver:before
+
+{
+    left: -56px;
+    top: -680px;
+
+}
+.dx-acc-r .dxWeb_isDotDisabled_Office2010Silver:before
+
+{
+    left: -88px;
+    top: -664px;
+
+}
+.dx-acc-r .dxWeb_isDotPressed_Office2010Silver:before
+
+{
+    left: -84px;
+    top: -680px;
+
+}
+.dx-acc-r .dxWeb_isDotSelected_Office2010Silver:before
+
+{
+    left: -88px;
+    top: -565px;
+
+}
+.dx-acc-r .dxWeb_isNextBtnHor_Office2010Silver:before
+
+{
+    left: -111px;
+    top: 0px;
+
+}
+.dx-acc-r .dxWeb_isNextBtnHorDisabled_Office2010Silver:before
+
+{
+    left: -112px;
+    top: -34px;
+
+}
+.dx-acc-r .dxWeb_isNextBtnVert_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -468px;
+
+}
+.dx-acc-r .dxWeb_isNextBtnVertDisabled_Office2010Silver:before
+
+{
+    left: -60px;
+    top: -468px;
+
+}
+.dx-acc-r .dxWeb_isNextPageBtnHor_Office2010Silver:before
+
+{
+    left: -88px;
+    top: -512px;
+
+}
+.dx-acc-r .dxWeb_isNextPageBtnHorDisabled_Office2010Silver:before
+
+{
+    left: -112px;
+    top: -488px;
+
+}
+.dx-acc-r .dxWeb_isNextPageBtnHorOutside_Office2010Silver:before
+
+{
+    left: -118px;
+    top: -103px;
+
+}
+.dx-acc-r .dxWeb_isNextPageBtnHorOutsideDisabled_Office2010Silver:before
+
+{
+    left: -92px;
+    top: -103px;
+
+}
+.dx-acc-r .dxWeb_isNextPageBtnVert_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -565px;
+
+}
+.dx-acc-r .dxWeb_isNextPageBtnVertDisabled_Office2010Silver:before
+
+{
+    left: -22px;
+    top: -565px;
+
+}
+.dx-acc-r .dxWeb_isNextPageBtnVertOutside_Office2010Silver:before
+
+{
+    left: -29px;
+    top: -552px;
+
+}
+.dx-acc-r .dxWeb_isNextPageBtnVertOutsideDisabled_Office2010Silver:before
+
+{
+    left: -92px;
+    top: -159px;
+
+}
+.dx-acc-r .dxWeb_isPauseBtn_Office2010Silver:before
+
+{
+    left: -72px;
+    top: -534px;
+
+}
+.dx-acc-r .dxWeb_isPlayBtn_Office2010Silver:before
+
+{
+    left: -118px;
+    top: -198px;
+
+}
+.dx-acc-r .dxWeb_isPrevBtnHor_Office2010Silver:before
+
+{
+    left: -93px;
+    top: -34px;
+
+}
+.dx-acc-r .dxWeb_isPrevBtnHorDisabled_Office2010Silver:before
+
+{
+    left: -92px;
+    top: 0px;
+
+}
+.dx-acc-r .dxWeb_isPrevBtnVert_Office2010Silver:before
+
+{
+    left: -90px;
+    top: -468px;
+
+}
+.dx-acc-r .dxWeb_isPrevBtnVertDisabled_Office2010Silver:before
+
+{
+    left: -30px;
+    top: -468px;
+
+}
+.dx-acc-r .dxWeb_isPrevPageBtnHor_Office2010Silver:before
+
+{
+    left: -113px;
+    top: -420px;
+
+}
+.dx-acc-r .dxWeb_isPrevPageBtnHorDisabled_Office2010Silver:before
+
+{
+    left: -111px;
+    top: -394px;
+
+}
+.dx-acc-r .dxWeb_isPrevPageBtnHorOutside_Office2010Silver:before
+
+{
+    left: -118px;
+    top: -66px;
+
+}
+.dx-acc-r .dxWeb_isPrevPageBtnHorOutsideDisabled_Office2010Silver:before
+
+{
+    left: -105px;
+    top: -103px;
+
+}
+.dx-acc-r .dxWeb_isPrevPageBtnVert_Office2010Silver:before
+
+{
+    left: -44px;
+    top: -565px;
+
+}
+.dx-acc-r .dxWeb_isPrevPageBtnVertDisabled_Office2010Silver:before
+
+{
+    left: -66px;
+    top: -565px;
+
+}
+.dx-acc-r .dxWeb_isPrevPageBtnVertOutside_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -552px;
+
+}
+.dx-acc-r .dxWeb_isPrevPageBtnVertOutsideDisabled_Office2010Silver:before
+
+{
+    left: -92px;
+    top: -225px;
+
+}
+.dx-acc-r .dxWeb_izEWCloseButton_Office2010Silver:before
+
+{
+    left: -52px;
+    top: -368px;
+
+}
+.dx-acc-r .dxWeb_izHint_Office2010Silver:before
+
+{
+    left: -54px;
+    top: -534px;
+
+}
+.dx-acc-r .dxWeb_mAdaptiveMenu_Office2010Silver:before
+
+{
+    left: -120px;
+    top: -560px;
+
+}
+.dx-acc-r .dxWeb_mHorizontalPopOut_Office2010Silver:before
+
+{
+    left: -80px;
+    top: -560px;
+
+}
+.dx-acc-r .dxWeb_mScrollDown_Office2010Silver:before
+
+{
+    left: -64px;
+    top: -560px;
+
+}
+.dx-acc-r .dxWeb_mScrollUp_Office2010Silver:before
+
+{
+    left: -112px;
+    top: -680px;
+
+}
+.dx-acc-r .dxWeb_mSubMenuItem_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -680px;
+
+}
+.dx-acc-r .dxWeb_mSubMenuItemChecked_Office2010Silver:before
+
+{
+    left: -42px;
+    top: -680px;
+
+}
+.dx-acc-r .dxWeb_mVerticalPopOut_Office2010Silver:before
+
+{
+    left: -92px;
+    top: -182px;
+
+}
+.dx-acc-r .dxWeb_mVerticalPopOutRtl_Office2010Silver:before
+
+{
+    left: -93px;
+    top: -190px;
+
+}
+.dx-acc-r .dxWeb_nbCollapse_Office2010Silver:before
+
+{
+    left: -60px;
+    top: -664px;
+
+}
+.dx-acc-r .dxWeb_nbExpand_Office2010Silver:before
+
+{
+    left: -32px;
+    top: -664px;
+
+}
+.dx-acc-r .dxWeb_ncBackToTop_Office2010Silver:before
+
+{
+    left: -66px;
+    top: -631px;
+
+}
+.dx-acc-r .dxWeb_pAll_Office2010Silver:before
+
+{
+    left: -70px;
+    top: -394px;
+
+}
+.dx-acc-r .dxWeb_pAllDisabled_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -420px;
+
+}
+.dx-acc-r .dxWeb_pcCloseButton_Office2010Silver:before
+
+{
+    left: -112px;
+    top: -648px;
+
+}
+.dx-acc-r .dxWeb_pcCollapseButton_Office2010Silver:before
+
+{
+    left: -48px;
+    top: -648px;
+
+}
+.dx-acc-r .dxWeb_pcMaximizeButton_Office2010Silver:before
+
+{
+    left: -82px;
+    top: -631px;
+
+}
+.dx-acc-r .dxWeb_pcPinButton_Office2010Silver:before
+
+{
+    left: -114px;
+    top: -631px;
+
+}
+.dx-acc-r .dxWeb_pcRefreshButton_Office2010Silver:before
+
+{
+    left: -64px;
+    top: -648px;
+
+}
+.dx-acc-r .dxWeb_pcSizeGrip_Office2010Silver:before
+
+{
+    left: -70px;
+    top: -680px;
+
+}
+.dx-acc-r .dxWeb_pcSizeGripRtl_Office2010Silver:before
+
+{
+    left: -116px;
+    top: -565px;
+
+}
+.dx-acc-r .dxWeb_pFirst_Office2010Silver:before
+
+{
+    left: -24px;
+    top: -444px;
+
+}
+.dx-acc-r .dxWeb_pFirstDisabled_Office2010Silver:before
+
+{
+    left: -96px;
+    top: -444px;
+
+}
+.dx-acc-r .dxWeb_pLast_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -488px;
+
+}
+.dx-acc-r .dxWeb_pLastDisabled_Office2010Silver:before
+
+{
+    left: -41px;
+    top: -420px;
+
+}
+.dx-acc-r .dxWeb_pNext_Office2010Silver:before
+
+{
+    left: -72px;
+    top: -444px;
+
+}
+.dx-acc-r .dxWeb_pNextDisabled_Office2010Silver:before
+
+{
+    left: -48px;
+    top: -444px;
+
+}
+.dx-acc-r .dxWeb_pnlExpand_Office2010Silver:before
+
+{
+    left: -26px;
+    top: -342px;
+
+}
+.dx-acc-r .dxWeb_pnlExpandArrowBottom_Office2010Silver:before
+
+{
+    left: -92px;
+    top: -66px;
+
+}
+.dx-acc-r .dxWeb_pnlExpandArrowLeft_Office2010Silver:before
+
+{
+    left: -78px;
+    top: -316px;
+
+}
+.dx-acc-r .dxWeb_pnlExpandArrowRight_Office2010Silver:before
+
+{
+    left: -104px;
+    top: -316px;
+
+}
+.dx-acc-r .dxWeb_pnlExpandArrowTop_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -264px;
+
+}
+.dx-acc-r .dxWeb_pPopOut_Office2010Silver:before
+
+{
+    left: -120px;
+    top: -444px;
+
+}
+.dx-acc-r .dxWeb_pPopOutDisabled_Office2010Silver:before
+
+{
+    left: -120px;
+    top: -468px;
+
+}
+.dx-acc-r .dxWeb_pPrev_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -444px;
+
+}
+.dx-acc-r .dxWeb_pPrevDisabled_Office2010Silver:before
+
+{
+    left: -65px;
+    top: -420px;
+
+}
+.dx-acc-r .dxWeb_rDialogBoxLauncher_Office2010Silver:before
+
+{
+    left: -116px;
+    top: -664px;
+
+}
+.dx-acc-r .dxWeb_rDialogBoxLauncherDisabled_Office2010Silver:before
+
+{
+    left: -98px;
+    top: -680px;
+
+}
+.dx-acc-r .dxWeb_rDialogBoxLauncherHover_Office2010Silver:before
+
+{
+    left: -102px;
+    top: -664px;
+
+}
+.dx-acc-r .dxWeb_rDialogBoxLauncherPressed_Office2010Silver:before
+
+{
+    left: -28px;
+    top: -680px;
+
+}
+.dx-acc-r .dxWeb_rGlrDown_Office2010Silver:before
+
+{
+    left: -96px;
+    top: -560px;
+
+}
+.dx-acc-r .dxWeb_rGlrDownDisabled_Office2010Silver:before
+
+{
+    left: -121px;
+    top: -521px;
+
+}
+.dx-acc-r .dxWeb_rGlrPopOut_Office2010Silver:before
+
+{
+    left: -123px;
+    top: -590px;
+
+}
+.dx-acc-r .dxWeb_rGlrPopOutDisabled_Office2010Silver:before
+
+{
+    left: -119px;
+    top: -597px;
+
+}
+.dx-acc-r .dxWeb_rGlrUp_Office2010Silver:before
+
+{
+    left: -88px;
+    top: -560px;
+
+}
+.dx-acc-r .dxWeb_rGlrUpDisabled_Office2010Silver:before
+
+{
+    left: -104px;
+    top: -560px;
+
+}
+.dx-acc-r .dxWeb_rMinBtn_Office2010Silver:before
+
+{
+    left: -92px;
+    top: -238px;
+
+}
+.dx-acc-r .dxWeb_rMinBtn_Office2010Silver.dxWeb_rMinBtnHover_Office2010Silver:before
+
+{
+    left: -120px;
+    top: -544px;
+
+}
+.dx-acc-r .dxWeb_rMinBtn_Office2010Silver.dxWeb_rMinBtnPressed_Office2010Silver:before
+
+{
+    left: -82px;
+    top: -552px;
+
+}
+.dx-acc-r .dxWeb_rMinBtnChecked_Office2010Silver.dxWeb_rMinBtn_Office2010Silver:before
+
+{
+    left: -104px;
+    top: -552px;
+
+}
+.dx-acc-r .dxWeb_rMinBtnChecked_Office2010Silver.dxWeb_rMinBtnDisabled_Office2010Silver:before
+
+{
+    left: -93px;
+    top: -552px;
+
+}
+.dx-acc-r .dxWeb_rMinBtnChecked_Office2010Silver.dxWeb_rMinBtnHover_Office2010Silver:before
+
+{
+    left: -119px;
+    top: -534px;
+
+}
+.dx-acc-r .dxWeb_rMinBtnChecked_Office2010Silver.dxWeb_rMinBtnPressed_Office2010Silver:before
+
+{
+    left: -115px;
+    top: -552px;
+
+}
+.dx-acc-r .dxWeb_rMinBtnDisabled_Office2010Silver:before
+
+{
+    left: -116px;
+    top: -95px;
+
+}
+.dx-acc-r .dxWeb_rpCollapseButton_Office2010Silver:before
+
+{
+    left: -74px;
+    top: -664px;
+
+}
+.dx-acc-r .dxWeb_rPinBtn_Office2010Silver:before
+
+{
+    left: -121px;
+    top: -228px;
+
+}
+.dx-acc-r .dxWeb_rPopOut_Office2010Silver:before
+
+{
+    left: -112px;
+    top: -560px;
+
+}
+.dx-acc-r .dxWeb_smBullet_Office2010Silver:before
+
+{
+    left: -124px;
+    top: -624px;
+
+}
+.dx-acc-r .dxWeb_splHCollapseBackwardButton_Office2010Silver:before
+
+{
+    left: -119px;
+    top: -614px;
+
+}
+.dx-acc-r .dxWeb_splHCollapseBackwardButtonHover_Office2010Silver:before
+
+{
+    left: -123px;
+    top: -607px;
+
+}
+.dx-acc-r .dxWeb_splHCollapseForwardButton_Office2010Silver:before
+
+{
+    left: -119px;
+    top: -580px;
+
+}
+.dx-acc-r .dxWeb_splHCollapseForwardButtonHover_Office2010Silver:before
+
+{
+    left: -123px;
+    top: -481px;
+
+}
+.dx-acc-r .dxWeb_splHSeparator_Office2010Silver:before
+
+{
+    left: -92px;
+    top: -96px;
+
+}
+.dx-acc-r .dxWeb_splHSeparatorHover_Office2010Silver:before
+
+{
+    left: -58px;
+    top: -552px;
+
+}
+.dx-acc-r .dxWeb_splVCollapseBackwardButton_Office2010Silver:before
+
+{
+    left: -121px;
+    top: -512px;
+
+}
+.dx-acc-r .dxWeb_splVCollapseBackwardButtonHover_Office2010Silver:before
+
+{
+    left: -121px;
+    top: -220px;
+
+}
+.dx-acc-r .dxWeb_splVCollapseForwardButton_Office2010Silver:before
+
+{
+    left: -124px;
+    top: -526px;
+
+}
+.dx-acc-r .dxWeb_splVCollapseForwardButtonHover_Office2010Silver:before
+
+{
+    left: -121px;
+    top: -156px;
+
+}
+.dx-acc-r .dxWeb_splVSeparator_Office2010Silver:before
+
+{
+    left: -118px;
+    top: -132px;
+
+}
+.dx-acc-r .dxWeb_splVSeparatorHover_Office2010Silver:before
+
+{
+    left: -98px;
+    top: -175px;
+
+}
+.dx-acc-r .dxWeb_tcScrollLeft_Office2010Silver:before
+
+{
+    left: -68px;
+    top: -488px;
+
+}
+.dx-acc-r .dxWeb_tcScrollLeftDisabled_Office2010Silver:before
+
+{
+    left: -66px;
+    top: -512px;
+
+}
+.dx-acc-r .dxWeb_tcScrollLeftHover_Office2010Silver:before
+
+{
+    left: -24px;
+    top: -488px;
+
+}
+.dx-acc-r .dxWeb_tcScrollLeftPressed_Office2010Silver:before
+
+{
+    left: -22px;
+    top: -512px;
+
+}
+.dx-acc-r .dxWeb_tcScrollRight_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -512px;
+
+}
+.dx-acc-r .dxWeb_tcScrollRightDisabled_Office2010Silver:before
+
+{
+    left: -90px;
+    top: -488px;
+
+}
+.dx-acc-r .dxWeb_tcScrollRightHover_Office2010Silver:before
+
+{
+    left: -46px;
+    top: -488px;
+
+}
+.dx-acc-r .dxWeb_tcScrollRightPressed_Office2010Silver:before
+
+{
+    left: -44px;
+    top: -512px;
+
+}
+.dx-acc-r .dxWeb_tiBackToTop_Office2010Silver:before
+
+{
+    left: -80px;
+    top: -648px;
+
+}
+.dx-acc-r .dxWeb_tvColBtn_Office2010Silver:before
+
+{
+    left: -103px;
+    top: -512px;
+
+}
+.dx-acc-r .dxWeb_tvColBtnRtl_Office2010Silver:before
+
+{
+    left: -36px;
+    top: -534px;
+
+}
+.dx-acc-r .dxWeb_tvExpBtn_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -534px;
+
+}
+.dx-acc-r .dxWeb_tvExpBtnRtl_Office2010Silver:before
+
+{
+    left: -18px;
+    top: -534px;
+
+}
+.dx-acc-r .dxWeb_ucClearButton_Office2010Silver:before
+
+{
+    left: -17px;
+    top: -580px;
+
+}
+.dx-acc-r .dxWeb_ucClearButtonDisabled_Office2010Silver:before
+
+{
+    left: -85px;
+    top: -580px;
+
+}
+

@@ -1,0 +1,917 @@
+.dxreControl_MaterialCompactCustom
+{
+    border: solid 0px #DFDFDF;
+    font: 14px 'Roboto Regular', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+}
+.dxreControl_MaterialCompactCustom .dxreTableBorderLine
+{
+    background-color: #4DB6AC;
+}
+.dxreControl_MaterialCompactCustom .dxrePage
+{
+    border: 1px solid #C0C0C0;
+}
+.dxreControl_MaterialCompactCustom .dxreView
+{
+    background-color: #FFFFFF;
+}
+.dxreControl_MaterialCompactCustom .dxflFormLayout_MaterialCompactCustom .dxre-editorsGroupWithPaddings
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dxreControl_MaterialCompactCustom .dxrControl_MaterialCompactCustom .dxtcLite_MaterialCompactCustom.dxtc-top .dxtc-leftIndent
+{
+    width: 0px;
+}
+.dxrControl_MaterialCompactCustom .dxreRibbonCBSmall
+{
+    width: 100px;
+}
+.dxrControl_MaterialCompactCustom .dxreRibbonCBLarge
+{
+    width: 150px;
+}
+.dxrControl_MaterialCompactCustom .dxreRibbonCBMiddle
+{
+    width: 110px;
+}
+.dxrControl_MaterialCompactCustom .dxreRibbonSE
+{
+    width: 110px;
+}
+.dxreControl_MaterialCompactCustom .dxreRulerWrapper
+{
+    padding-top: 2px;
+    background-color: #FFFFFF;
+}
+.dxreControl_MaterialCompactCustom .dxreRulerWrapper .dxre-rulertabAlignBox
+{
+    background-color: #d3d3d3;
+}
+.dxreControl_MaterialCompactCustom .dxreRulerWrapper .dxre-rulertabAlignBox > div
+{
+    background-color: #fff;
+}
+.dxreControl_MaterialCompactCustom .dxreRulerLine
+{
+    border-left: 1px dashed #717171;
+}
+.dxreControl_MaterialCompactCustom .dxreRulerLine.table
+{
+    border-left: 1px solid #599eff;
+}
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-columnHandleLeftPart,
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-columnHandleRightPart
+{
+    width: 5px;
+    background-color: #bcb8b8;
+}
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-rulerTableColumnSeparatorHandle
+{
+    height: 12px;
+    background-color: #d3d3d3;
+}
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-rulerTableColumnSeparatorHandle > div
+{
+    margin-top: 2px;
+}
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-rulerDivisions
+{
+    height: 12px;
+    background-color: #fff;
+}
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-rulerDivisions div
+{
+    height: 12px;
+}
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-rulerDivisions .dxre-rulerMinorDivision,
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-rulerDivisions .dxre-rulerMajorDivision
+{
+    border-left: 1px solid #a3a3a3;
+}
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-rulerDivisions .dxre-rulerNumberDivision
+{
+    color: #4e4e4e;
+}
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-rulerMarginLeftPanel,
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-rulerMarginRightPanel,
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-rulerMarginLeftHandlePanel,
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-rulerMarginRightHandlePanel,
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-columnHandle,
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-columnHandle > div
+{
+    height: 12px;
+}
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-rulerMarginLeftPanel,
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-rulerMarginRightPanel,
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-rulerMarginLeftHandlePanel,
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-rulerMarginRightHandlePanel,
+.dxreControl_MaterialCompactCustom .dxreRuler .dxre-columnHandle
+{
+    background-color: #d3d3d3;
+}
+.dxreControl_MaterialCompactCustom .dxre-leftIdentDragHandleBody
+{
+    background-color: #fff;
+    border: 1px solid #929292;
+    border-top: none;
+    height: 6px;
+}
+.dxreControl_MaterialCompactCustom .dxreQuickSearchPanel
+{
+    background-color: #FAFAFA;
+    border: 1px solid #a7a7a7;
+    border-top: none;
+    padding: 6px;
+}
+.dxreControl_MaterialCompactCustom .dxreQuickSearchPanel .dxreQuickSearchButtonEdit
+{
+    width: 300px;
+}
+.dxreControl_MaterialCompactCustom .dxreQuickSearchPanel .dxreQuickSearchButton:first-of-type
+{
+    margin-top: 6px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.dxreControl_MaterialCompactCustom .dxreQuickSearchPanel .dxreQuickSearchButton:nth-of-type(2)
+{
+    margin-top: 6px;
+}
+.dxreControl_MaterialCompactCustom .dxreQuickSearchPanel .dxreQuickSearchButton:nth-of-type(3)
+{
+    margin-top: 6px;
+    margin-right: 8px;
+    margin-left: 32px;
+}
+.dxreControl_MaterialCompactCustom .dxreQuickSearchPanel .dxreQuickSearchButton:nth-of-type(4)
+{
+    margin-top: 6px;
+}
+.dxreControl_MaterialCompactCustom .dxreQuickSearchPanel .dxreQuickSearchButton,
+.dxreControl_MaterialCompactCustom .dxreQuickSearchPanel .dxreQuickSearchButton .dxb
+{
+    padding: 0px !important;
+    background: none !important;
+    border: none !important;
+}
+.dxreControl_MaterialCompactCustom .dxreBar
+{
+    background-color: #FFFFFF;
+    border-top: 1px solid #DFDFDF;
+    height: 22px;
+}
+.dxreControl_MaterialCompactCustom .dxreBar .dxreLoadingPanel
+{
+    float: right;
+    margin: 3px 2px 0 0;
+    color: #484848;
+}
+.dxreControl_MaterialCompactCustom .dxreBar .dxreLoadingPanel .dx
+{
+    line-height: 0;
+}
+.dxreControl_MaterialCompactCustom .dxreBar .dxreLoadingPanel .dxlp-loadingImage
+{
+    width: 16px;
+    height: 16px;
+    background: url('reLoadingOnStatusBar.gif');
+}
+.dxreControl_MaterialCompactCustom .dxreDlgListBox
+{
+    padding: 1px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgListBox > div
+{
+    border: 1px solid #C0C0C0;
+    margin: 1px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgListBox .dxreDlgListHover
+{
+    background-color: #EEE;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgListBox .dxreDlgListSelected
+{
+    background-color: #35B86B;
+}
+.dxreControl_MaterialCompactCustom .dxre-numberinglistdialog
+{
+    max-width: 541px;
+}
+.dxreControl_MaterialCompactCustom .dxre-simplenumberinglistdialog
+{
+    max-width: 550px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgNumberingListForm .dxreDlgNumberingListPreview
+{
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgNumberingListForm .dxreDlgMainContainer
+{
+    height: 220px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgNumberingListForm .dxreDlgListBox > div
+{
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+}
+.dxreControl_MaterialCompactCustom .dxre-bulletedlistdialog
+{
+    max-width: 400px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgBulletedListForm .dxreDlgBulletPresetBtn
+{
+    width: 45px !important;
+    height: 45px !important;
+    float: left;
+    margin: 0px 0px 5px 5px;
+}
+.dxreControl_MaterialCompactCustom .dxre-multilevelnumberinglistdialog
+{
+    max-width: 422px;
+}
+.dxreControl_MaterialCompactCustom .dxreMultiLevelNumberingListBoxLayout,
+.dxreControl_MaterialCompactCustom .dxreMultiLevelNumberingListBoxLayout .dxlbd
+{
+    width: 40px;
+    height: 100% !important;
+}
+.dxreControl_MaterialCompactCustom .dxre-multiLevelOptionsLayout .dxflGroup_MaterialCompactCustom
+{
+    padding: 0px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgMultiLevelNumberingListForm .dxre-dialogContentGroup > tbody > tr > td:first-child
+{
+    padding-right: 0px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgMultiLevelNumberingListForm .dxre-dialogContentGroup > tbody > tr > td:last-child
+{
+    padding: 0px;
+}
+.dxreControl_MaterialCompactCustom .dxre-alertdialog
+{
+    max-width: 350px;
+}
+.dxreControl_MaterialCompactCustom .dxre-alertdialog span
+{
+    user-select: text;
+}
+.dxreControl_MaterialCompactCustom .dxre-layoutoptionsdialog
+{
+    max-width: 695px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgLayoutForm .dxtc-content
+{
+    min-height: 670px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgLayoutForm .dxre-layoutFormOriginalSizeGroup .dxflCaptionCellSys
+{
+    padding-top: 2px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgLayoutForm .dxre-dialogPresetButton
+{
+    width: 25% !important;
+    text-align: center;
+    float: left;
+}
+@media (max-width: 500px)
+{
+    .dxreControl_MaterialCompactCustom .dxreDlgLayoutForm .dxre-dialogPresetButton
+    {
+        width: 33% !important;
+    }
+}
+@media (max-width: 380px)
+{
+    .dxreControl_MaterialCompactCustom .dxreDlgLayoutForm .dxre-dialogPresetButton
+    {
+        width: 50% !important;
+    }
+}
+.dxreControl_MaterialCompactCustom .dxreDlgLayoutForm .dxre-buttonLable
+{
+    display: block;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgLayoutForm .dxre-sizeTabLayout .dx-dialogEditRoot > tbody > tr > td:first-child,
+.dxreControl_MaterialCompactCustom .dxreDlgLayoutForm .dxre-positionTabLayout .dx-dialogEditRoot > tbody > tr > td:first-child
+{
+    width: 5% !important;
+}
+@media (max-width: 500px)
+{
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxre-dialogShortEditor:not(.dxre-dialogNotResponsiveEditor),
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxre-dialogEditor:not(.dxre-dialogNotResponsiveEditor),
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxre-dialogLongEditor:not(.dxre-dialogNotResponsiveEditor)
+    {
+        max-width: 100%;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxflItemSys .dxflCaptionCellSys
+    {
+        min-width: 25px !important;
+    }
+}
+.dxreControl_MaterialCompactCustom .dxre-dialogShortEditor
+{
+    max-width: 80px;
+}
+.dxreControl_MaterialCompactCustom .dxre-dialogEditor
+{
+    max-width: 150px;
+}
+.dxreControl_MaterialCompactCustom .dxre-dialogLongEditor
+{
+    max-width: 180px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgInLayoutButton
+{
+    width: 68px !important;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgFooterBtn
+{
+    width: 80px !important;
+    margin-left: 8px;
+}
+.dxreControl_MaterialCompactCustom .dxre-EmptyLine
+{
+    height: 10px;
+}
+.dxreControl_MaterialCompactCustom .dxre-dialogFooter
+{
+    width: auto;
+    padding: 11px;
+    border-top: solid 1px #DFDFDF;
+}
+.dxreControl_MaterialCompactCustom .dxre-dialogLG.dxflGroupSys.dxre-dialogContentGroup
+{
+    padding: 11px 3px;
+}
+.dxreControl_MaterialCompactCustom .dxre-dialogLGB > .dxre-dialogLG > div > .dxre-dialogLGC > .dxre-dialogLI
+{
+    padding-top: 2px;
+}
+.dxreControl_MaterialCompactCustom .dxre-bookmarksdialog
+{
+    max-width: 365px;
+}
+.dxreControl_MaterialCompactCustom .dxre-columnsdialog
+{
+    max-width: 400px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgColumnsForm .dxreDlgColumnsEditorMainTable > tbody > tr > td
+{
+    padding: 2px 4px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgColumnsForm .dxreDlgColumnsEditor
+{
+    height: 130px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgColumnsForm .dxreDlgColumnsEditor .dxreDlgTextBox
+{
+    width: 40px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgColumnsForm .dxreDlgColumnsEditor .dxreDlgSpinEdit
+{
+    width: 90px;
+}
+@media (max-width: 500px)
+{
+    .dxreControl_MaterialCompactCustom .dxreDlgColumnsForm .dxbButton_MaterialCompactCustom div.dxb
+    {
+        padding: 3px 5px 3px !important;
+        border: none;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDlgColumnsForm tbody > tr.dxrpCR > .dxrpcontent > .dxrpAW > .dxrpCW
+    {
+        padding: 10px 0;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDlgColumnsForm .dxflGroup_MaterialCompactCustom, .dxreControl_MaterialCompactCustom .dxreDlgColumnsForm .dxflGroupCell_MaterialCompactCustom
+    {
+        padding: 0 10px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDlgColumnsForm .dxreDlgColumnsEditorMainTable
+    {
+        width: 100%;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDlgColumnsForm .dxflNotFloatedElSys .dxrpControl_MaterialCompactCustom .dxflGroupCell_MaterialCompactCustom
+    {
+        padding: 0px;
+    }
+}
+.dxreControl_MaterialCompactCustom .dxre-Separator
+{
+    height: 0px;
+    margin: 5px 0;
+    border-top: 1px solid #808080;
+}
+.dxreControl_MaterialCompactCustom .dxre-findreplacedialog
+{
+    max-width: 540px;
+}
+.dxreControl_MaterialCompactCustom .dxre-findreplacedialog .dxre-searchResultList
+{
+    width: 100%;
+    height: 180px;
+}
+.dxreControl_MaterialCompactCustom .dxre-findreplacedialog .dxre-searchResultList .dxeListBoxItem
+{
+    white-space: normal;
+}
+.dxreControl_MaterialCompactCustom .dxre-findreplacedialog .dxre-dialogContentGroup
+{
+    padding: 24px !important;
+}
+.dxreControl_MaterialCompactCustom .dxre-findreplacedialog .dxre-searchResult
+{
+    width: 100% !important;
+}
+.dxreControl_MaterialCompactCustom .dxre-findreplacedialog .dxre-searchResult > div
+{
+    float: none !important;
+    width: auto !important;
+}
+.dxreControl_MaterialCompactCustom .dxre-findreplacedialog .dxre-searchResult .dxflCaptionCell_MaterialCompactCustom
+{
+    padding-top: 0px;
+}
+.dxreControl_MaterialCompactCustom .dxre-findreplacedialog .dxre-searchResult .dxflNestedControlCell_MaterialCompactCustom
+{
+    text-align: right;
+    white-space: nowrap;
+    color: #acacac;
+}
+.dxreControl_MaterialCompactCustom .dxre-findreplacedialog .dxre-dialogControlsWrapper > tbody > tr > td:first-child
+{
+    width: auto;
+}
+.dxreControl_MaterialCompactCustom .dxre-findreplacedialog .dxre-dialogControlsWrapper > tbody > tr > td:nth-child(2)
+{
+    width: 100%;
+    text-align: left;
+}
+.dxreControl_MaterialCompactCustom .dxre-findreplacedialog .dxre-replaceInfo
+{
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+}
+.dxreControl_MaterialCompactCustom .dxre-findreplacedialog .dxre-replaceInfo > div
+{
+    padding: 8px;
+    background: #FFF2C0;
+}
+@media (max-width: 500px)
+{
+    .dxreControl_MaterialCompactCustom .dxre-findreplacedialog .dxre-dialogFooter .dxreDlgFooterBtn
+    {
+        width: auto !important;
+    }
+    .dxreControl_MaterialCompactCustom .dxre-findreplacedialog .dxre-dialogFooter .dxreDlgFooterBtn > div.dxb
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 12px;
+    }
+}
+.dxreControl_MaterialCompactCustom .dxre-fontdialog
+{
+    max-width: 570px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgFontForm .dxreCheckBoxContainer .dxflGroup_MaterialCompactCustom,
+.dxreControl_MaterialCompactCustom .dxreDlgFontForm .dxreCheckBoxContainer .dxflGroupCell_MaterialCompactCustom
+{
+    padding: 0px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgFontForm .dxreCheckBoxContainer .dxflItem_MaterialCompactCustom
+{
+    padding: 0px !important;
+}
+@media (max-width: 500px)
+{
+    .dxreControl_MaterialCompactCustom .dxreDlgFontForm .dxre-dialogContentGroup .dxflLastChildSys .dxflGroupSys > div:not(.dxflFirstChildSys)
+    {
+        margin-top: 7px;
+    }
+}
+.dxreControl_MaterialCompactCustom .dxre-hyperlinkdialog
+{
+    max-width: 520px;
+}
+.dxreControl_MaterialCompactCustom .dxre-insertimagedialog
+{
+    max-width: 450px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgInsertImageForm .dxreDlgImagePreview
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 170px;
+    color: #878787;
+    border: dashed 1px #cac8c8;
+    text-align: center;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgInsertImageForm .dxflCaption_MaterialCompactCustom
+{
+    white-space: normal;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgInsertImageForm .dxre-dialogRadioNavigation
+{
+    padding-bottom: 7px;
+}
+.dxreControl_MaterialCompactCustom .dxre-insertmergefielddialog
+{
+    max-width: 350px !important;
+}
+.dxreControl_MaterialCompactCustom .dxre-insertmergefielddialog .dxeListBox_MaterialCompactCustom
+{
+    height: 250px;
+}
+.dxreControl_MaterialCompactCustom .dxre-finishandmergedialog
+{
+    max-width: 215px;
+}
+.dxreControl_MaterialCompactCustom .dxre-openfiledialog
+{
+    max-width: 800px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgOpenFileForm
+{
+    height: 500px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgOpenFileForm .dxflGroupCell,
+.dxreControl_MaterialCompactCustom .dxreDlgOpenFileForm .dxre-dialogContentGroup,
+.dxreControl_MaterialCompactCustom .dxreDlgOpenFileForm .dxre-dialogContentGroup .dxflItem_MaterialCompactCustom
+{
+    padding: 0px !important;
+}
+.dxreControl_MaterialCompactCustom .dxre-pagesetupdialog
+{
+    max-width: 420px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgPageSetupForm .dxre-headersAndFootersGroup .dxflLastChildSys > .dxre-dialogLGC
+{
+    padding: 0px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgPageSetupForm .dxre-offsetGroup .dxflGroupCell_MaterialCompactCustom
+{
+    padding: 0px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgPageSetupForm .dxre-offsetGroup tr:first-child .dxflGroupCell_MaterialCompactCustom:first-child
+{
+    padding-right: 10px;
+}
+@media (min-width: 500px)
+{
+    .dxreControl_MaterialCompactCustom .dxreDlgPageSetupForm .dxtc-content
+    {
+        min-height: 390px;
+    }
+}
+.dxreControl_MaterialCompactCustom .dxre-paragraphdialog
+{
+    max-width: 500px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgParagraphForm .dxtc-content
+{
+    min-height: 540px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgParagraphForm .dxre-dialogControlsWrapper > tbody > tr > td:first-child
+{
+    text-align: left;
+}
+@media (min-width: 500px)
+{
+    .dxreControl_MaterialCompactCustom .dxreDlgParagraphForm .dxre-dialogParagraphInnerLayout
+    {
+        padding-top: 8px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDlgParagraphForm .dxre-dialogParagraphInnerLayout .dxflFirstChildSys .dxflGroupCell_MaterialCompactCustom
+    {
+        padding-right: 8px;
+    }
+}
+.dxreControl_MaterialCompactCustom .dxreDlgSaveFileForm
+{
+    width: 470px;
+}
+.dxreControl_MaterialCompactCustom .dxre-spellingdialog
+{
+    max-width: 560px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgSpellingForm .dxreDlgSB
+{
+    min-width: 80px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgSymbolsForm .dxreDlgSymbolsList
+{
+    height: 250px;
+    border: 1px solid #C0C0C0;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgSymbolsForm .dxreDlgListBox > div
+{
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    font-size: large;
+}
+.dxreControl_MaterialCompactCustom .dxre-splittablecellsdialog,
+.dxreControl_MaterialCompactCustom .dxre-deletetablecellsdialog,
+.dxreControl_MaterialCompactCustom .dxre-inserttabledialog
+{
+    max-width: 300px;
+}
+.dxreControl_MaterialCompactCustom .dxre-tablepropertiesdialog
+{
+    max-width: 660px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgTablePropertiesForm .dxtc-content
+{
+    min-height: 560px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgTablePropertiesForm .dxre-dialogTableSpacing
+{
+    text-align: right;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgTablePropertiesForm .dxre-dialogTableSpacing table
+{
+    display: inline-block;
+}
+@media (max-width: 380px)
+{
+    .dxreControl_MaterialCompactCustom .dxreDlgTablePropertiesForm .dxre-dialogTableSpacing
+    {
+        text-align: left;
+    }
+}
+.dxreControl_MaterialCompactCustom .dxreDlgTablePropertiesForm .dxreDlgRight .dxreDlgFooterBtn
+{
+    display: inline-table;
+}
+.dxreControl_MaterialCompactCustom .dxre-bordershadingdialog
+{
+    max-width: 440px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgBorderShadingForm .dxre-dialogBorderPresets
+{
+    padding: 6px 0;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgBorderShadingForm .dxre-dialogBorderPresets .dxre-dialogLGC
+{
+    padding: 0px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgBorderShadingForm .dxre-dialogBorderPresets .dxre-dialogPresetButton
+{
+    padding-bottom: 5px;
+    text-align: center;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgBorderShadingForm .dxre-dialogBorderPresets .dxre-dialogPresetButton .dxre-buttonLable
+{
+    display: block;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgBorderShadingForm .dxreTableBorderPreview
+{
+    width: 130px !important;
+    display: inline-block;
+}
+.dxreControl_MaterialCompactCustom .dxre-dialogCellMargins td.dxre-dialogLGC
+{
+    padding: 0 4px 0 0 !important;
+}
+.dxreControl_MaterialCompactCustom .dxre-dialogCellBlock
+{
+    width: 78px;
+    background-color: #E0E0E0;
+    border: dashed 1px #818181;
+}
+.dxreControl_MaterialCompactCustom .dxreBorderButton div.dxb
+{
+    padding: 3px !important;
+}
+.dxreControl_MaterialCompactCustom .dxre-tabsdialog
+{
+    max-width: 475px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgTabsForm .dxreDlgTabsList
+{
+    height: 70px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgTabsForm .dxre-flowRadioButtonList span.dxichCellSys
+{
+    min-width: 120px;
+}
+.dxreControl_MaterialCompactCustom
+{
+    border-bottom: 1px solid #DFDFDF;
+}
+.dxreControl_MaterialCompactCustom .dxrePage
+{
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0 1px 3px;
+    -moz-box-shadow: rgba(0,0,0,0.1) 0 1px 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.dxreControl_MaterialCompactCustom .dxreView
+{
+    border-left: 1px solid #DFDFDF;
+    border-right: 1px solid #DFDFDF;
+}
+.dxreControl_MaterialCompactCustom .dxreBar
+{
+    border-left: 1px solid #DFDFDF;
+    border-right: 1px solid #DFDFDF;
+}
+.dxreControl_MaterialCompactCustom .dxreBar .dxreLoadingPanel .dxlp-loadingImage
+{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+    animation: dxLoadSpinSys 1s linear infinite;
+    border: 2px solid #35B86B;
+    border-top: 2px solid #EEE;
+    width: 12px;
+    height: 12px;
+}
+html.dxIE.dxBrowserVersion-9 .dxreControl_MaterialCompactCustom .dxreBar .dxreLoadingPanel .dxlp-loadingImage
+{
+    width: 16px;
+    height: 16px;
+    background: url('reLoadingOnStatusBar.gif');
+}
+.dxreControl_MaterialCompactCustom .dxreQuickSearchPanel .dxreQuickSearchButton,
+.dxreControl_MaterialCompactCustom .dxreQuickSearchPanel .dxreQuickSearchButton .dxb
+{
+    box-shadow: none;
+    width: 0px;
+}
+.dxreControl_MaterialCompactCustom .dxrControl_MaterialCompactCustom .dxr-minBtn
+{
+    margin-top: 7px;
+}
+.dxreControl_MaterialCompactCustom.dxreNotInternalRibbon
+{
+    border-top: 1px solid #DFDFDF;
+}
+.dxreControl_MaterialCompactCustom .dxreRulerWrapper
+{
+    border-left: 1px solid #DFDFDF;
+    border-right: 1px solid #DFDFDF;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgColumnsForm .dxreDlgTableWidth .dxreDlgCenter
+{
+    padding: 0 5px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgFindReplaceForm .dxre-dialogContentGroup
+{
+    padding-bottom: 36px !important;
+}
+.dxreControl_MaterialCompactCustom .dxreBorderButton.dxbButton_MaterialCompactCustom.dxbTSys
+{
+    visibility: hidden;
+    width: 0px;
+}
+.dxreControl_MaterialCompactCustom .dxre-dialogCellBlock
+{
+    height: 29px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgListBox .dxreDlgListSelected
+{
+    color: #FFF;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgFinishMergeForm
+{
+    width: 300px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgPageSetupForm .dxre-dialogContentGroup > tbody > tr:last-child > td
+{
+    padding-left: 10px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgHyperlinkForm.dxflFormLayout_MaterialCompactCustom .dxre-editorsGroupWithPaddings
+{
+    padding-left: 5px;
+    padding-right: 2px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgColumnsForm .dxre-dialogPresetsPanel .dxbButton_MaterialCompactCustom div.dxb
+{
+    padding: 4px 12px 6px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgColumnsForm .dxre-dialogPresetsPanel .dxbButton_MaterialCompactCustom.dxbTSys
+{
+    width: 60px;
+}
+.dxreControl_MaterialCompactCustom .dxreDlgLayoutForm .dxbButton_MaterialCompactCustom.dxbTSys
+{
+    width: 60px;
+}
+.dxreControl_MaterialCompactCustom .dxre-dialogParagraphInnerLayout .dxflCaptionCell_MaterialCompactCustom
+{
+    padding: 6px 0 !important;
+}
+.dxreControl_MaterialCompactCustom .dxre-dialogPresetButton .dxbButton_MaterialCompactCustom.dxbTSys
+{
+    width: 55px;
+}
+.dxreControl_MaterialCompactCustom .dxre-dialogPresetButton .dxbButton_MaterialCompactCustom div.dxb
+{
+    padding: 6px 2px 6px !important;
+}
+@media (max-width: 500px)
+{
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxtcLite_MaterialCompactCustom > .dxtc-content
+    {
+        padding: 7px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxre-dialog .dxflElConSys > div
+    {
+        float: left;
+        width: 100% !important;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxflCaptionCellSys
+    {
+        padding: 13px 0 !important;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxflGroupCell_MaterialCompactCustom
+    {
+        padding: 0px 10px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxbButton_MaterialCompactCustom div.dxb
+    {
+        padding: 6px 2px 4px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxre-dialogCellMarginsGroup
+    {
+        padding: 0px !important;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxre-dialogCellMarginsGroup .dxre-dialogLG, .dxreControl_MaterialCompactCustom .dxreDialog .dxre-dialogCellMarginsGroup .dxre-dialogLGC
+    {
+        padding: 0px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxre-dialogCellMarginsGroup .dxre-dialogCellBlock
+    {
+        width: 67px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxre-dialogCellMarginsGroup .dxflLastChildSys:not(.dxflFirstChildSys)
+    {
+        padding-left: 35px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxre-dialogCellMarginsGroup .dxre-dialogCellMargins .dxre-dialogShortEditor
+    {
+        max-width: 88px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxre-dialogCellMarginsGroup .dxre-dialogCellMargins .dxre-dialogShortEditor td.dxic
+    {
+        padding: 6px 3px 6px 5px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxre-dialogCellMarginsGroup .dxre-dialogCellMargins .dxre-dialogShortEditor .dxeButtonEditClearButton_MaterialCompactCustom
+    {
+        padding: 0px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxreDlgColumnsForm .dxflNotFloatedElSys .dxrpControl_MaterialCompactCustom .dxflGroupCell_MaterialCompactCustom .dxreDlgSpinEdit
+    {
+        width: 95px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxreDlgColumnsForm .dxflNotFloatedElSys .dxrpControl_MaterialCompactCustom .dxflGroupCell_MaterialCompactCustom .dxreDlgSpinEdit td.dxic
+    {
+        padding: 7px 6px 6px 6px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxreDlgColumnsForm .dxflNotFloatedElSys .dxrpControl_MaterialCompactCustom .dxflGroupCell_MaterialCompactCustom .dxreDlgSpinEdit .dxeButtonEditClearButton_MaterialCompactCustom
+    {
+        padding: 0px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxreDlgColumnsForm .dxre-dialogPresetsPanel .dxbButton_MaterialCompactCustom div.dxb
+    {
+        padding: 4px 12px 6px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxreDlgColumnsForm .dxre-dialogPresetsPanel .dxbButton_MaterialCompactCustom.dxbTSys
+    {
+        width: 40px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxreDlgColumnsForm .dxreDlgColumnsEditor .dxreDlgTextBox
+    {
+        width: 36px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxreDlgColumnsForm .dxreDlgColumnsEditor .dxreDlgSpinEdit
+    {
+        width: 78px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxreDlgLayoutForm .dxbButton_MaterialCompactCustom.dxbTSys
+    {
+        width: 55px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxre-offsetGroup
+    {
+        padding: 0px;
+    }
+    .dxreControl_MaterialCompactCustom .dxreDialog .dxre-offsetGroup .dxre-dialogShortEditor
+    {
+        max-width: 115px;
+    }
+}

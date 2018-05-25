@@ -1,0 +1,104 @@
+.dxre-quickSearchButtonHover .dxRichEdit_QuickSearchCloseButton_ModernoCustom,
+.dxre-quickSearchButtonHover .dxRichEdit_QuickSearchCollapseButton_ModernoCustom,
+.dxRichEdit_CenterTabDragHandle_ModernoCustom,
+.dxRichEdit_ColumnSeparatorDragHandle_ModernoCustom,
+.dxRichEdit_DecimalTabDragHandle_ModernoCustom,
+.dxRichEdit_FirstLineIdentDragHandle_ModernoCustom,
+.dxRichEdit_LeftIdentDragHandle_ModernoCustom,
+.dxRichEdit_LeftTabDragHandle_ModernoCustom,
+.dxRichEdit_QuickSearchCloseButton_ModernoCustom,
+.dxRichEdit_QuickSearchCollapseButton_ModernoCustom,
+.dxRichEdit_QuickSearchNextButton_ModernoCustom,
+.dxRichEdit_QuickSearchPrevButton_ModernoCustom,
+.dxRichEdit_RightIdentDragHandle_ModernoCustom,
+.dxRichEdit_RightTabDragHandle_ModernoCustom
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxre-quickSearchButtonHover .dxRichEdit_QuickSearchCloseButton_ModernoCustom
+{
+    background-position: 0px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxre-quickSearchButtonHover .dxRichEdit_QuickSearchCollapseButton_ModernoCustom
+{
+    background-position: 0px -57px;
+    width: 18px;
+    height: 18px;
+}
+.dxRichEdit_CenterTabDragHandle_ModernoCustom
+{
+    background-position: -10px -111px;
+    width: 8px;
+    height: 6px;
+}
+.dxRichEdit_ColumnSeparatorDragHandle_ModernoCustom
+{
+    background-position: -10px -102px;
+    width: 7px;
+    height: 8px;
+}
+.dxRichEdit_DecimalTabDragHandle_ModernoCustom
+{
+    background-position: -10px -120px;
+    width: 8px;
+    height: 6px;
+}
+.dxRichEdit_FirstLineIdentDragHandle_ModernoCustom
+{
+    background-position: 0px -111px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_LeftIdentDragHandle_ModernoCustom
+{
+    background-position: 0px -102px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_LeftTabDragHandle_ModernoCustom
+{
+    background-position: -7px -129px;
+    width: 6px;
+    height: 6px;
+}
+.dxRichEdit_QuickSearchCloseButton_ModernoCustom
+{
+    background-position: 0px -38px;
+    width: 18px;
+    height: 18px;
+}
+.dxRichEdit_QuickSearchCollapseButton_ModernoCustom
+{
+    background-position: 0px -19px;
+    width: 18px;
+    height: 18px;
+}
+.dxRichEdit_QuickSearchNextButton_ModernoCustom
+{
+    background-position: 0px -89px;
+    width: 12px;
+    height: 12px;
+}
+.dxRichEdit_QuickSearchPrevButton_ModernoCustom
+{
+    background-position: 0px -76px;
+    width: 12px;
+    height: 12px;
+}
+.dxRichEdit_RightIdentDragHandle_ModernoCustom
+{
+    background-position: 0px -120px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_RightTabDragHandle_ModernoCustom
+{
+    background-position: 0px -129px;
+    width: 6px;
+    height: 6px;
+}
+

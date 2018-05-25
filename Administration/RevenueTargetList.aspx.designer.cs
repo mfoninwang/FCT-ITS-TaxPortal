@@ -13,6 +13,15 @@ namespace TAAPs.Administration {
     public partial class RevenueTargetList {
         
         /// <summary>
+        /// ASPxgvTargets control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxGridView ASPxgvTargets;
+        
+        /// <summary>
         /// dsTargets control.
         /// </summary>
         /// <remarks>
@@ -29,14 +38,5 @@ namespace TAAPs.Administration {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.EntityDataSource dsTaxOffices;
-        
-        /// <summary>
-        /// ASPxgvTargets control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DevExpress.Web.ASPxGridView ASPxgvTargets;
     }
 }

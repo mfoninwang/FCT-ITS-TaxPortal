@@ -1,0 +1,225 @@
+.dxeListBoxItemSelected_Office365 .dxHtmlEditor_heEnumIcon_Office365,
+.dxeListBoxItemSelected_Office365 .dxHtmlEditor_heEventIcon_Office365,
+.dxeListBoxItemSelected_Office365 .dxHtmlEditor_heFieldIcon_Office365,
+.dxeListBoxItemSelected_Office365 .dxHtmlEditor_heXmlItemIcon_Office365,
+.dxHtmlEditor_heConstrainProportionsBottom_Office365,
+.dxHtmlEditor_heConstrainProportionsBottomRtl_Office365,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_Office365,
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_Office365,
+.dxHtmlEditor_heConstrainProportionsMiddleOn_Office365,
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_Office365,
+.dxHtmlEditor_heConstrainProportionsTop_Office365,
+.dxHtmlEditor_heConstrainProportionsTopRtl_Office365,
+.dxHtmlEditor_heEnumIcon_Office365,
+.dxHtmlEditor_heErrorFrameCloseButton_Office365,
+.dxHtmlEditor_heEventIcon_Office365,
+.dxHtmlEditor_heFieldIcon_Office365,
+.dxHtmlEditor_heReset_Office365,
+.dxHtmlEditor_heSizeGrip_Office365,
+.dxHtmlEditor_heSizeGripRtl_Office365,
+.dxHtmlEditor_heTagInspectorChangeButton_Office365,
+.dxHtmlEditor_heTagInspectorRemoveButton_Office365,
+.dxHtmlEditor_heTagInspectorSeparator_Office365,
+.dxHtmlEditor_heToolbarPopOut_Office365,
+.dxHtmlEditor_heXmlItemIcon_Office365,
+.dxm-hovered .dxHtmlEditor_heToolbarPopOut_Office365
+{
+    background-image: url('sprite.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxIE .dx-acc-r .dxeListBoxItemSelected_Office365 .dxHtmlEditor_heEnumIcon_Office365::before,
+.dxIE .dx-acc-r .dxeListBoxItemSelected_Office365 .dxHtmlEditor_heEventIcon_Office365::before,
+.dxIE .dx-acc-r .dxeListBoxItemSelected_Office365 .dxHtmlEditor_heFieldIcon_Office365::before,
+.dxIE .dx-acc-r .dxeListBoxItemSelected_Office365 .dxHtmlEditor_heXmlItemIcon_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heConstrainProportionsBottom_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heConstrainProportionsBottomRtl_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heConstrainProportionsMiddleOff_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heConstrainProportionsMiddleOffRtl_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heConstrainProportionsMiddleOn_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heConstrainProportionsMiddleOnRtl_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heConstrainProportionsTop_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heConstrainProportionsTopRtl_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heEnumIcon_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heErrorFrameCloseButton_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heEventIcon_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heFieldIcon_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heReset_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heSizeGrip_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heSizeGripRtl_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heTagInspectorChangeButton_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heTagInspectorRemoveButton_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heTagInspectorSeparator_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heToolbarPopOut_Office365::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heXmlItemIcon_Office365::before,
+.dxIE .dx-acc-r .dxm-hovered .dxHtmlEditor_heToolbarPopOut_Office365::before{
+    width: 299px;
+}
+.dxeListBoxItemSelected_Office365 .dxHtmlEditor_heEnumIcon_Office365
+{
+    background-position: -85px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemSelected_Office365 .dxHtmlEditor_heEventIcon_Office365
+{
+    background-position: -17px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemSelected_Office365 .dxHtmlEditor_heFieldIcon_Office365
+{
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemSelected_Office365 .dxHtmlEditor_heXmlItemIcon_Office365
+{
+    background-position: -68px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heConstrainProportionsBottom_Office365
+{
+    background-position: -290px -10px;
+    width: 8px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsBottomRtl_Office365
+{
+    background-position: -272px -10px;
+    width: 8px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOff_Office365
+{
+    background-position: -217px 0px;
+    width: 7px;
+    height: 13px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_Office365
+{
+    background-position: -241px 0px;
+    width: 7px;
+    height: 13px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_Office365
+{
+    background-position: -225px 0px;
+    width: 7px;
+    height: 13px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_Office365
+{
+    background-position: -233px 0px;
+    width: 7px;
+    height: 13px;
+}
+.dxHtmlEditor_heConstrainProportionsTop_Office365
+{
+    background-position: -286px 0px;
+    width: 8px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsTopRtl_Office365
+{
+    background-position: -281px -10px;
+    width: 8px;
+    height: 6px;
+}
+.dxHtmlEditor_heEnumIcon_Office365
+{
+    background-position: -136px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heErrorFrameCloseButton_Office365
+{
+    background-position: -249px 0px;
+    width: 10px;
+    height: 10px;
+}
+.dxHtmlEditor_heEventIcon_Office365
+{
+    background-position: -51px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heFieldIcon_Office365
+{
+    background-position: -102px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heReset_Office365
+{
+    background-position: -153px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heSizeGrip_Office365
+{
+    background-position: -187px 0px;
+    width: 14px;
+    height: 14px;
+}
+.dxHtmlEditor_heSizeGripRtl_Office365
+{
+    background-position: -202px 0px;
+    width: 14px;
+    height: 14px;
+}
+.dxHtmlEditor_heTagInspectorChangeButton_Office365
+{
+    background-position: -34px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heTagInspectorRemoveButton_Office365
+{
+    background-position: -170px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heTagInspectorSeparator_Office365
+{
+    background-position: -280px 0px;
+    width: 5px;
+    height: 8px;
+}
+.dxHtmlEditor_heToolbarPopOut_Office365
+{
+    background-position: -260px 0px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_heXmlItemIcon_Office365
+{
+    background-position: -119px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxHtmlEditor_heToolbarPopOut_Office365
+{
+    background-position: -270px 0px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_Office365,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_Office365,
+.dxHtmlEditor_heConstrainProportionsBottom_Office365,
+.dxHtmlEditor_heConstrainProportionsTop_Office365,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_Office365,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_Office365,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_Office365,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_Office365,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_Office365,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_Office365,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_Office365,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_Office365,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_Office365,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_Office365
+{
+display:block;
+}
+

@@ -1,0 +1,244 @@
+.dxCardView_CTClearFilter_Office2010Silver,
+.dxCardView_CTClearFilterDisabled_Office2010Silver,
+.dxCardView_CTDeleteRow_Office2010Silver,
+.dxCardView_CTDeleteRowDisabled_Office2010Silver,
+.dxCardView_CTEditRow_Office2010Silver,
+.dxCardView_CTEditRowDisabled_Office2010Silver,
+.dxCardView_CTExportCsv_Office2010Silver,
+.dxCardView_CTExportCsvDisabled_Office2010Silver,
+.dxCardView_CTExportDocx_Office2010Silver,
+.dxCardView_CTExportDocxDisabled_Office2010Silver,
+.dxCardView_CTExportPdf_Office2010Silver,
+.dxCardView_CTExportPdfDisabled_Office2010Silver,
+.dxCardView_CTExportRtf_Office2010Silver,
+.dxCardView_CTExportRtfDisabled_Office2010Silver,
+.dxCardView_CTExportXls_Office2010Silver,
+.dxCardView_CTExportXlsDisabled_Office2010Silver,
+.dxCardView_CTExportXlsx_Office2010Silver,
+.dxCardView_CTExportXlsxDisabled_Office2010Silver,
+.dxCardView_CTNewRow_Office2010Silver,
+.dxCardView_CTNewRowDisabled_Office2010Silver,
+.dxCardView_CTRefresh_Office2010Silver,
+.dxCardView_CTRefreshDisabled_Office2010Silver,
+.dxCardView_CTShowCustomizationWindow_Office2010Silver,
+.dxCardView_CTShowCustomizationWindowDisabled_Office2010Silver,
+.dxCardView_CTShowFilterEditor_Office2010Silver,
+.dxCardView_CTShowFilterEditorDisabled_Office2010Silver,
+.dxCardView_CTShowSearchPanel_Office2010Silver,
+.dxCardView_CTShowSearchPanelDisabled_Office2010Silver,
+.dxCardView_gvCellError_Office2010Silver,
+.dxCardView_gvFilterRowButton_Office2010Silver,
+.dxCardView_gvHeaderFilter_Office2010Silver,
+.dxCardView_gvHeaderFilterActive_Office2010Silver,
+.dxCardView_gvHeaderSortDown_Office2010Silver,
+.dxCardView_gvHeaderSortUp_Office2010Silver
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxCardView_CTClearFilter_Office2010Silver
+{
+    background-position: 0px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTClearFilterDisabled_Office2010Silver
+{
+    background-position: 0px -442px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTDeleteRow_Office2010Silver
+{
+    background-position: 0px -374px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTDeleteRowDisabled_Office2010Silver
+{
+    background-position: 0px -255px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTEditRow_Office2010Silver
+{
+    background-position: 0px -119px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTEditRowDisabled_Office2010Silver
+{
+    background-position: 0px -425px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportCsv_Office2010Silver
+{
+    background-position: 0px -340px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportCsvDisabled_Office2010Silver
+{
+    background-position: 0px -187px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportDocx_Office2010Silver
+{
+    background-position: 0px -408px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportDocxDisabled_Office2010Silver
+{
+    background-position: 0px -238px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportPdf_Office2010Silver
+{
+    background-position: 0px -85px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportPdfDisabled_Office2010Silver
+{
+    background-position: 0px -136px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportRtf_Office2010Silver
+{
+    background-position: 0px -323px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportRtfDisabled_Office2010Silver
+{
+    background-position: 0px -221px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportXls_Office2010Silver
+{
+    background-position: 0px -272px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportXlsDisabled_Office2010Silver
+{
+    background-position: 0px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportXlsx_Office2010Silver
+{
+    background-position: 0px -306px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportXlsxDisabled_Office2010Silver
+{
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTNewRow_Office2010Silver
+{
+    background-position: 0px -357px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTNewRowDisabled_Office2010Silver
+{
+    background-position: 0px -153px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTRefresh_Office2010Silver
+{
+    background-position: 0px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTRefreshDisabled_Office2010Silver
+{
+    background-position: 0px -459px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTShowCustomizationWindow_Office2010Silver
+{
+    background-position: 0px -102px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTShowCustomizationWindowDisabled_Office2010Silver
+{
+    background-position: 0px -391px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTShowFilterEditor_Office2010Silver
+{
+    background-position: 0px -204px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTShowFilterEditorDisabled_Office2010Silver
+{
+    background-position: 0px -170px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTShowSearchPanel_Office2010Silver
+{
+    background-position: 0px -289px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTShowSearchPanelDisabled_Office2010Silver
+{
+    background-position: 0px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_gvCellError_Office2010Silver
+{
+    background-position: 0px -508px;
+    width: 14px;
+    height: 14px;
+}
+.dxCardView_gvFilterRowButton_Office2010Silver
+{
+    background-position: 0px -523px;
+    width: 13px;
+    height: 13px;
+}
+.dxCardView_gvHeaderFilter_Office2010Silver
+{
+    background-position: 0px -492px;
+    width: 15px;
+    height: 15px;
+}
+.dxCardView_gvHeaderFilterActive_Office2010Silver
+{
+    background-position: 0px -476px;
+    width: 15px;
+    height: 15px;
+}
+.dxCardView_gvHeaderSortDown_Office2010Silver
+{
+    background-position: 0px -537px;
+    width: 7px;
+    height: 5px;
+}
+.dxCardView_gvHeaderSortUp_Office2010Silver
+{
+    background-position: -8px -537px;
+    width: 7px;
+    height: 5px;
+}
+

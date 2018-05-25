@@ -1,0 +1,304 @@
+.dxm-checked .dxVerticalGrid_CTShowSearchPanel_MaterialCompactCustom,
+.dxVerticalGrid_CategoryCollapsed_MaterialCompactCustom,
+.dxVerticalGrid_CategoryExpanded_MaterialCompactCustom,
+.dxVerticalGrid_CollapsedButton_MaterialCompactCustom,
+.dxVerticalGrid_CTClearFilter_MaterialCompactCustom,
+.dxVerticalGrid_CTClearFilterDisabled_MaterialCompactCustom,
+.dxVerticalGrid_CTDeleteRow_MaterialCompactCustom,
+.dxVerticalGrid_CTDeleteRowDisabled_MaterialCompactCustom,
+.dxVerticalGrid_CTEditRow_MaterialCompactCustom,
+.dxVerticalGrid_CTEditRowDisabled_MaterialCompactCustom,
+.dxVerticalGrid_CTExportCsv_MaterialCompactCustom,
+.dxVerticalGrid_CTExportCsvDisabled_MaterialCompactCustom,
+.dxVerticalGrid_CTExportDocx_MaterialCompactCustom,
+.dxVerticalGrid_CTExportDocxDisabled_MaterialCompactCustom,
+.dxVerticalGrid_CTExportPdf_MaterialCompactCustom,
+.dxVerticalGrid_CTExportPdfDisabled_MaterialCompactCustom,
+.dxVerticalGrid_CTExportRtf_MaterialCompactCustom,
+.dxVerticalGrid_CTExportRtfDisabled_MaterialCompactCustom,
+.dxVerticalGrid_CTExportXls_MaterialCompactCustom,
+.dxVerticalGrid_CTExportXlsDisabled_MaterialCompactCustom,
+.dxVerticalGrid_CTExportXlsx_MaterialCompactCustom,
+.dxVerticalGrid_CTExportXlsxDisabled_MaterialCompactCustom,
+.dxVerticalGrid_CTNewRow_MaterialCompactCustom,
+.dxVerticalGrid_CTNewRowDisabled_MaterialCompactCustom,
+.dxVerticalGrid_CTRefresh_MaterialCompactCustom,
+.dxVerticalGrid_CTRefreshDisabled_MaterialCompactCustom,
+.dxVerticalGrid_CTShowFilterEditor_MaterialCompactCustom,
+.dxVerticalGrid_CTShowFilterEditorDisabled_MaterialCompactCustom,
+.dxVerticalGrid_CTShowSearchPanel_MaterialCompactCustom,
+.dxVerticalGrid_CTShowSearchPanelDisabled_MaterialCompactCustom,
+.dxVerticalGrid_ExpandedButton_MaterialCompactCustom,
+.dxVerticalGrid_gvCellError_MaterialCompactCustom,
+.dxVerticalGrid_gvFilterRowButton_MaterialCompactCustom,
+.dxVerticalGrid_gvHeaderFilter_MaterialCompactCustom,
+.dxVerticalGrid_gvHeaderFilterActive_MaterialCompactCustom,
+.dxVerticalGrid_gvHeaderSortDown_MaterialCompactCustom,
+.dxVerticalGrid_gvHeaderSortUp_MaterialCompactCustom
+{
+    background-image: url('sprite.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxIE .dx-acc-r .dxm-checked .dxVerticalGrid_CTShowSearchPanel_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CategoryCollapsed_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CategoryExpanded_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CollapsedButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTClearFilter_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTClearFilterDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTDeleteRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTDeleteRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTEditRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTEditRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportCsv_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportCsvDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportDocx_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportDocxDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportPdf_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportPdfDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportRtf_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportRtfDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportXls_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportXlsDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportXlsx_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTExportXlsxDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTNewRow_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTNewRowDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTRefresh_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTRefreshDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTShowFilterEditor_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTShowFilterEditorDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTShowSearchPanel_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_CTShowSearchPanelDisabled_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_ExpandedButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_gvCellError_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_gvFilterRowButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_gvHeaderFilter_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_gvHeaderFilterActive_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_gvHeaderSortDown_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxVerticalGrid_gvHeaderSortUp_MaterialCompactCustom::before{
+    width: 69px;
+}
+.dxm-checked .dxVerticalGrid_CTShowSearchPanel_MaterialCompactCustom
+{
+    background-position: -30px -102px;
+    width: 14px;
+    height: 14px;
+}
+.dxVerticalGrid_CategoryCollapsed_MaterialCompactCustom
+{
+    background-position: -13px -132px;
+    width: 12px;
+    height: 12px;
+}
+.dxVerticalGrid_CategoryExpanded_MaterialCompactCustom
+{
+    background-position: -26px -132px;
+    width: 12px;
+    height: 12px;
+}
+.dxVerticalGrid_CollapsedButton_MaterialCompactCustom
+{
+    background-position: -39px -132px;
+    width: 12px;
+    height: 12px;
+}
+.dxVerticalGrid_CTClearFilter_MaterialCompactCustom
+{
+    background-position: 0px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTClearFilterDisabled_MaterialCompactCustom
+{
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTDeleteRow_MaterialCompactCustom
+{
+    background-position: -51px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTDeleteRowDisabled_MaterialCompactCustom
+{
+    background-position: -17px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTEditRow_MaterialCompactCustom
+{
+    background-position: -17px -85px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTEditRowDisabled_MaterialCompactCustom
+{
+    background-position: -17px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportCsv_MaterialCompactCustom
+{
+    background-position: -51px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportCsvDisabled_MaterialCompactCustom
+{
+    background-position: -34px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportDocx_MaterialCompactCustom
+{
+    background-position: 0px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportDocxDisabled_MaterialCompactCustom
+{
+    background-position: 0px -85px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportPdf_MaterialCompactCustom
+{
+    background-position: 0px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportPdfDisabled_MaterialCompactCustom
+{
+    background-position: -17px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportRtf_MaterialCompactCustom
+{
+    background-position: -34px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportRtfDisabled_MaterialCompactCustom
+{
+    background-position: -51px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportXls_MaterialCompactCustom
+{
+    background-position: -34px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportXlsDisabled_MaterialCompactCustom
+{
+    background-position: -34px -85px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportXlsx_MaterialCompactCustom
+{
+    background-position: -51px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTExportXlsxDisabled_MaterialCompactCustom
+{
+    background-position: -34px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTNewRow_MaterialCompactCustom
+{
+    background-position: -17px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTNewRowDisabled_MaterialCompactCustom
+{
+    background-position: -51px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTRefresh_MaterialCompactCustom
+{
+    background-position: -17px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTRefreshDisabled_MaterialCompactCustom
+{
+    background-position: -34px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_CTShowFilterEditor_MaterialCompactCustom
+{
+    background-position: -30px -117px;
+    width: 14px;
+    height: 14px;
+}
+.dxVerticalGrid_CTShowFilterEditorDisabled_MaterialCompactCustom
+{
+    background-position: -45px -102px;
+    width: 14px;
+    height: 14px;
+}
+.dxVerticalGrid_CTShowSearchPanel_MaterialCompactCustom
+{
+    background-position: -51px -85px;
+    width: 14px;
+    height: 14px;
+}
+.dxVerticalGrid_CTShowSearchPanelDisabled_MaterialCompactCustom
+{
+    background-position: 0px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxVerticalGrid_ExpandedButton_MaterialCompactCustom
+{
+    background-position: -45px -117px;
+    width: 12px;
+    height: 12px;
+}
+.dxVerticalGrid_gvCellError_MaterialCompactCustom
+{
+    background-position: 0px -102px;
+    width: 14px;
+    height: 14px;
+}
+.dxVerticalGrid_gvFilterRowButton_MaterialCompactCustom
+{
+    background-position: 0px -117px;
+    width: 14px;
+    height: 14px;
+}
+.dxVerticalGrid_gvHeaderFilter_MaterialCompactCustom
+{
+    background-position: -15px -102px;
+    width: 14px;
+    height: 14px;
+}
+.dxVerticalGrid_gvHeaderFilterActive_MaterialCompactCustom
+{
+    background-position: -15px -117px;
+    width: 14px;
+    height: 14px;
+}
+.dxVerticalGrid_gvHeaderSortDown_MaterialCompactCustom
+{
+    background-position: -52px -132px;
+    width: 12px;
+    height: 12px;
+}
+.dxVerticalGrid_gvHeaderSortUp_MaterialCompactCustom
+{
+    background-position: 0px -132px;
+    width: 12px;
+    height: 12px;
+}
+

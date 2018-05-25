@@ -3,36 +3,54 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.UI.WebControls;
 using TAAPs.Model;
+using System.Configuration;
+using System.Data.SqlClient;
+using DevExpress.DashboardWeb;
+using DevExpress.DataAccess.ConnectionParameters;
+
 
 namespace TAAPs
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class Default : BasePage
     {
-        TAAPsDBContext context = new TAAPsDBContext();
-        public List<RoleResource> _resources = new List<RoleResource>();
+        static TAAPsDBContext context;
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                context = new TAAPsDBContext();
+            }
+
             if (Session["User"] == null)
             {
-                Response.Redirect("~/index.aspx");
-            }
-            else
-            {
-                // User _user = (User)(Session["User"]);
-                int _roleId = Global.SessionUser.RoleId; //_user.RoleId;
-                LoadResources(_roleId);
+                Response.Redirect("~/SessionTimeout.aspx");
             }
         }
 
-        private void LoadResources(int RoleId)
+        protected void SubmitIssue_Click(object sender, EventArgs e)
         {
+            IssueLog issue = new IssueLog()
+            {
+                Subject = SubjectTextField.Value,
+                Description = DescriptionTextField.Value,
+                Priority = PriorityField.Value,
+                CreatedBy = (string)Session["UserName"],
+                CreateDate=DateTime.Now,
+                Status = "Open"
+            };
 
-            var value = from r in context.RoleResources
-                        where r.RoleId == RoleId
-                        select r;
+            context.IssueLogs.Add(issue);
+            context.SaveChanges();
 
-            _resources = value.ToList();                  
-        }      
+            ResetForm();
+        }
+
+        private void ResetForm()
+        {
+            SubjectTextField.Value = string.Empty;
+            DescriptionTextField.Value = string.Empty;
+        }
+
     }  
 }

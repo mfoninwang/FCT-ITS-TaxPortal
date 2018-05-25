@@ -1,0 +1,46 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dx:ASPxGridView runat="server" CssFilePath="{0}/styles.css" CssPostfix="MaterialCompactCustom" Width="100%">
+<SettingsPager CurrentPageNumberFormat="{0}"></SettingsPager>
+
+<SettingsBehavior AllowCellMerge="True" AllowSelectByRowClick="True"></SettingsBehavior>
+
+<SettingsPopup>
+<CustomizationWindow MinWidth="240px" MinHeight="250px"></CustomizationWindow>
+
+<HeaderFilter MinWidth="230px" MinHeight="150px"></HeaderFilter>
+</SettingsPopup>
+
+<SettingsExport EnableClientSideExportAPI="True"></SettingsExport>
+
+<StylesPopup>
+<HeaderFilter>
+<Footer CssClass="headerFilterPopupFooter"></Footer>
+</HeaderFilter>
+</StylesPopup>
+
+<EditFormLayoutProperties>
+<SettingsItemCaptions VerticalAlign="Top"></SettingsItemCaptions>
+</EditFormLayoutProperties>
+
+<StylesEditors>
+<Calendar Border-BorderColor="Silver" Border-BorderStyle="Solid" Border-BorderWidth="1px"></Calendar>
+</StylesEditors>
+
+<StylesPager>
+<Pager ItemSpacing="0px" Spacing="0px"></Pager>
+</StylesPager>
+
+<Styles AdaptiveDetailButtonWidth="52" CssPostfix="MaterialCompactCustom" CssFilePath="{0}/styles.css"></Styles>
+
+<Images SpriteCssFilePath="{0}/sprite.css"></Images>
+
+<StylesToolbar>
+<Style HorizontalAlign="Right"></Style>
+
+<Item HorizontalAlign="Right" VerticalAlign="Top"></Item>
+
+<SubMenu HorizontalAlign="Right"></SubMenu>
+</StylesToolbar>
+</dx:ASPxGridView>

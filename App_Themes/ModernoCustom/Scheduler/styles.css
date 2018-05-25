@@ -1,0 +1,856 @@
+.dxscControl_ModernoCustom .dxsc-detailed-apt-tooltip .dxsc-dat-container > div
+{
+    background: #454545;
+}
+.dxscControl_ModernoCustom .dxsc-detailed-apt-tooltip .dxsc-dat-header span,
+.dxscControl_ModernoCustom .dxsc-detailed-apt-tooltip .dxsc-dat-middle span
+{
+    color: white;
+}
+.dxscControl_ModernoCustom .dxsc-detailed-apt-tooltip .dxsc-dat-buttons-container .dxbButtonSys
+{
+    border-top-color: #737373;
+}
+.dxscControl_ModernoCustom .dxsc-detailed-apt-tooltip .dxsc-dat-buttons-container .dxbButtonSys:not(.dxsc-dat-colored-button)
+{
+    color: white;
+}
+.dxscControl_ModernoCustom .dxsc-detailed-apt-tooltip .dxsc-dat-buttons-container .dxbButtonSys.dxsc-dat-disabled-btn
+{
+    color: #989898;
+}
+.dxscControl_ModernoCustom
+{
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #2b2b2b;
+    background: #d1d1d1;
+    border: solid 1px #d1d1d1;
+}
+.dxscControl_ModernoCustom .dxscAppointmentForm
+{
+    width: 740px !important;
+}
+.dxscControl_ModernoCustom .dxscRangeControl .dxscRCEndByDateCell
+{
+    width: 146px;
+}
+/* recurrence form */
+.dxscControl_ModernoCustom .dxsc-rc-week-of-month
+{
+    width: 90px;
+}
+.dxscControl_ModernoCustom .dxsc-rc-week-days
+{
+    width: 130px;
+}
+.dxscControl_ModernoCustom .dxsc-rc-month
+{
+    width: 115px;
+}
+.dxscLoadingPanel_ModernoCustom
+{
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #2b2b2b;
+    background-color: White;
+    border: 1px solid #cfcfcf;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxscLoadingPanel_ModernoCustom td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 15px 34px 15px 20px;
+}
+.dxscLoadingPanel_ModernoCustom .dxlp-loadingImage
+{
+    background-image: url('../Web/Loading.gif');
+    height: 40px;
+    width: 40px;
+}
+/* Headers */
+.dxscDateHeader_ModernoCustom,
+.dxscAlternateDateHeader_ModernoCustom,
+.dxscDayHeader_ModernoCustom,
+.dxscDateCellHeader_ModernoCustom,
+.dxscTodayCellHeader_ModernoCustom,
+.dxscTimelineDateHeader_ModernoCustom,
+.dxscHorizontalResourceHeader_ModernoCustom,
+.dxscVerticalResourceHeader_ModernoCustom
+{
+    color: #7e7e7e;
+    background: #fafafa;
+    border: solid 1px #d1d1d1;
+    border-width: 0 1px 1px 0;
+    padding: 4px;
+    text-align: center;
+    vertical-align: top;
+    cursor: default;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.dxscAlternateTimelineDateHeader_ModernoCustom,
+.dxscAlternateDateHeader_ModernoCustom
+{
+    background: #1279c0;
+    color: white;
+}
+.dxscDayHeader_ModernoCustom
+{
+    border-width: 1px 1px 0 0;
+}
+.dxscDateCellHeader_ModernoCustom
+{
+    border-width: 1px;
+}
+.dxscTodayCellHeader_ModernoCustom
+{
+    border-top-width: 1px;
+    background: #1279c0;
+    color: White;
+}
+.dxscTimelineDateHeader_ModernoCustom
+{
+    border-width: 1px 1px 1px 0;
+}
+.dxscHorizontalResourceHeader_ModernoCustom
+{
+    border-width: 1px 1px 1px 0;
+    background: #fafafa;
+    padding-bottom: 5px;
+}
+.dxscVerticalResourceHeader_ModernoCustom
+{
+    border-width: 1px 1px 0 0;
+    background: #fafafa;
+    white-space: normal;
+}
+.dxscSelectionBar_ModernoCustom
+{
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    height: 30px;
+}
+/* Corners */
+.dxscLeftTopCorner_ModernoCustom,
+.dxscRightTopCorner_ModernoCustom,
+.dxscBottomLeftCorner_ModernoCustom,
+.dxscControl_ModernoCustom .dxsc-timeline-resourcesContainer
+{
+    background: #fafafa;
+}
+.dxscLeftTopCorner_ModernoCustom,
+.dxscRightTopCorner_ModernoCustom
+{
+    width: 1px;
+    border-style: solid;
+    border-color: #d1d1d1;
+    border-width: 0 0 1px;
+}
+.dxscLeftTopCorner_ModernoCustom
+{
+    border-width: 1px 1px 1px 0;
+    font-size: 0.79em;
+    text-align: center;
+    padding: 2px;
+    overflow: hidden;
+}
+/* Separators */
+.dxscGroupSeparatorVertical_ModernoCustom,
+.dxscGroupSeparatorHorizontal_ModernoCustom
+{
+    background: white;
+    border: solid 1px #d1d1d1;
+}
+.dxscGroupSeparatorVertical_ModernoCustom
+{
+    width: 1px;
+    border-width: 0 1px;
+}
+.dxscGroupSeparatorHorizontal_ModernoCustom
+{
+    height: 1px;
+    border-width: 1px 0 0;
+    font-size: 0;
+}
+/* Apts Area */
+.dxscAllDayArea_ModernoCustom
+{
+    background: #fafafa;
+    border: solid 1px #d1d1d1;
+    border-width: 0 1px 1px 0;
+}
+.dxscDateCellBody_ModernoCustom
+{
+    height: 100px;
+    border: solid 1px;
+    border-width: 0 1px 0 0;
+}
+.dxscTimeCellBody_ModernoCustom
+{
+    border-color: #d1d1d1;
+    border: 1px solid;
+}
+.dxscTimelineCellBody_ModernoCustom
+{
+    height: 300px;
+    border-color: #d1d1d1;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+}
+.dxscAppointment_ModernoCustom
+{
+    color: black;
+    font-size: 0.79em;
+    padding: 0;
+    margin: 0;
+    cursor: default;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.dxscAppointmentInnerBorders_ModernoCustom
+{
+    border: solid 1px #d1d1d1;
+    padding: 0px;
+}
+.dxscAppointmentHorizontalSeparator_ModernoCustom
+{
+    height: 1px;
+    width: 100%;
+    overflow: hidden;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+.dxscAppointment_ModernoCustom .dxsc-apt-left-container > img,
+.dxscAppointment_ModernoCustom .dxsc-apt-right-container > img,
+.dxscAppointment_ModernoCustom .dxsc-apt-images-container
+{
+    opacity: .3;
+}
+.dxscApt.dxsc-selected .dxscAppointment_ModernoCustom .dxsc-apt-left-container > img,
+.dxscApt.dxsc-selected .dxscAppointment_ModernoCustom .dxsc-apt-right-container > img,
+.dxscApt.dxsc-selected .dxscAppointment_ModernoCustom .dxsc-apt-images-container
+{
+    opacity: 1;
+}
+.dxscMoreButton_ModernoCustom
+{
+    font-size: 0.79em;
+    color: black;
+    text-decoration: underline;
+    padding: 0;
+}
+/* Rulers */
+.dxscTimeRulerHoursItem_ModernoCustom, .dxscTimeRulerMinuteItem_ModernoCustom
+{
+    color: #283b56;
+    background: #fafafa;
+    border: solid 1px #d1d1d1;
+    border-width: 0px 1px 1px 0;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.dxscTimeRulerHoursItem_ModernoCustom
+{
+    border-right-width: 0;
+    border-left-color: #cbcbcb;
+    font-size: 1.21em;
+    text-align: right;
+    width: 45px;
+    padding: 2px 4px 0px;
+}
+.dxscTimeRulerMinuteItem_ModernoCustom
+{
+    border-left-width: 0px;
+    text-align: center;
+    width: 18px;
+    font-size: 0.79em;
+    padding: 4px 1px 4px 1px;
+}
+.dxscTimeRulerHeaderHourItem_ModernoCustom
+{
+    width: 55px;
+}
+.dxscTimeRulerHeaderMinuteItem_ModernoCustom
+{
+    width: 16px;
+}
+.dxscScrollHeaderItem_ModernoCustom
+{
+    width: 16px;
+}
+/* Control elements */
+.dxscToolbarContainer_ModernoCustom
+{
+    border-right: 1px solid #d1d1d1;
+}
+.dxscToolbar_ModernoCustom
+{
+    border: none;
+    background: #fafafa;
+    padding: 0px 14px;
+    height: 42px;
+}
+.dxscViewSelector_ModernoCustom
+{
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    border: none;
+    padding: 0px 7px;
+    background: #fafafa;
+    height: 42px;
+}
+.dxscResourceNavigator_ModernoCustom
+{
+    background: white;
+    padding: 7px 10px;
+    border: solid 1px #d1d1d1;
+}
+.dxscViewVisibleInterval_ModernoCustom
+{
+    color: #7e7e7e;
+    white-space: nowrap;
+}
+.dxscToolbarContainer_ModernoCustom .dxsc-adaptive-toolbar .dxsc-view-visible-interval-table
+{
+    min-width: 140px;
+}
+.dxscInplaceEditor_ModernoCustom
+{
+    background: #fafafa;
+    border: solid 2px black;
+    padding: 0;
+}
+.dxscControlAreaForm_ModernoCustom
+{
+    font-size: 1.14em;
+    color: black;
+    background-color: #f5ecf1;
+    border: none;
+    white-space: normal;
+    padding: 9px 12px;
+}
+.dxpcLite_ModernoCustom .dxscButtonTable,
+.dxpcLite_ModernoCustom .dxscAppointmentForm
+{
+    border-collapse: separate;
+    border-spacing: 8px;
+}
+.dxscErrorInfo_ModernoCustom
+{
+    background: #f1abab;
+    color: #853a3a;
+    padding: 10px;
+    border: solid 1px #8a0a37;
+    border-width: 1px 0;
+}
+/* Buttons */
+.dxscViewSelectorButton_ModernoCustom
+{
+    color: #2b2b2b;
+    padding: 5px 14px 6px;
+}
+.dxscViewSelectorButtonPressed_ModernoCustom
+{
+    background: #dcdcdc;
+    color: #2b2b2b;
+}
+.dxscViewSelector_ModernoCustom .dxmLite_ModernoCustom .dxm-main .dxm-item.dxm-hovered,
+.dxscViewSelectorButtonHover_ModernoCustom
+{
+    background: #1279c0;
+    color: white;
+    border-radius: 0px;
+}
+.dxscViewSelector_ModernoCustom .dxmLite_ModernoCustom .dxm-main .dxm-item.dxm-checked,
+.dxscViewSelectorButtonChecked_ModernoCustom
+{
+    background: #dcdcdc;
+    color: #2b2b2b;
+    border-radius: 0px;
+}
+.dxscViewSelector_ModernoCustom.dxscVSHorz .dxmLite_ModernoCustom .dxm-main.dxm-horizontal .dxm-item .dxm-content,
+.dxscViewSelector_ModernoCustom.dxscVSVert .dxmLite_ModernoCustom .dxm-main.dxm-vertical .dxm-item .dxm-content
+{
+    padding: 5px 14px 6px;
+}
+.dxscViewSelector_ModernoCustom.dxscVSHorz .dxmLite_ModernoCustom .dxm-main.dxm-horizontal .dxm-item .dxm-popOut
+{
+    padding: 6px 14px;
+}
+.dxscViewSelector_ModernoCustom .dxmLite_ModernoCustom .dxm-main .dxm-item
+{
+    border: none;
+}
+.dxscViewSelector_ModernoCustom.dxscVSVert .dxbButtonSys
+{
+    width: 100%;
+    text-align: left;
+}
+.dxscViewNavigatorButton_ModernoCustom
+{
+    padding: 4px 7px;
+    margin: 0 1px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+.dxscViewNavigatorGotoDateButton_ModernoCustom
+{
+    padding: 10px 7px !important;
+    margin: 0 1px;
+    border: 1px solid transparent !important;
+    border-radius: 0px;
+}
+.dxscViewNavigatorButtonHover_ModernoCustom,
+.dxscViewNavigatorGotoDateButtonHover_ModernoCustom
+{
+    border: 1px solid #0a67a8 !important;
+    background: #1d85cd;
+    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFEODVDRCIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDg2Q0IzIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K");
+    background: -ms-linear-gradient(top, #1d85cd 0%, #086cb3 100%);
+    background: -moz-linear-gradient(top, #1d85cd 0%, #086cb3 100%);
+    background: -o-linear-gradient(top, #1d85cd 0%, #086cb3 100%);
+    background: -webkit-linear-gradient(top, #1d85cd 0%, #086cb3 100%);
+    background: linear-gradient(to bottom, #1d85cd 0%, #086cb3 100%);
+    color: white;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.35), 0px 1px 3px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.35), 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxscViewNavigatorButton_ModernoCustom.dxscViewNavigatorGotoTodayButton,
+.dxscViewNavigatorButtonHover_ModernoCustom.dxscViewNavigatorGotoTodayButton,
+.dxscViewNavigatorButtonPressed_ModernoCustom.dxscViewNavigatorGotoTodayButton
+{
+    border: 0 !important;
+    background: none;
+    color: #045cad;
+    padding: 3px 7px 5px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.dxscViewNavigatorButtonHover_ModernoCustom.dxscViewNavigatorGotoTodayButton span
+{
+    text-decoration: underline !important;
+}
+.dxscResourceNavigatorButton_ModernoCustom,
+.dxscDVTopMoreButton_ModernoCustom,
+.dxscDVBottomMoreButton_ModernoCustom,
+.dxscNavigationButton_ModernoCustom
+{
+    border: 1px solid #c3c3c3;
+    padding: 9px 7px;
+    background: #eaeaea;
+    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFEODVDRCIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDg2Q0IzIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K");
+    background: -ms-linear-gradient(top, #eaeaea 0%, #dfdfdf 100%);
+    background: -moz-linear-gradient(top, #eaeaea 0%, #dfdfdf 100%);
+    background: -o-linear-gradient(top, #eaeaea 0%, #dfdfdf 100%);
+    background: -webkit-linear-gradient(top, #eaeaea 0%, #dfdfdf 100%);
+    background: linear-gradient(to bottom, #eaeaea 0%, #dfdfdf 100%);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.35), 0px 1px 3px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.35), 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxscResourceNavigatorButtonHover_ModernoCustom,
+.dxscDVTopMoreButtonHover_ModernoCustom,
+.dxscDVBottomMoreButtonHover_ModernoCustom,
+.dxscNavigationButtonHover_ModernoCustom
+{
+    border: 1px solid #0a67a8;
+    background: #1d85cd;
+    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFEODVDRCIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDg2Q0IzIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K");
+    background: -ms-linear-gradient(top, #1d85cd 0%, #086cb3 100%);
+    background: -moz-linear-gradient(top, #1d85cd 0%, #086cb3 100%);
+    background: -o-linear-gradient(top, #1d85cd 0%, #086cb3 100%);
+    background: -webkit-linear-gradient(top, #1d85cd 0%, #086cb3 100%);
+    background: linear-gradient(to bottom, #1d85cd 0%, #086cb3 100%);
+    color: white;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+.dxscResourceNavigatorButtonPressed_ModernoCustom,
+.dxscDVTopMoreButtonPressed_ModernoCustom,
+.dxscDVBottomMoreButtonPressed_ModernoCustom,
+.dxscNavigationButtonPressed_ModernoCustom
+{
+    color: #a7a7a7;
+    background: #dcdcdc;
+    border: 1px solid #cccccc;
+    box-shadow: inset 0px 1px 0px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(0,0,0,0.1);
+}
+.dxscResourceNavigatorDisabled_ModernoCustom,
+.dxscNavigationDisabled_ModernoCustom
+{
+    background: #e7e7e7;
+    color: #C3C3C3;
+    border-color: #d3d3d3;
+    cursor: default;
+}
+.dxscDVBottomMoreButton_ModernoCustom
+{
+    padding: 7px 7px 6px;
+}
+.dxscDVTopMoreButton_ModernoCustom
+{
+    padding: 6px 7px 7px;
+}
+.dxscNavigationButton_ModernoCustom
+{
+    padding: 7px 6px;
+}
+.dxscSmartTagButton_ModernoCustom
+{
+    border: solid 1px black;
+    background: #ffffee;
+    padding: 4px 5px;
+    cursor: pointer;
+}
+.dxscNoBorderButton_ModernoCustom
+{
+    background: none;
+    cursor: pointer;
+    border: solid 1px #c6dfff;
+}
+.dxscNoBorderButtonPressed_ModernoCustom,
+.dxscNoBorderButtonHover_ModernoCustom
+{
+    border-color: #ffbd69;
+}
+.dxscToolTipRoundedCornersTopBottomRow_ModernoCustom
+{
+    font-size: 0;
+}
+.dxscToolTipRoundedCornersTopSide_ModernoCustom
+{
+    border-top: 1px black solid;
+    vertical-align: bottom;
+    height: 1px;
+    background-color: #fafad2;
+}
+.dxscToolTipRoundedCornersLeftSide_ModernoCustom
+{
+    border-left: 1px black solid;
+    vertical-align: bottom;
+    background-color: #fafad2;
+}
+.dxscToolTipRoundedCornersRightSide_ModernoCustom
+{
+    border-right: 1px black solid;
+    vertical-align: bottom;
+    background-color: #fafad2;
+}
+.dxscToolTipRoundedCornersBottomSide_ModernoCustom
+{
+    border-bottom: 1px black solid;
+    vertical-align: bottom;
+    height: 1px;
+    background-color: #fafad2;
+}
+.dxscToolTipRoundedCornersContent_ModernoCustom
+{
+    background-color: #fafad2;
+    padding: 0;
+}
+.dxscToolTipSquaredCorners_ModernoCustom
+{
+    background: #f9f9cd;
+    padding: 1px 1px;
+    font-size: 0;
+    color: #303030;
+    white-space: nowrap;
+    border: solid 1px black;
+}
+.dxscTimeMarker_ModernoCustom
+{
+    top: -7px;
+}
+.dxscTimeMarkerLine_ModernoCustom
+{
+    top: -2px;
+    height: 13px;
+    font-size: 0;
+}
+.dxscTimeMarkerLineV_ModernoCustom
+{
+    position: absolute;
+    width: 1px;
+    font-size: 0;
+    border: 1px dashed #1279c0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    box-sizing: content-box;
+}
+.dxscTimeMarkerLineH_ModernoCustom
+{
+    position: absolute;
+    top: -2px;
+    height: 1px;
+    font-size: 0;
+    border: 1px dashed #1279c0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+.dxscHiddenContainer td.dxscTimeRulerHoursItem_ModernoCustom,
+.dxscHiddenContainer td.dxscTimeRulerMinuteItem_ModernoCustom,
+.dxscHiddenContainer td.dxscTimeCellBody_ModernoCustom
+{
+    height: 1px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-color: white;
+    background-color: white;
+}
+.dxscClientRendering td.dxscTimeCellBody_ModernoCustom:last-child,
+.dxscClientRendering td.dxscDateCellBody_ModernoCustom.dxscLastCell,
+.dxscRendererTable.dxscClientRendering td.dxscDayHeader_ModernoCustom:last-child,
+.dxscRendererTable.dxscClientRendering td.dxscDateCellHeader_ModernoCustom.dxscLastCell,
+.dxscClientRendering.dxscTimelineView td.dxscTimelineDateHeader_ModernoCustom:last-child,
+.dxscClientRendering.dxscTimelineView td.dxscTimelineCellBody_ModernoCustom:last-child,
+.dxscRendererTable.dxscClientRendering td.dxscHorizontalResourceHeader_ModernoCustom,
+.dxscHiddenContainer td.dxscGroupSeparatorVertical_ModernoCustom
+{
+    border-right-width: 0px;
+}
+.dxscRendererTable.dxscClientRendering td.dxscHorizontalResourceHeader_ModernoCustom,
+.dxscClientRendering.dxscDayView td.dxscLeftTopCorner_ModernoCustom,
+.dxscClientRendering.dxscWeekView td.dxscLeftTopCorner_ModernoCustom
+{
+    border-bottom-width: 0px;
+}
+.dxscRendererTable.dxscClientRendering td.dxscDateCellHeader_ModernoCustom,
+.dxscRendererTable.dxscClientRendering td.dxscDateCellHeader_ModernoCustom.dxscCompressed.dxscFirstCell,
+.dxscRendererTable.dxscClientRendering td.dxscTodayCellHeader_ModernoCustom.dxscCompressed.dxscFirstCell
+{
+    border-left-width: 0px;
+}
+.dxscRendererTable.dxscClientRendering td.dxscDateCellHeader_ModernoCustom.dxscCompressed,
+.dxscRendererTable.dxscClientRendering td.dxscTodayCellHeader_ModernoCustom.dxscCompressed
+{
+    border-left-width: 1px;
+}
+.dxscClientRendering.dxscDayView .dxscLeftTopCorner_ModernoCustom,
+.dxscClientRendering.dxscDayView .dxscHorizontalResourceHeader_ModernoCustom,
+.dxscClientRendering.dxscTimelineView .dxscVerticalResourceHeader_ModernoCustom.dxscFirstVerticalResourceHeader,
+.dxscClientRendering.dxscTimelineView .dxscTimelineDateHeader_ModernoCustom.dxscAlternateTimelineDateHeader_ModernoCustom,
+.dxscClientRendering.dxscTimelineView .dxscTimelineDateHeader_ModernoCustom
+{
+    border-top-width: 0px;
+}
+.dxscClientRendering.dxscTimelineView .dxscFirstScale .dxscTimelineDateHeader_ModernoCustom.dxscAlternateTimelineDateHeader_ModernoCustom,
+.dxscClientRendering.dxscTimelineView .dxscFirstScale .dxscTimelineDateHeader_ModernoCustom
+{
+    border-top-width: 1px;
+}
+.dxscAgendaView .dxscEmptyCell_ModernoCustom
+{
+    background-color: #FAFAFA;
+    height: 65px;
+    text-align: center;
+    color: #283b56;
+    font-size: 14px;
+}
+.dxscAgendaView .dxscDateCell_ModernoCustom,
+.dxscAgendaView .dxscDateRow_ModernoCustom,
+.dxscControl_ModernoCustom .dxsc-agenda-header-row,
+.dxscControl_ModernoCustom .dxsc-agenda-horizontal-header
+{
+    background-color: #FAFAFA;
+    border-bottom: solid 1px #d1d1d1;
+}
+.dxscAgendaView .dxscDateRow_ModernoCustom,
+.dxscAgendaView.dxsc-agenda-horizontal-layout .dxscAppointmentStatusCell_ModernoCustom
+{
+    border-left: none;
+}
+.dxscControl_ModernoCustom .dxsc-agenda-horizontal-header
+{
+    padding-top: 5px;
+}
+.dxscAgendaView .dxscAppointmentStatusCell_ModernoCustom
+{
+    border-left-color: #d1d1d1;
+    border-right-color: #d1d1d1;
+}
+.dxscControl_ModernoCustom .dxsc-agenda-compact-time-cell .dxsc-apt-time-table-wrapper
+{
+    border-right-color: #d1d1d1;
+    border-bottom-color: #d1d1d1;
+}
+.dxscControl_ModernoCustom .dxscAgendaView .dxsc-apt-status-cell,
+.dxscControl_ModernoCustom .dxscAgendaView .dxsc-agenda-apt > table,
+.dxscControl_ModernoCustom .dxsc-agenda-compact-time-cell .dxsc-apt-time-table-wrapper
+{
+    border-bottom: solid 1px #d1d1d1;
+}
+.dxscControl_ModernoCustom .dxsc-agenda-apt.dxsc-apt-no-status .dxsc-apt-start-arrow-cell
+{
+    border-left: 1px solid #d1d1d1;
+}
+.dxscControl_ModernoCustom .dxscDayScrollContainer,
+.dxscControl_ModernoCustom .dxscAgendaViewScrollContainer,
+.dxscControl_ModernoCustom .dxsc-timeline-scrollLimiter
+{
+    background: #fafafa;
+}
+.dxscControl_ModernoCustom .dxscAgendaView,
+.dxscControl_ModernoCustom .dxscDayScrollContent,
+.dxscControl_ModernoCustom .dxsc-timeline-horizontalContainer
+{
+    border-bottom: solid 1px #d1d1d1;
+}
+.dxscControl_ModernoCustom .dxsc-content-overflow .dxscAgendaView,
+.dxscControl_ModernoCustom .dxsc-content-overflow .dxscDayScrollContent,
+.dxscControl_ModernoCustom .dxsc-content-overflow .dxsc-timeline-horizontalContainer
+{
+    border-bottom-width: 0px;
+}
+.dxscControl_ModernoCustom .dxsc-scroll .dxscDayScrollBodyTable td:last-child
+{
+    border-right-width: 1px !important;
+}
+.dxscControl_ModernoCustom .dxscAgendaViewScrollContainer
+{
+    border-top: solid 1px #d1d1d1;
+}
+.dxscControl_ModernoCustom .dxsc-month-of-year,
+.dxscBorderSpacing .dxeBase_ModernoCustom.dxsc-reminder-form-apt-subject
+{
+    color: #7e7e7e;
+}
+.dxscBorderSpacing .dxeBase_ModernoCustom.dxsc-reminder-form-apt-subject
+{
+    font-size: 16px;
+}
+.dxscControl_ModernoCustom .dxsc-detailed-apt-tooltip .dxsc-dat-buttons-container .dxbButtonHover_ModernoCustom
+{
+    background: #1d85cd;
+}
+.dxscControl_ModernoCustom .dxsc-cell-touch-handle
+{
+    background-color: #1279c0;
+}
+.dxpcLite_ModernoCustom.dxsc-modal.dxsc-modal-appoinment
+{
+    min-width: 350px;
+    max-width: 900px;
+}
+.dxpcLite_ModernoCustom.dxsc-modal.dxsc-modal-reminder
+{
+    max-width: 600px;
+    min-width: 200px;
+}
+.dxpcLite_ModernoCustom.dxsc-modal.dxsc-modal-recur-apt-action
+{
+    max-width: 420px;
+    min-width: 200px;
+}
+.dxpcLite_ModernoCustom.dxsc-modal.dxsc-modal-goto-date
+{
+    max-width: 380px;
+    min-width: 170px;
+}
+.dxsc-dialog.dxsc-dialog-goto-date div.dxflFormLayout_ModernoCustom .dialog-lgc.dialog-group-ButtonsGroup > .dialog-lgb > .dialog-lg,
+.dxsc-dialog.dxsc-dialog-recur-apt-action div.dxflFormLayout_ModernoCustom .dialog-lgc.dialog-group-ButtonsGroup > .dialog-lgb > .dialog-lg,
+.dxsc-dialog div.dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-group-Recurrence > .dialog-lgb,
+.dxsc-dialog div.dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-flow-container-RecurrenceViewModelEndDateGroup .dialog-lg,
+.dxsc-dialog div.dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-flow-container-EndDateGroup .dialog-lg,
+.dxsc-dialog.dxsc-dialog-appoinment > .dxflFormLayout_ModernoCustom:not(.dialog-singlecolumn) .dialog-lgc.dialog-group-ButtonsGroup > .dialog-lgb > .dialog-lg
+{
+    border-color: #DCDCDC;
+}
+.dxsc-dialog-appoinment div.dxflFormLayout_ModernoCustom .dialog-group-Recurrence > .dialog-lg,
+.dxsc-dialog-appoinment div.dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-group-RecurrenceViewModelEndDateGroup .dialog-lgb > .dialog-lg > div,
+.dxsc-dialog-appoinment div.dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-flow-container-IsRecurring,
+.dxmodalSys .dxsc-dialog-appoinment div.dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-flow-container-RecurrenceViewModelRecurrenceGroup .dialog-group-RecurrenceViewModelRecurrenceGroup,
+.dxsc-dialog div.dxflFormLayout_ModernoCustom > .dialog-lg > div:not(.dialog-flow-container-ButtonsGroup)
+{
+    padding: 0px;
+}
+.dxsc-dialog-appoinment div.dxflFormLayout_ModernoCustom:not(.dialog-singlecolumn) .dialog-flow-container-ButtonsGroup
+{
+    margin-top: 4px;
+}
+.dxsc-dialog-appoinment div.dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-lgc .dialog-item-Description
+{
+    padding-top: 10px;
+}
+.dxsc-dialog div.dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-lgb .dialog-lg .dialog-item-IsRecurring
+{
+    padding-bottom: 12px;
+}
+.dxsc-dialog div.dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-group-Recurrence > .dialog-lgb
+{
+    margin-top: 10px;
+}
+.dxsc-dialog div.dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-flow-container-RecurrenceViewModelRecurrenceGroup
+{
+    margin-bottom: 18px;
+}
+.dxmodalSys .dxsc-dialog .dxflGroup_ModernoCustom > .dxflChildInLastRowSys > .dxflGroupCell_ModernoCustom > .dxflGroupBox_ModernoCustom
+{
+    padding-bottom: 0px;
+}
+.dxmodalSys .dxsc-dialog .dxflGroupBox_ModernoCustom > .dxflGroup_ModernoCustom > .dxflChildInFirstRowSys > .dxflGroupCell_ModernoCustom > .dxflItem_ModernoCustom
+{
+    padding-top: 10px;
+}
+.dxsc-dialog div.dxflFormLayout_ModernoCustom .dialog-flow-container-ButtonsGroup .dialog-lgb > .dialog-lg .dialog-lgc
+{
+    padding: 12px 10px 12px 0;
+}
+.dxmodalSys div.dialog-container div.dxflFormLayout_ModernoCustom .dialog-linc.buttons .dialog-control-wrapper
+{
+    margin-left: 10px;
+}
+.dxsc-dialog div.dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-item-IsAllDay .dxflCaptionCellSys,
+.dxsc-dialog div.dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-item-IsRecurring .dxflCaptionCellSys
+{
+    padding: 11px 0 13px 0;
+}
+.dxsc-dialog div.dxflFormLayout_ModernoCustom .dialog-item-IsAllDay .dialog-aspxcheckbox,
+.dxsc-dialog div.dxflFormLayout_ModernoCustom .dialog-item-IsRecurring .dialog-aspxcheckbox
+{
+    padding-top: 9px;
+}
+.dxsc-dialog div.dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-item-IsAllDay .dialog-aspxcheckbox,
+.dxsc-dialog div.dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-item-IsRecurring .dialog-aspxcheckbox
+{
+    padding-top: 9px;
+}
+.dxmodalSys .dxsc-dialog.dialog-container div.dxflFormLayout_ModernoCustom .dialog-lgb .dialog-lg .dialog-item-IsRecurring
+{
+    padding-bottom: 1px;
+    padding-top: 0px;
+}
+.dxmodalSys .dxsc-dialog.dialog-container div.dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-lgb .dialog-lg .dialog-item-IsAllDay .dxToggle,
+.dxmodalSys .dxsc-dialog.dialog-container div.dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-lgb .dialog-lg .dialog-item-IsRecurring .dxToggle
+{
+    margin-top: 2px;
+}
+.dxmodalSys .dxsc-dialog .dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-flow-container-RecurrenceViewModelDailyRecurrenceDaysCount,
+.dxmodalSys .dxsc-dialog .dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-flow-container-RecurrenceViewModelMonthlyRecurrenceDay,
+.dxmodalSys .dxsc-dialog .dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-flow-container-RecurrenceViewModelMonthlyRecurrenceWeekOfMonth,
+.dxmodalSys .dxsc-dialog .dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-flow-container-RecurrenceViewModelYearlyRecurrenceWeekDaysMonth,
+.dxmodalSys .dxsc-dialog .dxflFormLayout_ModernoCustom.dialog-singlecolumn .dialog-flow-container-RecurrenceViewModelYearlyRecurrenceWeekOfMonth,
+.dxsc-dialog .dxflFormLayout_ModernoCustom .dialog-flow-container-SnoozeTimeSpanCaption
+{
+    padding-top: 6px;
+}
+.dxmodalSys .dxsc-dialog .dxeRadioButtonList_ModernoCustom td.dxe
+{
+    padding: 16px 0 0px 18px;
+}
+.dxmodalSys .dxsc-dialog .dxflFormLayout_ModernoCustom .dialog-flow-container-Action > .dialog-lgc > .dialog-item-Action
+{
+    padding-bottom: 0px;
+}

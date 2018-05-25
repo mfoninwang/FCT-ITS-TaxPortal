@@ -1,0 +1,609 @@
+.dxcvControl_MaterialCompactCustom,
+.dxcvDisabled_MaterialCompactCustom
+{
+    font: 14px 'Roboto Regular', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    background-color: White;
+    color: #000000;
+    cursor: default;
+}
+.dxcvDisabled_MaterialCompactCustom
+{
+    color: #b8b8b8;
+}
+.dxcvControl_MaterialCompactCustom a
+{
+    color: #35B86B;
+    text-decoration: none;
+}
+.dxcvControl_MaterialCompactCustom a:hover
+{
+    text-decoration: underline;
+}
+.dxcvControl_MaterialCompactCustom a:hover.dxbDisabled_MaterialCompactCustom
+{
+    color: #BBBBBB;
+    text-decoration: none;
+}
+.dxcvDisabled_MaterialCompactCustom a
+{
+    color: #b8b8b8;
+}
+.dxcvLoadingPanel_MaterialCompactCustom
+{
+    background-color: white;
+    font: 14px 'Roboto Regular', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    color: #484848;
+    -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+}
+.dxcvLoadingPanel_MaterialCompactCustom td.dx
+{
+    font-size: 1.17em;
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px 14px;
+}
+.dxcvLoadingPanel_MaterialCompactCustom .dxlp-loadingImage
+{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+    animation: dxLoadSpinSys 1s linear infinite;
+    border: 4px solid #35B86B;
+    border-top: 4px solid #EEE;
+    width: 24px;
+    height: 24px;
+}
+html.dxIE.dxBrowserVersion-9 .dxcvLoadingPanel_MaterialCompactCustom .dxlp-loadingImage
+{
+    background-image: url('../Web/Loading.gif');
+    height: 32px;
+    width: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: none;
+    border: none;
+    border-radius: 0;
+}
+.dxcvLoadingPanelStatusBar_MaterialCompactCustom .dxlp-loadingImage
+{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+    animation: dxLoadSpinSys 1s linear infinite;
+    border: 2px solid #35B86B;
+    border-top: 2px solid #EEE;
+    width: 16px;
+    height: 16px;
+}
+html.dxIE.dxBrowserVersion-9 .dxcvLoadingPanelStatusBar_MaterialCompactCustom .dxlp-loadingImage
+{
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: none;
+    border: none;
+    border-radius: 0;
+    background-image: url('cvLoadingOnStatusBar.gif');
+    height: 20px;
+    width: 20px;
+}
+.dxcvLoadingPanelStatusBar_MaterialCompactCustom
+{
+    background-color: Transparent;
+}
+.dxcvLoadingPanelStatusBar_MaterialCompactCustom td
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 0px 2px;
+}
+.dxcvTable_MaterialCompactCustom
+{
+    background-color: #f4f4f4;
+    border-width: 0;
+    border-collapse: separate !important;
+    overflow: hidden;
+    padding: 8px 8px 8px 8px;
+    border: 1px solid #DFDFDF;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.dxcvHeaderPanel_MaterialCompactCustom + .dxcvTable_MaterialCompactCustom
+{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.dxcvControl_MaterialCompactCustom .dxcvCSD .dxcvTable_MaterialCompactCustom
+{
+    border-bottom-width: 0;
+}
+.dxcvControl_MaterialCompactCustom .dxcvCSD
+{
+    border-bottom: 1px solid #DFDFDF;
+}
+.dxcvHeader_MaterialCompactCustom
+{
+    cursor: pointer;
+    border: 1px solid #DFDFDF;
+    white-space: nowrap;
+    padding: 7px 12px 7px;
+    background-color: white;
+    overflow: hidden;
+    font-weight: normal;
+    font: 14px 'Roboto Medium', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    font-size: 1em;
+    text-align: left;
+}
+.dxcvHeader_MaterialCompactCustom td
+{
+    white-space: nowrap;
+}
+.dxcvHeader_MaterialCompactCustom a
+{
+    color: #35B86B;
+}
+.dxcvHeader_MaterialCompactCustom a.dxcvCommandItem_MaterialCompactCustom
+{
+    margin: 0 5px 0 0;
+    color: #35B86B;
+}
+.dxcvCard_MaterialCompactCustom .dxflHARSys.dxflGroupCell_MaterialCompactCustom .dxflCommandItemSys,
+.dxcvFlowCard_MaterialCompactCustom .dxflHARSys.dxflGroupCell_MaterialCompactCustom .dxflCommandItemSys
+{
+    margin-right: -5px;
+}
+.dxcvCard_MaterialCompactCustom .dxflViewFormLayoutSys .dxflGroupCell_MaterialCompactCustom .dxflCommandItemSys,
+.dxcvFlowCard_MaterialCompactCustom .dxflViewFormLayoutSys .dxflGroupCell_MaterialCompactCustom .dxflCommandItemSys
+{
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+.dxcvEditForm_MaterialCompactCustom .dxflFormLayout_MaterialCompactCustom .dxflCommandItemSys,
+.dxcvPopupEditForm_MaterialCompactCustom .dxflFormLayout_MaterialCompactCustom .dxflCommandItemSys
+{
+    padding-top: 22px;
+    padding-bottom: 0;
+}
+.dxcvEditForm_MaterialCompactCustom .dxflFormLayout_MaterialCompactCustom .dxflCommandItemSys a,
+.dxcvPopupEditForm_MaterialCompactCustom .dxflFormLayout_MaterialCompactCustom .dxflCommandItemSys a
+{
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 8px 16px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+.dxcvEditForm_MaterialCompactCustom .dxflFormLayout_MaterialCompactCustom .dxflCommandItemSys a:hover,
+.dxcvPopupEditForm_MaterialCompactCustom .dxflFormLayout_MaterialCompactCustom .dxflCommandItemSys a:hover
+{
+    background-color: #d1d1d1;
+    text-decoration: none;
+}
+.dxcvPopupEditForm_MaterialCompactCustom
+{
+    padding: 4px;
+    margin: 0;
+}
+.dxcvControl_MaterialCompactCustom .dxpcLite_MaterialCompactCustom
+{
+    -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+}
+.dxcvControl_MaterialCompactCustom .dxpcLite_MaterialCompactCustom .dxpc-mainDiv.dxpc-hf
+{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.dxcvCustomization_MaterialCompactCustom
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 10px 10px 10px;
+    min-width: 220px;
+}
+.dxcvCustomization_MaterialCompactCustom .dxcvHeader_MaterialCompactCustom
+{
+    padding: 10px;
+    background-color: white;
+    color: #484848;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.1);
+}
+.dxcvTitlePanel_MaterialCompactCustom,
+.dxcvTable_MaterialCompactCustom caption
+{
+    font-size: 1.25em;
+    font-weight: normal;
+    padding: 21px 3px 5px;
+    text-align: center;
+    color: #999999;
+}
+.dxcvStatusBar_MaterialCompactCustom
+{
+    border-top: 1px Solid #e5e5e5;
+}
+.dxcvStatusBar_MaterialCompactCustom tr.dxcv
+{
+    height: 20px;
+}
+.dxcvStatusBar_MaterialCompactCustom tr.dxcv > td
+{
+    padding: 24px;
+}
+.dxcvStatusBar_MaterialCompactCustom tr.dxcv span .dxbButtonSys:first-child
+{
+    margin-left: 20px;
+}
+a.dxcvCommandItem_MaterialCompactCustom
+{
+    margin: 0 5px 0 0;
+    color: #35B86B;
+}
+.dxbButton_MaterialCompactCustom[class~="dxcvCommandItem_MaterialCompactCustom"],
+.dxcvEditFormTable_MaterialCompactCustom div.dxbButton_MaterialCompactCustom
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.dxbButton_MaterialCompactCustom[class~="dxcvCommandItem_MaterialCompactCustom"] .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.dxcvCard_MaterialCompactCustom .dxflCommandItemSys .dxichSys,
+.dxcvFlowCard_MaterialCompactCustom .dxflCommandItemSys .dxichSys
+{
+    margin: -1px 10px 1px 1px;
+}
+.dxcvPagerTopPanel_MaterialCompactCustom,
+.dxcvPagerBottomPanel_MaterialCompactCustom
+{
+    padding: 3px 0 1px;
+}
+.dxcvPagerBottomPanel_MaterialCompactCustom
+{
+    background-color: white;
+    border-bottom: 1px solid #DFDFDF;
+    border-left: 1px solid #DFDFDF;
+    border-right: 1px solid #DFDFDF;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+.dxcvFilterBar_MaterialCompactCustom
+{
+    margin-top: 16px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.1);
+    border-radius: 4px;
+    border: 1px solid #DFDFDF;
+    border-collapse: separate;
+}
+.dxcvFilterBar_MaterialCompactCustom a
+{
+    color: #35B86B;
+    text-decoration: none;
+}
+.dxcvFilterBar_MaterialCompactCustom a:hover
+{
+    text-decoration: underline;
+}
+.dxcvFilterBar_MaterialCompactCustom > tbody > tr > td
+{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.dxcvFilterBarCheckBoxCell_MaterialCompactCustom
+{
+    padding-left: 8px;
+}
+*[dir="rtl"] .dxcvFilterBarCheckBoxCell_MaterialCompactCustom
+{
+    padding-right: 8px;
+}
+.dxcvFilterBarImageCell_MaterialCompactCustom
+{
+    padding: 0 8px 0 20px;
+    cursor: pointer;
+}
+*[dir="rtl"] .dxcvFilterBarImageCell_MaterialCompactCustom
+{
+    padding: 0 20px 0 8px;
+}
+.dxcvFilterBarExpressionCell_MaterialCompactCustom
+{
+    padding: 5px 5px 8px 0;
+    white-space: nowrap;
+}
+.dxcvFilterBarClearButtonCell_MaterialCompactCustom
+{
+    padding: 5px 20px 8px 6px;
+}
+*[dir="rtl"] .dxcvFilterBarClearButtonCell_MaterialCompactCustom
+{
+    padding: 5px 6px 8px 20px;
+}
+.dxcvFilterBuilderMainArea_MaterialCompactCustom
+{
+    background: white none;
+    padding: 6px 2px;
+}
+.dxcvFilterBuilderButtonArea_MaterialCompactCustom
+{
+    border-top: 1px solid #eaeaea;
+    padding: 10px;
+    white-space: nowrap;
+}
+.dxcvFilterBuilderButtonArea_MaterialCompactCustom .dxbButton_MaterialCompactCustom
+{
+    margin-left: 8px;
+}
+.dxcvControl_MaterialCompactCustom .dxpLite_MaterialCompactCustom,
+.dxcvDisabled_MaterialCompactCustom .dxpLite_MaterialCompactCustom
+{
+    padding-top: 4px;
+}
+.dxcvControl_MaterialCompactCustom div[id$='DXEPLPC']
+{
+    height: 53px;
+}
+.dxcvControl_MaterialCompactCustom .dxcvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxcvControl_MaterialCompactCustom .dxcvHFDRC
+{
+    margin: 15px 15px 25px;
+}
+.dxcvControl_MaterialCompactCustom .dxcvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxcvControl_MaterialCompactCustom .dxcvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxcvControl_MaterialCompactCustom .dxcvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 25px;
+}
+/* Removes flicking in iOS Safari*/
+.dxcvTable_MaterialCompactCustom
+{
+    -webkit-tap-highlight-color: transparent;
+}
+.dxcvSearchPanel_MaterialCompactCustom
+{
+    padding: 7px 0 16px;
+}
+.dxcvSearchPanel_MaterialCompactCustom > table
+{
+    width: 100%;
+}
+.dxcvSearchPanel_MaterialCompactCustom .dxeButtonEdit_MaterialCompactCustom
+{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.1);
+    width: 100%;
+}
+.dxcvSearchPanel_MaterialCompactCustom .dxeButtonEdit_MaterialCompactCustom,
+.dxcvSearchPanel_MaterialCompactCustom .dxeButtonEdit_MaterialCompactCustom input
+{
+    background-color: #FAFAFA;
+}
+.dxcvSearchPanel_MaterialCompactCustom .dxeButtonEdit_MaterialCompactCustom td.dxic
+{
+    padding: 13px 8px 14px 12px;
+}
+*[dir="rtl"] .dxcvSearchPanel_MaterialCompactCustom .dxeButtonEdit_MaterialCompactCustom td.dxic
+{
+    padding: 13px 12px 14px 8px;
+}
+.dxcvControl_MaterialCompactCustom .dxcvSearchPanel_MaterialCompactCustom .dxbButton_MaterialCompactCustom
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxcvControl_MaterialCompactCustom .dxcvSearchPanel_MaterialCompactCustom .dxbButton_MaterialCompactCustom
+{
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxcvControl_MaterialCompactCustom .dxcvHL
+{
+    background: #35B86B;
+    color: white;
+    font-weight: bold;
+    font-style: normal;
+}
+.dxcvCard_MaterialCompactCustom,
+.dxcvFlowCard_MaterialCompactCustom,
+.dxcvEmptyCard_MaterialCompactCustom,
+.dxcvEmptyHiddenCard_MaterialCompactCustom
+{
+    width: 250px;
+    height: 200px;
+    padding: 0 2px 18px;
+    vertical-align: top;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+}
+.dxcvCard_MaterialCompactCustom,
+.dxcvFlowCard_MaterialCompactCustom,
+.dxcvEmptyCard_MaterialCompactCustom
+{
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    background-color: White;
+    color: #262626;
+    outline: none;
+}
+.dxcvEmptyCard_MaterialCompactCustom
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.dxcvEmptyHiddenCard_MaterialCompactCustom
+{
+    border: 1px solid transparent;
+    background-color: transparent;
+    box-shadow: none;
+}
+.dxcvFlowCard_MaterialCompactCustom,
+div.dxcvEmptyCard_MaterialCompactCustom
+{
+    display: inline-block;
+    margin: 8px 0 0 8px;
+    overflow: hidden;
+}
+.dxcvSelectedCard_MaterialCompactCustom,
+.dxcvFocusedCard_MaterialCompactCustom
+{
+    box-shadow: inset 0 -3px 0 #35B86B, 0 2px 4px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.dxcvCardHover_MaterialCompactCustom
+{
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+}
+.dxcvCard_MaterialCompactCustom .dxflCaption_MaterialCompactCustom,
+.dxcvFlowCard_MaterialCompactCustom .dxflCaption_MaterialCompactCustom
+{
+    color: #7F7F7F;
+}
+.dxcvCard_MaterialCompactCustom .dxflViewFormLayoutSys .dxflCommandItemSys,
+.dxcvFlowCard_MaterialCompactCustom .dxflViewFormLayoutSys .dxflCommandItemSys
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.dxcvCard_MaterialCompactCustom .dxflViewFormLayoutSys
+{
+    color: inherit;
+}
+.dxcvHeaderPanel_MaterialCompactCustom
+{
+    border: 1px solid #DFDFDF;
+    border-bottom-width: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 4px 8px 4px 8px;
+}
+div.dxcvHeader_MaterialCompactCustom
+{
+    display: inline-block;
+    margin-right: 8px;
+    margin-top: 4px;
+}
+.dxcvSummaryPanel_MaterialCompactCustom
+{
+    border: 1px solid #DFDFDF;
+    background-color: #f4f4f4;
+    color: #8e8e93;
+    padding: 5px 21px 4px;
+    border-top-width: 0;
+}
+.dxcvSummaryItem_MaterialCompactCustom
+{
+    display: inline-block;
+    margin: 5px 8px 5px 0;
+}
+.dxcvControl_MaterialCompactCustom .dxcvSeparator_MaterialCompactCustom,
+.dxcvControl_MaterialCompactCustom .dxcvSeparator_MaterialCompactCustom div
+{
+    width: 8px;
+    height: 8px;
+}
+.dxcvControl_MaterialCompactCustom td.dxcvBatchEditCell_MaterialCompactCustom
+{
+    padding: 0;
+    outline-width: 0 !important;
+}
+.dxcvControl_MaterialCompactCustom .dxcvBatchEditModifiedCell_MaterialCompactCustom
+{
+    background: #d7f9c7;
+    outline-style: solid;
+    outline-color: #d7f9c7;
+    outline-width: 2px;
+}
+.dxcvBatchEditDeletedItem_MaterialCompactCustom,
+.dxcvBatchEditDeletedItem_MaterialCompactCustom.dxcvBatchEditNewItem_MaterialCompactCustom
+{
+    background: #F8F8F8;
+}
+.dxcvBatchEditDeletedItem_MaterialCompactCustom td:not(.dxcvCommandColumn_MaterialCompactCustom),
+.dxcvControl_MaterialCompactCustom .dxcvBatchEditDeletedItem_MaterialCompactCustom .dxflCaptionCell_MaterialCompactCustom .dxflCaption_MaterialCompactCustom
+{
+    color: rgba(0,0,0,0.5) !important;
+}
+.dxcvBatchEditDeletedItem_MaterialCompactCustom td.dxcvBatchEditModifiedCell_MaterialCompactCustom
+{
+    background-color: #eefbe7;
+    outline-style: none;
+}
+.dxcvBatchEditNewItem_MaterialCompactCustom
+{
+    background: #F0FAEA;
+}
+.dxcvControl_MaterialCompactCustom .dxcvErrorCell
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxcvControl_MaterialCompactCustom .dxcvErrorCell img
+{
+    margin: -3px 0;
+}
+.dxcvStatusBar_MaterialCompactCustom .dxbButton_MaterialCompactCustom
+{
+    margin-right: 10px;
+}
+.dxcvControl_MaterialCompactCustom td.dxcvBatchEditCell_MaterialCompactCustom .dxichCellSys
+{
+    padding-left: 0;
+}
+.dxcvControl_MaterialCompactCustom .dxcvEMBC
+{
+    background: white;
+    text-align: center;
+    padding: 17px 20px 20px;
+}
+.dxcvCardError_MaterialCompactCustom
+{
+    background-color: #FFC8C8;
+    border-top: 1px solid #C0C0C0;
+    color: #FF0000;
+    padding: 6px 13px;
+}
+.dxcvFocusedCell_MaterialCompactCustom
+{
+    box-shadow: inset 2px 2px 0 #dfdfdf, inset -2px -2px 0 #dfdfdf;
+    -webkit-box-shadow: inset 2px 2px 0 #dfdfdf, inset -2px -2px 0 #dfdfdf;
+    -moz-box-shadow: inset 2px 2px 0 #dfdfdf, inset -2px -2px 0 #dfdfdf;
+}
+/* Ripple */
+.dxcvControl_MaterialCompactCustom .dxcvHeaderPanel_MaterialCompactCustom .dxcvHeader_MaterialCompactCustom::before,
+.dxcvControl_MaterialCompactCustom .dxcvCustomization_MaterialCompactCustom .dxcvHeader_MaterialCompactCustom::before
+{
+    content: "dxRippleTarget";
+    display: none;
+}

@@ -36,11 +36,9 @@ namespace TAAPs.Assessment
 
         private void ClearItem(LayoutItemBase item)
         {
-            var layoutItem = item as LayoutItem;
-            if (layoutItem != null)
+            if (item is LayoutItem layoutItem)
             {
-                var editBase = layoutItem.GetNestedControl() as ASPxEditBase;
-                if (editBase != null)
+                if (layoutItem.GetNestedControl() is ASPxEditBase editBase)
                 {
                     editBase.Value = string.Empty;
                 }
@@ -65,7 +63,7 @@ namespace TAAPs.Assessment
             catch (Exception ex)
             {
                 string error = ex.Message;
-                DisplayAlert(ex.Message);
+                DisplayAlert("Danger", "Assessment" ,ex.Message);
             }
         }
 
@@ -78,7 +76,7 @@ namespace TAAPs.Assessment
 
             _context.SaveChanges();
 
-            DisplayAlert("Assessment Record Updated Successfully.");
+            DisplayAlert("Success", "Assessment", "Assessment Record Updated Successfully.");
         }
 
         private void SetTabEnableProperty(bool value)
@@ -137,7 +135,7 @@ namespace TAAPs.Assessment
             _context.SaveChanges();
             IsNew = false;
 
-            DisplayAlert("Assessment Record Created Successfully");
+            DisplayAlert("Success", "Assessment","Assessment Record Created Successfully");
 
             ASPxTextAssessmentNo.Text = _Iassessment.AssessmentId.ToString();
             edsAttachments.WhereParameters[0].DefaultValue = ASPxTextAssessmentNo.Text;
@@ -179,8 +177,8 @@ namespace TAAPs.Assessment
             var incomedata = from income in _context.IAssessmentIncomes.Where(a => a.AssessmentId == assessmentNo && a.Amount > 0)
                              select new
                              {
-                                 IncomeDescription = income.TaxIncome.IncomeDescription,
-                                 Amount = income.Amount
+                                 income.TaxIncome.IncomeDescription,
+                                 income.Amount
                              };
             ASPxgvIncome.DataSource = incomedata.ToList();
             ASPxgvIncome.DataBind();
@@ -188,8 +186,8 @@ namespace TAAPs.Assessment
             var exemptdata = from exempt in _context.IAssessmentExclusions.Where(a => a.AssessmentId == assessmentNo && a.Amount > 0)
                              select new
                              {
-                                 Description = exempt.TaxExclusion.ExclusionName,
-                                 Amount = exempt.Amount
+                                 exempt.TaxExclusion.ExclusionName,
+                                 exempt.Amount
                              };
             ASPxgvExempt.DataSource = exemptdata.ToList();
             ASPxgvExempt.DataBind();

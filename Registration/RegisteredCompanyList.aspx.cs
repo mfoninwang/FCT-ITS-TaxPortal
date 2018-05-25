@@ -16,7 +16,7 @@ namespace TAAPs.Registration
 
         protected void esmdsRegisteredCompanies_Selecting(object sender, DevExpress.Data.Linq.LinqServerModeDataSourceSelectEventArgs e)
         {
-           e.KeyExpression = "RCNo";          
+           e.KeyExpression = "CacNumber";          
         }
     }
 }

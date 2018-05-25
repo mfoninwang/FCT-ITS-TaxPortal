@@ -11,30 +11,29 @@ namespace TAAPs
     public partial class mainLayout : System.Web.UI.MasterPage
     {
         TAAPsDBContext context = new TAAPsDBContext();
-        public List<RoleResource> _resources = new List<RoleResource>();
+        protected List<RoleResource> resources = new List<RoleResource>();
+        private User user;
+
+        protected User CurrentUser { get => user; set => user = value; }
 
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["User"] != null)
             {
-                User _user = (User)Session["User"];
+                user = (User)Session["User"];
 
-                int _roleId = _user.RoleId;
-                LoadResources(_roleId);
-
-                //    lblLoggedInUser.Text = string.Concat(_user.FirstName, " ", _user.LastName);
-                //    lblUserTaxOffice.Text = string.Concat(_user.Role.RoleName, " - ", string.IsNullOrEmpty(_user.TaxOfficeId) ? _user.TaxOfficeRegion.RegionName : _user.TaxOffice.TaxOfficeName);
+                int roleId = user.RoleId;
+                LoadResources(roleId);
             }
         }
 
-        private void LoadResources(int RoleId)
+        private void LoadResources(int roleId)
         {
-
             var value = from r in context.RoleResources
-                        where r.RoleId == RoleId && r.Resource.Url != null
+                        where r.RoleId == roleId && r.Resource.Url != null
                         select r;
 
-            _resources = value.ToList();
+            resources = value.ToList();
         }
 
         protected void Logout_ServerClick(object sender, EventArgs e)

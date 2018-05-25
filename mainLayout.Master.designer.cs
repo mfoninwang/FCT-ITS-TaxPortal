@@ -22,6 +22,15 @@ namespace TAAPs {
         protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
         
         /// <summary>
+        /// form1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        
+        /// <summary>
         /// contentTitle control.
         /// </summary>
         /// <remarks>
@@ -40,13 +49,13 @@ namespace TAAPs {
         protected global::System.Web.UI.WebControls.ContentPlaceHolder contentSubTitle;
         
         /// <summary>
-        /// form1 control.
+        /// panelHeading control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder panelHeading;
         
         /// <summary>
         /// contentBody control.

@@ -16,10 +16,9 @@ namespace TAAPs.Model
     {
         public BusinessLine()
         {
-            this.TaxAgents2 = new HashSet<CorporateTaxpayer>();
             this.ITaxpayers = new HashSet<ITaxpayer>();
             this.CTINRequests = new HashSet<CTINRequest>();
-            this.ITINRequests = new HashSet<ITINRequest>();
+            this.CTaxpayers = new HashSet<CTaxpayer>();
         }
     
         public string BusinessLineId { get; set; }
@@ -27,9 +26,8 @@ namespace TAAPs.Model
         public string BusinessLineName { get; set; }
     
         public virtual BusinessLineGroup BusinessLineGroup { get; set; }
-        public virtual ICollection<CorporateTaxpayer> TaxAgents2 { get; set; }
         public virtual ICollection<ITaxpayer> ITaxpayers { get; set; }
         public virtual ICollection<CTINRequest> CTINRequests { get; set; }
-        public virtual ICollection<ITINRequest> ITINRequests { get; set; }
+        public virtual ICollection<CTaxpayer> CTaxpayers { get; set; }
     }
 }

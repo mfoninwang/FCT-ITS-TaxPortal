@@ -1,0 +1,737 @@
+.dxreControl_Office2010Silver
+{
+    border: solid 1px #868b91;
+    font: 11px Verdana, Geneva, sans-serif;
+}
+.dxreControl_Office2010Silver .dxreTableBorderLine
+{
+    background-color: #599eff;
+}
+.dxreControl_Office2010Silver .dxrePage
+{
+    border: 1px solid #808080;
+}
+.dxreControl_Office2010Silver .dxreView
+{
+    background-color: #f1f1f1;
+}
+.dxreControl_Office2010Silver .dxflFormLayout_Office2010Silver .dxre-editorsGroupWithPaddings
+{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.dxreControl_Office2010Silver .dxrControl_Office2010Silver .dxr-minBtn
+{
+    padding-right: 7px;
+}
+.dxreControl_Office2010Silver .dxrControl_Office2010Silver .dxtcLite_Office2010Silver
+{
+    background: #e9edf1;
+}
+.dxreControl_Office2010Silver .dxrControl_Office2010Silver .dxtcLite_Office2010Silver.dxtc-top .dxtc-leftIndent
+{
+    width: 3px;
+}
+.dxreControl_Office2010Silver .dxrControl_Office2010Silver .dxr-tabContent
+{
+    border-left-style: none;
+    border-right-style: none;
+}
+.dxrControl_Office2010Silver .dxreRibbonCBSmall
+{
+    width: 60px;
+}
+.dxrControl_Office2010Silver .dxreRibbonCBLarge
+{
+    width: 140px;
+}
+.dxrControl_Office2010Silver .dxreRibbonCBMiddle
+{
+    width: 100px;
+}
+.dxrControl_Office2010Silver .dxreRibbonSE
+{
+    width: 70px;
+}
+.dxreControl_Office2010Silver .dxreRulerWrapper
+{
+    padding-top: 2px;
+    background-color: #f1f1f1;
+}
+.dxreControl_Office2010Silver .dxreRulerWrapper .dxre-rulertabAlignBox
+{
+    background-color: #d3d3d3;
+}
+.dxreControl_Office2010Silver .dxreRulerWrapper .dxre-rulertabAlignBox > div
+{
+    background-color: #fff;
+}
+.dxreControl_Office2010Silver .dxreRulerLine
+{
+    border-left: 1px dashed #717171;
+}
+.dxreControl_Office2010Silver .dxreRulerLine.table
+{
+    border-left: 1px solid #599eff;
+}
+.dxreControl_Office2010Silver .dxreRuler .dxre-columnHandleLeftPart,
+.dxreControl_Office2010Silver .dxreRuler .dxre-columnHandleRightPart
+{
+    width: 5px;
+    background-color: #bcb8b8;
+}
+.dxreControl_Office2010Silver .dxreRuler .dxre-rulerTableColumnSeparatorHandle
+{
+    height: 12px;
+    background-color: #d3d3d3;
+}
+.dxreControl_Office2010Silver .dxreRuler .dxre-rulerTableColumnSeparatorHandle > div
+{
+    margin-top: 2px;
+}
+.dxreControl_Office2010Silver .dxreRuler .dxre-rulerDivisions
+{
+    height: 12px;
+    background-color: #fff;
+}
+.dxreControl_Office2010Silver .dxreRuler .dxre-rulerDivisions div
+{
+    height: 12px;
+}
+.dxreControl_Office2010Silver .dxreRuler .dxre-rulerDivisions .dxre-rulerMinorDivision,
+.dxreControl_Office2010Silver .dxreRuler .dxre-rulerDivisions .dxre-rulerMajorDivision
+{
+    border-left: 1px solid #a3a3a3;
+}
+.dxreControl_Office2010Silver .dxreRuler .dxre-rulerDivisions .dxre-rulerNumberDivision
+{
+    color: #4e4e4e;
+}
+.dxreControl_Office2010Silver .dxreRuler .dxre-rulerMarginLeftPanel,
+.dxreControl_Office2010Silver .dxreRuler .dxre-rulerMarginRightPanel,
+.dxreControl_Office2010Silver .dxreRuler .dxre-rulerMarginLeftHandlePanel,
+.dxreControl_Office2010Silver .dxreRuler .dxre-rulerMarginRightHandlePanel,
+.dxreControl_Office2010Silver .dxreRuler .dxre-columnHandle,
+.dxreControl_Office2010Silver .dxreRuler .dxre-columnHandle > div
+{
+    height: 12px;
+}
+.dxreControl_Office2010Silver .dxreRuler .dxre-rulerMarginLeftPanel,
+.dxreControl_Office2010Silver .dxreRuler .dxre-rulerMarginRightPanel,
+.dxreControl_Office2010Silver .dxreRuler .dxre-rulerMarginLeftHandlePanel,
+.dxreControl_Office2010Silver .dxreRuler .dxre-rulerMarginRightHandlePanel,
+.dxreControl_Office2010Silver .dxreRuler .dxre-columnHandle
+{
+    background-color: #d3d3d3;
+}
+.dxreControl_Office2010Silver .dxre-leftIdentDragHandleBody
+{
+    background-color: #fff;
+    border: 1px solid #929292;
+    border-top: none;
+    height: 6px;
+}
+.dxreControl_Office2010Silver .dxreQuickSearchPanel
+{
+    background-color: #e4e7ea;
+    border: 1px solid #868b91;
+    border-top: none;
+    padding: 6px;
+}
+.dxreControl_Office2010Silver .dxreQuickSearchPanel .dxreQuickSearchButtonEdit
+{
+    width: 200px;
+}
+.dxreControl_Office2010Silver .dxreQuickSearchPanel .dxreQuickSearchButton:first-of-type
+{
+    margin-right: 1px;
+    margin-left: 5px;
+}
+.dxreControl_Office2010Silver .dxreQuickSearchPanel .dxreQuickSearchButton:nth-of-type(3)
+{
+    margin-right: 4px;
+    margin-left: 25px;
+}
+.dxreControl_Office2010Silver .dxreQuickSearchPanel .dxreQuickSearchButton,
+.dxreControl_Office2010Silver .dxreQuickSearchPanel .dxreQuickSearchButton .dxb
+{
+    padding: 0px !important;
+    background: none !important;
+    border: none !important;
+}
+.dxreControl_Office2010Silver .dxreBar
+{
+    background-color: #e9edf1;
+    border-top: 1px solid #868b91;
+    height: 22px;
+}
+.dxreControl_Office2010Silver .dxreBar .dxreLoadingPanel
+{
+    float: right;
+    margin: 3px 2px 0 0;
+    color: #3c3c3c;
+}
+.dxreControl_Office2010Silver .dxreBar .dxreLoadingPanel .dx
+{
+    line-height: 0;
+}
+.dxreControl_Office2010Silver .dxreBar .dxreLoadingPanel .dxlp-loadingImage
+{
+    width: 16px;
+    height: 16px;
+    background: url('../Web/Loading.gif');
+}
+.dxreControl_Office2010Silver .dxreDlgListBox
+{
+    padding: 1px;
+}
+.dxreControl_Office2010Silver .dxreDlgListBox > div
+{
+    border: 1px solid #a5acb5;
+    margin: 1px;
+}
+.dxreControl_Office2010Silver .dxreDlgListBox .dxreDlgListHover
+{
+    background-color: #e2ecf7;
+}
+.dxreControl_Office2010Silver .dxreDlgListBox .dxreDlgListSelected
+{
+    background-color: #ecedef;
+}
+.dxreControl_Office2010Silver .dxre-numberinglistdialog
+{
+    max-width: 541px;
+}
+.dxreControl_Office2010Silver .dxre-simplenumberinglistdialog
+{
+    max-width: 385px;
+}
+.dxreControl_Office2010Silver .dxreDlgNumberingListForm .dxreDlgNumberingListPreview
+{
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+}
+.dxreControl_Office2010Silver .dxreDlgNumberingListForm .dxreDlgMainContainer
+{
+    height: 220px;
+}
+.dxreControl_Office2010Silver .dxreDlgNumberingListForm .dxreDlgListBox > div
+{
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+}
+.dxreControl_Office2010Silver .dxre-bulletedlistdialog
+{
+    max-width: 352px;
+}
+.dxreControl_Office2010Silver .dxreDlgBulletedListForm .dxreDlgBulletPresetBtn
+{
+    width: 45px !important;
+    height: 45px !important;
+    float: left;
+    margin: 0px 0px 5px 5px;
+}
+.dxreControl_Office2010Silver .dxre-multilevelnumberinglistdialog
+{
+    max-width: 422px;
+}
+.dxreControl_Office2010Silver .dxreMultiLevelNumberingListBoxLayout,
+.dxreControl_Office2010Silver .dxreMultiLevelNumberingListBoxLayout .dxlbd
+{
+    width: 30px;
+    height: 100% !important;
+}
+.dxreControl_Office2010Silver .dxre-multiLevelOptionsLayout .dxflGroup_Office2010Silver
+{
+    padding: 0px;
+}
+.dxreControl_Office2010Silver .dxreDlgMultiLevelNumberingListForm .dxre-dialogContentGroup > tbody > tr > td:first-child
+{
+    padding-right: 0px;
+}
+.dxreControl_Office2010Silver .dxreDlgMultiLevelNumberingListForm .dxre-dialogContentGroup > tbody > tr > td:last-child
+{
+    padding: 0px;
+}
+.dxreControl_Office2010Silver .dxre-alertdialog
+{
+    max-width: 350px;
+}
+.dxreControl_Office2010Silver .dxre-alertdialog span
+{
+    user-select: text;
+}
+.dxreControl_Office2010Silver .dxre-layoutoptionsdialog
+{
+    max-width: 525px;
+}
+.dxreControl_Office2010Silver .dxreDlgLayoutForm .dxtc-content
+{
+    min-height: 420px;
+}
+.dxreControl_Office2010Silver .dxreDlgLayoutForm .dxre-layoutFormOriginalSizeGroup .dxflCaptionCellSys
+{
+    padding-top: 0px;
+}
+.dxreControl_Office2010Silver .dxreDlgLayoutForm .dxre-dialogPresetButton
+{
+    width: 25% !important;
+    text-align: center;
+    float: left;
+}
+@media (max-width: 500px)
+{
+    .dxreControl_Office2010Silver .dxreDlgLayoutForm .dxre-dialogPresetButton
+    {
+        width: 33% !important;
+    }
+}
+@media (max-width: 380px)
+{
+    .dxreControl_Office2010Silver .dxreDlgLayoutForm .dxre-dialogPresetButton
+    {
+        width: 50% !important;
+    }
+}
+.dxreControl_Office2010Silver .dxreDlgLayoutForm .dxre-buttonLable
+{
+    display: block;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+.dxreControl_Office2010Silver .dxreDlgLayoutForm .dxre-sizeTabLayout .dx-dialogEditRoot > tbody > tr > td:first-child,
+.dxreControl_Office2010Silver .dxreDlgLayoutForm .dxre-positionTabLayout .dx-dialogEditRoot > tbody > tr > td:first-child
+{
+    width: 5% !important;
+}
+@media (max-width: 420px)
+{
+    .dxreControl_Office2010Silver .dxreDialog .dxre-dialogShortEditor:not(.dxre-dialogNotResponsiveEditor),
+    .dxreControl_Office2010Silver .dxreDialog .dxre-dialogEditor:not(.dxre-dialogNotResponsiveEditor),
+    .dxreControl_Office2010Silver .dxreDialog .dxre-dialogLongEditor:not(.dxre-dialogNotResponsiveEditor)
+    {
+        max-width: 100%;
+    }
+    .dxreControl_Office2010Silver .dxreDialog .dxflItemSys .dxflCaptionCellSys
+    {
+        min-width: 25px !important;
+    }
+}
+.dxreControl_Office2010Silver .dxre-dialogShortEditor
+{
+    max-width: 70px;
+}
+.dxreControl_Office2010Silver .dxre-dialogEditor
+{
+    max-width: 110px;
+}
+.dxreControl_Office2010Silver .dxre-dialogLongEditor
+{
+    max-width: 170px;
+}
+.dxreControl_Office2010Silver .dxreDlgInLayoutButton
+{
+    width: 68px !important;
+}
+.dxreControl_Office2010Silver .dxreDlgFooterBtn
+{
+    width: 80px !important;
+    margin-left: 8px;
+}
+.dxreControl_Office2010Silver .dxre-EmptyLine
+{
+    height: 10px;
+}
+.dxreControl_Office2010Silver .dxre-dialogFooter
+{
+    width: auto;
+    padding: 11px;
+    background-color: #e9edf1;
+    border-top: Solid 1px #c9cdd2;
+}
+.dxreControl_Office2010Silver .dxre-dialogLG.dxflGroupSys.dxre-dialogContentGroup
+{
+    padding: 11px 3px;
+}
+.dxreControl_Office2010Silver .dxre-dialogLGB > .dxre-dialogLG > div > .dxre-dialogLGC > .dxre-dialogLI
+{
+    padding-top: 2px;
+}
+.dxreControl_Office2010Silver .dxre-bookmarksdialog
+{
+    max-width: 300px;
+}
+.dxreControl_Office2010Silver .dxre-columnsdialog
+{
+    max-width: 400px;
+}
+.dxreControl_Office2010Silver .dxreDlgColumnsForm .dxreDlgColumnsEditorMainTable > tbody > tr > td
+{
+    padding: 2px 4px;
+}
+.dxreControl_Office2010Silver .dxreDlgColumnsForm .dxreDlgColumnsEditor
+{
+    height: 100px;
+}
+.dxreControl_Office2010Silver .dxreDlgColumnsForm .dxreDlgColumnsEditor .dxreDlgTextBox
+{
+    width: 40px;
+}
+.dxreControl_Office2010Silver .dxreDlgColumnsForm .dxreDlgColumnsEditor .dxreDlgSpinEdit
+{
+    width: 90px;
+}
+@media (max-width: 420px)
+{
+    .dxreControl_Office2010Silver .dxreDlgColumnsForm .dxbButton_Office2010Silver div.dxb
+    {
+        padding: 3px 5px 3px !important;
+        border: none;
+    }
+    .dxreControl_Office2010Silver .dxreDlgColumnsForm tbody > tr.dxrpCR > .dxrpcontent > .dxrpAW > .dxrpCW
+    {
+        padding: 10px 0;
+    }
+    .dxreControl_Office2010Silver .dxreDlgColumnsForm .dxflGroup_Office2010Silver, .dxreControl_Office2010Silver .dxreDlgColumnsForm .dxflGroupCell_Office2010Silver
+    {
+        padding: 0 4px;
+    }
+    .dxreControl_Office2010Silver .dxreDlgColumnsForm .dxreDlgColumnsEditorMainTable
+    {
+        width: 100%;
+    }
+    .dxreControl_Office2010Silver .dxreDlgColumnsForm .dxflNotFloatedElSys .dxrpControl_Office2010Silver .dxflGroupCell_Office2010Silver
+    {
+        padding: 0px;
+    }
+}
+.dxreControl_Office2010Silver .dxre-Separator
+{
+    height: 0px;
+    margin: 5px 0;
+    border-top: 1px solid #808080;
+}
+.dxreControl_Office2010Silver .dxre-findreplacedialog
+{
+    max-width: 438px;
+}
+.dxreControl_Office2010Silver .dxre-findreplacedialog .dxre-searchResultList
+{
+    width: 100%;
+    height: 180px;
+}
+.dxreControl_Office2010Silver .dxre-findreplacedialog .dxre-searchResultList .dxeListBoxItem
+{
+    white-space: normal;
+}
+.dxreControl_Office2010Silver .dxre-findreplacedialog .dxre-dialogContentGroup
+{
+    padding: 24px !important;
+}
+.dxreControl_Office2010Silver .dxre-findreplacedialog .dxre-searchResult
+{
+    width: 100% !important;
+}
+.dxreControl_Office2010Silver .dxre-findreplacedialog .dxre-searchResult > div
+{
+    float: none !important;
+    width: auto !important;
+}
+.dxreControl_Office2010Silver .dxre-findreplacedialog .dxre-searchResult .dxflCaptionCell_Office2010Silver
+{
+    padding-top: 0px;
+}
+.dxreControl_Office2010Silver .dxre-findreplacedialog .dxre-searchResult .dxflNestedControlCell_Office2010Silver
+{
+    text-align: right;
+    white-space: nowrap;
+    color: #acacac;
+}
+.dxreControl_Office2010Silver .dxre-findreplacedialog .dxre-dialogControlsWrapper > tbody > tr > td:first-child
+{
+    width: auto;
+}
+.dxreControl_Office2010Silver .dxre-findreplacedialog .dxre-dialogControlsWrapper > tbody > tr > td:nth-child(2)
+{
+    width: 100%;
+    text-align: left;
+}
+.dxreControl_Office2010Silver .dxre-findreplacedialog .dxre-replaceInfo
+{
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+}
+.dxreControl_Office2010Silver .dxre-findreplacedialog .dxre-replaceInfo > div
+{
+    padding: 8px;
+    background: #FFF2C0;
+}
+@media (max-width: 420px)
+{
+    .dxreControl_Office2010Silver .dxre-findreplacedialog .dxre-dialogFooter .dxreDlgFooterBtn
+    {
+        width: auto !important;
+    }
+    .dxreControl_Office2010Silver .dxre-findreplacedialog .dxre-dialogFooter .dxreDlgFooterBtn > div.dxb
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 12px;
+    }
+}
+.dxreControl_Office2010Silver .dxre-fontdialog
+{
+    max-width: 500px;
+}
+.dxreControl_Office2010Silver .dxreDlgFontForm .dxreCheckBoxContainer .dxflGroup_Office2010Silver,
+.dxreControl_Office2010Silver .dxreDlgFontForm .dxreCheckBoxContainer .dxflGroupCell_Office2010Silver
+{
+    padding: 0px;
+}
+.dxreControl_Office2010Silver .dxreDlgFontForm .dxreCheckBoxContainer .dxflItem_Office2010Silver
+{
+    padding: 0px !important;
+}
+@media (max-width: 420px)
+{
+    .dxreControl_Office2010Silver .dxreDlgFontForm .dxre-dialogContentGroup .dxflLastChildSys .dxflGroupSys > div:not(.dxflFirstChildSys)
+    {
+        margin-top: 7px;
+    }
+}
+.dxreControl_Office2010Silver .dxre-hyperlinkdialog
+{
+    max-width: 470px;
+}
+.dxreControl_Office2010Silver .dxre-insertimagedialog
+{
+    max-width: 420px;
+}
+.dxreControl_Office2010Silver .dxreDlgInsertImageForm .dxreDlgImagePreview
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 170px;
+    color: #808080;
+    border: dashed 1px #808080;
+    text-align: center;
+}
+.dxreControl_Office2010Silver .dxreDlgInsertImageForm .dxflCaption_Office2010Silver
+{
+    white-space: normal;
+}
+.dxreControl_Office2010Silver .dxreDlgInsertImageForm .dxre-dialogRadioNavigation
+{
+    padding-bottom: 7px;
+}
+.dxreControl_Office2010Silver .dxre-insertmergefielddialog
+{
+    max-width: 300px !important;
+}
+.dxreControl_Office2010Silver .dxre-insertmergefielddialog .dxeListBox_Office2010Silver
+{
+    height: 250px;
+}
+.dxreControl_Office2010Silver .dxre-finishandmergedialog
+{
+    max-width: 215px;
+}
+.dxreControl_Office2010Silver .dxre-openfiledialog
+{
+    max-width: 800px;
+}
+.dxreControl_Office2010Silver .dxreDlgOpenFileForm
+{
+    height: 500px;
+}
+.dxreControl_Office2010Silver .dxreDlgOpenFileForm .dxflGroupCell,
+.dxreControl_Office2010Silver .dxreDlgOpenFileForm .dxre-dialogContentGroup,
+.dxreControl_Office2010Silver .dxreDlgOpenFileForm .dxre-dialogContentGroup .dxflItem_Office2010Silver
+{
+    padding: 0px !important;
+}
+.dxreControl_Office2010Silver .dxre-pagesetupdialog
+{
+    max-width: 320px;
+}
+.dxreControl_Office2010Silver .dxreDlgPageSetupForm .dxre-headersAndFootersGroup .dxflLastChildSys > .dxre-dialogLGC
+{
+    padding: 0px;
+}
+.dxreControl_Office2010Silver .dxreDlgPageSetupForm .dxre-offsetGroup .dxflGroupCell_Office2010Silver
+{
+    padding: 0px;
+}
+.dxreControl_Office2010Silver .dxreDlgPageSetupForm .dxre-offsetGroup tr:first-child .dxflGroupCell_Office2010Silver:first-child
+{
+    padding-right: 10px;
+}
+@media (min-width: 420px)
+{
+    .dxreControl_Office2010Silver .dxreDlgPageSetupForm .dxtc-content
+    {
+        min-height: 255px;
+    }
+}
+.dxreControl_Office2010Silver .dxre-paragraphdialog
+{
+    max-width: 410px;
+}
+.dxreControl_Office2010Silver .dxreDlgParagraphForm .dxtc-content
+{
+    min-height: 335px;
+}
+.dxreControl_Office2010Silver .dxreDlgParagraphForm .dxre-dialogControlsWrapper > tbody > tr > td:first-child
+{
+    text-align: left;
+}
+@media (min-width: 420px)
+{
+    .dxreControl_Office2010Silver .dxreDlgParagraphForm .dxre-dialogParagraphInnerLayout
+    {
+        padding-top: 3px;
+    }
+    .dxreControl_Office2010Silver .dxreDlgParagraphForm .dxre-dialogParagraphInnerLayout .dxflFirstChildSys .dxflGroupCell_Office2010Silver
+    {
+        padding-right: 8px;
+    }
+}
+.dxreControl_Office2010Silver .dxreDlgSaveFileForm
+{
+    width: 450px;
+}
+.dxreControl_Office2010Silver .dxre-spellingdialog
+{
+    max-width: 455px;
+}
+.dxreControl_Office2010Silver .dxreDlgSpellingForm .dxreDlgSB
+{
+    min-width: 80px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.dxreControl_Office2010Silver .dxreDlgSymbolsForm .dxreDlgSymbolsList
+{
+    height: 250px;
+    border: 1px solid #a5acb5;
+}
+.dxreControl_Office2010Silver .dxreDlgSymbolsForm .dxreDlgListBox > div
+{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: large;
+}
+.dxreControl_Office2010Silver .dxre-splittablecellsdialog,
+.dxreControl_Office2010Silver .dxre-deletetablecellsdialog,
+.dxreControl_Office2010Silver .dxre-inserttabledialog
+{
+    max-width: 300px;
+}
+.dxreControl_Office2010Silver .dxre-tablepropertiesdialog
+{
+    max-width: 515px;
+}
+.dxreControl_Office2010Silver .dxreDlgTablePropertiesForm .dxtc-content
+{
+    min-height: 420px;
+}
+.dxreControl_Office2010Silver .dxreDlgTablePropertiesForm .dxre-dialogTableSpacing
+{
+    text-align: right;
+}
+.dxreControl_Office2010Silver .dxreDlgTablePropertiesForm .dxre-dialogTableSpacing table
+{
+    display: inline-block;
+}
+@media (max-width: 380px)
+{
+    .dxreControl_Office2010Silver .dxreDlgTablePropertiesForm .dxre-dialogTableSpacing
+    {
+        text-align: left;
+    }
+}
+.dxreControl_Office2010Silver .dxreDlgTablePropertiesForm .dxreDlgRight .dxreDlgFooterBtn
+{
+    display: inline-table;
+}
+.dxreControl_Office2010Silver .dxre-bordershadingdialog
+{
+    max-width: 415px;
+}
+.dxreControl_Office2010Silver .dxreDlgBorderShadingForm .dxre-dialogBorderPresets
+{
+    padding: 6px 0;
+}
+.dxreControl_Office2010Silver .dxreDlgBorderShadingForm .dxre-dialogBorderPresets .dxre-dialogLGC
+{
+    padding: 0px;
+}
+.dxreControl_Office2010Silver .dxreDlgBorderShadingForm .dxre-dialogBorderPresets .dxre-dialogPresetButton
+{
+    padding-bottom: 5px;
+    text-align: center;
+}
+.dxreControl_Office2010Silver .dxreDlgBorderShadingForm .dxre-dialogBorderPresets .dxre-dialogPresetButton .dxre-buttonLable
+{
+    display: block;
+}
+.dxreControl_Office2010Silver .dxreDlgBorderShadingForm .dxreTableBorderPreview
+{
+    width: 130px !important;
+    display: inline-block;
+}
+.dxreControl_Office2010Silver .dxre-dialogCellMargins td.dxre-dialogLGC
+{
+    padding: 0 2px 0 0 !important;
+}
+.dxreControl_Office2010Silver .dxre-dialogCellBlock
+{
+    width: 68px;
+    background-color: #e9edf1;
+    border: dashed 1px #818181;
+}
+.dxreControl_Office2010Silver .dxreBorderButton
+{
+    visibility: hidden;
+}
+.dxreControl_Office2010Silver .dxreBorderButton div.dxb
+{
+    padding: 0px !important;
+}
+.dxreControl_Office2010Silver .dxre-tabsdialog
+{
+    max-width: 380px;
+}
+.dxreControl_Office2010Silver .dxreDlgTabsForm .dxreDlgTabsList
+{
+    height: 70px;
+}
+.dxreControl_Office2010Silver .dxreDlgTabsForm .dxre-flowRadioButtonList span.dxichCellSys
+{
+    min-width: 90px;
+}
+.dxreControl_Office2010Silver .dxrePage
+{
+    box-shadow: 0 0 15px #c9cdd2;
+}
+.dxreControl_Office2010Silver .dxreView
+{
+    background: linear-gradient(to bottom, #f1f1f1 70%, #e9e9e9 100%);
+}
+.dxreControl_Office2010Silver .dxreQuickSearchPanel .dxreQuickSearchButtonEdit
+{
+    margin-top: 1px;
+}
+.dxreControl_Office2010Silver .dxreDlgListBox > div
+{
+    background-color: #FFF;
+}
+.dxreControl_Office2010Silver .dxreDlgListBox .dxreDlgListSelected
+{
+    color: inherit;
+}

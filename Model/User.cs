@@ -18,15 +18,9 @@ namespace TAAPs.Model
         {
             this.CTransfers = new HashSet<CorporateTransfer>();
             this.ReceiptPrintHistory = new HashSet<ReceiptPrintHistory>();
-            this.TaxAgentBranches2 = new HashSet<CorporateBranch>();
-            this.TaxAgents2 = new HashSet<CorporateTaxpayer>();
             this.Users1 = new HashSet<User>();
             this.UserTransfers = new HashSet<UserTransfer>();
-            this.CAssociates = new HashSet<CAssociate>();
             this.CBanks = new HashSet<CBank>();
-            this.CDirectors = new HashSet<CDirector>();
-            this.CRepresentatives = new HashSet<CRepresentative>();
-            this.CShareHolders = new HashSet<CShareHolder>();
             this.CTurnovers = new HashSet<CTurnover>();
             this.GeneratedReceipts = new HashSet<GeneratedReceipt>();
             this.IAssessments = new HashSet<IAssessment>();
@@ -35,6 +29,13 @@ namespace TAAPs.Model
             this.UserLoginHistories = new HashSet<UserLoginHistory>();
             this.CTaxpayerFiles = new HashSet<CTaxpayerFile>();
             this.IPenalties = new HashSet<IPenalty>();
+            this.ITaxpayerAddresses = new HashSet<ITaxpayerAddress>();
+            this.ITaxpayerNoKs = new HashSet<ITaxpayerNoK>();
+            this.ITaxpayers = new HashSet<ITaxpayer>();
+            this.CTINRequests = new HashSet<CTINRequest>();
+            this.CTaxpayers = new HashSet<CTaxpayer>();
+            this.ITaxpayerFiles = new HashSet<ITaxpayerFile>();
+            this.IssueLogs = new HashSet<IssueLog>();
         }
     
         public string UserName { get; set; }
@@ -57,16 +58,10 @@ namespace TAAPs.Model
         public virtual ICollection<CorporateTransfer> CTransfers { get; set; }
         public virtual ICollection<ReceiptPrintHistory> ReceiptPrintHistory { get; set; }
         public virtual Role Role { get; set; }
-        public virtual ICollection<CorporateBranch> TaxAgentBranches2 { get; set; }
-        public virtual ICollection<CorporateTaxpayer> TaxAgents2 { get; set; }
         public virtual ICollection<User> Users1 { get; set; }
         public virtual User User1 { get; set; }
         public virtual ICollection<UserTransfer> UserTransfers { get; set; }
-        public virtual ICollection<CAssociate> CAssociates { get; set; }
         public virtual ICollection<CBank> CBanks { get; set; }
-        public virtual ICollection<CDirector> CDirectors { get; set; }
-        public virtual ICollection<CRepresentative> CRepresentatives { get; set; }
-        public virtual ICollection<CShareHolder> CShareHolders { get; set; }
         public virtual ICollection<CTurnover> CTurnovers { get; set; }
         public virtual TaxOfficeRegion TaxOfficeRegion { get; set; }
         public virtual TaxOffice TaxOffice { get; set; }
@@ -77,5 +72,12 @@ namespace TAAPs.Model
         public virtual ICollection<UserLoginHistory> UserLoginHistories { get; set; }
         public virtual ICollection<CTaxpayerFile> CTaxpayerFiles { get; set; }
         public virtual ICollection<IPenalty> IPenalties { get; set; }
+        public virtual ICollection<ITaxpayerAddress> ITaxpayerAddresses { get; set; }
+        public virtual ICollection<ITaxpayerNoK> ITaxpayerNoKs { get; set; }
+        public virtual ICollection<ITaxpayer> ITaxpayers { get; set; }
+        public virtual ICollection<CTINRequest> CTINRequests { get; set; }
+        public virtual ICollection<CTaxpayer> CTaxpayers { get; set; }
+        public virtual ICollection<ITaxpayerFile> ITaxpayerFiles { get; set; }
+        public virtual ICollection<IssueLog> IssueLogs { get; set; }
     }
 }

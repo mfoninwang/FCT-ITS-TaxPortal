@@ -1,0 +1,224 @@
+.dxeListBoxItemSelected_MaterialCompactCustom .dxHtmlEditor_heEnumIcon_MaterialCompactCustom,
+.dxeListBoxItemSelected_MaterialCompactCustom .dxHtmlEditor_heEventIcon_MaterialCompactCustom,
+.dxeListBoxItemSelected_MaterialCompactCustom .dxHtmlEditor_heFieldIcon_MaterialCompactCustom,
+.dxeListBoxItemSelected_MaterialCompactCustom .dxHtmlEditor_heXmlItemIcon_MaterialCompactCustom,
+.dxHtmlEditor_heConstrainProportionsBottom_MaterialCompactCustom,
+.dxHtmlEditor_heConstrainProportionsBottomRtl_MaterialCompactCustom,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_MaterialCompactCustom,
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_MaterialCompactCustom,
+.dxHtmlEditor_heConstrainProportionsMiddleOn_MaterialCompactCustom,
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_MaterialCompactCustom,
+.dxHtmlEditor_heConstrainProportionsTop_MaterialCompactCustom,
+.dxHtmlEditor_heConstrainProportionsTopRtl_MaterialCompactCustom,
+.dxHtmlEditor_heEnumIcon_MaterialCompactCustom,
+.dxHtmlEditor_heErrorFrameCloseButton_MaterialCompactCustom,
+.dxHtmlEditor_heEventIcon_MaterialCompactCustom,
+.dxHtmlEditor_heFieldIcon_MaterialCompactCustom,
+.dxHtmlEditor_heReset_MaterialCompactCustom,
+.dxHtmlEditor_heSizeGrip_MaterialCompactCustom,
+.dxHtmlEditor_heSizeGripRtl_MaterialCompactCustom,
+.dxHtmlEditor_heTagInspectorChangeButton_MaterialCompactCustom,
+.dxHtmlEditor_heTagInspectorRemoveButton_MaterialCompactCustom,
+.dxHtmlEditor_heTagInspectorSeparator_MaterialCompactCustom,
+.dxHtmlEditor_heToolbarPopOut_MaterialCompactCustom,
+.dxHtmlEditor_heXmlItemIcon_MaterialCompactCustom,
+.dxm-hovered .dxHtmlEditor_heToolbarPopOut_MaterialCompactCustom
+{
+    background-image: url('sprite.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxIE .dx-acc-r .dxeListBoxItemSelected_MaterialCompactCustom .dxHtmlEditor_heEnumIcon_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxeListBoxItemSelected_MaterialCompactCustom .dxHtmlEditor_heEventIcon_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxeListBoxItemSelected_MaterialCompactCustom .dxHtmlEditor_heFieldIcon_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxeListBoxItemSelected_MaterialCompactCustom .dxHtmlEditor_heXmlItemIcon_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heConstrainProportionsBottom_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heConstrainProportionsBottomRtl_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heConstrainProportionsMiddleOff_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heConstrainProportionsMiddleOffRtl_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heConstrainProportionsMiddleOn_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heConstrainProportionsMiddleOnRtl_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heConstrainProportionsTop_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heConstrainProportionsTopRtl_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heEnumIcon_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heErrorFrameCloseButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heEventIcon_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heFieldIcon_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heReset_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heSizeGrip_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heSizeGripRtl_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heTagInspectorChangeButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heTagInspectorRemoveButton_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heTagInspectorSeparator_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heToolbarPopOut_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxHtmlEditor_heXmlItemIcon_MaterialCompactCustom::before,
+.dxIE .dx-acc-r .dxm-hovered .dxHtmlEditor_heToolbarPopOut_MaterialCompactCustom::before{
+    width: 299px;
+}
+.dxeListBoxItemSelected_MaterialCompactCustom .dxHtmlEditor_heEnumIcon_MaterialCompactCustom
+{
+    background-position: -85px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemSelected_MaterialCompactCustom .dxHtmlEditor_heEventIcon_MaterialCompactCustom
+{
+    background-position: -17px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemSelected_MaterialCompactCustom .dxHtmlEditor_heFieldIcon_MaterialCompactCustom
+{
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemSelected_MaterialCompactCustom .dxHtmlEditor_heXmlItemIcon_MaterialCompactCustom
+{
+    background-position: -68px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heConstrainProportionsBottom_MaterialCompactCustom
+{
+    background-position: -290px -10px;
+    width: 8px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsBottomRtl_MaterialCompactCustom
+{
+    background-position: -272px -10px;
+    width: 8px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOff_MaterialCompactCustom
+{
+    background-position: -217px 0px;
+    width: 7px;
+    height: 13px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_MaterialCompactCustom
+{
+    background-position: -241px 0px;
+    width: 7px;
+    height: 13px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_MaterialCompactCustom
+{
+    background-position: -225px 0px;
+    width: 7px;
+    height: 13px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_MaterialCompactCustom
+{
+    background-position: -233px 0px;
+    width: 7px;
+    height: 13px;
+}
+.dxHtmlEditor_heConstrainProportionsTop_MaterialCompactCustom
+{
+    background-position: -286px 0px;
+    width: 8px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsTopRtl_MaterialCompactCustom
+{
+    background-position: -281px -10px;
+    width: 8px;
+    height: 6px;
+}
+.dxHtmlEditor_heEnumIcon_MaterialCompactCustom
+{
+    background-position: -136px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heErrorFrameCloseButton_MaterialCompactCustom
+{
+    background-position: -249px 0px;
+    width: 10px;
+    height: 10px;
+}
+.dxHtmlEditor_heEventIcon_MaterialCompactCustom
+{
+    background-position: -51px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heFieldIcon_MaterialCompactCustom
+{
+    background-position: -102px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heReset_MaterialCompactCustom
+{
+    background-position: -153px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heSizeGrip_MaterialCompactCustom
+{
+    background-position: -187px 0px;
+    width: 14px;
+    height: 14px;
+}
+.dxHtmlEditor_heSizeGripRtl_MaterialCompactCustom
+{
+    background-position: -202px 0px;
+    width: 14px;
+    height: 14px;
+}
+.dxHtmlEditor_heTagInspectorChangeButton_MaterialCompactCustom
+{
+    background-position: -34px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heTagInspectorRemoveButton_MaterialCompactCustom
+{
+    background-position: -170px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heTagInspectorSeparator_MaterialCompactCustom
+{
+    background-position: -280px 0px;
+    width: 5px;
+    height: 8px;
+}
+.dxHtmlEditor_heToolbarPopOut_MaterialCompactCustom
+{
+    background-position: -260px 0px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_heXmlItemIcon_MaterialCompactCustom
+{
+    background-position: -119px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-hovered .dxHtmlEditor_heToolbarPopOut_MaterialCompactCustom
+{
+    background-position: -270px 0px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_MaterialCompactCustom,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_MaterialCompactCustom,
+.dxHtmlEditor_heConstrainProportionsBottom_MaterialCompactCustom,
+.dxHtmlEditor_heConstrainProportionsTop_MaterialCompactCustom,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_MaterialCompactCustom,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_MaterialCompactCustom,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_MaterialCompactCustom,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_MaterialCompactCustom,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_MaterialCompactCustom,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_MaterialCompactCustom,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_MaterialCompactCustom,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_MaterialCompactCustom,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_MaterialCompactCustom,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_MaterialCompactCustom
+{
+	display:block;
+}

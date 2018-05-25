@@ -1,0 +1,326 @@
+.dx-acc-r .dxCardView_CTClearFilter_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTClearFilterDisabled_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTDeleteRow_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTDeleteRowDisabled_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTEditRow_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTEditRowDisabled_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTExportCsv_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTExportCsvDisabled_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTExportCsvHover_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTExportDocx_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTExportDocxDisabled_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTExportDocxHover_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTExportPdf_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTExportPdfDisabled_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTExportPdfHover_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTExportRtf_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTExportRtfDisabled_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTExportRtfHover_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTExportXls_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTExportXlsDisabled_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTExportXlsHover_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTExportXlsx_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTExportXlsxDisabled_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTExportXlsxHover_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTNewRow_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTNewRowDisabled_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTRefresh_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTRefreshDisabled_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTShowCustomizationWindow_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTShowCustomizationWindowDisabled_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTShowFilterEditor_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTShowFilterEditorDisabled_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTShowSearchPanel_ModernoCustom:before,
+.dx-acc-r .dxCardView_CTShowSearchPanelDisabled_ModernoCustom:before,
+.dx-acc-r .dxCardView_gvCellError_ModernoCustom:before,
+.dx-acc-r .dxCardView_gvFilterRowButton_ModernoCustom:before,
+.dx-acc-r .dxCardView_gvHeaderFilter_ModernoCustom:before,
+.dx-acc-r .dxCardView_gvHeaderFilterActive_ModernoCustom:before,
+.dx-acc-r .dxCardView_gvHeaderSortDown_ModernoCustom:before,
+.dx-acc-r .dxCardView_gvHeaderSortUp_ModernoCustom:before
+
+{
+    content: url('spriteAccessible.png');
+
+}
+.dx-acc-r .dxCardView_CTClearFilter_ModernoCustom:before
+
+{
+    left: -34px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTClearFilterDisabled_ModernoCustom:before
+
+{
+    left: -374px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTDeleteRow_ModernoCustom:before
+
+{
+    left: -187px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTDeleteRowDisabled_ModernoCustom:before
+
+{
+    left: -323px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTEditRow_ModernoCustom:before
+
+{
+    left: -204px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTEditRowDisabled_ModernoCustom:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportCsv_ModernoCustom:before
+
+{
+    left: -561px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportCsvDisabled_ModernoCustom:before
+
+{
+    left: -510px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportCsvHover_ModernoCustom:before
+
+{
+    left: -51px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportDocx_ModernoCustom:before
+
+{
+    left: -170px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportDocxDisabled_ModernoCustom:before
+
+{
+    left: -238px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportDocxHover_ModernoCustom:before
+
+{
+    left: -476px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportPdf_ModernoCustom:before
+
+{
+    left: -340px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportPdfDisabled_ModernoCustom:before
+
+{
+    left: -459px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportPdfHover_ModernoCustom:before
+
+{
+    left: -306px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportRtf_ModernoCustom:before
+
+{
+    left: -272px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportRtfDisabled_ModernoCustom:before
+
+{
+    left: -102px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportRtfHover_ModernoCustom:before
+
+{
+    left: -442px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportXls_ModernoCustom:before
+
+{
+    left: -85px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportXlsDisabled_ModernoCustom:before
+
+{
+    left: -425px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportXlsHover_ModernoCustom:before
+
+{
+    left: -408px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportXlsx_ModernoCustom:before
+
+{
+    left: -17px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportXlsxDisabled_ModernoCustom:before
+
+{
+    left: -68px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTExportXlsxHover_ModernoCustom:before
+
+{
+    left: -493px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTNewRow_ModernoCustom:before
+
+{
+    left: -357px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTNewRowDisabled_ModernoCustom:before
+
+{
+    left: -255px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTRefresh_ModernoCustom:before
+
+{
+    left: -391px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTRefreshDisabled_ModernoCustom:before
+
+{
+    left: -221px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTShowCustomizationWindow_ModernoCustom:before
+
+{
+    left: -544px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTShowCustomizationWindowDisabled_ModernoCustom:before
+
+{
+    left: -119px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTShowFilterEditor_ModernoCustom:before
+
+{
+    left: -289px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTShowFilterEditorDisabled_ModernoCustom:before
+
+{
+    left: -136px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTShowSearchPanel_ModernoCustom:before
+
+{
+    left: -153px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_CTShowSearchPanelDisabled_ModernoCustom:before
+
+{
+    left: -527px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_gvCellError_ModernoCustom:before
+
+{
+    left: -638px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_gvFilterRowButton_ModernoCustom:before
+
+{
+    left: -653px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_gvHeaderFilter_ModernoCustom:before
+
+{
+    left: -578px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_gvHeaderFilterActive_ModernoCustom:before
+
+{
+    left: -597px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_gvHeaderSortDown_ModernoCustom:before
+
+{
+    left: -627px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_gvHeaderSortUp_ModernoCustom:before
+
+{
+    left: -616px;
+    top: 0px;
+
+}
+

@@ -1,0 +1,361 @@
+.dxPivotGrid_CTNAttribute,
+.dxPivotGrid_CTNCalculatedMeasure,
+.dxPivotGrid_CTNDimension,
+.dxPivotGrid_CTNFolderClosed,
+.dxPivotGrid_CTNFolderOpen,
+.dxPivotGrid_CTNHierarchy,
+.dxPivotGrid_CTNKpi,
+.dxPivotGrid_CTNMeasure,
+.dxPivotGrid_FLBottomPanelOnly1by4_MaterialCustom,
+.dxPivotGrid_FLBottomPanelOnly2by2_MaterialCustom,
+.dxPivotGrid_FLButton_MaterialCustom,
+.dxPivotGrid_FLColumnAreaHeaders_MaterialCustom,
+.dxPivotGrid_FLDataAreaHeaders_MaterialCustom,
+.dxPivotGrid_FLFieldList_MaterialCustom,
+.dxPivotGrid_FLFilterAreaHeaders_MaterialCustom,
+.dxPivotGrid_FLRowAreaHeaders_MaterialCustom,
+.dxPivotGrid_FLStackedDefault_MaterialCustom,
+.dxPivotGrid_FLStackedSideBySide_MaterialCustom,
+.dxPivotGrid_FLTopPanelOnly_MaterialCustom,
+.dxPivotGrid_pgCollapsedButton_MaterialCustom,
+.dxPivotGrid_pgCustomizationFormCloseButton_MaterialCustom,
+.dxPivotGrid_pgDataHeaders_MaterialCustom,
+.dxPivotGrid_pgDragArrowDown_MaterialCustom,
+.dxPivotGrid_pgDragArrowLeft_MaterialCustom,
+.dxPivotGrid_pgDragArrowRight_MaterialCustom,
+.dxPivotGrid_pgDragArrowUp_MaterialCustom,
+.dxPivotGrid_pgDragHideField_MaterialCustom,
+.dxPivotGrid_pgExpandedButton_MaterialCustom,
+.dxPivotGrid_pgFilterButton_MaterialCustom,
+.dxPivotGrid_pgFilterButtonActive_MaterialCustom,
+.dxPivotGrid_pgFilterResizer_MaterialCustom,
+.dxPivotGrid_pgGroupSeparator_MaterialCustom,
+.dxPivotGrid_pgPrefilterButton_MaterialCustom,
+.dxPivotGrid_pgSortByColumn_MaterialCustom,
+.dxPivotGrid_pgSortDownButton_MaterialCustom,
+.dxPivotGrid_pgSortUpButton_MaterialCustom,
+.dxtv-ndSel .dxPivotGrid_CTNCalculatedMeasure,
+.dxtv-ndSel .dxPivotGrid_CTNDimension,
+.dxtv-ndSel .dxPivotGrid_CTNFolderClosed,
+.dxtv-ndSel .dxPivotGrid_CTNFolderOpen,
+.dxtv-ndSel .dxPivotGrid_CTNHierarchy,
+.dxtv-ndSel .dxPivotGrid_CTNKpi,
+.dxtv-ndSel .dxPivotGrid_CTNMeasure
+{
+    background-image: url('sprite.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxIE .dx-acc-r .dxPivotGrid_CTNAttribute::before,
+.dxIE .dx-acc-r .dxPivotGrid_CTNCalculatedMeasure::before,
+.dxIE .dx-acc-r .dxPivotGrid_CTNDimension::before,
+.dxIE .dx-acc-r .dxPivotGrid_CTNFolderClosed::before,
+.dxIE .dx-acc-r .dxPivotGrid_CTNFolderOpen::before,
+.dxIE .dx-acc-r .dxPivotGrid_CTNHierarchy::before,
+.dxIE .dx-acc-r .dxPivotGrid_CTNKpi::before,
+.dxIE .dx-acc-r .dxPivotGrid_CTNMeasure::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLBottomPanelOnly1by4_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLBottomPanelOnly2by2_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLButton_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLColumnAreaHeaders_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLDataAreaHeaders_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLFieldList_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLFilterAreaHeaders_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLRowAreaHeaders_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLStackedDefault_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLStackedSideBySide_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_FLTopPanelOnly_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgCollapsedButton_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgCustomizationFormCloseButton_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgDataHeaders_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgDragArrowDown_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgDragArrowLeft_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgDragArrowRight_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgDragArrowUp_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgDragHideField_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgExpandedButton_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgFilterButton_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgFilterButtonActive_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgFilterResizer_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgGroupSeparator_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgPrefilterButton_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgSortByColumn_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgSortDownButton_MaterialCustom::before,
+.dxIE .dx-acc-r .dxPivotGrid_pgSortUpButton_MaterialCustom::before,
+.dxIE .dx-acc-r .dxtv-ndSel .dxPivotGrid_CTNCalculatedMeasure::before,
+.dxIE .dx-acc-r .dxtv-ndSel .dxPivotGrid_CTNDimension::before,
+.dxIE .dx-acc-r .dxtv-ndSel .dxPivotGrid_CTNFolderClosed::before,
+.dxIE .dx-acc-r .dxtv-ndSel .dxPivotGrid_CTNFolderOpen::before,
+.dxIE .dx-acc-r .dxtv-ndSel .dxPivotGrid_CTNHierarchy::before,
+.dxIE .dx-acc-r .dxtv-ndSel .dxPivotGrid_CTNKpi::before,
+.dxIE .dx-acc-r .dxtv-ndSel .dxPivotGrid_CTNMeasure::before{
+    width: 88px;
+}
+.dxPivotGrid_CTNAttribute
+{
+    background-position: -68px -36px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNCalculatedMeasure
+{
+    background-position: -17px -70px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNDimension
+{
+    background-position: -51px -36px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNFolderClosed
+{
+    background-position: 0px -104px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNFolderOpen
+{
+    background-position: -34px -87px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNHierarchy
+{
+    background-position: -68px -70px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNKpi
+{
+    background-position: -17px -87px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNMeasure
+{
+    background-position: -34px -104px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLBottomPanelOnly1by4_MaterialCustom
+{
+    background-position: -21px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLBottomPanelOnly2by2_MaterialCustom
+{
+    background-position: -51px -87px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLButton_MaterialCustom
+{
+    background-position: -51px -104px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLColumnAreaHeaders_MaterialCustom
+{
+    background-position: -68px -87px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLDataAreaHeaders_MaterialCustom
+{
+    background-position: -34px -53px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLFieldList_MaterialCustom
+{
+    background-position: -51px -53px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLFilterAreaHeaders_MaterialCustom
+{
+    background-position: 0px -36px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLRowAreaHeaders_MaterialCustom
+{
+    background-position: 0px -70px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLStackedDefault_MaterialCustom
+{
+    background-position: -34px -36px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLStackedSideBySide_MaterialCustom
+{
+    background-position: -38px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLTopPanelOnly_MaterialCustom
+{
+    background-position: 0px -87px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_pgCollapsedButton_MaterialCustom
+{
+    background-position: -83px -104px;
+    width: 4px;
+    height: 7px;
+}
+.dxPivotGrid_pgCustomizationFormCloseButton_MaterialCustom
+{
+    background-position: 0px 0px;
+    width: 20px;
+    height: 20px;
+}
+.dxPivotGrid_pgDataHeaders_MaterialCustom
+{
+    background-position: 0px -21px;
+    width: 22px;
+    height: 14px;
+}
+.dxPivotGrid_pgDragArrowDown_MaterialCustom
+{
+    background-position: -59px -121px;
+    width: 10px;
+    height: 9px;
+}
+.dxPivotGrid_pgDragArrowLeft_MaterialCustom
+{
+    background-position: -38px -121px;
+    width: 9px;
+    height: 10px;
+}
+.dxPivotGrid_pgDragArrowRight_MaterialCustom
+{
+    background-position: -28px -121px;
+    width: 9px;
+    height: 10px;
+}
+.dxPivotGrid_pgDragArrowUp_MaterialCustom
+{
+    background-position: -48px -121px;
+    width: 10px;
+    height: 9px;
+}
+.dxPivotGrid_pgDragHideField_MaterialCustom
+{
+    background-position: -34px -70px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_pgExpandedButton_MaterialCustom
+{
+    background-position: -80px -16px;
+    width: 7px;
+    height: 4px;
+}
+.dxPivotGrid_pgFilterButton_MaterialCustom
+{
+    background-position: -68px -104px;
+    width: 14px;
+    height: 14px;
+}
+.dxPivotGrid_pgFilterButtonActive_MaterialCustom
+{
+    background-position: -59px -21px;
+    width: 14px;
+    height: 14px;
+}
+.dxPivotGrid_pgFilterResizer_MaterialCustom
+{
+    background-position: -44px -21px;
+    width: 14px;
+    height: 14px;
+}
+.dxPivotGrid_pgGroupSeparator_MaterialCustom
+{
+    background-position: -23px -21px;
+    width: 20px;
+    height: 13px;
+}
+.dxPivotGrid_pgPrefilterButton_MaterialCustom
+{
+    background-position: 0px -121px;
+    width: 14px;
+    height: 14px;
+}
+.dxPivotGrid_pgSortByColumn_MaterialCustom
+{
+    background-position: -72px 0px;
+    width: 15px;
+    height: 14px;
+}
+.dxPivotGrid_pgSortDownButton_MaterialCustom
+{
+    background-position: -15px -121px;
+    width: 12px;
+    height: 12px;
+}
+.dxPivotGrid_pgSortUpButton_MaterialCustom
+{
+    background-position: -74px -21px;
+    width: 12px;
+    height: 12px;
+}
+.dxtv-ndSel .dxPivotGrid_CTNCalculatedMeasure
+{
+    background-position: 0px -53px;
+    width: 16px;
+    height: 16px;
+}
+.dxtv-ndSel .dxPivotGrid_CTNDimension
+{
+    background-position: -55px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxtv-ndSel .dxPivotGrid_CTNFolderClosed
+{
+    background-position: -17px -53px;
+    width: 16px;
+    height: 16px;
+}
+.dxtv-ndSel .dxPivotGrid_CTNFolderOpen
+{
+    background-position: -17px -104px;
+    width: 16px;
+    height: 16px;
+}
+.dxtv-ndSel .dxPivotGrid_CTNHierarchy
+{
+    background-position: -17px -36px;
+    width: 16px;
+    height: 16px;
+}
+.dxtv-ndSel .dxPivotGrid_CTNKpi
+{
+    background-position: -51px -70px;
+    width: 16px;
+    height: 16px;
+}
+.dxtv-ndSel .dxPivotGrid_CTNMeasure
+{
+    background-position: -68px -53px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_pgCustomizationFormCloseButton_MaterialCustom,
+.dxPivotGrid_FLButton_MaterialCustom
+{
+    display:block;
+}
+.dxPivotGrid_pgGroupSeparator_MaterialCustom
+{
+    width: 20px!important;
+    height: 13px!important;
+}

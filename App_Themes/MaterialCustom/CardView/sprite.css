@@ -1,0 +1,296 @@
+.dxCardView_CTClearFilter_MaterialCustom,
+.dxCardView_CTClearFilterDisabled_MaterialCustom,
+.dxCardView_CTDeleteRow_MaterialCustom,
+.dxCardView_CTDeleteRowDisabled_MaterialCustom,
+.dxCardView_CTEditRow_MaterialCustom,
+.dxCardView_CTEditRowDisabled_MaterialCustom,
+.dxCardView_CTExportCsv_MaterialCustom,
+.dxCardView_CTExportCsvDisabled_MaterialCustom,
+.dxCardView_CTExportDocx_MaterialCustom,
+.dxCardView_CTExportDocxDisabled_MaterialCustom,
+.dxCardView_CTExportPdf_MaterialCustom,
+.dxCardView_CTExportPdfDisabled_MaterialCustom,
+.dxCardView_CTExportRtf_MaterialCustom,
+.dxCardView_CTExportRtfDisabled_MaterialCustom,
+.dxCardView_CTExportXls_MaterialCustom,
+.dxCardView_CTExportXlsDisabled_MaterialCustom,
+.dxCardView_CTExportXlsx_MaterialCustom,
+.dxCardView_CTExportXlsxDisabled_MaterialCustom,
+.dxCardView_CTNewRow_MaterialCustom,
+.dxCardView_CTNewRowDisabled_MaterialCustom,
+.dxCardView_CTRefresh_MaterialCustom,
+.dxCardView_CTRefreshDisabled_MaterialCustom,
+.dxCardView_CTShowCustomizationWindow_MaterialCustom,
+.dxCardView_CTShowCustomizationWindowDisabled_MaterialCustom,
+.dxCardView_CTShowFilterEditor_MaterialCustom,
+.dxCardView_CTShowFilterEditorDisabled_MaterialCustom,
+.dxCardView_CTShowSearchPanel_MaterialCustom,
+.dxCardView_CTShowSearchPanelDisabled_MaterialCustom,
+.dxCardView_gvCellError_MaterialCustom,
+.dxCardView_gvFilterRowButton_MaterialCustom,
+.dxCardView_gvHeaderFilter_MaterialCustom,
+.dxCardView_gvHeaderFilterActive_MaterialCustom,
+.dxCardView_gvHeaderSortDown_MaterialCustom,
+.dxCardView_gvHeaderSortUp_MaterialCustom,
+.dxm-checked .dxCardView_CTShowCustomizationWindow_MaterialCustom,
+.dxm-checked .dxCardView_CTShowSearchPanel_MaterialCustom
+{
+    background-image: url('sprite.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxIE .dx-acc-r .dxCardView_CTClearFilter_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTClearFilterDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTDeleteRow_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTDeleteRowDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTEditRow_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTEditRowDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTExportCsv_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTExportCsvDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTExportDocx_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTExportDocxDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTExportPdf_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTExportPdfDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTExportRtf_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTExportRtfDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTExportXls_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTExportXlsDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTExportXlsx_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTExportXlsxDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTNewRow_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTNewRowDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTRefresh_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTRefreshDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTShowCustomizationWindow_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTShowCustomizationWindowDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTShowFilterEditor_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTShowFilterEditorDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTShowSearchPanel_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_CTShowSearchPanelDisabled_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_gvCellError_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_gvFilterRowButton_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_gvHeaderFilter_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_gvHeaderFilterActive_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_gvHeaderSortDown_MaterialCustom::before,
+.dxIE .dx-acc-r .dxCardView_gvHeaderSortUp_MaterialCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxCardView_CTShowCustomizationWindow_MaterialCustom::before,
+.dxIE .dx-acc-r .dxm-checked .dxCardView_CTShowSearchPanel_MaterialCustom::before{
+    width: 121px;
+}
+.dxCardView_CTClearFilter_MaterialCustom
+{
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTClearFilterDisabled_MaterialCustom
+{
+    background-position: 0px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTDeleteRow_MaterialCustom
+{
+    background-position: -34px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTDeleteRowDisabled_MaterialCustom
+{
+    background-position: 0px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTEditRow_MaterialCustom
+{
+    background-position: -51px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTEditRowDisabled_MaterialCustom
+{
+    background-position: -68px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportCsv_MaterialCustom
+{
+    background-position: -17px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportCsvDisabled_MaterialCustom
+{
+    background-position: -102px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportDocx_MaterialCustom
+{
+    background-position: -85px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportDocxDisabled_MaterialCustom
+{
+    background-position: -85px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportPdf_MaterialCustom
+{
+    background-position: -34px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportPdfDisabled_MaterialCustom
+{
+    background-position: -17px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportRtf_MaterialCustom
+{
+    background-position: -51px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportRtfDisabled_MaterialCustom
+{
+    background-position: -17px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportXls_MaterialCustom
+{
+    background-position: -68px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportXlsDisabled_MaterialCustom
+{
+    background-position: -68px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportXlsx_MaterialCustom
+{
+    background-position: -51px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportXlsxDisabled_MaterialCustom
+{
+    background-position: -102px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTNewRow_MaterialCustom
+{
+    background-position: -51px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTNewRowDisabled_MaterialCustom
+{
+    background-position: -68px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTRefresh_MaterialCustom
+{
+    background-position: -102px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTRefreshDisabled_MaterialCustom
+{
+    background-position: 0px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTShowCustomizationWindow_MaterialCustom
+{
+    background-position: -34px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTShowCustomizationWindowDisabled_MaterialCustom
+{
+    background-position: -17px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTShowFilterEditor_MaterialCustom
+{
+    background-position: 0px -68px;
+    width: 14px;
+    height: 14px;
+}
+.dxCardView_CTShowFilterEditorDisabled_MaterialCustom
+{
+    background-position: -75px -68px;
+    width: 14px;
+    height: 14px;
+}
+.dxCardView_CTShowSearchPanel_MaterialCustom
+{
+    background-position: -15px -68px;
+    width: 14px;
+    height: 14px;
+}
+.dxCardView_CTShowSearchPanelDisabled_MaterialCustom
+{
+    background-position: -85px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_gvCellError_MaterialCustom
+{
+    background-position: -30px -68px;
+    width: 14px;
+    height: 14px;
+}
+.dxCardView_gvFilterRowButton_MaterialCustom
+{
+    background-position: -85px -51px;
+    width: 14px;
+    height: 14px;
+}
+.dxCardView_gvHeaderFilter_MaterialCustom
+{
+    background-position: -100px -51px;
+    width: 14px;
+    height: 14px;
+}
+.dxCardView_gvHeaderFilterActive_MaterialCustom
+{
+    background-position: -60px -68px;
+    width: 14px;
+    height: 14px;
+}
+.dxCardView_gvHeaderSortDown_MaterialCustom
+{
+    background-position: -103px -68px;
+    width: 12px;
+    height: 12px;
+}
+.dxCardView_gvHeaderSortUp_MaterialCustom
+{
+    background-position: -90px -68px;
+    width: 12px;
+    height: 12px;
+}
+.dxm-checked .dxCardView_CTShowCustomizationWindow_MaterialCustom
+{
+    background-position: -34px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxm-checked .dxCardView_CTShowSearchPanel_MaterialCustom
+{
+    background-position: -45px -68px;
+    width: 14px;
+    height: 14px;
+}
+

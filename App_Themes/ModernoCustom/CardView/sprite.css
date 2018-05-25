@@ -1,0 +1,289 @@
+.dxCardView_CTClearFilter_ModernoCustom,
+.dxCardView_CTClearFilterDisabled_ModernoCustom,
+.dxCardView_CTDeleteRow_ModernoCustom,
+.dxCardView_CTDeleteRowDisabled_ModernoCustom,
+.dxCardView_CTEditRow_ModernoCustom,
+.dxCardView_CTEditRowDisabled_ModernoCustom,
+.dxCardView_CTExportCsv_ModernoCustom,
+.dxCardView_CTExportCsvDisabled_ModernoCustom,
+.dxCardView_CTExportCsvHover_ModernoCustom,
+.dxCardView_CTExportDocx_ModernoCustom,
+.dxCardView_CTExportDocxDisabled_ModernoCustom,
+.dxCardView_CTExportDocxHover_ModernoCustom,
+.dxCardView_CTExportPdf_ModernoCustom,
+.dxCardView_CTExportPdfDisabled_ModernoCustom,
+.dxCardView_CTExportPdfHover_ModernoCustom,
+.dxCardView_CTExportRtf_ModernoCustom,
+.dxCardView_CTExportRtfDisabled_ModernoCustom,
+.dxCardView_CTExportRtfHover_ModernoCustom,
+.dxCardView_CTExportXls_ModernoCustom,
+.dxCardView_CTExportXlsDisabled_ModernoCustom,
+.dxCardView_CTExportXlsHover_ModernoCustom,
+.dxCardView_CTExportXlsx_ModernoCustom,
+.dxCardView_CTExportXlsxDisabled_ModernoCustom,
+.dxCardView_CTExportXlsxHover_ModernoCustom,
+.dxCardView_CTNewRow_ModernoCustom,
+.dxCardView_CTNewRowDisabled_ModernoCustom,
+.dxCardView_CTRefresh_ModernoCustom,
+.dxCardView_CTRefreshDisabled_ModernoCustom,
+.dxCardView_CTShowCustomizationWindow_ModernoCustom,
+.dxCardView_CTShowCustomizationWindowDisabled_ModernoCustom,
+.dxCardView_CTShowFilterEditor_ModernoCustom,
+.dxCardView_CTShowFilterEditorDisabled_ModernoCustom,
+.dxCardView_CTShowSearchPanel_ModernoCustom,
+.dxCardView_CTShowSearchPanelDisabled_ModernoCustom,
+.dxCardView_gvCellError_ModernoCustom,
+.dxCardView_gvFilterRowButton_ModernoCustom,
+.dxCardView_gvHeaderFilter_ModernoCustom,
+.dxCardView_gvHeaderFilterActive_ModernoCustom,
+.dxCardView_gvHeaderSortDown_ModernoCustom,
+.dxCardView_gvHeaderSortUp_ModernoCustom
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxCardView_CTClearFilter_ModernoCustom
+{
+    background-position: -34px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTClearFilterDisabled_ModernoCustom
+{
+    background-position: -374px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTDeleteRow_ModernoCustom
+{
+    background-position: -187px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTDeleteRowDisabled_ModernoCustom
+{
+    background-position: -323px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTEditRow_ModernoCustom
+{
+    background-position: -204px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTEditRowDisabled_ModernoCustom
+{
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportCsv_ModernoCustom
+{
+    background-position: -561px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportCsvDisabled_ModernoCustom
+{
+    background-position: -510px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportCsvHover_ModernoCustom
+{
+    background-position: -51px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportDocx_ModernoCustom
+{
+    background-position: -170px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportDocxDisabled_ModernoCustom
+{
+    background-position: -238px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportDocxHover_ModernoCustom
+{
+    background-position: -476px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportPdf_ModernoCustom
+{
+    background-position: -340px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportPdfDisabled_ModernoCustom
+{
+    background-position: -459px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportPdfHover_ModernoCustom
+{
+    background-position: -306px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportRtf_ModernoCustom
+{
+    background-position: -272px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportRtfDisabled_ModernoCustom
+{
+    background-position: -102px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportRtfHover_ModernoCustom
+{
+    background-position: -442px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportXls_ModernoCustom
+{
+    background-position: -85px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportXlsDisabled_ModernoCustom
+{
+    background-position: -425px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportXlsHover_ModernoCustom
+{
+    background-position: -408px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportXlsx_ModernoCustom
+{
+    background-position: -17px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportXlsxDisabled_ModernoCustom
+{
+    background-position: -68px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTExportXlsxHover_ModernoCustom
+{
+    background-position: -493px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTNewRow_ModernoCustom
+{
+    background-position: -357px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTNewRowDisabled_ModernoCustom
+{
+    background-position: -255px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTRefresh_ModernoCustom
+{
+    background-position: -391px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTRefreshDisabled_ModernoCustom
+{
+    background-position: -221px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTShowCustomizationWindow_ModernoCustom
+{
+    background-position: -544px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTShowCustomizationWindowDisabled_ModernoCustom
+{
+    background-position: -119px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTShowFilterEditor_ModernoCustom
+{
+    background-position: -289px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTShowFilterEditorDisabled_ModernoCustom
+{
+    background-position: -136px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTShowSearchPanel_ModernoCustom
+{
+    background-position: -153px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_CTShowSearchPanelDisabled_ModernoCustom
+{
+    background-position: -527px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_gvCellError_ModernoCustom
+{
+    background-position: -638px 0px;
+    width: 14px;
+    height: 14px;
+}
+.dxCardView_gvFilterRowButton_ModernoCustom
+{
+    background-position: -653px 0px;
+    width: 13px;
+    height: 13px;
+}
+.dxCardView_gvHeaderFilter_ModernoCustom
+{
+    background-position: -578px 0px;
+    width: 18px;
+    height: 15px;
+}
+.dxCardView_gvHeaderFilterActive_ModernoCustom
+{
+    background-position: -597px 0px;
+    width: 18px;
+    height: 15px;
+}
+.dxCardView_gvHeaderSortDown_ModernoCustom
+{
+    background-position: -627px 0px;
+    width: 10px;
+    height: 15px;
+}
+.dxCardView_gvHeaderSortUp_ModernoCustom
+{
+    background-position: -616px 0px;
+    width: 10px;
+    height: 15px;
+}
+.dxCardView_gvHeaderFilterActive_ModernoCustom
+{
+	background-color: #1279C0;
+}

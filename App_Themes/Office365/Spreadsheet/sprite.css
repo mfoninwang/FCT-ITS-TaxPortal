@@ -1,0 +1,16 @@
+.dxSpreadsheet_TouchResize_Office365
+{
+    background-image: url('sprite.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxIE .dx-acc-r .dxSpreadsheet_TouchResize_Office365::before{
+    width: 21px;
+}
+.dxSpreadsheet_TouchResize_Office365
+{
+    background-position: 0px 0px;
+    width: 20px;
+    height: 20px;
+}
+

@@ -18,6 +18,8 @@ namespace TAAPs.Model
         public int ResourceId { get; set; }
         public bool AllowView { get; set; }
         public bool AllowUpdate { get; set; }
+        public bool AllowAdd { get; set; }
+        public bool AllowDelete { get; set; }
     
         public virtual Resource Resource { get; set; }
         public virtual Role Role { get; set; }

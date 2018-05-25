@@ -15,9 +15,16 @@ namespace TAAPs.Model
     public partial class Payment
     {
         public string PaymentReference { get; set; }
+        public System.DateTime PaymentDate { get; set; }
         public string TIN { get; set; }
+        public string TaxpayerName { get; set; }
         public Nullable<int> AssessmentId { get; set; }
         public decimal Amount { get; set; }
-        public System.DateTime PaymentDate { get; set; }
+        public string PaymentMethod { get; set; }
+        public string PaymentDescription { get; set; }
+        public string TaxOffice { get; set; }
+        public string TaxType { get; set; }
+        public string BankBranch { get; set; }
+        public string PaymentServiceProvider { get; set; }
     }
 }

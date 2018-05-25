@@ -1,0 +1,102 @@
+.dx-acc-r .dxRichEdit_CenterTabDragHandle_Office2010Silver:before,
+.dx-acc-r .dxRichEdit_ColumnSeparatorDragHandle_Office2010Silver:before,
+.dx-acc-r .dxRichEdit_DecimalTabDragHandle_Office2010Silver:before,
+.dx-acc-r .dxRichEdit_FirstLineIdentDragHandle_Office2010Silver:before,
+.dx-acc-r .dxRichEdit_LeftIdentDragHandle_Office2010Silver:before,
+.dx-acc-r .dxRichEdit_LeftTabDragHandle_Office2010Silver:before,
+.dx-acc-r .dxRichEdit_QuickSearchCloseButton_Office2010Silver:before,
+.dx-acc-r .dxRichEdit_QuickSearchCollapseButton_Office2010Silver:before,
+.dx-acc-r .dxRichEdit_QuickSearchNextButton_Office2010Silver:before,
+.dx-acc-r .dxRichEdit_QuickSearchPrevButton_Office2010Silver:before,
+.dx-acc-r .dxRichEdit_RightIdentDragHandle_Office2010Silver:before,
+.dx-acc-r .dxRichEdit_RightTabDragHandle_Office2010Silver:before
+
+{
+    content: url('spriteAccessible.png');
+
+}
+.dx-acc-r .dxRichEdit_CenterTabDragHandle_Office2010Silver:before
+
+{
+    left: -50px;
+    top: -24px;
+
+}
+.dx-acc-r .dxRichEdit_ColumnSeparatorDragHandle_Office2010Silver:before
+
+{
+    left: -42px;
+    top: -24px;
+
+}
+.dx-acc-r .dxRichEdit_DecimalTabDragHandle_Office2010Silver:before
+
+{
+    left: -50px;
+    top: -33px;
+
+}
+.dx-acc-r .dxRichEdit_FirstLineIdentDragHandle_Office2010Silver:before
+
+{
+    left: -48px;
+    top: 0px;
+
+}
+.dx-acc-r .dxRichEdit_LeftIdentDragHandle_Office2010Silver:before
+
+{
+    left: -32px;
+    top: -24px;
+
+}
+.dx-acc-r .dxRichEdit_LeftTabDragHandle_Office2010Silver:before
+
+{
+    left: -43px;
+    top: -33px;
+
+}
+.dx-acc-r .dxRichEdit_QuickSearchCloseButton_Office2010Silver:before
+
+{
+    left: 0px;
+    top: -24px;
+
+}
+.dx-acc-r .dxRichEdit_QuickSearchCollapseButton_Office2010Silver:before
+
+{
+    left: -16px;
+    top: -24px;
+
+}
+.dx-acc-r .dxRichEdit_QuickSearchNextButton_Office2010Silver:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxRichEdit_QuickSearchPrevButton_Office2010Silver:before
+
+{
+    left: -24px;
+    top: 0px;
+
+}
+.dx-acc-r .dxRichEdit_RightIdentDragHandle_Office2010Silver:before
+
+{
+    left: -49px;
+    top: -15px;
+
+}
+.dx-acc-r .dxRichEdit_RightTabDragHandle_Office2010Silver:before
+
+{
+    left: -36px;
+    top: -33px;
+
+}
+

@@ -1,0 +1,104 @@
+.dxRichEdit_CenterTabDragHandle_MaterialCustom,
+.dxRichEdit_ColumnSeparatorDragHandle_MaterialCustom,
+.dxRichEdit_DecimalTabDragHandle_MaterialCustom,
+.dxRichEdit_FirstLineIdentDragHandle_MaterialCustom,
+.dxRichEdit_LeftIdentDragHandle_MaterialCustom,
+.dxRichEdit_LeftTabDragHandle_MaterialCustom,
+.dxRichEdit_QuickSearchCloseButton_MaterialCustom,
+.dxRichEdit_QuickSearchCollapseButton_MaterialCustom,
+.dxRichEdit_QuickSearchNextButton_MaterialCustom,
+.dxRichEdit_QuickSearchPrevButton_MaterialCustom,
+.dxRichEdit_RightIdentDragHandle_MaterialCustom,
+.dxRichEdit_RightTabDragHandle_MaterialCustom
+{
+    background-image: url('sprite.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxIE .dx-acc-r .dxRichEdit_CenterTabDragHandle_MaterialCustom::before,
+.dxIE .dx-acc-r .dxRichEdit_ColumnSeparatorDragHandle_MaterialCustom::before,
+.dxIE .dx-acc-r .dxRichEdit_DecimalTabDragHandle_MaterialCustom::before,
+.dxIE .dx-acc-r .dxRichEdit_FirstLineIdentDragHandle_MaterialCustom::before,
+.dxIE .dx-acc-r .dxRichEdit_LeftIdentDragHandle_MaterialCustom::before,
+.dxIE .dx-acc-r .dxRichEdit_LeftTabDragHandle_MaterialCustom::before,
+.dxIE .dx-acc-r .dxRichEdit_QuickSearchCloseButton_MaterialCustom::before,
+.dxIE .dx-acc-r .dxRichEdit_QuickSearchCollapseButton_MaterialCustom::before,
+.dxIE .dx-acc-r .dxRichEdit_QuickSearchNextButton_MaterialCustom::before,
+.dxIE .dx-acc-r .dxRichEdit_QuickSearchPrevButton_MaterialCustom::before,
+.dxIE .dx-acc-r .dxRichEdit_RightIdentDragHandle_MaterialCustom::before,
+.dxIE .dx-acc-r .dxRichEdit_RightTabDragHandle_MaterialCustom::before{
+    width: 42px;
+}
+.dxRichEdit_CenterTabDragHandle_MaterialCustom
+{
+    background-position: -24px -14px;
+    width: 8px;
+    height: 6px;
+}
+.dxRichEdit_ColumnSeparatorDragHandle_MaterialCustom
+{
+    background-position: -26px -21px;
+    width: 11px;
+    height: 12px;
+}
+.dxRichEdit_DecimalTabDragHandle_MaterialCustom
+{
+    background-position: -33px -14px;
+    width: 8px;
+    height: 6px;
+}
+.dxRichEdit_FirstLineIdentDragHandle_MaterialCustom
+{
+    background-position: -10px -34px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_LeftIdentDragHandle_MaterialCustom
+{
+    background-position: 0px -34px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_LeftTabDragHandle_MaterialCustom
+{
+    background-position: -34px -7px;
+    width: 6px;
+    height: 6px;
+}
+.dxRichEdit_QuickSearchCloseButton_MaterialCustom
+{
+    background-position: 0px 0px;
+    width: 20px;
+    height: 20px;
+}
+.dxRichEdit_QuickSearchCollapseButton_MaterialCustom
+{
+    background-position: 0px -21px;
+    width: 12px;
+    height: 12px;
+}
+.dxRichEdit_QuickSearchNextButton_MaterialCustom
+{
+    background-position: -13px -21px;
+    width: 12px;
+    height: 12px;
+}
+.dxRichEdit_QuickSearchPrevButton_MaterialCustom
+{
+    background-position: -21px 0px;
+    width: 12px;
+    height: 12px;
+}
+.dxRichEdit_RightIdentDragHandle_MaterialCustom
+{
+    background-position: -20px -34px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_RightTabDragHandle_MaterialCustom
+{
+    background-position: -34px 0px;
+    width: 6px;
+    height: 6px;
+}
+

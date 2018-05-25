@@ -1,71 +1,80 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="RoleSecurity.aspx.cs" Inherits="TAAPs.Administration.RoleSecurity" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainLayout.Master" AutoEventWireup="true" CodeBehind="RoleSecurity.aspx.cs" Inherits="TAAPs.Administration.RoleSecurity" %>
 
-<%@ Register Assembly="DevExpress.Web.v15.2, Version=15.2.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
 
-<%@ Register Assembly="DevExpress.Web.ASPxTreeList.v15.2, Version=15.2.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxTreeList" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.ASPxTreeList.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxTreeList" TagPrefix="dx" %>
 
+<%@ Register Assembly="DevExpress.Web.Bootstrap.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.Bootstrap" TagPrefix="dx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
 
-        <script type="text/javascript">
+<asp:Content ID="Content2" ContentPlaceHolderID="contentTitle" runat="server">
+    Role Security
+</asp:Content>
 
-            var windowId;
+<asp:Content ID="Content3" ContentPlaceHolderID="contentSubTitle" runat="server">
+    Role Security
+</asp:Content>
 
-            function OnCustomButtonClick(s, e)
-            {
-                if (e.buttonID == 'btnPermissions')
-                {
-                    windowId = 0;
-                    mastergrid.GetRowValues(e.visibleIndex, 'RoleId;RoleName', OnGetRowValues);
-                }
-            }
+<asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
+    <div class="btn-group">
+        <a class="btn btn-primary" href="#">
+            <i class="glyphicon glyphicon-align-justify"></i>
+            Role Security List
+        </a>
+    </div>
+</asp:Content>
 
-            function OnGetRowValues(keyValue) {
-                var roleId = keyValue[0];
-                var roleName = keyValue[1];
 
-                if (windowId == 0) var headertext = 'Permissions for Role - ' + roleName;
-                var window = popup.GetWindow(windowId);
+<asp:Content ID="Content5" ContentPlaceHolderID="contentBody" runat="server">
 
-                popup.ShowWindow(window);
-                popup.PerformWindowCallback(window, roleId); // This is used only when there's are multiple window in the popoup control
-            }
-    </script>
+    <dx:ASPxSplitter ID="SecuritySplitter" runat="server" Height="100%">
+        <Panes>
+            <dx:SplitterPane AutoHeight="True">
+                <ContentCollection>
+                    <dx:SplitterContentControl runat="server">
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label for="ASPxcbRoles">Role</label>
+                                <dx:ASPxComboBox ID="ASPxcbRoles" runat="server" DataSourceID="edsRoles" TextField="RoleName" ValueField="RoleId" AutoPostBack="True" OnSelectedIndexChanged="ASPxcbRoles_SelectedIndexChanged" Width="100%" NullText="Select Role">
+                                </dx:ASPxComboBox>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="ASPxModules">Module</label>
+                                <dx:ASPxComboBox ID="ASPxModules" runat="server" DataSourceID="edsModules" TextField="DecryptedResourceName" ValueField="ResourceId" AutoPostBack="True" OnSelectedIndexChanged="ASPxModules_SelectedIndexChanged" Width="100%" NullText="Select Module">
+                                </dx:ASPxComboBox>
+                            </div>
+                        </div>
 
+
+                    </dx:SplitterContentControl>
+                </ContentCollection>
+            </dx:SplitterPane>
+            <dx:SplitterPane>
+                <ContentCollection>
+                    <dx:SplitterContentControl runat="server">
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label for="ASPxCblRoleResources">Resources</label>
+                            </div>
+                        </div>
+                        <dx:ASPxCheckBoxList ID="ASPxCblRoleResources" runat="server" RepeatColumns="2" TextField="DecryptedResourceName" ValueField="ResourceId" Width="100%">
+                        </dx:ASPxCheckBoxList>
+                    </dx:SplitterContentControl>
+                </ContentCollection>
+            </dx:SplitterPane>
+        </Panes>
+    </dx:ASPxSplitter>
+
+    <dx:ASPxButton ID="ASPxbtnSaveRolePermissions" runat="server" OnClick="ASPxbtnSaveRolePermissions_Click" Text="Save">
+    </dx:ASPxButton>
 
     <asp:EntityDataSource ID="edsRoleResources" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableDelete="True" EnableFlattening="False" EnableInsert="True" EntitySetName="RoleResources" Include="Resource">
     </asp:EntityDataSource>
-    <asp:EntityDataSource ID="edsModules" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EntitySetName="Resources" Where="it.ResourceType == 'Mod'" EntityTypeFilter="Resource" OrderBy="" Select="">
+    <asp:EntityDataSource ID="edsModules" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EntitySetName="Resources" Where="it.ResourceType == 'Mod'" EntityTypeFilter="Resource" OrderBy="">
     </asp:EntityDataSource>
     <asp:EntityDataSource ID="edsResources" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EntitySetName="Resources" Where="it.ResourceType=='Men'" EntityTypeFilter="Resource" Include="Parent" EnableUpdate="True" OrderBy="">
     </asp:EntityDataSource>
-    <asp:EntityDataSource ID="edsRoles" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EntitySetName="Roles" Select="it.[RoleId], it.[RoleName]" Include="">
+    <asp:EntityDataSource ID="edsRoles" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EntitySetName="Roles" Select="it.[RoleId], it.[RoleName]" Include="" EntityTypeFilter="" Where="it.RoleId != 1">
     </asp:EntityDataSource>
-        <br />
-        <table class="dxtcControl_PlasticBlue" __designer:mapid="14" style="width: 800px">
-            <tr __designer:mapid="15">
-                <td __designer:mapid="16">
-    <dx:ASPxComboBox ID="ASPxcbRoles" runat="server" DataSourceID="edsRoles" TextField="RoleName" ValueField="RoleId" AutoPostBack="True" OnSelectedIndexChanged="ASPxcbRoles_SelectedIndexChanged" Width="200px">
-    </dx:ASPxComboBox>
-                </td>
-            </tr>
-            <tr __designer:mapid="18">
-                <td style="text-align: right" __designer:mapid="19">
-                    &nbsp;</td>
-            </tr>
-            <tr __designer:mapid="18">
-                <td style="text-align: right" __designer:mapid="19">
-                    <dx:ASPxCheckBoxList ID="aspxChklResourses" runat="server" DataSourceID="edsResources" RepeatColumns="5" RepeatDirection="Horizontal" TextField="DecryptedResourceName" ValueField="ResourceId" ValueType="System.Int32" Width="100%">
-                    </dx:ASPxCheckBoxList>
-                </td>
-            </tr>
-            <tr __designer:mapid="18">
-                <td style="text-align: right" __designer:mapid="19">
-                    <dx:ASPxButton ID="ASPxbtnSaveRolePermissions" runat="server" OnClick="ASPxbtnSaveRolePermissions_Click" Text="Save">
-                    </dx:ASPxButton>
-                </td>
-            </tr>
-        </table>
-    <br />
-    </asp:Content>
+</asp:Content>

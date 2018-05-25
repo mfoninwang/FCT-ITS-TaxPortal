@@ -1,0 +1,600 @@
+.dxssControl_ModernoCustom
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d1d1d1;
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+}
+.dxssControl_ModernoCustom .dxrControl_ModernoCustom .dxr-tabContent
+{
+    border-left-style: none;
+    border-right-style: none;
+}
+.dxssControl_ModernoCustom .dxss-gl .dxss-v,
+.dxssControl_ModernoCustom .dxss-gl .dxss-h
+{
+    border-color: #d1d1d1;
+}
+.dxssControl_ModernoCustom .dxss-rowHeader
+{
+    border-right: 1px solid #d1d1d1;
+    border-top: 1px solid #d1d1d1;
+}
+.dxssControl_ModernoCustom .dxss-colHeader
+{
+    border-bottom: 1px solid #d1d1d1;
+    border-left: 1px solid #d1d1d1;
+}
+.dxssControl_ModernoCustom .dxss-crse
+{
+    background-color: #1d85cd;
+}
+.dxssControl_ModernoCustom .dxss-trbe
+{
+    border-top-color: #0a67ab;
+}
+.dxssControl_ModernoCustom .dxss-rrbe
+{
+    border-right-color: #0a67ab;
+}
+.dxssControl_ModernoCustom .dxss-brbe
+{
+    border-bottom-color: #0a67ab;
+}
+.dxssControl_ModernoCustom .dxss-lrbe
+{
+    border-left-color: #0a67ab;
+}
+.dxssControl_ModernoCustom .dxss-fh
+{
+    background-color: #0a67ab;
+}
+.dxssControl_ModernoCustom .dxss-sbe
+{
+    border-color: #0a67ab;
+}
+.dxssControl_ModernoCustom .dxss-crs
+{
+    border-color: #0a67ab;
+}
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom .dxtc-leftIndent
+{
+    width: 0 !important;
+}
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer
+{
+    background: #fafafa;
+    padding: 0 !important;
+}
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-tab,
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab,
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead,
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-leftIndent,
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-spacer,
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-rightIndent,
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-sbIndent,
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-sbSpacer
+{
+    border-top: 1px solid #d1d1d1 !important;
+}
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-tab .dxtc-link
+{
+    padding: 7px 15px 5px 16px;
+}
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab
+{
+    border-top-width: 0 !important;
+    padding-top: 1px;
+}
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab .dxtc-link
+{
+    padding: 7px 14px 5px 15px;
+}
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+    border-left: 1px solid transparent !important;
+}
+.dxssControl_ModernoCustom.dxhe-rtl .dxtcLite_ModernoCustom.dxtc-bottom .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+    border-left: 1px solid #d1d1d1 !important;
+    border-right: 1px solid transparent !important;
+}
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom > .dxtc-stripContainer .dxtc-tab
+{
+    background: transparent;
+}
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-tabHover
+{
+    background: #1279c0;
+}
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab
+{
+    background-color: white !important;
+    border: 1px solid #d1d1d1;
+    border-top: 0 !important;
+}
+.dxssControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > ul
+{
+    border: 0 !important;
+}
+.dxssControl_ModernoCustom .dxrControl_ModernoCustom .dxtcLite_ModernoCustom.dxtc-bottom > .dxtc-stripContainer.dxtc-strip
+{
+    padding-top: 4px !important;
+}
+.dxssControl_ModernoCustom .dxrControl_ModernoCustom .dxr-minBtn
+{
+    margin: 1px 5px 0 0;
+}
+.dxssControl_ModernoCustom .dxtbControl_ModernoCustom.dxtbr_ModernoCustom,
+.dxssControl_ModernoCustom .dxrControl_ModernoCustom .dxpc-mainDiv.dxr-minPopup
+{
+    border: 0;
+}
+.dxssControl_ModernoCustom .dxrControl_ModernoCustom .dxr-tabContent
+{
+    border-width: 0 0 1px 0;
+    border-color: #d1d1d1;
+}
+.dxssControl_ModernoCustom .dxss-hrg,
+.dxssControl_ModernoCustom .dxss-vrg
+{
+    background-color: #0a67ab;
+}
+.dxssControl_ModernoCustom .dxss-tse
+{
+    border-color: #0a67ab;
+}
+.dxssControl_ModernoCustom .dxss-tre
+{
+    background: url('TouchResize.png');
+}
+.dxssControl_ModernoCustom .dxss-ddp,
+.dxssControl_ModernoCustom .dxss-ddb
+{
+    border: 1px solid #d1d1d1;
+}
+.dxssControl_ModernoCustom .dxss-ddp tr:hover
+{
+    background-color: #1279c0;
+}
+/* Loading panel */
+.dxssLoadingDiv_ModernoCustom
+{
+    background: white;
+    opacity: 0.85 !important;
+    filter: alpha(opacity=85);
+}
+.dxssLoadingPanel_ModernoCustom
+{
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #2b2b2b;
+    background-color: White;
+    border: 1px solid #cfcfcf;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxssLoadingPanel_ModernoCustom td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 15px 34px 15px 20px;
+}
+.dxssLoadingPanel_ModernoCustom .dxlp-loadingImage
+{
+    background-image: url('../Web/Loading.gif');
+    height: 40px;
+    width: 40px;
+}
+/* DX Spreadsheet Cell Editor Element, Formula Bar, IntelliSense elements */
+.dxssControl_ModernoCustom .dxss-ctve
+{
+    border: 2px solid #0a67ab;
+    /*the same -dxss-cfe */
+}
+.dxssControl_ModernoCustom .dxss-fb
+{
+    height: 36px;
+    padding: 10px;
+    border-bottom: 1px solid #d1d1d1;
+}
+.dxssControl_ModernoCustom .dxss-fbw
+{
+    padding: 8px 1px 7px 7px !important;
+    border: 1px solid #d1d1d1;
+    background-color: #fafafa;
+}
+.dxFirefox .dxssControl_ModernoCustom .dxss-fbw
+{
+    padding: 7px 1px 7px 7px !important;
+}
+.dxssControl_ModernoCustom .dxmLite_ModernoCustom .dxss-fbMenu
+{
+    height: 36px;
+    border: 0;
+    background-color: transparent;
+    background-image: none;
+}
+.dxssControl_ModernoCustom .dxmLite_ModernoCustom .dxss-fbMenu li
+{
+    border: 0;
+}
+.dxssControl_ModernoCustom .dxss-fbMenu .dxm-content
+{
+    padding-top: 10px !important;
+    padding-left: 27px !important;
+    padding-right: 27px !important;
+}
+.dxssControl_ModernoCustom .dxss-hint
+{
+    border: 1px solid #d1d1d1;
+    color: #2b2b2b;
+    background-color: #E6E6E6;
+    padding: 3px 8px 4px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0 1px 3px;
+    -moz-box-shadow: rgba(0,0,0,0.1) 0 1px 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.dxssControl_ModernoCustom .dxss-hint.dxss-funcInfo
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.dxssControl_ModernoCustom .dxssDlgPageSetupForm
+{
+    width: 634px;
+    height: 610px;
+}
+.dxssControl_ModernoCustom .dxssDlgPageSetupForm .dxssPSPrintContainer
+{
+    bottom: 55px;
+}
+.dxssControl_ModernoCustom .dxssDlgCustomDataFilterForm .dxssDlgFilterOperatorComboBox
+{
+    width: 210px;
+}
+.dxssControlSys .dxmLite_ModernoCustom .dxm-popup .dxm-checked img[class*="ssRibbonGWIcons_PageMarginsNormal"],
+.dxssControlSys .dxmLite_ModernoCustom .dxm-popup .dxm-checked img[class*="ssRibbonGWIcons_PageMarginsWide"],
+.dxssControlSys .dxmLite_ModernoCustom .dxm-popup .dxm-checked img[class*="ssRibbonGWIcons_PageMarginsNarrow"],
+.dxssControlSys .dxmLite_ModernoCustom .dxm-popup .dxm-checked span[class*="ssRibbonGWIcons_PageMarginsNormal"],
+.dxssControlSys .dxmLite_ModernoCustom .dxm-popup .dxm-checked span[class*="ssRibbonGWIcons_PageMarginsWide"],
+.dxssControlSys .dxmLite_ModernoCustom .dxm-popup .dxm-checked span[class*="ssRibbonGWIcons_PageMarginsNarrow"]
+{
+    margin-top: 3px !important;
+}
+.dxssControlSys .dxmLite_ModernoCustom .dxm-popup img[class*="ssRibbonGWIcons_PageMarginsNormal"],
+.dxssControlSys .dxmLite_ModernoCustom .dxm-popup img[class*="ssRibbonGWIcons_PageMarginsWide"],
+.dxssControlSys .dxmLite_ModernoCustom .dxm-popup img[class*="ssRibbonGWIcons_PageMarginsNarrow"],
+.dxssControlSys .dxmLite_ModernoCustom .dxm-popup span[class*="ssRibbonGWIcons_PageMarginsNormal"],
+.dxssControlSys .dxmLite_ModernoCustom .dxm-popup span[class*="ssRibbonGWIcons_PageMarginsWide"],
+.dxssControlSys .dxmLite_ModernoCustom .dxm-popup span[class*="ssRibbonGWIcons_PageMarginsNarrow"]
+{
+    margin-top: 4px !important;
+}
+.dxssFCFormLayout .dxflGroupCell_ModernoCustom
+{
+    padding: 0 10px;
+}
+.dxpcLite_ModernoCustom .dxssDlgFormatCellsForm
+{
+    width: 636px;
+}
+.dxeListBox_ModernoCustom.dxssFCType
+{
+    width: 399px !important;
+    height: 159px !important;
+}
+.dxeListBox_ModernoCustom.dxssFCType .dxlbd
+{
+    width: 397px !important;
+}
+.dxeListBox_ModernoCustom.dxssFCCategory
+{
+    width: 150px !important;
+    height: 332px !important;
+    margin-top: 3px;
+}
+.dxflGroup_ModernoCustom.dxssFCDescription
+{
+    height: 92px;
+    padding-top: 11px !important;
+}
+.dxssFCFormLayout .dxflGroupBox_ModernoCustom
+{
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+.dxeControlsCell_ModernoCustom > .dxssFCDecimalPlaces
+{
+    width: 100px !important;
+}
+/* Cell Editing */
+.dxssControl_ModernoCustom.icbem .dxss-inputTarget
+{
+    border: 2px solid #0a67ab;
+}
+/*Cell position hint*/
+.dxssControl_ModernoCustom .dxss-cell-pos-hint
+{
+    background-color: #0a67ab;
+    color: white;
+}
+.dxssControl_ModernoCustom .dxss-cell-pos-hint .dxh-content
+{
+    padding: 0 10px 0;
+}
+.dxrControl_ModernoCustom .dxssRibbonCBSmall
+{
+    width: 110px;
+}
+.dxrControl_ModernoCustom .dxssRibbonCBLarge
+{
+    width: 130px;
+}
+/* --------------Dialogs----------------- */
+.dxssControl_ModernoCustom .dxss-dialogSimpleFooterGroup,
+.dxssControl_ModernoCustom .dxss-dialogFooter
+{
+    background-color: #fafafa;
+    border-top: 1px #d1d1d1 solid;
+}
+.dxssControl_ModernoCustom .dxss-dialog .dxss-dialogFooterBtn
+{
+    width: 100px !important;
+}
+.dxssControl_ModernoCustom .dxss-dialog .dxss-imagePreviewCell
+{
+    color: #737373;
+    border: dashed 1px #cac8c8;
+}
+.dxssControl_ModernoCustom .dxss-customDataFilterForm .dxss-dialogRadionButtonList .dxe,
+.dxssControl_ModernoCustom .dxss-dialogHeaderGroup .dxss-dialogRadionButtonList .dxe
+{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+@media (max-width: 400px)
+{
+    .dxssControl_ModernoCustom .dxss-dialog .dxss-dialogRadionButtonList .dxichTextCellSys
+    {
+        padding-right: 5px;
+    }
+    .dxssControl_ModernoCustom .dxss-saveFileAsForm .dxss-dialogContentGroup,
+    .dxssControl_ModernoCustom .dxss-insertLinkForm .dxss-dialogContentGroup
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .dxssControl_ModernoCustom .dxss-saveFileAsForm .dxss-dialogHeaderGroup .dxss-dialogRadionButtonList .dxe
+    {
+        padding-left: 6px;
+    }
+    .dxssControl_ModernoCustom .dxss-changeChartTypeForm .dxtcLite_ModernoCustom > .dxtc-content
+    {
+        text-align: center;
+    }
+}
+/*---------Change-Chart-Style-Dialog-------*/
+.dxss-modifyChartStyleContent .dxbButtonHover_ModernoCustom
+{
+    border: 1px Solid #0a67a8;
+    color: white;
+    background: #1d85cd;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFEODVDRCIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDg2Q0IzIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+    background: -ms-linear-gradient(top, #1d85cd 0%, #086cb3 100%);
+    background: -moz-linear-gradient(top, #1d85cd 0%, #086cb3 100%);
+    background: -o-linear-gradient(top, #1d85cd 0%, #086cb3 100%);
+    background: -webkit-linear-gradient(top, #1d85cd 0%, #086cb3 100%);
+    background: linear-gradient(to bottom, #1d85cd 0%, #086cb3 100%);
+    box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.15), 0px 1px 3px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.15), 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxss-modifyChartStyleContent .dxbButtonChecked_ModernoCustom
+{
+    color: #2b2b2b !important;
+    background: #dcdcdc;
+    border: 1px solid #cccccc;
+    box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+    -webkit-box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+}
+.dxss-modifyChartStyleContent .dxbButtonPressed_ModernoCustom
+{
+    color: #a7a7a7;
+    background: #dcdcdc;
+    border: 1px solid #cccccc;
+    box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+    -webkit-box-shadow: inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+}
+.dxss-modifyChartStyleContent .dxbButton_ModernoCustom
+{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.dxeBase_ModernoCustom.dxss-cbFindMatch td.dxichCellSys,
+.dxeBase_ModernoCustom.dxss-cbFindMatch td.dxichTextCellSys
+{
+    padding-top: 5px;
+}
+/* Format as Table */
+.dxss-modifyChartStyleContent .dxbButton_ModernoCustom div.dxb
+{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.dxss-modifyChartStyleContent .dxbButton_ModernoCustom div.dxbf
+{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.dxss-modifyTableStyleForm .dxss-modifyChartStyleContent .dxbButton_ModernoCustom
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+@media (max-width: 400px)
+{
+    .dxssControl_ModernoCustom .dxss-modifyTableStyleForm .dxss-dialogSimpleContentGroup
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .dxssControl_ModernoCustom .dxss-modifyTableStyleForm .dxtcLite_ModernoCustom.dxtc-left > .dxtc-stripContainer .dxtc-link
+    {
+        padding-left: 6px;
+        padding-right: 5px;
+    }
+    .dxssControl_ModernoCustom .dxss-modifyTableStyleForm .dxtcLite_ModernoCustom > .dxtc-content
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+    }
+}
+/*-----Filter-Dialogs-----*/
+.dxss-validationConfirmForm .dxbButton_ModernoCustom div.dxb,
+.dxss-dataFilterSimpleForm .dxbButton_ModernoCustom div.dxb
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.dxssControl_ModernoCustom .dxss-dialog.dxss-dataValidationForm .dxss-dialogFooterBtn,
+.dxssControl_ModernoCustom .dxss-dialog.dxss-validationConfirmForm .dxss-dialogFooterBtn,
+.dxssControl_ModernoCustom .dxss-dialog.dxss-dataFilterSimpleForm .dxss-dialogFooterBtn
+{
+    width: 90px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+@media (max-width: 440px)
+{
+    .dxss-dataValidationForm .dxbButton_ModernoCustom div.dxb,
+    .dxss-dataFilterSimpleForm .dxbButton_ModernoCustom div.dxb
+    {
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .dxpnlControl_ModernoCustom .dxss-dataFilterSimpleForm .dxss-dialogControlsWrapper > tbody > tr > td:first-child
+    {
+        display: none;
+    }
+    .dxssControl_ModernoCustom .dxss-dataValidationForm .dxss-dialogSimpleFooterGroup,
+    .dxssControl_ModernoCustom .dxss-dataFilterSimpleForm .dxss-dialogSimpleFooterGroup
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .dxssControl_ModernoCustom .dxss-dialog.dxss-dataValidationForm .dxss-dialogFooterBtn,
+    .dxssControl_ModernoCustom .dxss-dialog.dxss-validationConfirmForm .dxss-dialogFooterBtn,
+    .dxssControl_ModernoCustom .dxss-dialog.dxss-dataFilterSimpleForm .dxss-dialogFooterBtn
+    {
+        width: 85px !important;
+    }
+}
+/*---Page-Setup-Dialog---*/
+.dxssControl_ModernoCustom .dxss-pageSetupForm .dxss-pageSetupContent > div:first-child
+{
+    padding-right: 0px;
+    padding-left: 7px;
+}
+.dxssControl_ModernoCustom .dxss-pageSetupForm .dxss-pageSetupContent .dxss-customPaddingGroup
+{
+    padding-left: 0px;
+    padding-right: 10px;
+}
+.dxss-customPaddingGroup .dxflGroupCell_ModernoCustom
+{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.dxssControl_ModernoCustom .dxss-dialog .dxss-shortEditor
+{
+    min-width: 90px;
+    max-width: 90px;
+}
+.dxssControl_ModernoCustom .dxss-pageSetupForm .dxss-orientationGroup
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.dxssControl_ModernoCustom .dxss-pageSetupForm .dxss-scalingGroup,
+.dxssControl_ModernoCustom .dxss-pageSetupForm .dxss-pagePrintGroup,
+.dxssControl_ModernoCustom .dxss-pageSetupForm .dxss-firstPageGroup
+{
+    padding-left: 7px;
+}
+/*---Floating-content---*/
+.dxssControl_ModernoCustom .dxss-pageSetupForm .dxss-scalingGroup > div:first-child,
+.dxssControl_ModernoCustom .dxss-pageSetupForm .dxss-scalingGroup > div:nth-child(3)
+{
+    width: 25% !important;
+}
+.dxssControl_ModernoCustom .dxss-pageSetupForm .dxss-scalingGroup > div:nth-child(2)
+{
+    width: 75% !important;
+}
+.dxssControl_ModernoCustom .dxss-pageSetupForm .dxss-scalingGroup > div:nth-child(5)
+{
+    width: 35% !important;
+}
+/*---Spin-edits---*/
+.dxss-marginPreviewContainer .dxss-previewTable .dxeButtonEditSys .dxeSpinIncButton_ModernoCustom,
+.dxss-marginPreviewContainer .dxss-previewTable .dxeButtonEditSys .dxeSpinDecButton_ModernoCustom
+{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.dxssControl_ModernoCustom .dxss-pageSetupContent .dxss-HFMainGroup
+{
+    padding-left: 0px;
+    padding-right: 10px;
+}
+/*---Custom-Header-Footer-Dialog---*/
+.dxssControl_ModernoCustom .dxss-headerFooterContent .dxss-HFHeaderGroup,
+.dxssControl_ModernoCustom .dxss-headerFooterContent .dxss-HFFooterGroup
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.dxss-headerFooterContent .dxss-HFHeaderGroup .dxflGroupCell_ModernoCustom,
+.dxss-headerFooterContent .dxss-HFFooterGroup .dxflGroupCell_ModernoCustom
+{
+    padding-left: 0px;
+    padding-right: 10px;
+}
+/***Data*Validation***/
+.dxss-dataValidationForm .dxtcLite_ModernoCustom .dxss-dvContent
+{
+    min-height: 375px;
+}
+.dxss-dataValidationForm .dxtcLite_ModernoCustom .dxss-dvSettingsContent
+{
+    min-height: 329px;
+}
+.dxssControl_ModernoCustom .dxss-dataValidationForm .dxss-zeroPaddingGroup
+{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.dxss-dvSettingsContent .dxeBase_ModernoCustom.dxss-cbInCellDropdown td.dxichCellSys,
+.dxss-dvSettingsContent .dxeBase_ModernoCustom.dxss-cbInCellDropdown td.dxichTextCellSys,
+.dxss-dvSettingsContent .dxeBase_ModernoCustom.dxss-cbIgnoreBlank td.dxichCellSys,
+.dxss-dvSettingsContent .dxeBase_ModernoCustom.dxss-cbIgnoreBlank td.dxichTextCellSys
+{
+    padding-top: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.dxss-dataValidationForm .dxss-dvSettingsContent .dxss-dialogContentGroup .dxflGroupCell_ModernoCustom
+{
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.dxss-dataValidationForm .dxss-dvSettingsContent .dxflGroup_ModernoCustom
+{
+    padding-right: 0px;
+}
