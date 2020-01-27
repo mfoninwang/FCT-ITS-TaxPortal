@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainLayout.Master" AutoEventWireup="true" CodeBehind="TaxOfficeList.aspx.cs" Inherits="TAAPs.Administration.TaxOfficeList" %>
 
-<%@ Register Assembly="DevExpress.Web.ASPxTreeList.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxTreeList" TagPrefix="dx" %>
-<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.ASPxTreeList.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxTreeList" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -12,58 +12,21 @@
     Tax Offices
 </asp:Content>
 
-<asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
-    <div class="btn-group">
-        <a class="btn btn-primary" href="#">
-            <i class="glyphicon glyphicon-align-justify"></i>
-            Tax Office List
-        </a>
-    </div>
-</asp:Content>
+
 
 <asp:Content ID="Content5" ContentPlaceHolderID="contentBody" runat="server">
         <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="edsTaxOffices" KeyFieldName="TaxOfficeId" OnCellEditorInitialize="ASPxGridView1_CellEditorInitialize" OnCustomErrorText="ASPxGridView1_CustomErrorText" Width="100%">
-            <SettingsEditing EditFormColumnCount="4" Mode="PopupEditForm">
+<SettingsAdaptivity>
+<AdaptiveDetailLayoutProperties ColCount="1"></AdaptiveDetailLayoutProperties>
+</SettingsAdaptivity>
+
+            <SettingsEditing Mode="PopupEditForm">
             </SettingsEditing>
             <Settings ShowFilterRow="True" />
             <SettingsBehavior AllowSelectByRowClick="True" AllowSelectSingleRowOnly="True" ColumnResizeMode="NextColumn" />
             <SettingsDataSecurity AllowDelete="False" />
             <SettingsText PopupEditFormCaption="Edit Tax Office" />
-            <EditFormLayoutProperties AlignItemCaptionsInAllGroups="True" ColCount="2">
-                <Items>
-                    <dx:GridViewColumnLayoutItem ColumnName="TaxOfficeId" ShowCaption="True">
-                        <CaptionSettings Location="Top" />
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="TaxOfficeName" ShowCaption="True">
-                        <CaptionSettings Location="Top" />
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="TaxOfficeTypeId" ShowCaption="True">
-                        <CaptionSettings Location="Top" />
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="RegionId" ShowCaption="True">
-                        <CaptionSettings Location="Top" />
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColSpan="2" ColumnName="Street" ShowCaption="True">
-                        <CaptionSettings Location="Top" />
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="City" ShowCaption="True">
-                        <CaptionSettings Location="Top" />
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="Telephone" ShowCaption="True">
-                        <CaptionSettings Location="Top" />
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColSpan="2" ColumnName="TaxOfficerName" ShowCaption="True">
-                        <CaptionSettings Location="Top" />
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="TaxOfficerPhone" ShowCaption="True">
-                        <CaptionSettings Location="Top" />
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="IsActive" ShowCaption="True">
-                        <CaptionSettings Location="Top" />
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:EditModeCommandLayoutItem ColSpan="2" HorizontalAlign="Right">
-                    </dx:EditModeCommandLayoutItem>
-                </Items>
+            <EditFormLayoutProperties ColCount="2" ColumnCount="2">
             </EditFormLayoutProperties>
             <Columns>
                 <dx:GridViewCommandColumn ShowEditButton="True" VisibleIndex="15" Width="100px">

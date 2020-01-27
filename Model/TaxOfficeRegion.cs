@@ -16,7 +16,6 @@ namespace TAAPs.Model
     {
         public TaxOfficeRegion()
         {
-            this.TaxOffices = new HashSet<TaxOffice>();
             this.Users = new HashSet<User>();
         }
     
@@ -28,7 +27,6 @@ namespace TAAPs.Model
         public System.DateTime CreateDate { get; set; }
         public string CreatedBy { get; set; }
     
-        public virtual ICollection<TaxOffice> TaxOffices { get; set; }
         public virtual ICollection<User> Users { get; set; }
     }
 }

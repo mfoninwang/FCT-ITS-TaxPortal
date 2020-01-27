@@ -22,9 +22,9 @@ namespace TAAPs.Model
         public string CreatedBy { get; set; }
         public System.DateTime CreateDate { get; set; }
     
-        public virtual TaxOffice TaxOffice { get; set; }
-        public virtual TaxOffice TaxOffice1 { get; set; }
         public virtual User User { get; set; }
         public virtual CTaxpayerBranch CTaxpayerBranch { get; set; }
+        public virtual TaxOffice TaxOffice { get; set; }
+        public virtual TaxOffice TaxOffice1 { get; set; }
     }
 }

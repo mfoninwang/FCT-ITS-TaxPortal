@@ -10,14 +10,6 @@
     Payment List
 </asp:Content>
 
-<asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
-
-        <div class="btn-group">
-        <a class="btn btn-primary" href="#">
-            <i class="fa fa-plus"></i>
-        </a>
-    </div>
-</asp:Content>
 
 
 

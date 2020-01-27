@@ -4,7 +4,7 @@
 
 <html>
 <head runat="server">
-    <title>FCT-IRS Tax Portal</title>
+    <title>KWARA State Tax Portal</title>
 
 
     <meta charset="utf-8">
@@ -52,14 +52,37 @@
     <!-- End Bootstrap Dialog
         =====================================================================-->
 
+    <style>
+        .msg-overlay-container {
+            position: fixed;
+            z-index: 1000;
+            bottom: 0;
+            right: 120px;
+            height: 0;
+            overflow: visible;
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: nowrap;
+            align-items: flex-end;
+        }
 
+        .msg-overlay-list-bubble--is-minimized {
+            transition-timing-function: cubic-bezier(.4,0,1,1);
+            transition-duration: 167ms;
+            transform: translateY(357px);
+            width: 264px;
+            flex-basis: 264px;
+        }
+    </style>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 
 <body class="hold-transition sidebar-mini">
+
     <form id="form1" runat="server">
+
         <div class="wrapper">
             <header class="main-header">
                 <a href="#" class="logo">
@@ -115,7 +138,7 @@
                             <% if (CurrentUser != null)
                                 { %>
                             <p>
-                                <%= string.Concat(CurrentUser.FirstName, " ", CurrentUser.LastName)%>
+                                <%= CurrentUser.FirstName%>
                             </p>
                             <% ;
                                 }%>
@@ -197,9 +220,7 @@
                         <!-- Form controls -->
                         <div class="col-sm-12">
                             <div class="panel panel-bd ">
-                                <div class="panel-heading">
-                                    <asp:ContentPlaceHolder ID="panelHeading" runat="server"></asp:ContentPlaceHolder>
-                                </div>
+
                                 <div class="panel-body">
 
                                     <asp:ContentPlaceHolder ID="contentBody" runat="server"></asp:ContentPlaceHolder>
@@ -212,13 +233,69 @@
                 <!-- /.content -->
             </div>
             <!-- /.content-wrapper -->
-                <!-- Trigger the modal with a button -->
+            <!-- Trigger the modal with a button -->
+
+
+
 
             <footer class="main-footer">
                 <div class="pull-right hidden-xs"><b>Version</b> 1.0</div>
                 <strong>Copyright &copy; <%= DateTime.Now.Year %> <a href="#"></a>.</strong> All rights reserved.
             </footer>
         </div>
+
+        <!-- Trigger the modal with a button -->
+
+        <%--        <div class="msg-overlay-container">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+                   <h4>Log an issue</h4>
+                </button>
+        </div>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h2 class="modal-title">Log Issue</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="SubjectText">Subject:</label>
+                            <input type="text" class="form-control" runat="server" id="SubjectTextField" maxlength="20" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="description">Description:</label>
+                            <textarea class="form-control" runat="server" id="DescriptionTextField" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="Priority">Priority:</label>
+                            <select class="form-control" name="Priority" runat="server" id="PriorityField" required>
+                                <option value="Low">Low</option>
+                                <option value="Medium">Medium</option>
+                                <option value="High">High</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button runat="server" id="SubmitIssue" class="btn btn-default" onserverclick="SubmitIssue_Click">Submit</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>--%>
+
+
+
+
+
+
+
+
+
 
 
         <!-- ./wrapper -->

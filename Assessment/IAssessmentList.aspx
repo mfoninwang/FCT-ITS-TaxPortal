@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainLayout.Master" AutoEventWireup="true" CodeBehind="IAssessmentList.aspx.cs" Inherits="TAAPs.Assessment.IAssessmentList" %>
 
-<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
@@ -15,14 +15,7 @@
     Assessment List
 </asp:Content>
 
-<asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
-    <div class="btn-group">
-        <a class="btn btn-primary" href="#">
-            <i class="fa fa-plus"></i>
-            Add Individual Assessment
-        </a>
-    </div>
-</asp:Content>
+
 
 
 <asp:Content ID="Content5" ContentPlaceHolderID="contentBody" runat="server">

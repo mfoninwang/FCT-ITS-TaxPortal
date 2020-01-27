@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainLayout.Master" AutoEventWireup="true" CodeBehind="TaxTypeList.aspx.cs" Inherits="TAAPs.Administration.TaxTypeList" %>
 
-<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -13,56 +13,21 @@
     Tax Types
 </asp:Content>
 
-<asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
-    <div class="btn-group">
-        <a class="btn btn-primary" href="#">
-            <i class="glyphicon glyphicon-align-justify"></i>
-            Tax Type List
-        </a>
-    </div>
-</asp:Content>
 
 
 <asp:Content ID="Content5" ContentPlaceHolderID="contentBody" runat="server">
-        <dx:ASPxGridView ID="ASPxgvTaxTypes" runat="server" AutoGenerateColumns="False" DataSourceID="dsTaxTypes" KeyFieldName="TaxTypeId" Width="100%" OnHtmlDataCellPrepared="ASPxgvTaxTypes_HtmlDataCellPrepared" OnCustomErrorText="ASPxgvTaxTypes_CustomErrorText">
+        <dx:ASPxGridView ID="TaxTypeGridView" runat="server" AutoGenerateColumns="False" DataSourceID="TaxTypeEntityDataSource" KeyFieldName="TaxTypeId" Width="100%" OnHtmlDataCellPrepared="TaxTypeGridView_HtmlDataCellPrepared" OnCustomErrorText="TaxTypeGridView_CustomErrorText" ClientInstanceName="grid">
+            <SettingsPopup>
+                <EditForm HorizontalAlign="WindowCenter" Modal="True" ShowMaximizeButton="True" ShowShadow="True">
+                </EditForm>
+            </SettingsPopup>
             <SettingsText PopupEditFormCaption="Edit Tax Type" />
             <EditFormLayoutProperties ColCount="2">
-                <Items>
-                    <dx:GridViewColumnLayoutItem ColumnName="TaxTypeId">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="TaxTypeName">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="FillingDueDate">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="FillingFrequency">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="LateFilingFlatFee">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="LateFilingRecurringFee">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="LateFilingRecurringFeeFreq">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="PaymentDueDays">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="LatePaymentRate">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="InterestRate">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:EditModeCommandLayoutItem ColSpan="2" HorizontalAlign="Right">
-                    </dx:EditModeCommandLayoutItem>
-                </Items>
                 <SettingsItemCaptions Location="Top" />
             </EditFormLayoutProperties>
             <Columns>
                 <dx:GridViewCommandColumn ShowEditButton="True" VisibleIndex="12">
                 </dx:GridViewCommandColumn>
-                <dx:GridViewDataTextColumn FieldName="TaxTypeId" VisibleIndex="0" ReadOnly="True">
-                    <PropertiesTextEdit>
-                        <ValidationSettings ErrorDisplayMode="None">
-                            <RequiredField IsRequired="True" />
-                        </ValidationSettings>
-                    </PropertiesTextEdit>
-                </dx:GridViewDataTextColumn>
                 <dx:GridViewDataTextColumn FieldName="TaxTypeName" VisibleIndex="1">
                     <PropertiesTextEdit>
                         <ValidationSettings ErrorDisplayMode="None">
@@ -151,7 +116,15 @@
                     </PropertiesTextEdit>
                     <EditFormSettings Visible="True" />
                 </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn FieldName="TaxTypeId" ReadOnly="True" VisibleIndex="0">
+                    <PropertiesTextEdit DisplayFormatString="{0}">
+                    </PropertiesTextEdit>
+                </dx:GridViewDataTextColumn>
             </Columns>
+<SettingsAdaptivity>
+<AdaptiveDetailLayoutProperties ColCount="1"></AdaptiveDetailLayoutProperties>
+</SettingsAdaptivity>
+
             <SettingsEditing Mode="PopupEditForm">
             </SettingsEditing>
             <Settings ShowGroupButtons="False" />
@@ -165,11 +138,12 @@
                 </dx:GridViewToolbar>
             </Toolbars>
         </dx:ASPxGridView>
-        <asp:EntityDataSource ID="dsTaxTypes" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EnableInsert="True" EnableUpdate="True" EntitySetName="TaxTypes" EntityTypeFilter="TaxType" Include="User">
+        <asp:EntityDataSource ID="TaxTypeEntityDataSource" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EnableInsert="True" EnableUpdate="True" EntitySetName="TaxTypes" EntityTypeFilter="TaxType" Include="User">
 
             <InsertParameters>
                 <asp:SessionParameter Name="CreatedBy" Type="String" SessionField="UserName" />
             </InsertParameters>
 
         </asp:EntityDataSource>
+&nbsp;
 </asp:Content>

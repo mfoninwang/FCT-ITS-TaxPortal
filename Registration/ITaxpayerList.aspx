@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainLayout.Master" AutoEventWireup="true" CodeBehind="ITaxpayerList.aspx.cs" Inherits="TAAPs.Registration.ITaxpayerList" %>
 
-<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Data.Linq" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Data.Linq" TagPrefix="dx" %>
 
-<%@ Register Assembly="DevExpress.Web.Bootstrap.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.Bootstrap" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.Bootstrap.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.Bootstrap" TagPrefix="dx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -12,17 +12,13 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="contentSubTitle" runat="server">
     Individual Taxpayers
 </asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
-    <div class="btn-group">
-        <a class="btn btn-primary" href="#">
-            <i class="glyphicon glyphicon-align-justify"></i>
-            Individual Taxpayer List
-        </a>
-    </div>
-</asp:Content>
+
+
+
+
 <asp:Content ID="Content5" ContentPlaceHolderID="contentBody" runat="server">
 
-    <dx:ASPxGridView ID="TaxpayerGridView" runat="server" AutoGenerateColumns="False" DataSourceID="TaxpayerEntityServerModeDataSource" KeyFieldName="TIN" Width="100%">
+    <dx:aspxgridview id="TaxpayerGridView" runat="server" autogeneratecolumns="False" datasourceid="TaxpayerEntityServerModeDataSource" keyfieldname="TIN" width="100%">
 <SettingsAdaptivity>
 <AdaptiveDetailLayoutProperties ColCount="1"></AdaptiveDetailLayoutProperties>
 </SettingsAdaptivity>
@@ -31,9 +27,11 @@
             <PageSizeItemSettings Visible="True">
             </PageSizeItemSettings>
         </SettingsPager>
-        <Settings ShowFilterRow="True" />
+        <Settings ShowFilterRow="True" ShowFilterBar="Visible" />
         <SettingsBehavior AllowEllipsisInText="True" AllowSelectByRowClick="True" AllowSelectSingleRowOnly="True" FilterRowMode="OnClick" />
         <SettingsDataSecurity AllowDelete="False" AllowEdit="False" AllowInsert="False" />
+        <SettingsFilterControl ShowAllDataSourceColumns="True">
+        </SettingsFilterControl>
         <SettingsExport EnableClientSideExportAPI="True">
         </SettingsExport>
 
@@ -94,7 +92,7 @@
                 </Items>
             </dx:GridViewToolbar>
         </Toolbars>
-    </dx:ASPxGridView>
+    </dx:aspxgridview>
 
-    <dx:EntityServerModeDataSource ID="TaxpayerEntityServerModeDataSource" runat="server" ContextTypeName="TAAPs.Model.TAAPsDBContext" OnSelecting="TaxpayerEntityServerModeDataSource_Selecting" TableName="ITaxpayers" />
+    <dx:entityservermodedatasource id="TaxpayerEntityServerModeDataSource" runat="server" contexttypename="TAAPs.Model.TAAPsDBContext" onselecting="TaxpayerEntityServerModeDataSource_Selecting" tablename="ITaxpayers" />
 </asp:Content>

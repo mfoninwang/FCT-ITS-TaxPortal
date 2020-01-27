@@ -17,7 +17,7 @@ namespace TAAPs.Model
         public long RequestId { get; set; }
         public string CacNumber { get; set; }
         public string BNNumber { get; set; }
-        public string CompanyType { get; set; }
+        public int CompanyTypeId { get; set; }
         public string PreviousFCTTin { get; set; }
         public string CompanyName { get; set; }
         public string BusinessLineId { get; set; }
@@ -37,16 +37,17 @@ namespace TAAPs.Model
         public string ContactPerson { get; set; }
         public string ContactPersonPhone { get; set; }
         public string Status { get; set; }
+        public string RecordSource { get; set; }
         public string CreatedBy { get; set; }
         public System.DateTime CreateDate { get; set; }
-        public string RecordSource { get; set; }
     
         public virtual BusinessLine BusinessLine { get; set; }
         public virtual Country Country { get; set; }
         public virtual LGA LGA { get; set; }
         public virtual RegisteredCompany RegisteredCompany { get; set; }
         public virtual State State { get; set; }
-        public virtual TaxOffice TaxOffice { get; set; }
         public virtual User User { get; set; }
+        public virtual CompanyType CompanyType { get; set; }
+        public virtual TaxOffice TaxOffice { get; set; }
     }
 }

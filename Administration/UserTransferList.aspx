@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainLayout.Master" AutoEventWireup="true" CodeBehind="UserTransferList.aspx.cs" Inherits="TAAPs.Administration.UserTransferList" %>
 
-<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script type="text/javascript">
@@ -40,15 +40,6 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="contentSubTitle" runat="server">
     User Transfers
-</asp:Content>
-
-<asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
-    <div class="btn-group">
-        <a class="btn btn-primary" href="#">
-            <i class="glyphicon glyphicon-align-justify"></i>
-            User Transfer List
-        </a>
-    </div>
 </asp:Content>
 
 
@@ -95,7 +86,7 @@
     </dx:ASPxGridView>
 
 
-    <dx:ASPxPopupControl ID="ASPxPopupControl1" runat="server" ClientInstanceName="popup" Width="100%" HeaderText="" Modal="True" OnWindowCallback="ASPxPopupControl1_WindowCallback" PopupHorizontalAlign="Center" PopupVerticalAlign="Middle" ShowPinButton="True" AllowDragging="True" AllowResize="True" EnableClientSideAPI="True">
+    <dx:ASPxPopupControl ID="ASPxPopupControl1" runat="server" ClientInstanceName="popup" Width="100%" HeaderText="" Modal="True" OnWindowCallback="ASPxPopupControl1_WindowCallback" PopupHorizontalAlign="WindowCenter" ShowPinButton="True" AllowDragging="True" AllowResize="True" EnableClientSideAPI="True">
         <Windows>
             <dx:PopupWindow Modal="True" Name="transferpopup" Width="900px">
                 <ContentCollection>

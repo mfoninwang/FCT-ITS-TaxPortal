@@ -24,7 +24,6 @@
 
             }
 
-
         }
         function OnLgaEndCallback(s, e) {
             if (state) {
@@ -41,15 +40,8 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="contentSubTitle" runat="server">
     Individual Taxpayer List
 </asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
-    <div class="btn-group">
-        <a class="btn btn-primary" href="#">
-            <i class="fa fa-list"></i>
-            Add Individual Taxpayer
-        </a>
-    </div>
 
-</asp:Content>
+
 <asp:Content ID="Content5" ContentPlaceHolderID="contentBody" runat="server">
 
     <dx:ASPxPageControl ID="ASPxPageControl1" runat="server" ActiveTabIndex="0" Width="100%">
@@ -438,8 +430,8 @@
                                 <dx:LayoutItem FieldName="CreateDate">
                                     <LayoutItemNestedControlCollection>
                                         <dx:LayoutItemNestedControlContainer runat="server">
-                                            <dx:ASPxDateEdit ID="ASPxFormLayout1_E53" runat="server" ReadOnly="True" Width="100%">
-                                            </dx:ASPxDateEdit>
+                                            <dx:ASPxTextBox ID="TaxpayerForm_E2" runat="server" DisplayFormatString="dd-MMM-yyyy hh:mm:ss" ReadOnly="True">
+                                            </dx:ASPxTextBox>
                                         </dx:LayoutItemNestedControlContainer>
                                     </LayoutItemNestedControlCollection>
                                 </dx:LayoutItem>

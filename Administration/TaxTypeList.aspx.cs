@@ -3,7 +3,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.Security;
-
+using DevExpress.Web;
 
 namespace TAAPs.Administration
 {
@@ -14,7 +14,12 @@ namespace TAAPs.Administration
 
         }
 
-        protected void ASPxgvTaxTypes_HtmlDataCellPrepared(object sender, DevExpress.Web.ASPxGridViewTableDataCellEventArgs e)
+        protected void TaxTypeGridView_CustomErrorText(object sender, DevExpress.Web.ASPxGridViewCustomErrorTextEventArgs e)
+        {
+            e.ErrorText = e.Exception.InnerException.InnerException.ToString();
+        }
+
+        protected void TaxTypeGridView_HtmlDataCellPrepared(object sender, DevExpress.Web.ASPxGridViewTableDataCellEventArgs e)
         {
             if (e.DataColumn.FieldName == "TaxTypeId")
             {
@@ -22,10 +27,5 @@ namespace TAAPs.Administration
             }
         }
 
-        protected void ASPxgvTaxTypes_CustomErrorText(object sender, DevExpress.Web.ASPxGridViewCustomErrorTextEventArgs e)
-        {
-            //e.ErrorText = e.Exception.InnerException.ToString();
-            DisplayAlert("Danger", "Tax Type", e.Exception.Message);
-        }
     }
 }

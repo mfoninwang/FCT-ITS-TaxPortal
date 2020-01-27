@@ -11,14 +11,7 @@
     Currencies
 </asp:Content>
 
-<asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
-    <div class="btn-group">
-        <a class="btn btn-primary" href="#">
-            <i class="glyphicon glyphicon-align-justify"></i>
-            Currency List
-        </a>
-    </div>
-</asp:Content>
+
 
 <asp:Content ID="Content5" ContentPlaceHolderID="contentBody" runat="server">
 

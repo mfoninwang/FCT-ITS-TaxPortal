@@ -400,13 +400,13 @@ namespace TAAPs.Registration {
         protected global::DevExpress.Web.ASPxTextBox ASPxFormLayout1_E52;
         
         /// <summary>
-        /// ASPxFormLayout1_E53 control.
+        /// TaxpayerForm_E2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxDateEdit ASPxFormLayout1_E53;
+        protected global::DevExpress.Web.ASPxTextBox TaxpayerForm_E2;
         
         /// <summary>
         /// SendSMSButton control.

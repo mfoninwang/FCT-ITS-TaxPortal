@@ -1,7 +1,7 @@
 ﻿
 <%@ Page Title="" Language="C#" MasterPageFile="~/mainLayout.Master" AutoEventWireup="true" CodeBehind="ITaxAccount.aspx.cs" Inherits="TAAPs.Assessment.ITaxAccount" %>
 
-<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -14,14 +14,7 @@
     Tax Accounts
 </asp:Content>
 
-<asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
-    <div class="btn-group">
-        <a class="btn btn-primary" href="#">
-            <i class="glyphicon glyphicon-align-justify"></i>
-            Tax Account List
-        </a>
-    </div>
-</asp:Content>
+
 
 <asp:Content ID="Content5" ContentPlaceHolderID="contentBody" runat="server">
         <dx:ASPxGridView ID="ASPxgvTaxAccounts" runat="server" AutoGenerateColumns="False" DataSourceID="edsITaxAccounts" KeyFieldName="TaxAccountNo" OnStartRowEditing="ASPxgvTaxAccounts_StartRowEditing" OnCustomErrorText="ASPxgvTaxAccounts_CustomErrorText" OnHtmlEditFormCreated="ASPxgvTaxAccounts_HtmlEditFormCreated" OnInitNewRow="ASPxgvTaxAccounts_InitNewRow" OnCellEditorInitialize="ASPxgvTaxAccounts_CellEditorInitialize" Width="100%">

@@ -32,10 +32,10 @@ namespace TAAPs.Model
             this.ITaxpayerAddresses = new HashSet<ITaxpayerAddress>();
             this.ITaxpayerNoKs = new HashSet<ITaxpayerNoK>();
             this.ITaxpayers = new HashSet<ITaxpayer>();
-            this.CTINRequests = new HashSet<CTINRequest>();
-            this.CTaxpayers = new HashSet<CTaxpayer>();
             this.ITaxpayerFiles = new HashSet<ITaxpayerFile>();
             this.IssueLogs = new HashSet<IssueLog>();
+            this.CTaxpayers = new HashSet<CTaxpayer>();
+            this.CTINRequests = new HashSet<CTINRequest>();
         }
     
         public string UserName { get; set; }
@@ -64,7 +64,6 @@ namespace TAAPs.Model
         public virtual ICollection<CBank> CBanks { get; set; }
         public virtual ICollection<CTurnover> CTurnovers { get; set; }
         public virtual TaxOfficeRegion TaxOfficeRegion { get; set; }
-        public virtual TaxOffice TaxOffice { get; set; }
         public virtual ICollection<GeneratedReceipt> GeneratedReceipts { get; set; }
         public virtual ICollection<IAssessment> IAssessments { get; set; }
         public virtual ICollection<TaxType> TaxTypes { get; set; }
@@ -75,9 +74,10 @@ namespace TAAPs.Model
         public virtual ICollection<ITaxpayerAddress> ITaxpayerAddresses { get; set; }
         public virtual ICollection<ITaxpayerNoK> ITaxpayerNoKs { get; set; }
         public virtual ICollection<ITaxpayer> ITaxpayers { get; set; }
-        public virtual ICollection<CTINRequest> CTINRequests { get; set; }
-        public virtual ICollection<CTaxpayer> CTaxpayers { get; set; }
         public virtual ICollection<ITaxpayerFile> ITaxpayerFiles { get; set; }
         public virtual ICollection<IssueLog> IssueLogs { get; set; }
+        public virtual ICollection<CTaxpayer> CTaxpayers { get; set; }
+        public virtual ICollection<CTINRequest> CTINRequests { get; set; }
+        public virtual TaxOffice TaxOffice { get; set; }
     }
 }

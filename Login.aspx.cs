@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 using TAAPs.Model;
+using TAAPs.Controllers;
 
 namespace TAAPs
 {
@@ -16,7 +17,6 @@ namespace TAAPs
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
 
         protected void BtnLogin_Click(object sender, EventArgs e)
@@ -28,6 +28,11 @@ namespace TAAPs
         {
             string username = this.username.Value;
             string password = this.password.Value;
+
+            ApiHelper.InitializeClient();
+            ApiHelper.ApiClient.BaseAddress = new Uri(ApiHelper.BaseUrl);
+
+            string endPoint = string.Format("api/Users/GetUser");
 
             try
             {

@@ -1,16 +1,18 @@
-<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
-<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
 
-<dx:ASPxGridView runat="server" CssFilePath="{0}/styles.css" CssPostfix="Office365">
+<dx:ASPxGridView runat="server" CssFilePath="{0}/styles.css" CssPostfix="Office365" Width="100%">
 <SettingsAdaptivity>
 <AdaptiveDetailLayoutProperties ColCount="1"></AdaptiveDetailLayoutProperties>
 </SettingsAdaptivity>
 
-<SettingsPager CurrentPageNumberFormat="{0}"></SettingsPager>
-
-<Settings GridLines="Vertical"></Settings>
+<SettingsPager CurrentPageNumberFormat="{0}">
+<PageSizeItemSettings Visible="True"></PageSizeItemSettings>
+</SettingsPager>
 
 <SettingsPopup>
+<EditForm MinWidth="800px" HorizontalAlign="WindowCenter" Modal="True" ShowShadow="True" ShowMaximizeButton="True"></EditForm>
+
 <CustomizationWindow MinWidth="240px" MinHeight="250px"></CustomizationWindow>
 
 <HeaderFilter MinWidth="230px" MinHeight="250px"></HeaderFilter>
@@ -24,7 +26,9 @@
 </HeaderFilter>
 </StylesPopup>
 
-<EditFormLayoutProperties ColCount="1"></EditFormLayoutProperties>
+<EditFormLayoutProperties ColCount="1">
+<SettingsItemCaptions Location="Top"></SettingsItemCaptions>
+</EditFormLayoutProperties>
 
 <StylesEditors>
 <Calendar Border-BorderColor="Silver" Border-BorderStyle="Solid" Border-BorderWidth="1px"></Calendar>

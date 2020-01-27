@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainLayout.Master" AutoEventWireup="true" CodeBehind="CTINRequestList.aspx.cs" Inherits="TAAPs.Registration.CTINRequestList" %>
 
-<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
-<%@ Register Assembly="DevExpress.XtraReports.v18.1.Web.WebForms, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.XtraReports.Web" TagPrefix="dx" %>
-<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Data.Linq" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.XtraReports.v19.2.Web.WebForms, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.XtraReports.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Data.Linq" TagPrefix="dx" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
@@ -68,14 +68,7 @@
     TIN Requests
 </asp:Content>
 
-<asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
-    <%--<div class="btn-group">--%>
-        <a class="btn btn-info" href="#">
-            <i class="glyphicon glyphicon-align-justify"></i>
-            Corporate TIN Request List
-        </a>
-    <%--</div>--%>
-</asp:Content>
+
 
 <asp:Content ID="Content5" ContentPlaceHolderID="contentBody" runat="server">
 
@@ -100,7 +93,7 @@
                         </DataItemTemplate>
                     </dx:GridViewDataTextColumn>
                     <dx:GridViewDataTextColumn FieldName="CompanyName" ReadOnly="True" ShowInCustomizationForm="True" VisibleIndex="1"></dx:GridViewDataTextColumn>
-                    <dx:GridViewDataDateColumn FieldName="CreateDate" ReadOnly="True" ShowInCustomizationForm="True" VisibleIndex="22">
+                    <dx:GridViewDataDateColumn FieldName="CreateDate" ReadOnly="True" ShowInCustomizationForm="True" VisibleIndex="22" SortIndex="0" SortOrder="Descending">
                         <PropertiesDateEdit DisplayFormatString="dd-MMM-yyyy hh:mm tt"></PropertiesDateEdit>
                     </dx:GridViewDataDateColumn>
                     <dx:GridViewDataTextColumn Caption="Created By" FieldName="CreatedBy" VisibleIndex="20"></dx:GridViewDataTextColumn>
@@ -129,14 +122,10 @@
                             </dx:LayoutItemNestedControlContainer>
                         </LayoutItemNestedControlCollection>
                     </dx:LayoutItem>
-                    <dx:LayoutItem FieldName="CompanyType" RequiredMarkDisplayMode="Required">
+                    <dx:LayoutItem FieldName="CompanyTypeId" RequiredMarkDisplayMode="Required" Caption="Company Type">
                         <LayoutItemNestedControlCollection>
                             <dx:LayoutItemNestedControlContainer runat="server">
                                 <dx:ASPxComboBox ID="CompanyTypeCombo" runat="server" ClientInstanceName="companyTypeCombo" AutoPostBack="True" OnValueChanged="CompanyTypeCombo_ValueChanged">
-                                    <Items>
-                                        <dx:ListEditItem Text="Corporate" Value="Corporate" />
-                                        <dx:ListEditItem Text="Enterprise" Value="Enterprise" />
-                                    </Items>
                                 </dx:ASPxComboBox>
                             </dx:LayoutItemNestedControlContainer>
                         </LayoutItemNestedControlCollection>
@@ -145,8 +134,8 @@
                         <LayoutItemNestedControlCollection>
                             <dx:LayoutItemNestedControlContainer runat="server">
 
-                                <dx:ASPxGridLookup ID="CacNumberGridLookup" runat="server" AutoGenerateColumns="False"  Width="100%" KeyFieldName="CacNumber" PopupHorizontalAlign="NotSet" PopupVerticalAlign="WindowCenter" TextFormatString="{0}" OnTextChanged="CacNumberGridLookup_ValueChanged" DataSourceID="CacEntityServerModeDataSource">
-                                    <GridViewProperties Caption="Registered Companies">
+                                <dx:ASPxGridLookup ID="CacNumberGridLookup" runat="server" AutoGenerateColumns="False"  Width="100%" KeyFieldName="CacNumber" PopupHorizontalAlign="NotSet" PopupVerticalAlign="WindowCenter" TextFormatString="{0}" AutoPostBack="True" OnDataBinding="CacNumberGridLookup_DataBinding" OnValueChanged="CacNumberGridLookup_ValueChanged">
+                                    <GridViewProperties Caption="Registered Companies" EnableCallBacks="False">
                                         <SettingsBehavior AllowFocusedRow="True" AllowSelectSingleRowOnly="True" />
                                         <Settings ShowFilterRow="True" />
                                         <EditFormLayoutProperties ColCount="1"></EditFormLayoutProperties>

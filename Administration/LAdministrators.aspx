@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainLayout.Master" AutoEventWireup="true" CodeBehind="LAdministrators.aspx.cs" Inherits="TAAPs.Administration.LAdministrators" %>
 
-<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 
 
@@ -15,53 +15,26 @@
     Local Administrators 
 </asp:Content>
 
-<asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
-    <div class="btn-group">
-        <a class="btn btn-primary" href="#">
-            <i class="glyphicon glyphicon-align-justify"></i>
-            Local Administrator List
-        </a>
-    </div>
-</asp:Content>
+
 
 <asp:Content ID="Content5" ContentPlaceHolderID="contentBody" runat="server">
 
         <dx:ASPxGridView ID="LAdministratorGridview" runat="server" AutoGenerateColumns="False" DataSourceID="dsUsers" Width="100%" KeyFieldName="UserName" OnCellEditorInitialize="LAdministratorGridview_CellEditorInitialize" OnCustomErrorText="LAdministratorGridview_CustomErrorText" OnRowInserting="LAdministratorGridview_RowInserting" ClientInstanceName="grid">
+<SettingsAdaptivity>
+<AdaptiveDetailLayoutProperties ColCount="1"></AdaptiveDetailLayoutProperties>
+</SettingsAdaptivity>
+
             <SettingsEditing Mode="PopupEditForm">
             </SettingsEditing>
             <Settings ShowFilterRow="True" ShowFilterRowMenu="True" ShowFilterBar="Auto" ShowPreview="True" />
             <SettingsBehavior FilterRowMode="OnClick" AllowSelectSingleRowOnly="True" AllowSelectByRowClick="True" ColumnResizeMode="Control" />
             <SettingsDataSecurity AllowDelete="False" />
             <SettingsPopup>
-                <EditForm HorizontalAlign="Center" VerticalAlign="TopSides" Width="800" />
-                <CustomizationWindow HorizontalAlign="Center" VerticalAlign="Middle" />
+                <EditForm HorizontalAlign="NotSet" VerticalAlign="NotSet" />
+                <CustomizationWindow HorizontalAlign="NotSet" VerticalAlign="NotSet" />
             </SettingsPopup>
             <SettingsText PopupEditFormCaption="Edit Local Administrator" />
             <EditFormLayoutProperties ColCount="2">
-                <Items>
-                    <dx:GridViewColumnLayoutItem ColumnName="UserName">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="Role">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="TaxOfficeId">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="Title">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="LastName">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="FirstName">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="MiddleName">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="StaffId">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="Email">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="IsActive">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:EditModeCommandLayoutItem ColSpan="2" HorizontalAlign="Right">
-                    </dx:EditModeCommandLayoutItem>
-                </Items>
                 <SettingsItemCaptions Location="Top" />
             </EditFormLayoutProperties>
             <Columns>

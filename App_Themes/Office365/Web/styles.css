@@ -794,10 +794,10 @@ html.dxIE.dxBrowserVersion-9 .dxlpLoadingPanelWithContent_Office365 .dxlp-loadin
 /* -- CommandToolbar -- */
 .dxmLite_Office365 .dxctToolbar_Office365.dxm-main.dxmtb
 {
-    background-color: white;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    border-width: 0;
+	background: WhiteSmoke;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-width: 0;
 }
 .dxmLite_Office365 .dxctToolbar_Office365.dxmtb .dxm-item
 {

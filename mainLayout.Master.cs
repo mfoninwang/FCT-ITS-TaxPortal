@@ -42,5 +42,30 @@ namespace TAAPs
             Response.Redirect("~/index.aspx");
         }
 
+        protected void SubmitIssue_Click(object sender, EventArgs e)
+        {
+            //IssueLog issue = new IssueLog()
+            //{
+            //    Subject = SubjectTextField.Value,
+            //    Description = DescriptionTextField.Value,
+            //    Priority = PriorityField.Value,
+            //    CreatedBy = (string)Session["UserName"],
+            //    CreateDate = DateTime.Now,
+            //    Status = "Open"
+            //};
+
+            //context.IssueLogs.Add(issue);
+            //context.SaveChanges();
+
+            //ResetForm();
+        }
+
+        private void ResetForm()
+        {
+            //SubjectTextField.Value = string.Empty;
+            //DescriptionTextField.Value = string.Empty;
+        }
+
+
     }
 }

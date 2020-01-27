@@ -17,7 +17,7 @@ namespace TAAPs.Messaging
     {
         public static string SendSMS(string recipientPhone, string message)
         {
-            string senderAddress = "FCT-IRS";
+            string senderAddress = "KW-IRS";
             string username = "Compumetrics";
             string password = "Pa$$w0rd";
 
@@ -50,11 +50,11 @@ namespace TAAPs.Messaging
         {
             StringBuilder message = new StringBuilder()
               .AppendFormat("Dear {0} {1},\n", firstName, lastName)
-              .AppendFormat("The FCT Internal Revenue Service (FCT-IRS) has successfully ")
+              .AppendFormat("The Kwara Internal Revenue Service (FCT-IRS) has successfully ")
               .AppendFormat("validated your taxpayer details and issued you a Taxpayer Identification Number.\n")
               .AppendFormat("TIN: {0} \n", tin)
               .AppendFormat("Please quote this TIN in all communications with the FCT-IRS. Thank you \n")
-              .AppendFormat("contactus@fctirs.gov.ng");
+              .AppendFormat("contactus@kwirs.gov.ng");
 
             try
             {

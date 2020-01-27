@@ -72,12 +72,12 @@ namespace TAAPs.Model
     
         public virtual Country Country { get; set; }
         public virtual Country Country1 { get; set; }
-        public virtual TaxOffice TaxOffice { get; set; }
         public virtual LGA LGA { get; set; }
         public virtual State State { get; set; }
         public virtual LGA LGA1 { get; set; }
         public virtual LGA LGA2 { get; set; }
         public virtual State State1 { get; set; }
         public virtual State State2 { get; set; }
+        public virtual TaxOffice TaxOffice { get; set; }
     }
 }

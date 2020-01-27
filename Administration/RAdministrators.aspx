@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainLayout.Master" AutoEventWireup="true" CodeBehind="RAdministrators.aspx.cs" Inherits="TAAPs.Administration.RAdministrators" %>
 
-<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 
 
@@ -15,14 +15,6 @@
     Regional Administrators
 </asp:Content>
 
-<asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
-    <div class="btn-group">
-        <a class="btn btn-primary" href="#">
-            <i class="glyphicon glyphicon-align-justify"></i>
-            Regional Administrator List
-        </a>
-    </div>
-</asp:Content>
 
 
 
@@ -31,30 +23,6 @@
         <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" DataSourceID="dsUsers" Width="100%" KeyFieldName="UserName" OnCustomErrorText="ASPxGridView1_CustomErrorText" OnRowInserting="ASPxGridView1_RowInserting" OnCellEditorInitialize="ASPxGridView1_CellEditorInitialize">
             <ClientSideEvents RowDblClick="function(s, e) {	s.StartEditRow(e.visibleIndex);}" />
             <EditFormLayoutProperties ColCount="2">
-                <Items>
-                    <dx:GridViewColumnLayoutItem ColumnName="UserName">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="RoleId">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="Title">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="RegionId">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="LastName">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="FirstName">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="MiddleName">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="Staff Id">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="Email">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:GridViewColumnLayoutItem ColumnName="IsActive">
-                    </dx:GridViewColumnLayoutItem>
-                    <dx:EditModeCommandLayoutItem ColSpan="2" HorizontalAlign="Right">
-                    </dx:EditModeCommandLayoutItem>
-                </Items>
                 <SettingsItemCaptions Location="Top" />
             </EditFormLayoutProperties>
             <Columns>
@@ -122,13 +90,18 @@
                 </dx:GridViewDataTextColumn>
             </Columns>
             <SettingsBehavior FilterRowMode="OnClick" AllowSelectSingleRowOnly="True" AllowSelectByRowClick="True" ColumnResizeMode="NextColumn" />
+
+<SettingsAdaptivity>
+<AdaptiveDetailLayoutProperties ColCount="1"></AdaptiveDetailLayoutProperties>
+</SettingsAdaptivity>
+
             <SettingsEditing Mode="PopupEditForm">
             </SettingsEditing>
             <Settings ShowFilterRow="True" ShowFilterRowMenu="True" ShowFilterBar="Auto" ShowPreview="True" />
             <SettingsText PopupEditFormCaption="Edit Regional Administrator" />
             <SettingsPopup>
-                <EditForm HorizontalAlign="Center" VerticalAlign="TopSides" Width="800" />
-                <CustomizationWindow HorizontalAlign="Center" VerticalAlign="Middle" />
+                <EditForm HorizontalAlign="NotSet" VerticalAlign="NotSet" />
+                <CustomizationWindow HorizontalAlign="NotSet" VerticalAlign="NotSet" />
             </SettingsPopup>
             <SettingsDataSecurity AllowDelete="False" />
             <Toolbars>

@@ -25,10 +25,10 @@ namespace TAAPs.Administration
 
         protected void ASPxbtnSaveRolePermissions_Click(object sender, EventArgs e)
         {
-            var _resources = context.RoleResources
+            var resources = context.RoleResources
                 .Where(r => r.RoleId == roleId && r.Resource.ParentId == moduleId);
 
-            context.RoleResources.RemoveRange(_resources);
+            context.RoleResources.RemoveRange(resources);
             context.SaveChanges();
 
             foreach (var item in ASPxCblRoleResources.SelectedValues)
@@ -50,20 +50,20 @@ namespace TAAPs.Administration
             moduleId = int.Parse(ASPxModules.SelectedItem.Value.ToString());
             roleId = int.Parse(ASPxcbRoles.SelectedItem.Value.ToString());
 
-            var _moduleitems = context.Resources
+            var moduleItems = context.Resources
                .Where(i => i.ParentId == moduleId);
 
-            ASPxCblRoleResources.DataSource = _moduleitems.ToList();
+            ASPxCblRoleResources.DataSource = moduleItems.ToList();
             ASPxCblRoleResources.DataBind();
 
-            var _resources = context.RoleResources                   
+            var resources = context.RoleResources                   
                 .Where(r => r.RoleId == roleId && r.Resource.ParentId == moduleId);
 
             foreach (ListEditItem checkitem in ASPxCblRoleResources.Items)
             {
-                int _val = int.Parse(checkitem.Value.ToString());
+                int val = int.Parse(checkitem.Value.ToString());
 
-                checkitem.Selected = _resources.Any(r => r.ResourceId == _val) ? true : false;
+                checkitem.Selected = resources.Any(r => r.ResourceId == val) ? true : false;
             }
         }
 

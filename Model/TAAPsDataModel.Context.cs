@@ -46,7 +46,6 @@ namespace TAAPs.Model
         public virtual DbSet<ITaxpayerTransfer> ITaxpayerTransfers { get; set; }
         public virtual DbSet<State> States { get; set; }
         public virtual DbSet<LGA> LGAs { get; set; }
-        public virtual DbSet<TaxOffice> TaxOffices { get; set; }
         public virtual DbSet<NotificationSetting> NotificationSettings { get; set; }
         public virtual DbSet<Tenant> Tenants { get; set; }
         public virtual DbSet<CorporateTransfer> CorporateTransfers { get; set; }
@@ -86,9 +85,11 @@ namespace TAAPs.Model
         public virtual DbSet<Profession> Professions { get; set; }
         public virtual DbSet<ITINRequest> ITINRequests { get; set; }
         public virtual DbSet<RegisteredCompany> RegisteredCompanies { get; set; }
-        public virtual DbSet<CTINRequest> CTINRequests { get; set; }
-        public virtual DbSet<CTaxpayer> CTaxpayers { get; set; }
         public virtual DbSet<IssueLog> IssueLogs { get; set; }
+        public virtual DbSet<CTaxpayer> CTaxpayers { get; set; }
+        public virtual DbSet<CTINRequest> CTINRequests { get; set; }
+        public virtual DbSet<CompanyType> CompanyTypes { get; set; }
+        public virtual DbSet<TaxOffice> TaxOffices { get; set; }
     
         public virtual int GenerateReceipt(string receiptId, string paymentReference, Nullable<decimal> amount, Nullable<System.DateTime> paymentDate, string receivedFrom, string address, string tin, string taxType, string periodFrom, string periodTo, string bank, string bankBranch, string generatedBy, string taxOffice, string scheduleReference)
         {

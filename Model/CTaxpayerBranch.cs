@@ -39,8 +39,8 @@ namespace TAAPs.Model
         public System.DateTime CreateDate { get; set; }
         public bool EmailNotified { get; set; }
     
-        public virtual TaxOffice TaxOffice { get; set; }
         public virtual ICollection<CorporateTransfer> CTransfers { get; set; }
         public virtual CTaxpayer CTaxpayer { get; set; }
+        public virtual TaxOffice TaxOffice { get; set; }
     }
 }

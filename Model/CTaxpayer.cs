@@ -23,7 +23,7 @@ namespace TAAPs.Model
         public string TIN { get; set; }
         public string CacNumber { get; set; }
         public string BNNumber { get; set; }
-        public string CompanyType { get; set; }
+        public int CompanyTypeId { get; set; }
         public string PreviousFCTTin { get; set; }
         public string FIRSTIN { get; set; }
         public string JTBTIN { get; set; }
@@ -56,7 +56,8 @@ namespace TAAPs.Model
         public virtual LGA LGA { get; set; }
         public virtual RegisteredCompany RegisteredCompany { get; set; }
         public virtual State State { get; set; }
-        public virtual TaxOffice TaxOffice { get; set; }
         public virtual User User { get; set; }
+        public virtual CompanyType CompanyType { get; set; }
+        public virtual TaxOffice TaxOffice { get; set; }
     }
 }

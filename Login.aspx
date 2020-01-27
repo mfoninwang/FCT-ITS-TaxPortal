@@ -8,10 +8,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>FCT-IRS Tax Portal</title>
+    <title>Kwara State Tax Portal</title>
 
     <!-- Favicon and touch icons -->
-<%--    <link rel="shortcut icon" href="assets/dist/img/ico/favicon.png" type="image/x-icon" />--%>
+    <%--    <link rel="shortcut icon" href="assets/dist/img/ico/favicon.png" type="image/x-icon" />--%>
 
 
     <!-- Bootstrap -->
@@ -34,27 +34,24 @@
 </head>
 
 <body>
-    <form id="loginForm" runat="server">
-    <!-- Content Wrapper -->
-    <div class="login-wrapper">
-        <div class="back-link">
-            <a href="http://www.fctirs.gov.ng/" class="btn btn-success">Visit FCT-IRS Website</a>
-        </div>
-        <div class="container-center">
-            <div class="panel panel-bd">
-                <div class="panel-heading">
-                    <div class="view-header">
-                        <div class="header-icon">
-                            <i class="pe-7s-unlock"></i>
-                        </div>
-                        <div class="header-title">
-                            <h3>Login</h3>
-                            <small><strong>Please enter your credentials to login.</strong></small>
+    <form id="loginForm" method="post">
+        <!-- Content Wrapper -->
+        <div class="login-wrapper">
+
+            <div class="container-center">
+                <div class="panel panel-bd">
+                    <div class="panel-heading">
+                        <div class="view-header">
+                            <div class="header-icon">
+                                <i class="pe-7s-unlock"></i>
+                            </div>
+                            <div class="header-title">
+                                <h3>Login</h3>
+                                <small><strong>Please enter your credentials to login.</strong></small>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="panel-body">
-
+                    <div class="panel-body">
                         <div class="form-group">
                             <label class="control-label" for="username">Username</label>
                             <input type="text" placeholder="Username" title="Please enter you username" required="required" value="" name="username" id="username" class="form-control" runat="server" />
@@ -66,21 +63,25 @@
 
                         </div>
                         <div>
-                            <button id="btnLogin" onserverclick="BtnLogin_Click" class="btn btn-primary" runat="server">Login</button>
+                            <button id="btnLogin" type="submit" onserverclick="BtnLogin_Click" class="btn btn-primary" runat="server">Login</button>
                         </div>
-                   
+                        <div">
+                            <span class="psw">Forgot <a href="#">password?</a></span>
+                        </div>
 
+
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- /.content-wrapper -->
-    <!-- jQuery -->
-    <script src="assets/plugins/jQuery/jquery-1.12.4.min.js" type="text/javascript"></script>
-    <!-- bootstrap js -->
-    <script src="assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
-    
+        </div>
+        <!-- /.content-wrapper -->
+        <!-- jQuery -->
+        <script src="assets/plugins/jQuery/jquery-1.12.4.min.js" type="text/javascript"></script>
+        <!-- bootstrap js -->
+        <script src="assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+
         <!-- Bootstrap Dialog js -->
         <script src="/Scripts/bootstrap-dialog.js"></script>
         <script src="/Scripts/Custom.js"></script>
@@ -88,7 +89,7 @@
         =====================================================================-->
 
 
-            <script>
+        <script>
 
             function ShowDialog(type, title, message) {
 

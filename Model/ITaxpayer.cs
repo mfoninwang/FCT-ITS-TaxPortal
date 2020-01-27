@@ -89,7 +89,6 @@ namespace TAAPs.Model
         public virtual LGA LGA1 { get; set; }
         public virtual State State { get; set; }
         public virtual State State1 { get; set; }
-        public virtual TaxOffice TaxOffice { get; set; }
         public virtual ICollection<ITaxpayerAssociate> ITaxpayerAssociates { get; set; }
         public virtual ICollection<ITaxpayerBank> ITaxpayerBanks { get; set; }
         public virtual ICollection<ITaxpayerFile> ITaxpayerFiles { get; set; }
@@ -98,5 +97,6 @@ namespace TAAPs.Model
         public virtual ICollection<ITaxpayerTransfer> ITaxpayerTransfers { get; set; }
         public virtual ICollection<ITaxpayerAddress> ITaxpayerAddresses { get; set; }
         public virtual User User { get; set; }
+        public virtual TaxOffice TaxOffice { get; set; }
     }
 }

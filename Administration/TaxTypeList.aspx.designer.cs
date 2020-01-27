@@ -13,21 +13,21 @@ namespace TAAPs.Administration {
     public partial class TaxTypeList {
         
         /// <summary>
-        /// ASPxgvTaxTypes control.
+        /// TaxTypeGridView control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxGridView ASPxgvTaxTypes;
+        protected global::DevExpress.Web.ASPxGridView TaxTypeGridView;
         
         /// <summary>
-        /// dsTaxTypes control.
+        /// TaxTypeEntityDataSource control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.EntityDataSource dsTaxTypes;
+        protected global::System.Web.UI.WebControls.EntityDataSource TaxTypeEntityDataSource;
     }
 }

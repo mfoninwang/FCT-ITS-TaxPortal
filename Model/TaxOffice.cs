@@ -16,25 +16,24 @@ namespace TAAPs.Model
     {
         public TaxOffice()
         {
-            this.ITaxpayerTransfers = new HashSet<ITaxpayerTransfer>();
-            this.ITaxpayerTransfers1 = new HashSet<ITaxpayerTransfer>();
-            this.RevenueTargets = new HashSet<RevenueTarget>();
-            this.UserTransfers = new HashSet<UserTransfer>();
-            this.UserTransfers1 = new HashSet<UserTransfer>();
+            this.CTaxpayerBranches = new HashSet<CTaxpayerBranch>();
+            this.CTaxpayers = new HashSet<CTaxpayer>();
+            this.CTINRequests = new HashSet<CTINRequest>();
             this.CTransfers = new HashSet<CorporateTransfer>();
             this.CTransfers1 = new HashSet<CorporateTransfer>();
-            this.Users = new HashSet<User>();
             this.ITaxpayers = new HashSet<ITaxpayer>();
-            this.CTaxpayerBranches = new HashSet<CTaxpayerBranch>();
+            this.ITaxpayerTransfers = new HashSet<ITaxpayerTransfer>();
+            this.ITaxpayerTransfers1 = new HashSet<ITaxpayerTransfer>();
             this.ITINRequests = new HashSet<ITINRequest>();
-            this.CTINRequests = new HashSet<CTINRequest>();
-            this.CTaxpayers = new HashSet<CTaxpayer>();
+            this.RevenueTargets = new HashSet<RevenueTarget>();
+            this.Users = new HashSet<User>();
+            this.UserTransfers = new HashSet<UserTransfer>();
+            this.UserTransfers1 = new HashSet<UserTransfer>();
         }
     
         public string TaxOfficeId { get; set; }
         public string TaxOfficeName { get; set; }
         public string TaxOfficeTypeId { get; set; }
-        public string RegionId { get; set; }
         public string Street { get; set; }
         public string City { get; set; }
         public Nullable<int> LGAId { get; set; }
@@ -45,21 +44,20 @@ namespace TAAPs.Model
         public System.DateTime CreateDate { get; set; }
         public string CreatedBy { get; set; }
     
-        public virtual ICollection<ITaxpayerTransfer> ITaxpayerTransfers { get; set; }
-        public virtual ICollection<ITaxpayerTransfer> ITaxpayerTransfers1 { get; set; }
-        public virtual LGA LGA { get; set; }
-        public virtual ICollection<RevenueTarget> RevenueTargets { get; set; }
-        public virtual TaxOfficeRegion TaxOfficeRegion { get; set; }
-        public virtual ICollection<UserTransfer> UserTransfers { get; set; }
-        public virtual ICollection<UserTransfer> UserTransfers1 { get; set; }
+        public virtual ICollection<CTaxpayerBranch> CTaxpayerBranches { get; set; }
+        public virtual ICollection<CTaxpayer> CTaxpayers { get; set; }
+        public virtual ICollection<CTINRequest> CTINRequests { get; set; }
         public virtual ICollection<CorporateTransfer> CTransfers { get; set; }
         public virtual ICollection<CorporateTransfer> CTransfers1 { get; set; }
-        public virtual ICollection<User> Users { get; set; }
-        public virtual TaxOfficeType TaxOfficeType { get; set; }
         public virtual ICollection<ITaxpayer> ITaxpayers { get; set; }
-        public virtual ICollection<CTaxpayerBranch> CTaxpayerBranches { get; set; }
+        public virtual ICollection<ITaxpayerTransfer> ITaxpayerTransfers { get; set; }
+        public virtual ICollection<ITaxpayerTransfer> ITaxpayerTransfers1 { get; set; }
         public virtual ICollection<ITINRequest> ITINRequests { get; set; }
-        public virtual ICollection<CTINRequest> CTINRequests { get; set; }
-        public virtual ICollection<CTaxpayer> CTaxpayers { get; set; }
+        public virtual LGA LGA { get; set; }
+        public virtual ICollection<RevenueTarget> RevenueTargets { get; set; }
+        public virtual TaxOfficeType TaxOfficeType { get; set; }
+        public virtual ICollection<User> Users { get; set; }
+        public virtual ICollection<UserTransfer> UserTransfers { get; set; }
+        public virtual ICollection<UserTransfer> UserTransfers1 { get; set; }
     }
 }

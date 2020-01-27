@@ -30,6 +30,7 @@ namespace TAAPs.Registration
                     tinRequest = new Model.CTINRequest();
 
                     RegistrationDateEdit.MaxDate = DateTime.Today;
+                    CacNumberGridLookup.DataBind();
 
                     TinRequestGrid.Toolbars[0].Items[1].Visible = Global.SessionUser.RoleId == 1 ? false : true;
 
@@ -93,6 +94,7 @@ namespace TAAPs.Registration
 
         private void LoadListData()
         {
+            LoadCompanyTypes();
             LoadCountries();
             LoadBusinessLines();
             LoadTaxOffices();
@@ -117,6 +119,17 @@ namespace TAAPs.Registration
             CountryCombo.ValueField = "CountryId";
             CountryCombo.DataBind();
         }
+
+        private void LoadCompanyTypes()
+        {
+            var companyTypes = context.CompanyTypes.ToList();
+
+            CompanyTypeCombo.DataSource = companyTypes;
+            CompanyTypeCombo.TextField = "CompanyTypeName";
+            CompanyTypeCombo.ValueField = "CompanyTypeId";
+            CompanyTypeCombo.DataBind();
+        }
+
 
         private void LoadBusinessLines()
         {
@@ -258,7 +271,7 @@ namespace TAAPs.Registration
                 }
                 else { request = (CTINRequest)Session[DataObjectName];}
 
-                request.CompanyType = (string)TinRequestForm.GetNestedControlValueByFieldName("CompanyType");
+                request.CompanyTypeId = int.Parse(TinRequestForm.GetNestedControlValueByFieldName("CompanyTypeId").ToString());
                 request.CacNumber = (string)TinRequestForm.GetNestedControlValueByFieldName("CacNumber");
                 request.BNNumber = (string)TinRequestForm.GetNestedControlValueByFieldName("BNNumber");
                 request.RegistrationDate = (DateTime)TinRequestForm.GetNestedControlValueByFieldName("RegistrationDate");
@@ -398,14 +411,15 @@ namespace TAAPs.Registration
         {
             switch (CompanyTypeCombo.SelectedItem.Value)
             {
-                case "Corporate":
+                case "7":
+                case "8":
                     CacNumberGridLookup.Enabled = true;
                     CompanyNameTextBox.Enabled = false;
                     RegistrationDateEdit.Enabled = false;
                     BNNumberText.Enabled = false;
                     BNNumberText.Text = string.Empty;
                     break;
-                case "Enterprise":
+                default:
                     CacNumberGridLookup.Enabled = false;
                     CacNumberGridLookup.Text = string.Empty;
                     CompanyNameTextBox.Enabled = true;
@@ -425,6 +439,11 @@ namespace TAAPs.Registration
                 TinRequestMultiView.ActiveViewIndex = 1;
                 SetButtonVisibility();
             }
+        }
+
+        protected void CacNumberGridLookup_DataBinding(object sender, EventArgs e)
+        {
+            CacNumberGridLookup.DataSource = CacEntityServerModeDataSource;
         }
     }
 }

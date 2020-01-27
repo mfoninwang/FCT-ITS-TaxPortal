@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainLayout.Master" AutoEventWireup="true" CodeBehind="CollectionAgentList.aspx.cs" Inherits="TAAPs.Collections.CollectionAgentList" %>
-<%@ Register assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+<%@ Register assembly="DevExpress.Web.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
@@ -13,14 +13,6 @@
     Agent List
 </asp:Content>
 
-<asp:Content ID="Content4" ContentPlaceHolderID="panelHeading" runat="server">
-        <div class="btn-group">
-        <a class="btn btn-primary" href="#">
-            <i class="fa fa-plus"></i>
-            Add Tax Collection Agent
-        </a>
-    </div>
-</asp:Content>
 
 
 

@@ -61,6 +61,13 @@
           <Property Name="ContactAddress3" Type="varchar" MaxLength="80" />
           <Property Name="ContactAddress4" Type="varchar" MaxLength="80" />
         </EntityType>
+        <EntityType Name="CompanyTypes">
+          <Key>
+            <PropertyRef Name="CompanyTypeId" />
+          </Key>
+          <Property Name="CompanyTypeId" Type="int" Nullable="false" />
+          <Property Name="CompanyTypeName" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
         <EntityType Name="Country">
           <Key>
             <PropertyRef Name="CountryId" />
@@ -112,7 +119,7 @@
           <Property Name="TIN" Type="varchar" MaxLength="10" Nullable="false" />
           <Property Name="CacNumber" Type="varchar" MaxLength="20" />
           <Property Name="BNNumber" Type="varchar" MaxLength="20" />
-          <Property Name="CompanyType" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="CompanyTypeId" Type="int" Nullable="false" />
           <Property Name="PreviousFCTTin" Type="varchar" MaxLength="50" />
           <Property Name="FIRSTIN" Type="varchar" MaxLength="20" />
           <Property Name="JTBTIN" Type="varchar" MaxLength="10" />
@@ -145,7 +152,7 @@
           <Property Name="RequestId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="CacNumber" Type="varchar" MaxLength="20" />
           <Property Name="BNNumber" Type="varchar" MaxLength="20" />
-          <Property Name="CompanyType" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="CompanyTypeId" Type="int" Nullable="false" />
           <Property Name="PreviousFCTTin" Type="varchar" MaxLength="50" />
           <Property Name="CompanyName" Type="varchar" MaxLength="255" Nullable="false" />
           <Property Name="BusinessLineId" Type="varchar" MaxLength="3" Nullable="false" />
@@ -554,7 +561,7 @@
           <Property Name="StateId" Type="varchar" MaxLength="2" Nullable="false" />
         </EntityType>
         <!--Errors Found During Generation:
-warning 6002: The table/view 'FCT_TAAPs.dbo.NINData' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'Kwara_TAAPs.dbo.NINData' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="NINData">
           <Key>
             <PropertyRef Name="NATIONAL_IDENTIFICATION_NUMBER" />
@@ -793,7 +800,6 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.NINData' does not have a primary key
           <Property Name="TaxOfficeId" Type="varchar" MaxLength="10" Nullable="false" />
           <Property Name="TaxOfficeName" Type="varchar" MaxLength="100" Nullable="false" />
           <Property Name="TaxOfficeTypeId" Type="varchar" MaxLength="10" Nullable="false" />
-          <Property Name="RegionId" Type="varchar" MaxLength="10" Nullable="false" />
           <Property Name="Street" Type="varchar" MaxLength="100" />
           <Property Name="City" Type="varchar" MaxLength="40" />
           <Property Name="LGAId" Type="int" />
@@ -801,7 +807,7 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.NINData' does not have a primary key
           <Property Name="TaxOfficerName" Type="varchar" MaxLength="80" />
           <Property Name="TaxOfficerPhone" Type="varchar" MaxLength="50" />
           <Property Name="IsActive" Type="bit" Nullable="false" />
-          <Property Name="CreateDate" Type="datetime" Nullable="false" StoreGeneratedPattern="Computed" />
+          <Property Name="CreateDate" Type="datetime" Nullable="false" />
           <Property Name="CreatedBy" Type="varchar" MaxLength="40" Nullable="false" />
         </EntityType>
         <EntityType Name="TaxOfficeTypes">
@@ -926,7 +932,7 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.NINData' does not have a primary key
           <Property Name="YearId" Type="int" Nullable="false" />
         </EntityType>
         <!--Errors Found During Generation:
-warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'Kwara_TAAPs.dbo.ITaxpayerSMSNotifications' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="ITaxpayerSMSNotifications">
           <Key>
             <PropertyRef Name="TIN" />
@@ -1034,6 +1040,18 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_CTaxpayers_CompanyTypes">
+          <End Role="CompanyTypes" Type="Self.CompanyTypes" Multiplicity="1" />
+          <End Role="CTaxpayers" Type="Self.CTaxpayers" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CompanyTypes">
+              <PropertyRef Name="CompanyTypeId" />
+            </Principal>
+            <Dependent Role="CTaxpayers">
+              <PropertyRef Name="CompanyTypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="FK_CTaxpayers_Country">
           <End Role="Country" Type="Self.Country" Multiplicity="1" />
           <End Role="CTaxpayers" Type="Self.CTaxpayers" Multiplicity="*" />
@@ -1115,6 +1133,18 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
             </Principal>
             <Dependent Role="CTINRequests">
               <PropertyRef Name="BusinessLineId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTINRequests_CompanyTypes">
+          <End Role="CompanyTypes" Type="Self.CompanyTypes" Multiplicity="1" />
+          <End Role="CTINRequests" Type="Self.CTINRequests" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CompanyTypes">
+              <PropertyRef Name="CompanyTypeId" />
+            </Principal>
+            <Dependent Role="CTINRequests">
+              <PropertyRef Name="CompanyTypeId" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -1946,18 +1976,6 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK_TaxOffices_TaxOfficeRegions">
-          <End Role="TaxOfficeRegions" Type="Self.TaxOfficeRegions" Multiplicity="1" />
-          <End Role="TaxOffices" Type="Self.TaxOffices" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="TaxOfficeRegions">
-              <PropertyRef Name="RegionId" />
-            </Principal>
-            <Dependent Role="TaxOffices">
-              <PropertyRef Name="RegionId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
         <Association Name="FK_TaxOffices_TaxOfficeTypes">
           <End Role="TaxOfficeTypes" Type="Self.TaxOfficeTypes" Multiplicity="1" />
           <End Role="TaxOffices" Type="Self.TaxOffices" Multiplicity="*" />
@@ -2112,11 +2130,6 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <Parameter Name="approvedBy" Type="varchar" Mode="In" />
           <Parameter Name="TIN" Type="varchar" Mode="InOut" />
         </Function>
-        <Function Name="CreateCorporateTaxpayer" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-          <Parameter Name="RequestId" Type="int" Mode="In" />
-          <Parameter Name="CreatedBy" Type="varchar" Mode="In" />
-          <Parameter Name="TIN" Type="varchar" Mode="InOut" />
-        </Function>
         <Function Name="DecryptData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="encryptedData" Type="varbinary(max)" Mode="In" />
         </Function>
@@ -2174,6 +2187,7 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <EntitySet Name="BusinessLines" EntityType="Self.BusinessLines" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="CBanks" EntityType="Self.CBanks" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="CollectionAgents" EntityType="Self.CollectionAgents" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CompanyTypes" EntityType="Self.CompanyTypes" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Country" EntityType="Self.Country" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="CTaxpayerBranches" EntityType="Self.CTaxpayerBranches" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="CTaxpayerFiles" EntityType="Self.CTaxpayerFiles" Schema="dbo" store:Type="Tables" />
@@ -2327,6 +2341,10 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
             <End Role="BusinessLines" EntitySet="BusinessLines" />
             <End Role="CTaxpayers" EntitySet="CTaxpayers" />
           </AssociationSet>
+          <AssociationSet Name="FK_CTaxpayers_CompanyTypes" Association="Self.FK_CTaxpayers_CompanyTypes">
+            <End Role="CompanyTypes" EntitySet="CompanyTypes" />
+            <End Role="CTaxpayers" EntitySet="CTaxpayers" />
+          </AssociationSet>
           <AssociationSet Name="FK_CTaxpayers_Country" Association="Self.FK_CTaxpayers_Country">
             <End Role="Country" EntitySet="Country" />
             <End Role="CTaxpayers" EntitySet="CTaxpayers" />
@@ -2353,6 +2371,10 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           </AssociationSet>
           <AssociationSet Name="FK_CTINRequests_BusinessLines" Association="Self.FK_CTINRequests_BusinessLines">
             <End Role="BusinessLines" EntitySet="BusinessLines" />
+            <End Role="CTINRequests" EntitySet="CTINRequests" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTINRequests_CompanyTypes" Association="Self.FK_CTINRequests_CompanyTypes">
+            <End Role="CompanyTypes" EntitySet="CompanyTypes" />
             <End Role="CTINRequests" EntitySet="CTINRequests" />
           </AssociationSet>
           <AssociationSet Name="FK_CTINRequests_Country" Association="Self.FK_CTINRequests_Country">
@@ -2631,10 +2653,6 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
             <End Role="LGAs" EntitySet="LGAs" />
             <End Role="TaxOffices" EntitySet="TaxOffices" />
           </AssociationSet>
-          <AssociationSet Name="FK_TaxOffices_TaxOfficeRegions" Association="Self.FK_TaxOffices_TaxOfficeRegions">
-            <End Role="TaxOfficeRegions" EntitySet="TaxOfficeRegions" />
-            <End Role="TaxOffices" EntitySet="TaxOffices" />
-          </AssociationSet>
           <AssociationSet Name="FK_TaxOffices_TaxOfficeTypes" Association="Self.FK_TaxOffices_TaxOfficeTypes">
             <End Role="TaxOfficeTypes" EntitySet="TaxOfficeTypes" />
             <End Role="TaxOffices" EntitySet="TaxOffices" />
@@ -2705,8 +2723,8 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <NavigationProperty Name="BusinessLineGroup" Relationship="Self.FK_BusinessLines_BusinessLineGroups" FromRole="BusinessLines" ToRole="BusinessLineGroups" />
           <Property Name="BusinessLineName" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="ITaxpayers" Relationship="TAAPsModel.FK_ITaxpayer_BusinessLines" FromRole="BusinessLine" ToRole="ITaxpayer" />
-          <NavigationProperty Name="CTINRequests" Relationship="TAAPsModel.FK_CTINRequests_BusinessLines" FromRole="BusinessLine" ToRole="CTINRequest" />
           <NavigationProperty Name="CTaxpayers" Relationship="TAAPsModel.FK_CTaxpayers_BusinessLines" FromRole="BusinessLine" ToRole="CTaxpayer" />
+          <NavigationProperty Name="CTINRequests" Relationship="TAAPsModel.FK_CTINRequests_BusinessLines" FromRole="BusinessLine" ToRole="CTINRequest" />
         </EntityType>
         <Association Name="FK_BusinessLines_BusinessLineGroups">
           <End Role="BusinessLineGroups" Type="Self.BusinessLineGroup" Multiplicity="1" />
@@ -2785,46 +2803,9 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
             <End Role="State" EntitySet="States" />
             <End Role="LGA" EntitySet="LGAs" />
           </AssociationSet>
-          <EntitySet Name="TaxOffices" EntityType="TAAPsModel.TaxOffice" />
-          <AssociationSet Name="FK_ITaxpayerTransfers_FromTaxOffices" Association="TAAPsModel.FK_ITaxpayerTransfers_FromTaxOffices">
-            <End Role="TaxOffice" EntitySet="TaxOffices" />
-            <End Role="ITaxpayerTransfer" EntitySet="ITaxpayerTransfers" />
-          </AssociationSet>
-          <AssociationSet Name="FK_ITaxpayerTransfers_ToTaxOffices" Association="TAAPsModel.FK_ITaxpayerTransfers_ToTaxOffices">
-            <End Role="TaxOffice" EntitySet="TaxOffices" />
-            <End Role="ITaxpayerTransfer" EntitySet="ITaxpayerTransfers" />
-          </AssociationSet>
-          <AssociationSet Name="FK_TaxOffices_LGAs" Association="TAAPsModel.FK_TaxOffices_LGAs">
-            <End Role="LGA" EntitySet="LGAs" />
-            <End Role="TaxOffice" EntitySet="TaxOffices" />
-          </AssociationSet>
-          <AssociationSet Name="FK_RevenueTargets_TaxOffices" Association="TAAPsModel.FK_RevenueTargets_TaxOffices">
-            <End Role="TaxOffice" EntitySet="TaxOffices" />
-            <End Role="RevenueTarget" EntitySet="RevenueTargets" />
-          </AssociationSet>
-          <AssociationSet Name="FK_TaxOffices_TaxOfficeRegions" Association="TAAPsModel.FK_TaxOffices_TaxOfficeRegions">
-            <End Role="TaxOfficeRegion" EntitySet="TaxOfficeRegions" />
-            <End Role="TaxOffice" EntitySet="TaxOffices" />
-          </AssociationSet>
-          <AssociationSet Name="FK_UserTransfers_FromTaxOffices" Association="TAAPsModel.FK_UserTransfers_FromTaxOffices">
-            <End Role="TaxOffice" EntitySet="TaxOffices" />
-            <End Role="UserTransfer" EntitySet="UserTransfers" />
-          </AssociationSet>
-          <AssociationSet Name="FK_UserTransfers_ToTaxOffices" Association="TAAPsModel.FK_UserTransfers_ToTaxOffices">
-            <End Role="TaxOffice" EntitySet="TaxOffices" />
-            <End Role="UserTransfer" EntitySet="UserTransfers" />
-          </AssociationSet>
           <EntitySet Name="NotificationSettings" EntityType="TAAPsModel.NotificationSetting" />
           <EntitySet Name="Tenants" EntityType="TAAPsModel.Tenant" />
           <EntitySet Name="CorporateTransfers" EntityType="TAAPsModel.CorporateTransfer" />
-          <AssociationSet Name="FK_CTransfers_FromTaxOffices" Association="TAAPsModel.FK_CTransfers_FromTaxOffices">
-            <End Role="TaxOffice" EntitySet="TaxOffices" />
-            <End Role="CTransfer" EntitySet="CorporateTransfers" />
-          </AssociationSet>
-          <AssociationSet Name="FK_CTransfers_ToTaxOffices" Association="TAAPsModel.FK_CTransfers_ToTaxOffices">
-            <End Role="TaxOffice" EntitySet="TaxOffices" />
-            <End Role="CTransfer" EntitySet="CorporateTransfers" />
-          </AssociationSet>
           <EntitySet Name="Users" EntityType="TAAPsModel.User" />
           <AssociationSet Name="FK_CTransfers_Users" Association="TAAPsModel.FK_CTransfers_Users">
             <End Role="User" EntitySet="Users" />
@@ -2882,15 +2863,7 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
             <End Role="TaxOfficeRegion" EntitySet="TaxOfficeRegions" />
             <End Role="User" EntitySet="Users" />
           </AssociationSet>
-          <AssociationSet Name="FK_Users_TaxOffices" Association="TAAPsModel.FK_Users_TaxOffices">
-            <End Role="TaxOffice" EntitySet="TaxOffices" />
-            <End Role="User" EntitySet="Users" />
-          </AssociationSet>
           <EntitySet Name="TaxOfficeTypes" EntityType="TAAPsModel.TaxOfficeType" />
-          <AssociationSet Name="FK_TaxOffices_TaxOfficeTypes" Association="TAAPsModel.FK_TaxOffices_TaxOfficeTypes">
-            <End Role="TaxOfficeType" EntitySet="TaxOfficeTypes" />
-            <End Role="TaxOffice" EntitySet="TaxOffices" />
-          </AssociationSet>
           <EntitySet Name="GeneratedReceipts" EntityType="TAAPsModel.GeneratedReceipt" />
           <AssociationSet Name="FK_GeneratedReceipts_Users" Association="TAAPsModel.FK_GeneratedReceipts_Users">
             <End Role="User" EntitySet="Users" />
@@ -3019,10 +2992,6 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
             <End Role="State" EntitySet="States" />
             <End Role="ITaxpayer" EntitySet="ITaxpayers" />
           </AssociationSet>
-          <AssociationSet Name="FK_ITaxpayer_TaxOffices" Association="TAAPsModel.FK_ITaxpayer_TaxOffices">
-            <End Role="TaxOffice" EntitySet="TaxOffices" />
-            <End Role="ITaxpayer" EntitySet="ITaxpayers" />
-          </AssociationSet>
           <AssociationSet Name="FK_ITaxpayerAssociates_ITaxpayer" Association="TAAPsModel.FK_ITaxpayerAssociates_ITaxpayer">
             <End Role="ITaxpayer" EntitySet="ITaxpayers" />
             <End Role="ITaxpayerAssociate" EntitySet="ITaxpayerAssociates" />
@@ -3070,10 +3039,6 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
             <End Role="ITaxpayerNoK" EntitySet="ITaxpayerNoKs" />
           </AssociationSet>
           <EntitySet Name="CTaxpayerBranches" EntityType="TAAPsModel.CTaxpayerBranch" />
-          <AssociationSet Name="FK_CTaxpayerBranches_TaxOffices" Association="TAAPsModel.FK_CTaxpayerBranches_TaxOffices">
-            <End Role="TaxOffice" EntitySet="TaxOffices" />
-            <End Role="CTaxpayerBranch" EntitySet="CTaxpayerBranches" />
-          </AssociationSet>
           <AssociationSet Name="FK_CTransfers_TaxAgentBranches2" Association="TAAPsModel.FK_CTransfers_TaxAgentBranches2">
             <End Role="CTaxpayerBranch" EntitySet="CTaxpayerBranches" />
             <End Role="CorporateTransfer" EntitySet="CorporateTransfers" />
@@ -3093,10 +3058,6 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           </AssociationSet>
           <AssociationSet Name="FK_ITINRequests_Nationality" Association="TAAPsModel.FK_ITINRequests_Nationality">
             <End Role="Country" EntitySet="Countries" />
-            <End Role="ITINRequest" EntitySet="ITINRequests" />
-          </AssociationSet>
-          <AssociationSet Name="FK_ITINRequest_TaxOffices" Association="TAAPsModel.FK_ITINRequest_TaxOffices">
-            <End Role="TaxOffice" EntitySet="TaxOffices" />
             <End Role="ITINRequest" EntitySet="ITINRequests" />
           </AssociationSet>
           <AssociationSet Name="FK_ITINRequests_AddressLGA" Association="TAAPsModel.FK_ITINRequests_AddressLGA">
@@ -3128,35 +3089,6 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
             <End Role="State" EntitySet="States" />
           </AssociationSet>
           <EntitySet Name="RegisteredCompanies" EntityType="TAAPsModel.RegisteredCompany" />
-          <EntitySet Name="CTINRequests" EntityType="TAAPsModel.CTINRequest" />
-          <AssociationSet Name="FK_CTINRequests_BusinessLines" Association="TAAPsModel.FK_CTINRequests_BusinessLines">
-            <End Role="BusinessLine" EntitySet="BusinessLines" />
-            <End Role="CTINRequest" EntitySet="CTINRequests" />
-          </AssociationSet>
-          <AssociationSet Name="FK_CTINRequests_Country" Association="TAAPsModel.FK_CTINRequests_Country">
-            <End Role="Country" EntitySet="Countries" />
-            <End Role="CTINRequest" EntitySet="CTINRequests" />
-          </AssociationSet>
-          <AssociationSet Name="FK_CTINRequests_LGAs" Association="TAAPsModel.FK_CTINRequests_LGAs">
-            <End Role="LGA" EntitySet="LGAs" />
-            <End Role="CTINRequest" EntitySet="CTINRequests" />
-          </AssociationSet>
-          <AssociationSet Name="FK_CTINRequests_RegisteredCompanies" Association="TAAPsModel.FK_CTINRequests_RegisteredCompanies">
-            <End Role="RegisteredCompany" EntitySet="RegisteredCompanies" />
-            <End Role="CTINRequest" EntitySet="CTINRequests" />
-          </AssociationSet>
-          <AssociationSet Name="FK_CTINRequests_States" Association="TAAPsModel.FK_CTINRequests_States">
-            <End Role="State" EntitySet="States" />
-            <End Role="CTINRequest" EntitySet="CTINRequests" />
-          </AssociationSet>
-          <AssociationSet Name="FK_CTINRequests_TaxOffices" Association="TAAPsModel.FK_CTINRequests_TaxOffices">
-            <End Role="TaxOffice" EntitySet="TaxOffices" />
-            <End Role="CTINRequest" EntitySet="CTINRequests" />
-          </AssociationSet>
-          <AssociationSet Name="FK_CTINRequests_Users" Association="TAAPsModel.FK_CTINRequests_Users">
-            <End Role="User" EntitySet="Users" />
-            <End Role="CTINRequest" EntitySet="CTINRequests" />
-          </AssociationSet>
           <FunctionImport Name="ApproveCTINRequest">
             <Parameter Name="RequestId" Mode="In" Type="Int64" />
             <Parameter Name="approvedBy" Mode="In" Type="String" />
@@ -3167,6 +3099,15 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
             <Parameter Name="approvedBy" Mode="In" Type="String" />
             <Parameter Name="TIN" Mode="InOut" Type="String" />
           </FunctionImport>
+          <AssociationSet Name="FK_ITaxpayerFiles_ITaxpayer1" Association="TAAPsModel.FK_ITaxpayerFiles_ITaxpayer1">
+            <End Role="User" EntitySet="Users" />
+            <End Role="ITaxpayerFile" EntitySet="ITaxpayerFiles" />
+          </AssociationSet>
+          <EntitySet Name="IssueLogs" EntityType="TAAPsModel.IssueLog" />
+          <AssociationSet Name="FK_IssueLog_Users" Association="TAAPsModel.FK_IssueLog_Users">
+            <End Role="User" EntitySet="Users" />
+            <End Role="IssueLog" EntitySet="IssueLogs" />
+          </AssociationSet>
           <EntitySet Name="CTaxpayers" EntityType="TAAPsModel.CTaxpayer" />
           <AssociationSet Name="FK_CTaxpayers_BusinessLines" Association="TAAPsModel.FK_CTaxpayers_BusinessLines">
             <End Role="BusinessLine" EntitySet="BusinessLines" />
@@ -3196,22 +3137,104 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
             <End Role="State" EntitySet="States" />
             <End Role="CTaxpayer" EntitySet="CTaxpayers" />
           </AssociationSet>
-          <AssociationSet Name="FK_CTaxpayers_TaxOffices" Association="TAAPsModel.FK_CTaxpayers_TaxOffices">
-            <End Role="TaxOffice" EntitySet="TaxOffices" />
-            <End Role="CTaxpayer" EntitySet="CTaxpayers" />
-          </AssociationSet>
           <AssociationSet Name="FK_CTaxpayers_Users" Association="TAAPsModel.FK_CTaxpayers_Users">
             <End Role="User" EntitySet="Users" />
             <End Role="CTaxpayer" EntitySet="CTaxpayers" />
           </AssociationSet>
-          <AssociationSet Name="FK_ITaxpayerFiles_ITaxpayer1" Association="TAAPsModel.FK_ITaxpayerFiles_ITaxpayer1">
-            <End Role="User" EntitySet="Users" />
-            <End Role="ITaxpayerFile" EntitySet="ITaxpayerFiles" />
+          <EntitySet Name="CTINRequests" EntityType="TAAPsModel.CTINRequest" />
+          <AssociationSet Name="FK_CTINRequests_BusinessLines" Association="TAAPsModel.FK_CTINRequests_BusinessLines">
+            <End Role="BusinessLine" EntitySet="BusinessLines" />
+            <End Role="CTINRequest" EntitySet="CTINRequests" />
           </AssociationSet>
-          <EntitySet Name="IssueLogs" EntityType="TAAPsModel.IssueLog" />
-          <AssociationSet Name="FK_IssueLog_Users" Association="TAAPsModel.FK_IssueLog_Users">
+          <AssociationSet Name="FK_CTINRequests_Country" Association="TAAPsModel.FK_CTINRequests_Country">
+            <End Role="Country" EntitySet="Countries" />
+            <End Role="CTINRequest" EntitySet="CTINRequests" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTINRequests_LGAs" Association="TAAPsModel.FK_CTINRequests_LGAs">
+            <End Role="LGA" EntitySet="LGAs" />
+            <End Role="CTINRequest" EntitySet="CTINRequests" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTINRequests_RegisteredCompanies" Association="TAAPsModel.FK_CTINRequests_RegisteredCompanies">
+            <End Role="RegisteredCompany" EntitySet="RegisteredCompanies" />
+            <End Role="CTINRequest" EntitySet="CTINRequests" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTINRequests_States" Association="TAAPsModel.FK_CTINRequests_States">
+            <End Role="State" EntitySet="States" />
+            <End Role="CTINRequest" EntitySet="CTINRequests" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTINRequests_Users" Association="TAAPsModel.FK_CTINRequests_Users">
             <End Role="User" EntitySet="Users" />
-            <End Role="IssueLog" EntitySet="IssueLogs" />
+            <End Role="CTINRequest" EntitySet="CTINRequests" />
+          </AssociationSet>
+          <EntitySet Name="CompanyTypes" EntityType="TAAPsModel.CompanyType" />
+          <AssociationSet Name="FK_CTaxpayers_CompanyTypes" Association="TAAPsModel.FK_CTaxpayers_CompanyTypes">
+            <End Role="CompanyType" EntitySet="CompanyTypes" />
+            <End Role="CTaxpayer" EntitySet="CTaxpayers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTINRequests_CompanyTypes" Association="TAAPsModel.FK_CTINRequests_CompanyTypes">
+            <End Role="CompanyType" EntitySet="CompanyTypes" />
+            <End Role="CTINRequest" EntitySet="CTINRequests" />
+          </AssociationSet>
+          <EntitySet Name="TaxOffices" EntityType="TAAPsModel.TaxOffice" />
+          <AssociationSet Name="FK_CTaxpayerBranches_TaxOffices" Association="TAAPsModel.FK_CTaxpayerBranches_TaxOffices">
+            <End Role="TaxOffice" EntitySet="TaxOffices" />
+            <End Role="CTaxpayerBranch" EntitySet="CTaxpayerBranches" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTaxpayers_TaxOffices" Association="TAAPsModel.FK_CTaxpayers_TaxOffices">
+            <End Role="TaxOffice" EntitySet="TaxOffices" />
+            <End Role="CTaxpayer" EntitySet="CTaxpayers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTINRequests_TaxOffices" Association="TAAPsModel.FK_CTINRequests_TaxOffices">
+            <End Role="TaxOffice" EntitySet="TaxOffices" />
+            <End Role="CTINRequest" EntitySet="CTINRequests" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTransfers_FromTaxOffices" Association="TAAPsModel.FK_CTransfers_FromTaxOffices">
+            <End Role="TaxOffice" EntitySet="TaxOffices" />
+            <End Role="CorporateTransfer" EntitySet="CorporateTransfers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTransfers_ToTaxOffices" Association="TAAPsModel.FK_CTransfers_ToTaxOffices">
+            <End Role="TaxOffice" EntitySet="TaxOffices" />
+            <End Role="CorporateTransfer" EntitySet="CorporateTransfers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ITaxpayer_TaxOffices" Association="TAAPsModel.FK_ITaxpayer_TaxOffices">
+            <End Role="TaxOffice" EntitySet="TaxOffices" />
+            <End Role="ITaxpayer" EntitySet="ITaxpayers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ITaxpayerTransfers_FromTaxOffices" Association="TAAPsModel.FK_ITaxpayerTransfers_FromTaxOffices">
+            <End Role="TaxOffice" EntitySet="TaxOffices" />
+            <End Role="ITaxpayerTransfer" EntitySet="ITaxpayerTransfers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ITaxpayerTransfers_ToTaxOffices" Association="TAAPsModel.FK_ITaxpayerTransfers_ToTaxOffices">
+            <End Role="TaxOffice" EntitySet="TaxOffices" />
+            <End Role="ITaxpayerTransfer" EntitySet="ITaxpayerTransfers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ITINRequest_TaxOffices" Association="TAAPsModel.FK_ITINRequest_TaxOffices">
+            <End Role="TaxOffice" EntitySet="TaxOffices" />
+            <End Role="ITINRequest" EntitySet="ITINRequests" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TaxOffices_LGAs" Association="TAAPsModel.FK_TaxOffices_LGAs">
+            <End Role="LGA" EntitySet="LGAs" />
+            <End Role="TaxOffice" EntitySet="TaxOffices" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RevenueTargets_TaxOffices" Association="TAAPsModel.FK_RevenueTargets_TaxOffices">
+            <End Role="TaxOffice" EntitySet="TaxOffices" />
+            <End Role="RevenueTarget" EntitySet="RevenueTargets" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TaxOffices_TaxOfficeTypes" Association="TAAPsModel.FK_TaxOffices_TaxOfficeTypes">
+            <End Role="TaxOfficeType" EntitySet="TaxOfficeTypes" />
+            <End Role="TaxOffice" EntitySet="TaxOffices" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Users_TaxOffices" Association="TAAPsModel.FK_Users_TaxOffices">
+            <End Role="TaxOffice" EntitySet="TaxOffices" />
+            <End Role="User" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UserTransfers_FromTaxOffices" Association="TAAPsModel.FK_UserTransfers_FromTaxOffices">
+            <End Role="TaxOffice" EntitySet="TaxOffices" />
+            <End Role="UserTransfer" EntitySet="UserTransfers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UserTransfers_ToTaxOffices" Association="TAAPsModel.FK_UserTransfers_ToTaxOffices">
+            <End Role="TaxOffice" EntitySet="TaxOffices" />
+            <End Role="UserTransfer" EntitySet="UserTransfers" />
           </AssociationSet>
           </EntityContainer>
         <EntityType Name="ReportCategory">
@@ -3356,7 +3379,6 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <Property Name="TaxOfficeEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="3" annotation:StoreGeneratedPattern="Computed" />
           <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
-          <NavigationProperty Name="TaxOffices" Relationship="TAAPsModel.FK_TaxOffices_TaxOfficeRegions" FromRole="TaxOfficeRegion" ToRole="TaxOffice" />
           <NavigationProperty Name="Users" Relationship="TAAPsModel.FK_Users_TaxOfficeRegions" FromRole="TaxOfficeRegion" ToRole="User" />
         </EntityType>
         <EntityType Name="RevenueTarget">
@@ -3380,9 +3402,9 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <Property Name="Reason" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
           <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
           <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="3" annotation:StoreGeneratedPattern="Computed" />
+          <NavigationProperty Name="User" Relationship="TAAPsModel.FK_UserTransfers_Users" FromRole="UserTransfer" ToRole="User" />
           <NavigationProperty Name="TaxOffice" Relationship="TAAPsModel.FK_UserTransfers_FromTaxOffices" FromRole="UserTransfer" ToRole="TaxOffice" />
           <NavigationProperty Name="TaxOffice1" Relationship="TAAPsModel.FK_UserTransfers_ToTaxOffices" FromRole="UserTransfer" ToRole="TaxOffice" />
-          <NavigationProperty Name="User" Relationship="TAAPsModel.FK_UserTransfers_Users" FromRole="UserTransfer" ToRole="User" />
         </EntityType>
         <EntityType Name="ITaxpayerAssociate">
           <Key>
@@ -3465,9 +3487,9 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <Property Name="Reason" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
           <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="3" annotation:StoreGeneratedPattern="Computed" />
+          <NavigationProperty Name="ITaxpayer" Relationship="TAAPsModel.FK_ITaxpayerTransfers_ITaxpayer" FromRole="ITaxpayerTransfer" ToRole="ITaxpayer" />
           <NavigationProperty Name="TaxOffice" Relationship="TAAPsModel.FK_ITaxpayerTransfers_FromTaxOffices" FromRole="ITaxpayerTransfer" ToRole="TaxOffice" />
           <NavigationProperty Name="TaxOffice1" Relationship="TAAPsModel.FK_ITaxpayerTransfers_ToTaxOffices" FromRole="ITaxpayerTransfer" ToRole="TaxOffice" />
-          <NavigationProperty Name="ITaxpayer" Relationship="TAAPsModel.FK_ITaxpayerTransfers_ITaxpayer" FromRole="ITaxpayerTransfer" ToRole="ITaxpayer" />
         </EntityType>
         <EntityType Name="State">
           <Key>
@@ -3484,8 +3506,8 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <NavigationProperty Name="ITINRequests2" Relationship="TAAPsModel.FK_ITINRequests_States" FromRole="State" ToRole="ITINRequest" />
           <Property Name="CountryId" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Country" Relationship="TAAPsModel.FK_States_Country" FromRole="State" ToRole="Country" />
-          <NavigationProperty Name="CTINRequests" Relationship="TAAPsModel.FK_CTINRequests_States" FromRole="State" ToRole="CTINRequest" />
           <NavigationProperty Name="CTaxpayers" Relationship="TAAPsModel.FK_CTaxpayers_States" FromRole="State" ToRole="CTaxpayer" />
+          <NavigationProperty Name="CTINRequests" Relationship="TAAPsModel.FK_CTINRequests_States" FromRole="State" ToRole="CTINRequest" />
           </EntityType>
         <EntityType Name="LGA">
           <Key>
@@ -3495,15 +3517,15 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <Property Name="LGAName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="StateId" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="State" Relationship="TAAPsModel.FK_LGAs_States" FromRole="LGA" ToRole="State" />
-          <NavigationProperty Name="TaxOffices" Relationship="TAAPsModel.FK_TaxOffices_LGAs" FromRole="LGA" ToRole="TaxOffice" />
           <NavigationProperty Name="ITaxpayers" Relationship="TAAPsModel.FK_ITaxpayer_LGAs" FromRole="LGA" ToRole="ITaxpayer" />
           <NavigationProperty Name="ITaxpayers1" Relationship="TAAPsModel.FK_ITaxpayer_OriginLGAs" FromRole="LGA" ToRole="ITaxpayer" />
           <NavigationProperty Name="ITaxpayerAddresses" Relationship="TAAPsModel.FK_ITaxpayerAddress_LGAs" FromRole="LGA" ToRole="ITaxpayerAddress" />
           <NavigationProperty Name="ITINRequests" Relationship="TAAPsModel.FK_ITINRequests_AddressLGA" FromRole="LGA" ToRole="ITINRequest" />
           <NavigationProperty Name="ITINRequests1" Relationship="TAAPsModel.FK_ITINRequests_LGAs" FromRole="LGA" ToRole="ITINRequest" />
           <NavigationProperty Name="ITINRequests2" Relationship="TAAPsModel.FK_ITINRequests_OriginLGAs" FromRole="LGA" ToRole="ITINRequest" />
-          <NavigationProperty Name="CTINRequests" Relationship="TAAPsModel.FK_CTINRequests_LGAs" FromRole="LGA" ToRole="CTINRequest" />
           <NavigationProperty Name="CTaxpayers" Relationship="TAAPsModel.FK_CTaxpayers_LGAs" FromRole="LGA" ToRole="CTaxpayer" />
+          <NavigationProperty Name="CTINRequests" Relationship="TAAPsModel.FK_CTINRequests_LGAs" FromRole="LGA" ToRole="CTINRequest" />
+          <NavigationProperty Name="TaxOffices" Relationship="TAAPsModel.FK_TaxOffices_LGAs" FromRole="LGA" ToRole="TaxOffice" />
           </EntityType>
         <Association Name="FK_LGAs_States">
           <End Type="TAAPsModel.State" Role="State" Multiplicity="1" />
@@ -3514,124 +3536,6 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
             </Principal>
             <Dependent Role="LGA">
               <PropertyRef Name="StateId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <EntityType Name="TaxOffice">
-          <Key>
-            <PropertyRef Name="TaxOfficeId" />
-          </Key>
-          <Property Name="TaxOfficeId" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="TaxOfficeName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Name="TaxOfficeTypeId" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="RegionId" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="Street" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Name="City" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
-          <Property Name="LGAId" Type="Int32" />
-          <Property Name="Telephone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="TaxOfficerName" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
-          <Property Name="TaxOfficerPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="IsActive" Type="Boolean" Nullable="false" />
-          <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="3" annotation:StoreGeneratedPattern="Computed" />
-          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
-          <NavigationProperty Name="ITaxpayerTransfers" Relationship="TAAPsModel.FK_ITaxpayerTransfers_FromTaxOffices" FromRole="TaxOffice" ToRole="ITaxpayerTransfer" />
-          <NavigationProperty Name="ITaxpayerTransfers1" Relationship="TAAPsModel.FK_ITaxpayerTransfers_ToTaxOffices" FromRole="TaxOffice" ToRole="ITaxpayerTransfer" />
-          <NavigationProperty Name="LGA" Relationship="TAAPsModel.FK_TaxOffices_LGAs" FromRole="TaxOffice" ToRole="LGA" />
-          <NavigationProperty Name="RevenueTargets" Relationship="TAAPsModel.FK_RevenueTargets_TaxOffices" FromRole="TaxOffice" ToRole="RevenueTarget" />
-          <NavigationProperty Name="TaxOfficeRegion" Relationship="TAAPsModel.FK_TaxOffices_TaxOfficeRegions" FromRole="TaxOffice" ToRole="TaxOfficeRegion" />
-          <NavigationProperty Name="UserTransfers" Relationship="TAAPsModel.FK_UserTransfers_FromTaxOffices" FromRole="TaxOffice" ToRole="UserTransfer" />
-          <NavigationProperty Name="UserTransfers1" Relationship="TAAPsModel.FK_UserTransfers_ToTaxOffices" FromRole="TaxOffice" ToRole="UserTransfer" />
-          <NavigationProperty Name="CTransfers" Relationship="TAAPsModel.FK_CTransfers_FromTaxOffices" FromRole="TaxOffice" ToRole="CTransfer" />
-          <NavigationProperty Name="CTransfers1" Relationship="TAAPsModel.FK_CTransfers_ToTaxOffices" FromRole="TaxOffice" ToRole="CTransfer" />
-          <NavigationProperty Name="Users" Relationship="TAAPsModel.FK_Users_TaxOffices" FromRole="TaxOffice" ToRole="User" />
-          <NavigationProperty Name="TaxOfficeType" Relationship="TAAPsModel.FK_TaxOffices_TaxOfficeTypes" FromRole="TaxOffice" ToRole="TaxOfficeType" />
-          <NavigationProperty Name="ITaxpayers" Relationship="TAAPsModel.FK_ITaxpayer_TaxOffices" FromRole="TaxOffice" ToRole="ITaxpayer" />
-          <NavigationProperty Name="CTaxpayerBranches" Relationship="TAAPsModel.FK_CTaxpayerBranches_TaxOffices" FromRole="TaxOffice" ToRole="CTaxpayerBranch" />
-          <NavigationProperty Name="ITINRequests" Relationship="TAAPsModel.FK_ITINRequest_TaxOffices" FromRole="TaxOffice" ToRole="ITINRequest" />
-          <NavigationProperty Name="CTINRequests" Relationship="TAAPsModel.FK_CTINRequests_TaxOffices" FromRole="TaxOffice" ToRole="CTINRequest" />
-          <NavigationProperty Name="CTaxpayers" Relationship="TAAPsModel.FK_CTaxpayers_TaxOffices" FromRole="TaxOffice" ToRole="CTaxpayer" />
-        </EntityType>
-        <Association Name="FK_ITaxpayerTransfers_FromTaxOffices">
-          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
-          <End Type="TAAPsModel.ITaxpayerTransfer" Role="ITaxpayerTransfer" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="TaxOffice">
-              <PropertyRef Name="TaxOfficeId" />
-            </Principal>
-            <Dependent Role="ITaxpayerTransfer">
-              <PropertyRef Name="FromTaxOfficeId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_ITaxpayerTransfers_ToTaxOffices">
-          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
-          <End Type="TAAPsModel.ITaxpayerTransfer" Role="ITaxpayerTransfer" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="TaxOffice">
-              <PropertyRef Name="TaxOfficeId" />
-            </Principal>
-            <Dependent Role="ITaxpayerTransfer">
-              <PropertyRef Name="ToTaxOfficeId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_TaxOffices_LGAs">
-          <End Type="TAAPsModel.LGA" Role="LGA" Multiplicity="0..1" />
-          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="LGA">
-              <PropertyRef Name="LGAId" />
-            </Principal>
-            <Dependent Role="TaxOffice">
-              <PropertyRef Name="LGAId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_RevenueTargets_TaxOffices">
-          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
-          <End Type="TAAPsModel.RevenueTarget" Role="RevenueTarget" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="TaxOffice">
-              <PropertyRef Name="TaxOfficeId" />
-            </Principal>
-            <Dependent Role="RevenueTarget">
-              <PropertyRef Name="TaxOfficeId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_TaxOffices_TaxOfficeRegions">
-          <End Type="TAAPsModel.TaxOfficeRegion" Role="TaxOfficeRegion" Multiplicity="1" />
-          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="TaxOfficeRegion">
-              <PropertyRef Name="RegionId" />
-            </Principal>
-            <Dependent Role="TaxOffice">
-              <PropertyRef Name="RegionId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_UserTransfers_FromTaxOffices">
-          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
-          <End Type="TAAPsModel.UserTransfer" Role="UserTransfer" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="TaxOffice">
-              <PropertyRef Name="TaxOfficeId" />
-            </Principal>
-            <Dependent Role="UserTransfer">
-              <PropertyRef Name="FromTaxOfficeId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_UserTransfers_ToTaxOffices">
-          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
-          <End Type="TAAPsModel.UserTransfer" Role="UserTransfer" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="TaxOffice">
-              <PropertyRef Name="TaxOfficeId" />
-            </Principal>
-            <Dependent Role="UserTransfer">
-              <PropertyRef Name="ToTaxOfficeId" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -3674,35 +3578,11 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <Property Name="Reason" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
           <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="3" annotation:StoreGeneratedPattern="Computed" />
-          <NavigationProperty Name="TaxOffice" Relationship="TAAPsModel.FK_CTransfers_FromTaxOffices" FromRole="CTransfer" ToRole="TaxOffice" />
-          <NavigationProperty Name="TaxOffice1" Relationship="TAAPsModel.FK_CTransfers_ToTaxOffices" FromRole="CTransfer" ToRole="TaxOffice" />
           <NavigationProperty Name="User" Relationship="TAAPsModel.FK_CTransfers_Users" FromRole="CorporateTransfer" ToRole="User" />
           <NavigationProperty Name="CTaxpayerBranch" Relationship="TAAPsModel.FK_CTransfers_TaxAgentBranches2" FromRole="CorporateTransfer" ToRole="CTaxpayerBranch" />
+          <NavigationProperty Name="TaxOffice" Relationship="TAAPsModel.FK_CTransfers_FromTaxOffices" FromRole="CorporateTransfer" ToRole="TaxOffice" />
+          <NavigationProperty Name="TaxOffice1" Relationship="TAAPsModel.FK_CTransfers_ToTaxOffices" FromRole="CorporateTransfer" ToRole="TaxOffice" />
         </EntityType>
-        <Association Name="FK_CTransfers_FromTaxOffices">
-          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
-          <End Type="TAAPsModel.CorporateTransfer" Role="CTransfer" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="TaxOffice">
-              <PropertyRef Name="TaxOfficeId" />
-            </Principal>
-            <Dependent Role="CTransfer">
-              <PropertyRef Name="FromTaxOfficeId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_CTransfers_ToTaxOffices">
-          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
-          <End Type="TAAPsModel.CorporateTransfer" Role="CTransfer" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="TaxOffice">
-              <PropertyRef Name="TaxOfficeId" />
-            </Principal>
-            <Dependent Role="CTransfer">
-              <PropertyRef Name="ToTaxOfficeId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
         <EntityType Name="User">
           <Key>
             <PropertyRef Name="UserName" />
@@ -3732,7 +3612,6 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <NavigationProperty Name="CTurnovers" Relationship="TAAPsModel.FK_CTurnovers_Users" FromRole="User" ToRole="CTurnover" />
           <Property Name="RegionId" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="TaxOfficeRegion" Relationship="TAAPsModel.FK_Users_TaxOfficeRegions" FromRole="User" ToRole="TaxOfficeRegion" />
-          <NavigationProperty Name="TaxOffice" Relationship="TAAPsModel.FK_Users_TaxOffices" FromRole="User" ToRole="TaxOffice" />
           <NavigationProperty Name="GeneratedReceipts" Relationship="TAAPsModel.FK_GeneratedReceipts_Users" FromRole="User" ToRole="GeneratedReceipt" />
           <NavigationProperty Name="IAssessments" Relationship="TAAPsModel.FK_IAssessments_Users" FromRole="User" ToRole="IAssessment" />
           <NavigationProperty Name="TaxTypes" Relationship="TAAPsModel.FK_TaxTypes_Users" FromRole="User" ToRole="TaxType" />
@@ -3743,10 +3622,11 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <NavigationProperty Name="ITaxpayerAddresses" Relationship="TAAPsModel.FK_ITaxpayerAddress_Users" FromRole="User" ToRole="ITaxpayerAddress" />
           <NavigationProperty Name="ITaxpayerNoKs" Relationship="TAAPsModel.FK_ITaxpayerNoK_Users" FromRole="User" ToRole="ITaxpayerNoK" />
           <NavigationProperty Name="ITaxpayers" Relationship="TAAPsModel.FK_ITaxpayer_Users" FromRole="User" ToRole="ITaxpayer" />
-          <NavigationProperty Name="CTINRequests" Relationship="TAAPsModel.FK_CTINRequests_Users" FromRole="User" ToRole="CTINRequest" />
-          <NavigationProperty Name="CTaxpayers" Relationship="TAAPsModel.FK_CTaxpayers_Users" FromRole="User" ToRole="CTaxpayer" />
           <NavigationProperty Name="ITaxpayerFiles" Relationship="TAAPsModel.FK_ITaxpayerFiles_ITaxpayer1" FromRole="User" ToRole="ITaxpayerFile" />
           <NavigationProperty Name="IssueLogs" Relationship="TAAPsModel.FK_IssueLog_Users" FromRole="User" ToRole="IssueLog" />
+          <NavigationProperty Name="CTaxpayers" Relationship="TAAPsModel.FK_CTaxpayers_Users" FromRole="User" ToRole="CTaxpayer" />
+          <NavigationProperty Name="CTINRequests" Relationship="TAAPsModel.FK_CTINRequests_Users" FromRole="User" ToRole="CTINRequest" />
+          <NavigationProperty Name="TaxOffice" Relationship="TAAPsModel.FK_Users_TaxOffices" FromRole="User" ToRole="TaxOffice" />
         </EntityType>
         <Association Name="FK_CTransfers_Users">
           <End Type="TAAPsModel.User" Role="User" Multiplicity="1" />
@@ -3947,18 +3827,6 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK_Users_TaxOffices">
-          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="0..1" />
-          <End Type="TAAPsModel.User" Role="User" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="TaxOffice">
-              <PropertyRef Name="TaxOfficeId" />
-            </Principal>
-            <Dependent Role="User">
-              <PropertyRef Name="TaxOfficeId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
         <EntityType Name="TaxOfficeType">
           <Key>
             <PropertyRef Name="TaxOfficeTypeId" />
@@ -3969,18 +3837,6 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="TaxOffices" Relationship="TAAPsModel.FK_TaxOffices_TaxOfficeTypes" FromRole="TaxOfficeType" ToRole="TaxOffice" />
         </EntityType>
-        <Association Name="FK_TaxOffices_TaxOfficeTypes">
-          <End Type="TAAPsModel.TaxOfficeType" Role="TaxOfficeType" Multiplicity="1" />
-          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="TaxOfficeType">
-              <PropertyRef Name="TaxOfficeTypeId" />
-            </Principal>
-            <Dependent Role="TaxOffice">
-              <PropertyRef Name="TaxOfficeTypeId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
         <EntityType Name="GeneratedReceipt">
           <Key>
             <PropertyRef Name="ReceiptId" />
@@ -4463,8 +4319,8 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <NavigationProperty Name="ITINRequests" Relationship="TAAPsModel.FK_ITINRequests_Country" FromRole="Country" ToRole="ITINRequest" />
           <NavigationProperty Name="ITINRequests1" Relationship="TAAPsModel.FK_ITINRequests_Nationality" FromRole="Country" ToRole="ITINRequest" />
           <NavigationProperty Name="States" Relationship="TAAPsModel.FK_States_Country" FromRole="Country" ToRole="State" />
-          <NavigationProperty Name="CTINRequests" Relationship="TAAPsModel.FK_CTINRequests_Country" FromRole="Country" ToRole="CTINRequest" />
           <NavigationProperty Name="CTaxpayers" Relationship="TAAPsModel.FK_CTaxpayers_Country" FromRole="Country" ToRole="CTaxpayer" />
+          <NavigationProperty Name="CTINRequests" Relationship="TAAPsModel.FK_CTINRequests_Country" FromRole="Country" ToRole="CTINRequest" />
           </EntityType>
         <EntityType Name="ITaxpayer">
           <Key>
@@ -4531,7 +4387,6 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <NavigationProperty Name="LGA1" Relationship="TAAPsModel.FK_ITaxpayer_OriginLGAs" FromRole="ITaxpayer" ToRole="LGA" />
           <NavigationProperty Name="State" Relationship="TAAPsModel.FK_ITaxpayer_OriginStates" FromRole="ITaxpayer" ToRole="State" />
           <NavigationProperty Name="State1" Relationship="TAAPsModel.FK_ITaxpayer_States" FromRole="ITaxpayer" ToRole="State" />
-          <NavigationProperty Name="TaxOffice" Relationship="TAAPsModel.FK_ITaxpayer_TaxOffices" FromRole="ITaxpayer" ToRole="TaxOffice" />
           <NavigationProperty Name="ITaxpayerAssociates" Relationship="TAAPsModel.FK_ITaxpayerAssociates_ITaxpayer" FromRole="ITaxpayer" ToRole="ITaxpayerAssociate" />
           <NavigationProperty Name="ITaxpayerBanks" Relationship="TAAPsModel.FK_ITaxpayerBanks_ITaxpayer" FromRole="ITaxpayer" ToRole="ITaxpayerBank" />
           <NavigationProperty Name="ITaxpayerFiles" Relationship="TAAPsModel.FK_ITaxpayerFiles_ITaxpayer" FromRole="ITaxpayer" ToRole="ITaxpayerFile" />
@@ -4541,6 +4396,7 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <NavigationProperty Name="ITaxpayerAddresses" Relationship="TAAPsModel.FK_ITaxpayerAddress_ITaxpayer" FromRole="ITaxpayer" ToRole="ITaxpayerAddress" />
           <Property Name="SMSNotified" Type="Boolean" Nullable="false" />
           <NavigationProperty Name="User" Relationship="TAAPsModel.FK_ITaxpayer_Users" FromRole="ITaxpayer" ToRole="User" />
+          <NavigationProperty Name="TaxOffice" Relationship="TAAPsModel.FK_ITaxpayer_TaxOffices" FromRole="ITaxpayer" ToRole="TaxOffice" />
         </EntityType>
         <Association Name="FK_ITaxpayer_BusinessLines">
           <End Type="TAAPsModel.BusinessLine" Role="BusinessLine" Multiplicity="0..1" />
@@ -4635,18 +4491,6 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
             </Principal>
             <Dependent Role="ITaxpayer">
               <PropertyRef Name="BirthStateId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_ITaxpayer_TaxOffices">
-          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
-          <End Type="TAAPsModel.ITaxpayer" Role="ITaxpayer" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="TaxOffice">
-              <PropertyRef Name="TaxOfficeId" />
-            </Principal>
-            <Dependent Role="ITaxpayer">
-              <PropertyRef Name="TaxOfficeId" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -4849,22 +4693,10 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
           <Property Name="CreateDate" Type="DateTime" Precision="3" Nullable="false" />
           <Property Name="EmailNotified" Type="Boolean" Nullable="false" />
-          <NavigationProperty Name="TaxOffice" Relationship="TAAPsModel.FK_CTaxpayerBranches_TaxOffices" FromRole="CTaxpayerBranch" ToRole="TaxOffice" />
           <NavigationProperty Name="CTransfers" Relationship="TAAPsModel.FK_CTransfers_TaxAgentBranches2" FromRole="CTaxpayerBranch" ToRole="CorporateTransfer" />
           <NavigationProperty Name="CTaxpayer" Relationship="TAAPsModel.FK_CTaxpayerBranches_CTaxpayers" FromRole="CTaxpayerBranch" ToRole="CTaxpayer" />
+          <NavigationProperty Name="TaxOffice" Relationship="TAAPsModel.FK_CTaxpayerBranches_TaxOffices" FromRole="CTaxpayerBranch" ToRole="TaxOffice" />
         </EntityType>
-        <Association Name="FK_CTaxpayerBranches_TaxOffices">
-          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
-          <End Type="TAAPsModel.CTaxpayerBranch" Role="CTaxpayerBranch" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="TaxOffice">
-              <PropertyRef Name="TaxOfficeId" />
-            </Principal>
-            <Dependent Role="CTaxpayerBranch">
-              <PropertyRef Name="TaxOfficeId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
         <Association Name="FK_CTransfers_TaxAgentBranches2">
           <End Type="TAAPsModel.CTaxpayerBranch" Role="CTaxpayerBranch" Multiplicity="1" />
           <End Type="TAAPsModel.CorporateTransfer" Role="CorporateTransfer" Multiplicity="*" />
@@ -5047,13 +4879,13 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="Country" Relationship="TAAPsModel.FK_ITINRequests_Country" FromRole="ITINRequest" ToRole="Country" />
           <NavigationProperty Name="Country1" Relationship="TAAPsModel.FK_ITINRequests_Nationality" FromRole="ITINRequest" ToRole="Country" />
-          <NavigationProperty Name="TaxOffice" Relationship="TAAPsModel.FK_ITINRequest_TaxOffices" FromRole="ITINRequest" ToRole="TaxOffice" />
           <NavigationProperty Name="LGA" Relationship="TAAPsModel.FK_ITINRequests_AddressLGA" FromRole="ITINRequest" ToRole="LGA" />
           <NavigationProperty Name="State" Relationship="TAAPsModel.FK_ITINRequests_AddressState" FromRole="ITINRequest" ToRole="State" />
           <NavigationProperty Name="LGA1" Relationship="TAAPsModel.FK_ITINRequests_LGAs" FromRole="ITINRequest" ToRole="LGA" />
           <NavigationProperty Name="LGA2" Relationship="TAAPsModel.FK_ITINRequests_OriginLGAs" FromRole="ITINRequest" ToRole="LGA" />
           <NavigationProperty Name="State1" Relationship="TAAPsModel.FK_ITINRequests_OriginStates" FromRole="ITINRequest" ToRole="State" />
           <NavigationProperty Name="State2" Relationship="TAAPsModel.FK_ITINRequests_States" FromRole="ITINRequest" ToRole="State" />
+          <NavigationProperty Name="TaxOffice" Relationship="TAAPsModel.FK_ITINRequest_TaxOffices" FromRole="ITINRequest" ToRole="TaxOffice" />
         </EntityType>
         <Association Name="FK_ITINRequests_Country">
           <End Type="TAAPsModel.Country" Role="Country" Multiplicity="1" />
@@ -5076,18 +4908,6 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
             </Principal>
             <Dependent Role="ITINRequest">
               <PropertyRef Name="NationalityId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_ITINRequest_TaxOffices">
-          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
-          <End Type="TAAPsModel.ITINRequest" Role="ITINRequest" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="TaxOffice">
-              <PropertyRef Name="TaxOfficeId" />
-            </Principal>
-            <Dependent Role="ITINRequest">
-              <PropertyRef Name="TaxOfficeId" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -5182,127 +5002,43 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <Property Name="CacNumber" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
           <Property Name="CompanyName" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
           <Property Name="RegistrationDate" Type="DateTime" Nullable="false" Precision="0" />
-          <NavigationProperty Name="CTINRequests" Relationship="TAAPsModel.FK_CTINRequests_RegisteredCompanies" FromRole="RegisteredCompany" ToRole="CTINRequest" />
           <NavigationProperty Name="CTaxpayers" Relationship="TAAPsModel.FK_CTaxpayers_RegisteredCompanies" FromRole="RegisteredCompany" ToRole="CTaxpayer" />
+          <NavigationProperty Name="CTINRequests" Relationship="TAAPsModel.FK_CTINRequests_RegisteredCompanies" FromRole="RegisteredCompany" ToRole="CTINRequest" />
         </EntityType>
-        <EntityType Name="CTINRequest">
-          <Key>
-            <PropertyRef Name="RequestId" />
-          </Key>
-          <Property Name="RequestId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="CacNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-          <Property Name="BNNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-          <Property Name="CompanyType" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="PreviousFCTTin" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="CompanyName" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Name="BusinessLineId" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
-          <Property Name="TaxOfficeId" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="RegistrationDate" Type="DateTime" Nullable="false" Precision="0" />
-          <Property Name="CommencementDate" Type="DateTime" Precision="0" />
-          <Property Name="RegisteredAddressStreetNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="RegisteredAddressStreet" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Name="RegisteredAddressCity" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="RegisteredAddressCountryId" Type="Int32" Nullable="false" />
-          <Property Name="RegisteredAddressStateId" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
-          <Property Name="RegisteredAddressLgaId" Type="Int32" Nullable="false" />
-          <Property Name="PrimaryPhone" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
-          <Property Name="SecondaryPhone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
-          <Property Name="Email" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Name="Website" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Name="ContactPerson" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="ContactPersonPhone" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
-          <Property Name="Status" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
-          <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="3" />
-          <NavigationProperty Name="BusinessLine" Relationship="TAAPsModel.FK_CTINRequests_BusinessLines" FromRole="CTINRequest" ToRole="BusinessLine" />
-          <NavigationProperty Name="Country" Relationship="TAAPsModel.FK_CTINRequests_Country" FromRole="CTINRequest" ToRole="Country" />
-          <NavigationProperty Name="LGA" Relationship="TAAPsModel.FK_CTINRequests_LGAs" FromRole="CTINRequest" ToRole="LGA" />
-          <NavigationProperty Name="RegisteredCompany" Relationship="TAAPsModel.FK_CTINRequests_RegisteredCompanies" FromRole="CTINRequest" ToRole="RegisteredCompany" />
-          <NavigationProperty Name="State" Relationship="TAAPsModel.FK_CTINRequests_States" FromRole="CTINRequest" ToRole="State" />
-          <NavigationProperty Name="TaxOffice" Relationship="TAAPsModel.FK_CTINRequests_TaxOffices" FromRole="CTINRequest" ToRole="TaxOffice" />
-          <NavigationProperty Name="User" Relationship="TAAPsModel.FK_CTINRequests_Users" FromRole="CTINRequest" ToRole="User" />
-          <Property Name="RecordSource" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-        </EntityType>
-        <Association Name="FK_CTINRequests_BusinessLines">
-          <End Type="TAAPsModel.BusinessLine" Role="BusinessLine" Multiplicity="1" />
-          <End Type="TAAPsModel.CTINRequest" Role="CTINRequest" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="BusinessLine">
-              <PropertyRef Name="BusinessLineId" />
-            </Principal>
-            <Dependent Role="CTINRequest">
-              <PropertyRef Name="BusinessLineId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_CTINRequests_Country">
-          <End Type="TAAPsModel.Country" Role="Country" Multiplicity="1" />
-          <End Type="TAAPsModel.CTINRequest" Role="CTINRequest" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Country">
-              <PropertyRef Name="CountryId" />
-            </Principal>
-            <Dependent Role="CTINRequest">
-              <PropertyRef Name="RegisteredAddressCountryId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_CTINRequests_LGAs">
-          <End Type="TAAPsModel.LGA" Role="LGA" Multiplicity="1" />
-          <End Type="TAAPsModel.CTINRequest" Role="CTINRequest" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="LGA">
-              <PropertyRef Name="LGAId" />
-            </Principal>
-            <Dependent Role="CTINRequest">
-              <PropertyRef Name="RegisteredAddressLgaId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_CTINRequests_RegisteredCompanies">
-          <End Type="TAAPsModel.RegisteredCompany" Role="RegisteredCompany" Multiplicity="0..1" />
-          <End Type="TAAPsModel.CTINRequest" Role="CTINRequest" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="RegisteredCompany">
-              <PropertyRef Name="CacNumber" />
-            </Principal>
-            <Dependent Role="CTINRequest">
-              <PropertyRef Name="CacNumber" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_CTINRequests_States">
-          <End Type="TAAPsModel.State" Role="State" Multiplicity="1" />
-          <End Type="TAAPsModel.CTINRequest" Role="CTINRequest" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="State">
-              <PropertyRef Name="StateId" />
-            </Principal>
-            <Dependent Role="CTINRequest">
-              <PropertyRef Name="RegisteredAddressStateId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_CTINRequests_TaxOffices">
-          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
-          <End Type="TAAPsModel.CTINRequest" Role="CTINRequest" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="TaxOffice">
-              <PropertyRef Name="TaxOfficeId" />
-            </Principal>
-            <Dependent Role="CTINRequest">
-              <PropertyRef Name="TaxOfficeId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_CTINRequests_Users">
+        <Association Name="FK_ITaxpayerFiles_ITaxpayer1">
           <End Type="TAAPsModel.User" Role="User" Multiplicity="1" />
-          <End Type="TAAPsModel.CTINRequest" Role="CTINRequest" Multiplicity="*" />
+          <End Type="TAAPsModel.ITaxpayerFile" Role="ITaxpayerFile" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="User">
               <PropertyRef Name="UserName" />
             </Principal>
-            <Dependent Role="CTINRequest">
+            <Dependent Role="ITaxpayerFile">
+              <PropertyRef Name="CreatedBy" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="IssueLog">
+          <Key>
+            <PropertyRef Name="IssueId" />
+          </Key>
+          <Property Name="IssueId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Subject" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Priority" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Status" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="Resolution" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="User" Relationship="TAAPsModel.FK_IssueLog_Users" FromRole="IssueLog" ToRole="User" />
+        </EntityType>
+        <Association Name="FK_IssueLog_Users">
+          <End Type="TAAPsModel.User" Role="User" Multiplicity="1" />
+          <End Type="TAAPsModel.IssueLog" Role="IssueLog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserName" />
+            </Principal>
+            <Dependent Role="IssueLog">
               <PropertyRef Name="CreatedBy" />
             </Dependent>
           </ReferentialConstraint>
@@ -5314,7 +5050,7 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <Property Name="TIN" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
           <Property Name="CacNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
           <Property Name="BNNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-          <Property Name="CompanyType" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CompanyTypeId" Type="Int32" Nullable="false" />
           <Property Name="PreviousFCTTin" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="FIRSTIN" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
           <Property Name="JTBTIN" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
@@ -5346,8 +5082,9 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
           <NavigationProperty Name="LGA" Relationship="TAAPsModel.FK_CTaxpayers_LGAs" FromRole="CTaxpayer" ToRole="LGA" />
           <NavigationProperty Name="RegisteredCompany" Relationship="TAAPsModel.FK_CTaxpayers_RegisteredCompanies" FromRole="CTaxpayer" ToRole="RegisteredCompany" />
           <NavigationProperty Name="State" Relationship="TAAPsModel.FK_CTaxpayers_States" FromRole="CTaxpayer" ToRole="State" />
-          <NavigationProperty Name="TaxOffice" Relationship="TAAPsModel.FK_CTaxpayers_TaxOffices" FromRole="CTaxpayer" ToRole="TaxOffice" />
           <NavigationProperty Name="User" Relationship="TAAPsModel.FK_CTaxpayers_Users" FromRole="CTaxpayer" ToRole="User" />
+          <NavigationProperty Name="CompanyType" Relationship="TAAPsModel.FK_CTaxpayers_CompanyTypes" FromRole="CTaxpayer" ToRole="CompanyType" />
+          <NavigationProperty Name="TaxOffice" Relationship="TAAPsModel.FK_CTaxpayers_TaxOffices" FromRole="CTaxpayer" ToRole="TaxOffice" />
         </EntityType>
         <Association Name="FK_CTaxpayers_BusinessLines">
           <End Type="TAAPsModel.BusinessLine" Role="BusinessLine" Multiplicity="1" />
@@ -5433,18 +5170,6 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK_CTaxpayers_TaxOffices">
-          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
-          <End Type="TAAPsModel.CTaxpayer" Role="CTaxpayer" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="TaxOffice">
-              <PropertyRef Name="TaxOfficeId" />
-            </Principal>
-            <Dependent Role="CTaxpayer">
-              <PropertyRef Name="TaxOfficeId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
         <Association Name="FK_CTaxpayers_Users">
           <End Type="TAAPsModel.User" Role="User" Multiplicity="1" />
           <End Type="TAAPsModel.CTaxpayer" Role="CTaxpayer" Multiplicity="*" />
@@ -5457,41 +5182,359 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK_ITaxpayerFiles_ITaxpayer1">
+        <EntityType Name="CTINRequest">
+          <Key>
+            <PropertyRef Name="RequestId" />
+          </Key>
+          <Property Name="RequestId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CacNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="BNNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CompanyTypeId" Type="Int32" Nullable="false" />
+          <Property Name="PreviousFCTTin" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CompanyName" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="BusinessLineId" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="TaxOfficeId" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="RegistrationDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="CommencementDate" Type="DateTime" Precision="0" />
+          <Property Name="RegisteredAddressStreetNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RegisteredAddressStreet" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="RegisteredAddressCity" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RegisteredAddressCountryId" Type="Int32" Nullable="false" />
+          <Property Name="RegisteredAddressStateId" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="RegisteredAddressLgaId" Type="Int32" Nullable="false" />
+          <Property Name="PrimaryPhone" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="SecondaryPhone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Website" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="ContactPerson" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ContactPersonPhone" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="Status" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RecordSource" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="BusinessLine" Relationship="TAAPsModel.FK_CTINRequests_BusinessLines" FromRole="CTINRequest" ToRole="BusinessLine" />
+          <NavigationProperty Name="Country" Relationship="TAAPsModel.FK_CTINRequests_Country" FromRole="CTINRequest" ToRole="Country" />
+          <NavigationProperty Name="LGA" Relationship="TAAPsModel.FK_CTINRequests_LGAs" FromRole="CTINRequest" ToRole="LGA" />
+          <NavigationProperty Name="RegisteredCompany" Relationship="TAAPsModel.FK_CTINRequests_RegisteredCompanies" FromRole="CTINRequest" ToRole="RegisteredCompany" />
+          <NavigationProperty Name="State" Relationship="TAAPsModel.FK_CTINRequests_States" FromRole="CTINRequest" ToRole="State" />
+          <NavigationProperty Name="User" Relationship="TAAPsModel.FK_CTINRequests_Users" FromRole="CTINRequest" ToRole="User" />
+          <NavigationProperty Name="CompanyType" Relationship="TAAPsModel.FK_CTINRequests_CompanyTypes" FromRole="CTINRequest" ToRole="CompanyType" />
+          <NavigationProperty Name="TaxOffice" Relationship="TAAPsModel.FK_CTINRequests_TaxOffices" FromRole="CTINRequest" ToRole="TaxOffice" />
+        </EntityType>
+        <Association Name="FK_CTINRequests_BusinessLines">
+          <End Type="TAAPsModel.BusinessLine" Role="BusinessLine" Multiplicity="1" />
+          <End Type="TAAPsModel.CTINRequest" Role="CTINRequest" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BusinessLine">
+              <PropertyRef Name="BusinessLineId" />
+            </Principal>
+            <Dependent Role="CTINRequest">
+              <PropertyRef Name="BusinessLineId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTINRequests_Country">
+          <End Type="TAAPsModel.Country" Role="Country" Multiplicity="1" />
+          <End Type="TAAPsModel.CTINRequest" Role="CTINRequest" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Country">
+              <PropertyRef Name="CountryId" />
+            </Principal>
+            <Dependent Role="CTINRequest">
+              <PropertyRef Name="RegisteredAddressCountryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTINRequests_LGAs">
+          <End Type="TAAPsModel.LGA" Role="LGA" Multiplicity="1" />
+          <End Type="TAAPsModel.CTINRequest" Role="CTINRequest" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LGA">
+              <PropertyRef Name="LGAId" />
+            </Principal>
+            <Dependent Role="CTINRequest">
+              <PropertyRef Name="RegisteredAddressLgaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTINRequests_RegisteredCompanies">
+          <End Type="TAAPsModel.RegisteredCompany" Role="RegisteredCompany" Multiplicity="0..1" />
+          <End Type="TAAPsModel.CTINRequest" Role="CTINRequest" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="RegisteredCompany">
+              <PropertyRef Name="CacNumber" />
+            </Principal>
+            <Dependent Role="CTINRequest">
+              <PropertyRef Name="CacNumber" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTINRequests_States">
+          <End Type="TAAPsModel.State" Role="State" Multiplicity="1" />
+          <End Type="TAAPsModel.CTINRequest" Role="CTINRequest" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="State">
+              <PropertyRef Name="StateId" />
+            </Principal>
+            <Dependent Role="CTINRequest">
+              <PropertyRef Name="RegisteredAddressStateId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTINRequests_Users">
           <End Type="TAAPsModel.User" Role="User" Multiplicity="1" />
-          <End Type="TAAPsModel.ITaxpayerFile" Role="ITaxpayerFile" Multiplicity="*" />
+          <End Type="TAAPsModel.CTINRequest" Role="CTINRequest" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="User">
               <PropertyRef Name="UserName" />
             </Principal>
-            <Dependent Role="ITaxpayerFile">
+            <Dependent Role="CTINRequest">
               <PropertyRef Name="CreatedBy" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityType Name="IssueLog">
+        <EntityType Name="CompanyType">
           <Key>
-            <PropertyRef Name="IssueId" />
+            <PropertyRef Name="CompanyTypeId" />
           </Key>
-          <Property Name="IssueId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Subject" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
-          <Property Name="Priority" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
-          <Property Name="Status" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
-          <Property Name="Resolution" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
-          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
-          <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="3" />
-          <NavigationProperty Name="User" Relationship="TAAPsModel.FK_IssueLog_Users" FromRole="IssueLog" ToRole="User" />
+          <Property Name="CompanyTypeId" Type="Int32" Nullable="false" />
+          <Property Name="CompanyTypeName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="CTaxpayers" Relationship="TAAPsModel.FK_CTaxpayers_CompanyTypes" FromRole="CompanyType" ToRole="CTaxpayer" />
+          <NavigationProperty Name="CTINRequests" Relationship="TAAPsModel.FK_CTINRequests_CompanyTypes" FromRole="CompanyType" ToRole="CTINRequest" />
         </EntityType>
-        <Association Name="FK_IssueLog_Users">
-          <End Type="TAAPsModel.User" Role="User" Multiplicity="1" />
-          <End Type="TAAPsModel.IssueLog" Role="IssueLog" Multiplicity="*" />
+        <Association Name="FK_CTaxpayers_CompanyTypes">
+          <End Type="TAAPsModel.CompanyType" Role="CompanyType" Multiplicity="1" />
+          <End Type="TAAPsModel.CTaxpayer" Role="CTaxpayer" Multiplicity="*" />
           <ReferentialConstraint>
-            <Principal Role="User">
-              <PropertyRef Name="UserName" />
+            <Principal Role="CompanyType">
+              <PropertyRef Name="CompanyTypeId" />
             </Principal>
-            <Dependent Role="IssueLog">
-              <PropertyRef Name="CreatedBy" />
+            <Dependent Role="CTaxpayer">
+              <PropertyRef Name="CompanyTypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTINRequests_CompanyTypes">
+          <End Type="TAAPsModel.CompanyType" Role="CompanyType" Multiplicity="1" />
+          <End Type="TAAPsModel.CTINRequest" Role="CTINRequest" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CompanyType">
+              <PropertyRef Name="CompanyTypeId" />
+            </Principal>
+            <Dependent Role="CTINRequest">
+              <PropertyRef Name="CompanyTypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="TaxOffice">
+          <Key>
+            <PropertyRef Name="TaxOfficeId" />
+          </Key>
+          <Property Name="TaxOfficeId" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="TaxOfficeName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="TaxOfficeTypeId" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Street" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="City" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="LGAId" Type="Int32" />
+          <Property Name="Telephone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="TaxOfficerName" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+          <Property Name="TaxOfficerPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="CTaxpayerBranches" Relationship="TAAPsModel.FK_CTaxpayerBranches_TaxOffices" FromRole="TaxOffice" ToRole="CTaxpayerBranch" />
+          <NavigationProperty Name="CTaxpayers" Relationship="TAAPsModel.FK_CTaxpayers_TaxOffices" FromRole="TaxOffice" ToRole="CTaxpayer" />
+          <NavigationProperty Name="CTINRequests" Relationship="TAAPsModel.FK_CTINRequests_TaxOffices" FromRole="TaxOffice" ToRole="CTINRequest" />
+          <NavigationProperty Name="CTransfers" Relationship="TAAPsModel.FK_CTransfers_FromTaxOffices" FromRole="TaxOffice" ToRole="CorporateTransfer" />
+          <NavigationProperty Name="CTransfers1" Relationship="TAAPsModel.FK_CTransfers_ToTaxOffices" FromRole="TaxOffice" ToRole="CorporateTransfer" />
+          <NavigationProperty Name="ITaxpayers" Relationship="TAAPsModel.FK_ITaxpayer_TaxOffices" FromRole="TaxOffice" ToRole="ITaxpayer" />
+          <NavigationProperty Name="ITaxpayerTransfers" Relationship="TAAPsModel.FK_ITaxpayerTransfers_FromTaxOffices" FromRole="TaxOffice" ToRole="ITaxpayerTransfer" />
+          <NavigationProperty Name="ITaxpayerTransfers1" Relationship="TAAPsModel.FK_ITaxpayerTransfers_ToTaxOffices" FromRole="TaxOffice" ToRole="ITaxpayerTransfer" />
+          <NavigationProperty Name="ITINRequests" Relationship="TAAPsModel.FK_ITINRequest_TaxOffices" FromRole="TaxOffice" ToRole="ITINRequest" />
+          <NavigationProperty Name="LGA" Relationship="TAAPsModel.FK_TaxOffices_LGAs" FromRole="TaxOffice" ToRole="LGA" />
+          <NavigationProperty Name="RevenueTargets" Relationship="TAAPsModel.FK_RevenueTargets_TaxOffices" FromRole="TaxOffice" ToRole="RevenueTarget" />
+          <NavigationProperty Name="TaxOfficeType" Relationship="TAAPsModel.FK_TaxOffices_TaxOfficeTypes" FromRole="TaxOffice" ToRole="TaxOfficeType" />
+          <NavigationProperty Name="Users" Relationship="TAAPsModel.FK_Users_TaxOffices" FromRole="TaxOffice" ToRole="User" />
+          <NavigationProperty Name="UserTransfers" Relationship="TAAPsModel.FK_UserTransfers_FromTaxOffices" FromRole="TaxOffice" ToRole="UserTransfer" />
+          <NavigationProperty Name="UserTransfers1" Relationship="TAAPsModel.FK_UserTransfers_ToTaxOffices" FromRole="TaxOffice" ToRole="UserTransfer" />
+        </EntityType>
+        <Association Name="FK_CTaxpayerBranches_TaxOffices">
+          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
+          <End Type="TAAPsModel.CTaxpayerBranch" Role="CTaxpayerBranch" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaxOffice">
+              <PropertyRef Name="TaxOfficeId" />
+            </Principal>
+            <Dependent Role="CTaxpayerBranch">
+              <PropertyRef Name="TaxOfficeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTaxpayers_TaxOffices">
+          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
+          <End Type="TAAPsModel.CTaxpayer" Role="CTaxpayer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaxOffice">
+              <PropertyRef Name="TaxOfficeId" />
+            </Principal>
+            <Dependent Role="CTaxpayer">
+              <PropertyRef Name="TaxOfficeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTINRequests_TaxOffices">
+          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
+          <End Type="TAAPsModel.CTINRequest" Role="CTINRequest" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaxOffice">
+              <PropertyRef Name="TaxOfficeId" />
+            </Principal>
+            <Dependent Role="CTINRequest">
+              <PropertyRef Name="TaxOfficeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTransfers_FromTaxOffices">
+          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
+          <End Type="TAAPsModel.CorporateTransfer" Role="CorporateTransfer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaxOffice">
+              <PropertyRef Name="TaxOfficeId" />
+            </Principal>
+            <Dependent Role="CorporateTransfer">
+              <PropertyRef Name="FromTaxOfficeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTransfers_ToTaxOffices">
+          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
+          <End Type="TAAPsModel.CorporateTransfer" Role="CorporateTransfer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaxOffice">
+              <PropertyRef Name="TaxOfficeId" />
+            </Principal>
+            <Dependent Role="CorporateTransfer">
+              <PropertyRef Name="ToTaxOfficeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ITaxpayer_TaxOffices">
+          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
+          <End Type="TAAPsModel.ITaxpayer" Role="ITaxpayer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaxOffice">
+              <PropertyRef Name="TaxOfficeId" />
+            </Principal>
+            <Dependent Role="ITaxpayer">
+              <PropertyRef Name="TaxOfficeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ITaxpayerTransfers_FromTaxOffices">
+          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
+          <End Type="TAAPsModel.ITaxpayerTransfer" Role="ITaxpayerTransfer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaxOffice">
+              <PropertyRef Name="TaxOfficeId" />
+            </Principal>
+            <Dependent Role="ITaxpayerTransfer">
+              <PropertyRef Name="FromTaxOfficeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ITaxpayerTransfers_ToTaxOffices">
+          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
+          <End Type="TAAPsModel.ITaxpayerTransfer" Role="ITaxpayerTransfer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaxOffice">
+              <PropertyRef Name="TaxOfficeId" />
+            </Principal>
+            <Dependent Role="ITaxpayerTransfer">
+              <PropertyRef Name="ToTaxOfficeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ITINRequest_TaxOffices">
+          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
+          <End Type="TAAPsModel.ITINRequest" Role="ITINRequest" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaxOffice">
+              <PropertyRef Name="TaxOfficeId" />
+            </Principal>
+            <Dependent Role="ITINRequest">
+              <PropertyRef Name="TaxOfficeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TaxOffices_LGAs">
+          <End Type="TAAPsModel.LGA" Role="LGA" Multiplicity="0..1" />
+          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LGA">
+              <PropertyRef Name="LGAId" />
+            </Principal>
+            <Dependent Role="TaxOffice">
+              <PropertyRef Name="LGAId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RevenueTargets_TaxOffices">
+          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
+          <End Type="TAAPsModel.RevenueTarget" Role="RevenueTarget" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaxOffice">
+              <PropertyRef Name="TaxOfficeId" />
+            </Principal>
+            <Dependent Role="RevenueTarget">
+              <PropertyRef Name="TaxOfficeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TaxOffices_TaxOfficeTypes">
+          <End Type="TAAPsModel.TaxOfficeType" Role="TaxOfficeType" Multiplicity="1" />
+          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaxOfficeType">
+              <PropertyRef Name="TaxOfficeTypeId" />
+            </Principal>
+            <Dependent Role="TaxOffice">
+              <PropertyRef Name="TaxOfficeTypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Users_TaxOffices">
+          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="0..1" />
+          <End Type="TAAPsModel.User" Role="User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaxOffice">
+              <PropertyRef Name="TaxOfficeId" />
+            </Principal>
+            <Dependent Role="User">
+              <PropertyRef Name="TaxOfficeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UserTransfers_FromTaxOffices">
+          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
+          <End Type="TAAPsModel.UserTransfer" Role="UserTransfer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaxOffice">
+              <PropertyRef Name="TaxOfficeId" />
+            </Principal>
+            <Dependent Role="UserTransfer">
+              <PropertyRef Name="FromTaxOfficeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UserTransfers_ToTaxOffices">
+          <End Type="TAAPsModel.TaxOffice" Role="TaxOffice" Multiplicity="1" />
+          <End Type="TAAPsModel.UserTransfer" Role="UserTransfer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaxOffice">
+              <PropertyRef Name="TaxOfficeId" />
+            </Principal>
+            <Dependent Role="UserTransfer">
+              <PropertyRef Name="ToTaxOfficeId" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -5710,25 +5753,6 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
                 <ScalarProperty Name="StateId" ColumnName="StateId" />
                 <ScalarProperty Name="LGAName" ColumnName="LGAName" />
                 <ScalarProperty Name="LGAId" ColumnName="LGAId" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="TaxOffices">
-            <EntityTypeMapping TypeName="TAAPsModel.TaxOffice">
-              <MappingFragment StoreEntitySet="TaxOffices">
-                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
-                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
-                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
-                <ScalarProperty Name="TaxOfficerPhone" ColumnName="TaxOfficerPhone" />
-                <ScalarProperty Name="TaxOfficerName" ColumnName="TaxOfficerName" />
-                <ScalarProperty Name="Telephone" ColumnName="Telephone" />
-                <ScalarProperty Name="LGAId" ColumnName="LGAId" />
-                <ScalarProperty Name="City" ColumnName="City" />
-                <ScalarProperty Name="Street" ColumnName="Street" />
-                <ScalarProperty Name="RegionId" ColumnName="RegionId" />
-                <ScalarProperty Name="TaxOfficeTypeId" ColumnName="TaxOfficeTypeId" />
-                <ScalarProperty Name="TaxOfficeName" ColumnName="TaxOfficeName" />
-                <ScalarProperty Name="TaxOfficeId" ColumnName="TaxOfficeId" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -6417,40 +6441,22 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="CTINRequests">
-            <EntityTypeMapping TypeName="TAAPsModel.CTINRequest">
-              <MappingFragment StoreEntitySet="CTINRequests">
-                <ScalarProperty Name="RecordSource" ColumnName="RecordSource" />
+          <FunctionImportMapping FunctionImportName="ApproveCTINRequest" FunctionName="TAAPsModel.Store.ApproveCTINRequest" />
+          <FunctionImportMapping FunctionImportName="ApproveITINRequest" FunctionName="TAAPsModel.Store.ApproveITINRequest" />
+          <EntitySetMapping Name="IssueLogs">
+            <EntityTypeMapping TypeName="TAAPsModel.IssueLog">
+              <MappingFragment StoreEntitySet="IssueLog">
                 <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
                 <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="Resolution" ColumnName="Resolution" />
                 <ScalarProperty Name="Status" ColumnName="Status" />
-                <ScalarProperty Name="ContactPersonPhone" ColumnName="ContactPersonPhone" />
-                <ScalarProperty Name="ContactPerson" ColumnName="ContactPerson" />
-                <ScalarProperty Name="Website" ColumnName="Website" />
-                <ScalarProperty Name="Email" ColumnName="Email" />
-                <ScalarProperty Name="SecondaryPhone" ColumnName="SecondaryPhone" />
-                <ScalarProperty Name="PrimaryPhone" ColumnName="PrimaryPhone" />
-                <ScalarProperty Name="RegisteredAddressLgaId" ColumnName="RegisteredAddressLgaId" />
-                <ScalarProperty Name="RegisteredAddressStateId" ColumnName="RegisteredAddressStateId" />
-                <ScalarProperty Name="RegisteredAddressCountryId" ColumnName="RegisteredAddressCountryId" />
-                <ScalarProperty Name="RegisteredAddressCity" ColumnName="RegisteredAddressCity" />
-                <ScalarProperty Name="RegisteredAddressStreet" ColumnName="RegisteredAddressStreet" />
-                <ScalarProperty Name="RegisteredAddressStreetNo" ColumnName="RegisteredAddressStreetNo" />
-                <ScalarProperty Name="CommencementDate" ColumnName="CommencementDate" />
-                <ScalarProperty Name="RegistrationDate" ColumnName="RegistrationDate" />
-                <ScalarProperty Name="TaxOfficeId" ColumnName="TaxOfficeId" />
-                <ScalarProperty Name="BusinessLineId" ColumnName="BusinessLineId" />
-                <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
-                <ScalarProperty Name="PreviousFCTTin" ColumnName="PreviousFCTTin" />
-                <ScalarProperty Name="CompanyType" ColumnName="CompanyType" />
-                <ScalarProperty Name="BNNumber" ColumnName="BNNumber" />
-                <ScalarProperty Name="CacNumber" ColumnName="CacNumber" />
-                <ScalarProperty Name="RequestId" ColumnName="RequestId" />
+                <ScalarProperty Name="Priority" ColumnName="Priority" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Subject" ColumnName="Subject" />
+                <ScalarProperty Name="IssueId" ColumnName="IssueId" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <FunctionImportMapping FunctionImportName="ApproveCTINRequest" FunctionName="TAAPsModel.Store.ApproveCTINRequest" />
-          <FunctionImportMapping FunctionImportName="ApproveITINRequest" FunctionName="TAAPsModel.Store.ApproveITINRequest" />
           <EntitySetMapping Name="CTaxpayers">
             <EntityTypeMapping TypeName="TAAPsModel.CTaxpayer">
               <MappingFragment StoreEntitySet="CTaxpayers">
@@ -6478,24 +6484,68 @@ warning 6002: The table/view 'FCT_TAAPs.dbo.ITaxpayerSMSNotifications' does not 
                 <ScalarProperty Name="JTBTIN" ColumnName="JTBTIN" />
                 <ScalarProperty Name="FIRSTIN" ColumnName="FIRSTIN" />
                 <ScalarProperty Name="PreviousFCTTin" ColumnName="PreviousFCTTin" />
-                <ScalarProperty Name="CompanyType" ColumnName="CompanyType" />
+                <ScalarProperty Name="CompanyTypeId" ColumnName="CompanyTypeId" />
                 <ScalarProperty Name="BNNumber" ColumnName="BNNumber" />
                 <ScalarProperty Name="CacNumber" ColumnName="CacNumber" />
                 <ScalarProperty Name="TIN" ColumnName="TIN" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="IssueLogs">
-            <EntityTypeMapping TypeName="TAAPsModel.IssueLog">
-              <MappingFragment StoreEntitySet="IssueLog">
+          <EntitySetMapping Name="CTINRequests">
+            <EntityTypeMapping TypeName="TAAPsModel.CTINRequest">
+              <MappingFragment StoreEntitySet="CTINRequests">
                 <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
                 <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
-                <ScalarProperty Name="Resolution" ColumnName="Resolution" />
+                <ScalarProperty Name="RecordSource" ColumnName="RecordSource" />
                 <ScalarProperty Name="Status" ColumnName="Status" />
-                <ScalarProperty Name="Priority" ColumnName="Priority" />
-                <ScalarProperty Name="Description" ColumnName="Description" />
-                <ScalarProperty Name="Subject" ColumnName="Subject" />
-                <ScalarProperty Name="IssueId" ColumnName="IssueId" />
+                <ScalarProperty Name="ContactPersonPhone" ColumnName="ContactPersonPhone" />
+                <ScalarProperty Name="ContactPerson" ColumnName="ContactPerson" />
+                <ScalarProperty Name="Website" ColumnName="Website" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="SecondaryPhone" ColumnName="SecondaryPhone" />
+                <ScalarProperty Name="PrimaryPhone" ColumnName="PrimaryPhone" />
+                <ScalarProperty Name="RegisteredAddressLgaId" ColumnName="RegisteredAddressLgaId" />
+                <ScalarProperty Name="RegisteredAddressStateId" ColumnName="RegisteredAddressStateId" />
+                <ScalarProperty Name="RegisteredAddressCountryId" ColumnName="RegisteredAddressCountryId" />
+                <ScalarProperty Name="RegisteredAddressCity" ColumnName="RegisteredAddressCity" />
+                <ScalarProperty Name="RegisteredAddressStreet" ColumnName="RegisteredAddressStreet" />
+                <ScalarProperty Name="RegisteredAddressStreetNo" ColumnName="RegisteredAddressStreetNo" />
+                <ScalarProperty Name="CommencementDate" ColumnName="CommencementDate" />
+                <ScalarProperty Name="RegistrationDate" ColumnName="RegistrationDate" />
+                <ScalarProperty Name="TaxOfficeId" ColumnName="TaxOfficeId" />
+                <ScalarProperty Name="BusinessLineId" ColumnName="BusinessLineId" />
+                <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+                <ScalarProperty Name="PreviousFCTTin" ColumnName="PreviousFCTTin" />
+                <ScalarProperty Name="CompanyTypeId" ColumnName="CompanyTypeId" />
+                <ScalarProperty Name="BNNumber" ColumnName="BNNumber" />
+                <ScalarProperty Name="CacNumber" ColumnName="CacNumber" />
+                <ScalarProperty Name="RequestId" ColumnName="RequestId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CompanyTypes">
+            <EntityTypeMapping TypeName="TAAPsModel.CompanyType">
+              <MappingFragment StoreEntitySet="CompanyTypes">
+                <ScalarProperty Name="CompanyTypeName" ColumnName="CompanyTypeName" />
+                <ScalarProperty Name="CompanyTypeId" ColumnName="CompanyTypeId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TaxOffices">
+            <EntityTypeMapping TypeName="TAAPsModel.TaxOffice">
+              <MappingFragment StoreEntitySet="TaxOffices">
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="TaxOfficerPhone" ColumnName="TaxOfficerPhone" />
+                <ScalarProperty Name="TaxOfficerName" ColumnName="TaxOfficerName" />
+                <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+                <ScalarProperty Name="LGAId" ColumnName="LGAId" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="Street" ColumnName="Street" />
+                <ScalarProperty Name="TaxOfficeTypeId" ColumnName="TaxOfficeTypeId" />
+                <ScalarProperty Name="TaxOfficeName" ColumnName="TaxOfficeName" />
+                <ScalarProperty Name="TaxOfficeId" ColumnName="TaxOfficeId" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

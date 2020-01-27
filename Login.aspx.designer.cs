@@ -7,20 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TAAPs {
-    
-    
-    public partial class Login_aspx {
-        
-        /// <summary>
-        /// loginForm control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm loginForm;
-        
+namespace TAAPs
+{
+
+
+    public partial class Login_aspx
+    {
+
         /// <summary>
         /// username control.
         /// </summary>
@@ -29,7 +22,7 @@ namespace TAAPs {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputText username;
-        
+
         /// <summary>
         /// password control.
         /// </summary>
@@ -38,7 +31,7 @@ namespace TAAPs {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputPassword password;
-        
+
         /// <summary>
         /// btnLogin control.
         /// </summary>

@@ -16,15 +16,15 @@ namespace TAAPs.Model
     {
         public LGA()
         {
-            this.TaxOffices = new HashSet<TaxOffice>();
             this.ITaxpayers = new HashSet<ITaxpayer>();
             this.ITaxpayers1 = new HashSet<ITaxpayer>();
             this.ITaxpayerAddresses = new HashSet<ITaxpayerAddress>();
             this.ITINRequests = new HashSet<ITINRequest>();
             this.ITINRequests1 = new HashSet<ITINRequest>();
             this.ITINRequests2 = new HashSet<ITINRequest>();
-            this.CTINRequests = new HashSet<CTINRequest>();
             this.CTaxpayers = new HashSet<CTaxpayer>();
+            this.CTINRequests = new HashSet<CTINRequest>();
+            this.TaxOffices = new HashSet<TaxOffice>();
         }
     
         public int LGAId { get; set; }
@@ -32,14 +32,14 @@ namespace TAAPs.Model
         public string StateId { get; set; }
     
         public virtual State State { get; set; }
-        public virtual ICollection<TaxOffice> TaxOffices { get; set; }
         public virtual ICollection<ITaxpayer> ITaxpayers { get; set; }
         public virtual ICollection<ITaxpayer> ITaxpayers1 { get; set; }
         public virtual ICollection<ITaxpayerAddress> ITaxpayerAddresses { get; set; }
         public virtual ICollection<ITINRequest> ITINRequests { get; set; }
         public virtual ICollection<ITINRequest> ITINRequests1 { get; set; }
         public virtual ICollection<ITINRequest> ITINRequests2 { get; set; }
-        public virtual ICollection<CTINRequest> CTINRequests { get; set; }
         public virtual ICollection<CTaxpayer> CTaxpayers { get; set; }
+        public virtual ICollection<CTINRequest> CTINRequests { get; set; }
+        public virtual ICollection<TaxOffice> TaxOffices { get; set; }
     }
 }

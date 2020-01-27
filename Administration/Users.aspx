@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainLayout.Master" AutoEventWireup="true" CodeBehind="Users.aspx.cs" Inherits="TAAPs.Administration.Users" %>
 
-<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v19.2, Version=19.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 
 
@@ -15,14 +15,7 @@
     Users
 </asp:Content>
 
-<asp:Content ID="Content5" ContentPlaceHolderID="panelHeading" runat="server">
-    <div class="btn-group">
-        <a class="btn btn-primary" href="#">
-            <i class="glyphicon glyphicon-align-justify"></i>
-            User List
-        </a>
-    </div>
-</asp:Content>
+
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="contentBody" runat="server">
@@ -31,30 +24,6 @@
 	s.StartEditRow(e.visibleIndex);
 }" />
         <EditFormLayoutProperties ColCount="2">
-            <Items>
-                <dx:GridViewColumnLayoutItem ColumnName="UserName">
-                </dx:GridViewColumnLayoutItem>
-                <dx:GridViewColumnLayoutItem ColumnName="RoleId">
-                </dx:GridViewColumnLayoutItem>
-                <dx:GridViewColumnLayoutItem ColumnName="TaxOfficeId">
-                </dx:GridViewColumnLayoutItem>
-                <dx:GridViewColumnLayoutItem ColumnName="Title">
-                </dx:GridViewColumnLayoutItem>
-                <dx:GridViewColumnLayoutItem ColumnName="LastName">
-                </dx:GridViewColumnLayoutItem>
-                <dx:GridViewColumnLayoutItem ColumnName="FirstName">
-                </dx:GridViewColumnLayoutItem>
-                <dx:GridViewColumnLayoutItem ColumnName="MiddleName">
-                </dx:GridViewColumnLayoutItem>
-                <dx:GridViewColumnLayoutItem ColumnName="StaffId">
-                </dx:GridViewColumnLayoutItem>
-                <dx:GridViewColumnLayoutItem ColumnName="Email">
-                </dx:GridViewColumnLayoutItem>
-                <dx:GridViewColumnLayoutItem ColumnName="IsActive">
-                </dx:GridViewColumnLayoutItem>
-                <dx:EditModeCommandLayoutItem ColSpan="2" HorizontalAlign="Right">
-                </dx:EditModeCommandLayoutItem>
-            </Items>
         </EditFormLayoutProperties>
         <Columns>
             <dx:GridViewDataTextColumn FieldName="UserName" VisibleIndex="0" Width="100px" ReadOnly="True">
@@ -115,7 +84,7 @@
                 </PropertiesComboBox>
             </dx:GridViewDataComboBoxColumn>
             <dx:GridViewDataComboBoxColumn Caption="Tax Office" FieldName="TaxOfficeId" ReadOnly="True" ShowInCustomizationForm="True" VisibleIndex="7">
-                <PropertiesComboBox>
+                <PropertiesComboBox DataSourceID="TaxOfficeEntityDataSource" TextField="TaxOfficeName" ValueField="TaxOfficeId">
                     <ReadOnlyStyle BackColor="#CCCCCC">
                     </ReadOnlyStyle>
                     <ValidationSettings ErrorDisplayMode="None">
@@ -125,13 +94,18 @@
             </dx:GridViewDataComboBoxColumn>
         </Columns>
         <SettingsBehavior AllowSelectSingleRowOnly="True" AllowSelectByRowClick="True" ColumnResizeMode="Control" />
+
+<SettingsAdaptivity>
+<AdaptiveDetailLayoutProperties ColCount="1"></AdaptiveDetailLayoutProperties>
+</SettingsAdaptivity>
+
         <SettingsEditing Mode="PopupEditForm">
         </SettingsEditing>
         <Settings ShowFilterRow="True" ShowPreview="True" />
         <SettingsText PopupEditFormCaption="Edit User" />
         <SettingsPopup>
-            <EditForm HorizontalAlign="Center" VerticalAlign="TopSides" Width="800" />
-            <CustomizationWindow HorizontalAlign="Center" VerticalAlign="Middle" />
+            <EditForm HorizontalAlign="OutsideLeft" VerticalAlign="NotSet" />
+            <CustomizationWindow HorizontalAlign="NotSet" VerticalAlign="NotSet" />
         </SettingsPopup>
         <SettingsDataSecurity AllowDelete="False" />
         <Toolbars>
@@ -160,6 +134,9 @@
         <WhereParameters>
             <asp:SessionParameter DefaultValue="" Name="ParentRoleId" SessionField="UserRoleId" Type="Int32" />
         </WhereParameters>
+    </asp:EntityDataSource>
+
+    <asp:EntityDataSource ID="TaxOfficeEntityDataSource" runat="server" ConnectionString="name=TAAPsDBContext" DefaultContainerName="TAAPsDBContext" EnableFlattening="False" EntitySetName="TaxOffices" Select="it.[TaxOfficeId], it.[TaxOfficeName]">
     </asp:EntityDataSource>
 
 </asp:Content>

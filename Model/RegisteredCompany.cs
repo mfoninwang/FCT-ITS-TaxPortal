@@ -16,15 +16,15 @@ namespace TAAPs.Model
     {
         public RegisteredCompany()
         {
-            this.CTINRequests = new HashSet<CTINRequest>();
             this.CTaxpayers = new HashSet<CTaxpayer>();
+            this.CTINRequests = new HashSet<CTINRequest>();
         }
     
         public string CacNumber { get; set; }
         public string CompanyName { get; set; }
         public System.DateTime RegistrationDate { get; set; }
     
-        public virtual ICollection<CTINRequest> CTINRequests { get; set; }
         public virtual ICollection<CTaxpayer> CTaxpayers { get; set; }
+        public virtual ICollection<CTINRequest> CTINRequests { get; set; }
     }
 }

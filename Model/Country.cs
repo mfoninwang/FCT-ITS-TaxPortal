@@ -21,8 +21,8 @@ namespace TAAPs.Model
             this.ITINRequests = new HashSet<ITINRequest>();
             this.ITINRequests1 = new HashSet<ITINRequest>();
             this.States = new HashSet<State>();
-            this.CTINRequests = new HashSet<CTINRequest>();
             this.CTaxpayers = new HashSet<CTaxpayer>();
+            this.CTINRequests = new HashSet<CTINRequest>();
         }
     
         public int CountryId { get; set; }
@@ -33,7 +33,7 @@ namespace TAAPs.Model
         public virtual ICollection<ITINRequest> ITINRequests { get; set; }
         public virtual ICollection<ITINRequest> ITINRequests1 { get; set; }
         public virtual ICollection<State> States { get; set; }
-        public virtual ICollection<CTINRequest> CTINRequests { get; set; }
         public virtual ICollection<CTaxpayer> CTaxpayers { get; set; }
+        public virtual ICollection<CTINRequest> CTINRequests { get; set; }
     }
 }
